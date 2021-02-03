@@ -1,0 +1,106 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#515?=
+Date: Sun,  8 Nov 2020 09:02:24 +0000
+
+DEVOPS WEEKLY
+ISSUE #515 - 8th November 2020
+
+BPF=2C programming languages=2C infrastructure as code security=2C open st=
+andards and OpenTelemetry=2C integration testing for large microservice ar=
+chitectures and more. I hope readers enjoy seeing the state of the art adv=
+ance week-by-week as much as I do.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+The shift to rapid=2C frequent deployments over the past decade initially=
+ left application security behind. Modern AppSec belongs in the CI/CD pipe=
+line.
+
+https://sthwk.com/app-sec-in-pipeline
+
+
+News
+=3D=3D=3D=3D
+
+BPF is already super interesting. With BTF and CO-RE the distribution stor=
+y gets much easier=2C with the ability to provide standalone executables t=
+hat don=E2=80=99t rely on compilers and other tools on the client.
+
+http://www.brendangregg.com/blog/2020-11-04/bpf-co-re-btf-libbpf.html
+
+
+Both Go=2C and more recently Rust=2C are increasingly popular for infrastr=
+ucture tooling. This post has a nice comparison of the languages=2C lookin=
+g at the main similarities and differences.
+
+https://bitfieldconsulting.com/golang/rust-vs-go
+
+
+A talk I gave recently about configuration security. The move to infrastru=
+cture as code brings with it some interesting security challenges=2C the s=
+lides talk about some patterns to help address.
+
+https://speakerdeck.com/garethr/configuration-security-is-a-developer-prob=
+lem
+
+
+A quick look at the future of OpenTelemetry and the place of open standard=
+s in advancing the state of the art of the observability and monitoring to=
+ol.
+
+https://mhausenblas.medium.com/reminiscing-control-theory-and-the-future-o=
+f-observability-ba947f6da7b0
+
+
+A nice introduction to contract testing=2C and the problem it solves. Havi=
+ng problems scaling integration tests? Features a Node.js example but it=
+=E2=80=99s applicable to other stacks too.
+
+https://codersociety.com/blog/articles/contract-testing-pact
+
+
+A post on some of the challenges with serverless architectures. It mainly=
+ makes the case the the disadvantages and challenges are trade offs that y=
+ou should make for other advantages=2C which sometimes is going to be true=
+ and at other times now.
+
+https://talkingserverless.com/2020/10/28/mitigating-serverless-challenges/
+
+
+A nice introduction to using Traefik for canary deployments and weighted l=
+oad balancing.
+
+https://iximiuz.com/en/posts/traefik-canary-deployments-with-weighted-load=
+-balancing
+
+
+Events
+=3D=3D=3D=3D=3D=3D=3D
+
+WTF is Cloud Native=2C and Why Should I Care? Find out the answers to both=
+ of these questions in a special webinar hosted by Pini Reznik=2C co-found=
+er of Container Solutions. Join him 12 November at 13:00 CET. This free=2C=
+ 90-minute event is part of the Bristol tech Festival. Register now.
+
+https://bit.ly/388Sf5p
+
+
+Books
+=3D=3D=3D=3D=3D
+
+GitOps: What You Need to Know Now=2Ca new e-book by Ian Miell=2C a Cloud N=
+ative engineer at Container Solutions=2C explains what this workflow is=2C=
+ the problems it was intended to solve=2C and how it does that. It also co=
+mpares some common GitOps tools and explores alternatives. Get your free c=
+opy here:
+
+https://bit.ly/3oWxIHA
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,126 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#418?=
+Date: Sun, 30 Dec 2018 11:42:14 +0000
+
+DEVOPS WEEKLY
+ISSUE #418 - 30th December 2018
+
+Happy new year to all the readers of Devops Weekly. See you all in 2019.
+
+
+>From our sponsor=2C Victorops
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+The VictorOps team hopes you=E2=80=99ve had a warm and wonderful holiday s=
+eason and a happy new year! See how VictorOps on-call incident management=
+ software continues to help DevOps teams build and maintain reliable servi=
+ces in 2019:
+
+http://try.victorops.com/devopsweekly/why-victorops
+
+
+News
+=3D=3D=3D=3D
+
+A detailed article on the perils of dashboards=2C and management and decis=
+ion making only based on the data we can easily observe. Very relevant to=
+ the management of complex systems.
+
+https://www.forbes.com/sites/davidshaywitz/2018/12/24/we-are-not-a-dashboa=
+rd-contesting-the-tyranny-of-metrics-measurement-and-managerialism/#1ed157=
+da315b
+
+
+We=E2=80=99re increasingly aware of the complexity of the distributed syst=
+ems we=E2=80=99re managing it feels. This post highlights the importance o=
+f metrics and dashboards when it comes to building an understanding of how=
+ your system actually runs.
+
+https://utcc.utoronto.ca/~cks/space/blog/sysadmin/MetricsAndUnderstandingM=
+ore
+
+
+An interesting analysis of the recent Kubernetes vulnerability. It focuses=
+ on how the same general issue can arise in many microservices application=
+s=2C and how to avoid it by moving away from access control lists towards=
+ capability-based security models.
+
+https://www.cloudatomiclab.com/confused-deputies/
+
+
+Hypervisors are pretty cool=2C providing a different level of isolation fr=
+om containers. This post posits that=2C rather than many clusters=2C the f=
+uture of Kubernetes will be based on light-weight virtual machines.
+
+https://tech.paulcz.net/blog/future-of-kubernetes-is-virtual-machines/
+
+
+A useful deep dive into managing organizations in AWS. Discusses Service C=
+ontrol Poclies and how they can be used to control various services for th=
+e whole org.
+
+https://www.awsadvent.com/2018/12/13/i-gots-to-get-organizized/
+
+
+A look at moving from ElasticBeanstalk to Kubernetes. The driving factor i=
+s interesting - resource utilisation in pre-production environments and de=
+veloper productivity.
+
+https://medium.com/oyotech/from-elastic-beanstalk-to-kubernetes-stage-1-1a=
+da720e301f
+
+An interesting analysis of the relationship between developers and operato=
+rs=2C focusing on the thorny issue of accountability. Based on a recent su=
+rvey of 2000 practitioners.
+
+http://resources.overops.com/wp-content/uploads/2018/12/Dev-vs.-Ops_The-St=
+ate-of-Accountability.pdf.pdf
+
+
+A series of patterns and anti-patterns around creating feedback loops in o=
+rder to improve operational practices and processes. Good tips on meetings=
+=2C training and more.
+
+http://blog.beyond20.com/how-to-create-devops-feedback-loops
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays New York is coming up on January 24th and 25th=2C with a progra=
+m that covers shifting left security=2C value stream mapping=2C offshore t=
+eams=2C documentation=2C ethics and the usual open spaces sessions. Ticket=
+s are on sale now.
+
+https://www.devopsdays.org/events/2019-new-york-city/welcome/
+
+
+Tools
+=3D=3D=3D=3D
+
+Goldpinger is a service for helping you understand and visualize the netwo=
+rk in your Kubernetes cluster. It also exposes Prometheus metrics that can=
+ be alerted on.
+
+https://github.com/bloomberg/goldpinger
+
+
+ConPan provides a handy tool which analyzes debian-based Docker images=2C=
+ lists the install packages and then provides information about issues and=
+ known vulnerabilities.
+
+https://github.com/neglectos/ConPan
+
+
+
+The VictorOps team hopes you=E2=80=99ve had a warm and wonderful holiday s=
+eason and a happy new year! See how VictorOps on-call incident management=
+ software continues to help DevOps teams build and maintain reliable servi=
+ces in 2019:
+
+http://try.victorops.com/devopsweekly/why-victorops
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

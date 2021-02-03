@@ -1,0 +1,152 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#298?=
+Date: Sun, 11 Sep 2016 11:57:47 +0000
+
+DEVOPS WEEKLY
+ISSUE #298 - 11th September 2016
+
+I realised I=E2=80=99m only 2 weeks away from issue 300 of Devops Weekly w=
+hich is frankly a bit crazy. Thanks to all the readers=2C writers=2C spons=
+ors=2C event organisers and everyone else who=E2=80=99s been involved in t=
+he growing Devops community over that time.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Got ChatOps? Download the free eBook from O'Reilly Media and VictorOps:  h=
+ttp://try.victorops.com/devopsweekly/chatops
+Want even more? Meet the author on Sept 8th in a live stream event: http:/=
+/try.victorops.com/devopsweekly/chatops/livestream
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Verizon=E2=80=99s DevOps Transformation
+
+Learn how Verizon streamlined operations=2C optimized business output and=
+ delivered more useful products to their consumers faster by using a DevOp=
+s approach. The results are amazing!
+
+http://ow.ly/ooQd300TUwM
+
+
+News
+=3D=3D=3D=3D
+
+At Container Camp in London this week a group of container enthusiasts (in=
+cluding yours truly) announced Label Schema=2C a project to build communit=
+y agreement around labels and container metadata. We=E2=80=99d love your f=
+eedback.
+
+https://puppet.com/blog/building-agreement-around-docker-labels
+https://medium.com/microscaling-systems/new-for-the-image-conscious-contai=
+ner-label-schema-org-78654a270f07#.7b241ympw
+http://label-schema.org/rc1/
+
+
+A good post with a great description of why moving on-call responsibility=
+ to application teams makes sense in the case of fast moving applications=
+ and some thoughtful comments on the emerging SRE role.
+
+http://www.susanjfowler.com/blog/2016/9/6/whos-on-call
+
+
+A solid argument that both the ITSM and Devops communities are not talking=
+ enough about customers. More discussion about post-devops service managem=
+ent please.
+
+https://medium.com/@JonHall_/weve-been-getting-devops-vs-itil-wrong-ab6054=
+3d76d9#.wgb1ggm9y
+
+
+Although the focus is on clojure examples=2C this post does a good job of=
+ describing the multi-dimensional aspects of application configuration - l=
+ooking at compile time vs runtime=2C configuration changes after boot and=
+ more.
+
+http://realworldclojure.com/application-configuration/
+
+
+A talk from Container Camp this week looking at the background for destruc=
+tive testing ala Chaos Monkey and at some container-specific tools for app=
+lying the approach.
+
+https://speakerdeck.com/mhausenblas/constructive-destructiveness-for-conta=
+iners
+
+
+An interesting post on the concept of system blindness and it=E2=80=99s im=
+pact on the management of production systems.
+
+https://medium.com/production-ready/systems-blindness-and-how-we-deal-with=
+-it-d601fa63b7f4#.hhyv3bfrm
+
+
+One interesting aspect of serverless architectures is the sheer number of=
+ functions you may be managing. Which makes areas like centralised logging=
+ and management interesting=2C emerging=2C topics.
+
+http://blog.davidablack.net/2016/08/17/a-log-reflector-for-aws-lambda/
+
+
+A presentation with lots of code samples for building a continuous deliver=
+y pipeline using Docker Swarm and Jenkins.
+
+http://vfarcic.github.io/jenkins-swarm/
+
+
+For lots of people adopting infrastructure as code they may be used to pro=
+gramming and scripting=2C but maybe not some practices like unit testing o=
+r software quality metrics. This post is a good starting place for anyone=
+ coming to Chef or Ruby based environments.
+
+https://medium.com/blog-goncalopereira-com/development-quality-for-ruby-an=
+d-chef-59ed7a3e94dc#.c0wn8yul4
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+All Day DevOps is a online conference running for a crazy 15 hours and wit=
+h a whopping 53 sessions. Taking place on the 15th of November this year=
+=2C the CFP is open now for topics on modern infrastructure=2C continuous=
+ delivery and security.
+
+https://www.papercall.io/all-day-devops-2016
+
+
+DevOps Connect is happening again at RSAC 2017 on February 13th.  The CFP=
+ is open now and the organisers are looking for content that crosses the d=
+evops and security divide.
+
+https://www.papercall.io/rsac2017-rugged-devops
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+I love Make and you should too. But writing maintainable Make files is oft=
+en a challenge. Enter Checkmake=2C an opinionated linting tool for Make
+
+https://github.com/mrtazz/checkmake
+
+
+My Looking Glass is an open source software utility which combines the fun=
+ctions of several different network probes (HTTP=2C ping=2C DNS=2C port sc=
+anning and more) in one network diagnostic tool.
+
+http://mylg.io/
+
+
+
+Got ChatOps? Download the free eBook from O'Reilly Media and VictorOps:  h=
+ttp://try.victorops.com/devopsweekly/chatops
+Want even more? Meet the author on Sept 8th in a live stream event: http:/=
+/try.victorops.com/devopsweekly/chatops/livestream
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

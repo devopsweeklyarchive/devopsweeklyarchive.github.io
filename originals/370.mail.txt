@@ -1,0 +1,131 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#370?=
+Date: Sun, 28 Jan 2018 13:50:17 +0000
+
+DEVOPS WEEKLY
+ISSUE #370 - 28th January 2018
+
+Tools=2C practices and operability articles this week. Next weekend is the=
+ annual open source extravaganza that is FOSDEM so looking forward to meet=
+ing a few folks in Brussels. If you look closely you might find me in the=
+ cafeteria writing the next issue of the newsletter.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Reactive=2C tactical=2C integrated=2C or holistic=E2=80=94where does your=
+ incident management fall? Read about incident management maturity to find=
+ out.
+
+http://try.victorops.com/DevOpsWeekly/IncidentManagementMaturity
+
+
+News
+=3D=3D=3D=3D
+
+A well argued opinion on how organisations can actually scale transformati=
+on efforts=2C making the case that methodology alone is neither necessary=
+ nor sufficient. All of this is relevant to anyone looking to devops pract=
+ices in large organisations.
+
+https://dannorth.net/2018/01/26/in-praise-of-swarming/
+
+
+A good post first on why you might choose a serverless platform (in this c=
+ase for a machine learning problem) and then on how to go about architecti=
+ng such an application.
+
+https://tech.scrunch.com/blog/deep-learning-on-lambda-part-1-architecture-=
+and-performance/
+
+
+RabbitMQ is commonly used as a core integration technology=2C which makes=
+ monitoring it particularly critical. This series of posts explain what ne=
+eds monitoring and how to do it.
+
+https://www.datadoghq.com/blog/rabbitmq-monitoring/
+https://www.datadoghq.com/blog/rabbitmq-monitoring-tools/
+
+
+This post looks at a few common problems with application logging and how=
+ a message based approach can introduce much needed flexibility.
+
+https://blog.rapid7.com/2018/01/16/taking-a-message-based-approach-to-logg=
+ing/
+
+
+A look at operability from the point of view of mechanical sympathy and pe=
+rformance=2C with a useful list of pitfalls to avoid when building operabl=
+e systems.
+
+https://medium.com/@autoletics/is-operational-sympathy-a-good-thing-ad6ae2=
+d5f905
+
+
+Even with the growth of distributions and services=2C people are still int=
+erested in setting up Kubernetes from scratch=2C I presume to help build a=
+n understanding of the various moving parts. This post is up-to-date and f=
+ocused on just the needed steps.
+
+https://blog.alexellis.io/your-instant-kubernetes-cluster/
+
+
+There is quite a lot of conjecture in this post=2C but I agree with many o=
+f the conclusions=2C and it=E2=80=99s an interesting topic to delve into i=
+n order to understand technology adoption in general and Kubernetes in par=
+ticular.
+
+https://softwareengineeringdaily.com/2018/01/13/the-gravity-of-kubernetes/
+
+
+Jobs
+=3D=3D=3D=3D
+
+SNOMED International=2C a non profit org within the eHealth ecosystem=2C i=
+s hiring for a remote DevOps Engineer=2C based within two hours' travel or=
+ flight time of London=2C i.e. UK=2C Ireland or EU. Joining a small DevOps=
+ team=2C you'll be running live sites=2C ops and engineering automation=2C=
+ plus supporting the tools provided to the global SNOMED CT community. It'=
+s Ansible=2C Jenkins=2C AWS=2C Git=2C Linux=2C MySQL/PostgreSQL. For more=
+ info=2C and to apply please visit:
+
+http://techfolk.co.uk/current-jobs/devops-engineer-work-home-tl240
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Akkeris is a set of components for building a platform as a service atop K=
+ubernetes. It=E2=80=99s currently lacking documentation about how to set t=
+hings up but might be interesting to some.
+
+https://github.com/akkeris
+
+
+Kured solves a useful problem for operators running Kubernetes clusters=2C=
+ namely ensuring nodes are rebooted when needed. It ensures only one reboo=
+ting node at once=2C and will drain connections before rebooting.
+
+https://github.com/weaveworks/kured
+
+
+EC2 Parameter Store is a useful service for anyone using AWS=2C and pssh i=
+s a handy tool for interacting with it. It provides a file-system-like int=
+erface=2C allowing for moving around and interacting with the parameters i=
+n the parameter store.
+
+https://github.com/kountable/pssh
+
+
+
+Reactive=2C tactical=2C integrated=2C or holistic=E2=80=94where does your=
+ incident management fall? Read about incident management maturity to find=
+ out.
+
+http://try.victorops.com/DevOpsWeekly/IncidentManagementMaturity
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

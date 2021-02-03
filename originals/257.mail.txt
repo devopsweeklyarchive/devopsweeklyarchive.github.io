@@ -1,0 +1,180 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#257?=
+Date: Sun, 6 Dec 2015 12:28:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #257 - 6th December 2015
+
+I spent some time this week at the excellent ThingMonk IoT conference (tha=
+nks Fintan and James). One of the things that struck me was the overlap wi=
+th the topics normally covered in this newsletter - especially around metr=
+ics and monitoring=2C but also some interesting new twists - like physical=
+ security=2C distributed device management and more focus on power. If any=
+one comes across=2C or is working on=2C writing on IoT system administrati=
+on do drop me a line.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] How to Build a Metrics-optimized Software Delivery Pipeline
+
+Learn a practical step-by-step approach to optimizing your delivery proces=
+s so you can deploy better quality software faster! You=E2=80=99ll learn w=
+hy you should move to a metric-driven pipeline=2C which key quality metric=
+s to measure and how to integrate them to catch problems earlier.
+
+http://ow.ly/UTMwE
+
+
+News
+=3D=3D=3D=3D
+
+An excellent getting started with distributed systems post=2C covering bas=
+ic introductions to failure=2C leader election=2C time and more. Includes=
+ a good set of links to papers as well.
+
+http://videlalvaro.github.io/2015/12/learning-about-distributed-systems.ht=
+ml
+
+
+A look at how GitHub manage their physical servers=2C and the tools they=
+=E2=80=99ve build to make this low touch. Includes examples of integration=
+ with a chatbot and an internal inventory service.
+
+http://githubengineering.com/githubs-metal-cloud/
+
+
+A great detailed post answering the question =E2=80=9CYou login to a Linux=
+ server with a performance issue: what do you check in the first minute?=
+=E2=80=9D 10 commands from uptime to top via sar=2C vmstat and more.
+
+http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html
+
+
+Adopting devops practices often leads to reorganising teams and organisati=
+ons. This presentation is a great introduction to the often feared reorg.=
+ Some good high level advice on what to expect and what is required for su=
+ccess.
+
+https://speakerdeck.com/skamille/reorgs-happen
+
+
+A nice introduction to layers in Docker images=2C and some tricks to take=
+ advantage of them. Also introduces a simple browser based tool for visual=
+izing layers for an image.
+
+https://labs.ctl.io/imagelayers-io-docker-visualization-and-badges/
+
+
+The first post in a series covering using Elasticsearch as part of a time=
+ series monitoring setup. The post explains the different alternatives and=
+ why the author is experimenting with Elasticsearch.
+
+http://engineering.laterooms.com/elasticsearch-as-a-time-series-database-d=
+oes-it-work-part-1/
+
+
+Some good numbers from a well respected research firm on the current adopt=
+ion and trends around container and microservice adoption=2C with pointers=
+ to real-world case studies.
+
+http://www.slideshare.net/dberkholz/devops-containers-microservices-separa=
+ting-the-hype-from-the-reality
+
+
+A deep dive into building an application on AWS Lambda=2C with lots of mor=
+e general points about serverless architectures.
+
+https://medium.com/in-pursuit-of-serverless-architecture/what-if-we-didn-t=
+-need-an-app-server-anymore-f5b6586c58f4
+
+
+
+Not a new post=2C but I don=E2=80=99t think I=E2=80=99ve included it befor=
+e. A great write-up of why code freezes=2C although logical=2C often lead=
+ to more instability in well managed systems. =E2=80=9CShipping code is no=
+t the only change in a system=E2=80=9D.
+
+http://www.xaprb.com/blog/2014/11/29/code-freezes-dont-prevent-outages/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+A short online course focused on practical Devops related tools; from Vagr=
+ant and Jenkins to Docker and Kubernetes. The code DEVOPSWEEKLY provides a=
+ nice 50% discount for readers of the newsletter.
+
+http://devops1.teachable.com/courses/learn-devops-continuously-deliver-bet=
+ter-software?product_id=3D47762&coupon_code=3DDEVOPSWEEKLY
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Snap is a new tool for gathering of telemetry from systems=2C with a focus=
+ on being particularly modular and easy to administer. The accompanying bl=
+og post goes into some of the why and where the project is going.
+
+https://github.com/intelsdi-x/snap
+http://nickapedia.com/2015/12/02/what-if-collecting-data-center-telemetry-=
+was-a-snap/
+
+
+There are always risks with a rapid shift in technology=2C and in normally=
+ slow moving organisations adopting fast moving technology. This cost look=
+s a containers and picks out several concerning trends or gaps in understa=
+nding which could lead to problems.
+
+http://www.juliandunn.net/2015/12/04/the-oncoming-train-of-enterprise-cont=
+ainer-deployments/
+
+
+Documentation is an important part of any internal or external application=
+=2E Slate is a documentation generator focused on API documentation. It prov=
+ides functional and attractive templates and works well on mobile too.
+
+https://github.com/tripit/slate
+
+
+Herokuish is a tool for bringing parts of the heroku workflow to container=
+s. Specifically it allows for use of buildpacks and the Procfile with Dock=
+er=2C and aims to be a low level component for others to reuse that requir=
+e this functionality.
+
+https://github.com/gliderlabs/herokuish
+
+
+The Docker event stream is underappreciated in my experience=2C giving you=
+ a stream of everything happening in Docker. Ahab is an interesting new to=
+ol for processing this stream in Python=2C the blog post gives an example=
+ of using it for dynamic assignment of IP addresses.
+
+https://tech.instacart.com/ahab/
+https://github.com/instacart/ahab
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

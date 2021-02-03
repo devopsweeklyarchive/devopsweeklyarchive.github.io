@@ -1,0 +1,146 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#377?=
+Date: Sun, 18 Mar 2018 11:03:06 +0000
+
+DEVOPS WEEKLY
+ISSUE #377 - 18th March 2018
+
+A range of posts this week=2C with everything from tips for choosing tools=
+ which which support teamwork to stories of successful network migrations=
+ and several interesting new tools.
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Why is design so important to data-driven teams=2C and what does it mean f=
+or observability? See what several experts have to say.
+
+http://try.victorops.com/DevOpsWeekly/Observability
+
+
+News
+=3D=3D=3D=3D
+
+A great discussion of how to choose tools=2C focused on the aspects that s=
+upport teamwork=2C learning and collaboration.
+
+https://techbeacon.com/how-find-right-devops-tools-your-team
+
+
+A look at distributed tracing with Zipkin=2C and how to integrate it into=
+ an application.
+
+http://beckje01.com/talks/greach-2018-zipkin-light.html#/
+
+
+AppSwitch is a new approach to providing an abstraction over the network s=
+tack=2C in particular it offers the possibility for containers not to requ=
+ire an IP address=2C or even a full IP stack to converse over the network.
+
+https://jpetazzo.github.io/2018/03/13/appswitch-hyperlay-network-stack-fut=
+ure/
+
+
+An in-depth look at proxies as a tool for iteratively evolving and refacto=
+ring APIs. Useful illustrations of the problem and how to approach it usin=
+g a proxy.
+
+https://medium.com/@copyconstruct/iterative-refactoring-of-apis-with-proxi=
+es-d78a2ba7e6ed
+
+
+A well-told story of migrating from one network provider to another while=
+ minimising any interruption. Infrastructure as code=2C DNS=2C unit testin=
+g APIs and other interesting topics.
+
+https://webuild.envato.com/blog/migrating-edge-providers/
+
+
+A good discussion of SRE in the context of Devops and Cloud Native. The po=
+st makes the case for an architectural pattern=2C a job function and a pro=
+cess working together.
+
+https://www.networkcomputing.com/data-centers/site-reliability-engineering=
+-4-things-know/888724300
+
+
+An argument for Zip files as the unit of deployment=2C in the context of S=
+erverless. I think the more general point is aiming for the highest abstra=
+ction that makes sense.
+
+https://medium.com/@PaulDJohnston/why-aws-lambda-and-zip-is-a-recipe-for-s=
+erverless-success-4f547a6e87c3
+
+
+ScaleSummit is an interesting unconference event held in London under chat=
+ham house rules=2C which makes for some great conversations. This post con=
+tains notes from a handful of the sessions.
+
+https://medium.com/@AaronKalair/scale-summit-2018-notes-718f8231ab26
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Monitorama=2C the Open Source Monitoring Conference=2C is coming back to E=
+urope later this year=2C September 4th and 5th in Amsterdam to be precise.=
+ The organisers have offered readers a discount code for =E2=82=AC100 of t=
+he price too.
+
+https://ti.to/monitorama/ams2018/discount/DEVOPSEU2018
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Writing Less YAML - Using jsonnet and kubecfg to Manage Kub=
+ernetes Resources
+March 20=2C Online
+
+Join us as we share how jsonnet can help create declarative manifests and=
+ explore the features provided by kubecfg CLI tool to ease interacting wit=
+h Kubernetes directly from these jsonnet files and/or stock YAML manifests=
+=2E
+
+https://goo.gl/kGPuEB
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+FlatBuffers is an efficient cross platform serialization library intended=
+ for performance-critical applications. Some nice features like schemaless=
+ buffers=2C support for multiple languages and code generation with string=
+ types.
+
+https://google.github.io/flatbuffers/
+
+
+Metta is a new tool for automating adversarial simulations=2C intended to=
+ hel validate defensive telemetry and when testing incident response plans=
+ and playbooks.
+
+https://medium.com/uber-security-privacy/uber-security-metta-open-source-a=
+8a49613b4a
+https://github.com/uber-common/metta
+
+
+Service Fabric is a distributed systems platform for packaging=2C deployin=
+g=2C and managing stateless and stateful distributed applications and cont=
+ainers at large scale. It=E2=80=99s used to run parts of Azure and has jus=
+t been open sourced.
+
+https://github.com/Microsoft/service-fabric/
+
+
+
+Why is design so important to data-driven teams=2C and what does it mean f=
+or observability? See what several experts have to say.
+
+http://try.victorops.com/DevOpsWeekly/Observability
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

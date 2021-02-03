@@ -1,0 +1,128 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#426?=
+Date: Sun, 24 Feb 2019 16:38:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #426 - 24th February 2019
+
+Interesting posts this week on holding incident drills=2C monitoring ephem=
+eral infrastructure=2C the glut of high-quality books on devops topics=2C=
+ managing Kubernetes configuration and more.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Your team builds a stronger culture of accountability and collaboration wh=
+en your developers take code ownership and handle on-call responsibilities=
+=2E See how you can bring developers on-call and why it=E2=80=99s important=
+ for building reliable systems:
+
+http://try.victorops.com/devopsweekly/why-devops-matters
+
+
+
+News
+=3D=3D=3D=3D
+
+A discussion of the importance of practice=2C looking at improving inciden=
+t management practices by conducting incident drills.
+
+https://medium.com/kudos-engineering/faking-fires-get-better-incident-mana=
+gement-with-practise-e61a5d66578d
+
+
+If you=E2=80=99ve used Kubernetes you have probably come across the Kubeco=
+nfig file for configuring which cluster you=E2=80=99re working with. This=
+ post contains lots of tips for managing the files.
+
+https://ahmet.im/blog/mastering-kubeconfig/
+
+
+The following set of posts provides a good introduction to the architectur=
+e behind AWS Elastic Container Service and then delves into the various me=
+trics=2C and tools for measuring them=2C useful when running ECS workloads=
+=2E
+
+https://www.datadoghq.com/blog/amazon-ecs-metrics/
+https://www.datadoghq.com/blog/ecs-monitoring-tools/
+
+
+One common approach to building resilient batch workload systems is to rel=
+y on checkpointing. This post explores why that doesn=E2=80=99t work as we=
+ll as you might think.
+
+https://blog.0x74696d.com/posts/checkpointing-failure/
+
+
+Knative is a project to provide serverless primitives on top of Kubernetes=
+=2E Up until now running Knative required Istio=2C which provides a lot more=
+ functionality than is required. This post explores an alternative using G=
+loo.
+
+https://medium.com/solo-io/gloo-by-solo-io-is-the-first-alternative-to-ist=
+io-on-knative-324753586f3a
+
+
+A look at adding BCC and eBPF monitoring visualisation to the Titus open s=
+ource performance monitoring tool. Lots of interesting discussions of moni=
+toring in a world of ephemeral containers.
+
+https://medium.com/netflix-techblog/extending-vector-with-ebpf-to-inspect-=
+host-and-container-performance-5da3af4c584b
+
+
+A discussion of the Kapitan Kubernetes configuration management tool. Rath=
+er than a how to this post explores some of the problems found with managi=
+ng Kubernetes configs and discusses the components of potential solutions.
+
+https://medium.com/@alessandro.demaria/let-kapitan-take-the-helm-of-kubern=
+etes-e455e3d9ed08
+
+
+A good list of books for anyone interested in devops=2C covering technical=
+ as well as the people and practices side.
+
+https://www.thirdrepublic.com/blog/10-books-every-devops-enthusiast-must-r=
+ead
+
+
+An example of using Atomist to evolve a codebase=2C changing file name con=
+ventions and imports automatically.
+
+https://the-composition.com/making-change-stick-with-code-transforms-and-a=
+utofixes-587d19e0ba1b
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Rootconf 2019 is coming up in Bangalore on the 21st and 22nd of June. Topi=
+cs will include Infrastructure security=2C cloud architecture=2C cloud opt=
+imization and distributed systems.
+
+https://hasgeek.com/rootconf/2019/
+
+
+Tools
+=3D=3D=3D=3D
+
+Footloose is a useful looking tool for providing VM-like machines for loca=
+l experiments=2C backed by Docker containers. Think a more Vagrant-like wo=
+rkflow but with the speed of containers.
+
+https://github.com/dlespiau/footloose
+
+
+Your team builds a stronger culture of accountability and collaboration wh=
+en your developers take code ownership and handle on-call responsibilities=
+=2E See how you can bring developers on-call and why it=E2=80=99s important=
+ for building reliable systems:
+
+http://try.victorops.com/devopsweekly/why-devops-matters
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

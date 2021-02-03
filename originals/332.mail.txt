@@ -1,0 +1,201 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#332?=
+Date: Sun, 7 May 2017 11:00:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #332 - 7th May 2017
+
+Lots of talk of multi-cloud and lock-in this week it seemed=2C although ma=
+inly coming from proponents of certain technologies. Some interesting arch=
+itecture posts as well this week; from event driven serverless architectur=
+es to a simpler approach to microservices with SCS.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Resolving DevOps and IT incidents is not enough. Download the eBook: =E2=
+=80=9CBlameless Post Mortems (and how to do them)=E2=80=9D=2C and start le=
+arning from them.
+
+http://try.victorops.com/BlamelessPostMortems/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Practical Tips to Start Your DevOps Journey
+
+Even when DevOps is not fully embraced throughout an organization there ar=
+e still benefits. And getting started can be quicker than you think. In th=
+is on-demand webinar=2C Andreas Grabner=2C Chief DevOps Activist at Dynatr=
+ace=2C shares practical tips that all IT groups can use to start their Dev=
+Ops journey quickly.
+
+http://ow.ly/yJpv306Zlyy
+
+
+News
+=3D=3D=3D=3D
+
+There are lots of arguments for the various practices often seen with devo=
+ps. This post makes a strong economic argument focused on learning quickly=
+ in small batches.
+
+https://barryoreilly.com/2016/08/29/the-most-important-metric-youll-ever-n=
+eed/
+
+
+A solid argument that multi-cloud approaches should probably not be the de=
+fault for the majority of users when considering either lock-in or disaste=
+r recovery.
+
+https://blog.symphonia.io/on-serverless-multi-cloud-and-vendor-lock-in-da9=
+30b3993f
+
+
+A similar conclusion to the issue of lock-in for serverless=2C but with a=
+ different rationale. Lock-in is fairly dependent on context in my experie=
+nce=2C and more important in some areas and organisations than others whic=
+h isn=E2=80=99t mentioned here.
+
+https://medium.com/@PaulDJohnston/why-vendor-lock-in-with-serverless-isnt-=
+what-you-think-it-is-d6be40fa9ca9
+
+
+Linuxkit was one of the announcements at the recent DockerCon event=2C and=
+ this post demonstrates how to get started building your own Linux-based V=
+M on OS X=2C running on xhyve.
+
+http://www.nebulaworks.com/blog/2017/04/23/getting-started-linuxkit-mac-os=
+-x-xhyve/
+
+
+Some folks have very strong opinions when it comes to continuous integrati=
+on. This post derives a scoring system you can use as a health check for t=
+eams=2C if you agree with the philosophy around trunk-based development.
+
+https://paulhammant.com/2017/05/01/scoring-continuous-integration/
+
+
+A nice example of the power of event driven infrastructure=2C using CloudW=
+atch as the trigger and Lambda=2C in this case to create DNS records for a=
+utoscaling instances.
+
+https://engineering.yoyowallet.com/the-power-of-cloudwatch-events-33c2f658=
+14b9
+
+
+An interesting proposal for a slightly different take on microservice arch=
+itectures=2C named Self Contained Systems (or SCS). The idea appears to be=
+ to sacrifice some tenets of microservices to make deployment simpler.
+
+https://www.infoq.com/articles/scs-microservices-done-right
+
+
+This post makes the case that there are lots of hello-world Kubernetes exa=
+mples but few real-world ones=2C and promptly shows a nice example and the=
+n walks through the design decisions.
+
+https://engineering.bitnami.com/2017/05/02/an-example-of-real-kubernetes-b=
+itnami.html
+https://github.com/bitnami/kube-manifests
+
+
+A good comparison of the pros and cons of structured logging and having ap=
+plications emit events=2C and why one doesn=E2=80=99t really replace the o=
+ther for comprehensive monitoring.
+
+https://hackernoon.com/caveats-in-metric-collection-b92e31c39f3d
+
+
+Onboarding engineers and systems administrators to a complex system can ta=
+ke time. This new project is collecting hints and tips to make that quicke=
+r and more useful.
+
+https://github.com/actionjack/so-you-want-to-recruit-a-devops-engineer
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar =E2=80=93 Cloud Native Storage with Clint Kitson=2C Eric Han=
+=2C and Mark Balch
+
+Bringing all of your applications to a cloud native environment is going t=
+o be critical in ensuring you are taking full advantage of what containers=
+ can deliver. These environments present an opportunity to optimize your a=
+pplications=2C including ones that need persistent data=2C for any cloud.
+
+Join our webcast and hear from industry leaders about both traditional and=
+ modern applications and how they use data. Learn the basics of cloud nati=
+ve storage and how you might make choices about cloud and storage platform=
+s supporting your applications.
+
+https://goo.gl/qrVddo
+
+
+KubeCon / CloudNativeCon Austin - Join leading Kubernetes and Cloud Native=
+ technologists in Austin for a full range of technology sessions on the cl=
+oud native ecosystem.
+
+We sold out in Berlin and are excited to see thousands of you from the com=
+munity in Austin! Call for papers and registration information linked.
+
+https://goo.gl/yKCHvh
+
+
+Jobs
+=3D=3D=3D=3D
+
+As a DevOps Ace=2C Shouldn't Companies Apply to You? - Try Hired and Let t=
+he Offers Roll In.
+
+http://hrd.cm/2jHrf1B
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Configuration Management Camp has been a highlight of the events calendar=
+ in Europe for years and is finally making it to Portland in the US on Aug=
+ust 3rd. The CFP is open now.
+
+https://github.com/cfgmgmtcamp/2017-pdx-cfp/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+If you=E2=80=99re using lots of Kubernetes you might have different contex=
+ts you want to manage. Enter kubectx=2C a handy tool for flipping backward=
+s and forward=2C with support for aliases and shell completion.
+
+https://ahmet.im/blog/kubectx/
+
+
+BeePing is a service to allow for HTTP Monitoring via API. When running Be=
+ePing you can hit it=E2=80=99s API and it will confirm various properties=
+ like performance or SSL cert expiry for the requested domain.
+
+https://github.com/yanc0/beeping
+
+
+JSONNET is a handy programming language for creating JSON=2C useful for al=
+l sorts of configuration tasks. Kube.libjsonnet is a library for helping m=
+anage Kubernetes configs in a sane manner.
+
+https://github.com/heptio/kube.libsonnet
+
+
+Resolving DevOps and IT incidents is not enough. Download the eBook: =E2=
+=80=9CBlameless Post Mortems (and how to do them)=E2=80=9D=2C and start le=
+arning from them.
+
+http://try.victorops.com/BlamelessPostMortems/DevOpsWeekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

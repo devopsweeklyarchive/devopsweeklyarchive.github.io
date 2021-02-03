@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#481?=
+Date: Sun, 15 Mar 2020 09:49:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #481 - 15th March 2020
+
+Several posts on modern network stacks=2C discussion of application securi=
+ty=2C standard interfaces=2C packaging and serverless adoption this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+What=E2=80=99s the most important metric for SRE? Well=2C Splunk Cloud Pla=
+tform SRE=2C Jonathan Schwietert=2C argues that it=E2=80=99s customer happ=
+iness. On Tuesday (03/17)=2C join Splunk + VictorOps for a webinar about u=
+sing SRE and observability to build customer-first applications and servic=
+es:
+
+https://go.victorops.com/devopsweekly-sre-for-happier-customers
+
+
+News
+=3D=3D=3D=3D
+
+A post (fair warning=2C from one of my colleagues) on the ongoing evolutio=
+n of application security as cloud adoption shifts more responsibilities t=
+owards developers.
+
+https://snyk.io/blog/cloud-transforms-it-security-appsec/
+
+
+Some interesting data points from a recent survey on Serverless adoption.=
+ Everything from concerns and benefits to adoption and tooling.
+
+https://www.oreilly.com/radar/oreilly-serverless-survey-2019-concerns-what=
+-works-and-what-to-expect/
+
+
+A nice example of building a deployment workflow for network code=2C in th=
+is case with Calico. Lots of demos=2C including using Conftest and GitHub=
+ Actions to verify network policies and ArgoCD to deploy it.
+
+https://www.tigera.io/blog/decentralized-calico-network-security-policy-de=
+ployment-for-gitops-part2/
+
+
+A discussion of where the CNAB (Cloud Native Application Bundles) packagin=
+g format fits in=2C and how it bridges technologies to enable a more PaaS-=
+like experience for users.
+
+https://blogs.endjin.com/2020/03/an-overview-of-the-azure-cnab-quickstarts=
+-library/
+
+
+A post on the evolution of interfaces in open source infrastructure=2C loo=
+king mainly at Kubernetes the work done on CNI=2C CRI=2C CSI and SMI.
+
+https://medium.com/@kgamanji/interoperability-of-open-source-tools-the-eme=
+rgence-of-interfaces-f3b7a90891e4
+
+
+The Bazel build-tool has a high barrier to entry. This post is a good star=
+ting point if you=E2=80=99re building Go applications and outputting to co=
+ntainer images.
+
+https://brendanjryan.com/golang/bazel/2018/05/12/building-go-applications-=
+with-bazel.html
+
+
+A look at CIlium Cluster Mesh=2C including a deep-dive into eBPF and CNI n=
+etworking stacks.
+
+https://itnext.io/kubernetes-multi-cluster-networking-cilium-cluster-mesh-=
+bca0f5367d84
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Monitoror is a wallboard monitoring app to monitor server status; monitor=
+ CI builds progress or even display critical values.
+
+https://github.com/monitoror/monitoror
+https://monitoror.com/
+
+
+
+What=E2=80=99s the most important metric for SRE? Well=2C Splunk Cloud Pla=
+tform SRE=2C Jonathan Schwietert=2C argues that it=E2=80=99s customer happ=
+iness. On Tuesday (03/17)=2C join Splunk + VictorOps for a webinar about u=
+sing SRE and observability to build customer-first applications and servic=
+es:
+
+https://go.victorops.com/devopsweekly-sre-for-happier-customers
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

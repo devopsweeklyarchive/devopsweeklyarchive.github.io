@@ -1,0 +1,173 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#277?=
+Date: Sun, 17 Apr 2016 10:09:13 +0000
+
+DEVOPS WEEKLY
+ISSUE #277 - 17th April 2016
+
+Several stories of running data storage technologies this week from the ve=
+nerable MySQL to the cutting edge Kafka. Lots of hard earned wisdom in tal=
+es of how people scale particular technologies=2C thanks to anyone who has=
+ ever written up what worked for them (and what didn=E2=80=99t) when using=
+ a particular technology.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Built for DevOps =E2=80=93 The VictorOps platform provides seamless incide=
+nt management to improve uptime and make on-call suck less.
+
+Start your free trial today: http://try.victorops.com/DevOps-Weekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+6 Ways DevOps helped PrepSportswear move from Monolith to MicroServices
+
+Learn how PrepSportswear=2C the largest direct-to-consumer marketplace for=
+ personalized fan gear=2C moved from a team operating a monolithic app usi=
+ng a waterfall development methodology to a modern IT organization using p=
+ractices from Agile development=2C DevOps methodologies=2C and a Service-O=
+riented Architecture approach. The Impact? Their most successful online ho=
+liday shopping season in company history!
+
+http://ow.ly/4mJXxt
+
+
+News
+=3D=3D=3D=3D
+
+Education is critical in any discipline=2C but tricky in a fast moving are=
+a like the one many of us work in. This post picks out several areas where=
+ education and industry are diverging=2C including agile=2C lean=2C web-sc=
+ale operations=2C IT service management and more.
+
+http://www.lean4it.com/2016/04/pivoting-it-education.html
+
+
+Some good practical implementation details for anyone rolling out continuo=
+us deployment. I particularly liked the guiding principles section focused=
+ on social considerations.
+
+http://engineering.instagram.com/posts/1125308487520335/continuous-deploym=
+ent-at-instagram/
+
+
+Content Security Policy is a useful way of combatting cross-site scripting=
+=2C clickjacking and other code injection attacks. But you need to write t=
+he policy. This post delves into some of the details.
+
+https://diogomonica.com/2015/12/30/deep-into-csp/
+
+
+I=E2=80=99m pretty happy to see the Open Container Initiative standards ef=
+fort taking a look at a specification for container images. This post expl=
+ains what and a little of the why.
+
+https://coreos.com/blog/oci-image-specification.html
+
+
+A good high-level overview of microservices as an architectural pattern=2C=
+ including useful observations about synchronous HTTP being a bad default=
+ communication protocol=2C service isolation=2C location transparency and=
+ more.
+
+http://jonasboner.com/bla-bla-microservices-bla-bla/
+
+
+I=E2=80=99ve been predicting an explosion of interest in container build f=
+or a while. Using the Nix build and packaging system is an interesting app=
+roach=2C with a number of advantages as laid out in this post.
+
+http://lethalman.blogspot.co.uk/2016/04/cheap-docker-images-with-nix_15.ht=
+ml
+
+
+The concept of a pipeline as the way for managing software delivery has be=
+en around for a while=2C but how do containers change the steps in your pi=
+peline? This post does a good job of stepping through various options.
+
+http://www.infoq.com/articles/continuous-deployment-containers
+
+
+MySQL is hugely popular=2C but how many people really know how to monitor=
+ it? This post delves into all the details including key statistics=2C ava=
+ilable metrics=2C query performance=2C connections and much more.
+
+https://www.datadoghq.com/blog/monitoring-mysql-performance-metrics/
+
+
+Another MySQL post=2C this one an experience report of scaling MySQL on EC=
+2. Details of sharding strategies=2C migrating data=2C zero-downtime opera=
+tions and more.
+
+https://nylas.com/blog/growing-up-with-mysql/
+
+
+Nice writeup of a logging architecture based on Logstash=2C Kibana and Ela=
+sticsearch=2C along with Rsyslog=2C Kafka and taking advantage of some AWS=
+ features.
+
+https://www.bashton.com/blog/2016/elk-on-ark/
+
+
+And another Kafka post=2C this one a tale of scaling and monitoring Kafka=
+ in production. Also includes a discussion of why Kafka makes sense for so=
+me architectures=2C in particular it=E2=80=99s  combination of high throug=
+hput and persistence.
+
+http://www.confluent.io/blog/how-we-monitor-and-run-kafka-at-scale-signalf=
+x
+
+
+I=E2=80=99ve not had chance to read the new SRE book just yet but here is=
+ a set of comprehensive notes from the book. Might be enough to interest y=
+ou to buy=2C or decide it covers ground you are already familiar with.
+
+http://danluu.com/google-sre-book/
+
+
+A quick overview of why blameless reviews are useful for learning from mis=
+takes in teams.
+
+http://www.slideshare.net/joelchippindale/learning-through-blameless-revie=
+ws
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Airflow is a system to programmatically author=2C schedule and monitor dat=
+a pipelines. The idea is to describe pipelines as directed acyclic graphs=
+ using Python. Airflow also comes with some great looking visualisation to=
+ols too.
+
+https://github.com/airbnb/airflow
+
+
+Habitus is a build tool for Docker images. It builds on Dockerfile=2C allo=
+wing for multi-stage builds as well as simple secrets management and envir=
+onment variable injection.
+
+http://www.habitus.io/
+
+
+Napalm=2C or Network Automation and Programmability Abstraction Layer with=
+ Multivendor support=2C is a suite of tools for driving network devices wi=
+th code=2C in this case Python. SUpport is already impressive=2C with JunO=
+S=2C EOS=2C NXOS=2C IOS and more on the list.
+
+https://github.com/napalm-automation/napalm
+
+
+Built for DevOps =E2=80=93 The VictorOps platform provides seamless incide=
+nt management to improve uptime and make on-call suck less.
+
+Start your free trial today: http://try.victorops.com/DevOps-Weekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

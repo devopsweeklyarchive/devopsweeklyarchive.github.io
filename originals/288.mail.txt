@@ -1,0 +1,156 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#288?=
+Date: Sun, 3 Jul 2016 17:15:06 +0000
+
+DEVOPS WEEKLY
+ISSUE #288 - 3rd July 2016
+
+It was great to make it to Devops Enterprise Summit this last week in Lond=
+on. This newsletter focuses on blog posts=2C conference talks and tools -=
+ which proportionally means it features less real enterprise content. So i=
+t was great to hear stories from Disney=2C Barclays=2C Zurich Insurance an=
+d others talking about the same topics and practices. I=E2=80=99ll try and=
+ track down some of the content for future issues.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The cost of downtime is growing but DevOps practices & real-time incident=
+ management solutions can help to reduce MTTR.
+
+Learn more: http://try.victorops.com/downtime_data/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] Agile Approach to Digital Transformation
+
+Join our webinar and discover how Verizon digitally transformed their IT o=
+rganization using a DevOps approach. You=E2=80=99ll learn how they decreas=
+ed the number of apps they support by 40%=2C reduced IT complexity by cons=
+olidating from 13 to 5 data centers=2C and much more!  If you can=E2=80=99=
+t make the webinar=2C be sure to register and we=E2=80=99ll send you the r=
+eplay and slides.
+
+http://ow.ly/ooQd300TUwM
+
+
+News
+=3D=3D=3D=3D
+
+A great look at the benefits of and rationale for working in small batches=
+=2C using the development of a monitoring system as an example.
+
+http://queue.acm.org/detail.cfm?id=3D2945077
+
+
+Industry surveys are interesting=2C but often of small and technology spec=
+ific groups. So this one piqued my interest. The data on container adoptio=
+n is a good sample to sit alongside more container-centric surveys=2C and=
+ the CI numbers are interesting too.
+
+http://redmonk.com/fryan/2016/06/21/container-trends-plans-orchestration-a=
+nd-ci-a-dataset-from-bitnami/
+
+
+A good overview of some interesting additions to a check-based monitoring=
+ system - looking at on-call aids=2C providing more contextual alerts and=
+ more.
+
+https://speakerdeck.com/kdaniels/teaching-an-old-monitoring-system-new-tri=
+cks
+
+
+A useful look at a few interesting topics=2C including how SRE at Google v=
+aries to the less specific devops practices=2C and how the size and type o=
+f organisation you work in is important context for what practices and pro=
+cesses are likely to work well.
+
+https://charity.wtf/2016/06/30/devops-vs-sre-delayed-coverage-of-the-dumbe=
+st-war/
+
+
+A detailed look at how Google have managed a single monolithic source code=
+ repository=2C and the benefits of keeping everything in one place.
+
+http://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-=
+lines-of-code-in-a-single-repository/fulltext
+
+
+Vox Pupuli is a group of Puppet users and community members that have been=
+ busy maintaining a growing number of high-quality Puppet modules. This po=
+st explains the benefits from the point of view of a typical Puppet user.
+
+http://brenbriggs.com/2016/07/02/vox-pupuli-a-winning-team.html
+
+
+Gatling is a handy load testing tool with a powerful DSL for writing tests=
+=2E This post explores how to run Gatling from Docker containers with the ai=
+m of integrating into Jenkins.
+
+http://agiletesting.blogspot.co.uk/2016/06/running-gatling-load-tests-in-d=
+ocker.html
+
+
+A good description of the changing relationship between developers and sec=
+urity in some organisations=2C with the observation that new roles are eme=
+rging in security teams=2C bringing hands-on software development skills.
+
+http://www.anniehedgie.com/inspec-basics-8
+
+
+A wide-ranging overview of the various platform or container as-a-service=
+ stacks. A useful breakdown of the characteristics=2C and also a look at t=
+he range of opinionated to unstructured.
+
+http://wikibon.com/architectural-considerations-for-open-source-paas-and-c=
+ontainer-platforms/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Are you a Puppet master? Hired gives top DevOps Engineers more power in th=
+eir job search. Join today!
+
+http://hrd.cm/23r2ok5
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Habitat is an interesting new tool which provides both a set of build tool=
+s and application runtime tools with the aim of making the automation move=
+ along with the application. It can output containers but also potentially=
+ VMs and other artefacts depending on your usecase.
+
+https://www.habitat.sh/
+
+
+osquery is a great way of asking questions about your infrastructure using=
+ SQL. Kolide takes that a step further=2C providing a web interface and re=
+mote API server to more easily integrate the power of osquery into your wo=
+rkflow.
+
+https://kolide.co/
+https://github.com/mephux/kolide
+
+
+Netbox is a new IP address management (IPAM) and data center infrastructur=
+e management (DCIM) tool with a great looking dashboard.
+
+https://github.com/digitalocean/netbox
+
+
+
+The cost of downtime is growing but DevOps practices & real-time incident=
+ management solutions can help to reduce MTTR.
+
+Learn more: http://try.victorops.com/downtime_data/DevOpsWeekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

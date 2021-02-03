@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#522?=
+Date: Sun, 27 Dec 2020 12:23:50 +0000
+
+DEVOPS WEEKLY
+ISSUE #522 - 27th December 2020
+
+The last issue of the year. It=E2=80=99s somewhat comforting to remember t=
+opics like service levels=2C monitoring=2C service-based architecture and=
+ ETL are all as relevant today as when I started this newsletter. At the s=
+ame time new innovations and topics emerge=2C like WebAssembly or OpenTele=
+metry. Here=E2=80=99s to seeing what turns up in 2021.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Big News Alert! Introducing remote-run support for Terragrunt workflows=2C=
+ now available in env0!
+
+https://www.env0.com/blog/terragrunt-release
+
+About env0: use Infrastructure as Code to let your team manage their own e=
+nvironments across clouds. Governed by your policies and with complete vis=
+ibility & cost management.
+
+
+News
+=3D=3D=3D=3D
+
+SLOs=2C and any sort of change=2C generally needs management buy-in in ord=
+er to properly implement. This post is a good example of how one team went=
+ about selling SLOs to engineering management.
+
+https://medium.com/brexeng/how-to-sell-slos-to-engineering-directors-9c637=
+9c3f246
+
+
+A nice description of using WebAssembly to allow for untrusted code execut=
+ion. WASM as a generic extension capability I think will become pretty com=
+mon=2C nice to see a specific approach.
+
+https://shopify.engineering/shopify-webassembly
+
+
+Details of one team moving away from (some) microservices and merging code=
+ back into a monolithic application. Good discussion of the advantages and=
+ costs of microservices and how to right-size individual services.
+
+https://www.bennadel.com/blog/3944-why-ive-been-merging-microservices-back=
+-into-the-monolith-at-invision.htm
+
+
+A good architecture post on building a realtime platform API=2C moving fro=
+m polling to gRPC-based bi-directional streaming.
+
+https://eng.uber.com/real-time-push-platform/
+
+
+A post on how applying GitOps practices can improve the security character=
+istics of your deployment pipeline.
+
+https://www.weave.works/blog/how-gitops-improves-security-development-pipe=
+lines
+
+
+Most Dockerfiles are simple=2C but it=E2=80=99s possible to solve more com=
+plex problems too. This example shows cross-compilation patterns for expen=
+sive compilation targets.
+
+https://www.docker.com/blog/compiling-qt-with-docker-multi-stage-and-multi=
+-platform/
+
+
+A look at OpenTelemetry and in particular it=E2=80=99s usage in Java appli=
+cations.
+
+https://lightstep.com/blog/opentelemetry-java/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Tobs is a distribution of monitoring tools for Kubernetes. Setup a full st=
+ack with Prometheus=2C Grafana=2C Promscale=2C Promlens and more with Helm=
+ or a custom CLI.
+
+https://github.com/timescale/tobs
+
+
+Singer is an open source toolkit for ETL. At its core is a specification=
+=2C and a system of taps (for extracting data) and targets (for saving it)=
+=2E
+
+https://www.singer.io
+https://github.com/singer-io
+
+
+Grafana-sync is a handy tool for syncing dashboards between Grafana instal=
+ls using the Grafana API.
+
+https://github.com/mpostument/grafana-sync
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

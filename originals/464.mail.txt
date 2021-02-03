@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#464?=
+Date: Sun, 17 Nov 2019 16:37:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #464 - 17th November 2019
+
+It=E2=80=99s the weekend before KubeCon=2C which means the next issue just=
+ might have far too much Kubernetes content for some folks. Fair warning.=
+ This issue we have discussions of pipelines as code=2C runbooks=2C resili=
+ence engineering=2C insecure development environments and more.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+As DevOps and IT teams ingest more alerts and respond to more incidents=2C=
+ they collect more information and historical context. Today=2C teams are=
+ using this data to optimize incident response through constant automation=
+ and machine learning. Learn how:
+
+https://go.victorops.com/devopsweekly-incident-response-automation-and-mac=
+hine-learning
+
+
+News
+=3D=3D=3D=3D
+
+A good argument that having pipeline configuration files in each source re=
+po works well for testing=2C but less well for complex deployments.
+
+https://medium.com/@raxwunter/whats-wrong-with-pipeline-as-code-or-why-i-d=
+on-t-like-gitlab-ca70c39eb52b
+
+
+A useful post on the importance of thinking about the problems with unsecu=
+red developer user access and insecure development environments.
+
+https://www.fugue.co/blog/unsecured-dev-accounts-put-production-at-risk
+
+
+Solid advice on what makes a good runbook; actionable=2C accessible=2C acc=
+urate=2C authoritative and adaptable.
+
+https://www.transposit.com/blog/2019.11.14-what-makes-a-good-runbook/
+
+
+A look at different failure modes in complex systems=2C and how to ensure=
+ a continuously resilient system. Introduces the failure modes and effects=
+ analysis methodology.
+
+https://medium.com/@adrianco/failure-modes-and-continuous-resilience-65530=
+78caad5
+
+
+A post looking at what we mean by portability=2C compatibility and support=
+ability when it comes to OCI container images.
+
+http://crunchtools.com/deeply-understanding-the-different-between-portabil=
+ity-compatibility-and-supportability/
+
+
+An interesting talk looking at service mesh capabilities and in particular=
+ly how much of the functionality already resides inside Kubernetes. Some g=
+ood thoughts about the future direction of the platform too.
+
+https://speakerdeck.com/thockin/weve-made-quite-a-mesh
+
+
+As you become more of an advanced user of Kubernetes it=E2=80=99s common t=
+o want to write your own controllers. This post explores building a contro=
+ller using Buck=2C and integrating it with Brigade and Porter and other co=
+mponent tools.
+
+https://cloudblogs.microsoft.com/opensource/2019/11/15/in-cluster-cnab-man=
+agement-brigade/
+https://github.com/brigadecore/buck
+
+
+A useful getting started guide for NATs=2C the high performance messaging=
+ system.
+
+https://itnext.io/getting-started-with-nats-b752cbb17f74
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Comby is a powerful tool for manipulating source code=2C suited to reposit=
+ory-wide refactoring and changes.
+
+https://comby.dev/
+
+
+
+As DevOps and IT teams ingest more alerts and respond to more incidents=2C=
+ they collect more information and historical context. Today=2C teams are=
+ using this data to optimize incident response through constant automation=
+ and machine learning. Learn how:
+
+https://go.victorops.com/devopsweekly-incident-response-automation-and-mac=
+hine-learning
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

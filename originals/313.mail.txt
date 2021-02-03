@@ -1,0 +1,111 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#313?=
+Date: Sun, 25 Dec 2016 12:39:56 +0000
+
+DEVOPS WEEKLY
+ISSUE #313 - 25th December 2016
+
+A short issue today (well=2C it is Christmas day) but still some great con=
+tent from the last week or so on everything from container networking=2C l=
+essons from security breaches=2C load balancing and more.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The "2016/17 State of On-Call" report from VictorOps is now available to d=
+ownload. Learn what 800+ respondents have to say about life on-call=2C and=
+ steps they're taking to make it better. Get your free copy here:
+
+https://victorops.com/state-of-on-call-2016/
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Verizon=E2=80=99s DevOps Transformation
+
+Check out this webcast replay to hear Nita Awatramani=2C Associate Directo=
+r at Verizon Enterprise Solutions=2C share how Verizon was able to streaml=
+ine operations=2C optimize business output and deliver products faster to=
+ their consumers by adopting a DevOps approach. The results are amazing!
+
+http://ow.ly/ooQd300TUwM
+
+
+News
+=3D=3D=3D=3D
+
+A great rundown of a selection of production errors caused by mistakes mad=
+e by the team at The Guardian. Some excellent lessons learned too. If anyo=
+ne else is brave enough to do a post like this let me know.
+
+https://www.theguardian.com/info/developer-blog/2016/dec/18/what-we-learnt=
+-from-our-mistakes-in-2016
+
+
+Some great lessons learned from being involved in a large number of securi=
+ty incidents. Good practical tips and things to ponder based on more data=
+ that most of us have.
+
+https://medium.com/starting-up-security/learning-from-a-year-of-security-b=
+reaches-ed036ea05d9b#.matzyfiok
+
+
+A solid presentation on how to go about implementing continuous delivery w=
+hen using containers.
+
+http://www.slideshare.net/dbryant_uk/oreillynginx-2016-continuous-delivery=
+-with-containers-the-trials-and-tribulations
+
+
+A useful reminder that configuration management is as much about documenta=
+tion and relationships as anything to do with changing state.
+
+https://www.axelos.com/news/blogs/november-2016/what-is-configuration-mana=
+gement
+
+
+AWS plays an increasing role in many infrastructure deployments=2C so insi=
+ghts into how competing products may evolve in the future is interesting=
+=2C both from the point of view of would-be creators but also consumers.
+
+https://medium.com/@cloud_opinion/competing-with-aws-17b69d3e15bb#.2kn5zwd=
+nv
+https://medium.com/@cloud_opinion/competing-with-aws-part-2-fa4bff3843fa#.=
+g3o6mrehe
+
+
+2016 was definitely a year where people had to get more interested in netw=
+orking=2C partly driven by the needs of containers and designs of cluster=
+ managers. These two posts make for a good overview.
+
+https://jvns.ca/blog/2016/12/22/container-networking/
+https://medium.com/@anne_e_currie/kubernetes-aws-networking-for-dummies-li=
+ke-me-b6dedeeb95f3#.szm0if2g7
+
+
+A good article all about load balancing=2C and in particular the differenc=
+e between using a load balancer and using it well.
+
+http://queue.acm.org/detail.cfm?id=3D3028689
+
+
+A collected set of talks from the recent Systems we Love conference - ever=
+ything from NTP and BGP to man pages and AWK.
+
+https://blog.bradfieldcs.com/all-the-talks-from-systems-we-love-debcd9cffc=
+a#.ekxae0zzi
+
+
+
+The "2016/17 State of On-Call" report from VictorOps is now available to d=
+ownload. Learn what 800+ respondents have to say about life on-call=2C and=
+ steps they're taking to make it better. Get your free copy here:
+
+https://victorops.com/state-of-on-call-2016/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

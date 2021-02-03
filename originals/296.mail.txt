@@ -1,0 +1,131 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#296?=
+Date: Sun, 28 Aug 2016 10:49:25 +0000
+
+DEVOPS WEEKLY
+ISSUE #296 - 28th August 2016
+
+I=E2=80=99ll be in Amsterdam next week for Software Circus - a conference=
+ on all things cloud native. The conference is now free too=2C so if you h=
+appen to be in the area you might be able to make it along. Hopefully meet=
+ a few readers there.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Manage and automate DevOps operations through group chat. Learn how in the=
+ free ChatOps book from VictorOps:
+
+http://bit.ly/2bHZchq
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+5 Steps to Building a Mature DevOps Organization
+
+Learn how a 5-point maturity model helped a Fortune 500 company transform=
+ themselves into a full-fledged DevOps company=2C and how it can do the sa=
+me for your company.  You=E2=80=99ll also learn how automation can help yo=
+u build a bigger and better pipeline=2C and how to create modular environm=
+ents for local development all the way through production.
+
+http://ow.ly/4dGB303D0H6
+
+
+News
+=3D=3D=3D=3D
+
+A good history of the evolution of a large infrastructure=2C looking in pa=
+rticular at efficiency gains in terms of hardware=2C the datacenter itself=
+ and scheduling and service discovery at the application end.
+
+https://blog.twitter.com/2016/the-infrastructure-behind-twitter-efficiency=
+-and-optimization
+
+
+A good argument that=2C rather than a VM or a process=2C one way of lookin=
+g at a container is as a function. From there the post goes on to consider=
+ the value of stricter interface definitions for containers and in the nee=
+d for a type-checker.
+
+https://glyph.twistedmatrix.com/2016/08/defcontainer.html
+
+
+A short introduction to server hardening=2C covering permissions=2C file i=
+ntegrity=2C access control=2C host firewalls and more.
+
+https://www.oreilly.com/learning/hardening-a-unix-application-server
+
+
+An IT centric view of container and Docker adoption which makes some good=
+ points about cost=2C complexity and whether most applications in most org=
+anisations need any level of portability.
+
+http://searchaws.techtarget.com/opinion/Docker-usage-rises-but-high-portab=
+ility-pointless-for-most
+
+
+A good discussion of some basic principles for anyone building a deploymen=
+t pipeline=2C with a focus on immutable artefacts.
+
+https://medium.com/@bruntonspall/build-pipelines-deployment-and-immutable-=
+artifacts-48ae926178a5#.uqdyvmyx8
+
+
+The combination of growing cloud adoption and the success of devops is hav=
+ing a big influence on how some organisations approach security. This post=
+ explains some of the reasons for this change.
+
+http://cloudsentry.evident.io/the-marriage-of-devops-secops/
+
+
+A talk on the context underpinning Devops. Getting at some of the common b=
+uzzwords and going back as far as the craft movement and lean manufacturin=
+g.
+
+https://www.youtube.com/watch?v=3DIIkbn2V5A40
+
+
+A look at the pros and cons of different approaches to managing container=
+ configuration=2C and a look at one approach using startup hooks to load c=
+onfiguration at runtime.
+
+http://blog.synchro.io/stashbox/
+
+
+The number of frameworks in most programming languages purporting to suppo=
+rt microservice-style architectures is growing. This post tries to distil=
+ what makes a good framework for building microservices.
+
+http://unwrapped.notonthehighstreet.com/what-makes-a-good-microservice-fra=
+mework
+
+
+Tools
+=3D=3D=3D=3D
+
+Riddler is a tool for converting a Docker container to the raw Open Contai=
+ner format=2C runnable with the lower-level runc.
+
+https://github.com/jfrazelle/riddler
+
+
+Visualising network traffic in a complex architecture can provide a simple=
+ way of understanding the live system. Enter Vizceral.
+
+http://techblog.netflix.com/2016/08/vizceral-open-source.html
+https://github.com/Netflix/vizceral
+https://github.com/Netflix/vizceral-example
+
+
+Manage and automate DevOps operations through group chat. Learn how in the=
+ free ChatOps book from VictorOps:
+
+http://bit.ly/2bHZchq
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,133 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#430?=
+Date: Sun, 24 Mar 2019 13:33:01 +0000
+
+DEVOPS WEEKLY
+ISSUE #430 - 24th March 2019
+
+Configuration formats=2C data pipeline design=2C local development environ=
+ments=2C getting started with serverless and several posts on managing mul=
+ti-user Kubernetes clusters. Lots of good technical case studies and opini=
+ons to start the week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Reducing MTTA and MTTR takes 5 simple steps. Check out this recent blog se=
+ries=2C Reducing MTTA=2C to find 5 simple steps for improving incident res=
+ponse=2C lowering MTTA over time and making on-call suck less for DevOps a=
+nd IT:
+
+http://try.victorops.com/devopsweekly/reducing-mtta-alerts
+
+
+News
+=3D=3D=3D=3D
+
+Over the 8 years of Devops Weekly=2C YAML has become more and more common=
+ for various purposes. This post defends some of that usage while pointing=
+ out problematic usage patterns. The conclusion; YAML as data format is de=
+fensible. YAML as a programming language is not.
+
+https://blog.atomist.com/in-defense-of-yaml/
+
+
+A detailed post on setting up an EKS cluster. It covers doing things manua=
+lly as well as using eksctl. The post also dives into securing the cluster=
+ and some observability options.
+
+https://www.beyondvirtual.io/blog/simplifying-EKS-deployments-and-managing=
+-them-bs/
+
+
+A useful discussion for anyone building data processing pipelines=2C in pa=
+rticular with Kafka. It looks at whether you are best writing to Kafka fir=
+st or to the database first and when which option might be suitable.
+
+https://medium.com/@gwenshapira/the-case-for-database-first-pipelines-f862=
+40c69863
+
+
+Multi-user Kubernetes clusters pose a challenge around managing who can ac=
+cess what. Kubernetes RBAC provides part of the solution=2C but you probab=
+ly already have some identity service. This post explores mapping Google i=
+dentities to Kubernetes RBAC to help manage access.
+
+https://medium.com/cruise/open-sourcing-rbacsync-48758df685b0
+
+
+An interesting post on setting up infrastructure in regions (in this case=
+ Russia) with data locality laws and no large cloud provider services.
+
+https://www.cloudops.com/2019/03/to-russia-with-love-deploying-kubernetes-=
+in-foreign-locations/
+
+
+A solid argument that different software solves different problems=2C in t=
+his case choosing Nomad over Kubernetes when all that was needed was simpl=
+e service orchestration.
+
+https://matthias-endler.de/2019/maybe-you-dont-need-kubernetes/
+
+
+An in-depth look at starting to implement serverless. Looking at the detai=
+ls behind several services=2C and some general rules and tools to help you=
+ take advantage of the ecosystem.
+
+https://read.acloud.guru/journey-to-serverless-d3256d91af16
+
+
+People invariably have strong opinions about local development environment=
+s=2C and what place containers have in them. This post puts forward some p=
+rinciples and shows an example of a Node JS based development environment.
+
+https://medium.com/@justkrup/using-docker-in-development-ad5718db08bd
+
+
+Jobs
+=3D=3D=3D=3D
+
+Senior Devops Engineer @ Google=2C via Citrusbyte=2C West Coast
+Citrusbyte is working with Google to build a DevOps team and has the abili=
+ty to give a few individuals the opportunity to work for Google. You will=
+ work with the Google Cloud team to help onboard high-profile and strategi=
+c Google accounts to GCP. You'll work with modern DevOps tools like Terraf=
+orm=2C Kubernetes=2C and GCP and implement practices such as those from th=
+e Site Reliability Handbook.
+
+https://citrusbyte.applytojob.com/apply/DIZpovyqjC?source=3DDevopsWeekly
+
+
+Tools
+=3D=3D=3D=3D
+
+JVM Profiler is a new project providing a powerful profiling tool for Java=
+ and other JVM environments=2C focused on distributed applications. The ag=
+ent supports sending metrics to Kafka=2C the console or implementing a cus=
+tom reporter=2C
+
+https://eng.uber.com/jvm-profiler/
+https://github.com/uber-common/jvm-profiler
+
+
+Work-in-progress but useful looking. As mentioned in a post above=2C manag=
+ing authorisation for a multi-user Kubernetes cluster can be challenging.=
+ Who-can lets you interogate who can manipulate resources on your cluster.=
+ Would make a great kubectl plugin.
+
+https://github.com/aquasecurity/kubectl-who-can
+
+
+
+Reducing MTTA and MTTR takes 5 simple steps. Check out this recent blog se=
+ries=2C Reducing MTTA=2C to find 5 simple steps for improving incident res=
+ponse=2C lowering MTTA over time and making on-call suck less for DevOps a=
+nd IT:
+
+http://try.victorops.com/devopsweekly/reducing-mtta-alerts
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

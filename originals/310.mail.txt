@@ -1,0 +1,155 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#310?=
+Date: Sun, 4 Dec 2016 10:56:49 +0000
+
+DEVOPS WEEKLY
+ISSUE #310 - 4th December 2016
+
+Lots of good posts this week but a couple in particular stood out; on writ=
+ing better alerts and creating more useful log files. Even with all the ne=
+w technology there is still so much to learn and improve around the fundam=
+entals.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+2016/17 State of On-Call Webinar (with DevOps.com): Register to learn what=
+ 800+ survey respondents have to say about life on-call.
+
+http://try.victorops.com/2016_17_stateofoncall
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Gene Kim shares top lessons learned co-authoring The DevOps Handbook [Web=
+cast Replay]
+
+In this on-demand webcast=2C DevOps researcher & author=2C Gene Kim=2C sha=
+res first-hand insights and lessons he learned while co-authoring The DevO=
+ps Handbook=2C including: DevOps transformation case studies around contin=
+uous integration and delivery=2C and concrete techniques to build a cultur=
+e of continuous experimentation and learning =E2=80=93 including those fro=
+m Google=2C Etsy=2C Nordstrom=2C and Capital One. Check it out!
+
+http://ow.ly/EXwE304sS1F
+
+
+News
+=3D=3D=3D=3D
+
+Most monitoring systems will issue alerts=2C but how well written or desig=
+ned are those alerts really? This post delves into how to write good secur=
+ity alerts=2C discussing alert levels=2C automatic remediation=2C runbooks=
+ tied to alters and more.
+
+https://summitroute.com/blog/2016/11/22/how_to_write_security_alerts/
+
+
+A presentation that sets out to explore the role of Platform as a Service=
+ in a container world. A strong argument for many parallel domain-specific=
+ PaaS=E2=80=99s in the future.
+
+http://www.slideshare.net/brendandburns/paas-is-dead-long-live-paas-defrag=
+-2016
+
+
+Presentation from the recent Config Management Camp in Berlin=2C all about=
+ how Cern run there large clusters. Lots of Puppet details=2C but also a l=
+ook at tooling=2C monitoring=2C developer workflow and more.
+
+https://docs.google.com/presentation/d/1c1DaKB1_H90MLMKYa5Uzvv_FUK81n2xmuc=
+8pVr16Cnw/present?slide=3Did.g1909bedf4d_0_0
+
+
+An interesting post on the changes in operations as organisations adopt mo=
+re technology=2C especially around changes to traditional operations teams=
+ and what that means for software engineering teams that work alongside th=
+em.
+
+http://biven.org/it-was-never-about-ops/
+
+
+Logs are one of those things everyone has=2C but making them truly useful=
+ can be a challenge. This post talks about an approach called canonical lo=
+g lines which aims to bridge the gap between pure metrics and raw log trac=
+es.
+
+https://brandur.org/canonical-log-lines
+
+
+Really interesting notes from a lone tester at a devops conference. I=E2=
+=80=99d definitely encourage people to go to at least one event outside th=
+eir strict role definition if you can do - whether that=E2=80=99s programm=
+ing=2C security=2C ITSM=2C testing=2C etc.
+
+http://testingisbelieving.blogspot.co.uk/2016/11/a-lone-tester-at-devops-c=
+onference.html
+
+
+An interesting look at what devops means in the context of HPC. Some inter=
+esting differences as well as similarities. The point about different tool=
+ing and terminology potentially leading to silos is well made.
+
+http://walidshaari.blogspot.co.uk/2016/12/devops-and-traditional-hpc.html
+
+
+I=E2=80=99m a big fan of corporate archeology=2C understanding exactly why=
+ processes are in place in order to work out whether they are still addres=
+sing the original need. This post is a good example.
+
+https://carlosonunez.wordpress.com/2016/10/17/driving-technical-change-isn=
+t-always-technical/
+
+
+An interesting history of the development and scaling of a payments platfo=
+rm=2C from small beginnings to large scale international usage. Some good=
+ technology and architecture discussions in the post.
+
+https://medium.com/airbnb-engineering/scaling-airbnbs-payment-platform-43e=
+bfc99b324#.8ev5mi3ht
+
+
+A handy reference to adding capabilities to containers=2C in particular lo=
+oking at all the things that have ended up in SYS_ADMIN.
+
+http://rhelblog.redhat.com/2016/11/30/container-tidbits-adding-capabilitie=
+s-to-a-container/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+runv is analogous to the runc container runtime=2C except runv runs your c=
+ontainer on top of a real hypervisor. Currently supports kvm=2C xen and vi=
+rtualbox. Useful if you need additional isolation guarantees.
+
+https://github.com/hyperhq/runv
+
+
+Funker is an interesting experimental approach to packaging up pieces of y=
+our application (functions or otherwise) as Docker containers and have the=
+m run on-demand on a swarm.
+
+https://github.com/bfirsh/funker
+
+
+ProxySQL is a high performance MySQL proxy which allows for query caching=
+=2C routing queries to different clusters=2C smart query firewall rules an=
+d more.
+
+https://github.com/sysown/proxysql
+http://www.proxysql.com/
+
+
+
+2016/17 State of On-Call Webinar (with DevOps.com): Register to learn what=
+ 800+ survey respondents have to say about life on-call.
+
+http://try.victorops.com/2016_17_stateofoncall
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

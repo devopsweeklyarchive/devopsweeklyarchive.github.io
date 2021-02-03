@@ -1,0 +1,127 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#375?=
+Date: Sun, 4 Mar 2018 11:04:34 +0000
+
+DEVOPS WEEKLY
+ISSUE #375 - 4th March 2018
+
+Application deployment=2C and building abstractions for developers managin=
+g applications=2C appears to be a theme at the moment - with several relat=
+ed posts this week. Plus interesting thoughts on operations for serverless=
+=2C configuring Jenkins and the business case for adopting devops practice=
+s.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Your monitoring tools need to make sense in your DevOps environment. Make=
+ sure you're monitoring your infrastructure and code with end-to-end visib=
+ility.
+
+http://try.victorops.com/DevOpsWeekly/Monitoring
+
+
+News
+=3D=3D=3D=3D
+
+A good post on the future of the operations role when adopting serverless=
+=2C looking at the changing skills and responsibilities.
+
+https://www.serverlessops.io/blog/serverless-ops-what-do-we-do-when-the-se=
+rver-goes-away
+
+
+A look at the evolution of systems management=2C from manual configuration=
+ through various flavours of configuration management=2C along with some p=
+redictions about what might be next.
+
+http://www.xkyle.com/the-evolution-of-distributed-systems-management/
+
+
+Taking full advantage of adopting cloud infrastructure requires an underst=
+anding of the economics and incentives involved. This post does a good job=
+ of looking at those=2C in pursuit of increased team autonomy.
+
+https://blogg.bekk.no/the-effects-of-public-cloud-on-team-autonomy-f5b1d22=
+cef87
+
+
+A reminder that when building the case for adopting devops to focus on the=
+ business benefits and transformation=2C rather than the technology.
+
+https://opensource.com/article/18/2/how-build-business-case-devops-transfo=
+rmation
+
+
+An upcoming book is looking at the relationship between devops and site re=
+liability engineering=2C and looking for as much input from the community=
+ as possible. If you have thoughts consider submitting.
+
+https://lemurbook.com/devops-and-sre-contribution/
+
+
+A post on building an application deployment workflow using Kubernetes and=
+ GitLab.
+
+https://blog.opendigerati.com/deploy-your-applications-to-kubernetes-using=
+-gitlab-ci-and-k8s-deploy-helper-1-0-0-32b8a080bd08
+
+
+Configuring Jenkins=2C especially when you have a large number of plugins=
+=2C can involve lots of manual work. This post introduces a new Jenkins pl=
+ugin which supports more of a configuration as code approach.
+
+https://www.praqma.com/stories/jenkins-configuration-as-code/
+
+
+A look at how developers work at various companies; which languages are co=
+mmon=2C how they communicate=2C how review and testing work=2C what the de=
+velopment lifecycle involves.
+
+https://increment.com/development/what-its-like-to-be-a-developer-at/
+
+
+A solid argument why organisations should provide a self-service platform=
+ for internal developers to deploy applications to=2C looking specifically=
+ at Kubernetes and Deis Workflow.
+
+https://medium.com/@anubhavmishra/why-all-companies-should-have-a-heroku-l=
+ike-platform-for-their-developers-ee96a6fc6bc0
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Building Serverless Application Pipelines
+March 6=2C Online
+
+Join us to learn about several application use-cases that are driving the=
+ serverless movement how they can be developed and deployed on top of Kube=
+rnetes using an open source serverless solution called kubeless.
+
+https://goo.gl/H6vgnz
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Skipper is an HTTP router and reverse proxy for service composition. It pr=
+ovides modern features like circuit breakers as well as a plugin model. It=
+ also comes with a first-class Kubernetes ingress controller.
+
+https://github.com/zalando/skipper
+
+
+
+Your monitoring tools need to make sense in your DevOps environment. Make=
+ sure you're monitoring your infrastructure and code with end-to-end visib=
+ility.
+
+http://try.victorops.com/DevOpsWeekly/Monitoring
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

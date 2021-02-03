@@ -1,0 +1,162 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#356?=
+Date: Sun, 22 Oct 2017 12:37:54 +0000
+
+DEVOPS WEEKLY
+ISSUE #356 - 22nd October 2017
+
+A busy week for me at DockerCon and Velocity in London=2C with lots of oth=
+er great devops events happening all over the world. A big thanks to all t=
+he event organisers and folks behind the scenes managing audio and video a=
+nd keeping things running smoothly.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+All Day DevOps is on Oct. 24th! This FREE=2C online conference offers 100=
+ DevOps-focused sessions across six different tracks. Learn more & registe=
+r:
+
+http://bit.ly/2wLKpbV
+
+
+News
+=3D=3D=3D=3D
+
+A look at the importance of post-incident reviews=2C and a good introducti=
+on to cynefin and the end of root cause analysis.
+
+https://victorops.com/blog/focus-on-analysis-the-end-of-root-cause/
+
+
+As serverless becomes about more than just individual functions or service=
+s it requires a great deal of automation. This post talks about the result=
+ of that being the emergence of the serverless engineer.
+
+https://medium.com/@PaulDJohnston/serverless-is-about-automation-not-funct=
+ions-3f816c90ce61
+
+
+My talk from Velocity in London this last week on the pros and cons of org=
+anising your source code in a monorepo=2C along with pointers to tools for=
+ working with one.
+
+https://speakerdeck.com/garethr/the-monorepo-storing-your-source-code-has-=
+never-been-so-much-fun
+
+
+An excellent post on the importance of a staging environment. A good argum=
+ent for why you need one=2C as well as tips and common gotchas.
+
+https://increment.com/development/center-stage-best-practices-for-staging-=
+environments/
+
+
+A detailed set of blog posts looking at how to evolve a monolithic applica=
+tion into a set of microservices. A good grounding in why and theory=2C an=
+d a great practical example in Java.
+
+http://blog.christianposta.com/microservices/low-risk-monolith-to-microser=
+vice-evolution/
+http://blog.christianposta.com/microservices/low-risk-monolith-to-microser=
+vice-evolution-part-ii/
+
+
+A post about the evolution of an internal deployment system in AWS=2C with=
+ some useful diagrams and discussion of integrating open source and AWS se=
+rvices.
+
+https://technology.condenast.com/story/departures-building-a-docker-contai=
+ner-based-deployment-platform-at-conde-nast
+
+
+Some good tips for ensuring secure practices in an infrastructure team. Wr=
+itten for company founders which also makes it useful for a general audien=
+ce or those getting started.
+
+https://medium.com/starting-up-security/an-infrastructure-guide-for-founde=
+rs-bbada8431fb1
+
+
+A great set of notes on the pros and cons of different code organisation s=
+trategies - covering monorepos=2C manyrepos and metarepos as a transition=
+ approach.
+
+http://notes.burke.libbey.me/metarepo/
+
+
+A solid argument about the failure of architecture=2C or rather the desire=
+ to adopt approaches (like CQRS=2C event sourcing=2C single page apps) for=
+ projects which are unlikely to need them.
+
+https://www.alexhudson.com/2017/10/14/software-architecture-failing/
+
+
+The following post is the simplest example I=E2=80=99ve seen of extending=
+ Kubernetes using custom resource definitions. Useful for anyone starting=
+ to investigate adding your own primitives to Kubernetes.
+
+https://medium.com/@andy.goldstein/an-introduction-to-extending-kubernetes=
+-with-customresourcedefinitions-76deb675b27a
+
+
+The Linux Foundation
+=3D=3D=3D=3D
+
+Free Webinar: How BI & Data Science Gets Results
+November 16=2C Online
+
+Statistical/data science models can now run on Hadoop in a much more cost-=
+effective manner than a few years ago. This results in fostering the conve=
+rgence of traditional BI and Data Science disciplines (machine learning=2C=
+ artificial intelligence... etc). Join the discussion with an incredible p=
+anel including ODPi=2C 4C Decision=2C ZEPL=2C and Pivotal=2C as we'll shar=
+e how this phenomenon is going to impact the Hadoop standard.
+
+https://goo.gl/DZyuuV
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar -  What=E2=80=99s New in Kubernetes 1.8
+October 26=2C Online
+
+Join members of the Kubernetes 1.8 release team to learn about the major f=
+eatures in this release and demo some of the highlights in the areas of st=
+orage=2C workloads and extensibility.
+
+https://goo.gl/MKvUFe
+
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists=2C December 6-8=2C in Austin for a broad range of te=
+chnical sessions on the cloud native ecosystem. We sold out in Berlin and=
+ are excited to see thousands of you from the community join us=2C this ti=
+me in Austin!
+
+http://goo.gl/wbdqve
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+OpenMetrics is a public working group looking to determine a standard for=
+ exposing metrics data=2C influenced by the Prometheus exposition format.=
+ I=E2=80=99m a big fan of adhoc agreement so hopeful this takes off.
+
+https://github.com/RichiH/OpenMetrics
+
+
+
+Like DevOps? Register for All Day DevOps - a FREE online conference this O=
+ctober=2C offering 100 DevOps-focused sessions across six different tracks=
+=2E Learn more & register:
+
+http://bit.ly/2wLKpbV
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

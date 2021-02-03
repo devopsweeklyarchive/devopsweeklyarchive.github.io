@@ -1,0 +1,127 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#390?=
+Date: Sun, 17 Jun 2018 16:32:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #390 - 17th June 2018
+
+A fair bit of Docker content this week=2C mainly with it being DockerCon r=
+ather than because I happen to work there hopefully. But some other good p=
+osts on the state of systems programming languages=2C comparisons of manag=
+ed Kubernetes services and talk of cloud vs private costs.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Efficient DevOps and IT operations software becomes more important each ye=
+ar. The IDC report deeply assesses the vendors on the market and how the i=
+ndustry is evolving:
+
+http://try.victorops.com/DevOpsWeekly/IDC-Study
+
+News
+=3D=3D=3D=3D
+
+A series of blog posts on using Jenkins and Docker to build a CI pipeline=
+=2C updated from two years ago. The overview of changes in the respective=
+ tools over the last 24 months in particular is super interesting.
+
+https://engineering.riotgames.com/news/revisiting-docker-and-jenkins
+
+
+A great post on exploring emerging systems languages=2C including Pony=2C=
+ Reason=2C Nim and Rust. The attempts to implement the same application in=
+ each are enlightening.
+
+https://medium.com/@sargun/systems-languages-an-experience-report-d008b2b1=
+2628
+
+
+Some handy tips for some of the biggest learning curves of running applica=
+tions on Kubernetes=2C namely debugging and troubleshooting.
+
+https://akomljen.com/learn-how-to-troubleshoot-applications-running-on-kub=
+ernetes/
+
+
+Some interesting stats about the adoption of Docker containers over 10=2C0=
+00 companies and 700 million containers. Seeing the data over the last 4 y=
+ears is interesting too.
+
+https://www.datadoghq.com/docker-adoption/
+
+
+A nice review of the recent Distributed Systems Availability:A Guide To Bu=
+ilding Robust Systems short book.
+
+https://www.bennadel.com/blog/3458-distributed-systems-observability-a-gui=
+de-to-building-robust-systems-by-cindy-sridharan.htm
+
+
+A useful side-by-side comparison of the main public cloud Kubernetes servi=
+ces (GKE=2C AKS and EKS). Looking at onboarding=2C availability=2C add-ons=
+ and more.
+
+https://blog.hasura.io/gke-vs-aks-vs-eks-411f080640dc
+
+
+A look at building your own continuous integration system from a custom we=
+b frontend=2C nomad=2C docker and the pants build system.
+
+https://medium.com/oscar-tech/building-our-own-continuous-integration-syst=
+em-adcdf0cb6df1
+
+
+A useful reminder that although comparisons of cloud vs private costs can=
+ be useful=2C a straight focus on like-for-like cost will likely see you m=
+issing the benefits of cloud adoption.
+
+http://www.diversity.net.nz/in-which-i-disagree-with-the-esteemed-dr-roger=
+s-cloud-cost-is-the-wrong-basis-for-decisions/2018/06/14/
+http://www.diversity.net.nz/more-on-that-451-private-cloud-economics-repor=
+t/2018/06/15/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Devops / SRE position in OAKLAND=2C CA. Help build out and maintain the sy=
+stems for Riffyn=2C a 30 person start up that is fixing how scientists int=
+eract with their data. You'll work with modern open-source tooling while m=
+aintaining mission-critical systems hosting a wide array of applications.
+
+https://riffyn.com/jobs/devops
+
+
+Citrusbyte is looking for experienced DevOps Engineers. We are a software=
+ consultancy focused on using modern tools to solve complex problems for g=
+lobal businesses. As a diverse team of experts spread across 20+ countries=
+ and pioneers of remote workplaces=2C we are leading digital transformatio=
+ns for our customers. Find out more and apply at:
+
+https://citrusbyte.applytojob.com/apply/SgMSSrfro6/Operations-Engineer
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Bias warning as I worked on this=2C but Docker Application Packages are wo=
+rk talking a look at if you=E2=80=99re a regular Compose user. They allow=
+ for sharing Compose-based applications via any image registry (including=
+ Docker Hub) and solve a few other reuse and sharing problems too.
+
+https://github.com/docker/app
+
+
+
+Efficient DevOps and IT operations software becomes more important each ye=
+ar. The IDC report deeply assesses the vendors on the market and how the i=
+ndustry is evolving:
+
+http://try.victorops.com/DevOpsWeekly/IDC-Study
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

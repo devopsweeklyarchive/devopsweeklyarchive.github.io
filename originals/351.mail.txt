@@ -1,0 +1,190 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#351?=
+Date: Sun, 17 Sep 2017 10:39:05 +0000
+
+DEVOPS WEEKLY
+ISSUE #351 - 17th September 2017
+
+September and October always appear popular times for industry events=2C s=
+o expect lots of presentations and details from conferences over the next=
+ month or so. I=E2=80=99ll see a few readers all being well at PuppetConf=
+ in SF=2C DockerCon in Copenhagen and Velocity in London.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Acknowledge and resolve IT & DevOps alerts directly from Slack with the ne=
+w native integration with VictorOps. Learn all about it here:
+
+http://try.victorops.com/Slack/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+6 Tips to Increase DevOps Collaboration and Improve Performance
+
+When apps fail=2C whose fault is it? In today=E2=80=99s DevOps world=2C ev=
+ery stakeholder along the application delivery pipeline is accountable for=
+ performance. In this eBook=2C you'll get important tips to increase colla=
+boration and improve performance for each role on your DevOps team.
+
+http://ow.ly/3RzV30cQNYb
+
+
+News
+=3D=3D=3D=3D
+
+As development teams adopt devops practices and operations work the questi=
+on arises of how to track that. This posts looks at a few approaches for t=
+eams using a Scrum board.
+
+https://elegantcode.com/2017/09/11/what-devops-does-to-scrum-teams/
+
+
+A great post about running a game day=2C focused on learning from simulate=
+d failures. Some good takeaways as well which are probably relevant to oth=
+er teams too.
+
+http://technology.quid.com/2017/09/our-first-engineering-game-day/
+
+
+A fantastically detailed post on moving from Solaris to Linux. Covers comm=
+on Solaris technology like Dtrace=2C Zones=2C SMF and ZFS.
+
+http://www.brendangregg.com/blog/2017-09-05/solaris-to-linux-2017.html
+
+
+A good post for anyone interested in how to extend LinuxKit images=2C this=
+ post shows an example of how to use ZFS.
+
+http://www.matt-j.co.uk/2017/09/15/using-zfs-with-linuxkit-and-moby/
+
+
+A look at an involved debugging story involving application load balancers=
+=2E Lots of graphs and logs and a good step-by-step story.
+
+https://blog.booking.com/troubleshooting-a-journey-into-the-unknown.html
+
+
+A quick overview of the Open Service Broker API project; why it exists=2C=
+ how it works and what to expect next.
+
+https://speakerdeck.com/avade/providing-services-to-cloud-native-platforms=
+-with-the-open-service-broker-api
+
+
+Interesting post about a new Python library targeting infrastructure use c=
+ases. Some interesting observations for anyone executing commands on a lar=
+ge number of machines over SSH.
+
+http://pythonsweetness.tumblr.com/post/165366346547/mitogen-an-infrastruct=
+ure-code-baseline-that
+
+
+Nice deep-dive presentation on SwarmKit=2C getting into the theory underpi=
+nning it and various design decisions for why it works that way.
+
+https://www.slideshare.net/rheinwein/swarmkit-in-theory-and-practice
+
+
+Testing distributed systems presents a number of challenges. This post exp=
+lores how one such system is tested=2C looking at design as well as severa=
+l layers of different types of tests with different tradeoffs.
+
+https://www.confluent.io/blog/apache-kafka-tested/
+
+
+Kubernetes is designed to make everything automatable=2C and this post is=
+ a good example. Automatically provisioning SSL certificates to services a=
+s needed=2C and monitoring certificates for expiry.
+
+https://roobert.github.io/2017/09/13/Monitoring-SSL-Certificate-Expiry/
+
+
+A discussion of the changing role of change management in an ITIL environm=
+ent adopting devops.
+
+https://www.icore-ltd.com/devops-itil-change-manager/
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Open Source Summit Europe
+
+Open Source Summit Europe=2C taking place October 23-26 in Prague will off=
+er 200+ sessions and tutorials on DevOps=2C Linux=2C cloud computing=2C co=
+ntainers and more. With in-depth tutorials on microservices=2C Docker=2C K=
+ubernetes and OpenStack -- this is an event you won=E2=80=99t want to miss=
+=2E Use discount code DEVOPSWEEKLY to receive $110 off your all-access atten=
+dee pass.
+
+https://goo.gl/zcvwPY
+
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists=2C December 6-8=2C in Austin for a broad range of te=
+chnical sessions on the cloud native ecosystem. We sold out in Berlin and=
+ are excited to see thousands of you from the community join us=2C this ti=
+me in Austin!
+
+http://goo.gl/wbdqve
+
+
+While Cloud Native Applications open up many new possibilities they also b=
+ring new challenges. One of the most discussed challenges is security. Joi=
+n us on September 21st for a free webinar featuring a panel of experts  di=
+scussing Security for Cloud Native Applications.
+
+https://goo.gl/oJmMV4
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Chef Community Summit - Connect with the Chef Community and learn about ge=
+tting involved=2C contributing to=2C and learning from your peers. Topics=
+ include Chef=2C InSpec=2C Habitat=2C Open Source=2C DevOps=2C and more! S=
+ummits are being held in Seattle=2C New York=2C and London this October. C=
+heck the agenda and register:
+
+http://summit.chef.io
+
+
+Devopsdays Edinburgh is coming up on October 23rd and 24th with talks on m=
+icroservices=2C kubernetes=2C the dangers of groupthink=2C machine learnin=
+g as well as lots of time for open spaces. Registration is open now.
+
+https://www.devopsdays.org/events/2017-edinburgh/welcome/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Probot looks like a nice addition for anyone using GitHub. On one level it=
+=E2=80=99s an open source framework for building GitHub Apps. But it also=
+ has a library of existing apps for common operations (closing stale issue=
+s=2C welcoming new contributors) that can be installed with one click.
+
+https://probot.github.io/
+
+
+Lagoon is a deployment system for microservices based on Docker and Kubern=
+etes. It deals with building images automatically and provisioning resourc=
+es when things change.
+
+https://github.com/amazeeio/lagoon
+
+
+
+Acknowledge and resolve IT & DevOps alerts directly from Slack with the ne=
+w native integration with VictorOps. Learn all about it here:
+
+http://try.victorops.com/Slack/DevOpsWeekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

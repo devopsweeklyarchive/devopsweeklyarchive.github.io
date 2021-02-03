@@ -1,0 +1,127 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#465?=
+Date: Sun, 24 Nov 2019 14:39:26 +0000
+
+DEVOPS WEEKLY
+ISSUE #465 - 24th November 2019
+
+KubeCon was all consuming last week=2C so I=E2=80=99m not sure I kept up w=
+ith everything going on at the conference=2C never mind elsewhere. But sti=
+ll lots to read this week production readiness=2C configuration complexity=
+=2C service mesh and more.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Understanding the incident lifecycle can guide DevOps and IT engineers int=
+o a future where on-call sucks less. See how you can breakdown the stages=
+ of the incident lifecycle and use automation=2C transparency and collabor=
+ation to improve each stage:
+
+https://go.victorops.com/devopsweekly-the-incident-lifecycle-guide
+
+
+News
+=3D=3D=3D=3D
+
+For folks who couldn=E2=80=99t make KubeCon=2C this set of posts covers ma=
+ny of the keynotes and some of the other highlights.
+
+https://redmonk.com/kfitzpatrick/2019/11/18/kubecon-north-america-2019-day=
+-0/
+https://redmonk.com/kfitzpatrick/2019/11/19/kubecon-north-america-2019-day=
+-1/
+https://redmonk.com/kfitzpatrick/2019/11/20/kubecon-north-america-2019-day=
+-2/
+https://redmonk.com/kfitzpatrick/2019/11/21/kubecon-north-america-2019-day=
+-3/
+
+
+Updated large-scale research on container and Kubernetes adoption=2C with=
+ some interesting stats about growing adoption=2C popular languages and ho=
+w quickly (or not) folks update Kubernetes.
+
+https://www.datadoghq.com/container-report/
+
+
+A report released by my employer at KubeCon=2C looking at vulnerabilities=
+ in the public Helm Chart repository. Some good stats and tips for maintai=
+ners and users to keep things secure.
+
+https://snyk.io/helm-report
+
+
+A post on production readiness=2C with a good example table of different p=
+roperties (availability=2C performance=2C capacity and more) and a scale f=
+or different stages like alpha=2C beta and GA).
+
+https://storj.io/blog/2019/11/measuring-production-readiness-using-qualifi=
+cation-gates/
+
+
+A description of the configuration complexity curve and an introduction to=
+ the CUE configuration language and tooling.
+
+https://blog.cedriccharly.com/post/20191109-the-configuration-complexity-c=
+urse/
+
+
+This (admittedly opinionated) post is a good description of the state of s=
+ervice mesh. What is it? Why should you care? What about all the hype?
+
+https://servicemesh.io/
+
+
+A look at the changes to the AWS metadata server=2C in response to the rec=
+ent Capital One breach. A good introduction to Server SIde Request Forgery=
+ and potential stringer mitigations too.
+
+https://ejj.io/blog/fixing-capital-one
+
+
+If you=E2=80=99re a Kubernetes administrator then having a powerful set of=
+ CLI tools installed can make management easier. This post looks at severa=
+l powerful terminal tools.
+
+https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-termi=
+nal-dd07cab51cd4
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays New York is coming up=2C on the 3rd and 4th of March next year.=
+ The CFP is open now and the organisers are in particular looking for new=
+ local voices.
+
+https://www.papercall.io/dodnyc2020
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+k3sup is a tool for bootstrapping a Kubernetes cluster (using K3s) on any=
+ local or remote VM. All you need is ssh access.
+
+https://github.com/alexellis/k3sup
+
+
+Fregot is a debugger and development tool for working with the Rego langua=
+ge used in Open Policy Agent.
+
+https://github.com/fugue/fregot
+
+
+
+Understanding the incident lifecycle can guide DevOps and IT engineers int=
+o a future where on-call sucks less. See how you can breakdown the stages=
+ of the incident lifecycle and use automation=2C transparency and collabor=
+ation to improve each stage:
+
+https://go.victorops.com/devopsweekly-the-incident-lifecycle-guide
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

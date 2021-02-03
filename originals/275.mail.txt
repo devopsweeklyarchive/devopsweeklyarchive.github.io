@@ -1,0 +1,194 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#275?=
+Date: Sun, 3 Apr 2016 11:08:20 +0000
+
+DEVOPS WEEKLY
+ISSUE #275 - 3rd April 2016
+
+A bit of a change this week=2C Devops Weekly has a new sponsor! After talk=
+ing with several interesting companies over the past month I=E2=80=99m hap=
+py to announce VictorOps as the new sponsor for the newsletter. You can re=
+ad a little more here https://victorops.com/blog/devops-weekly-victorops-w=
+in/ and do say congratulations to them on https://twitter.com/victorops.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Built for DevOps =E2=80=93 The VictorOps platform provides seamless incide=
+nt management to improve uptime and make on-call suck less.
+
+Start your free trial today: http://try.victorops.com/DevOps-Weekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+30-minute DevOps Performance Clinic
+
+Join our webinar April 7th to learn the four technical metrics you should=
+ be tracking to identify software issues before they crash your system. Al=
+ready having software issues? Ask our performance expert during our extend=
+ed Q&A session.
+
+http://ow.ly/10bsSL
+
+
+News
+=3D=3D=3D=3D
+
+The 2016 Devops Survey is open. For those that haven=E2=80=99t seen previo=
+us years this is an in-depth study into the adoption of various devops pra=
+ctices within organisations. The results from previous years are hugely us=
+eful to anyone promoting or encouraging devops adoption so please do take=
+ the time to fill it in this year.
+
+http://bit.ly/2016DevOpsSurvey
+
+
+Interesting overview=2C including looking into the technical details=2C of=
+ Twitter=E2=80=99s observability platform - focused on measurement and met=
+rics for a complex distributed system.
+
+https://blog.twitter.com/2013/observability-at-twitter
+https://blog.twitter.com/2016/observability-at-twitter-technical-overview-=
+part-i
+
+
+Some good advice for anyone adopting devops practices. A simple set of tes=
+ts focused around reducing silos=2C minimising hero behaviour=2C simplifyi=
+ng environments and more.
+
+https://medium.com/@stahnma/from-devops-to-devops-e51d70758da6#.dvtkmtct9
+
+
+A nice review of the recent designing delivery book=2C with a number of im=
+portant points about the applicability of system thinking to operations.
+
+https://oliverbaier.wordpress.com/2016/03/27/designing-delivery-by-jeff-su=
+ssna/
+
+
+A good reminder that by using external package repositories you=E2=80=99re=
+ in-effect extending your network out into the internet. As shown with the=
+ recent NPM issues this probably isn=E2=80=99t a great idea.
+
+https://devcentral.f5.com/articles/what-infrastructure-should-learn-from-n=
+pm-javascript-debacle-18563
+
+
+A nifty approach to preventing manual configuration drift. A simple script=
+ which tags AWS instances with a =E2=80=98contaminated=E2=80=99 whenever s=
+omeone logs in via SSH. You could then automatically reprovision those mac=
+hines.
+
+http://www.unixdaemon.net/cloud/contaminate-aws-instance-on-login/
+
+
+Announced at Build this week=2C Microsoft are including the Ubuntu user sp=
+ace in the next version of Windows 10. This post has some of the technical=
+ details and pointers to what to expect next.
+
+http://blog.dustinkirkland.com/2016/03/ubuntu-on-windows.html
+
+
+The growth of container orchestration tools has been a theme over the last=
+ year or so=2C with lots of momentum behind several tools and new ones eme=
+rging to compete or complement. This post delves into the relationships be=
+tween some of the tools and the resulting confusion.
+
+http://it20.info/2016/03/the-incestuous-relations-among-containers-orchest=
+ration-tools/
+
+
+An interesting proposal for the NPM node repository to provide a stable sn=
+apshot with support and interoperability guarantees=2C akin to how RedHat=
+ provide RHEL.
+
+https://medium.com/@DanForys/is-it-time-for-a-curated-stable-npm-cdebdab6e=
+cb6#.8vt5psaoq
+
+
+A useful=2C if simple=2C checklist for anyone building websites=2C focusin=
+g on various security issues. It would be useful if it provided more conte=
+xt with each of the checklist items.
+
+https://securitychecklist.org/
+
+
+Jobs
+=3D=3D=3D=3D
+
+We.Are.Expensify.com - We=E2=80=99re on the hunt for one bright soul to jo=
+in our infrastructure team to help battle expense reports that suck. We gu=
+arantee you fun=2C an amazing opportunity to learn and teach=2C and the si=
+ren's call of distant riches. With a healthy mix of cloud and owned racks=
+=2C you=E2=80=99d work hand-in-hand in our engineering org on a profitable=
+=2C well-loved product with a focus on improving scaling and security.
+
+we.are.expensify.com/jobs
+
+
+Cloud infrastructure Developer =E2=80=93 in Test (perm)
+Hiscox is undertaking a high profile internal project to start making use=
+ of cloud services in 2016/17. At the core of this will be a small special=
+ised team=2C dedicated to providing an automated delivery pipeline for Inf=
+rastructure as Code as well as a steadily increasing portfolio of applicat=
+ions. Quality and pace of change are core considerations in this effort. =
+ This role is responsible for ensuring quality in all aspects of the deliv=
+ery cycle with a focus on test automation.
+
+https://careers.peopleclick.com/careerscp/client_hiscox/external/jobDetail=
+s.do?functionName=3DgetJobDetail&jobPostId=3D12787&localeCode=3Den-us
+
+
+Build & Release engineer (perm)
+The Build & Release Engineer helps drive the adoption of DevOps culture=2C=
+ methodology=2C tools and processes across IT delivery teams in a way that=
+ add tangible business value to Hiscox. Key responsibilities include ensur=
+ing that technical teams are trained and in Continuous Delivery processes=
+ and associated tool chain (Splunk=2C UCD=2C Puppet=2C Bamboo=2C GIT etc)
+
+https://careers.peopleclick.com/careerscp/client_hiscox/external/jobDetail=
+s.do?functionName=3DgetJobDetail&jobPostId=3D12498&localeCode=3Den-us
+
+
+Events
+=3D=3D=3D=3D=3D
+
+The DevSecCon conference is coming back to London on the 20th of October a=
+nd currently has an open call for proposals. Last year was a great cross-s=
+ection of people from development=2C operations and security so a highly r=
+ecommended event to speak at or attend.
+
+http://www.devseccon.com/call-for-proposals/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Netdata is a tool for real-time performance measurements for computer infr=
+astructure. It deals with per-second measurements and displays them on an=
+ interactive dashboard.
+
+http://netdata.firehol.org/
+https://github.com/firehol/netdata
+
+
+Lynis is a security auditing and hardening tool for Linux and Unix based s=
+ystems. Implemented as a set of plugins it scans and reports on various vu=
+lnerabilities or misconfigurations.
+
+https://github.com/CISOfy/lynis
+
+
+
+Built for DevOps =E2=80=93 The VictorOps platform provides seamless incide=
+nt management to improve uptime and make on-call suck less.
+
+Start your free trial today: http://try.victorops.com/DevOps-Weekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

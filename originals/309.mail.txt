@@ -1,0 +1,128 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#309?=
+Date: Sun, 27 Nov 2016 10:47:51 +0000
+
+DEVOPS WEEKLY
+ISSUE #309 - 27th November 2016
+
+A couple of handy low-level Linux tools included this week for logging and=
+ auditing. It=E2=80=99s interesting to see continued improvements on well-=
+worn themes=2C alongside posts espousing serverless and public cloud.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+2016/17 State of On-Call Webinar (with DevOps.com): Register to learn what=
+ 800+ survey respondents have to say about life on-call.
+
+http://try.victorops.com/2016_17_stateofoncall
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+A Tale of Two Pipelines: To DevOps or Not to DevOps
+
+Trying to move to a DevOps methodology=2C or improve your current DevOps m=
+ethods? Need to increase innovation and the speed of your software deliver=
+y pipeline? Brett Hofer=2C Global DevOps Practice Lead at Dynatrace=2C wil=
+l show you how through a tour of two pipelines. You=E2=80=99ll get insight=
+s on key pipeline factors that plague traditional delivery pipelines and h=
+ow to overcome them with practices that establish a true DevOps.
+
+http://ow.ly/a3Av302XEHK
+
+
+News
+=3D=3D=3D=3D
+
+A good exploration of why you probably shouldn=E2=80=99t be focusing your=
+ efforts (as an organisation or I=E2=80=99d say as an individual) on build=
+ private clouds.
+
+https://m.subbu.org/dont-build-private-clouds-9a54b3d30c8b#.3k711kybp
+
+
+The co-evolution of technical systems and operational practices is a commo=
+n theme on this newsletter. This post takes a close look at how serverless=
+ emerged and why it=E2=80=99s going to be important.
+
+https://hackernoon.com/why-the-fuss-about-serverless-4370b1596da0#.ot36il2=
+sd
+
+
+The Linux audit subsystem is pretty great and this post explores some of i=
+t=E2=80=99s capabilities and the reasons why you might want to audit sysca=
+lls. It also has some interesting discussions about different applicable t=
+ools.
+
+https://slack.engineering/syscall-auditing-at-scale-e6a3ca8ac1b8#.s2qk5i5l=
+5
+
+
+An interesting example of wrapping existing application code and packaging=
+ it up as a container. In this case talking a COBOL application and allowi=
+ng you to integrate it into your Docker stack.
+
+https://articles.microservices.com/writing-docker-microservices-in-cobol-d=
+e72d5947b4f#.wcseh6t7n
+
+
+Kubernetes is definitely gathering steam=2C and lots of organisations are=
+ looking to provide a Kubernetes distribution. This post explores what thi=
+s means for the likely consumers.
+
+http://www.morethanseven.net/2016/11/23/the-coming-of-the-kubernetes-distr=
+ibutions/
+
+
+An exploration of implementing a green/blue deployment scheme for Lambda b=
+ased serverless applications. No perfect approach yet it seems but some us=
+eful ideas.
+
+https://blog.mitocgroup.com/blue-green-deployments-for-serverless-powered-=
+applications-on-aws-22a08447aa72#.tql1ng6jo
+
+
+A quick look at best practices for testing Ansible playbooks on Windows us=
+ing Test Kitchen.
+
+https://hodgkins.io/testing-ansible-roles-windows-test-kitchen
+
+
+Logging is an area that can benefit from improvements in most organisation=
+s=2C and this post does a good job of coming to that realisation and then=
+ lots of code examples of implementing a robust logging setup.
+
+https://juxt.pro/blog/posts/logging.html
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+mtail looks handy for anyone with a set of logs that would like to get tha=
+t information into a time series database of your choice. A simple DSL for=
+ parsing logs and incrementing counters=2C and sending the data to Prometh=
+eus=2C collectd=2C StatsD=2C or Graphite.
+
+https://github.com/google/mtail
+
+
+Mentioned in one of the posts above=2C go-audit is a tool for streaming Li=
+nux audit events into a centralised monitoring infrastructure=2C rather th=
+an processing the events locally.
+
+https://github.com/slackhq/go-audit
+
+
+
+2016/17 State of On-Call Webinar (with DevOps.com): Register to learn what=
+ 800+ survey respondents have to say about life on-call.
+
+http://try.victorops.com/2016_17_stateofoncall
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,110 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#414?=
+Date: Sun, 2 Dec 2018 18:20:56 +0000
+
+DEVOPS WEEKLY
+ISSUE #414 - 2nd December 2018
+
+I=E2=80=99m in Barcelona in the run up to DockerCon=2C so this weeks issue=
+ is a little abbridge. Still=2C several interesting posts on choosing serv=
+erless tooling=2C how we could make documentation a more first-class part=
+ of out development practices and more.
+
+
+>From our sponsor=2C Victorops
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Don=E2=80=99t allow alert fatigue to affect the productivity of DevOps tea=
+ms or the reliability of the underlying services. Learn more about what ca=
+uses alert fatigue and how you can mitigate some of the negative side effe=
+cts:
+
+http://try.victorops.com/devopsweekly/alert-fatigue
+
+
+News
+=3D=3D=3D=3D
+
+A good argument for starting your serverless journey using a developer fra=
+mework that takes away some of the configuration complexity.
+
+https://winterwindsoftware.com/serverless-newbies-should-use-framework/
+
+
+The recent HashiConf had a wide range of talks on Consul=2C Vault=2C Nomad=
+ and tools often used together with them. All of the videos from the talks=
+ are now available and worth browsing through.
+
+https://www.hashicorp.com/blog/video-recordings-from-hashiconf-2018
+
+
+A well argued case for making documentation a first-class part of how we b=
+uild container images=2C with some neat ideas for the user experience. I=
+=E2=80=99d love to see this sort of feature.
+
+https://medium.com/@lperkins/the-state-of-docker-container-documentation-s=
+ome-workarounds-and-a-vision-for-a-possible-future-693d6ca5baaf
+
+
+A good detailed explanation of what really is a Docker image. It shows wit=
+h simple examples how to dive into layers and what happens when you run th=
+e image.
+
+https://cameronlonsdale.com/2018/11/26/whats-in-a-docker-image/
+
+
+There have been a number of serverless vs containers discussions recently=
+=2C this post makes some good arguments about it being the wrong framing i=
+n many cases.
+
+https://blog.atomicinc.com/2018/11/26/serverless-vs-containers-silly/
+
+
+A discussion of rollback strategies for immutable infrastructure=2C lookin=
+g in particular at patterns on AWS ECS.
+
+https://medium.com/@eraclitux/deployment-rollback-in-a-containers-world-aw=
+s-ecs-edition-4bc8e34c0d5a
+
+
+Tools
+=3D=3D=3D=3D
+
+Firecracker is an open source virtualization technology that is purpose-bu=
+ilt for creating and managing secure=2C multi-tenant containers and functi=
+ons-based services. It=E2=80=99s used to provide fast booting but isolated=
+ VMs.
+
+https://firecracker-microvm.github.io/
+
+
+Cloud Discovery is a new tool for finding out what you have in your variou=
+s cloud environments. Just provide your API credentials and cloud disocver=
+y will provide useful lists and detect some known security-related mis-con=
+figurations.
+
+https://github.com/twistlock/cloud-discovery/
+
+
+Quack is Mutating Webhook Admission Controller for Kubernetes which introd=
+uces the idea of server-side template rendering. Quack is intended for tem=
+plating cluster-wide environment values such as the cluster name=2C region=
+ and environment.
+
+https://github.com/pusher/quack
+
+
+
+Don=E2=80=99t allow alert fatigue to affect the productivity of DevOps tea=
+ms or the reliability of the underlying services. Learn more about what ca=
+uses alert fatigue and how you can mitigate some of the negative side effe=
+cts:
+
+http://try.victorops.com/devopsweekly/alert-fatigue
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

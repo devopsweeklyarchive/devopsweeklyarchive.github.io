@@ -1,0 +1,158 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#308?=
+Date: Sun, 20 Nov 2016 14:59:57 +0000
+
+DEVOPS WEEKLY
+ISSUE #308 - 20th November 2016
+
+Two sets of presentations from two very different conferences (KubeCon and=
+ DevSecCon) this week=2C all published within a week or so of the event an=
+d free for everyone to watch and read. The fact this is becoming the norm=
+ means a pretty amazing learning resource exists for even the latest techn=
+ology or thinking. Good job conference folks.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Downtime sucks. Learn how leading minds in tech respond to outages on the=
+ Nov. 16th =E2=80=9CAsk Me Anything=E2=80=9D from Catchpoint & O=E2=80=99R=
+eilly Media.
+
+http://try.victorops.com/AMA
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+A Tale of Two Pipelines: To DevOps or Not to DevOps
+
+Trying to move to a DevOps methodology=2C or improve your current DevOps m=
+ethods? Need to increase innovation and the speed of your software deliver=
+y pipeline? Brett Hofer=2C Global DevOps Practice Lead at Dynatrace=2C wil=
+l show you how through a tour of two pipelines. You=E2=80=99ll get insight=
+s on key pipeline factors that plague traditional delivery pipelines and h=
+ow to overcome them with practices that establish a true DevOps.
+
+http://ow.ly/a3Av302XEHK
+
+
+News
+=3D=3D=3D=3D
+
+The slides and videos are available from the recent DevSecCon event=2C wit=
+h lots of great security and devops content on everything from patching an=
+d securing continuous delivery to moving network rules into the applicatio=
+n.
+
+http://www.slideshare.net/FrancoisRaynaud/clipboards/devseccon-london-2016
+http://www.devseccon.com/london-2016-videos/
+
+
+I=E2=80=99ve been writing again=2C this time about the end of the general=
+ purpose operating system=2C and what to expect next.
+
+http://www.morethanseven.net/2016/11/05/the-end-of-the-general-purpose-ope=
+rating-system-as-it-happens/
+
+
+KubeCon was only a week or so ago and the videos are already all available=
+=2E Lots of real-world case studies plus deep dive technical talks about Kub=
+ernetes and related technologies.
+
+https://www.youtube.com/channel/UCvqbFHwN-nwalWPjPUKpvTA
+
+
+Interesting post about learning from other architectures=2C in this case l=
+earning about how to build your own services in AWS by looking at how plat=
+form as a service providers operate.
+
+https://jvns.ca/blog/2016/11/16/ideas-about-how-to-use-aws/
+
+
+5 solid tips for running incident postmortems=2C from defining clear roles=
+ to taking good notes and sharing the findings.
+
+http://tech.shutterstock.com/2016/11/11/5-ways-to-hone-your-production-inc=
+ident-postmortems/
+
+
+A handy walkthrough of how to use Vault to secure secrets when running con=
+tainers in AWS ECS.
+
+https://www.kickstarter.com/backing-and-hacking/ecs-and-vault-shhhhh-i-hav=
+e-a-secret
+
+
+A useful reminder that you really should be running your Docker containers=
+ as read-only. Simple example of some of the benefits.
+
+https://diogomonica.com/2016/11/19/increasing-attacker-cost-using-immutabl=
+e-infrastructure/
+
+
+A look at some of the data and observsations from the recent swarm3k exper=
+iment in running a reasonably large Docker Swarm cluster. Lots of graphs a=
+nd interesting analysis.
+
+https://sematext.com/blog/2016/11/14/docker-swarm-lessons-from-swarm3k/
+
+
+If you want to understand system programming then it=E2=80=99s useful to h=
+ave a good understanding of what=E2=80=99s happening at the kernel level a=
+nd with syscalls. The tutorial (part of a series) explains how to write yo=
+ur own syscall.
+
+https://brennan.io/2016/11/14/kernel-dev-ep3/
+
+
+Some good tips for anyone building Docker images and looking to reduce the=
+ size of the resulting image.
+
+https://blog.codeship.com/reduce-docker-image-size/
+
+
+A look at using Docker to build container images and then exporting the re=
+sulting filesystem=2C which can then be run under systemd-nspawn. The usec=
+ase here is for desktop software but it=E2=80=99s an interesting workflow=
+ for other situations as well.
+
+http://blog.fntlnz.wtf/post/systemd-nspawn/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Storing credentials in your shell profile and exporting them as environmen=
+t variables is incredibly handy but very insecure. Envchain looks to provi=
+de the same ease of use but to use  OS X Keychain or gnome-keyring as the=
+ backing service.
+
+https://github.com/sorah/envchain
+
+
+Pinpoint is an open source Application Performance Management tool for lar=
+ge-scale distributed systems. It features some tracing capabilities=2C the=
+ various screenshots give a good sense of its capabilities.
+
+https://github.com/naver/pinpoint
+
+
+IronFunctions is an open source serverless platform which supports running=
+ Docker images via a simple API. It=E2=80=99s quite early but the document=
+ation walks you through how to try it out quickly.
+
+https://github.com/iron-io/functions
+
+
+
+Downtime sucks. Learn how leading minds in tech respond to outages on the=
+ Nov. 16th =E2=80=9CAsk Me Anything=E2=80=9D from Catchpoint & O=E2=80=99R=
+eilly Media.
+
+http://try.victorops.com/AMA
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

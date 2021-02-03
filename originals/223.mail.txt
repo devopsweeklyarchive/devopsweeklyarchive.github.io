@@ -1,0 +1,198 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#223?=
+Date: Sun, 12 Apr 2015 08:46:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #223 - 12th April 2015
+
+A packed issue this week with a scattering of presentations=2C examples of=
+ people adopting systems like Mesos and CoreOS=2C discussion of the changi=
+ng role of the IT department and an excellent post about recruitment for o=
+perations. Hopefully something for everyone.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored Event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Live Webinar] DevOps from Adoption to Performance featuring Gene Kim
+
+DevOps isn=E2=80=99t just for the =E2=80=9CUnicorns.=E2=80=9D Join us as G=
+ene Kim explains how you can replicate the DevOps practices & successes of=
+ the so-called =E2=80=9CUnicorns.=E2=80=9D Discover the lessons he=E2=80=
+=99s learned from studying these companies and how you can apply them at y=
+our company! Register now:
+
+http://ow.ly/Lr1oo
+
+
+News
+=3D=3D=3D=3D
+
+Microsoft made two big announcements this week=2C with Nano server (a tiny=
+ Windows for server deployments) and first class containers for Windows Se=
+rver and Hyper-V. Not available to use yet=2C but this opens up Windows to=
+ much more automation.
+
+http://azure.microsoft.com/blog/2015/04/08/microsoft-unveils-new-container=
+-technologies-for-the-next-generation-cloud/
+
+
+A very interesting article on the pressures on a typical IT team=2C and ho=
+w those pressures are leading to different structures - away from project=
+ focus towards a product focused organisation.
+
+http://www.fiercedevops.com/story/software-defined-businesses-need-softwar=
+e-defined-it-departments/2015-04-07
+
+
+I have a talk just yesterday on the intersection of configuration manageme=
+nt and service discovery=2C and why you need two speeds of configuration.=
+ The examples use Puppet and Consul=2C but the ideas should apply more gen=
+erally.
+
+https://speakerdeck.com/garethr/service-discovery-and-configuration-manage=
+ment
+
+
+Containers=2C and the accompanying ecosystem of tools are often finding a=
+ first use in testing pipelines. This example covers using CoreOS and Dock=
+er alongside Jenkins for simpe cross-platform testing.
+
+https://www.brightbox.com/blog/2015/04/09/jenkins-nodes-with-coreos/
+
+
+Last week I mentioned Chef Conf and I=E2=80=99ve found a few good writeups=
+ of the conference in general and a number of the talks. Lots of links fro=
+m these two (and if you=E2=80=99ve not seen the eggs video yet=E2=80=A6)
+
+https://victorops.com/blog/chefconf-2015/
+http://pietroshannon.com/posts/2015/04/chefconf2015/
+
+
+Recruitment and recruiters often get a bad press=2C so this blog post all=
+ about hiring people into operations roles (mainly in startups) from the r=
+ecruiter perspective is worth reading=2C or passing on to your in-house re=
+cruiters.
+
+https://medium.com/@samcnix/ops-recruitment-sh-d5c20302a12e
+
+
+A nice walkthrough of creating a continuous deployment pipeline using Meso=
+s and Marathon. Shows each step=2C from what to put into source control to=
+ the TeamCity configuration.
+
+https://mesosphere.com/blog/2015/04/02/continuous-deployment-with-mesos-ma=
+rathon-docker/
+
+
+Another good detailed post about Mesos=2C and how to setup an initial clus=
+ter with a pair of load balancers to service application traffic.
+
+http://www.ivoverberk.nl/towards-docker-in-production-with-apache-mesos/
+
+
+Audit mode is one of the interesting new additions to Chef=2C allowing you=
+ to write custom checks as part of your Chef runs. This post is a good int=
+roduction and has a bunch of easy-to-follow examples.
+
+http://jtimberman.housepub.org/blog/2015/04/03/chef-audit-mode-introductio=
+n/
+
+
+A good reading list for anyone interesting in operations or infrastructure=
+=2C it nicely focuses on system thinking and higher level issues over lots=
+ of books about tools.
+
+https://github.com/stack72/ops-books
+
+
+A presentation deck describing some of the issues with common monitoring s=
+oftware=2C and then digging into how Prometheus solves some of those=2C an=
+d how best to approach monitoring system design.
+
+http://www.slideshare.net/brianbrazil/devops-ireland-systems-monitoring-wi=
+th-prometheus
+
+
+If you find yourself building software for ARM chips this article will hel=
+p you setup a CI system on Travis or similar using QEMU and chroot.
+
+http://www.tomaz.me/2013/12/02/running-travis-ci-tests-on-arm.html
+
+
+An interesting way of seeing the inner workings of an open source project=
+ is to follow the often weekly call to discuss the project. The notes from=
+ a recent Kubernetes meeting make for an interesting insight into project=
+ priorities.
+
+http://kubernetesio.blogspot.be/2015/04/weekly-kubernetes-community-hangou=
+t_11.html
+
+
+A brief side-by-side comparison of ITSM and Devops practices=2C positionin=
+g ITSM as a quest for stability=2C and Devops primarily of use in achievin=
+g agility on top of that stability.
+
+http://www.vigilantguy.com/itsm-vs-devops-agility-vs-control-is-this-reall=
+y-battle-royale/
+
+
+Jobs
+=3D=3D=3D=3D
+
+DataSift is a streaming and real-time data processing platform=2C dealing=
+ with over 1 Billion interactions a day. We're looking for several Operati=
+ons Engineers with a passion for using automation=2C monitoring and modern=
+ operations tools to solve big data problems.  Our key principles are good=
+ automation and monitoring=2C and we use Chef=2C Graphite and Riemann at s=
+cale to help us with this. We offer competitive salaries=2C great benefits=
+ and awesome perks! We have offices in London and Reading.
+
+https://hire.jobvite.com/j?cj=3DoRqt0fwu&s=3DDevOpsWeekly
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Amsterdam is coming up on the 24th until the 26th of June. The=
+ CFP is open=2C and the organisers are looking for submissions for talks=
+=2C ignites and workshops.
+
+http://www.devopsdays.org/events/2015-amsterdam/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Vega is a distributed mailbox=2C with an HTTP API and plans for AMQP and S=
+TOMP support. It=E2=80=99s designed to be durable and resilient under fail=
+ure=2C and uses Consul under the hood. It=E2=80=99s intended as the backbo=
+ne for how other components communicate with each other.
+
+https://github.com/vektra/vega
+
+
+Hub release is a handy utility for automatically populating release notes=
+ on github based on commit messages and closed issues.
+
+https://github.com/zestia/hubrelease
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

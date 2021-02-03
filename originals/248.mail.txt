@@ -1,0 +1,171 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#248?=
+Date: Sun, 4 Oct 2015 11:51:56 +0000
+
+DEVOPS WEEKLY
+ISSUE #248 - 4th October 2015
+
+I=E2=80=99m flying out to Portland for PuppetConf next week. Anyone who=E2=
+=80=99s going to be there do come and say Hi. AWS re:Invent is also next w=
+eek so if anyone is attending that event do send me links to any interesti=
+ng talks or announcements.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] The Art of DevOps
+
+Inspired by the famous 6th century Chinese manuscript: The Art of War=2C t=
+his eBook discusses DevOps in the form of a mission to continuously delive=
+r assets to the operational battlegrounds safely=2C securely=2C and quickl=
+y.
+
+http://ow.ly/SAQjT
+
+
+News
+=3D=3D=3D=3D
+
+A great presentation on building stateful services=2C including a look at=
+ data locality and sticky connections. Introduces complex distributed syst=
+ems theory with understandable pictures.
+
+https://speakerdeck.com/caitiem20/building-scalable-stateful-services
+
+
+A good write-up of a recent paper focused on the use of resource schedulin=
+g in cloud computing environments. A good explanation of the importance of=
+ different heuristic in scheduling too.
+
+http://blog.acolyer.org/2015/10/02/cloud-computing-resource-scheduling-and=
+-a-survey-of-its-evolutionary-approaches/
+
+
+A good discussion and description of enterprise architecture=2C both why i=
+t emerged and how it fits in with a more devops oriented=2C software centr=
+ic=2C organisation.
+
+http://www.dromologue.com/post/123570767867/the-war-of-independence-for-en=
+terprise
+
+
+A call for more friendly conversations between the ITIL and Devops communi=
+ties. I=E2=80=99d love to see more cross-over events with people from the=
+ different sides of the debate. talking about modern ITSM.
+
+http://allthingsitsm.com/a-note-to-my-friend-devops-from-itil/
+
+
+A nice writeup of profiling a Python application=2C using a few well chose=
+n low level tools and an understanding of the runtime.
+
+https://nylas.com/blog/performance
+
+
+A nice case-study focused on a small-scale update to a radio streaming sit=
+e starting to run into scaling issues. A great example of what=E2=80=99s p=
+ossible today with limited effort.
+
+https://medium.com/@pereiragoncalo/icecast-in-production-7313cb5c95ff
+
+
+VictorOps are conducting another State of on-call survey this year. Help b=
+y filling out the survey and then look out for the results.
+
+https://www.research.net/r/SOC-2015
+
+
+A nice description=2C along with diagrams=2C of the differences between mo=
+nolithic and microservice based architectures.
+
+http://dev.otto.de/2015/09/30/on-monoliths-and-microservices/
+
+
+Load balancers are always a critical thing to monitor=2C often being one o=
+f the first things incoming requests hit. This post covers how to monitor=
+ Amazon=E2=80=99s ELB service in some detail.
+
+https://www.datadoghq.com/blog/top-elb-health-and-performance-metrics/
+
+
+An explanation of some of the benefits of providing single-use command lin=
+e applications as docker containers=2C in this case providing the DCOS-CLI=
+ tools for use with Mesos.
+
+http://capgemini.github.io/devops/tooling-as-a-service/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Hired gives top DevOps Engineers more power in their job search. You'll cr=
+eate a profile & over 1 week tech companies will apply to you! You'll get=
+ salary/equity offers upfront & you're under no obligation to accept any o=
+ffer. Interested? Join Hired today!
+
+http://hrd.cm/1Ln3YwY
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devops Days Singapore is coming up in a few weeks time=2C on the 16th and=
+ 17th of October. The program is available and features a good mix of inte=
+resting looking talks and open spaces.
+
+http://www.devopsdays.org/events/2015-singapore/program/
+
+
+The week before the Singapore event=2C Devops Days Tel Aviv is taking plac=
+e on the 7th and 8th of October. Talks on scaling=2C leadership=2C devops=
+ adoption case studies and maths.
+
+http://www.devopsdays.org/events/2015-telaviv/program/
+
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Amazon=E2=80=99s ECS service automatically allocates containers to hosts=
+=2C which is great until you want to better understand your utilisation an=
+d where software is running. Enter Cloud Container Cluster Visualizer.
+
+http://blog.mattcallanan.net/2015/10/c3vis-finding-your-docker-containers-=
+on.html
+https://github.com/ExpediaDotCom/c3vis
+
+
+Automating your local development environment is useful=2C both for learni=
+ng new tools and in any growing team environment. Superlumic is a new tool=
+ in that space that=E2=80=99s a thin wrapper around Ansible=2C which comes=
+ to some example configurations.
+
+https://github.com/superlumic/superlumic
+https://github.com/superlumic/superlumic-config
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

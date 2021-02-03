@@ -1,0 +1,170 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#224?=
+Date: Sun, 19 Apr 2015 12:38:05 +0000
+
+DEVOPS WEEKLY
+ISSUE #224 - 19th April 2015
+
+One thing that has made putting together this newsletter relatively easy i=
+s just how open the community is=2C from Google publishing the Borg paper=
+ this week to Square open sourcing the secret management tool Keywhiz. Tha=
+nks to every individual and company that puts code or research or options=
+ out there=2C it makes it easier for everyone else to learn.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored Event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Live Webinar] DevOps from Adoption to Performance featuring Gene Kim
+
+DevOps isn=E2=80=99t just for the =E2=80=9CUnicorns.=E2=80=9D Join us as G=
+ene Kim explains how you can replicate the DevOps practices & successes of=
+ the so-called =E2=80=9CUnicorns.=E2=80=9D Discover the lessons he=E2=80=
+=99s learned from studying these companies and how you can apply them at y=
+our company! Register now:
+
+http://ow.ly/Lr1oo
+
+
+News
+=3D=3D=3D=3D
+
+Google=E2=80=99s Borg cluster management software has been the inspiration=
+ for lots of tools=2C and Google this week published the paper Large-scale=
+ cluster management at Google with Borg. Lots of takeaways for anyone buil=
+ding distributed architectures.
+
+http://static.googleusercontent.com/media/research.google.com/en//pubs/arc=
+hive/43438.pdf
+
+
+Infrastructure secret management is a hard problem. This post explains the=
+ characteristics of a good solution=2C and then introduces a new open sour=
+ce application called Keywhiz to help solve it.
+
+https://corner.squareup.com/2015/04/keywhiz.html
+
+
+An interesting deck tying together design thinking=2C lead=2C agile and de=
+vops into a spectrum=2C and placing that in the context of the changing fa=
+ce of IT.
+
+http://www.slideshare.net/ingineeringit/from-design-thinking-to-devops-and=
+-back-again-unifying-design-and-operations
+
+
+A really good in-depth look at using HAProxy everywhere; for internal and=
+ external load balancing and for high-availability traffic routing.
+
+http://engineeringblog.yelp.com/2015/04/true-zero-downtime-haproxy-reloads=
+=2Ehtml
+
+
+A response to the above post=2C this next blog post is a similarly detaile=
+d look at an alternative way of dealing with HAProxy=2C the main differenc=
+e being when HAProxy is also used for SSL offloading.
+
+http://inside.unbounce.com/product-dev/haproxy-reloads/
+
+
+This article explains why=2C if you=E2=80=99re an enterprise organisation=
+=2C you should be having a conversation about how you might use containers=
+ now and in the future. A good overview of the current tech and how it int=
+eracts with security=2C existing vendors=2C cloud migrations and more.
+
+http://premium.wikibon.com/time-for-the-enterprise-container-conversation/
+
+
+Vector is the recently announced performance monitoring stack from Netflix=
+=2E This blog post helps you get up and running=2C and has some nice blog po=
+sts with what you can expect if you start using it.
+
+https://ma.ttias.be/taking-netflixs-vector-performance-monitoring-tool-for=
+-a-spin/
+
+
+Repeatable builds are an important concept when building software. This po=
+st acts as a good reminder that it=E2=80=99s virtually impossible to achie=
+ve without taking into account time and the state of the entire internet.
+
+http://steveloughran.blogspot.co.uk/2015/04/build-tools-as-proof-engines.h=
+tml
+
+
+Keeping up with the best practices around SSL certificate configuration ca=
+n be difficult=2C so a big thanks to Mozilla for publishing a quick genera=
+tor based on their research.
+
+https://mozilla.github.io/server-side-tls/ssl-config-generator/
+
+
+A good discussion of the place of the dedicated staging environment in mod=
+ern software deployments. Some good points=2C although I think it does dep=
+end on the context.
+
+http://blog.takipi.com/your-staging-environment-sucks-5-reasons-why-you-sh=
+ould-drop-it/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Is Chef more to you than a character on South Park? Find new DevOps opport=
+unities on Hired.
+
+http://hrd.cm/1IDr1xC
+
+
+Yoyo Wallet=2C a mobile payments and loyalty platform=2C is looking for a=
+ DevOps engineer with solid AWS experience. We=E2=80=99ve just raised a $1=
+0m Series A and need a sharp engineer to help design and run our infrastru=
+cture. Come and join a great team:
+
+https://yoyo.workable.com/jobs/33112
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The Cloud Foundry Summit is coming up on May 11th and 12th in Santa Clara.=
+ The organisers have kindly offered a 25% discount to Devops Weekly reader=
+s. The schedule looks a good mix of new technology and operations topics.=
+ Just use the code DOW25CFS15 at checkout.
+
+http://www.cfsummit.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Sometimes you just want a lo-fi dashboard. A browser window to refresh and=
+ reload as needed. Page Refreshr solves that problem nice and simply.
+
+https://github.com/Jimdo/page-refreshr
+
+
+Smolder is a simple tool for testing API endpoints. Describe the URLs=2C h=
+eaders and required responses in JSON and run tests against your API. I=E2=
+=80=99d probably prefer something more human
+
+https://github.com/sky-shiny/smolder
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

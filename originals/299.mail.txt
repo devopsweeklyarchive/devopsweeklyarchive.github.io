@@ -1,0 +1,187 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#299?=
+Date: Sun, 18 Sep 2016 09:56:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #299 - 18th September 2016
+
+A packed issue this week with lots of tools=2C news and views=2C interesti=
+ng content from our sponsors=2C jobs and events. Hopefully something for e=
+veryone.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Beefen up your DevOps chops. VictorOps tackles the most-used terms and con=
+cepts in DevOpsLand in 90 seconds or less.
+
+Watch now: http://bit.ly/2cCqzrc
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+A Tale of Two Pipelines: To DevOps or Not to DevOps
+
+Need to increase innovation and the speed of your software delivery pipeli=
+ne? Watch this on-demand webinar to get insights on key pipeline factors t=
+hat plague traditional delivery pipelines and how to overcome them with pr=
+actices that establish a true DevOps culture for a faster and less trouble=
+some continuous delivery pipeline.
+
+http://ow.ly/a3Av302XEHK
+
+
+News
+=3D=3D=3D=3D
+
+An impassioned plea that microservices probably won=E2=80=99t fix your pro=
+blems=2C and come with a multitude of downsides that you really should con=
+sider first.
+
+https://blog.komand.com/microservices-please-dont
+
+
+Containers are still very new for the majority of folks=2C even for a news=
+letter like Devops Weekly. So questions from those learning are super usef=
+ul for everyone. Here=E2=80=99s a great set thinking about adopting docker=
+ or rkt into a production environment.
+
+http://jvns.ca/blog/2016/09/15/whats-up-with-containers-docker-and-rkt/
+
+
+A great review of the 2007 paper On designing and deploying internet-scale=
+ services from James Hamilton. You should read the paper too but the revie=
+w does a good job of picking out important points for anyone architecting=
+ modern systems today.
+
+https://blog.acolyer.org/2016/09/12/on-designing-and-deploying-internet-sc=
+ale-services/
+
+
+A detailed and practical look at moving towards a service based architectu=
+re=2C and adopting Mesos and Marathon to deal with scaling out the service=
+s.
+
+http://labs.strava.com/blog/mesos/
+
+
+An interesting article about modern application layer security=2C looking=
+ at the impact of chatops=2C correlation of events=2C visualization and mo=
+re.
+
+https://labs.signalsciences.com/top-5-appsec-defense-needs-in-the-modern-e=
+ra-dfef4b60bbce#.i5hbztf3u
+
+
+Some interesting observations about the crossover of operations and securi=
+ty from the recent Devopsdays Chicago event. Gets to the fact the issues a=
+re often organisational and cultural as much as technical.
+
+http://blog.threatstack.com/devopsdays-chicago-2016-dev-ops-the-role-of-se=
+curity
+
+
+A good user report of using the Zipkin tracing application for monitoring=
+ requests through a microservices architecture. A few hints and tips for a=
+nyone else looking at tracing in general too.
+
+http://engineering.curalate.com/2016/09/12/zipkin-at-curalate.html
+
+
+Collected videos from the recent Facebook Scale event. Talks cover everyth=
+ing from monorepos to using GPUs for deep learning and open source in larg=
+e organisations to improved file compression algorithms.
+
+https://code.facebook.com/posts/310885679260307/highlights-from-scale-2016
+
+
+If you have applications creating local logs you probably want to ship the=
+m somewhere. This post covers strengths and weaknesses of several tools in=
+ the space including logstash=2C fluentd and syslog-ng.
+
+https://sematext.com/blog/2016/09/13/logstash-alternatives/
+
+
+An interesting post that rings true for learning any new tool or technolog=
+y I think. In this case it=E2=80=99s the story of learning=2C and then usi=
+ng in a work context=2C machine learning approaches.
+
+https://medium.com/learning-new-stuff/machine-learning-in-a-year-cdb0b0ebd=
+29c#.63glwjxrk
+
+
+Jobs
+=3D=3D=3D=3D
+
+Hired gives top DevOps Engineers more power in their job search. In 1 week=
+ you'll get 8+ offers from top tech companies around the US and UK. Want t=
+o learn more? Check out Hired today!
+
+http://hrd.cm/23r2ok5
+
+
+GoCardless is looking for DevOps Engineers to help scale our infrastructur=
+e. You will be part of a small team that sets the direction of the GoCardl=
+ess core stack. We use Go=2C Chef=2C PostgreSQL=2C Docker=2C and Elasticse=
+arch. We=E2=80=99re looking for people who are eager to improve and automa=
+te changes to our infrastructure and who enjoy finding elegant solutions f=
+or complex problems. If you want to learn more=2C we often post about our=
+ projects on https://gocardless.com/blog/tagged/engineering
+
+https://gocardless.com/about/jobs/devops-engineer/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Warsaw is happening on the 22nd and 23rd of November. The call=
+ for proposals is open until the 30th of September if you=E2=80=99ll like=
+ to submit a talk or an ignite=2C and registration is open now too.
+
+https://www.devopsdays.org/events/2016-warsaw/welcome/
+
+
+The Lisa conference is coming up on December 4th to 9th in Boston=2C MA. F=
+ocused on systems engineering and operations=2C the programme looks great.=
+ Early bird registration is open until November 10th.
+
+https://www.usenix.org/conference/lisa16/glance
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Envoy is a new proxy and network bus that runs on every host and abstracts=
+ the network by providing common features (load balancing=2C circuit break=
+ing=2C service discovery=2C etc.) for your applications and services.
+
+https://eng.lyft.com/announcing-envoy-c-l7-proxy-and-communication-bus-925=
+20b6c8191#.vlashkab0
+https://lyft.github.io/envoy/
+
+
+Minio is an object storage server which provides compatibility with Amazon=
+ S3. It provides a nice command line and web based interface and can serve=
+ an existing directory of files.
+
+https://github.com/minio/minio
+
+
+CoreDNS is a new DNS based service discovery tool=2C intended to be the ne=
+xt generation of the popular SkyDNS project. It=E2=80=99s built using Cadd=
+y and already comes with several optional middleware components.
+
+https://coredns.io/
+
+
+Beefen up your DevOps chops. VictorOps tackles the most-used terms and con=
+cepts in DevOpsLand in 90 seconds or less.
+
+Watch now: http://bit.ly/2cCqzrc
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

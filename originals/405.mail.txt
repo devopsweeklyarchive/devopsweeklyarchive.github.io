@@ -1,0 +1,146 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#405?=
+Date: Sun, 30 Sep 2018 10:50:41 +0000
+
+DEVOPS WEEKLY
+ISSUE #405 - 30th September 2018
+
+A spread of big picture and technical posts this week; from datacenter pow=
+er usage and patterns for organisational change to building multi-region v=
+irtual machines and managing Kubernetes resources with code. Enjoy.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The term DevOps carries a number of misconceptions among some teams. So=2C=
+ we took it upon ourselves to straighten out the myths and define the trul=
+y key philosophies of DevOps:
+
+http://try.victorops.com/devopsweekly/core-tenets-of-devops
+
+
+News
+=3D=3D=3D=3D
+
+Power consumption from hyperscale datacenters is a growing portion of worl=
+d-wide power usage. This petition=2C and the accompanying white paper=2C a=
+re trying to raise the profile of this important issue.
+
+https://www.change.org/p/sustainable-servers-by-2024
+
+
+This post explores different ways of changing how teams and organisations=
+ work=2C looking in particular at patterns and antipatterns when it comes=
+ to mandating one way of working.
+
+https://medium.com/@jonathansmart1/organisational-agility-give-people-a-vo=
+ice-5d5e68449aa7
+
+
+A look at using Pulumi for managing configuration for Kubernetes=2C includ=
+ing installing using Helm charts and applying transformations to third-par=
+ty resources.
+
+https://leebriggs.co.uk/blog/2018/09/20/using-pulumi-for-k8s-config-mgmt.h=
+tml
+
+
+A highly detailed post on designing=2C building and optimising a very larg=
+e load balancing setup.
+
+https://medium.com/netflix-techblog/netflix-edge-load-balancing-695308b554=
+8c
+
+
+A look at multi-datacenter usage of Consul and Kubernetes=2C including wal=
+king through an example setup.
+
+https://tech.holidayextras.com/multi-dc-consul-on-kubernetes-9a6a7dcb89e3
+
+
+A comprehensive set of notes from the recent Devopsdays London event=2C co=
+vering talks and open spaces on empathy=2C management=2C on call=2C blamel=
+ess incident reviews and more.
+
+https://medium.com/@AaronKalair/devopsdays-london-2018-notes-38f1ae44c95
+
+
+Managing dependencies=2C especially native dependencies=2C for Lambda can=
+ be tricky. This post steps through some of the problems and looks at some=
+ possible=2C maybe surprising=2C solutions.
+
+https://veekaybee.github.io/2018/09/24/the-case-of-the-broken-lambda/
+
+
+A walkthrough of building virtual machines images for Azure=2C in particul=
+ar looking at using Packer and ensuring images are available across region=
+s.
+
+http://www.anniehedgie.com/azure-managed-images
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon + CloudNativeCon is coming up on November 13-15 in Shanghai. Join=
+ us to discuss the future of cloud native computing=2C including emerging=
+ trends in microservices architectures and container orchestration with te=
+chnologies like Kubernetes=2C Prometheus=2C and many more.
+
+http://bit.ly/2oPLjT6
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Experience Velocity for only =C2=A399
+If you=E2=80=99ve given up on attending the O'Reilly Velocity Conference (=
+30 Oct-2 Nov in London) this year due to lack of time or money=2C don=E2=
+=80=99t abandon hope just yet. For just =C2=A399=2C the Pavilion Plus Pass=
+ grants you access to the leading conference on DevOps=2C performance=2C c=
+loud infrastructure=2C and more. You'll be able to attend all keynotes and=
+ sponsored sessions=2C all evening events and other casual discussion spac=
+es at the conference=2C and of course=2C you'll have access to the Sponsor=
+ Pavilion to learn about the latest technology products and services. What=
+'s the catch? There are only 100 Velocity Pavilion Plus passes available.=
+ Grab yours now before they sell out!
+
+https://oreil.ly/2NGuXed
+
+
+DevOpsDays Kansas City coming up on October 17th and 18th. The agenda has=
+ the usual mix of open spaces=2C ignite talks and presentations as well as=
+ workshops. Topics include organisational design=2C kubernetes=2C incident=
+ response and more.
+
+http://devopsdayskc.org/
+
+
+Tools
+=3D=3D=3D=3D
+
+Ko is a type-safe language for concurrent=2C stateful=2C deadlock-free sys=
+tems and protocol manipulations. It=E2=80=99s build atop the go runtime so=
+ would make an interesting embedded language for configuration usecases.
+
+https://github.com/kocircuit/kocircuit
+
+
+A handy dashboard for monitoring the status of Kubernetes cron jobs=2C sho=
+wing jobs currently running and those that have failed.
+
+https://github.com/pietervogelaar/kubernetes-job-monitor
+
+
+
+The term DevOps carries a number of misconceptions among some teams. So=2C=
+ we took it upon ourselves to straighten out the myths and define the trul=
+y key philosophies of DevOps:
+
+http://try.victorops.com/devopsweekly/core-tenets-of-devops
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

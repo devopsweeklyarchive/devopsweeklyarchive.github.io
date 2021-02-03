@@ -1,0 +1,160 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#339?=
+Date: Sun, 25 Jun 2017 12:21:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #339 - 25th June 2017
+
+Lots of container tools this week=2C along with a solid set of posts on ev=
+erything from the advantages of on-call to a few stories of tuning a searc=
+h index and dealing with a production failure.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+New eBook for DevOps pros: The Dev and Ops Guide to Incident Management of=
+fers 25+ pages of essential insight into building teams and improving your=
+ response to downtime.
+
+http://try.victorops.com/DevOpsWeekly/IM_eBook
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+6 Tips to Increase DevOps Collaboration and Improve Performance
+
+When apps fail=2C whose fault is it? In today=E2=80=99s DevOps world=2C ev=
+ery stakeholder along the application delivery pipeline is accountable for=
+ performance. In this eBook=2C you'll get important tips to increase colla=
+boration and improve performance for each role on your DevOps team.
+
+http://ow.ly/3RzV30cQNYb
+
+
+News
+=3D=3D=3D=3D
+
+A great post on what developers (or operators) learn from being on call=2C=
+ and more specifically from supporting software in production. Good points=
+ about confidence=2C understanding the edges of a system=2C risk analysis=
+ and more.
+
+https://jvns.ca/blog/2017/06/18/operate-your-software/
+
+
+A nice follow on from the above=2C this post shows the tools behind explor=
+ing a real production incident=2C from finding the issue via instrumentati=
+on to looking at logs to debug the issue.
+
+https://www.slideshare.net/seiffertp/monitoring-and-logging-in-wonderland
+
+
+With containers it=E2=80=99s always worth understanding how they work=2C a=
+s the nature of the abstraction means it can leak. This post contains a bu=
+nch of examples and make it clear portability is not compatibility.
+
+http://crunchtools.com/portability-not-compatibility/
+
+
+A solid write-up of tuning a search index=2C rather than just throwing mor=
+e hardware at it=2C when indexing 35 million documents and optimising for=
+ query performance.
+
+https://medium.com/@giovannidamiola/making-the-internet-archives-full-text=
+-search-faster-30fb11574ea9
+
+
+A good experience report from running Kubernetes on Azure. A useful format=
+ comparing initial impressions with changes and improvements over the last=
+ year. Lots of handy tips for Azure usage too.
+
+http://dev.haufe.io/state-of-kubernetes-on-azure-part-ii/
+
+
+A presentation going through 10 years of deployment tooling changes for a=
+ simple Rails application. From capistrano to Kubernetes with lots of step=
+s in between.
+
+https://phraseapp.s3-eu-west-1.amazonaws.com/cap-to-kube.pdf
+
+
+A walkthrough of creating a custom image on Azure using the standard tooli=
+ng=2C and then launching instances of that image using Terraform.
+
+http://www.anniehedgie.com/azure-vm-from-custom-image-in-terraform
+
+
+Having a dynamically provisioned version of your application stood up for=
+ proposed code changes is a useful way of reviewing the running app alongs=
+ide the proposed source code changes. This post shows how to use GitLab an=
+d Docker to accomplish this.
+
+https://blog.bitexpert.de/blog/dockerizing-gitlab-review-apps/
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon / CloudNativeCon Austin - Join leading Kubernetes and Cloud Native=
+ technologists in Austin for a full range of technology sessions on the cl=
+oud native ecosystem.
+
+We sold out in Berlin and are excited to see thousands of you from the com=
+munity in Austin! Call for papers and registration information linked.
+
+https://goo.gl/yKCHvh
+
+
+Jobs
+=3D=3D=3D=3D
+
+DevOps Job Offers Delivered=2C straight to your inbox - Get Hired
+
+http://hrd.cm/2jHrf1B
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kube-bench is a handy tool for checking a Kubernetes installation against=
+ the published security guidelines in the CIS Kubernetes 1.6 Benchmark.
+
+https://github.com/aquasecurity/kube-bench
+
+
+ImageWolf is a new tool to help quickly distribute Docker images around a=
+ cluster using BitTorrent. ImageWolf runs on Docker Swarm and can integrat=
+e with both the Docker Hub and local registries.
+
+http://container-solutions.com/lightning-image-deployment-imagewolf/
+https://github.com/ContainerSolutions/ImageWolf
+
+
+Buildkit is a new=2C low level=2C tool for building container images. The=
+ intention is to provide the backend for build in a separate package=2C al=
+lowing for compatible but new and different build interfaces to be built.
+
+https://github.com/moby/buildkit
+
+
+Managing secrets in a way that feels native to Kubernetes has been much di=
+scussed. Sealed Secrets therefore looks like an potential approach with so=
+me interesting properties.
+
+https://github.com/bitnami/sealed-secrets
+
+
+
+New eBook for DevOps pros: The Dev and Ops Guide to Incident Management of=
+fers 25+ pages of essential insight into building teams and improving your=
+ response to downtime.
+
+http://try.victorops.com/DevOpsWeekly/IM_eBook
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

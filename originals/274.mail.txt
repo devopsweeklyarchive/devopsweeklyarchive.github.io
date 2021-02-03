@@ -1,0 +1,166 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#274?=
+Date: Sun, 27 Mar 2016 10:35:42 +0000
+
+DEVOPS WEEKLY
+ISSUE #274 - 27th March 2016
+
+This is the first issue of this newsletter to go to more than 20=2C000 sub=
+scribers. Which is pretty amazing if you ask me. Thanks to everyone who se=
+nds me interesting content or provides feedback.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] The Art of DevOps
+
+Inspired by the famous 6th century Chinese manuscript: The Art of War=2C t=
+his eBook discusses DevOps in the form of a mission to continuously delive=
+r assets to the operational battlegrounds safely=2C securely=2C and quickl=
+y.
+
+http://ow.ly/U3Jlm
+
+
+News
+=3D=3D=3D=3D
+
+Dealing with production problems is a regular occurrence for any operator=
+=2C but little research has been done on how people work. This paper=2C on=
+ Trade-offs under pressure: Heuristics and observations of teams resolving=
+ internet service outages=2C is therefore worth reading by anyone interest=
+ed or involved in  operations.
+
+http://lup.lub.lu.se/luur/download?func=3DdownloadFile&recordOId=3D8084520=
+&fileOId=3D8084521
+
+
+Some interesting data on how immutable some people=E2=80=99s immutable inf=
+rastructure really is. The problem? The only way to treat systems as immut=
+able (the goal) without replacing them (because of risk) is to not upgrade=
+ them.
+
+http://blog.threatstack.com/it-all-started-with-a-wager-about-system-upgra=
+des
+
+
+A great detailed discussion of the various networking models within AWS. L=
+ots of different people=E2=80=99s opinions nicely condensed.
+
+http://charity.wtf/2016/03/23/aws-networking-environments-and-you/
+
+
+Some interesting observations about how IT organisations are changing in s=
+tructure as they adopt more cloud centric and more product centric ways of=
+ working.
+
+https://medium.com/@cote/crafting-the-cloud-native-organization-d565bd1b3a=
+ac#.9husxilu8
+
+
+A useful side by side comparison for sysvinit and systemd commands.
+
+https://fedoraproject.org/wiki/SysVinit_to_Systemd_Cheatsheet
+
+
+A quick writeup of the recent pipeline conference. SOme interesting topics=
+=2C from branching strategies to fixed cost development to testing.
+
+https://labs.ig.com/pipeline-conference-2016-review
+
+
+An interesting and detailed explanation of how one project looked at build=
+ing tools to ease deployment. A good description of the various trade-offs=
+ involved=2C although it mainly focuses on provisioning rather than manage=
+ment.
+
+http://www.onyxplatform.org/jekyll/update/2016/03/21/Engraver-A-Tool-for-M=
+anaging-Onyx-Clusters.html
+
+
+An exploration of what it takes to run Chef on the new Microsoft server OS=
+ Nano.
+
+http://www.hurryupandwait.io/blog/instal
+
+
+I mentioned Dalmatiner DB last week as a new time series database. This po=
+st goes into some more details=2C including a docker container for getting=
+ started and some python tooling.
+
+https://dataloopio.wordpress.com/2016/03/21/playing-with-dalmatiner-db/
+
+
+Communication is critical in any organisation=2C but as more people or str=
+ucture or projects exist the harder it can become. This post describes som=
+e good tips for improving communications in growing teams.
+
+http://www.theeffectiveengineer.com/blog/communication-first-casualty-of-t=
+eams-growth
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Atlanta is coming up April 26th and 27th. Talks include case st=
+udies on test automation and microservices=2C along with the usual open sp=
+aces conversations.
+
+http://www.devopsdays.org/events/2016-atlanta/
+
+
+OSDC=2C or the Open Source Datacenter Conference=2C is also happening on A=
+pril 26th to 28th. With tracks on infrastructure as code=2C container and=
+ more general tooling..
+
+https://www.netways.de/en/events_trainings/osdc/overview/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Mas is a simple command line interface for the Mac App Store. Designed for=
+ scripting and automation.
+
+https://github.com/argon/mas
+
+
+Teleport is a tool for remotely accessing isolated clusters of Linux serve=
+rs via SSH or HTTPS. It supports a number of team focused features as well=
+ as support for 2 factor authentication and auto-expiring keys.
+
+https://www.lvh.io/posts/introducing-teleport.html
+https://github.com/gravitational/teleport
+
+
+An interesting new DNS server=2C CoreDNS is a fork of the Go based Caddy s=
+erver which allows for writing middleware to influence DNS queries.
+
+https://miek.nl/2016/March/18/announcing-coredns/
+https://github.com/miekg/coredns
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

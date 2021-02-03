@@ -1,0 +1,97 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#492?=
+Date: Sun, 31 May 2020 10:08:14 +0000
+
+DEVOPS WEEKLY
+ISSUE #492 - 31st May 2020
+
+I usually ignore current events in these introductions but that doesn=E2=
+=80=99t feel appropriate this weekend. To all of my friends in the US=2C s=
+tay safe.
+
+
+News
+=3D=3D=3D=3D
+
+Threat modelling is a powerful technique for understanding how your servic=
+e might be attacked. This detailed post services as a great introduction t=
+o software developers who might not have a string security background.
+
+https://martinfowler.com/articles/agile-threat-modelling.html
+
+
+A lot can happen in a large cloud environment=2C that=E2=80=99s where audi=
+t logs come in. This post explains how to configure=2C collect and use aud=
+it logs in GCP.
+
+https://www.datadoghq.com/blog/monitoring-gcp-audit-logs/
+
+
+Slides from a talk I gave this last week at DockerCon=2C talking about reu=
+sable Dockerfiles and using GitHub Actions to create a fast packaging pipe=
+line for lots of images.
+
+https://speakerdeck.com/garethr/building-a-docker-image-packaging-pipeline=
+-using-github-actions
+
+
+A look at building a deployment process around Kubernetes=2C using Helm an=
+d ArgoCD.
+
+https://medium.com/riskified-technology/gitops-deployment-and-kubernetes-f=
+1ab289efa4b
+
+
+A review of Rejoiner=2C a tool looking to bridge gRPC APIs with GraphQL. G=
+ood discussion of both pros and cons.
+
+https://nordicapis.com/review-of-rejoiner/
+
+
+A useful checklist for backend applications=2C covering networking=2C moni=
+toring=2C logging=2C backups=2C secrets and more.
+
+https://medium.com/@aleksei.kornev/production-readiness-checklist-for-back=
+end-applications-8d2b0c57ccec
+
+
+A quick introduction to enforcing policy in a Kubernetes cluster using Ope=
+n Policy Agent.
+
+https://www.infracloud.io/kubernetes-pod-security-policies-opa/
+
+
+Jobs
+=3D=3D=3D=3D
+
+King is looking for new members for the infrastructure engineering teams t=
+o help develop=2C manage and expand our software based networking setup ac=
+ross datacenters and (Google) cloud. Please take a look at the open role f=
+or networking engineer. We're also still looking for both database and str=
+eaming data engineers=2C if that is more your style.
+
+https://careers.king.com/jobs/job/14780-site-reliability-engineer-technolo=
+gy/
+https://careers.king.com/jobs/job/15353-database-site-reliability-engineer=
+-technology/
+https://careers.king.com/jobs/job/15270-network-site-reliability-engineer-=
+technology/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+With the release of Server Side Apply in Kubernetes 1.16 we=E2=80=99re lik=
+ely to see more client tools=2C and the new Terraform provider for Kuberne=
+tes looks like a good start. Some tooling as well for converting YAML into=
+ HCL to make migration easier.
+
+https://www.hashicorp.com/blog/deploy-any-resource-with-the-new-kubernetes=
+-provider-for-hashicorp-terraform/
+https://github.com/hashicorp/terraform-provider-kubernetes-alpha
+https://github.com/jrhouston/tfk8s
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

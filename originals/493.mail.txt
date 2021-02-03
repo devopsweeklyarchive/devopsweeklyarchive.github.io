@@ -1,0 +1,96 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#493?=
+Date: Sun,  7 Jun 2020 10:08:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #493 - 7th June 2020
+
+Some very topical posts this week. Plus the more usual content; Intel/ARM=
+ performance comparisons=2C chaos engineering meets security and several i=
+nteresting Kubernetes posts.
+
+
+News
+=3D=3D=3D=3D
+
+If you=E2=80=99re in tech and thinking about the Black Lives Matter moveme=
+nt then please read this article on how the tech community can provide sup=
+port.
+
+https://thenewstack.io/black-lives-matter-how-the-tech-community-can-provi=
+de-support/
+
+
+Successfully adopting devops practices takes good management. This collect=
+ion of books covers lots of good topics for new or experienced managers.
+
+https://stevebennett.co/2020/04/22/im-new-to-engineering-management-what-b=
+ooks-should-i-read/
+
+
+A look at how COVID-19 and surrounding events has affected on-call; remote=
+ work=2C new schedules and anxiety.
+
+https://www.firehydrant.io/blog/oncall-and-covid-19-survey-results/
+
+
+A talk looking at the benefits of chaos engineering=2C and testing in prod=
+uction=2C when it comes to security.
+
+https://www.youtube.com/watch?v=3DpnC6Va5oS00
+
+
+An introduction to CNAB=2C a packaging format for applications composed of=
+ multiple components. A good update on upcoming additions to the set of sp=
+ecifications.
+
+https://www.linux.com/featured/cnab-a-package-format-for-the-cloud/
+
+
+A look at comparative performance of intel and ARM chips=2C in this case w=
+ith detailed benchmarks on AWS using the Minio object storage server.
+
+https://blog.min.io/intel_vs_gravitron/
+
+
+An interesting discussion of Kubernetes through the lens of a database=2C=
+ considering infrastructure as data=2C views=2C query languages and more.
+
+https://www.alibabacloud.com/blog/596265
+
+
+A look at different ways of managing Helm charts=2C from a chart monorepo=
+ to per-chart repositories to storing the charts alongside the application=
+ code.
+
+https://insights.project-a.com/whats-the-best-way-to-manage-helm-charts-1c=
+bf2614ec40
+
+
+An example repository for anyone interested in a real-world gitops workflo=
+w using Kustomize=2C Flux and Helm.
+
+https://github.com/swade1987/gitops-with-kustomize
+
+
+Jobs
+=3D=3D=3D=3D
+
+King is looking for new members for the infrastructure engineering teams t=
+o help develop=2C manage and expand our software based networking setup ac=
+ross datacenters and (Google) cloud. Please take a look at the open role f=
+or networking engineer. We're also still looking for both database and str=
+eaming data engineers=2C if that is more your style.
+
+https://careers.king.com/jobs/job/14780-site-reliability-engineer-technolo=
+gy/
+https://careers.king.com/jobs/job/15353-database-site-reliability-engineer=
+-technology/
+https://careers.king.com/jobs/job/15270-network-site-reliability-engineer-=
+technology/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

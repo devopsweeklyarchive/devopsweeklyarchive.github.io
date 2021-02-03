@@ -1,0 +1,147 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#304?=
+Date: Sun, 23 Oct 2016 18:35:15 +0000
+
+DEVOPS WEEKLY
+ISSUE #304 - 23rd October 2016
+
+A bunch of technical posts this week which also contain lots of people and=
+ culture content. Whether it=E2=80=99s Serverless and security=2C or confi=
+g management and scaling usage across teams=2C or threat modelling and sec=
+urity tools. I particularly love cross-over posts and presentations..
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Tell the world what you think about being on-call. Participate in the annu=
+al State of On-Call Survey.
+
+https://goo.gl/n1g22X
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[On-Demand webcast] Gene Kim shares top lessons learned co-authoring The=
+ DevOps Handbook
+
+In this on-demand webcast=2C DevOps researcher & author=2C Gene Kim=2C sha=
+res first-hand insights and lessons he learned while co-authoring The DevO=
+ps Handbook=2C including: Informative DevOps transformation case studies a=
+round continuous integration and delivery=2C and concrete techniques to bu=
+ild a culture of continuous experimentation and learning =E2=80=93 includi=
+ng those from Google=2C Etsy=2C Nordstrom=2C and Capital One. Check it out=
+!
+
+http://ow.ly/EXwE304sS1F
+
+
+News
+=3D=3D=3D=3D
+
+Scaling software across teams and organisations is a topic I find endlessl=
+y interesting. This talk covers some of the challenges of adoption=2C in t=
+his case of Puppet at GitHub.
+
+https://speakerdeck.com/kpaulisse/puppetconf-2016-scaling-puppet-and-puppe=
+t-culture-at-github
+
+
+Excellent presentation from PuppetConf this week which is relevant to ever=
+yone interested in how you actually get hacked. Good content on threat mod=
+elling=2C a few tools and social issues around security.
+
+https://speakerdeck.com/barnbarn/how-you-a-actually-get-hacked
+
+
+An interesting (and entertaining) comparison of dumpster fires and tire fi=
+res=2C and what the two analogies mean for operations.
+
+https://medium.com/@jpaulreed/a-burning-philosophical-question-94acd3f30e8=
+c#.t5ywxzz7h
+
+
+Some good observations about security in a serverless deployment. The stat=
+e of awareness of third party security is poor in many cases=2C and server=
+less could make this a bigger issue.
+
+https://snyk.io/blog/Serverless-Security-Vulnerabilities/
+
+
+The State of Database Management Survey is an attempt to track the rapidly=
+ changing field of databases=2C looking at the technology and the changes=
+ in practices and processes.
+
+https://goo.gl/0hToU3
+
+
+Testing is definitely a topic of interest in the devops space=2C and I thi=
+nk this post does a good job of pointing out all the various places where=
+ testing can bring benefits to operations and collaboration.
+
+https://danashby.co.uk/2016/10/19/continuous-testing-in-devops/
+
+
+It feels like networking is becoming something that is in the developer co=
+nscious more and more. So this post is a good reminder of the types of mis=
+conceptions people have about their network which can lead to bugs or oper=
+ational issues.
+
+http://blog.erratasec.com/2012/06/falsehoods-programmers-believe-about.htm=
+l#.WAzzspMrJE4
+
+
+A good post on the human element of debugging production issues and the my=
+th of the root cause in complex systems.
+
+http://blog.scalyr.com/2016/10/the-myth-of-the-root-cause/
+
+
+A presentation broken down with lots of notes and details which explains h=
+ow Varnish works and why you should be using a caching proxy.
+
+https://ma.ttias.be/varnish-explained/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon is coming up in Seattle on the 8th and 9th of November. The schedu=
+le is packed with low level technical talks as well as lots of production=
+ case studies. Something for Kubernetes experts and those just getting sta=
+rted.
+
+https://events.linuxfoundation.org/events/kubecon?utm_medium=3Demail&utm_c=
+ampaign=3Ddevopsweekly&utm_source=3Dnewsletter&utm_content=3Da
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A handy tool announced at PuppetConf=2C octocatalog-diff allows for some i=
+nteresting testing of Puppet code=2C in particular helping to reduce the r=
+isk of refactoring existing code.
+
+http://githubengineering.com/octocatalog-diff-github-s-puppet-development-=
+and-testing-tool/
+https://github.com/github/octocatalog-diff
+
+
+Lots of people will tell you containers are made of cgroups and namespaces=
+=2C but how do you dig into those? Enter cinf which provides a handy tool=
+ for low-level container prodding.
+
+https://github.com/mhausenblas/cinf
+
+
+
+Tell the world what you think about being on-call. Participate in the annu=
+al State of On-Call Survey.
+
+https://goo.gl/n1g22X
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

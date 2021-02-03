@@ -1,0 +1,99 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#501?=
+Date: Sun,  2 Aug 2020 10:32:41 +0000
+
+DEVOPS WEEKLY
+ISSUE #501 - 2nd August 2020
+
+Lots of high-level content this week. Digital transformation=2C building p=
+latforms for adoption=2C domain driven design=2C cloud centres of excellen=
+ce. Plus seccomp details=2C a batch of Devops and security talks and more.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Still running Terraform locally? Want an easy way to automate it in a coll=
+aborative way? env0 is the easiest way to get started automating Terraform=
+=2C giving you consistent templates=2C total visibility of what=E2=80=99s=
+ running=2C and automatic project level cost visibility.
+
+https://www.env0.com/l/devops-automation
+
+
+News
+=3D=3D=3D=3D
+
+How do you get the benefits of microservice architectures at scale while m=
+inimising operational complexity? This post looks at applying domain drive=
+n design concepts and provides a useful case study.
+
+https://eng.uber.com/microservice-architecture/
+
+
+The adoption of devops practices has gone hand-in-hand with organisations=
+ embracing digital transformation. Both phrases risk overuse but these pos=
+ts discuss some useful mental models to help focus conversations.
+
+https://aws.amazon.com/blogs/enterprise-strategy/mental-models-for-digital=
+-transformation/
+https://aws.amazon.com/blogs/enterprise-strategy/mental-models-to-clarify-=
+the-goals-for-of-digital-transformation-part-2/
+
+
+What properties of developer platforms lead to adoption? The following pos=
+t is specifically about a large scale edge platform=2C but it=E2=80=99s a=
+ great read for anyone building platforms of all kinds for developers=2C i=
+ncluding those doing so in internal platform teams.
+
+https://blog.cloudflare.com/cloudflare-workers-serverless-week/
+
+
+When first embracing devops practices and cloud services it=E2=80=99s comm=
+on in large organisations to build a centre of excellence. There are some=
+ traps to avoid when taking this approach that the following post discusse=
+s.
+
+https://www.contino.io/insights/cloud-centre-of-excellence-2020
+
+
+The videos from the recent DevSecCon online conference are all available=
+=2C with a range of interesting topics covered including infrastructure as=
+ code security=2C continuous audit compliance=2C supply chain attacks and=
+ more.
+
+https://www.mydevsecops.io/post/devseccon24
+
+
+A nice discussion of tradeoffs between serverless architectures and monoli=
+thic applications=2C mainly focused on smaller scale apps.
+
+https://dev.to/iamcherta/my-monolith-doesn-t-fit-in-your-serverless-311o
+
+
+A deep dive technical post on new features in the linux kernel which shoul=
+d make unprivileged containers more popular. Good introduction to the deta=
+ils of seccomp as well.
+
+https://people.kernel.org/brauner/the-seccomp-notifier-new-frontiers-in-un=
+privileged-container-development
+
+
+Role-based access control plays an important role in securing Kubernetes.=
+ This handy site collects together articles and tools and the official doc=
+umentation in one place.
+
+https://rbac.dev/
+
+
+An interesting survey for anyone using Serverless technologies to take=2C=
+ from a wide range of companies in the space. I=E2=80=99ll look forward to=
+ the results when they are published.
+
+https://codingsans.typeform.com/to/mPinnC
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

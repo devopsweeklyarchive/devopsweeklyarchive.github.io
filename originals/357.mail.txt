@@ -1,0 +1,144 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#357?=
+Date: Sun, 29 Oct 2017 11:46:26 +0000
+
+DEVOPS WEEKLY
+ISSUE #357 - 29th October 2017
+
+A wide mix of content this week=2C with posts on IT governance=2C building=
+ teams around psychological safety=2C the divide between the devops commun=
+ity and the traditional ITSM community=2C and more technical posts on serv=
+ice discovery and scripting atop Kubernetes. Hopefully something for every=
+one.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Integrate VictorOps into DevOps workflows to deploy faster and maintain hi=
+gher quality. Get your free trial started today:
+
+http://try.victorops.com/DevOpsWeekly/FreeTrial
+
+
+News
+=3D=3D=3D=3D
+
+The concept of psychological safety is a useful part of talking about team=
+ culture. This post has some great specific examples of behaviours to watc=
+h out for.
+
+https://blog.intercom.com/psychological-safety/
+
+
+Interesting post on some of the side-effects of adopting a service mindset=
+=2C namely that your colleagues become customers=2C and on how you can ado=
+pt customer-centric measures to make sure the system is operating as expec=
+ted.
+
+https://blog.turbinelabs.io/coworkers-will-become-customers-its-a-good-thi=
+ng-1750790f8a59
+
+
+A post on multi-cloud and its relationship to lockin=2C placing the fears=
+ of lockin alongside the relatively low onboarding costs and rapid innovat=
+ion.
+
+http://stacksense.io/krishnan/thought-leadership/on-multi-cloud-and-lock-i=
+n/
+
+
+This post makes the important point that any successful attempt to adopt d=
+evops practices in a large organisation has to address the mismatch betwee=
+n traditional IT project-centric governance and the the needs of flow.
+
+http://www.devopsdigest.com/the-governance-mismatch
+
+
+Notes from a conversation at configuration management camp back in Februar=
+y=2C about the mismatch between modern infrastructure environments and cla=
+ssic ITSM tenets. In particular looking at CMDB as something that should b=
+e useful to everyone=2C but maybe isn=E2=80=99t.
+
+https://medium.com/@JonHall_/devops-software-defined-infrastructure-and-th=
+e-cmdbs-perception-problem-8fe6cb1cd9e0
+
+
+A look at using CRDTs for service discovery. Contains a good overview of o=
+ther options=2C including DNS and tools like etcd and zookeeper=2C and why=
+ they chose CRDTs with Akka as an alternative.
+
+https://medium.com/@unmeshvjoshi/service-discovery-with-crdts-fb02bb48cfff
+
+
+Jobs
+=3D=3D=3D=3D
+
+The Scale Factory is a growing DevOps and cloud infrastructure consultancy=
+ in the UK. We're hiring for people to join our team. You'll work to desig=
+n=2C build and support platforms using=2C amongst other things=2C Linux=2C=
+ AWS=2C Terraform=2C and Puppet. We support remote working (within the UK=
+ only) and encourage people to choose the flexible hours that work best fo=
+r them. Salaries range from =C2=A350k to =C2=A380k+ depending on your loca=
+tion and experience.
+
+http://www.scalefactory.com/team/careers
+
+
+The Linux Foundation
+=3D=3D=3D=3D
+
+Free Webinar: How BI & Data Science Gets Results
+November 16=2C Online
+
+Statistical/data science models can now run on Hadoop in a much more cost-=
+effective manner than a few years ago. This results in fostering the conve=
+rgence of traditional BI and Data Science disciplines (machine learning=2C=
+ artificial intelligence... etc). Join the discussion with an incredible p=
+anel including ODPi=2C 4C Decision=2C ZEPL=2C and Pivotal=2C as we'll shar=
+e how this phenomenon is going to impact the Hadoop standard.
+
+https://goo.gl/DZyuuV
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists=2C December 6-8=2C in Austin for a broad range of te=
+chnical sessions on the cloud native ecosystem. We sold out in Berlin and=
+ are excited to see thousands of you from the community join us=2C this ti=
+me in Austin!
+
+http://goo.gl/wbdqve
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+lstags is a handy tool for comparing Docker images between repositories=2C=
+ as well as automatically syncing images between repositories.
+
+https://github.com/ivanilves/lstags
+
+
+Brigade is a new workflow tool for Kubernetes environments=2C allowing for=
+ writing JavaScript to define pipelines for running containers. Supports t=
+imers=2C listening to events from services like GitHub or Docker image rep=
+ositories and more.
+
+http://brigade.sh/
+https://github.com/azure/brigade/
+
+
+
+Like DevOps? Register for All Day DevOps - a FREE online conference this O=
+ctober=2C offering 100 DevOps-focused sessions across six different tracks=
+=2E Learn more & register:
+
+http://bit.ly/2wLKpbV
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

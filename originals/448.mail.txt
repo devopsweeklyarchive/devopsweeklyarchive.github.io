@@ -1,0 +1,108 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#448?=
+Date: Sun, 28 Jul 2019 09:37:06 +0000
+
+DEVOPS WEEKLY
+ISSUE #448 - 28th July 2019
+
+Monitoring=2C security=2C production readiness=2C database migrations=2C K=
+ubernetes and more this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Containers and microservices can improve development speed and service fle=
+xibility. But=2C more complex systems have a higher potential for incident=
+s. Learn how DevOps teams are building more reliable services and adding c=
+ontext to microservices and containerized environments:
+
+http://try.victorops.com/devopsweekly/container-monitoring-and-alerting-be=
+st-practices
+
+
+News
+=3D=3D=3D=3D
+
+A post on the importance of having a good checklist and process around tak=
+ing a new service into production.
+
+https://jbd.dev/prod-readiness/
+
+
+Podcast and transcript of an interesting conversation on the past and futu=
+re of devops=2C the evolution of SRE and lots of other related topics.
+
+https://www.realworlddevops.com/episodes/devops-is-dead-with-james-turnbul=
+l
+
+
+A discussion of some of the challenges of a modern monitoring solution=2C=
+ including immutable infrastructure=2C large numbers of services and high=
+ cardinality of data.
+
+https://logz.io/blog/cardinality-challenge-in-monitoring/
+
+
+A post on the rise of fuzzing leading to the discovery a lot more security=
+ issues in memory unsafe code=2C and what that might mean for the future o=
+f the traditional operation systems we rely on today.
+
+https://www.cloudatomiclab.com/fuzz/
+
+
+A useful look at why automatically running database schema migrations at a=
+pplication startup is fine for development but a bad idea in production=2C=
+ and what to do instead.
+
+https://pythonspeed.com/articles/schema-migrations-server-startup/
+
+
+The first article in a promised series looking at container image build to=
+ols. The first post outlines some of the issues=2C though doesn=E2=80=99t=
+ talk about more recent work or solutions. Look out for the next post.
+
+https://itnext.io/what-is-the-future-of-container-image-building-46fc92876=
+d98
+
+
+A presentation looking at Kubernetes cluster security. A good overview of=
+ the main issues=2C and some good advice for fixing the low hanging fruit=
+ issues.
+
+https://docs.google.com/presentation/d/1XgopLXWjMdJojVFh_fPDJ2RllNpT9_y72v=
+JSJ7oz57w/edit#slide=3Did.g5df3ccf4f3_0_103
+
+
+A post on the future of Kubernetes and the pursuit of higher-level abstrac=
+tions.
+
+https://medium.com/@davidcarboni/why-kubernetes-will-disappear-10ffcfb39f0=
+1
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Osgood is a secure=2C fast=2C and simple platform for running JavaScript H=
+TTP servers. It=E2=80=99s an interesting attempt to build a platform from=
+ the ground up which applies the Principle of Least Privilege to the runti=
+me.
+
+https://dev.to/tlhunter/introducing-osgood-4k1m
+https://github.com/IntrinsicLabs/osgood
+
+
+
+Containers and microservices can improve development speed and service fle=
+xibility. But=2C more complex systems have a higher potential for incident=
+s. Learn how DevOps teams are building more reliable services and adding c=
+ontext to microservices and containerized environments:
+
+http://try.victorops.com/devopsweekly/container-monitoring-and-alerting-be=
+st-practices
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,120 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#472?=
+Date: Sun, 12 Jan 2020 15:22:33 +0000
+
+DEVOPS WEEKLY
+ISSUE #472 - 12th January 2020
+
+Technology choices=2C several solid technical architecture posts=2C buildi=
+ng an internal PaaS=2C monitoring and naming things. Lots to read this wee=
+k.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+If moving from a SysAdmin role into a DevOps-centric role is part of your=
+ 2020 resolution then you can't miss this walkthrough for evolving your sk=
+illset:
+
+https://go.victorops.com/devopsweekly-sysadmin-to-devops
+
+
+News
+=3D=3D=3D=3D
+
+An argument for taking as much advantage of cloud-provided services as pos=
+sible=2C rather than opting for what might be comfortable. Lots to argue o=
+ver.
+
+https://forrestbrazeal.com/2020/01/05/code-wise-cloud-foolish-avoiding-bad=
+-technology-choices/
+
+
+An interesting post on moving from storing configuration centrally in a se=
+rvice=2C to moving to a sqlite file-based database shared between multiple=
+ containers=2C and reaping a drastic performance benefit.
+
+https://medium.com/@rbranson/sharing-sqlite-databases-across-containers-is=
+-surprisingly-brilliant-bacb8d753054
+
+
+A good talk on building technical infrastructure to support a development=
+ organisation=2C looking at building an internal PaaS.
+
+https://srvaroa.github.io/paas/infrastructure/platform/kubernetes/cloud/20=
+20/01/02/talk-how-to-build-a-paas-for-1500-engineers.html
+
+
+One of the criticisms I=E2=80=99ve heard (and made) of Istio is it=E2=80=
+=99s complexity=2C partly driven by the large number of services needed fo=
+r the control plane. This post explains the problem=2C and also talks abou=
+t how Istio is moving from this microservices architecture to a more monol=
+ithic one.
+
+https://blog.christianposta.com/microservices/istio-as-an-example-of-when-=
+not-to-do-microservices/
+
+
+Istio is a popular service mesh component for Kubernetes. This detailed se=
+ries of posts walks through what operation metrics it exposes and how to b=
+est monitor Istio to ensure it=E2=80=99s running correctly.
+
+https://www.datadoghq.com/blog/istio-metrics/
+https://www.datadoghq.com/blog/istio-monitoring-tools/
+
+
+Monitoring systems still often require a fair amount of bespoke configurat=
+ion. This post looks ahead at the potential to apply machine learning=2C a=
+nd standardised formats=2C to the problem of dashboard creation and other=
+ domain problems.
+
+https://www.zebrium.com/blog/the-future-of-monitoring-is-autonomous
+
+
+A solid list of guidelines for building Kubernetes Operators that are actu=
+ally operable=2C and which work together with others on the same cluster.
+
+https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
+
+
+A few ambitious predictions for 2020 focused on the devops and cloud space=
+=2E
+
+https://www.contino.io/insights/devops-and-cloud-trends-2020
+
+
+An introduction to the context of Security Debt. A counterpoint to Technic=
+al Debt=2C the post also makes a few recommendations for small teams in pa=
+rticular to avoid early on.
+
+https://blog.sqreen.com/how-to-manage-security-debt-as-a-startup/
+
+
+A spirited post on the problem with calling a team =E2=80=9Ca devops team=
+=E2=80=9D. Not a new topic=2C but some points in here about problems that=
+ can arise from the naming.
+
+https://www.engineerbetter.com/blog/kill-the-devops-team/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kubeform Kubernetes operator for Terraform. It contains generated custom r=
+esources for Terraform providers=2C meaning you can use CRDs to create clo=
+ud infrastructure.
+
+https://github.com/kubeform/kubeform
+
+
+If moving from a SysAdmin role into a DevOps-centric role is part of your=
+ 2020 resolution then you can't miss this walkthrough for evolving your sk=
+illset:
+
+https://go.victorops.com/devopsweekly-sysadmin-to-devops
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

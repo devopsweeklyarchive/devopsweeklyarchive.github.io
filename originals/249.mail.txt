@@ -1,0 +1,200 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#249?=
+Date: Sun, 11 Oct 2015 19:32:40 +0000
+
+DEVOPS WEEKLY
+ISSUE #249 - 11th October 2015
+
+For no apparent reason I have lots of solid security content this week=2C=
+ from an excellent crypto for developers post through presentations and ne=
+w interesting looking scanning tools. Throw in some warnings about jumping=
+ into microservices too quickly and a mix of other posts and hopefully som=
+ething for everyone.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] 5 Steps to Building a Mature DevOps Organization with Sherwin-W=
+illiams
+
+Join our webinar to learn how Sherwin-Williams=2C a Fortune 500 company in=
+ the general building materials industry=2C transformed from traditional s=
+oftware development and operations into a full-fledged DevOps company by u=
+sing a simple maturity model to take the right first steps.
+
+http://ow.ly/TbFIY
+
+
+News
+=3D=3D=3D=3D
+
+It=E2=80=99s incredibly easy to get basic security wrong=2C and cryptograp=
+hy is probably even easier to misunderstand. This post is a superb introdu=
+ction to crypto for developers=2C worth reading even if you think you know=
+ the subject well.
+
+https://paragonie.com/blog/2015/08/you-wouldnt-base64-a-password-cryptogra=
+phy-decoded
+
+
+I failed to mention the Otto and Nomad releases from Hashiconf last week.=
+ Here=E2=80=99s a nice writeup of a first look. For those that missed it=
+=2C Nomad is a new multi-host container sheduler and Otto is an opinionate=
+d workflow tool which covers both local development and production deploym=
+ent.
+
+http://matschaffer.com/2015/09/otto-nomad-first-look/
+https://www.nomadproject.io/
+https://ottoproject.io/
+
+
+A solid introduction to why securing infrastructure is hard and a good col=
+lection of things you can do=2C including bounties=2C paying attention to=
+ attackers=2C auditing everything and more.
+
+https://speakerdeck.com/barnbarn/infrastructure-security-how-hard-could-it=
+-be-right
+
+
+A great post showing the differences between how Graphite and InfluxDB wor=
+k=2C and how you can configure things to move data from Graphite to Influx=
+=2E
+
+http://roobert.github.io/2015/10/10/Columned-Graphite-Data-in-InfluxDB/
+
+
+A post asking how much of the current buzz around microservices is simple=
+ people cargo-culting. Makes some good points that will probably be ignore=
+d unfortunately.
+
+http://www.stavros.io/posts/microservices-cargo-cult/
+
+
+Programmable Infrastructure is a new site detailing tools but more interes=
+ting patterns for modern infrastructure. Some solid early guides on load b=
+alancing and service discovery.
+
+http://programmableinfrastructure.com/
+
+
+Managing an AWS installation=2C especially as an organisation grows or whe=
+re many people have access=2C can be a challenge. This post covers cleanin=
+g up instance snapshots using the python boto library.
+
+http://blog.ranman.org/cleaning-up-aws-with-boto3/
+
+
+A solid list of antipatterns for adopting service based architectures=2C c=
+overing the need for automation=2C depending on client signoff=2C gateways=
+=2C versioning and more. Not sure I agree with everything=2C but the real-=
+world story-telling style is great.
+
+http://www.infoq.com/articles/seven-uservices-antipatterns
+
+
+An interesting post from a team that asked the question =E2=80=9Cwhat woul=
+d our infrastructure look like if we designed it today=E2=80=9D.
+
+https://segment.com/blog/rebuilding-our-infrastructure/
+
+
+Jobs
+=3D=3D=3D=3D
+
+GE Intelligent Platforms is looking for a Lead DevOps Engineer in Charlott=
+esville=2C VA
+You=E2=80=99ll be a member of our team responsible for the production and=
+ operations of our remote monitoring solution for OEMs=2C Equipment Insigh=
+t. You will help us improve our continuous delivery pipeline to enable gro=
+wth=2C while improving our ability to maintain existing infrastructure as=
+ we scale.  Join us in shaping the future of the Industrial Internet!
+
+https://xjobs.brassring.com/tgwebhost/jobdetails.aspx?partnerid=3D54&sitei=
+d=3D5346&jobid=3D1251157
+
+
+LoveCrafts is seeking a smart and kind DevOps/Infrastructure Engineer to j=
+oin our rapidly growing product development team in Central London. We're=
+ building a Home for Makers in the form of web and mobile products that su=
+pport them through the Making lifecycle - inspire=2C buy=2C make and share=
+=2E If you=2C like us=2C are passionate about monitoring=2C logging=2C perfo=
+rmance=2C security and cake=2C then you might want to check us out. Famili=
+arity with puppet=2C mcollective=2C Jenkins and the spectrum of AWS produc=
+ts is definitely a help. Come see us to have a chat and some cake (it's re=
+ally not a lie).
+
+http://www.lovecrafts.com/jobs/#op-49314-devops-engineer
+
+
+Moving Picture Company produce visual effects at a scale unprecedented in=
+ any other VFX company. We are looking for a developer to join our Global=
+ Core Engineering team in London. We are responsible for building the foun=
+dation on which our VFX tools are built and run. We have engineering exper=
+tise in development and operations. If this sounds interesting and you are=
+ passionate about testing=2C performance and have a strong attention to de=
+tail =E2=80=93 come and join us. At our core we are building libraries and=
+ SOA architecture using Python=2C RabbitMQ=2C NGINX plus a host of other t=
+ools like Saltstack=2C Git and all that good stuff. Get in touch for furth=
+er details.=E2=80=9D
+
+https://ldd.tbe.taleo.net/ldd01/ats/careers/requisition.jsp?org=3DMPC&cws=
+=3D1&rid=3D8704
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devops Days Silicon Valley is coming up on the 6th and 7th of November wit=
+h a good looking set of tests on security=2C working as a lone operations=
+ person and dealing with outages.
+
+http://www.devopsdays.org/events/2015-siliconvalley/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Gryffin is a security scanning tool out of Yahoo that=E2=80=99s aimed to w=
+ork at scale. The deduplication of tests sounds very useful for getting re=
+sults quickly with testing identical pages.
+
+https://github.com/yahoo/gryffin
+
+
+Syntribos is another security scanner=2C but one specifically geared not t=
+o HTML and web pages=2C but to testing APIs.
+
+https://github.com/rackerlabs/syntribos
+
+
+A nice little dashboard that shows the number of commits on a repo since t=
+he last deploy. Surfacing this information can help avoid large deploys la=
+ter.
+
+https://github.com/dsingleton/deploy-lag-radiator
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

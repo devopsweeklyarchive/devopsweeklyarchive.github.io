@@ -1,0 +1,138 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#434?=
+Date: Sun, 21 Apr 2019 13:34:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #434 - 21st April 2019
+
+A bunch of experience reports this week=2C including around Fargate=2C Kub=
+ernetes=2C embracing production failure and envoy. Also a great series of=
+ posts on information dashboard design for anyone building monitoring infr=
+astructure.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Last Chance] Death to Downtime: How to Quantify and Mitigate the True Co=
+sts of Downtime. VictorOps and Catchpoint are teaming up for a live webina=
+r on 5 monitoring and incident response best practices for preventing outa=
+ges.
+
+http://try.victorops.com/devopsweekly/catchpoint-victorops-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A series of four posts looking at information dashboard design=2C in parti=
+cular focusing on structure and layout=2C presentation and accessibility=
+=2C what charts to use and capturing context.
+
+http://onemogin.com/observability/dashboards/practitioners-guide-to-system=
+-dashboard-design.html
+http://onemogin.com/observability/dashboards/practitioners-guide-to-system=
+-dashboard-design-p2.html
+http://onemogin.com/observability/dashboards/practitioners-guide-to-system=
+-dashboard-design-p3.html
+http://onemogin.com/observability/dashboards/practitioners-guide-to-system=
+-dashboard-design-p4.html
+
+
+A detailed blog post on what it really takes to configure ECS and Fargate=
+ for running a container. I=E2=80=99ve spoken before about severless not b=
+eing infrastructureless=2C and this post hits similar points.
+
+http://leebriggs.co.uk/blog/2019/04/13/the-fargate-illusion.html
+
+
+A post on the importance of being able to fail when pushing for continuous=
+ deployment=2C especially for new engineers.
+
+https://shubheksha.com/posts/2019/04/re-framing-how-we-think-about-product=
+ion-incidents/
+
+
+The book Accelerate identifies a number of activities and metrics that are=
+ correlated with improved software delivery. This post looks at measuring=
+ those across an organisation and then using them to drive improvements.
+
+https://medium.com/onzo-tech/four-magic-numbers-for-measuring-software-del=
+ivery-55b1dd01eca
+
+
+This post looks at the distinction between the software we use to drive ou=
+r testing and deployment=2C and the pipelines we build on top.
+
+https://www.networkcomputing.com/data-centers/diy-devops-build-buy-or-yes
+
+
+A look at swarming as part of the solution to incident management=2C with=
+ some good points about avoiding looking for a single solution to differen=
+t types of problems.
+
+https://medium.com/@kaimarkaru/incident-management-triage-and-disorder-99b=
+695a29e5b
+
+
+A look at rolling out the envoy proxy as part of moving towards a microser=
+vices architecture communicating using gRPC.
+
+https://medium.com/geckoboard-under-the-hood/we-rolled-out-envoy-at-geckob=
+oard-13c45b4eaddd
+
+
+A case study of migrating a large existing application stack to Kubernetes=
+=2C including some good numbers.
+
+https://medium.com/@tinder.engineering/tinders-move-to-kubernetes-cda2a637=
+2f44
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The O'Reilly Velocity Conference returns to San Jose=2C June 10=E2=80=9313=
+=2E Velocity is the best place on the planet for web ops and systems enginee=
+ring professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on DevOps=2C systems eng=
+ineering=2C performance=2C and more=2C there's something for everyone. Pas=
+ses start at $796 when you use the code DEVW20 (applies to Gold=2C Silver=
+=2C and Bronze passes). Limited offer expires May 4. Register today!
+
+https://oreil.ly/2Uf3u63
+
+
+Your path to production ready Kubernetes
+This workshop is for DevOps engineers=2C Kubernetes cluster operators=2C a=
+nd admins in the UK! Join our hands-on=2C in-person workshop at CodeNode o=
+n May 8. We'll walk you through developing=2C building=2C and operating Ku=
+bernetes cluster the GitOps way.
+
+https://www.eventbrite.com/e/workshop-your-path-to-production-ready-kubern=
+etes-tickets-59200887448
+
+
+Tools
+=3D=3D=3D=3D
+
+Chaosblade is a powerful toolkit for implementing chaos engineering=2C wit=
+h support for operating system errors=2C Java=2C Docker and Kubernetes. It=
+ can for example simulate filling disks=2C killing processes=2C network de=
+lay=2C etc.
+
+https://github.com/chaosblade-io/chaosblade
+
+
+
+[Last Chance] Death to Downtime: How to Quantify and Mitigate the True Co=
+sts of Downtime. VictorOps and Catchpoint are teaming up for a live webina=
+r on 5 monitoring and incident response best practices for preventing outa=
+ges.
+
+http://try.victorops.com/devopsweekly/catchpoint-victorops-webinar
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,190 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#347?=
+Date: Sun, 20 Aug 2017 11:25:18 +0000
+
+DEVOPS WEEKLY
+ISSUE #347 - 20th August 2017
+
+Several good posts with real-world tips on operating microservices and con=
+tainers this week=2C along with discussions of provisioning and deployment=
+ tools and debugging ubiquitous DNS issues.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+More efficiently reach on-call teams and incident responders with a new wa=
+y to deploy Live Call Routing using Twilio Functions and VictorOps. Check=
+ it out:
+
+http://try.victorops.com/LiveCallRouting/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+AI-Powered DevOps: Injecting Speed & Quality Across Verizon=E2=80=99s Clou=
+d Pipelines
+
+With customer experience being a top priority=2C Verizon turned to an auto=
+mated delivery pipeline approach that leveraged cloud and container techno=
+logy. This enabled teams to deploy new features faster=2C directly into pr=
+oduction. But it also increased technical complexity. Learn how Verizon us=
+ed Artificial Intelligence (AI)-powered monitoring=2C and was able to tran=
+scend this problem=2C and today easily manages complex=2C web-scale DevOps=
+ in the cloud.
+
+http://ow.ly/I1k330elsWO
+
+
+News
+=3D=3D=3D=3D
+
+An interesting talk about adopting microservices in order to go faster=2C=
+ focusing on some of the scaling challenges they introduce.
+
+https://speakerdeck.com/sarahjwells/scale-summit-microservices-and-scale
+
+
+Interesting examples of building a security data pipeline using AWS Lambda=
+ and other AWS services=2C and then using that data in the context of a ch=
+at application to identify likely security issues.
+
+https://www.datadoghq.com/blog/engineering/improving-cloud-security-with-c=
+hatops/
+
+
+A great writeup of adopting Kubernetes for a high-traffic application. Goo=
+d explanation of the why=2C as well as practical advice from the how.
+
+https://githubengineering.com/kubernetes-at-github/
+
+
+A nice writeup of writing functions in C# for the OpenFaaS serverless fram=
+ework.
+
+https://medium.com/@rorpage/your-first-serverless-net-function-with-openfa=
+as-27573017dedb
+
+
+A discussion of the term DesignOps=2C along with some good points about co=
+mmon misconceptions about Devops and design thinking in general.
+
+https://medium.com/@jeffsussna/devops-for-designers-e5080a2be6e4
+
+
+Microservices introduce a whole range of new failure modes. This post expl=
+ores patterns for managing them=2C including service degradation=2C health=
+-checks=2C caching=2C failover and more.
+
+https://blog.risingstack.com/designing-microservices-architecture-for-fail=
+ure/
+
+
+An approach to managing Kubernetes configuration using ERB templates and t=
+he Hiera hierarchical data store.
+
+https://roobert.github.io/2017/08/16/Kubernetes-Manifest-Templating-with-E=
+RB-and-Hiera/
+
+
+Good tips on debugging issues with DNS=2C focusing on how to use whois and=
+ dig.
+
+https://blog.dnsimple.com/2017/08/debugging-dns/
+
+
+A solid comparison of CloudFormation and Terraform=2C looking at support=
+=2C licensing=2C extensibility=2C state management=2C how rolling updates=
+ work and more.
+
+https://cloudonaut.io/cloudformation-vs-terraform/
+
+
+It=E2=80=99s possible to extend CloudFormation with your own custom resour=
+ces. This blog post explains how to do this along with a simple example. I=
+nteresting integration point for AWS users.
+
+https://sanderknape.com/2017/08/custom-cloudformation-resource-example-cod=
+edeploy/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Unmade are looking for a DevOps Engineer to join a friendly=2C collaborati=
+ve team located in cultural hot spot of Somerset House=2C Central London.=
+ Your main responsibilities will fall into the following three categories:=
+ build upon our hosting infrastructure using Docker and AWS=2C share respo=
+nsibility for tooling around our deployment and automation pipeline=2C and=
+ increase visibility using monitoring and alerts. This is a unique positio=
+n to help empower a tight knit development team to scale out our customisa=
+tion platform for the fashion industry=2C directly connecting consumer cho=
+ices to automated manufacturing(including giant knitting machines=2C among=
+st many others).
+
+https://angel.co/unmade/jobs/255318-devops-engineer
+
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Intro to CNI=2C the Container Network Interface
+August 24=2C Online
+
+http://goo.gl/dVfE6u
+
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists in Austin for a broad range of technical sessions on=
+ the cloud native ecosystem. We sold out in Berlin and are excited to see=
+ thousands of you from the community join us=2C this time in Austin!
+
+http://goo.gl/wbdqve
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Open Source Summit North America=2C taking place Sept. 11 - 14 in Los Ange=
+les will offer 200+ sessions and tutorials on DevOps=2C Linux=2C cloud com=
+puting=2C containers and more. Co-located with 17 other events -- includin=
+g Moby Summit=2C Kubernetes Core Concepts Live Training and MesosCon North=
+ America -- this is an event you won=E2=80=99t want to miss. Use discount=
+ code DEVOPSWEEKLY to receive $110 off your all-access attendee pass.
+
+https://goo.gl/Z1wgcd
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Serverless applications have typically relied on platform-specific service=
+s. For those interested in more cross-platform approaches the new event ga=
+teway application from the folks behind the serverless framework looks use=
+ful.
+
+https://serverless.com/blog/introducing-serverless-event-gateway/
+https://github.com/serverless/event-gateway
+
+
+Kubernetes Deploy is a new=2C high level=2C tool for deploying application=
+s to Kubernetes. It focuses not just on submitting changes=2C but helping=
+ the user understand exactly what changed.
+
+https://github.com/Shopify/kubernetes-deploy
+
+
+
+More efficiently reach on-call teams and incident responders with a new wa=
+y to deploy Live Call Routing using Twilio Functions and VictorOps. Check=
+ it out:
+
+http://try.victorops.com/LiveCallRouting/DevOpsWeekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

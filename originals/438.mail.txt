@@ -1,0 +1,127 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#438?=
+Date: Sun, 19 May 2019 10:10:09 +0000
+
+DEVOPS WEEKLY
+ISSUE #438 - 19th May 2019
+
+It=E2=80=99s the week of KubeCon EU in Barcelona=2C if you happen to be he=
+ading along do say Hi. If not=2C I=E2=80=99ll try and collect as many link=
+s from the event as possible for the next few issues.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[You=E2=80=99re Invited] Puppet=2C Splunk and VictorOps are teaming up fo=
+r a live webinar on powering continuous improvement by combining analytics=
+=2C incident response and automation. Learn best practices for releasing b=
+etter applications faster=2C without the fire drills.
+
+http://try.victorops.com/devopsweekly/continuous-improvement
+
+
+News
+=3D=3D=3D=3D
+
+The word devops=2C and the resulting community=2C started with Devopsdays=
+ nearly 10 years ago. The organisers are arranging a 10 year anniversary e=
+vent; Devopsdays Gent 2019 is happening on October 29th and 30th in Gent.=
+ The CFP is open and early bird tickets are available now.
+
+https://devopsdays.org/blog/2019/05/10/10-years-of-devopsdays/
+
+
+A great introduction to eBPF=2C described here as bringing super powers to=
+ Linux administrators. A quick explanation of what it is=2C along with exa=
+mples of what you can do with it.
+
+https://speakerdeck.com/lizrice/ebpf-superpowers
+
+
+We generally agree that collecting metrics is a good thing=2C but how do y=
+ou decide what to measure? This presentation explores part of that questio=
+n=2C looking at what vanity metrics are and why you should avoid them.
+
+https://speakerdeck.com/stack72/mirror-mirror-on-the-way-what-is-the-vaine=
+st-metric-of-them-all
+
+
+A high-level set of observations about trends in devops and cloud. Some cl=
+ear takeaways around CI/CD adoption=2C chaos engineering and kubernetes=2C=
+ and some discussion amongst the authors.
+
+https://www.infoq.com/articles/devops-cloud-trends-2019
+
+
+An interesting collection of papers focused on software package management=
+=2E
+
+https://github.com/ipfs/package-managers/issues/56
+
+
+A counterpoint to the argument that serverless represents a new type of lo=
+ckin. Some good points=2C but I=E2=80=99d love to see posts with more hist=
+orical context about lockin in IT.
+
+https://lumigo.io/blog/you-are-wrong-about-serverless-vendor-lock-in/
+
+
+A good discussion of the challenges of cluster lifecyle management for Kub=
+ernetes=2C and an introduction to the new Cluster API which has just hit v=
+1alpha1 and provides a declarative API for managing Kubernetes clusters.
+
+https://blogs.vmware.com/cloudnative/2019/05/14/cluster-api-kubernetes-lif=
+ecycle-management/
+
+
+A quick reminder that web logs have lots of useful information in them=2C=
+ and that many of them can be configured to provide more with simple confi=
+guration. The post provides a few nginx tips=2C but I think this is true o=
+f most good web servers.
+
+https://www.honeycomb.io/blog/tell-me-more-nginx/
+
+
+New storage solutions keep cropping up that take advantage of modern cloud=
+ infrastructure. This post provides lots of details for anyone interested=
+ in=2C or operating=2C Ceph or Rook.
+
+https://www.cloudops.com/2019/05/the-ultimate-rook-and-ceph-survival-guide=
+/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon and CloudNativeCon Europe are this week! Lots of folks are already=
+ onroute to Barcelona=2C with events running from May 20th until the 23rd.=
+ Expect a fantastic range of technical talks and an unparalleled opportuni=
+ty to discuss all things modern infrastructure=2C cloud native and open so=
+urce. Hopefully see a few folks there.
+
+https://bit.ly/2VTfMl9
+
+
+
+Tools
+=3D=3D=3D=3D
+
+KEDA is a Kubernetes-based event driven autoscaling component. It allows f=
+or exposing information useful for scaling Kubernetes workloads up and dow=
+n=2C as well as exposing that information via a metrics server.
+
+https://github.com/kedacore/keda
+
+
+[You=E2=80=99re Invited] Puppet=2C Splunk and VictorOps are teaming up fo=
+r a live webinar on powering continuous improvement by combining analytics=
+=2C incident response and automation. Learn best practices for releasing b=
+etter applications faster=2C without the fire drills.
+
+http://try.victorops.com/devopsweekly/continuous-improvement
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

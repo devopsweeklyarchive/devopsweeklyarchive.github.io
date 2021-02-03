@@ -1,0 +1,170 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#431?=
+Date: Sun, 31 Mar 2019 13:05:42 +0000
+
+DEVOPS WEEKLY
+ISSUE #431 - 31st March 2019
+
+I think this is the first Devops Weekly issue to feature a choose your own=
+ adventure game. If you=E2=80=99ve ever been on call=2C or have teams goin=
+g on call for the first time=2C you should play a few rouns.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+In case you missed it=2C check out the recording of the recent VictorOps w=
+ebinar=2C How to Make On-Call Suck Less. The webinar covers 5 actionable s=
+teps every DevOps team can take to improve alerting and make on-call suck=
+ less:
+
+http://try.victorops.com/devopsweekly/webinar-make-on-call-suck-less
+
+
+News
+=3D=3D=3D=3D
+
+As more development teams own services in production=2C new folks are expe=
+riencing on-call. This game gives you a flavour of on-call incidents=2C tr=
+acking how long the incident takes to resolve and how much stress it cause=
+s.
+
+http://dorothyjung.com/oncall-game/
+
+
+WebAssembly has been interesting to folks in the browser for a while=2C bu=
+t with work on WASI=2C a systems interface for WebAssembly=2C it has inter=
+esting usecases for infrastructure and systems work too.
+
+https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-=
+interface/
+
+
+A thought provoking post on issues caused by the split between the multipl=
+e layers of software and hardware=2C applying conway=E2=80=99s law to mult=
+i-tenant uses of the stack.
+
+https://blog.jessfraz.com/post/thoughts-on-conways-law-and-the-software-st=
+ack/
+
+
+A detailed outage report with lots of interesting information=2C especiall=
+y for anyone running PostgreSQL at scale.
+
+https://mailchimp.com/what-we-learned-from-the-recent-mandrill-outage/
+
+
+A post on the importance of eventual consistency of the network when think=
+ing about designing distributed systems. Tradeoffs between performance and=
+ simpler operations vs a more complex data model to reason about.
+
+https://blog.envoyproxy.io/embracing-eventual-consistency-in-soa-networkin=
+g-32a5ee5d443d
+
+
+A post comparing the current situation with AWS and Kubernetes to how thin=
+gs played out with Windows and Linux.
+
+https://zwischenzugs.com/2019/03/25/aws-vs-k8s-is-the-new-windows-vs-linux=
+/
+
+
+A presentation looking at the fundamentals of instrumenting your software=
+ for easier operation in production.
+
+https://www.slideshare.net/postwait/put-some-sre-in-your-shipped-software
+
+
+A discussion of the value and the cost of implementing a configuration man=
+agement database=2C from a traditional ITSM point of view.
+
+http://itsmtransition.com/2019/03/is-a-cmdb-required-for-effective-it/
+
+
+Monitoring has generally been quite an ad hoc affair=2C but recent efforts=
+ have started to try and strandardise different aspects. Two of those=2C O=
+penTracing and OpenCensus=2C are merging together=2C which is surely a goo=
+d thing.
+
+https://medium.com/opentracing/merging-opentracing-and-opencensus-f0fe9c7c=
+a6f0
+
+
+A quick comparison of various service mesh technologies=2C looking at isti=
+o=2C linkerd and consul connect.
+
+https://www.cloudops.com/2019/03/comparing-service-meshes-istio-linkerd-an=
+d-consul-connect/
+
+
+A new version of the Traefik reverse proxy is coming and has some useful l=
+ooking features. TCP handling=2C cross-provider support=2C a Kubernetes CR=
+D and more.
+
+https://blog.containo.us/back-to-traefik-2-0-2f9aa17be305
+
+
+A post introducing the concept of observability=2C and providing some opin=
+ions about how this varies from more traditional monitoring.
+
+https://sflanders.net/2019/03/26/an-intro-to-observability/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The O'Reilly Velocity Conference returns to San Jose=2C June 10=E2=80=9313=
+=2E Velocity is the best place on the planet for web ops and systems enginee=
+ring professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on DevOps=2C systems eng=
+ineering=2C performance=2C and more=2C there's something for everyone. Pas=
+ses start at $796 when you use the code DEVW20 (applies to Gold=2C Silver=
+=2C and Bronze passes). Limited offer expires May 4. Register today!
+
+https://oreil.ly/2Uf3u63
+
+
+Jobs
+=3D=3D=3D=3D
+
+Expensify - We=E2=80=99re on the hunt for one bright soul to join our infr=
+astructure team to help battle expense reports that suck. We guarantee you=
+ fun=2C an amazing opportunity to learn and teach=2C and the siren's call=
+ of distant riches. With a healthy mix of cloud and owned racks=2C you=E2=
+=80=99d work hand-in-hand in our engineering org on a profitable=2C well-l=
+oved product with a focus on improving scaling and security.
+
+https://we.are.expensify.com/jobs
+
+
+Tools
+=3D=3D=3D=3D
+
+Lucet is a WebAssembly compiler and runtime=2C intended to support using W=
+ebAssembly outside the browser environment.
+
+https://www.fastly.com/blog/announcing-lucet-fastly-native-webassembly-com=
+piler-runtime
+https://github.com/fastly/lucet
+
+
+Screwdriver is a relatively new build platform designed for continuous del=
+ivery. It features a pluggable execuror model with support for Docker=2C N=
+omad and Kubernetes.
+
+https://screwdriver.cd/
+https://github.com/screwdriver-cd/screwdriver
+
+
+
+In case you missed it=2C check out the recording of the recent VictorOps w=
+ebinar=2C How to Make On-Call Suck Less. The webinar covers 5 actionable s=
+teps every DevOps team can take to improve alerting and make on-call suck=
+ less:
+
+http://try.victorops.com/devopsweekly/webinar-make-on-call-suck-less
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

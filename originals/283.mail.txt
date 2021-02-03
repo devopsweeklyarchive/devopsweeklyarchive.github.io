@@ -1,0 +1,185 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#283?=
+Date: Sun, 29 May 2016 11:35:21 +0000
+
+DEVOPS WEEKLY
+ISSUE #283 - 29th May 2016
+
+Serverlessconf kicked off a bunch of interesting conversations on the inte=
+rnet this week about the serverless architectural style. I just wanted to=
+ say thanks to the many folks who contributed to that discussion with a fo=
+cus on what it means for operations. Lets try and avoid the hyperbole and=
+ slipping into well-trodden silos.
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Being on-call sucks. Join the weekly VictorOps demo and learn how to impro=
+ve the way you do incident management.
+
+http://try.victorops.com/devops_weekly_TuesdayDemo
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Sprinting for Success: Digital Transformation through Agile and DevOps
+
+Discover how Verizon=2C challenged by a complex IT and business infrastruc=
+ture accumulated over decades=2C was able to digitally transform their IT=
+ organization using a DevOps approach. The results are staggering! Can=E2=
+=80=99t make the webinar=2C register and we=E2=80=99ll send you the replay=
+ and slides.
+
+http://ow.ly/rrhU300b5W6
+
+
+News
+=3D=3D=3D=3D
+
+A presentation from the recent Serverlessconf all about what the shift to=
+ a serverless architecture means for operations and architecture. A focus=
+ on the importance of service relationships and primise theory.
+
+http://www.slideshare.net/jedi4ever/from-serverless-to-service-full-how-th=
+e-role-of-devops-is-evolving
+
+
+A discussion of how services like AWS Lambda provide a new challenge to tr=
+aditional lockin.
+
+http://www.aneelism.com/blog/2015/1/19/aws-lambda-some-words
+
+
+Blue Ocean is the codename for a brand new user interface to Jenkins=2C ce=
+ntered around the concept of a pipeline. Jenkins is powerful and widely de=
+ployed=2C but this plugin aims to provide a modern user experience around=
+ specific usages.
+
+https://jenkins.io//blog/2016/05/26/introducing-blue-ocean/
+https://github.com/jenkinsci/blueocean-plugin
+
+
+A good set of security related things to worry about when building serverl=
+ess applications. Discussion of monitoring=2C code quality=2C data flows a=
+nd assessing service capability.
+
+https://medium.com/@marknca/4-steps-to-secure-serverless-applications-1274=
+f0f5d321#.alq0mrnfz
+
+
+A detailed talk on continuous integration in the data center. Talk of code=
+ review=2C patterns=2C practices and antipatterns and the evolution of a C=
+I setup over the last 3 years.
+
+http://michael-prokop.at/blog/2016/05/26/my-talk-at-osdc-2016-continuous-i=
+ntegration-in-data-centers-further-3-years-later/
+
+
+MongoDB monitoring depends on the storage engine you=E2=80=99re using. The=
+ following series of posts delve into all the details.
+
+https://www.datadoghq.com/blog/monitoring-mongodb-performance-metrics-wire=
+dtiger/
+https://www.datadoghq.com/blog/monitoring-mongodb-performance-metrics-mmap=
+/
+
+
+A nice introduction Test Driven Development of infrastructure=2C and to us=
+ing Test Kitchen and a suite of Ruby testing tools to verify Ansible roles=
+=2E
+
+http://www.slideshare.net/MartinEtmajer/testing-ansible-roles-with-test-ki=
+tchen-serverspec-and-rspec-48185017
+
+
+Jobs
+=3D=3D=3D=3D
+
+Brandwatch is one of the world=E2=80=99s leading social media monitoring a=
+nd analytics platforms=2C we love automation and efficiency. We are curren=
+tly looking for a Linux Systems Engineer to be based in our Brighton offic=
+e. You will be an expert in config management=2C will have held a previous=
+ role in a DevOps or similar environment and be adept at managing a large-=
+scale server estate in an organisation where open-source software is king.=
+ You=E2=80=99ll help us create a flexible and extensible compute platform=
+ which exhibits the ease of use of AWS in our data centres using OpenStack=
+=2C Docker and Puppet.
+
+https://app.jobvite.com/j?cj=3DohnJ2fw9&s=3DDevOPs_Weekly
+
+
+
+Senior Site Reliability Engineers at SalesforceIQ are hybrid software/syst=
+ems engineers who ensure that SalesforceIQ's services run smoothly and hav=
+e the capacity for future growth. You will be responsible for managing our=
+ production services and will be working very closely with developers and=
+ other Ops teams to ensure reliability=2C scalability and performance of o=
+ur cloud infrastructure. Contact J.Roth@Salesforce.com for more informatio=
+n.
+
+https://vimeo.com/140080082
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+I=E2=80=99m super excited that DevOps Enterprise Summit is coming to Londo=
+n on June 30th and July 1st. The US editions have provided great examples=
+ of devops practices being applied in traditional organisations=2C and wit=
+h speakers from Hiscox=2C SAP=2C ING=2C Lego and more it should be another=
+ great event.
+
+http://events.itrevolution.com/eu
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+For all the simplicity in the basic Dockerfile=2C following the current be=
+st practice can be tricky. Dockerize Me provides an opinionated=2C wizard-=
+like=2C approach to building Docker images.
+
+https://github.com/fiunchinho/dockerize-me
+
+
+Rocker is another Docker build tool=2C in this case one which adds some ne=
+w features to the standard Dockerfile - including tagging and pushing from=
+ within the file=2C mounting build-time volumes and attaching to the build=
+ process part way through to aid debugging.
+
+https://github.com/grammarly/rocker
+
+
+We often talk about the importance of holding a learning review or blamele=
+ss postmortem after an incident=2C but how do you track those over time? E=
+nter Morgue. A simple web application=2C plus some interesting Jira and IR=
+C integration.
+
+https://github.com/etsy/morgue
+
+
+If you run SSH on a non-standard port you still run the risk of people dis=
+covering that port. So why not change the port every 30s and use TOTP code=
+s to discover it?
+
+https://github.com/benjojo/totp-ssh-fluxer
+
+
+Managing the configuration of a complex piece of software can too easily f=
+all back into manual=2C error prone practices. Monkey Ops is an applicatio=
+n which aims to ensure your OpenShift setup is robust by finding and findi=
+ng resources like Pods or DeploymentConfigs and randomly terminating them.
+
+https://github.com/Produban/monkey-ops
+
+
+Being on-call sucks. Join the weekly VictorOps demo and learn how to impro=
+ve the way you do incident management.
+
+http://try.victorops.com/devops_weekly_TuesdayDemo
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

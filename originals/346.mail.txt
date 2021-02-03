@@ -1,0 +1,142 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#346?=
+Date: Sun, 13 Aug 2017 11:59:06 +0000
+
+DEVOPS WEEKLY
+ISSUE #346 - 13th August 2017
+
+Some solid advanced topics this week=2C with in-depth articles on packagin=
+g=2C code repository organisation and observability=2C and a discussion of=
+ immutable infrastructure featuring yours truly.
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Being on-call sucks - but is it getting better? See what 800+ professional=
+s have to say about being on-call in VictorOps=E2=80=99 annual =E2=80=9CSt=
+ate of On-Call=E2=80=9D report.
+
+http://try.victorops.com/StateofOnCall/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+AI-Powered DevOps: Injecting Speed & Quality Across Verizon=E2=80=99s Clou=
+d Pipelines
+
+With customer experience being a top priority=2C Verizon turned to an auto=
+mated delivery pipeline approach that leveraged cloud and container techno=
+logy. This enabled teams to deploy new features faster=2C directly into pr=
+oduction. But it also increased technical complexity. Learn how Verizon us=
+ed Artificial Intelligence (AI)-powered monitoring=2C and was able to tran=
+scend this problem=2C and today easily manages complex=2C web-scale DevOps=
+ in the cloud.
+
+http://ow.ly/I1k330elsWO
+
+
+News
+=3D=3D=3D=3D
+
+An excellent article on the differences of opinion=2C and their underlying=
+ causes=2C around how software should be packaged.
+
+https://www.bassi.io/articles/2017/08/10/dev-v-ops/
+
+
+Immutable infrastructure is=2C in my view=2C a great idea with a bunch of=
+ little-discussed practical considerations. I had a chat with Rob from Rac=
+kN this week on the topic which is hopefully of interest to folks.
+
+https://www.rackn.com/2017/08/09/immutable-deployment-challenges-devops/
+
+
+A decent article covering using Terraform to manage a AWS Lambda function.=
+ Covers monitoring=2C environments=2C bundling dependencies and more.
+
+https://medium.com/build-acl/aws-lambda-deployment-with-terraform-24d36cc8=
+6533
+
+
+A good discussion of the practicality and costs of exactly-once message qu=
+eues=2C summarising various other discussions and providing a good summary=
+ and observations.
+
+http://bravenewgeek.com/fifo-exactly-once-and-other-costs/
+
+
+Lots of discussion at the moment about more intelligent use of monitoring=
+=2C in particular combining different sources of data to provide context t=
+o events. This post has a good example why this is so powerful.
+
+https://blog.turbinelabs.io/beyond-observing-behavior-a0887fe0d3ca
+
+
+Different ways of organising code have different tradeoffs=2C and warrant=
+ differentiating tooling=2C especially at different scales. This post is a=
+n interesting look at how the Linux kernel source code is maintained=2C an=
+d the people=2C processes and tools which contribute.
+
+http://blog.ffwll.ch/2017/08/github-why-cant-host-the-kernel.html
+
+
+A good presentation on secrets management=2C featuring a look at features=
+ of a good secrets solution=2C some of the pros and cons of using Vault=2C=
+ and then looking at the AWS Parameter Store.
+
+https://docs.google.com/presentation/d/1ipP2eB9pW5j3WDvzCGz9Wy4MBoK2SMvOTZ=
+tPdf5kSNs/edit#slide=3Did.g1fa55b980e_0_0
+
+
+An interesting post about the utility of unikernels for more than just rep=
+lacing existing workloads or architectures.
+
+http://unikernel.org/blog/2017/the-search-for-the-killer-app-of-unikernels
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Intro to CNI=2C the Container Network Interface
+August 24=2C Online
+
+http://goo.gl/dVfE6u
+
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists in Austin for a broad range of technical sessions on=
+ the cloud native ecosystem. We sold out in Berlin and are excited to see=
+ thousands of you from the community join us=2C this time in Austin!
+
+http://goo.gl/wbdqve
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Functions as a Service (or FaaS) is a new serverless framework aimed at ru=
+nning on top of Docker or Kubernetes.
+
+https://blog.alexellis.io/introducing-functions-as-a-service/
+https://github.com/alexellis/faas
+
+
+OpenEBS provides containerized block storage with per-container (or pod) Q=
+oS SLAs=2C tiering and replica policies across AZs and environments=2C and=
+ predictable and scalable performance.
+
+https://github.com/openebs/openebs
+
+
+
+Being on-call sucks - but is it getting better? See what 800+ professional=
+s have to say about being on-call in VictorOps=E2=80=99 annual =E2=80=9CSt=
+ate of On-Call=E2=80=9D report.
+
+http://try.victorops.com/StateofOnCall/DevOpsWeekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

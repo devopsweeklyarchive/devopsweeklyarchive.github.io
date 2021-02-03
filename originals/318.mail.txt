@@ -1,0 +1,174 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#318?=
+Date: Sun, 29 Jan 2017 13:38:12 +0000
+
+DEVOPS WEEKLY
+ISSUE #318 - 29th January 2017
+
+It=E2=80=99s just about the end of January=2C which means it=E2=80=99s tim=
+e for FOSDEM and Configuration Management Camp in Belgium. If anyone else=
+ is going to be along do say Hi. And for everyone else I=E2=80=99ll try an=
+d round up much of the content over the next few issues.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+=E2=80=9CThe How and Why of Minimum Viable Runbooks.=E2=80=9D Get the free=
+ ebook from VictorOps.
+
+http://bit.ly/2victoropsebook
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Practical Tips to Start Your DevOps Journey
+
+In this webinar replay=2C learn practical tips that all IT groups from Dev=
+ to Ops can use to start their DevOps journey quickly. With experience fro=
+m hundreds of DevOps deployments=2C Andreas Grabner=2C Chief DevOps Activi=
+st at Dynatrace=2C will provide insights it would take your team months or=
+ years to learn firsthand.
+
+http://ow.ly/yJpv306Zlyy
+
+
+News
+=3D=3D=3D=3D
+
+A good post on the link between barriers to transforming traditional organ=
+isations and a focus on total cost of ownership=2C and how that is affecti=
+ng container deployments.
+
+https://redmonk.com/fryan/2017/01/23/strategic-technology-utilisation-vers=
+us-business-velocity/
+
+
+Security scanning is a great idea but the tools haven=E2=80=99t always mad=
+e this easy to automate. This post introduces the concept of a baseline se=
+t of controls=2C and demonstrates using OWASP Zap to run a simple set of u=
+seful checks.
+
+https://blog.mozilla.org/security/2017/01/25/setting-a-baseline-for-web-se=
+curity-controls/
+
+
+A solid technical comparison between Go and Elixir=2C two programming lang=
+uages cropping up more and more for various systems related tasks.
+
+https://blog.codeship.com/comparing-elixir-go/
+
+
+An interesting article about embracing data science with a devops mindset.=
+ Good overlapping concerns with regards to focusing on value and breaking=
+ down silos to do so.
+
+http://tech.blue-yonder.com/data-science-and-devops-a-success-story/
+
+
+A good interview about adopting agile practices and devops in a large orga=
+nisation. Interesting points about amplifying and scaling grassroots effor=
+ts.
+
+https://enterprisersproject.com/article/2017/1/target-cio-explains-how-dev=
+ops-took-root-inside-retail-giant
+
+
+A solid introduction to getting up and running with Docker on Windows=2C m=
+ainly written for people more familiar with PowerShell and the Windows env=
+ironment that those coming from Linux.
+
+https://www.simple-talk.com/sysadmin/virtualization/working-windows-contai=
+ners-docker-basics/
+
+
+Getting the most out of Kubernetes requires you to understand the role pla=
+yed by the various API primitives. This post is a good example of that=2C=
+ explaining why linkerd utilises DaemonSets.
+
+https://blog.buoyant.io/2016/10/14/a-service-mesh-for-kubernetes-part-ii-p=
+ods-are-great-until-theyre-not/
+
+
+CNCF
+=3D=3D=3D=3D
+
+The Cloud Native Computing Foundation will visit Portland=2C Seattle and V=
+ancouver from February 7-9=2C 2017 to offer Kubernetes training for end us=
+ers=2C developers=2C students and other community members. Presented by Da=
+n Kohn=2C Executive Director=2C CNCF=2C Brian Gracely=2C Director of Produ=
+ct Strategy=2C Red Hat and Isaac Arias=2C Technology Executive=2C Apprenda=
+=2E Sign up now:
+
+http://bit.ly/2iFNbgF
+
+
+Jobs
+=3D=3D=3D=3D
+
+As a DevOps Ace=2C Shouldn't Companies Apply to You? - Try Hired and Let t=
+he Offers Roll In.
+
+http://hrd.cm/2jHrf1B
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Surge=2C an excellent conference focused on scalability and performance is=
+ coming up on the 21st and 22nd of September in Washington DC. The CFP is=
+ open until April 19th too.
+
+https://go.omniti.com/surge/
+https://www.papercall.io/surge-2017-cfp
+
+
+The 5th anniversary Devopsdays Amsterdam is on June 28th to 30th and along=
+side the typical 2 days of talks and open spaces features a full day of wo=
+rkshops
+
+https://www.eventbrite.co.uk/e/devopsdays-amsterdam-2017-tickets-313508883=
+51?aff=3Defbneb
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Vuls looks like an excellent=2C modern=2C vulnerability scanner for Linux=
+ and FreeBSD. Run either interactively or on cron it has support for scann=
+ing containers as well as the host OS.
+
+https://github.com/future-architect/vuls
+
+
+Tig is a text mode interface for Git. Something more than the command line=
+ can be useful when exploring a repository or learning git=2C but not ever=
+yone wants a full-blown GUI.
+
+https://jonas.github.io/tig/
+
+
+A build toolchain for MirageOS unikernels built around Docker. Integrates=
+ Solo5 to provide targets for kvm=2C ukvm and qemu.
+
+https://github.com/mato/docker-unikernel-runner
+
+
+Pipenv is a new tool for python dependency management. It=E2=80=99s aim is=
+ to combine pip=2C the new Pipfile=2C virtualenv and ideas from other lang=
+uage systems into a single polished user interface.
+
+https://www.kennethreitz.org/essays/announcing-pipenv
+
+
+
+=E2=80=9CThe How and Why of Minimum Viable Runbooks.=E2=80=9D Get the free=
+ ebook from VictorOps.
+
+http://bit.ly/2victoropsebook
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

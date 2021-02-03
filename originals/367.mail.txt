@@ -1,0 +1,139 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#367?=
+Date: Sun, 7 Jan 2018 14:18:33 +0000
+
+DEVOPS WEEKLY
+ISSUE #367 - 7th January 2018
+
+One week into 2018 and we have the first big security issues with Spectre=
+ and Meltdown. A big shout out to the kernel engineers and others working=
+ to mitigate the problems=2C and the operators dealing with the fallout in=
+ production.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Curious about the state of on-call=2C but don't have a ton of time to do t=
+he research? VictorOps has gathered the most important stats in one place=
+ for you to skim.
+
+http://try.victorops.com/DevOpsWeekly/OnCallStats
+
+
+News
+=3D=3D=3D=3D
+
+This week saw the announcement of the Spectre and Meltdown show stopping b=
+ugs. I won=E2=80=99t fill the newsletter with posts on the subject=2C but=
+ this post from the stable kernel release manager is worth reading=2C and=
+ has good links to other sources too. The advice is to update your kernels=
+=2C don=E2=80=99t delay=2C and don=E2=80=99t stop.
+
+http://kroah.com/log/blog/2018/01/06/meltdown-status/
+
+
+A detailed post on learning to operate Kubernetes=2C which walks through a=
+ real-world story and outlines the strategies used (which are relevant for=
+ adopting other complex software too.)
+
+https://stripe.com/blog/operating-kubernetes
+
+
+When considering architecture it=E2=80=99s super important to consider fut=
+ure changes=2C and often why that means not trying to solve problems you d=
+on=E2=80=99t have now. A good post on evolutionary architecture explains.
+
+https://codeburst.io/evolutionary-architecture-27dae14b323d
+
+
+Brigade is a new workflow tool for Kubernetes. This post explains why the=
+ interface is a full-blown scripting language rather than just data like o=
+ther tools used for some of the same purposes. A good post for anyone inte=
+rested in user interface design for operations tools.
+
+http://technosophos.com/2018/01/04/why-brigade-doesn-t-do-yaml.html
+
+
+An interesting experience report from operating an application on Google A=
+pp Engine. Covers the built-in functionality for GAE=2C but it=E2=80=99s a=
+lso useful for anyone thinking about what changes when you run application=
+s in any kind of restrictive platform.
+
+https://blog.stephanbehnke.com/3-years-on-google-app-engine-an-epic-review=
+/
+
+
+A good post on immutable infrastructure and the importance of running you=
+ containers with read-only file systems. Contains good examples for Docker=
+ and Kubernetes based systems.
+
+http://lucasvanlierop.nl/blog/2017/12/31/truly-immutable-deployments-with-=
+docker-or-kubernetes/
+
+
+A look at building minimal containers=2C with lots of examples=2C tips and=
+ tools for building smaller containers without the typical overhead of a V=
+M.
+
+https://blog.kintoandar.com/2018/01/Building-healthier-containers.html
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar -  What=E2=80=99s New in Kubernetes 1.9
+January 9=2C Online
+
+Join members of the Kubernetes 1.9 release team to learn about the major f=
+eatures in this release including Windows and Docker support=2C storage=2C=
+ admission control=2C and the workloads API.
+
+https://goo.gl/Q7FPck
+
+
+Free Webinar -  Introducing Jaeger 1.0
+January 16=2C Online
+
+Learn about the features released in Jaeger 1.0=2C its architecture=2C dep=
+loyment options=2C integrations with other CNCF projects=2C and the roadma=
+p.
+
+https://goo.gl/AWfDaZ
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Dysk might be a useful tool for anyone running on Azure. It allows for att=
+aching Azure disks in < 1 second. Dysk mounts Azure disks as Linux block d=
+evices directly on VMs without dependency on the host.
+
+https://github.com/khenidak/dysk
+
+
+Airflow is a toolset for to programmatically authoring=2C scheduling and m=
+onitor workflows. It=E2=80=99s based on directed acyclic graphs and provid=
+es a Python-based DSL and a set og GUI tools for management.
+
+https://airflow.incubator.apache.org/
+
+
+Umoci is a tool for manipulating and building OCI compatible container ima=
+ges. It=E2=80=99s particularly handy for building containers without root=
+ users and for specific file-system layer manipulations.
+
+https://umo.ci/
+
+
+
+Curious about the state of on-call=2C but don't have a ton of time to do t=
+he research? VictorOps has gathered the most important stats in one place=
+ for you to skim.
+
+http://try.victorops.com/DevOpsWeekly/OnCallStats
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

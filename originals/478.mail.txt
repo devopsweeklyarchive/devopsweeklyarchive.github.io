@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#478?=
+Date: Sun, 23 Feb 2020 10:08:34 +0000
+
+DEVOPS WEEKLY
+ISSUE #478 - 23rd February 2020
+
+Lots of great operations content this week=2C with an in-depth look at an=
+ public incident report=2C discussion of game days=2C operational excellen=
+ce=2C shadow organisation charts and more.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Learn about some more subtle=2C unknown use cases for using Splunk + Victo=
+rOps to drive a more analytical=2C proactive approach to incident response=
+:
+
+https://go.victorops.com/devopsweekly-splunk-for-analytical-incident-respo=
+nse
+
+
+News
+=3D=3D=3D=3D
+
+An in-depth look at the recent report into the recent UK bank TSB IT migra=
+tion failure. Lots of details and some great anecdotes for any enterprise=
+ IT or project management folks to learn from.
+
+https://medium.com/@JonHall_/lessons-from-the-tsb-failure-a-perfect-storm-=
+of-waterfall-failures-4f4d2e789b35
+
+
+This post describes the role game days=2C and practice in general=2C play=
+ in improving incident management processes.
+
+https://uptime.com/blog/got-game-secrets-of-great-incident-management
+
+
+Devops conversations often turn to how organisational structure impacts th=
+e work we do. This post cleverly looks at organisational structure not thr=
+ough the org chart=2C but through how people actually work and influence o=
+thers. When we say we ship the org chart=2C we need to ask which one.
+
+https://carta.com/blog/the-shadow-organizational-chart/
+
+
+A nice long post on building a culture of operational excellence. The impo=
+rtance of measurement=2C training and education and how tools and culture=
+ support each other.
+
+https://medium.com/@adhorn/towards-operational-excellence-c9fe298e27e7
+
+
+With the ever-present need to manage lots of YAML files=2C various tools h=
+ave been emerging to help. This post looks at some of the problems with te=
+xt-based templating=2C and explores yq=2C kustomize and using native Javas=
+cript bindings for Kubernetes.
+
+https://learnk8s.io/templating-yaml-with-code
+
+
+Lots of details on how logging in Kubernetes works=2C from the cluster com=
+ponents to the applications you=E2=80=99re running on top.
+
+https://sematext.com/guides/kubernetes-logging/
+
+
+An example of using Lambda to bridge two other AWS services=2C in this cas=
+e AWS Kinesis Firehose and AWS ElasticSearch.
+
+https://saurabh-hirani.github.io/writing/2020/02/09/aws-firehose-throttlin=
+g-with-lambda
+
+
+Another post on alternatives to authoring Kubernetes configuration in YAML=
+=2E This presentation looks at using Kotlin and the Kotlin Kubernetes DSL fo=
+r authoring configuration.
+
+https://codetalks.tv/talk/kotlinconf-2019-unlock-power-of-kotlin-dsl-for-k=
+ubernetes-by-fedor-korotkov-yaw0m9kpa8q
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Gops is a handy tool for listing and diagnosing Go processes running on a=
+ machine. LIst the process=2C which version of Go was used to compile the=
+ binary=2C network connections and more.
+
+https://github.com/google/gops
+
+
+
+Learn about some more subtle=2C unknown use cases for using Splunk + Victo=
+rOps to drive a more analytical=2C proactive approach to incident response=
+:
+
+https://go.victorops.com/devopsweekly-splunk-for-analytical-incident-respo=
+nse
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

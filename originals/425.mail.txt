@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#425?=
+Date: Sun, 17 Feb 2019 10:56:43 +0000
+
+DEVOPS WEEKLY
+ISSUE #425 - 17th February 2019
+
+Lots of variety this week=2C from on-call=2C devops misconceptions and fut=
+ure architectures to software versioning and new configuration and policy=
+ enforcement tooling.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Establishing an effective post-incident review process and taking the time=
+ to execute on it makes a world of difference in software reliability. See=
+ this example of a post-incident review process that=E2=80=99s already hel=
+ping DevOps teams continuously improve:
+
+http://try.victorops.com/devopsweekly/post-incident-review-template
+
+
+News
+=3D=3D=3D=3D
+
+A good explanation of using Open Policy Agent for securing the Kubernetes=
+ API=2C with examples and a discussion of the challenges of securing the r=
+esource API.
+
+https://blog.openpolicyagent.org/securing-the-kubernetes-api-with-open-pol=
+icy-agent-ce93af0552c3
+
+
+A post looking at a few misconceptions around what devops is=2C and delvin=
+g in to two patterns for improving release safety and cadence with relatio=
+nal databases.
+
+https://queue.acm.org/detail.cfm?id=3D3300018
+
+
+Results from a recent survey focused on on-call compensation. Interesting=
+ data on whether people are paid for on-call=2C how that compensation work=
+s=2C how teams are structures for on-call and more.
+
+https://oncall.wtf/articles/2019-02/on-call-survey-2019
+
+
+Software versioning has a large impact on managing software and configurat=
+ion=2C and SemVer has a part to play in many ecosystems. So it=E2=80=99s i=
+nteresting to note that some folks are looking
+to maintain the SemVer spec.
+
+https://words.steveklabnik.com/what-s-next-for-semver
+
+
+A speculative post on what the next architecture after serverless may look=
+ like. I think this focuses on what=E2=80=99s technically possible=2C but=
+ I=E2=80=99d love to see discussion of the process and practice side of ar=
+chitecture.
+
+https://medium.com/@doctor_julz/what-comes-after-serverless-840032dd4ba8
+
+
+GitHub pages has lots of potential for automating common problems that cen=
+ter around code repositories. This post shows how to publish Helm charts i=
+n your own repos using GitHub Pages and Actions.
+
+https://medium.com/@stefanprodan/automate-helm-chart-repository-publishing=
+-with-github-actions-and-pages-8a374ce24cf4
+
+
+Tools
+=3D=3D=3D=3D
+
+jk is a data templating tool designed to help writing structured configura=
+tion files in TypeScript or Javascript. Jk features a mixin system and alr=
+eady has a Kubernetes module.
+
+https://github.com/jkcfg/jk
+
+
+Kamus is a secrets management tool for Kubernetes=2C it enable users to ea=
+sily encrypt secrets than can be decrypted only by the application running=
+ on Kubernetes.
+
+https://blog.solutotlv.com/can-kubernetes-keep-a-secret/
+https://github.com/Soluto/kamus
+
+
+
+Establishing an effective post-incident review process and taking the time=
+ to execute on it makes a world of difference in software reliability. See=
+ this example of a post-incident review process that=E2=80=99s already hel=
+ping DevOps teams continuously improve:
+
+http://try.victorops.com/devopsweekly/post-incident-review-template
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,154 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#457?=
+Date: Sun, 29 Sep 2019 10:16:37 +0000
+
+DEVOPS WEEKLY
+ISSUE #457 - 29th September 2019
+
+Definitely a theme of simplicity/complexity in a few posts this week=2C fr=
+om considering testing in production to applying cynefin to devops to disc=
+ussions of private cloud.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Machine learning (ML) isn=E2=80=99t just a buzzword anymore =E2=80=94 it=
+=E2=80=99s affecting how we communicate=2C shop=2C live and respond to cri=
+tical DevOps incidents. Grab your spot for this free webinar to learn abou=
+t driving success in incident management with machine learning:
+
+http://try.victorops.com/devopsweekly/devops-machine-learning
+
+
+News
+=3D=3D=3D=3D
+
+It=E2=80=99s easy to talk about testing in production=2C but what does tha=
+t look like for complex real-world systems? This post has lots of details=
+ around stateless systems.
+
+https://medium.com/@copyconstruct/testing-in-production-the-hard-parts-3f0=
+6cefaf592
+
+
+A very nice description of the tradeoffs we make when we build large syste=
+ms out of many small microservices.
+
+https://avdi.codes/simple-is-complex/
+
+
+Related to the above discussion of simple=2C this post looks at apply the=
+ cynefin framework to operations work. Good discussions of environment man=
+agement=2C deployment=2C chatops and leadership.
+
+https://www.cio.com/article/3440057/moving-operations-to-simple-with-cynef=
+in.html
+
+
+The Kubernetes project is increasingly prevalent. The project journey repo=
+rt therefore makes interesting reading=2C looking at where contributions c=
+ome from in terms of companies=2C geographies=2C individuals and more.
+
+http://bit.ly/2kV02xL
+
+
+A writeup from last weeks Chaos Conf in San Francisco. Lots of links and d=
+escriptions of talks. I particularly liked the chaos experiments for peopl=
+e systems discussion.
+
+https://www.gremlin.com/blog/chaos-conf-2019-recap/
+
+
+Linux capabilities provide a wealth of low-level functionality that=E2=80=
+=99s not yet well exposed in easy-to-use abstractions. This post delves in=
+to the details which might get you thinking about use cases.
+
+https://blog.container-solutions.com/linux-capabilities-in-practice
+
+
+A good overview of the recent State of Devops report results=2C with a foc=
+us on some of the data regarding devops security practices.
+
+https://diginomica.com/new-data-shows-devops-security-winning-combination
+
+
+70% of IT spend is still on premise. This presentation looks at why=2C exp=
+loring the sunk cost fallacy=2C efficiencies of public cloud and why you m=
+ight not want a private cloud after all.
+
+https://www.slideshare.net/spnewman/its-a-trap-176000461
+
+
+As cloud services have become more widely adopted=2C the economics of how=
+ things are priced has become more interesting=2C and more immediate. This=
+ experience report looks at one example=2C though it=E2=80=99s also intere=
+sting to think about what role familiarity with specific architectures pla=
+ys in cost optimisation.
+
+https://einaregilsson.com/serverless-15-percent-slower-and-eight-times-mor=
+e-expensive/
+
+
+Terminology and definitions=2C especially around new categories=2C tends t=
+o require lots of back and forth and building agreement. This post takes a=
+ run at defining the properties of observability systems around addressing=
+ unknown-unknowns.
+
+https://www.honeycomb.io/blog/so-you-want-to-build-an-observability-tool/
+
+
+A presentation with lots of diagrams=2C explaining a CI/CD process designe=
+d for a large organisation. Good discussion of some of the design decision=
+s=2C and always nice to see rich examples.
+
+http://bit.ly/2mKf2zl
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon + CloudNativeCon North America is coming up in San Diego from the=
+ 18th until the 21st of November. The schedule is packed with talks on the=
+ CNCF projects like Kubernetes=2C Envoy and Helm as well as case studies=
+=2C community meetings and more. The code KCNADOW19 will save DevOps Weekl=
+y readers 10% off the ticket price too.
+
+http://bit.ly/2ko9SrP
+
+
+The O'Reilly Velocity Conference heads to Berlin=2C 4=E2=80=937 November.=
+ Velocity is the best place on the planet for web ops and systems engineer=
+ing professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on cloud native infrastr=
+ucture=2C DevOps=2C Kubernetes=2C and more=2C there's something for everyo=
+ne. Passes start at =E2=82=AC676 when you use the code DEVW20 (applies to=
+ Gold=2C Silver=2C and Bronze passes). Register today!
+
+https://oreil.ly/99PIf
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Talos is a single-purpose operating system designed to provide clusters ab=
+stractions and tooling rather than focus on individual hosts. It=E2=80=99s=
+ built to run Kubernetes.
+
+https://www.talos-systems.com/
+https://github.com/talos-systems
+
+
+
+Machine learning (ML) isn=E2=80=99t just a buzzword anymore =E2=80=94 it=
+=E2=80=99s affecting how we communicate=2C shop=2C live and respond to cri=
+tical DevOps incidents. Grab your spot for this free webinar to learn abou=
+t driving success in incident management with machine learning:
+
+http://try.victorops.com/devopsweekly/devops-machine-learning
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

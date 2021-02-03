@@ -1,0 +1,177 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#342?=
+Date: Sun, 16 Jul 2017 11:29:58 +0000
+
+DEVOPS WEEKLY
+ISSUE #342 - 16th July 2017
+
+A couple of posts from either end of the devops spectrum I feel this week.=
+ On one hand a detailed look at writing a business-focused business case f=
+or adopting devops practices. On the other a post about the need to improv=
+e developer experience when adopting modern serverless technologies.
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The definitive guide for DevOps Post-Incident Reviews (AKA - Postmortems).=
+ Learn why traditional methods don=E2=80=99t work - and why fast incident=
+ response isn=E2=80=99t enough. Download your free copy of the 90+ page eB=
+ook from O=E2=80=99Reilly Media and VictorOps.
+
+http://try.victorops.com/Post_Incident_Review/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+DevOps: Cultural and Tooling Tips Around the World
+
+DevOps! One of the most abused terms in the software industry over the las=
+t few years. The term can mean something totally different=2C depending on=
+ your role=2C and your business. Join us for a 30-minute =E2=80=9Csecret s=
+auce=E2=80=9D session to hear customer learnings and best practices from D=
+evOps adopters around the world.
+
+http://ow.ly/qGbu30dc2yY
+
+
+News
+=3D=3D=3D=3D
+
+A super in-depth post explaining the role of schedulers in modern infrastr=
+ucture=2C and stepping through in detail the process of choosing tooling f=
+or a specific real world use case.
+
+https://medium.com/@cindysridharan/schedulers-kubernetes-and-nomad-b0f2e14=
+a896
+
+
+A good presentation introducing the concept of sandboxes and then explaini=
+ng the state-of-the-art when it comes to containers=2C including some inte=
+resting research on generating profiles at build-time.
+
+https://docs.google.com/presentation/d/1x0DfyC8OxTHsiqf6YRGmqS63CjqCs8-613=
+T_Dzdyi0Q/mobilepresent?slide=3Did.p
+
+
+A useful breakdown of the main serverless platforms; AWS Lambda=2C Azure F=
+unctions=2C Google Cloud Functions and OpenWhisk. Looking in particular at=
+ supported runtimes and costs.
+
+https://headmelted.com/serverless-showdown-4a771ca561d2
+
+
+Changing how an organisation works=2C for instance adopting devops practic=
+es=2C might involve some sort of business case. This next post explains ho=
+w to keep that argument focused on the business and not on the technology.
+
+https://www.contino.io/insights/how-to-make-a-strategic-value-driven-busin=
+ess-case-for-your-devops-initiative
+
+
+An interesting post stressing the need for better developer experience aro=
+und serverless platforms to deal with newfound operational tasks and abstr=
+actions. Some good points about local development needs=2C dependency mana=
+gement=2C testing and more.
+
+https://medium.com/netflix-techblog/developer-experience-lessons-operating=
+-a-serverless-like-platform-at-netflix-a8bbd5b899a0
+
+
+The nature of the Kuberntes API lends itself to higher-level user interfac=
+es. This post collects a good list of existing options together in one pla=
+ce.
+
+https://blog.openshift.com/kubernetes-state-app-templating/
+
+
+The =E2=80=9Cat scale=E2=80=99 moniker is mainly pointless given it means=
+ different things to different people. This post makes that point with a h=
+andful of examples.
+
+https://medium.com/@mrmcrilly/when-you-say-you-operate-at-scale-what-do-yo=
+u-mean-exactly-8ac898cc7629
+
+
+An interesting look at a virtual machine based setup for deploying unikern=
+els=2C with some interesting security properties and a decentralised resou=
+rce delegation mechanism.
+
+https://hannes.nqsb.io/Posts/VMM
+
+
+A description of managing secrets in Kubernetes and Helm=2C using a new He=
+lm plugin. Good explanation of the problem and solution.
+
+https://lab.getbase.com/helm-secrets-a-missing-piece-in-kubernetes/
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon / CloudNativeCon Austin - Join leading Kubernetes and Cloud Native=
+ technologists in Austin for a full range of technology sessions on the cl=
+oud native ecosystem.
+
+We sold out in Berlin and are excited to see thousands of you from the com=
+munity in Austin! Call for papers and registration information linked.
+
+https://goo.gl/yKCHvh
+
+
+A free multi-week online course from the Linux Foundation which provides a=
+n Introduction to Kubernetes. Covers the background=2C getting up and runn=
+ing with minikube=2C running your first application=2C engaging with the c=
+ommunity and more.
+
+https://www.edx.org/course/introduction-kubernetes-linuxfoundationx-lfs158=
+x
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Full Stack Fest 2017: Problems of today=2C wonders from the future. Barcel=
+ona=2C 4-8 Sept. 2017
+
+Text: Are you a curious mind? Full Sack Fest is a week-long conference bas=
+ed in the amazing city of Barcelona that peeks into the web of tomorrow. S=
+erverless=2C Blockchain=2C WebVR=2C Distributed Web=2C Progressive Web App=
+s... Come and see! Early bird tickets available with a 10% discount using=
+ the code DEVOPSWEEK.
+
+https://2017.fullstackfest.com
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+K8Guard is an auditing system for Kubernetes clusters. It monitors differe=
+nt entities=2C like image size=2C third-party repository usage=2C missing=
+ metadata=2C etc. on your cluster for possible violations.
+
+https://target.github.io/infrastructure/k8guard-the-guardian-angel-for-kub=
+erentes
+https://k8guard.github.io/
+
+
+Kubicorn is another project in the Kubernetes management space. A library=
+ more than a tool to use directly=2C kubicorn is a new projects but with s=
+ome interesting design goals.
+
+https://github.com/kris-nova/kubicorn
+
+
+
+The definitive guide for DevOps Post-Incident Reviews (AKA - Postmortems).=
+ Learn why traditional methods don=E2=80=99t work - and why fast incident=
+ response isn=E2=80=99t enough. Download your free copy of the 90+ page eB=
+ook from O=E2=80=99Reilly Media and VictorOps.
+
+http://try.victorops.com/Post_Incident_Review/DevOpsWeekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

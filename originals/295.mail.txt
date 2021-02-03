@@ -1,0 +1,134 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#295?=
+Date: Sun, 21 Aug 2016 09:38:51 +0000
+
+DEVOPS WEEKLY
+ISSUE #295 - 21st August 2016
+
+A slightly quiet issue this week as I=E2=80=99ve been on holiday. But stil=
+l lots of great content on everything from packaging to highly-available d=
+atabase clusters to understanding a bit more about layered file system use=
+ in containers.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Manage and automate DevOps operations through group chat. Learn how in the=
+ free ChatOps book from VictorOps:
+
+http://bit.ly/2bHZchq
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+A Tale of Two Pipelines: To DevOps or Not to DevOps
+
+Need to increase innovation and the speed of your software delivery pipeli=
+ne? Join this webinar to get insights on key pipeline factors that plague=
+ traditional delivery pipelines and how to overcome them with practices th=
+at establish a true DevOps culture for a faster and less troublesome conti=
+nuous delivery pipeline.
+
+http://ow.ly/a3Av302XEHK
+
+
+News
+=3D=3D=3D=3D
+
+PowerShell has been open sourced=2C and is also now available for Linux an=
+d OS X. I think this is a big deal=2C and we=E2=80=99ll hear more about wh=
+y hopefully in future issues (hint hint).
+
+https://azure.microsoft.com/en-us/blog/powershell-is-open-sourced-and-is-a=
+vailable-on-linux/
+
+
+Packaging is always a hot topic. This post makes a convincing argument tha=
+t the state of python packaging has improved measurably over the last few=
+ years.
+
+https://glyph.twistedmatrix.com/2016/08/python-packaging.html
+
+
+A great post on building highly available database clusters=2C in this cas=
+e a pool of MySQL replicas supported by HAProxy. Lots of code samples and=
+ demos.
+
+http://githubengineering.com/context-aware-mysql-pools-via-haproxy/
+
+
+Puppet 4 has been available for a while now with some useful new features=
+ like a type system and improvements to error messages=2C performance and=
+ more. A good list of gotchas for anyone upgrading.
+
+http://hggh.github.io/puppet/debian/2016/08/19/puppet-4.x.html
+
+
+Consul and more generally service discovery is a key part of many modern a=
+rchitectures. This post covers some of the things learned from running Con=
+sul for a while=2C including managing load=2C monitoring and auditability.
+
+https://engineering.datadoghq.com/consul-at-datadog/index.html
+
+
+A good introduction to using recent features in Jenkins to build a modern=
+ pull-request centric test pipeline using the new Jenkinsfile.
+
+https://www.theguild.nl/building-github-pull-requests-using-jenkins-pipeli=
+nes/
+
+
+A good look at how updates from package repositories can lead to larger Do=
+cker containers=2C why this isn=E2=80=99t desirable and what you can do ab=
+out it.
+
+http://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size=
+/
+
+
+Autoscaling is a key part of taking advantage of moving to a cloud environ=
+ment. This post delves into why and covers some typical autoscaling strate=
+gies.
+
+https://blog.codeship.com/autoscaling-purpose-strategies/
+
+
+A discussion of the importance of automation and standards as teams scale=
+ out with more and more services. How do you avoid the microservices versi=
+on of works on my machine?
+
+https://www.linux.com/news/how-twitter-avoids-microservice-version-works-m=
+y-machine
+
+
+Jobs
+=3D=3D=3D=3D
+
+Looking for new DevOps opportunities? Spend your time building=2C not sear=
+ching for a job. Sign-up for Hired today.
+
+http://hrd.cm/23r2ok5
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Software Circus is coming up in a few weeks in Amsterdam=2C on the 31st of=
+ August to the 2nd of September. Talks abound on containers=2C cloud nativ=
+e architectures=2C AI=2C modern infrastructure and more.
+
+http://cloudnativecomputing.softwarecircus.io/
+
+
+
+Manage and automate DevOps operations through group chat. Learn how in the=
+ free ChatOps book from VictorOps:
+
+http://bit.ly/2bHZchq
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

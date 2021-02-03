@@ -1,0 +1,86 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#521?=
+Date: Sun, 20 Dec 2020 12:30:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #521 - 20th December 2020
+
+Everything from data engineering to Serverless  operations and consensus a=
+lgorithms to Kubernetes this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Did you catch the news? StackHawk now offers a free Developer Plan. Gettin=
+g up and running with application security testing has never been easier.=
+ Give it a try.
+
+https://sthwk.com/free-plan
+
+
+News
+=3D=3D=3D=3D
+
+There are lots of tools for storing data=2C but how do you find the right=
+ dataset for analysis? This post explores a number of different architectu=
+ral approaches and discusses pros and cons.
+
+https://engineering.linkedin.com/blog/2020/datahub-popular-metadata-archit=
+ectures-explained
+
+
+A good writeup from a recent AWS reInvent talk focused on AWS=E2=80=99s Se=
+rverless services. This post focused on what this means for operations=2C=
+ which is often neatly ignored in the marketing.
+
+https://www.stackery.io/blog/reinvent-2020-serverless-leadership-recap/
+
+
+Related to a large CDN outage=2C this post looks at some of the theory beh=
+ind the RAFT consensus algorithm=2C and whether it provides liveness guare=
+eness during network failures and what can be done about it.
+
+https://decentralizedthoughts.github.io/2020-12-12-raft-liveness-full-omis=
+sion/
+
+
+This long read introduces YOLOSec and FOMOSec as terms to describe problem=
+atic but all-to-common approaches to security strategy=2C driven either by=
+ short-termism or by chasing fashion.
+
+https://swagitda.com/blog/posts/on-yolosec-and-fomosec/
+
+
+More and more teams are now needing to manage multiple Kubernetes clusters=
+=2E This post takes a look at the monitoring challenges that brings=2C and h=
+ow to solve them with Prometheus and Grafana.
+
+https://inlets.dev/blog/2020/12/15/multi-cluster-monitoring.html
+
+
+A post exploring DNS routing in Kubernetes=2C stepping through several pot=
+ential solutions to a specific problem.
+
+https://wgtwo.com/blog/forbidden-lore-hacking-dns-routing-for-k8s
+
+
+Ensuring SSL certificates don=E2=80=99t expire is an essential if annoying=
+ problem=2C and several services exist to help. This post runs down a list=
+ of different solutions.
+
+https://sematext.com/blog/ssl-certificate-monitoring/
+
+
+A look at building a Kubernetes-based platform using Argo Workflows and Ar=
+go Events.
+
+https://tomas-valasek.medium.com/building-kubernetes-clusters-using-kubern=
+etes-dde332c77d65
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

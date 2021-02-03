@@ -1,0 +1,149 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#378?=
+Date: Sun, 25 Mar 2018 10:29:37 +0000
+
+DEVOPS WEEKLY
+ISSUE #378 -  25th March 2018
+
+Some posts this week on classic ops problems; like database migrations and=
+ runbooks - as well as some discussions of modern development workflows us=
+ing containers.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Outages cost organizations millions. Grab this Forrester report=2C The Cha=
+nging Landscape of IT Incident And Crisis Management=2C to see why a strea=
+mlined process for incident management needs to become top priority.
+
+http://try.victorops.com/DevOpsWeekly/ForresterReport
+
+
+News
+=3D=3D=3D=3D
+
+A discussion of approaches to database migrations when adopting continuous=
+ deployment.
+
+https://samsaffron.com/archive/2018/03/22/managing-db-schema-changes-witho=
+ut-downtime
+
+
+A look at the lessons that lots of people took from ITIL that go against m=
+odern ITSM practices.
+
+http://www.itskeptic.org/content/lessons-world-took-itil
+
+
+A post comparing the progress of Google Cloud relative to AWS. With the gr=
+owing popularity of multi-cloud strategies it=E2=80=99s useful to keep up-=
+to-date.
+
+https://medium.com/@jaychapel/google-cloud-platform-vs-aws-is-the-answer-o=
+bvious-maybe-not-1a11482beca9
+
+
+A good post on the importance of runbooks for introducing development team=
+s to operations tasks and increasing transparency.
+
+https://blog.buildo.io/enable-your-devs-to-do-ops-9a0a870baa1
+
+
+A post on the importance of making engineers accountable for behavior in p=
+roduction. Lots of good tips for those working in small teams around cultu=
+re=2C security and minimising risk.
+
+https://www.threatstack.com/blog/how-threat-stack-does-devops-part-iv-maki=
+ng-engineers-accountable/
+
+
+A detailed post covering a modern software development workflow using Dock=
+er and Kubernetes - taking into account monitoring requirements=2C event b=
+uses=2C single-sign-on and more.
+
+https://hackernoon.com/the-best-architecture-with-docker-and-kubernetes-my=
+th-or-reality-77b4f8f3804d
+
+
+security.txt is an approach to one of the problems of vulnerability disclo=
+sure=2C namely finding out who to disclosure issues to. It will be interes=
+ting to see if this gains traction.
+
+https://securitytxt.org/
+
+
+Java 9=2C and the upcoming Java 10 release=2C feature a number of improvem=
+ents for running Java applications inside Docker. This post covers heap si=
+ze=2C CPU availability and the attach API.
+
+https://www.opsian.com/blog/java-on-docker/
+
+
+A reminder that etcd=2C or similar services=2C are databases and should be=
+ treated with the same level of care when it comes to access control - les=
+t you expose sensitive credentials over the network.
+
+https://elweb.co/the-security-footgun-in-etcd/
+
+
+To understand running Kubernetes in production it=E2=80=99s useful to have=
+ a local development workflow based around Kubernetes too. This post looks=
+ at Skaffold for continuous deployment to a local cluster.
+
+https://nemethgergely.com/using-kubernetes-for-local-development/index.htm=
+l
+
+
+A quick introduction to containers=2C with a focus on what this means for=
+ Java and JVM-based applications. Includes details of JDK 9 integration wi=
+th cgroups.
+
+https://mesosphere.com/blog/java-container/
+
+
+Jobs
+=3D=3D=3D=3D
+
+We=E2=80=99re Nested=2C a London based startup taking the pain out of sell=
+ing homes. We=E2=80=99re looking for a Platform Engineer to influence the=
+ development and deployment platform here. You=E2=80=99ll be an early memb=
+er of our technical operations team and help shape our practices=2C platfo=
+rm and culture from the very beginning.  Our tech stack currently includes=
+ Google Cloud Platform=2C Kubernetes=2C Terraform=2C PostgreSQL=2C Elixir=
+=2C ReactJS=2C Python and more.
+
+https://nested.workable.com/j/F69BC7758A
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Teresa is an application deployment tool for teams=2C built atop Kubenetes=
+=2E It provides a CLI tool for creating new teams=2C users and for deploying=
+ applications to the cluster.
+
+https://github.com/luizalabs/teresa
+
+
+Tern is a new tool aimed at providing information from containers that=E2=
+=80=99s useful for compliance purposes. It=E2=80=99s currently focused on=
+ identifying the sources=2C versions and licenses of packages installed in=
+ container images.
+
+https://github.com/vmware/tern
+https://blogs.vmware.com/opensource/2018/03/13/open-source-tern-makes-cont=
+ainers-compliant/
+
+
+
+Outages cost organizations millions. Grab this Forrester report=2C The Cha=
+nging Landscape of IT Incident And Crisis Management=2C to see why a strea=
+mlined process for incident management needs to become top priority.
+
+http://try.victorops.com/DevOpsWeekly/ForresterReport
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

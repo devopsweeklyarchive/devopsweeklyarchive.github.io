@@ -1,0 +1,164 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#319?=
+Date: Sun, 5 Feb 2017 11:39:05 +0000
+
+DEVOPS WEEKLY
+ISSUE #319 - 5th February 2017
+
+One of the reasons for the continued interest in devops has been the incre=
+asing weight of evidence for adopting related practices. A big part of tha=
+t has been the yearly Devops Survey. If you=E2=80=99ve not already filled=
+ it out this year please do. We all benefit from the data and analysis.
+
+http://bit.ly/devopssurvey2017
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+=E2=80=9CThe How and Why of Minimum Viable Runbooks.=E2=80=9D Get the free=
+ ebook from VictorOps.
+
+http://bit.ly/2victoropsebook
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Sprinting for Success: Digital Transformation through Agile and DevOps
+
+Check out this webcast replay to hear Nita Awatramani=2C Associate Directo=
+r at Verizon Enterprise Solutions=2C share how Verizon was able to streaml=
+ine operations=2C optimize business output and deliver products faster to=
+ their consumers by adopting a DevOps approach. The results are amazing!
+
+http://ow.ly/ooQd300TUwM
+
+
+News
+=3D=3D=3D=3D
+
+A good story of dealing with regularly heavy traffic spikes=2C in this cas=
+e using Nginx at the edges with some Lua thrown in to implement custom thr=
+ottling.
+
+http://shopifyengineering.myshopify.com/blogs/engineering/solving-for-week=
+ly-flash-sales-through-scriptable-load-balancers
+
+
+When you have enough data=2C changes to its underlying structure becomes a=
+ challenge. This post explains why migrating data can be hard=2C and some=
+ solutions to common problems.
+
+https://stripe.com/blog/online-migrations
+
+
+A nice quick introduction to SysMon=2C and a detailed step-by-step walkthr=
+ough of a relatively complex configuration aimed at infosec use cases.
+
+https://medium.com/@lennartkoopmann/explaining-and-adapting-tays-sysmon-co=
+nfiguration-27d9719a89a8#.rc2d4nqip
+
+
+A good presentation on why data is the hardest part of adopting microservi=
+ces. A quick introduction to what we mean by data=2C the importance of dom=
+ain models and minimising dependencies.
+
+http://www.slideshare.net/ceposta/the-hardest-part-of-microservices-your-d=
+ata
+
+
+Notes from the recent Microservice Practitioners Summit focused on the imp=
+act on teams and code organisation when looking to adopt microservice arch=
+itectures.
+
+https://articles.microservices.com/microservices-refactoring-your-teams-5a=
+949d64db2#.9xnxd6d2r
+
+
+Understanding processes inside containers needs some degree of understandi=
+ng of what containers are=2C and the same is true of the JVM. This post de=
+lves into what happens when you combine these issues and need to profile a=
+ JVM inside a container.
+
+http://blog.alicegoldfuss.com/making-flamegraphs-with-containerized-java/
+
+
+Kubernetes is a complex system=2C so understanding what=E2=80=99s happenin=
+g under the hood can be a challenge. This post delves into how external tr=
+affic is routed around the system by revealing some of the implementation=
+ details.
+
+http://containerops.org/2017/01/30/kubernetes-services-and-ingress-under-x=
+-ray/
+
+
+A look at the importance of having a map of how your system components int=
+errelate=2C so that you can understand how failures will occur.
+
+https://cevo.com.au/tools/devops/methods/2016/11/27/mapping-system-couplin=
+g.html
+
+
+CNCF
+=3D=3D=3D=3D
+
+The Cloud Native Computing Foundation will visit Portland=2C Seattle and V=
+ancouver from February 7-9=2C 2017 to offer Kubernetes training for end us=
+ers=2C developers=2C students and other community members. Presented by Da=
+n Kohn=2C Executive Director=2C CNCF=2C Brian Gracely=2C Director of Produ=
+ct Strategy=2C Red Hat and Isaac Arias=2C Technology Executive=2C Apprenda=
+=2E Sign up now:
+
+http://bit.ly/2iFNbgF
+
+
+Jobs
+=3D=3D=3D=3D
+
+Are you a Puppet master? Hired gives top DevOps Engineers more power in th=
+eir job search. Join today!
+
+http://hrd.cm/2jHrf1B
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Minishift is a quick way of getting a local OpenShift cluster up and runni=
+ng in a VM with the minimum of fuss.
+
+https://github.com/minishift/minishift
+
+
+LogHub is a new log forwarder with some powerful data pipeline features. I=
+t received events from external sources=2C process them and send them=2C a=
+nd is configured with it=E2=80=99s own DSL.
+
+https://github.com/fbacchella/LogHub
+
+
+zetcd is a simple forwarder for etcd which allows you to use etcd as the b=
+ackend for zookeeper clients.
+
+https://github.com/coreos/zetcd
+
+
+Beringei is a high performance=2C in-memory storage engine for time series=
+ data.  It=E2=80=99s been designed specifically for storing health and per=
+formance monitoring data with very high write loads.
+
+https://code.facebook.com/posts/952820474848503/beringei-a-high-performanc=
+e-time-series-storage-engine/
+https://github.com/facebookincubator/beringei
+
+
+=E2=80=9CThe How and Why of Minimum Viable Runbooks.=E2=80=9D Get the free=
+ ebook from VictorOps.
+
+http://bit.ly/2victoropsebook
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

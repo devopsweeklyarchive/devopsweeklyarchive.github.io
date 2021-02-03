@@ -1,0 +1,136 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#329?=
+Date: Sun, 16 Apr 2017 12:09:46 +0000
+
+DEVOPS WEEKLY
+ISSUE #329 - 16th April 2017
+
+Some solid culture content this month=2C along with some low-level network=
+ talk and some of the new deployment tooling emerging around Kubernetes.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Incident management is essential to modern DevOps environments. Learn why=
+ in the eBook=2C =E2=80=9CMaking the Case for Real-time Incident Managemen=
+t=E2=80=9D from your friends at VictorOps.
+
+http://try.victorops.com/realtime_incident_mgmt/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+DevOps Journey Series: End User Monitoring [replay]
+
+When measuring DevOps success=2C it=E2=80=99s not just about feature deliv=
+ery speed=2C but how end users respond to your innovation. Watch part 3 of=
+ our DevOps Journey Series and get practical tips for end user monitoring=
+ that you can implement quickly.
+
+http://ow.ly/Ug4A309wkmC
+
+
+News
+=3D=3D=3D=3D
+
+
+An essential post on introducing new tools as a catalyst for culture chang=
+e in the context of a large scale transformation effort.
+
+https://medium.com/@BillHiggins/tools-as-a-catalyst-for-culture-change-f01=
+2b2c0b527
+
+
+In many ways devops can be thought of as a management discipline. So for t=
+hose interested in that sort of thinking this post on why command and cont=
+rol is inefficient and ineffective is likely worth a read.
+
+http://corporate-rebels.com/mindset/
+
+
+Related to the above=2C I gave a talk at the Study of Enterprise Agility C=
+onference about how technology and related practices are often decentralis=
+ing or centralising in nature=2C and how careful consideration is needed t=
+o get the best out of them.
+
+https://speakerdeck.com/garethr/waves-of-centralising-and-decentralising
+
+
+Excellent notes from a recent netdev conference=2C about a range of low-le=
+vel networking; from netfilter to XDP and more.
+
+http://jvns.ca/blog/2017/04/06/netdev-2-1/
+http://jvns.ca/blog/2017/04/07/netdev-conference-day-2/
+http://jvns.ca/blog/2017/04/08/netdev-conference-day-3/
+
+
+Another interesting container usage survey=2C this time based on data coll=
+ected from a monitoring agent. Data on popular applications=2C registry us=
+age and container density.
+
+https://sysdig.com/blog/sysdig-docker-usage-report-2017/
+
+
+A good post on configuring Kubernetes Ingress=2C demonstrating redirects a=
+nd proxying to different backends using the nginx ingress handler.
+
+http://anthonychu.ca/post/api-versioning-kubernetes-nginx-ingress/
+
+
+A blog post about improving a sometimes ignored but generally critical ser=
+vice=2C the continuous integration system.
+
+https://gdstechnology.blog.gov.uk/2017/02/10/updating-the-gov-uk-continuou=
+s-integration-environment/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Hired brings job offers to you=2C so you can save time applying. Apply to=
+ 6=2C000+ companies at once on the platform.
+
+http://hrd.cm/2jHrf1B
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Cerebro is an alerting system build to integrate with Graphite. The servic=
+e layer currently integrates with Seyren to store alarms=2C schedule check=
+s and send alerts
+
+https://github.com/voyages-sncf-technologies/cerebro
+
+
+Codeflow is a new deployment pipeline tool aimed at 12-factor apps on Kube=
+rnetes. It features a plugin based system for extending the core functiona=
+lity too.
+
+https://codeflow.checkr.com/
+https://github.com/checkr/codeflow
+
+
+Kube Applier is another kubernetes deployment tool=2C this time aimed at r=
+unning kubernetes configuration files on a schedule and reporting on any d=
+rift.
+
+https://blog.box.com/blog/introducing-kube-applier-declarative-configurati=
+on-for-kubernetes/
+https://github.com/box/kube-applier
+
+
+
+Incident management is essential to modern DevOps environments. Learn why=
+ in the eBook=2C =E2=80=9CMaking the Case for Real-time Incident Managemen=
+t=E2=80=9D from your friends at VictorOps.
+
+http://try.victorops.com/realtime_incident_mgmt/devopsweekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

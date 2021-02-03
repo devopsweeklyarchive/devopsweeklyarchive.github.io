@@ -1,0 +1,111 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#513?=
+Date: Sun, 25 Oct 2020 09:19:56 +0000
+
+DEVOPS WEEKLY
+ISSUE #513 - 24th October 2020
+
+A mix of content this week; security theatre=2C continuation management qu=
+ality metrics=2C tracing infrastructure and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Want a quick glimpse of how StackHawk works? Check out this 11 minute demo=
+ from SnykCon last week and learn about modern application security testin=
+g for DevOps teams.
+
+http://sthwk.com/snykcon-demo
+
+
+News
+=3D=3D=3D=3D
+
+A good introduction to ARM and the coming challenges=2C and advantages=2C=
+ of wider availability on laptops and servers of ARM-based architectures.
+
+https://blog.symphonia.io/posts/2020-10-13_how_to_prepare_for_the_coming_c=
+pu_confusion
+
+
+A great talk on security theatre. Good quotes on helping shift responsibil=
+ities earlier in the development process and good observations about the c=
+hanging role of security teams.
+
+https://swagitda.com/speaking/Exit-Stage-Left-Eradicating-Security-Theater=
+-Kelly-Shortridge-Snykcon-2020.pdf
+
+
+Slides from my talk last week at SnykCon=2C all about patterns for secure=
+ container base image management. Discussion of people=2C process and tool=
+s.
+
+https://speakerdeck.com/garethr/patterns-for-secure-container-base-image-m=
+anagement
+
+
+A new Salt release is available=2C which means a super detailed post on th=
+e latest features and fixes from Salt Tips.
+
+https://salt.tips/whats-new-in-salt-magnesium/
+
+
+An interesting paper on quality metrics for infrastructure as code. Lookin=
+g specifically at Ansible=2C but intended to be generalised.
+
+https://arxiv.org/pdf/2005.13474.pdf
+
+
+Lots of people have written about tracing=2C but this post looks at some o=
+f the implementation challenges=2C from libraries and sampling to data tra=
+nsfer and storage.
+
+https://netflixtechblog.com/building-netflixs-distributed-tracing-infrastr=
+ucture-bb856c319304
+
+
+A detailed walkthrough of using client certificates to authorize user acce=
+ss to a Kubernetes cluster.
+
+https://medium.com/better-programming/k8s-tips-give-access-to-your-cluster=
+with-a-client-certificate-dfb3b71a76fe
+
+
+As an alternative to using cron for recurring jobs on Linux machines you c=
+an also use Systemd Timers.
+
+https://dev.to/bowmanjd/schedule-jobs-with-systemd-timers-a-cron-alternati=
+ve-15l8
+
+
+Events
+=3D=3D=3D=3D=3D=3D=3D
+
+The Software Circus Virtual Fest is back next week=2C Thursday 29th Octobe=
+r=2C this time with a spooky twist! Join the Circus spirits on a 10-hour j=
+ourney through your worst Cloud Native nightmares=2C wear your scariest co=
+stume and learn how to bring your projects back from the dead.
+
+This is a free Community event=2C with a chilling line-up that includes Ia=
+n Coldwater=2C Kris Nova=2C Bryan Cantrill=2C Joe Beda and many more monst=
+ers. Check out the schedule and register today!
+
+https://bit.ly/3kl9iVr
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Akri lets you easily expose heterogeneous devices (such as IP cameras and=
+ USB devices) as resources in a Kubernetes cluster=2C while also supportin=
+g the exposure of embedded hardware resources such as GPUs and FPGAs.
+
+https://github.com/deislabs/akri
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

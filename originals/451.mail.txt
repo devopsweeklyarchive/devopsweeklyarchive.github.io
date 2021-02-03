@@ -1,0 +1,119 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#451?=
+Date: Sun, 18 Aug 2019 09:15:59 +0000
+
+DEVOPS WEEKLY
+ISSUE #451 - 18th August 2019
+
+Posts on policy=2C serverless architecture=2C the challenges of monitoring=
+ Python applications and several posts on tools for developing with Kubern=
+etes this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Think you've got what it takes to quickly resolve a system outage? Test yo=
+ur DevOps skillz with the new VictorOps on-call adventure game.
+
+http://try.victorops.com/devopsweekly/devops-on-call-game
+
+
+News
+=3D=3D=3D=3D
+
+I=E2=80=99ve been working recently on a several handy testing utilities. T=
+his post covers integrating both Kubeval and Conftest with Helm in order t=
+o validate and test Helm charts.
+
+https://garethr.dev/2019/08/using-conftest-and-kubeval-with-helm/
+
+
+Monitoring tools like Prometheus typically rely on applications exposing m=
+etrics. This post looks the challenges and some approaches to doing so wit=
+h Python applications.
+
+https://www.metricfire.com/prometheus-tutorials/monitoring-python-web-app
+
+
+An introduction to the importance of policy enforcement=2C ABAC (Attribute=
+ based access control) and how Open Policy Agent can be used to enforce va=
+rious types of policy.
+
+https://reese.dev/policing-through-policy/
+
+
+Adopting serverless moves the security challenges around some. This post e=
+xplores some of those areas=2C from authentication=2C to expanding APIs su=
+rface area to increased transit.
+
+https://hackernoon.com/severe-truth-about-serverless-security-and-ways-to-=
+mitigate-major-risks-cd3i3x6f
+
+
+Another serverless post=2C this one covering the main traits of the archit=
+ectural approach=2C including hostless=2C stateless=2C elastic and event-d=
+riven.
+
+https://www.thoughtworks.com/insights/blog/traits-serverless-architecture
+
+
+Several tools are exploring the local development space around Kubernetes=
+=2C one of them is Skaffold. This post=2C part of a series=2C covers it=E2=
+=80=99s current functionality.
+
+https://www.kartar.net/2019/08/skaffold/
+
+
+Another of those Kubernetes development tools is Garden. This post is more=
+ of an experience report=2C highlighting features that worked well and thi=
+ngs missing today.
+
+https://blog.valerauko.net/2019/06/30/garden/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Curology is a health-tech company looking to expand our platform team. We'=
+re searching for a DevOps Engineer with skills/experience in AWS=2C Docker=
+=2C Ansible and Terraform. Come join an awesome team and growing company.=
+ More info about the company and position can be found at:
+
+https://grnh.se/bbe78e271
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Curlie provides a CLI tool for making HTTP requests. It aims to offer the=
+ power of Curl but with an easier to use and more informative UI.
+
+https://curlie.io/
+
+
+As the Kubernetes API becomes more commonplace=2C provisioning small Kuber=
+netes clusters becomes more useful. K3up provides a simple point-and-shoot=
+ solution to install a single-node cluster over SSH.
+
+https://sysadmins.co.za/provision-k3s-on-the-fly-with-k3sup/
+https://github.com/alexellis/k3sup
+
+
+Captain is a Kubernetes controller which introduces several custom resourc=
+es for configuring Helm Chart repositories and deploying Helm Charts to th=
+e cluster=2C based on the upcoming Helm 3 release.
+
+https://github.com/alauda/captain
+
+
+
+Think you've got what it takes to quickly resolve a system outage? Test yo=
+ur DevOps skillz with the new VictorOps on-call adventure game.
+
+http://try.victorops.com/devopsweekly/devops-on-call-game
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

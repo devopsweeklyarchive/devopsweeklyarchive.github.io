@@ -1,0 +1,144 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#226?=
+Date: Sun, 3 May 2015 13:16:15 +0000
+
+DEVOPS WEEKLY
+ISSUE #226 - 3rd May 2015
+
+Performance and monitoring=2C agile working practices=2C containers=2C con=
+figuration management=2C networks=2C security and compliance. Hopefully so=
+mething for everyone this week.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored Event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] 3 expert tips to enable a DevOps transformation & more
+
+Companies utilizing DevOps practices are 2.5x more likely to exceed profit=
+ability=2C market share=2C and productivity goals. Get expert tips to enab=
+le a high performance DevOps transformation from guru Gene Kim=2C co-autho=
+r of The Phoenix Project=2C and other experts.
+
+http://cpwr.it/KigTf
+
+
+News
+=3D=3D=3D=3D
+
+An excellent slide deck on performance=2C arguing that consistent terminol=
+ogy is critical to a proper conversation=2C and showing opinionated exampl=
+es.
+
+http://www.slideshare.net/postwait/craftconf2015-performance
+
+
+The concept of DONE is a common one in agile methodologies=2C and this pos=
+t makes some good points about what done looks like in teams incorporating=
+ devops practices.
+
+http://blogs.versionone.com/agile_management/2015/04/30/what-done-looks-li=
+ke-in-devops/
+
+
+A nice short introduction to service scheduling with ECS on AWS=2C showing=
+ the advantages of more static resource scheduling. Although I would have=
+ liked some discussion of the network constraints.
+
+http://www.slideshare.net/nathariel/microservices-and-elastic-resource-poo=
+ls-with-amazon-ec2-container-service
+
+
+A good discussion of some of the security benefits of containers today=2C=
+ with comparisons to running a simple stack on a single host. The argument=
+ that containers could make tools like SELinux more approachable given exp=
+licit boundaries is particularly interesting.
+
+https://securityblog.redhat.com/2015/04/29/container-security-just-the-goo=
+d-parts/
+
+
+A call for compliance as code to become more of a thing for those working=
+ in regulated environments. A good summary of the state of the art today a=
+nd what is still open for discussion.
+
+http://swreflections.blogspot.co.uk/2015/04/towards-compliance-as-code.htm=
+l
+
+
+It=E2=80=99s often useful to see entire end-to-end workflows to understand=
+ how individual tools fit into real work. This example=2C bundling AWS=2C=
+ CloudFormation and Chef with a number of helpers is a good starting place=
+=2E
+
+http://hw-ops.com/blog/2015/04/29/infra-repo/
+
+
+A call to anyone building or selling monitoring software=2C especially inv=
+olving anomaly detection=2C to not oversell what is possible and to talk m=
+ore about how tools help skilled operations people rather than replace the=
+m.
+
+http://www.kitchensoap.com/2015/05/01/openlettertomonitoringproducts/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Looking for new DevOps opportunities? Spend your time building=2C not sear=
+ching for a job. Sign-up for Hired today.
+
+http://hrd.cm/1MZ7JcD
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+I talked about secret and key management being a common problem a few week=
+s back. Vault is another entrant into the space with a few nice features=
+=2C including clear audit logs=2C rolling credentials and support for mult=
+iple storage backends.
+
+https://www.vaultproject.io/
+
+
+Disque is a an in-memory=2C distributed job queue. Its goal is to capture=
+ the essence of the "Redis as a jobs queue" use case. Currently described=
+ as alpha quality=2C but interesting to keep an eye on.
+
+https://github.com/antirez/disque
+
+
+CloudRouter is a Linux based full-stack SDN implementation including OpenD=
+aylight.  It includes the features of traditional hardware routers=2C as w=
+ell as support for emerging technologies such as containers and software-d=
+efined interconnection.
+
+https://cloudrouter.org
+
+
+Captain is a simple opinionated workflow for building=2C testing and publi=
+shing containers.
+
+https://github.com/harbur/captain
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,138 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#474?=
+Date: Sun, 26 Jan 2020 10:50:19 +0000
+
+DEVOPS WEEKLY
+ISSUE #474 - 26th January 2020
+
+Lots of build posts this week=2C on new build tools=2C developer framework=
+ integration and the security of build servers. Plus operations lessons=2C=
+ devops reading and the shift from infrastructure to application and produ=
+ct teams.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Continuous improvement=2C delivery=2C and integration typically sit at the=
+ forefront of DevOps. But=2C none of this is possible without a successful=
+ system for continuous testing. See how modern teams are creating a robust=
+ continuous testing framework:
+
+https://go.victorops.com/devopsweekly-continuous-testing-in-devops
+
+
+News
+=3D=3D=3D=3D
+
+A long list of lessons learned doing operations. Light-hearted=2C but an a=
+wful lot to nod along to. Worth reading in particular if you=E2=80=99re ne=
+w to ops work.
+
+https://www.netmeister.org/blog/ops-lessons.html
+
+
+Build servers and build processes are an interesting threat vector. This t=
+alk (from one of my colleagues at DeliveryConf) looks at some of the secur=
+ity challenges=2C and discusses reproducible builds=2C TUF=2C signing=2C p=
+ackage managers and more.
+
+https://www.youtube.com/watch?v=3DHVFm8DhkXe8
+
+
+An interesting look at the changes in the traditional infrastructure and o=
+perations organisation as more and more large companies adopt product team=
+s=2C devops practices and cloud-native technologies.
+
+https://go.forrester.com/blogs/the-io-organization-under-pressure/
+
+
+A good post on the problems with pre-production environments and local dev=
+ environments=2C suggesting a move to more development activities in produ=
+ction.
+
+https://tersesystems.com/blog/2020/01/22/developing-in-production/
+
+
+As containers become an ever more popular distribution format=2C we=E2=80=
+=99re seeing image build tools move from standalone tools to being build i=
+nto popular frameworks as an implementation detail. The new Spring Boot re=
+lease is a nice example.
+
+https://medium.com/@TimvanBaarsen/first-look-at-cloud-native-buildpacks-su=
+pport-in-spring-boot-2-3-milestone-1-ece8e72ed93f
+
+
+Another post on container build=2C this one looking at various new build t=
+ools=2C including buildkit=2C kaniko=2C img and more.
+
+https://blog.alexellis.io/building-containers-without-docker/
+
+
+An up-to-date list of books related to devops. A good mix of introduction=
+=2C overview=2C business and engineering focused titles.
+
+https://techbeacon.com/devops/devops-must-reads-7-titles-every-practitione=
+r-should-read
+
+
+A detailed look at using eBPF to instrument userland applications on Linux=
+=2C with lots of hands-on examples.
+
+https://sematext.com/blog/ebpf-userland-apps/
+
+
+Most technology decisions are a matter of choosing the best trade-offs in=
+ your context. Running on virtual machines or bare metal is definitely one=
+ of those. This post explores the question of where you might choose to ru=
+n a Kubernetes cluster.
+
+https://neonmirrors.net/post/2020-01/why-k8s-on-vms/
+
+
+Training
+=3D=3D=3D=3D=3D=3D=3D
+
+"This is the best quality technical training I've ever attended."
+
+SuperOrbital=E2=80=99s Docker and Kubernetes workshops are the absolute be=
+st in the market.  We cover everything from the basics to custom controlle=
+rs and schedulers. On-premise=2C fully hands-on=2C and custom-tailored for=
+ your team. Schedule a workshop for your team and get them off on the righ=
+t cloud-native foot today!
+
+https://superorbit.al/workshops
+
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Trackman is a command line tool and Go library that runs multiple commands=
+ in a workflow. It supports parallel steps=2C step dependencies=2C async s=
+teps and success checkers.
+
+https://blog.cloud66.com/introducing-trackman-execute-commands-as-a-workfl=
+ow/
+https://github.com/cloud66-oss/trackman
+
+
+Configula is a new=2C experimental=2C configuration authoring tool. It aim=
+s to combine some of the advantages of a declarative/data approach with a=
+ more general purpose programming language.
+
+https://github.com/brendandburns/configula
+
+
+Continuous improvement=2C delivery=2C and integration typically sit at the=
+ forefront of DevOps. But=2C none of this is possible without a successful=
+ system for continuous testing. See how modern teams are creating a robust=
+ continuous testing framework:
+
+https://go.victorops.com/devopsweekly-continuous-testing-in-devops
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

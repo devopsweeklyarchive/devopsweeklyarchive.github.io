@@ -1,0 +1,194 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#268?=
+Date: Sun, 14 Feb 2016 12:37:50 +0000
+
+DEVOPS WEEKLY
+ISSUE #268 - 14th February 2016
+
+A couple of themes this week; several excellent posts on scaling teams=2C=
+ collaboration and standardisation and a couple of links from the academic=
+ community looking more closely at the Devops community.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Goodbye War Room=2C Hello DevOps 2.0
+
+Say "Goodbye!" to expensive bug fixes and war rooms=2C and learn the 6 way=
+s to increase quality and speed in application deployment today. Download=
+ the eBook.
+
+http://ow.ly/U3K1e
+
+
+News
+=3D=3D=3D=3D
+
+An great post on the tensions between growing a technical organisation qui=
+ckly=2C and introducing standard tools and approaches. Lots of detailed an=
+d stories to make the points.
+
+http://www.gigamonkeys.com/flowers/
+
+
+An excellent introduction to Continuous Integration and Continuous Deliver=
+y from the point of view of people outside the development or operations t=
+eam. Includes both a good description of what=2C and points about why you=
+ should care.
+
+http://www.mindtheproduct.com/2016/02/what-the-hell-are-ci-cd-and-devops-a=
+-cheatsheet-for-the-rest-of-us/
+
+
+So you want to write a package manager? So starts this excellent article w=
+hich provides a quite epic explanation of package management=2C as well as=
+ diving into the details of Go=E2=80=99s current lack of a package manager=
+=2E
+
+https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17=
+d9527#.re4xlir2a
+
+
+A set of 6 practices for improving your use of Continuous Integration. Fro=
+m in-repo configuration to tips on gating=2C hunting down transient failur=
+es=2C pipelining and trending.
+
+https://rhonabwy.com/2016/01/31/six-rules-for-setting-up-continuous-integr=
+ation-systems/
+
+
+A good post that nicely explains the tension in software development betwe=
+en abstractions for reuse and complexity. The central point of writing cod=
+e that is easy to delete is a nice reminder.
+
+http://programmingisterrible.com/post/139222674273/write-code-that-is-easy=
+-to-delete-not-easy-to
+
+
+An interesting analysis of code quality in Puppet. Some interesting survey=
+ data about what people consider to be good Puppet code.
+
+http://evanderbent.github.io/puppet/2016/01/28/puppet-code-quality-survey.=
+html
+
+
+A survey all about continuous delivery from the software evolution and arc=
+hitecture lab at the University of Zurich. The academic interest in studyi=
+ng this area is great=2C looking forward to the results.
+
+https://sealuzh.typeform.com/to/k6SR2t
+
+
+Another handy writeup from the recent Configuration Management Camp event=
+=2C with brief notes of several of the talks and lots of links to more inf=
+ormation.
+
+https://www.logilab.org/blogentry/4253513
+
+
+An interesting look at one organisation=E2=80=99s vision for adopting infr=
+astructure as code=2C in particular focusing on the intended benefits of m=
+oving towards making full use of the AWS APIs.
+
+https://medium.com/build-acl/coded-infrastructure-cbf018693e99#.94avuwl6n
+
+
+Jobs
+=3D=3D=3D=3D
+
+Salesforce is looking for a Senior Devops Engineer for our internal tools=
+ team in Atlanta=2C GA. International and domestic remote candidates are w=
+elcome. You=E2=80=99ll be working on our Continuous Integration and Delive=
+ry tools using Chef=2C Docker=2C and Ruby/Rails. Come help us navigate the=
+ waters of container-based local and production environments. We are polyg=
+lots: we use the best tools and languages for the jobs we tackle.
+
+http://careers.force.com/jobs/ts2__jobdetails?jobId=3Da1k70000003BKC9AAO
+http://pardot.com/careers
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Mobile Delivery Days is a new event aimed at bringing dev and ops together=
+ to discuss Mobile Application Delivery. The event is being held March 21s=
+t and 22ns in San Francisco=2C and the organisers are looking for sponsors=
+ and speakers.
+
+http://mobiledeliverydays.org/
+
+
+Salt Lake City Devopsdays is coming up on June 14th and 15th. The organise=
+rs are looking for talk submissions=2C lightning talks=2C sponsors and vol=
+unteers to help organise the event on the day.
+
+http://slcdevopsdays.org/salt-lake-city-devops-days-official-announcement/
+
+
+Devopsdays Amsterdam is also coming up at the end of June=2C on the 29th o=
+f JUne and the 1st of July. The organisers are looking for talks and works=
+hop submissions=2C with a few suggested topics of DevOps 2.0=2C Config Man=
+agement in 2016=2C Microservices=2C DevOps in the Enterprise and Monitorin=
+glove.
+
+http://www.devopsdays.org/events/2016-amsterdam/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Teletraan is a new application deployment tool which provides support for=
+ zero downtime deploy=2C rollback=2C staging=2C continuous deploy; and man=
+y convenient features such as showing commit details and comparing differe=
+nt deploys.
+
+https://engineering.pinterest.com/blog/open-sourcing-teletraan-code-deploy=
+ment-system
+https://engineering.pinterest.com/blog/under-hood-teletraan-deploy-system
+https://github.com/pinterest/teletraan
+
+
+Maltrain is a malicious traffic scanning utility=2C designed to run on all=
+ your nodes and collect information about potential malware of other probl=
+ems revealed by looking at the network traffic. The documentation is excel=
+lent=2C with lots of clear examples.
+
+https://github.com/stamparm/maltrail
+
+
+Inductor is a command line tool used in conjunction with packer-windows to=
+ create Windows Vagrant boxes.
+
+https://github.com/joefitzgerald/inductor
+
+
+A demonstration of using a base image for running rumprun unikernels as Do=
+cker containers using KVM=2C fully integrated with Docker networking.
+
+https://github.com/mato/docker-unikernel-runner
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

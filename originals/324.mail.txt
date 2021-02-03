@@ -1,0 +1,153 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#324?=
+Date: Sun, 12 Mar 2017 10:18:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #324 - 12th March 2017
+
+A bit of a theme around the use of cloud infrastructure this week=2C with=
+ several opinions on design considerations in light of outages=2C the use=
+ of serverless for common cron-based tasks and other pitfalls and practica=
+lities=2C from monitoring to secrets.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Free Incident Management Maturity Assessment. Learn how your team ranks ag=
+ainst leading DevOps practices and get helpful tips on how to improve.
+
+http://try.victorops.com/ima/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Practical Tips for Ops: End User Monitoring [Part 3: DevOps Journey Serie=
+s]
+
+When measuring DevOps success=2C it=E2=80=99s not just about feature deliv=
+ery speed=2C but how end users respond to your innovation. Join us March 2=
+3rd for part 3 of our DevOps Journey Series where you=E2=80=99ll get pract=
+ical tips for end user monitoring that you can implement quickly.
+
+http://ow.ly/Ug4A309wkmC
+
+
+News
+=3D=3D=3D=3D
+
+A useful set of posts on cloud security best practices=2C including how to=
+ keep secrets out of your code repositories using tools like truffleHog=2C=
+ git-secrets and git-crypt.
+
+https://blog.threatstack.com/cloud-security-best-practicesfinding-securing=
+-managing-secrets-part-1
+https://blog.threatstack.com/cloud-security-best-practices-finding-securin=
+g-managing-secrets-part-2
+
+
+Understanding how technical decisions are made is interesting=2C especiall=
+y when those decisions are on lots of people's minds. This post covers in=
+ detail the rationale for staying in a cloud environment rather than switc=
+hing to physical infrastructure.
+
+https://about.gitlab.com/2017/03/02/why-we-are-not-leaving-the-cloud/
+
+
+Interesting research into why two common syscalls on EC2 are 77% slower.
+
+https://blog.packagecloud.io/eng/2017/03/08/system-calls-are-much-slower-o=
+n-ec2/
+
+
+A nice counter to some of the talk of cloud strategy after the S3 outage=
+=2C and some good points on SLAs.
+
+https://medium.com/@ben11kehoe/yes-s3-was-down-for-hours-dont-make-expensi=
+ve-decisions-because-of-it-27d45d0a8eb1#.m7nntl1lk
+
+
+Google Cloud is definitely picking up new features and increased interest.=
+ These posts cover how best to monitor the various series and moving parts=
+ in GCE.
+
+https://www.datadoghq.com/blog/monitoring-google-compute-engine-performanc=
+e/
+https://www.datadoghq.com/blog/how-to-collect-gce-metrics/
+
+
+A good post on a trend towards using serverless environments like AWS Lamb=
+da for recurring operations scripts which might previously have used arbit=
+rary server instances=2C cron and the like.
+
+https://redmonk.com/fryan/2017/03/02/serverless-redefining-devops/
+
+
+A good post on creating a complete WIndows environment in AWS with Terrafo=
+rm.
+
+http://eng
+ineering.rallyhealth.com//jekyll/update/2017/02/15/immutable-infrastructur=
+e-w-terraform-and-windows.html
+
+
+CNCF
+=3D=3D=3D=3D
+
+KubeCon / CloudNativeCon 17 - Join leading Kubernetes and Cloud Native tec=
+hnologists in Berlin for a full range of technology sessions on the cloud=
+ native ecosystem. Almost sold out=2C register below.
+
+https://goo.gl/hjfE4g
+
+
+An introduction to Linkerd with William Morgan of buoyant.io
+
+Linkerd is the latest hosted project to join the CNCF alongside Kubernetes=
+=2C Prometheus=2C OpenTracing and Fluentd. Linkerd is an open source=2C re=
+silient service mesh for cloud-native applications. Used by companies like=
+ Twitter=2C Soundcloud=2C Pinterest and ING. Linkerd brings scalable=2C pr=
+oduction-tested reliability to cloud-native applications in the form of a=
+ service mesh=2C a dedicated infrastructure layer for service communicatio=
+n that adds resilience=2C visibility and control to applications without r=
+equiring complex application integration.
+
+https://goo.gl/z7GM0n
+
+
+Jobs
+=3D=3D=3D=3D
+
+The Best DevOps Jobs in the World=2C (all in one place)
+
+http://hrd.cm/2jHrf1B
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Ctop is a top-like interface for container metrics=2C connecting to a Dock=
+er socket and presenting information about container memory=2C CPU and net=
+work usage.
+
+https://bcicen.github.io/ctop/
+https://github.com/bcicen/ctop
+
+
+Kubecfg is a tool for managing complex Kubernetes configurations=2C by pro=
+viding a nice wrapper around jsonnet templates.
+
+https://github.com/anguslees/kubecfg
+
+
+
+Free Incident Management Maturity Assessment. Learn how your team ranks ag=
+ainst leading DevOps practices and get helpful tips on how to improve.
+
+http://try.victorops.com/ima/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

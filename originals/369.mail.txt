@@ -1,0 +1,132 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#369?=
+Date: Sun, 21 Jan 2018 17:57:01 +0000
+
+DEVOPS WEEKLY
+ISSUE #369 - 21st January 2018
+
+A range of content this week=2C from broadly applicable posts on patterns=
+ or process or people=2C to more specific stories of individual technologi=
+es and services. One theme recently has definitely been debugging microser=
+vices=2C and I=E2=80=99m finding more and more tools aimed at making that=
+ easier (or even just possible).
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+See how AlienVault focuses their incident management on collaboration and=
+ shared responsibility while relying on the rules engine of the VictorOps=
+ Transmogrifier.
+
+http://try.victorops.com/DevOpsWeekly/AlienVault
+
+
+News
+=3D=3D=3D=3D
+
+If you=E2=80=99re running a production service then it=E2=80=99s wise to h=
+ave some process around incidents=2C especially for identify and resolving=
+ the really critical ones. This post looks at how to establish an incident=
+ management program for high-severity incidents.
+
+https://www.gremlin.com/how-to-establish-a-high-severity-incident-manageme=
+nt-program/
+
+
+A nice story of migrating an application to a new deployment model=2C and=
+ adding in automated deployment and chatops using AWS services.
+
+https://keita.blog/2018/01/01/ecs-chatops-with-codepipeline-and-slack/
+
+
+Another good migration story=2C this time for a Rails application moving t=
+o Kubernetes on Google Cloud. It moves from the basics of application depl=
+oyment to rolling updates=2C load balancing and database snapshots.
+
+http://www.akitaonrails.com/2018/01/09/my-notes-about-a-production-grade-r=
+uby-on-rails-deployment-on-google-cloud-kubernetes-engine
+
+
+A good post about the fallacy of the single root cause for an incident=2C=
+ and just how easy it is to fall into the trap of looking for the one thin=
+g that caused all of the problems=2C and how you can avoid it.
+
+https://cevo.com.au/post/2017-11-10-fallacy-of-a-single-root-cause/
+
+
+AWS EC2 has grown over the years into a pretty large service=2C and knowin=
+g exactly what to monitor and how can be a large task. This series of post=
+s takes you through the important metrics and where to find them.
+
+https://www.datadoghq.com/blog/collecting-ec2-metrics/
+https://www.datadoghq.com/blog/ec2-monitoring/
+
+
+As data science becomes more common moving past just writing scripts to th=
+e typical issues of running production services is important. This post co=
+vers packaging=2C versioning and continuous integration for those coming f=
+rom a data science background.
+
+http://www.florianwilhelm.info/2018/01/ds_in_prod_packaging_ci/
+
+
+A good introduction to Terraform for managing AWS=2C looking at a simple b=
+ut very common use case; managing the hosting of static websites using Clo=
+udFront.
+
+https://blog.buildo.io/reusable-cloudfront-configuration-with-terraform-4c=
+1de144c735
+
+
+If you=E2=80=99re running JVM-based applications in containers then it=E2=
+=80=99s important to understand the interactions between cgroups and the J=
+VM in order to avoid various memory issues. This post explains with exampl=
+es what=E2=80=99s happening and what you can do about it.
+
+https://banzaicloud.com/blog/java-resource-limits/
+
+
+A look at the immutable infrastructure pattern=2C with a description of th=
+e problems being solved and how taking an immutable approach addresses som=
+e common problems.
+
+https://technicloud.com/2018/01/09/delving-into-immutable-infrastructure/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+OpenCensus is a new project which provides a set of libraries for multiple=
+ languages in support of metrics collection and distributed tracing. Havin=
+g this be consistent across different runtimes is an interesting selling p=
+oint.
+
+http://opencensus.io/
+https://github.com/census-instrumentation
+
+
+Squash aims to be a debugger for microservices. It targets only a few lang=
+uages and platforms today but allows for jumping in and setting breakpoint=
+s in your distributed applications from within your IDE.
+
+https://github.com/solo-io/squash
+
+
+Stern is a handy tool for anyone debugging Kubernetes services. It allows=
+ for tailing logs from multiple containers within a pod=2C as well as acro=
+ss pods and supports a simple regex interface for finding the logs you=E2=
+=80=99re looking for.
+
+https://github.com/wercker/stern
+
+
+See how AlienVault focuses their incident management on collaboration and=
+ shared responsibility while relying on the rules engine of the VictorOps=
+ Transmogrifier.
+
+http://try.victorops.com/DevOpsWeekly/AlienVault
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

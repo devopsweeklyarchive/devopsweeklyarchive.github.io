@@ -1,0 +1,193 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#244?=
+Date: Sun, 6 Sep 2015 12:50:06 +0000
+
+DEVOPS WEEKLY
+ISSUE #244 - 6th September 2015
+
+I don=E2=80=99t know what it is about September and October but it feels l=
+ike it=E2=80=99s wall-to-wall interesting events for pretty much the next=
+ couple of months. If you=E2=80=99re attending anything please do write up=
+ your thoughts or send links to the best talks my way for the newsletter.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] 7 Practices to Expand Performance and Effective Collaboration i=
+n DevOps
+
+When apps fail=2C whose fault is it? In today=E2=80=99s DevOps world=2C ev=
+ery stakeholder in the app delivery chain is accountable for various aspec=
+ts of performance=2C scalability=2C and availability. In this webinar Mark=
+ Tomlinson=2C performance engineering veteran and founder of the popular P=
+erfBytes podcast=2C will share seven practices to help you expand performa=
+nce and effective collaboration into your DevOps team. Register now:
+
+http://ow.ly/Rs67F
+
+
+News
+=3D=3D=3D=3D
+
+A look at lock-in=2C specifically describing a difference between operatio=
+nal lock-in and developer lock-in=2C and how and why they might affect dif=
+ferent organisation differently.
+
+http://www.eightypercent.net/post/types-of-lock-in.html
+
+
+A good blog post on why it=E2=80=99s important to apply continuous deliver=
+y principles to infrastructure as well as applications. Constant change is=
+ the only way to avoid the fear of change setting in.
+
+http://blog.ingineering.it/post/128343918584/why-we-should-continuously-br=
+eak-everything
+
+
+I=E2=80=99m not sold on the term Deep Container Inspection=2C but this is=
+ a solid post on some of the challenges of containers today and how we mig=
+ht solve them using metadata and vulnerability scans as part of our build=
+ pipelines.
+
+http://rhelblog.redhat.com/2015/09/03/what-is-deep-container-inspection-dc=
+i-and-why-is-it-important/
+
+
+Some ideas for different types of devops roles=2C as well as the concept o=
+f a Devops office=2C similar to a Project management office. Some good dis=
+cussion in the comments too.
+
+http://www.itskeptic.org/content/what-devops-role
+
+
+Datadog=E2=80=99s excellent series continues=2C this time with in-depth de=
+tails on how to monitor Redis.
+
+https://www.datadoghq.com/blog/how-to-monitor-redis-performance-metrics/
+https://www.datadoghq.com/blog/how-to-collect-redis-metrics/
+
+
+An interesting look at different team topologies that organisations are us=
+ing when embracing devops practices. It will be interesting to see which o=
+f these solidify and which turn out to be transitory.
+
+http://www.infoq.com/articles/devops-team-topologies
+
+
+Similar to last weeks set of links for systems administrators=2C awesome d=
+ata engineering is a set of links filled with databases=2C batch processin=
+g tools=2C analysis toolkits and more.
+
+https://github.com/igorbarinov/awesome-data-engineering
+
+
+Interesting notes (and a full recording) from a session at ContainerCon ab=
+out the relationship between containers and unikernels.
+
+http://thenewstack.io/the-comparison-and-context-of-unikernels-and-contain=
+ers/
+
+
+A look at Azure Resource Manager Templates=2C which provide a way of descr=
+ibing an entire stack in code and launching it in Azure at the click of a=
+ button. The example shown builds a fully working Docker Swarm cluster.
+
+http://rgardler.github.io/2015/08/28/simple-swarm-cluster-with-arm/
+
+
+A quick set of handy examples of using DIG for looking up DNS information
+
+https://ma.ttias.be/making-full-use-of-dig-in-linux/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Are you a Puppet master? Hired gives top DevOps Engineers more power in th=
+eir job search. Join today!
+
+http://hrd.cm/1GZ5mSd
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Automacon is only a few weeks away=2C on the 15th until the 17th of Septem=
+ber in Portland=2C Oregon. An entire conference dedicated to all things in=
+frastructure as code. Tickets are still available and the organisers have=
+ provided a discount for Devops Weekly readers:
+
+https://ti.to/heavywater/automacon-2015/discount/PATRON50
+
+
+WinOps is a new London event focused squarely on Devops in a Windows envir=
+onment=2C a topic that=E2=80=99s been getting lots of interest in the last=
+ year. The event is on the 22nd of September=2C with a few early bird tick=
+ets still available.
+
+http://winops.org/
+
+
+Descale is a new meetup focused on discussions rather than talks=2C the fi=
+rst event is in London on Monday September 21st from 6pm. Suggestions for=
+ discussion topics are being sought.
+
+http://descale.systems/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+The problem of building Docker containers is definitely ripe for new tools=
+ to emerge=2C and dockramp looks interesting - it extends the Dockerfile s=
+yntax=2C makes smarter decisions about the creation of layers and aims to=
+ be faster than the standard docker build command.
+
+https://github.com/jlhawn/dockramp
+
+
+Many infrastructures will use an SSH jump box or two=2C rather than exposi=
+ng all machines directly. SSHmuxd is an application which aims to make thi=
+s easier to manage=2C at the same time as introducing some basic access co=
+ntrol features.
+
+https://github.com/joushou/sshmuxd
+
+
+An interesting take on testing Puppet code=2C Puppet Spec uses the Puppet=
+ language to write tests for Puppet by adding a new assertion type to the=
+ language.
+
+https://github.com/jolshevski/puppet-spec
+
+
+Cloudsploit Scans is an interesting set of checks for scanning your AWS se=
+tup for potential security issues.
+
+https://github.com/cloudsploit/scans
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

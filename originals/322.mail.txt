@@ -1,0 +1,199 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#322?=
+Date: Sun, 26 Feb 2017 17:46:54 +0000
+
+DEVOPS WEEKLY
+ISSUE #322 - 26th February 2017
+
+A packed issue this week=2C with everything from security to containers an=
+d running better retrospectives to cloud pricing. Lots of interesting even=
+ts coming up this year too=2C with a couple of discounts for newsletter re=
+aders below..
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Interested in ChatOps? Get the free 75 page O=E2=80=99Reilly report coveri=
+ng everything from basic concepts to deployment strategies.
+
+http://try.victorops.com/DOWeekly/chatops
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Practical Tips to Start Your DevOps Journey
+
+In this webinar replay=2C learn practical tips that all IT groups from Dev=
+ to Ops can use to start their DevOps journey quickly. With experience fro=
+m hundreds of DevOps deployments=2C Andreas Grabner=2C Chief DevOps Activi=
+st at Dynatrace=2C will provide insights it would take your team months or=
+ years to learn firsthand.
+
+http://ow.ly/yJpv306Zlyy
+
+
+News
+=3D=3D=3D=3D
+
+An excellent presentation on application security=2C focused on threat mod=
+elling. Some great examples of building attack trees.
+
+https://docs.google.com/presentation/d/1zzZ0jWqQUs4aUDmHE5oCIQX17yPuCYhuUT=
+ElW2KF8FE
+
+
+A good case for the typical pricing models employed for IaaS today being i=
+ll-suited to modern=2C on-demand=2C cloud architectures.
+
+https://m.subbu.org/state-of-aws-compute-pricing-600abe1a3ff6#.l5qkl15gp
+
+
+Lots of people are using Docker images but not everyone will have delved i=
+nto what a Docker image actually is. This post takes you through dissectin=
+g an image from Hub using basic shell commands.
+
+http://blog.jeduncan.com/docker-image-dissection.html
+
+
+A look at how one organisation has adopted devops practices over the past=
+ 5 years=2C starting with bottom-up evangelism and later introducing roles=
+=2C team structures and technologies to support the changes.
+
+https://blog.newrelic.com/2017/01/26/how-new-relic-does-devops/
+
+
+Applying continuous delivery in the same way for different types of system=
+=2C without taking into account different risks or other factors=2C is a b=
+ad idea. Some great examples of why in this post.
+
+http://cloudscaling.com/blog/devops/continuous-delusion-at-the-infrastruct=
+ure-layer/
+
+
+An interesting survey on the disposition of infrastructure and infrastruct=
+ure tools=2C covering everything from cloud and bare metal=2C deployment t=
+ooling=2C provisioning and services. Look for the results in a future issu=
+e.
+
+https://goo.gl/forms/fZeuQjRmtB4GKNQy2
+
+
+It=E2=80=99s often too easy to get carried away with new technologies=2C s=
+o it=E2=80=99s always interesting to read solid experience reports coverin=
+g the good and still work-in-progress. This post does just that for Kubern=
+etes.
+
+https://blog.nelhage.com/post/kubernetes/
+
+
+A solid set of talks for anyone wanting to delve into modern monitoring pr=
+actices. Everything from core concepts to real-world stories.
+
+https://techbeacon.com/10-monitoring-talks-every-developer-should-watch
+
+
+SELinux has a reputation of being something people disable=2C even though=
+ it provides some solid protections from certain types of attack. This pos=
+t explains how to use Puppet o enable and configure SELinux=2C in this cas=
+e for Drupal application.
+
+https://tag1consulting.com/blog/stop-disabling-selinux-manage-it-with-pupp=
+et
+
+
+Some good tips for anyone running retrospectives=2C including a framework=
+ for collecting input=2C ideas for grouping things along a timeline and ot=
+her ideas to keep retrospectives useful and fresh.
+
+https://speakerdeck.com/madtypist/retrospectives-look-back-to-move-forward
+
+
+A look at realtime streaming replication of MySQL using Kafka as the backe=
+nd. The post goes into the why=2C as well as the technical details of how.
+
+https://wecode.wepay.com/posts/streaming-databases-in-realtime-with-mysql-=
+debezium-kafka
+
+
+Some handy tricks for interacting with Docker containers via the Docker AP=
+I=2C and via lower-level pieces like cgroups and namespaces. Code samples=
+ are in Python but you=E2=80=99ll likely find similar libraries for other=
+ languages too.
+
+https://hackernoon.com/3-tricks-for-mastering-docker-with-python-998764123=
+48d#.qmoob275t
+
+
+An interesting comparison of Docker Swarm with  Kubernetes=2C focused on t=
+he user experience and smaller surface area for configuration with Swarm.
+
+https://gist.github.com/jonathan-kosgei/dac620fed9d9aeec35050bcc0a146647
+
+
+CNCF
+=3D=3D=3D=3D
+
+An introduction to Linkerd with William Morgan of buoyant.io
+
+Linkerd is the latest hosted project to join the CNCF alongside Kubernetes=
+=2C Prometheus=2C OpenTracing and Fluentd. Linkerd is an open source=2C re=
+silient service mesh for cloud-native applications. Used by companies like=
+ Twitter=2C Soundcloud=2C Pinterest and ING. Linkerd brings scalable=2C pr=
+oduction-tested reliability to cloud-native applications in the form of a=
+ service mesh=2C a dedicated infrastructure layer for service communicatio=
+n that adds resilience=2C visibility and control to applications without r=
+equiring complex application integration.
+
+https://www.cncf.io/event/webinar-introtolinkerd
+
+
+Jobs
+=3D=3D=3D=3D
+
+Finding a Job Shouldn't Feel Like Work. Try Hired Today.
+
+http://hrd.cm/2jHrf1B
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The Study of Enterprise Agility Conference is coming up in London on April=
+ 10th=2C with some interesting talks on devops topics particularly relevan=
+t to large organisations. I have the good fortune to be speaking at this e=
+vent=2C if you=E2=80=99re interest in attending use the code GARETH20 for=
+ 20% off the early bird price through the end of the month.
+
+http://www.seacon-uk.com
+
+
+dotScale=2C a conference on scalability=2C DevOps and distributed systems=
+=2C is coming up on April 24th in Paris. Some excellent talks already anno=
+unced=2C and tickets are 20% off for devops weekly readers.
+
+https://dotscale2017.eventbrite.com/?discount=3DDEVOPSWEEKLY
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+An interesting set of tools for managing security in Google Cloud=2C focus=
+ed on enforcing firewall rules across multiple projects.
+
+https://labs.spotify.com/2017/02/22/google-cloud-security-toolbox/
+https://github.com/spotify/gcp-firewall-enforcer
+https://github.com/spotify/gcp-audit
+
+
+
+Interested in ChatOps? Get the free 75 page O=E2=80=99Reilly report coveri=
+ng everything from basic concepts to deployment strategies.
+
+http://try.victorops.com/DOWeekly/chatops
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

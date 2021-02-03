@@ -1,0 +1,127 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#421?=
+Date: Sun, 20 Jan 2019 17:39:50 +0000
+
+DEVOPS WEEKLY
+ISSUE #421 - 20th January 2019
+
+Some good modern operations posts this week=2C with a few debugging tales=
+=2C discussion of monitoring=2C getting started with cloud services and a=
+ good introduction to service level objectives.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Incident commanders and lifecycle coordinators help organize incident resp=
+onse to make on-call suck less. See how DevOps teams benefit from centrali=
+zing alerting=2C incident response and collaboration:
+
+http://try.victorops.com/devopsweekly/incident-lifecycle-coordinators
+
+
+News
+=3D=3D=3D=3D
+
+A great tale of debugging an incident in a world of interlinked distribute=
+d systems. Some good takeaways for anyone interested in resilient architec=
+ture as well.
+
+https://medium.com/@daniel.p.woods/on-infrastructure-at-scale-a-cascading-=
+failure-of-distributed-systems-7cff2a3cd2df
+
+
+A long and very detailed post on how Stack Overflow do monitoring. Lots of=
+ internal dashboards=2C graphs and discussions of approaches and different=
+ facets of the monitoring problem.
+
+https://nickcraver.com/blog/2018/11/29/stack-overflow-how-we-do-monitoring=
+/
+
+
+A quick introduction to Service Level Objectives=2C Service Level Indicato=
+rs and Error Budgets for managing reliability=2C accompanied by an experie=
+nce report from one team starting to implement them.
+
+https://medium.com/kudos-engineering/managing-reliability-with-slos-and-er=
+ror-budgets-37346665abf6
+
+
+Kubernetes cluster cost overhead can be an issue=2C often down to the cost=
+ of idle resources. This post explores how to measure and reduce that over=
+head=2C in particular looking at CPU=2C memory and disk. It also explores=
+ why autoscaling probably shouldn=E2=80=99t be step one.
+
+https://medium.com/kubecost/detect-overspending-by-measuring-idle-kubernet=
+es-resources-d5d97eb205e0
+
+
+An interesting article on how many metrics an individual application might=
+ expose=2C including examples of a few real world apps. Interesting to thi=
+nk about when considering capacity and cost of monitoring.
+
+https://www.robustperception.io/how-many-metrics-should-an-application-ret=
+urn
+
+
+When public cloud services launched they had a small number of services=2C=
+ and you could learn the APIs and tools fairly quickly. Not so today. This=
+ post acts as a reminder=2C as well as a good collection of links for anyo=
+ne starting getting up to speed to with AWS or GCP.
+
+https://peadarcoyle.com/2019/01/12/im-lost-how-do-i-learn-to-use-the-cloud=
+/
+
+
+A walkthrough of building=2C and debugging a simple deployment pipeline us=
+ing GitLab. Takes in some certificate issues and overriding existing Docke=
+r images used in each step.
+
+https://joaorosa.io/2019/01/13/using-flyway-and-gitlab-to-deploy-a-mysql-d=
+atabase-to-aws-rds-securely/
+
+
+A detailed walkthrough for anyone looking to implement structured logging=
+ in Java.
+
+https://github.com/tersesystems/terse-logback
+
+
+A look at a multi-cloud data processing pipeline. Starting in AWS=2C this=
+ walks through a few ways of duplicating data into GCP=2C utilising existi=
+ng services wherever possible. No mention of the cost of transfer or stora=
+ge though.
+
+https://www.vibrato.com.au/blog/towards-a-multi-cloud-serverless-data-ware=
+house
+
+
+A quick introduction to Kubernetes networking concepts=2C and a basic expl=
+anation of the role of ingress=2C with an example using the Traefik proxy.
+
+https://www.cloudops.com/2018/06/why-kubernetes-ingresses-arent-as-difficu=
+lt-as-you-think/
+
+
+Tools
+=3D=3D=3D=3D
+
+GoFish is a cross-platform systems package manager=2C bringing the ease of=
+ use of Homebrew to Linux and Windows. Early days but a few packages start=
+ing to be available.
+
+https://gofi.sh/index.html
+https://github.com/fishworks/fish-food
+
+
+Incident commanders and lifecycle coordinators help organize incident resp=
+onse to make on-call suck less. See how DevOps teams benefit from centrali=
+zing alerting=2C incident response and collaboration:
+
+http://try.victorops.com/devopsweekly/incident-lifecycle-coordinators
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

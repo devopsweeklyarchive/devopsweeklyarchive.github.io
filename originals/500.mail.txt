@@ -1,0 +1,147 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#500?=
+Date: Sun, 26 Jul 2020 08:50:53 +0000
+
+DEVOPS WEEKLY
+ISSUE #500 - 26th July 2020
+
+I sent the first issue of Devops Weekly on the 30th of November 2010. I de=
+finitely didn=E2=80=99t think for a minute that nearly 10 years later I=E2=
+=80=99d be sending the 500th issue. Thanks to everyone who has subscribed.=
+ Thanks to the sponsors who have made it possible to keep running. And tha=
+nks to everyone who has written posts=2C given talks or built tools that h=
+ave been featured in the newsletter.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+env0 lets you enable your entire dev team to create and manage their own c=
+loud environments while maintaining total visibility=2C predictability=2C=
+ and governance over it.
+
+https://www.env0.com/devops-self-serve
+
+
+500 issues
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Here are 5 posts still worth reading from Devops Weekly issues through the=
+ years.
+
+
+Issue #1
+But what is Devops? I know a number of people have signed up to this newsl=
+etter having only recently come across the term. It's safe to say Devops m=
+eans different things to different people at this early stage=2C but I'm g=
+oing to start out by pointing everyone to James Turnbull's WHAT DEVOPS MEA=
+NS TO ME
+
+https://www.kartar.net/2010/02/what-devops-means-to-me/
+
+
+Issue #100
+Interesting set of blog posts=2C describing protocols or patterns for Devo=
+ps adoption. The first two talk about the advantages of starting small and=
+ fixing a real problem quickly and about configuration management and limi=
+ting manual changes.
+
+http://www.agileweboperations.com/devops-protocols-start-small
+http://www.agileweboperations.com/devops-protocol-no-manual-changes
+
+
+Issue #200
+If you=E2=80=99re just getting to grips with monitoring it can be difficul=
+t to know where to start. This presentation gives you a quick overview of=
+ the last 5 years. Lots of ideas for things to improve.
+
+https://speakerdeck.com/auxesis/5-years-of-metrics-and-monitoring
+
+
+Issue #300
+I attended the recent Operability conference in London and these two posts=
+ nicely summarise the various talks and provide lots of links to the slide=
+s.
+
+https://skeltonthatcher.com/blog/operability-io-2016-operations-is-crucial=
+/
+https://skeltonthatcher.com/blog/operability-io-2016-operations-still-rele=
+vant-day-1/
+
+
+Issue #400
+Good tips for ensuring the software release process is robust=2C emphasisi=
+ng that this means clear ownership and treating deployment software like t=
+he critical production system it is.
+
+https://charity.wtf/2018/08/19/shipping-software-should-not-be-scary/
+
+
+News
+=3D=3D=3D=3D
+
+It=E2=80=99s that time of year again. The regular Puppet State of Devops s=
+urvey is open. The focus this year is the relationship between change mana=
+gement=2C continuous delivery and self-service platforms.
+
+https://polls.onresearch.net/xsurvey/20JT028/20JT028T1/Survey.aspx?ckie=3D=
+true
+
+
+Documentation and design serve a critical role in building robust systems.=
+ This post looks at why design documents are useful and what sort of thing=
+ they should include.
+
+https://www.industrialempathy.com/posts/design-docs-at-google/
+
+
+A new report on the state of public Terraform code security. Some useful d=
+ata and some good tips for anyone using Terraform to configure services.
+
+https://bridgecrew.io/blog/state-of-open-source-terraform-security-report-=
+2020/
+
+
+A look at using Azure Pipelines to validate a sysmon configuration automat=
+ically.
+
+https://medium.com/falconforce/using-azure-pipelines-to-validate-my-sysmon=
+-configuration-48315dba7571
+
+
+A good story of migrating a low-level component at scale=2C in this case a=
+n application server. Canary rollouts=2C upstream contributions=2C perform=
+ance and other interesting topics.
+
+https://about.gitlab.com/blog/2020/07/08/migrating-to-puma-on-gitlab/
+
+
+Embracing cloud native technologies and ways of working comes with challen=
+ges=2C some of which this post documents=2C including security=2C lack of=
+ expertise=2C slow release cycles and more.
+
+https://www.cloudops.com/2020/07/top-7-challenges-to-becoming-cloud-native=
+/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+kube-iptables-tailer does just what you expect. It exposes the underlying=
+ iptables data to kubectl=2C Handy for spotting services trying and failin=
+g to communicate to one another in Kubernetes.
+
+https://github.com/box/kube-iptables-tailer
+
+
+Kconmon is a Kubernetes connectivity monitoring tool that runs frequent te=
+sts (tcp=2C udp and dns)=2C and exposes Prometheus metrics that are enrich=
+ed with the node name=2C and the locality information (such as zone)=2C en=
+abling you to correlate issues between availability zones or nodes.
+
+https://github.com/Stono/kconmon
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,133 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#372?=
+Date: Sun, 11 Feb 2018 10:35:31 +0000
+
+DEVOPS WEEKLY
+ISSUE #372 - 11th February 2018
+
+A busy week at Configuration Management Camp (still one of my favourite ev=
+ents) and a busy week for interesting posts as well=2C covering incident m=
+anagement and on-call=2C as well as the pros of fast release cycles=2C cov=
+erage of Devopsdays NYC and more.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Asking five (or more) whys is outdated. So is trying to find a Root Cause=
+ Analysis. Take a look at the case against RCA
+
+http://try.victorops.com/DevOpsWeekly/ChatOpsUpdate
+
+
+News
+=3D=3D=3D=3D
+
+
+An excellent post on the state of on-call=2C digging into why it=E2=80=99s=
+ important for developers running services=2C and how to make it manageabl=
+e.
+
+https://medium.com/@copyconstruct/on-call-b0bd8c5ea4e0
+
+
+A great set of notes from the recent Devopsdays New York=2C covering talks=
+ on failure=2C debugging systems=2C the history of devops=2C building team=
+s=2C Kubernetes and more.
+
+http://noidea.dog/blog/devopsdays-nyc-2018
+
+
+One of the talks from Configuration Management Camp last week=2C looking a=
+t how to effectively test Ansible modules and playbooks using InSpec and T=
+est Kitchen.
+
+https://www.slideshare.net/nathenharvey/effective-testing-with-ansible-and=
+-inspec
+
+
+A series of posts on incident management in one team=2C looking at definit=
+ions and the integration of chatops into the process.
+
+https://devblog.xero.com/sre-xero-managing-incidents-part-i-7d02d650a71c
+https://devblog.xero.com/sre-xero-managing-incidents-part-ii-224a6e06f426
+
+
+A detailed look at the performance impact of the Linux kernel page table i=
+solation (KPTI) patches that workaround the Meltdown bug.
+
+http://www.brendangregg.com/blog/2018-02-09/kpti-kaiser-meltdown-performan=
+ce.html
+
+
+An interesting observation on software developers and ivory tower architec=
+ts. I think this applies to infrastructure and operations design too.
+
+http://www.codingthearchitecture.com/2018/02/09/todays_software_developers=
+_are_the_ivory_tower_architects_of_tomorrow.html
+
+
+A post on the Kubernetes release cycle=2C which also covers some of the de=
+tails of how the special interest group model works and the reason why the=
+ fast pace of change is a good thing.
+
+https://gravitational.com/blog/kubernetes-release-cycle/
+
+
+Another series of posts=2C this one on getting started with Puppet on Wind=
+ows. Covers the basics as well as facter=2C hiera and managing modules wit=
+h r10k=2C all from the perspective of a Windows administrator.
+
+http://wragg.io/getting-started-with-puppet-on-windows/
+http://wragg.io/puppet-variables-expressions-facts-and-hiera-on-windows/
+http://wragg.io/using-puppet-modules-forge-and-r10k/
+
+
+A useful slidedeck on best practices for securing Kubernetes=2C with a loo=
+k at basic threat vectors and how to mitigate the risk.
+
+https://speakerdeck.com/ianlewis/kubernetes-security-best-practices
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Deployment Strategies on Kubernetes
+February 13=2C Online
+https://goo.gl/3gUvFY
+
+Take a practical look at the different strategies to deploy an application=
+ to Kubernetes. We list the pros and cons of each strategy and define whic=
+h one to adopt depending on real world examples and use cases.
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Lots of problems occur between development and production due to differenc=
+es in data. Dotmesh aims to solve those problems by allowing you to captur=
+e=2C manage and share the state of your whole application using a git-like=
+ CLI tool and a central hub.
+
+https://dotmesh.com/blog/introducing-dotmesh/
+https://github.com/dotmesh-io/dotmesh
+
+
+The YAML language is actually huge=2C with features most people don=E2=80=
+=99t use or know about=2C some of which result in interesting security pro=
+blems. SafeYaml is an interesting idea=2C a small subset of YAML enforced=
+ by a simple linting tool.
+
+https://github.com/imbal/safeyaml
+
+
+Asking five (or more) whys is outdated. So is trying to find a Root Cause=
+ Analysis. Take a look at the case against RCA
+
+http://try.victorops.com/DevOpsWeekly/ChatOpsUpdate
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

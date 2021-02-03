@@ -1,0 +1,126 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#413?=
+Date: Sun, 25 Nov 2018 09:49:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #413 - 25th November 2018
+
+A relatively short issue this week due to general business=2C but several=
+ interesting long reads and a number of new tools for building container i=
+mages=2C managing various flavours of service mesh and testing CloudFormat=
+ion templates.
+
+
+>From our sponsor=2C Victorops
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+ChatOps is the result of combining human collaboration and automation in c=
+hat applications. See how ChatOps tools and technology can automate tasks=
+ and bridge the gap between productive DevOps workflows and simple chat:
+
+http://try.victorops.com/devopsweekly/chatops-leads-to-devops
+
+
+
+News
+=3D=3D=3D=3D
+
+A detailed look at what happens as organisations adopt faster rates of cha=
+nge=2C and what that means for improving stability. Coming back to a conce=
+pt of safety and the importance of fundamentally understanding the complex=
+ systems we manage.
+
+https://m.subbu.org/taming-the-rate-of-change-439e3dccbb5d
+
+
+A nice walkthrough of analysing and then shrinking the size of a Python ba=
+sed Docker image=2C reducing the size by more than 3x.
+
+https://simonwillison.net/2018/Nov/19/smaller-python-docker-images/
+
+
+An interesting post introducing the concept of data rigidity. The post use=
+s this to explain why=2C in some cases=2C relational databases can lead to=
+ coupling data and code=2C and why that=E2=80=99s a particularly bad fit f=
+or serverless applications.
+
+https://medium.com/@PaulDJohnston/on-serverless-and-data-rigidity-9a77eb56=
+d73a
+
+
+All of the videos from the recent Devops Enterprise Summit are now availab=
+le. A wide range of content=2C with lots of real-world case studies in lar=
+ge organisations.
+
+https://www.youtube.com/playlist?list=3DPLvk9Yh_MWYuxL-HzDKmTYclLvs7dCUNav
+
+
+A useful review of the current state of Helm=2C the package manager for Ku=
+bernetes. Explains the basic moving parts=2C but also brings opinions from=
+ using it and how the project is evolving with Helm 3.
+
+https://rhonabwy.com/2018/11/22/review-of-using-helm-to-package-and-host-a=
+pplications/
+
+
+A post (from a certain viewpoint) about some of the downsides of adopting=
+ specific devops practices. I think the first point about on-call is a cas=
+e of local vs global optimisation. Someone suffered these problems before=
+ but because they were not part of the team it was easier to ignore.
+
+https://www.business2community.com/strategy/downsides-of-devops-02140033
+
+
+Jobs
+=3D=3D=3D=3D
+
+TAB are hiring a Lead Engineer (DevOps Specialist)! :rocket: Are you passi=
+onate about open source? And picking the best technology for the job? Are=
+ you a firm believer in infrastructure-as-code?
+
+While we've promoted DevOps culture and practice for years=2C we're now hi=
+ring a leadership role to take us to the next level.
+
+Take a look here for further details of the role and how to apply:
+
+http://bit.ly/tabdevopsweekly
+
+
+Tools
+=3D=3D=3D=3D
+
+SuperGloo is an opinionated abstraction layer that will simplify the insta=
+llation=2C management=2C and operation of various service mesh technologie=
+s. It makes enabling functionality like encryption=2C telemetry=2C and tra=
+cing simple=2C minimising the overhead of managing complex configuration.
+
+https://supergloo.solo.io/
+https://github.com/solo-io/supergloo/
+
+
+cfripper is a Lambda application which can analyse a CloudFormation templa=
+te and check for various security-related problems. It=E2=80=99s intended=
+ for use in a CI/CD pipeline=2C and supports users writing their own check=
+s as well.
+
+https://github.com/Skyscanner/cfripper
+
+
+Makisu is a new container build tool=2C designer for use in a containerize=
+d environment like Mesos or Kubernetes. It extends the Dockerfile syntax t=
+o give control over when to generate a layer in the resulting image and su=
+pports a distributed cache to speed up builds.
+
+https://github.com/uber/makisu
+
+
+ChatOps is the result of combining human collaboration and automation in c=
+hat applications. See how ChatOps tools and technology can automate tasks=
+ and bridge the gap between productive DevOps workflows and simple chat:
+
+http://try.victorops.com/devopsweekly/chatops-leads-to-devops
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

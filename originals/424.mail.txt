@@ -1,0 +1,123 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#424?=
+Date: Sun, 10 Feb 2019 11:53:14 +0000
+
+DEVOPS WEEKLY
+ISSUE #424 - 10th February 2019
+
+A bit of a security theme this week=2C with posts on formal methods for fi=
+rewall configuration=2C tools for managing TLS=2C discussions of the role=
+ of perimeter defence and an interesting Kubernetes case study. Lots more=
+ content too on monitoring and scaling devops in large organisations.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Collaboration=2C transparency and deeper automation in tooling and process=
+es leads to heightened observability and insight for DevOps teams. See how=
+ building collaborative transparency into operations drives continuous Dev=
+Ops success:
+
+http://try.victorops.com/devopsweekly/why-devops-matters-ebook
+
+
+News
+=3D=3D=3D=3D
+
+A good question and answer post on adopting devops practices in large orga=
+nisations. Good discussion on scaling out from early efforts=2C training=
+=2C how devops interacts with service management and more.
+
+https://blog.xebialabs.com/2019/01/29/devops-in-2019-whats-next/
+
+
+A look at several emerging standards in the monitoring space; opencensus=
+=2C opentracing and openmetrics. Covering what they are and how to instrum=
+ent your application.
+
+https://www.datadoghq.com/blog/instrument-opencensus-opentracing-and-openm=
+etrics/
+
+
+The use of formal methods is often seen as an academic subject=2C but this=
+ post explores a practical use the Z3 constraint solver to test firewall r=
+ules.
+
+https://medium.com/@ahelwer/checking-firewall-equivalence-with-z3-c2efe505=
+1c8f
+
+
+Adopting devops practices often goes hand-in-hand with adopting new techno=
+logies=2C so doing that thoughtfully is important. This post features a se=
+ries of questions to help make good choices.
+
+https://kellanem.com/notes/new-tech
+
+
+An interesting discussion of the difference between the simplicity of the=
+ Kubernetes API and the complexity of the implementation=2C as well as a p=
+roposal for an implementation in Rust.
+
+https://www.cloudatomiclab.com/rustyk8s/
+
+
+A write up of a master thesis=2C exploring enforcing bare-metal hypervisor=
+-based sandboxing for Kubernetes clusters and a classification system to r=
+epresent the separation demands of the containerized applications.
+
+https://medium.com/@chrismessiah/docker-and-kubernetes-in-high-security-en=
+vironments-d851645e8b99
+
+
+A post on the problems of only focusing on the perimeter when it comes to=
+ firewalls=2C and the impact of service mesh technologies.
+
+https://neuvector.com/cloud-security/container-security-micro-perimeters/
+
+
+A tale of migrating between AWS services=2C in this case from ECS to EKS.=
+ The post steps though different options and tradeoffs relevant to moving=
+ dynamic infrastructure.
+
+https://medium.com/attest-engineering/migrating-from-ecs-to-eks-service-di=
+scovery-bc5df39e4b3b
+
+
+An example pattern for writing functional tests for Helm charts=2C using t=
+he bats testing tool.
+
+https://blog.deimos.fr/2019/02/08/k8s-euft-run-functional-tests-on-your-he=
+lm-charts/
+
+
+Tools
+=3D=3D=3D=3D
+
+Step Certificates is an open source project that makes secure automated ce=
+rtificate management simpler=2C making it much easier to use TLS to secure=
+ services.
+
+https://github.com/smallstep/certificates
+https://smallstep.com/blog/step-certificates.html
+
+
+Pomerium is a proxy for managing secure access to internal applications an=
+d resources. It provide a unified gateway (reverse-proxy) to internal corp=
+orate applications and can enforce dynamic access policy based on context=
+=2C identity=2C and device state.
+
+https://github.com/pomerium/pomerium
+
+
+Collaboration=2C transparency and deeper automation in tooling and process=
+es leads to heightened observability and insight for DevOps teams. See how=
+ building collaborative transparency into operations drives continuous Dev=
+Ops success:
+
+http://try.victorops.com/devopsweekly/why-devops-matters-ebook
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

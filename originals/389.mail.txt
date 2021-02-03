@@ -1,0 +1,146 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#389?=
+Date: Mon, 11 Jun 2018 13:34:12 +0000
+
+DEVOPS WEEKLY
+ISSUE #389 - 10th June 2018
+
+A bit of a theme of practical container posts this week=2C with posts on K=
+ubernetes as a cloud-migration strategy=2C tips for building Docker images=
+ and database migrations using containers. Also a few technical posts on b=
+uilding a DNS server and scratch VMs.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Investing in DevOps and an out-of-the-box incident management solution imp=
+roves SRE and continuous deployment efforts. Learn how you can save time a=
+nd start moving faster:
+
+http://try.victorops.com/DevOpsWeekly/Investing-in-DevOps
+
+
+News
+=3D=3D=3D=3D
+
+If you=E2=80=99ve adopted a microservices architecture and you=E2=80=99re=
+ investigating the impact of serverless then this post is worth a read. A=
+ useful focus on what you=E2=80=99ll probably need to reconsider.
+
+https://blog.binaris.com/your-guide-to-migrating-existing-microservices-to=
+-serverless/
+
+
+Multi-stage builds have been available in Docker for a while=2C but this p=
+ost summaries various patterns for using them beyond the canonical keping=
+ build tools out of the final image.
+
+https://medium.com/@tonistiigi/advanced-multi-stage-build-patterns-6f741b8=
+52fae
+
+
+A good experience report of migrating to Kubernetes=2C in this case with a=
+ self-managed cluster and GKE. Lots of tips for solving RBAC issues in Hel=
+m=2C deploying with Terraform and integrating with existing deployment too=
+ls.
+
+https://codeascraft.com/2018/06/05/deploying-to-google-kubernetes-engine/
+
+
+A quick overview of three of the tools people are using to manage growing=
+ Kubernetes configuration objects; Kapitan=2C Kustomize and Helm.
+
+https://medium.com/@splisson/helm-vs-kapitan-vs-kustomize-1c14018faecc
+
+
+Dockerfile is deceptively simple=2C but lots of patterns exist for maximis=
+ing it=E2=80=99s use for various developer workflows. This post dives into=
+ Python web applications and has lots of examples and handy tips.
+
+https://blog.hasura.io/how-to-write-dockerfiles-for-python-web-apps-6d1738=
+42ae1d
+
+
+A walkthrough of creating a custom DNS server using CoreDNS and it=E2=80=
+=99s GRPC interface=2C useful to serve DNS entries from an existing dataso=
+urce for instance.
+
+https://ahmet.im/blog/coredns-grpc-backends/
+
+
+A look at how much of the operating system can be removed if you try runni=
+ng your application at PID1. A nice trial and error story of running a Go=
+ web server as the only userspace process.
+
+https://syslog.ravelin.com/go-in-a-scratch-vm-a28c14e82a51
+
+
+A look at one approach to managing database migrations in a container-base=
+d continuous delivery model=2C in this case packaging up individual migrat=
+ions in Docker containers.
+
+https://nothingventured.rocks/automated-db-migrations-for-continuous-deliv=
+ery-110cb04640ac
+
+
+Jobs
+=3D=3D=3D=3D
+
+Citrusbyte is looking for experienced DevOps Engineers. We are a software=
+ consultancy focused on using modern tools to solve complex problems for g=
+lobal businesses. As a diverse team of experts spread across 20+ countries=
+ and pioneers of remote workplaces=2C we are leading digital transformatio=
+ns for our customers. Find out more and apply in:
+
+https://citrusbyte.applytojob.com/apply/SgMSSrfro6/Operations-Engineer
+
+
+Grubhub is hiring for Lead(s) and Senior SRE's in Chicago & NYC.  One curr=
+ent opening is a Sr Site Reliability Engineer - Cloud Infrastructure (CI)=
+ Team. The CI Team is responsible for building the frameworks and platform=
+ on which all services are built and operate along with building a number=
+ of key services. This team is at the core of implementing distributed=2C=
+ scalable system foundations and designing for 5 9=E2=80=99s uptime and ho=
+rizontal scalability. The SREs focus on helping the team build reliable di=
+stributed systems that are easy to run=2C maintain and operate. The CI SRE=
+ team works across all teams to assist with design and architecture as wel=
+l as providing guidance on the platform we have built. The CI SRE team als=
+o builds and maintains our deployment and self-service tooling and service=
+s=2C along with our Platform SRE team.
+
+https://careers-grubhub.icims.com/jobs/5218/senior-site-reliability-engine=
+er---cloud-infrastructure-team/job
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+REdeploy is a new conference focused on reliability engineering=2C taking=
+ place August 16th-17th in San Francisco. The event will cover all kinds o=
+f resilience=2C including of technology=2C people and organisations. Early=
+ bird tickets are on sale now and the CFP is open until June 15th.
+
+https://re-deploy.io/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+eksctl is a CLI tool for launching EKS (Elastic Kubernetes Service) cluste=
+rs on AWS. It allows for some high-level configurability and abstracts you=
+ from the underlying large CloudFormation templates.
+
+https://eksctl.io/
+
+
+Investing in DevOps and an out-of-the-box incident management solution imp=
+roves SRE and continuous deployment efforts. Learn how you can save time a=
+nd start moving faster:
+
+http://try.victorops.com/DevOpsWeekly/Investing-in-DevOps
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

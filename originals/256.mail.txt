@@ -1,0 +1,162 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#256?=
+Date: Sun, 29 Nov 2015 13:35:53 +0000
+
+DEVOPS WEEKLY
+ISSUE #256 - 29th November 2015
+
+It=E2=80=99s just about December=2C which means it=E2=80=99s nearly time f=
+or the return of the excellent SysAdvent. If you=E2=80=99ve not come acros=
+s this before you should checkout out the last 7 years worth of posts at h=
+ttp://sysadvent.blogspot.co.uk/.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] How to Build a Metrics-optimized Software Delivery Pipeline
+
+Learn a practical step-by-step approach to optimizing your delivery proces=
+s so you can deploy better quality software faster! You=E2=80=99ll learn w=
+hy you should move to a metric-driven pipeline=2C which key quality metric=
+s to measure and how to integrate them to catch problems earlier.
+
+http://ow.ly/UTMwE
+
+
+News
+=3D=3D=3D=3D
+
+A reminder that=2C if you work for a company=2C you should practice good s=
+ystems administration practices for end user devices like laptops too. Hav=
+ing a standard build for your organisation is a great topic I=E2=80=99d li=
+ke to see more written on.
+
+http://everythingsysadmin.com/2015/11/idc-dell-rogue-certs.html
+
+
+My talk from the recent DockerCon EU event=2C all about the metadata capab=
+ilities of container runtimes=2C and how Docker Labels in particular could=
+ be used to expose an API for containers.
+
+https://speakerdeck.com/garethr/shipping-manifests-bill-of-lading-and-dock=
+er-metadata-and-container
+
+
+A nice write-up of the Facebook paper Moving fast with software verificati=
+on. The concept of a pipeline for software delivery is widespread=2C but I=
+=E2=80=99m not sure we collectively have a set of well defined best practi=
+ces yet. More research please.
+
+http://blog.acolyer.org/2015/11/20/moving-fast-with-software-verification/
+
+
+An excellent talk entitled =E2=80=9CTools=2C Culture and Aesthetics =E2=80=
+=93 The Art of DevOps=E2=80=9D=2C focusing squarely on the culture aspects=
+ of devops and in particular how to build that culture in traditional orga=
+nisations.
+
+https://jaxenter.com/tools-culture-and-aesthetics-the-art-of-devops-122535=
+=2Ehtml
+
+
+A good outsider's perspective on what is a unikernel. Lots of links to oth=
+er references and a good starting point if you=E2=80=99ve heard the term b=
+ut aren=E2=80=99t sure what the fuss is about.
+
+https://ma.ttias.be/what-is-a-unikernel/
+
+
+Interesting approach to testing network connectivity. A simple tool and YA=
+ML file configuration=2C but with the ability to autogenerate those config=
+s from packet sniffing=2C Django config files and more.
+
+http://1stvamp.github.io/conn-check-talk/
+http://conn-check.org/
+
+
+Perl was the system administrators language of choice several years ago=2C=
+ and Perl 6 is finally here. This excellent introduction goes through the=
+ language features=2C including installation and the new gradual type syst=
+em.
+
+http://perl6intro.com/
+
+
+Mig is Mozilla's real-time digital forensics and investigation platform. I=
+t relies on endpoing agents and covers inspecting filesystems=2C memory=2C=
+ network IO with plans for more vulnerability management capabilities.
+
+http://mig.mozilla.org/
+
+
+
+Jobs
+=3D=3D=3D=3D
+
+Want to work on new projects? Try a new stack? Join Hired and discover new=
+ opportunities today.
+
+http://hrd.cm/1Ln3YwY
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Software Circus is back for one more event in 2015=2C the Winter Wonderlan=
+d will be taking place on the 17th of December in Amsterdam. Talks ranging=
+ from continuous delivery=2C containers=2C monolithic systems and visualis=
+ing conceptual designs.
+
+http://softwarecircus.eu/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Wagl is a new tool for service discovery via DNS intended for use in Docke=
+r Swarm clusters.
+
+http://ahmetalpbalkan.github.io/wagl/
+https://github.com/ahmetalpbalkan/wagl
+
+
+Sup describes itself as =E2=80=9Cmake for network servers=E2=80=9D. It all=
+ows you to describe a set of hosts and commands=2C and provides a simple C=
+LI to interact with them. Similar to Fabric in Python=2C but in this case=
+ written in Go with a YAML configuration file.
+
+https://github.com/pressly/sup
+
+
+The King=E2=80=99s Hand is a tool for organizing ad-hoc scripts written in=
+ Go. It provides a simple discovery mechanism and a way of loading arbitra=
+ry go binaries into the kh tool.
+
+https://github.com/bryanwb/kh
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

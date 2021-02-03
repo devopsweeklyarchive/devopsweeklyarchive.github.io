@@ -1,0 +1,104 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#483?=
+Date: Sun, 29 Mar 2020 10:53:21 +0000
+
+DEVOPS WEEKLY
+ISSUE #483 - 29th March 2020
+
+Messaging middleware=2C containers and CI systems=2C speeding up encryptio=
+n and a few useful tools for anyone managing AWS this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Major incidents lead to more alerts=2C more downtime and unhappy customers=
+=2E See how modern DevOps-minded teams are building virtual war rooms to qui=
+ckly mobilize cross-functional engineering and IT teams around major incid=
+ents =E2=80=93 improving incident remediation while reducing burnout:
+
+https://go.victorops.com/devopsweekly-war-rooms-for-major-incidents
+
+
+News
+=3D=3D=3D=3D
+
+A series of posts on common message-based middleware patterns using NATS.=
+ An introduction on the benefits of message architectures=2C setup instruc=
+tions and more.
+
+https://choria.io/blog/post/2020/03/23/nats_patterns_1/
+https://choria.io/blog/post/2020/03/24/nats_patterns_2/
+https://choria.io/blog/post/2020/03/25/nats_patterns_3/
+https://choria.io/blog/post/2020/03/26/nats_patterns_4/
+https://choria.io/blog/post/2020/03/27/nats_patterns_5/
+
+
+A detailed look at improving the performance of disk encryption in Linux.
+
+https://blog.cloudflare.com/speeding-up-linux-disk-encryption/
+
+
+Many CI systems have adopted Docker containers to run the compute. This po=
+st explains why that=E2=80=99s useful=2C and how and why to build customer=
+ images to support your toolchain.
+
+https://spin.atomicobject.com/2020/03/22/custom-docker-image-ci/
+
+
+A useful post on observability and tracing=2C with some good explanatory d=
+iagrams and discussion of opentracing.
+
+https://medium.com/swlh/tracing-and-observability-9ab98438d773
+
+
+An explanation of how to catch recent API changes in your Kubernetes confi=
+guration using Open Policy Agent=2C Conftest and GitHub Actions.
+
+https://opensource.com/article/20/3/deprek8
+
+
+A post in praise of AWS S3. The influence of S3 is hard to argue against a=
+nd this post explains why.
+
+https://info.acloud.guru/resources/brazeal-in-praise-of-s3-the-greatest-cl=
+oud-service-of-all-time
+
+
+A starter kit for managing Helm charts using Helmfile. The repository intr=
+oduces an opinionated workflow and provides examples of separating out per=
+-environment configuration.
+
+https://github.com/paulczar/helmfile-starter-kit
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+ssmsh is a handy shell for AWS EC2 Parameter store. The UI is modelled aft=
+er a simple filesystem=2C so browsing parameters is immediately intuitive=
+ with ls=2C mv=2C rm and the like.
+
+https://github.com/bwhaley/ssmsh
+
+
+A set of small tools for using AWS Systems Manager=2C including opening an=
+ interactive shell and running a command on multiple instances based on in=
+stance tags or names.
+
+https://github.com/disneystreaming/ssm-helpers
+
+
+Major incidents lead to more alerts=2C more downtime and unhappy customers=
+=2E See how modern DevOps-minded teams are building virtual war rooms to qui=
+ckly mobilize cross-functional engineering and IT teams around major incid=
+ents =E2=80=93 improving incident remediation while reducing burnout:
+
+https://go.victorops.com/devopsweekly-war-rooms-for-major-incidents
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

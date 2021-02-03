@@ -1,0 +1,114 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#527?=
+Date: Sun, 31 Jan 2021 09:47:43 +0000
+
+DEVOPS WEEKLY
+ISSUE #527 - 31st January 2021
+
+Several security-related posts this week=2C from incident reports to Kuber=
+netes permissions and security architecture. Plus reliability=2C rising so=
+ftware complexity and interesting tools for Terraform=2C JSON parsing and=
+ SQLite.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D
+
+With StackHawk's new GitHub Action=2C you can integrate AppSec testing dir=
+ectly into your GitHub CI/CD pipeline. See how:
+
+http://sthwk.com/github-actions
+
+
+News
+=3D=3D=3D=3D
+
+A detailed writeup and timeline of a security incident. It=E2=80=99s impor=
+tant to learn from events like this=2C and the post finishes up with some=
+ concrete recommendations.
+
+https://stackoverflow.blog/2021/01/25/a-deeper-dive-into-our-may-2019-secu=
+rity-incident/
+
+
+A discussion of various facets of building reliable systems. From SLOs to=
+ runbooks=2C service catalogues to feature flags and more.
+
+https://firehydrant.io/blog/2021-is-the-year-of-reliability/
+
+
+A post describing the high-level security architecture for a web site. Wha=
+t makes it interesting is the focus on proportionality=2C being as secure=
+ as needed rather than as secure as possible=2C
+
+https://www.ncsc.gov.uk/blog-post/securing-ncsc-platforms
+
+
+A good post on the risks associated with permissive permissions and privil=
+ege escalation with Kubernetes pods.
+
+https://labs.bishopfox.com/tech-blog/bad-pods-kubernetes-pod-privilege-esc=
+alation
+
+
+Why does it take so long to build software? Lots of observations in this p=
+ost=2C about accidental complexity=2C about increasing demands vs 10 or 20=
+ years ago on several fronts=2C on the rise of frameworks and tools that s=
+olve problems you might not have and more.
+
+https://www.simplethread.com/why-does-it-take-so-long-to-build-software/
+
+
+Hex is the package manager for Erlang and Elixir. A new feature=2C called=
+ Hex Preview=2C allows for checking the contents of source files from spec=
+ific versions of packages. An important use case that=E2=80=99s easy to mi=
+ss with the growth of supply chain attacks.
+
+https://hex.pm/blog/introducing-hex-preview
+
+
+An example of writing unit tests for Helm charts using Go.
+
+https://blog.heyal.co.uk/unit-testing-helm-charts/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+An event all about the low-level bits of containers. Container runtimes=2C=
+ image building=2C image scanning=2C container security and isolation=2C v=
+irtualization inside containers=2C etc. Taking place March 9th/10th=2C wit=
+h the CFP submissions due by the 10th of February.
+
+https://containerplumbing.org
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Simdjson is a JSON parsing library that aims to make parsing gigabytes of=
+ JSON per second trivial. Interesting design and API=2C and bindings avail=
+able in lots of languages.
+
+https://github.com/simdjson/simdjson
+
+
+Etok provides a nice user interface for running Terraform on Kubernetes. A=
+void needing local credentials or access to APIs. Some handy integration w=
+ith GCP as well.
+
+https://github.com/leg100/etok
+
+
+Litestream is a standalone streaming replication tool for SQLite. It runs=
+ as a background process and safely replicates changes incrementally to an=
+other file or S3.
+
+https://github.com/benbjohnson/litestream
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

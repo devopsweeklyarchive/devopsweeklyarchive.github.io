@@ -1,0 +1,115 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#401?=
+Date: Sun,  2 Sep 2018 10:23:56 +0000
+
+DEVOPS WEEKLY
+ISSUE #401 - 2nd September 2018
+
+Apologies=2C I resent last weeks issue of the newsletter by accident. Here=
+ is today's issue.
+
+Research into the changing habits of software teams=2C new Kubernetes feat=
+ures=2C the pros and cons of adopting multi-cloud architectures and posts=
+ on continuous integration and developer/operator workflows this week.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+A DevOps culture ensures collaboration=2C open-mindedness=2C and reliabili=
+ty. This story shows how=E2=80=93and why=E2=80=93establishing an internal=
+ structure dedicated to DevOps is highly beneficial:
+
+http://try.victorops.com/devopsweekly/creating-a-devops-culture
+
+
+News
+=3D=3D=3D=3D
+
+A good summary of the Accelerate Devops survey results=2C looking at cloud=
+ adoption=2C database engineering and outsourcing in particular.
+
+https://blog.dbsmasher.com/2018/08/31/accelerate-state-of-devops.html
+
+
+A post on some of the pros and cons of multi-cloud management and some tip=
+s on overcoming the resulting challenges.
+
+https://stacksense.io/krishnan/infrastructure/multi-cloud-governance-hard-=
+problem-but-essential-for-success/
+
+
+Admission web hooks are a Kubernetes feature which allows for validating a=
+nd modifying submitted resources=2C useful for injecting sidecars=2C attac=
+hing volumes or policy enforcement. This post shows an example of how to w=
+rite your own web hooks.
+
+https://container-solutions.com/some-admission-webhook-basics/
+
+
+More interesting research data=2C this looking at the increasing adoption=
+ of automated deployment=2C continuous integration and automated testing.
+
+https://www.oreilly.com/ideas/5-automation-trends-in-software-development-=
+quantified
+
+
+A good post on the benefits of infrastructure as code for facilitating wor=
+k between development and operations teams=2C looking in particular at Ter=
+raform=2C Atlantis and GitHub and how the workflow changes when adopting t=
+hese tools/
+
+https://medium.com/runatlantis/putting-the-dev-into-devops-why-your-develo=
+pers-should-write-terraform-too-d3c079dfc6a8
+
+
+A detailed look at implementing a large scale highly available MySQL clust=
+er. Lots of details and discussion of various tradeoffs for this particula=
+r use case.
+
+https://githubengineering.com/mysql-high-availability-at-github/
+
+
+Another post on adopting continuous integration=2C this one looking in det=
+ail at the Drone CI system.
+
+https://medium.com/@FutureLearn/increasing-productivity-with-drone-2f8dfe6=
+9129c
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays London is coming up in the 20th and 21st of September with topi=
+cs ranging from distributed systems=2C people management and team building=
+=2C creating a blameless culture and the popular open spaces. Tickets are=
+ on sale now and the code DEVOPSWEEKLY  will get you a 33% off the price.
+
+https://www.devopsdays.org/events/2018-london/registration/
+https://www.devopsdays.org/events/2018-london/program/
+
+
+Tools
+=3D=3D=3D=3D
+
+The Atomist Software Delivery Machine is now available under and open sour=
+ce license. This allows for lots of interesting scripting potential for ma=
+naging repositories and developer workflows across multiple teams and mult=
+iple repositories.
+
+https://the-composition.com/the-future-of-software-delivery-is-code-and-it=
+s-here-a2601759d99b
+https://github.com/atomist/sdm
+
+
+
+A DevOps culture ensures collaboration=2C open-mindedness=2C and reliabili=
+ty. This story shows how=E2=80=93and why=E2=80=93establishing an internal=
+ structure dedicated to DevOps is highly beneficial:
+
+http://try.victorops.com/devopsweekly/creating-a-devops-culture
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

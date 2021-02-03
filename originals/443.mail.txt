@@ -1,0 +1,134 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#443?=
+Date: Sun, 23 Jun 2019 10:19:19 +0000
+
+DEVOPS WEEKLY
+ISSUE #443 - 23rd June 2019
+
+Interesting posts this week on what causes service outages=2C visualising=
+ cloud infrastructure=2C operational concerns with service mesh=2C how to=
+ think about serverless and new tools for testing configuration.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Being on-call sucks. But=2C DevOps teams are finding ways to collaborate m=
+ore and improve workflow visibility =E2=80=93 leading to more efficient in=
+cident detection=2C response and remediation. Learn exactly how you can st=
+art making on-call suck less:
+
+http://try.victorops.com/devopsweekly/making-on-call-suck-less-checklist
+
+
+News
+=3D=3D=3D=3D
+
+A reminder that monoliths vs microservices is mainly a discussion of team=
+ organisational dynamics. This post looks specifically at cognitive load a=
+s a way to right-size service.
+
+https://techbeacon.com/app-dev-testing/forget-monoliths-vs-microservices-c=
+ognitive-load-what-matters
+
+
+Understanding a large cloud infrastructure is an interesting problem. The=
+ availability of APIs doesn=E2=80=99t immediately make things accessible i=
+n a useful way. This post shows what=E2=80=99s possible if you import that=
+ data into a graph database.
+
+https://labs.spotify.com/2019/06/04/painting-a-picture-of-your-infrastruct=
+ure-in-minutes/
+
+
+An interesting analysis of a recent paper exploring what bugs actually cau=
+se production incidents in a large service. Error handling issues=2C timin=
+g bugs=2C data formats. A good list to consider for your services.
+
+https://blog.acolyer.org/2019/06/21/what-bugs-cause-cloud-production-incid=
+ents/
+
+
+Service Mesh technologies are picking up lots of interest at the moment=2C=
+ for good reasons. But there are operational complexities and downsides to=
+ consider and this post provides a useful summary of some of them.
+
+https://glasnostic.com/blog/service-mesh-istio-limits-and-benefits-part-2
+
+AWS provides a number of building-block services for CI/CD. This repositor=
+y contains a fully working example of using CodeDeploy and CodeBuild and d=
+eploys an application from GitHub to EC2.
+
+https://github.com/dvassallo/github-to-ec2-pipeline
+
+
+An attempt to describe Serverless in terms of doctrine=2C with a range of=
+ suggestions for high-level principles to implement to gain the purported=
+ benefits.
+
+https://medium.com/@PaulDJohnston/serverless-is-a-doctrine-not-a-technolog=
+y-4193ccb66cfc
+
+
+A detailed post looking at various sandboxing approaches for containers=2C=
+ from gvisor and IBM Nabla to Firecracker=2C Kata and unikernels.
+
+https://unit42.paloaltonetworks.com/making-containers-more-isolated-an-ove=
+rview-of-sandboxed-container-technologies/
+
+
+Serverless is inherently interesting from a cost perspective. This post fe=
+atures some good gotchas and tips for avoiding being surprised by your bil=
+l as your usage grows.
+
+https://epsagon.com/blog/dont-be-surprised-by-your-serverless-bill/
+
+
+If you=E2=80=99re operating a Kubernetes cluster then knowing how to troub=
+leshoot common issues is useful=2C and this post summarises hunting down i=
+ssues with slow scheduling=2C high CPU usage=2C failed deployments and mor=
+e.
+
+https://medium.com/avitotech/kubernetes-issues-and-solutions-2baffe25f40b
+
+
+Becoming a power user of the command line often means becoming familiar wi=
+th various tools for parsing output and extracting some specific bit of da=
+ta. This post is a nice introduction to tools like cut=2C head=2C tr=2C se=
+d and awk.
+
+https://mh9.codes/posts/slice-n-dice/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Conftest is a new tool I=E2=80=99ve been hacking on for writing tests agai=
+nst configuration files=2C using the Rego language from Open Policy Agent.=
+ It=E2=80=99s useful when authoring config or in a CI pipeline=2C and the=
+ repository has examples with Kubernetes=2C Terraform and Serverless confi=
+gs.
+
+https://github.com/instrumenta/conftest
+https://garethr.dev/2019/06/introducing-conftest/
+
+
+Yggdrasil is an Envoy control plane that configures listeners and clusters=
+ based off Kubernetes ingresses from multiple clusters. This allows you to=
+ have an envoy cluster acting as a mutli-cluster loadbalancer for Kubernet=
+es.
+
+https://github.com/uswitch/yggdrasil
+
+
+Being on-call sucks. But=2C DevOps teams are finding ways to collaborate m=
+ore and improve workflow visibility =E2=80=93 leading to more efficient in=
+cident detection=2C response and remediation. Learn exactly how you can st=
+art making on-call suck less:
+
+http://try.victorops.com/devopsweekly/making-on-call-suck-less-checklist
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

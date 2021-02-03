@@ -1,0 +1,154 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#397?=
+Date: Sun, 5 Aug 2018 10:43:55 +0000
+
+DEVOPS WEEKLY
+ISSUE #397 - 5th August 2018
+
+Architecture=2C new tools=2C operational exercises and tips for managing t=
+eams adopting devops practices.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Learn from failure to improve incident response. Start conducting post-inc=
+ident reviews for deeper analyses and start making future incident remedia=
+tion easier:
+
+http://try.victorops.com/devopsweekly/post-incident-review
+
+
+News
+=3D=3D=3D=3D
+
+A discussion of the pursuit of minimalism when building infrastructure sys=
+tems=2C looking at the development of Heroku over time with tips for retir=
+ing technology=2C avoiding newly released software=2C non-invented-here an=
+d more.
+
+https://brandur.org/minimalism
+
+
+The recent release of Knative for Kubernetes features a number of componen=
+ts=2C one of which=2C Knative Build=2C can be used to run container builds=
+ on your Kubernetes cluster.
+
+https://www.morethanseven.net/2018/07/29/knative-build-with-docker-buildki=
+t-img/
+
+
+How do you know how failures will affect your system? This post introduces=
+ the idea of a disaster recovery exercise and discusses the benefits for o=
+nboarding new people to on-call rotas.
+
+https://hackernoon.com/how-to-lead-a-disaster-recovery-exercise-for-your-o=
+n-call-team-37b29f5f77c0
+
+
+A look at different ops organisational structures in terms of incentives.=
+ I don=E2=80=99t agree with the terminology/definitions but the models and=
+ points are interesting.
+
+https://medium.com/@skirsch/dev-vs-ops-devops-and-sre-f160dc6180f9
+
+
+A collection of tips for managers looking to adopt devops practices into t=
+heir organisations and teams.
+
+https://enterprisersproject.com/article/2018/7/how-be-stronger-devops-lead=
+er-9-tips
+
+
+A quick look at using pre-commit hooks to check for issues with Terraform=
+ code before commiting changes.
+
+https://www.unixdaemon.net/tools/terraform-precommit-hooks/
+
+
+An interesting post on the role of Kubernetes as an operational data plane=
+=2C with CRDs as a critical piece. Some comparisons with previous attempts=
+ at the same thing with ESBs as a nice warning.
+
+https://medium.com/@allingeek/kubernetes-as-a-common-ops-data-plane-f8f2cf=
+40cd59
+
+
+IIS is a powerful web application server popular on Windows=2C which makes=
+ it important to monitor. This set of posts explain the basic moving parts=
+ and how to instrument and monitor them.
+
+https://www.datadoghq.com/blog/iis-metrics/
+https://www.datadoghq.com/blog/iis-monitoring-tools/
+
+
+A post on how to square strict conformance requirements like separation of=
+ duties and adopting automation and devops practices.
+
+https://blog.xebialabs.com/2018/07/24/separation-of-duties-how-to-conform-=
+in-a-devops-world/#.W1c3lY9Z7CI.twitter
+
+
+Jobs
+=3D=3D=3D=3D
+
+Engineering Manager=2C Operations and Infrastructure
+
+FreeAgent is one of the leading online accounting platforms=2C loved by ov=
+er 65=2C000 freelancers=2C small business owners and their accountants. Ou=
+r Operations and Infrastructure team is focused on the hosting=2C deployme=
+nt=2C service availability and scalability of the FreeAgent platform=2C im=
+plementing key architectural improvements=2C introducing Systems Reliabili=
+ty Engineering principles and anticipating and measuring scalability issue=
+s. You will lead a dedicated team of extremely smart and collaborative eng=
+ineers=2C ensuring they're well directed=2C motivated=2C productive and en=
+gaged in their work. This is a technical team leadership and people-manage=
+ment role.
+
+https://www.freeagent.com/company/careers/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+O'Reilly Velocity Conference | Build Systems That Drive Business
+
+Come to Velocity (September 30-October 3 in New York=2C NY) to learn the s=
+trategies and tools you need to make your systems fast=2C resilient=2C and=
+ secure. You'll hear from industry leaders like Jaana Burcu Dogan (Google)=
+=2C Alice Goldfuss (GitHub)=2C and Stephanie Hurlburt (Binomial)=2C who ca=
+n help you stay ahead of important trends in distributed systems=2C produc=
+tion engineering=2C software architecture=2C security=2C and more. Early P=
+rice ends August 17. Save up to $599 with code DOW20.
+
+https://oreil.ly/2z1aE4z
+
+
+Tools
+=3D=3D=3D=3D
+
+A handy tool for finding security issues in source code repositories=2C in=
+ particular secrets or security keys accidentally checked in.
+
+https://github.com/UKHomeOffice/repo-security-scanner
+
+
+Argo CD is a new continuous deployment tool for Kubernetes. It supports de=
+ploying with Ksonnnet=2C Helm charts or standard Kubernetes configuration=
+ and integrates with a source code repository for the source of truth.
+
+https://github.com/argoproj/argo-cd
+
+
+
+Learn from failure to improve incident response. Start conducting post-inc=
+ident reviews for deeper analyses and start making future incident remedia=
+tion easier:
+
+http://try.victorops.com/devopsweekly/post-incident-review
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

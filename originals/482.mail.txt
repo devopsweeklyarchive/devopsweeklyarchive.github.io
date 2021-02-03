@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#482?=
+Date: Sun, 22 Mar 2020 11:19:34 +0000
+
+DEVOPS WEEKLY
+ISSUE #482 - 22nd March 2020
+
+Odd sending a technical newsletter at times like these=2C but on balance i=
+t=E2=80=99s nice to have something to read and new tools to experiment wit=
+h. Several architecture posts this week=2C along with some interesting ser=
+verless content.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+With a surge of developers and IT practitioners working remotely=2C there=
+=E2=80=99s also a surge of confusion and operational inefficiency. See how=
+ data and automation is improving the way DevOps and IT operations enginee=
+rs build=2C release and maintain reliable services remotely:
+
+https://go.victorops.com/devopsweekly-data-and-automation-for-remote-teams
+
+
+News
+=3D=3D=3D=3D
+
+A detailed look at the Envoy proxy=2C focused on usage patterns rather tha=
+n technology. Interesting looking at the different use case=2C both low le=
+vel and integrated into higher-level service mesh tooling.
+
+https://mattklein123.dev/2020/03/15/on-the-state-of-envoy-proxy-control-pl=
+anes/
+
+
+An interesting post looking at using Kubernetes DaemonSets to help cluster=
+ administrators manage the cluster. Nice examples of provisioning SSH acce=
+ss to cluster nodes and running a virus scanning.
+
+https://starkandwayne.com/blog/managing-your-kubernetes-cluster-with-daemo=
+nsets/
+
+
+A discussion of abstractions and how that maps to serverless architectures=
+ and some thoughts on configuration management.
+
+https://blog.softwaremill.com/abstractions-and-serverless-3dfaccaf85b6
+
+
+A discussion of incident management practices=2C in particular looking at=
+ involving developers in incident response and on-call activities.
+
+https://www.infoq.com/news/2020/03/engineers-incident-management/
+
+
+Another post on architectural approaches to splitting up a large monolithi=
+c application=2C in particular looking at the strangler pattern and the im=
+portance of observability.
+
+https://particular.net/blog/break-that-big-ball-of-mud
+
+
+Analysis of a recent paper on analyzing characteristics of serverless usag=
+e=2C looking at the interesting optimisation where users want fast functio=
+n start times and the cloud provider wants to minimise resources consumed.
+
+https://blog.acolyer.org/2020/03/20/serverless-in-the-wild/
+
+
+A post on the importance of egress filtering of network traffic. ALthough=
+ this particular post talks about Serverless=2C this is relevant to any ar=
+chitecture or infrastructure I think.
+
+https://medium.com/swlh/egress-filtering-in-serverless-applications-25c295=
+3a7290
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Backstage is described as a platform for building developer portals. It ha=
+s an impressive vision=2C to become a standard toolbox for the open source=
+ infrastructure landscape.
+
+https://backstage.io/
+https://github.com/spotify/backstage
+
+
+Docker released a useful new GitHub Action which makes building and publis=
+hing Docker images easier. Some nice touches like automatic tagging and bu=
+ilding multiple tags.
+
+https://github.com/docker/build-push-action
+
+
+With a surge of developers and IT practitioners working remotely=2C there=
+=E2=80=99s also a surge of confusion and operational inefficiency. See how=
+ data and automation is improving the way DevOps and IT operations enginee=
+rs build=2C release and maintain reliable services remotely:
+
+https://go.victorops.com/devopsweekly-data-and-automation-for-remote-teams
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

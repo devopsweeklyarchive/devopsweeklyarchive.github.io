@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#499?=
+Date: Sun, 19 Jul 2020 08:36:09 +0000
+
+DEVOPS WEEKLY
+ISSUE #499 - 19th July 2020
+
+Learning from indecent response=2C cloud lift and shift=2C continuous deli=
+very design patterns and some good tips and discussion of operations this=
+ week.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Do you have an automated maintenance mode set up for your application and=
+ API? No matter how highly available your infrastructure might be=2C every=
+one should. Check out Omry's blog post on how to easily build one using te=
+rraform (including all the code!)
+
+https://www.env0.com/devops-maintnence-mode
+
+
+News
+=3D=3D=3D=3D
+
+The fundamental importance of learning from incidents in building resilien=
+t systems is often hard to fully understand when fighting to fix issues. T=
+his presentation neatly summarises a bunch of recent research.
+
+https://www.adaptivecapacitylabs.com/blog/2020/07/16/presentation-findings=
+-from-the-field/
+
+
+A good post on migrating to the cloud via a lift and shift strategy. When=
+ is this the best choice=2C and what do you need to do to make it work in=
+ the long term.
+
+https://info.acloud.guru/resources/the-lift-and-shift-shot-clock-cloud-mig=
+ration
+
+
+A presentation on the impact of uncertainty on operating systems. Elastici=
+ty=2C scalability=2C devops practices=2C playbooks; lots of good operation=
+s topics covered.
+
+https://www.scalefactory.com/events/webinars/2020/04/16/operating-under-un=
+certainty/
+
+
+What is SRE? This post discusses the evolution of SRE=2C the different com=
+ponent parts=2C popular team structures and how to get started.
+
+https://www.firehydrant.io/blog/what-is-sre/
+
+
+A tutorial on using Conftest and Open Policy Agent to test Dockerfiles for=
+ common security problems.
+
+https://blog.madhuakula.com/dockerfile-security-checks-using-opa-rego-poli=
+cies-with-conftest-32ab2316172f
+
+
+A set of patterns for designing continuous delivery pipelines. Configurati=
+on in code=2C separating build and release=2C the importance of audit trai=
+ls and more useful tips.
+
+https://www.singlestoneconsulting.com/blog/7-pipeline-design-patterns-for-=
+continuous-delivery/
+
+
+The question of whether you should directly call one Lambda function from=
+ another comes up regularly in Serverless architecture conversations. This=
+ post has some tips why this isn=E2=80=99t always a good idea and when to=
+ avoid.
+
+https://theburningmonk.com/2020/07/are-lambda-to-lambda-calls-really-so-ba=
+d/
+
+
+A discussion of the benefits of structured logging=2C with a good Python a=
+nd Elasticsearch example.
+
+https://medium.com/hiredscore-engineering/logging-lets-do-it-right-41d568d=
+3bfcd
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Terraform CDK allows for writing Terraform code using Python or Typescript=
+=2C rather than HCL.
+
+https://github.com/hashicorp/terraform-cdk
+
+
+If you=E2=80=99ve ever just wanted to make regularly running a shell scrip=
+t easier to do on Kubernetes then the shell operator is worth taking a loo=
+k at.
+
+https://github.com/flant/shell-operator
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

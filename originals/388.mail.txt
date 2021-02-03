@@ -1,0 +1,117 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#388?=
+Date: Sun, 3 Jun 2018 11:24:08 +0000
+
+DEVOPS WEEKLY
+ISSUE #388 - 3rd June 2018
+
+Several service management posts this week=2C as well as some useful advic=
+e on securing all those automation management tools we=E2=80=99re adopting=
+=2E Several good technical Windows posts as well.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Friends don=E2=80=99t let friends suffer from alert fatigue. Learn how to=
+ cut down alert noise=2C reduce anxiety=2C and start focusing on your acti=
+onable alerts.
+
+http://try.victorops.com/DevOpsWeekly/Alert-Fatigue
+
+
+News
+=3D=3D=3D=3D
+
+Excellent advice for securing management interfaces=2C covering end-user d=
+evices=2C keeping secure audit information and reducing exposure.
+
+https://www.ncsc.gov.uk/blog-post/protect-your-management-interfaces
+
+
+Many organisations have some level of support or service desk=2C but how o=
+ften is that group involved in the conversations around devops. This post=
+ contains several reasons why doing so is important.
+
+https://blog.sysaid.com/entry/devops-success-via-the-service-desk
+
+
+A post on the usefulness of deployment checklists=2C even with highly-auto=
+mated deployment processes.
+
+https://blog.gojekengineering.com/limiting-software-infant-mortality-rate-=
+decoding-gojek-deployment-checklist-1c6cc3e28df
+
+
+The field of IT operations is definitely growing=2C but studies on how and=
+ how much are limited. This survey focuses on understanding the demographi=
+cs=2C work environments=2C tools=2C and pay of practitioners in our field.
+
+https://www.oreilly.com/webops/2018-ops-survey.html
+
+
+The .NET Core framework has a set of Docker images useful for different as=
+pects of development. This post explains the various images and what they=
+ are used for.
+
+https://andrewlock.net/exploring-the-net-core-docker-files-dotnet-vs-aspne=
+tcore-vs-aspnetcore-build/
+
+
+A useful look at application logging in Kubernetes=2C looking at running l=
+ogging agents as daemonsets=2C collecting logs when they are not being sen=
+t to stdin/stdout and more.
+
+https://timber.io/blog/collecting-application-logs-on-kubernetes/
+
+
+SIAM=2C or Service Integration and Management=2C is a management approach=
+ for situations that includes services sourced from a number of service pr=
+oviders. This post acts as an introduction.
+
+https://servicemanagementasexperienced.blogspot.com/2018/05/service-integr=
+ation-and-management-siam.html
+
+
+A set of good tips for anyone hiring operations engineers and developers i=
+nto devops-minded organisations.
+
+https://www3.dbmaestro.com/blog/building-devops-greatness-part-2-hiring-de=
+vops-talent
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Velocity is just around the corner=2C happening June 11-14 in San Jose=2C=
+ CA! Join 2000+ systems engineers=2C software developers=2C and DevOps tea=
+ms for practical training in microservices=2C cloud migration=2C container=
+ orchestration=2C DevOps=2C performance=2C security=2C and much more. Chec=
+k out the full program to see how we can help you make your systems fast=
+=2C reliable=2C and secure. Passes start at $199. Register today and save=
+ 20% on your Gold=2C Silver=2C or Bronze pass using code DOW20!
+
+https://oreil.ly/2GZ2ysI
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A set of tools for working with Windows Event Forwarding=2C specifically i=
+ntended for centrally collecting logs for forensic analysis.
+
+https://github.com/palantir/windows-event-forwarding
+
+
+
+Friends don=E2=80=99t let friends suffer from alert fatigue. Learn how to=
+ cut down alert noise=2C reduce anxiety=2C and start focusing on your acti=
+onable alerts.
+
+http://try.victorops.com/DevOpsWeekly/Alert-Fatigue
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

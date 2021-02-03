@@ -1,0 +1,103 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#468?=
+Date: Sun, 22 Dec 2019 13:40:01 +0000
+
+DEVOPS WEEKLY
+ISSUE #468 - 15th December 2019
+
+Incident management=2C terraform code organisation=2C supply chain attacks=
+=2C debugging distributed systems and a range of other topics this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[You=E2=80=99re Invited] Learn how to modernize your approach to incident=
+ management and slash MTTA/MTTR in the latest webinar from VictorOps + Spl=
+unk=2C Thursday=2C December 19th:
+
+https://go.victorops.com/devopsweekly-modern-incident-management-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A post on the importance of learning from all the things you did right whe=
+n considering incident management.
+
+https://www.learningfromincidents.io/blog/oops-learning-from-the-incident-=
+you-didnt-have
+
+
+Usage of Terraform generally starts with a single repository=2C but over t=
+ime a monolithic code base can become inflexible. This post explores some=
+ alternatives and when they may be relevant.
+
+https://sysadvent.blogspot.com/2019/12/day-5-break-up-your-terraform-proje=
+ct.html
+
+
+A look at the evolution of Helm=2C the Kubernetes package manager. Discuss=
+ing the release of Helm 3 and making changes to widely adopted software pr=
+ojects.
+
+https://thenewstack.io/helm-3-is-almost-boring-and-thats-a-great-sign-of-m=
+aturity/
+
+
+Supply chain attacks=2C on shared package repositories=2C appear to be inc=
+reasing. A good post on a recent example in the Python ecosystem.
+
+https://medium.com/@dmrickert/software-libraries-are-terrifying-4875b6a74b=
+e6
+
+
+Cold start has been a problem for some serverless usecases. This post expl=
+ores the new provisioned concurrency feature in AWS=2C how it works=2C how=
+ you can monitor it and where teh edges are.
+
+https://lumigo.io/blog/provisioned-concurrency-the-end-of-cold-starts/
+
+
+With the growth of microservices we saw systems built from a range of lang=
+uages. As cloud native computing grows we=E2=80=99re seeing a similar poly=
+glot pattern=2C in particular with container and serviceless based service=
+s.
+
+https://medium.com/@mhausenblas/polyglot-cloud-native-compute-77f5fee69b00
+
+
+A useful recap of common mistakes when looking to adopt devops practices=
+=2C including focusing on a single devops team=2C adopting too many new to=
+ols too quickly and more.
+
+https://aster.cloud/2019/09/06/6-devops-mistakes-to-avoid/
+
+
+Debugging distributed systems still often comes down to looking at what=E2=
+=80=99s happening at the network layer. This post provides a quick introdu=
+ction to tools like dig=2C nc=2C netstat and more.
+
+https://blog.mimacom.com/6-effective-cli-tools-debug-distributed-systems/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Stacker is a new OCI image build tool supporting reproducible and unprivil=
+eged builds.
+
+https://github.com/anuvu/stacker/
+https://github.com/anuvu/stacker/blob/master/doc/tutorial.md
+
+
+[You=E2=80=99re Invited] Learn how to modernize your approach to incident=
+ management and slash MTTA/MTTR in the latest webinar from VictorOps + Spl=
+unk=2C Thursday=2C December 19th:
+
+https://go.victorops.com/devopsweekly-modern-incident-management-webinar
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

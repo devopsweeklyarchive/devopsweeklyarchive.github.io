@@ -1,0 +1,149 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#462?=
+Date: Sun,  3 Nov 2019 09:40:42 +0000
+
+DEVOPS WEEKLY
+ISSUE #462 - 3rd November 2019
+
+Lots of content on culture=2C automation and monitoring this week=2C inclu=
+ding presentation=2C podcasts=2C tools and blog posts.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Keeping your local repository in sync with an open-source GitHub repo can=
+ cause headaches. But=2C it can also lead to more flexible=2C resilient se=
+rvices. See how these techniques can help you maintain consistency between=
+ both environments:
+
+http://try.victorops.com/devopsweekly/keeping-local-and-github-repos-in-sy=
+nc
+
+
+News
+=3D=3D=3D=3D
+
+Culture is a word often used in devops conversations=2C but what do we mea=
+n? This post explores the area=2C discusses some of the traps and the bene=
+fits of being explicit.
+
+https://redmonk.com/kfitzpatrick/2019/10/30/the-culture-trap/
+
+
+I had a nice chat about testing infrastructure as code on the Full Stack J=
+ourney podcast recently. Covering the value of testing infrastructure and=
+ infrastructure code and discussing several generations of tools in the sp=
+ace.
+
+https://packetpushers.net/podcast/full-stack-journey-035-testing-and-valid=
+ation-for-infrastructure-as-code/
+
+
+The videos from the latest Monitorama conference have been posted=2C with=
+ topics covering dashboards=2C chaos engineerings=2C SLIs=2C alert design=
+ and more.
+
+https://vimeo.com/channels/1510248
+
+
+A quick introduction to Google Cloud Run and Cloud Build for building and=
+ running containerized applications with a serverless interface.
+
+https://bartfokker.com/posts/cloud-run/
+
+
+Knative arguably has a high barrier to entry=2C but offers several compone=
+nts that can be used individually to provide functionality to a Kubernetes=
+ cluster. This post looks at Knative Serving which provides some useful de=
+veloper-focused networking features.
+
+https://ahmet.im/blog/knative-better-kubernetes-networking/
+
+
+An intro to the ClusterAPI Kubernetes project. ClusterAPI provides resourc=
+es for provisioning new Kubernetes clusters across a growing number of inf=
+rastructure providers.
+
+https://medium.com/condenastengineering/clusterapi-a-guide-on-how-to-get-s=
+tarted-ff9a81262945
+
+
+One of the talks from Devopsdays Ghent last week=2C on the growth of devop=
+s and the devopsdays events=2C and some of the things we=E2=80=99ve learnt=
+ along the way.
+
+https://www.slideshare.net/bridgetkromhout/devops-distributed-devopsdays-g=
+hent-2019
+
+
+A look at using Open Policy Agent to build a fine-grained permissions syst=
+em=2C taking in a request as well as context from other data sources.
+
+https://blog.verygoodsecurity.com/posts/building-a-fine-grained-permission=
+s-system-in-a-distributed-environment/
+
+
+Step-by-step instructions for deploying the Traefik ingress controller=2C=
+ including the handy dashboard=2C on your Kubernetes cluster.
+
+https://phrenetic.se/deploy-traefik-as-ingress-controller/
+
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon + CloudNativeCon North America is coming up in San Diego from the=
+ 18th until the 21st of November. The schedule is packed with talks on the=
+ CNCF projects like Kubernetes=2C Envoy and Helm as well as case studies=
+=2C community meetings and more. The code KCNADOW19 will save DevOps Weekl=
+y readers 10% off the ticket price too.
+
+http://bit.ly/2ko9SrP
+
+
+The O'Reilly Velocity Conference heads to Berlin=2C 4=E2=80=937 November.=
+ Velocity is the best place on the planet for web ops and systems engineer=
+ing professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on cloud native infrastr=
+ucture=2C DevOps=2C Kubernetes=2C and more=2C there's something for everyo=
+ne. Passes start at =E2=82=AC676 when you use the code DEVW20 (applies to=
+ Gold=2C Silver=2C and Bronze passes). Register today!
+
+https://oreil.ly/99PIf
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Universal Package Manager is a high-level CLI tool that provides a consist=
+ent interface for installing packages for a variety of package managers=2C=
+ currently supporting Ruby=2C Python=2C Node and Dart.
+
+https://repl.it/site/blog/upm
+https://github.com/replit/upm
+
+
+OCIBuild is a CLI tool for building=2C pushing and pulling OCI compliant i=
+mages through a declarative specifications=2C it also acts as an abstracti=
+on over Buildah and Docker as the container build tool.
+
+http://rockthecode.io/blog/ocibuilder-an-easy-button-for-building-oci-cont=
+ainer-images/
+https://github.com/ocibuilder/ocibuilder
+
+
+
+Keeping your local repository in sync with an open-source GitHub repo can=
+ cause headaches. But=2C it can also lead to more flexible=2C resilient se=
+rvices. See how these techniques can help you maintain consistency between=
+ both environments:
+
+http://try.victorops.com/devopsweekly/keeping-local-and-github-repos-in-sy=
+nc
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

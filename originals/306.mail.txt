@@ -1,0 +1,172 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#306?=
+Date: Sun, 6 Nov 2016 11:51:43 +0000
+
+DEVOPS WEEKLY
+ISSUE #306 - 6th November 2016
+
+A mix of content this week covering individual tools=2C technical underpin=
+nings=2C more general practices and lots of interesting looking events com=
+ing up to attend or present at.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Downtime sucks. Learn how leading minds in tech respond to outages on the=
+ Nov. 16th =E2=80=9CAsk Me Anything=E2=80=9D from Catchpoint & O=E2=80=99R=
+eilly Media.
+
+http://try.victorops.com/AMA
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Transforming 6 Months Waterfall to 1 Hour Code Deploys [Webinar]
+
+On November 17th=2C Anita Engleder=2C DevOps Lead at Dynatrace=2C will pre=
+sent the challenges she and her team faced transforming 6 Months Waterfall=
+ to 1 Hour Code Deploys. Topics include: how to align key stakeholders and=
+ teams=2C the cultural and mindset shift all engineering teams had to make=
+ to achieve =E2=80=9CNoOps=E2=80=9D=2C and the criticality of having a con=
+tinuous feedback loop. Register today.
+
+http://ow.ly/MCBs305RKsM
+
+
+News
+=3D=3D=3D=3D
+
+A good look at the history of the remote procedure call pattern for buildi=
+ng distributed systems. Useful low-level context for anyone building moder=
+n applications.
+
+https://speakerdeck.com/caitiem20/a-brief-history-of-distributed-programmi=
+ng-rpc
+
+
+A good introduction to Consul for service discovery which goes on to discu=
+ss two years worth of best practices learned from running in production.
+
+https://stripe.com/blog/service-discovery-at-stripe
+
+
+A practice like continuous delivery is less a technical change and more a=
+ process and practice one=2C and as such you=E2=80=99ll likely benefit fro=
+m the tips in this slidedeck for selling continuous delivery to the rest o=
+f your organisation.
+
+
+https://speakerdeck.com/suziejprince/tips-for-selling-continuous-delivery-=
+to-your-business
+
+
+Talk about applying test driven development to infrastructure as code=2C w=
+ith Puppet=2C Docker=2C Test Kitchen and Serverspec. Interesting approach=
+ to mocking binaries.
+
+https://www.cedric-meury.ch/2016/10/test-driven-infrastructure-with-puppet=
+-docker-test-kitchen-and-serverspec-yury-tsarev-gooddata/
+http://www.slideshare.net/YuryTsarev/containercon-test-driven-infrastructu=
+re
+
+
+An in-depth look at deploying a multi-service application to Kubernetes=2C=
+ looking in particular at consumer driven contracts using Pact to ensure e=
+verything works as intended.
+
+https://medium.com/@enxebre/gitlab-consumer-driven-contracts-helm-and-kube=
+rnetes-b7235a60a1cb#.qvwn29mwl
+
+
+A useful developer-centric post on what a container actually is under the=
+ hood.
+
+https://glyph.twistedmatrix.com/2016/10/what-am-container.html
+
+
+Developing software for Windows likely means testing across more than one=
+ version of Windows. This post explains some best practices for building a=
+nd maintaining Windows virtual machine images using Packer.
+
+https://hodgkins.io/best-practices-with-packer-and-windows
+
+
+Systemd is now on most of the main Linux distributions so learning some of=
+ the supporting tools is a useful activity. This post covers coredumpctl=
+=2C bootctl=2C systemd-cgtop and a few other recent additions.
+
+https://www.linux.com/learn/5-systemd-tools-you-should-start-using-now
+
+
+An interesting post on how to setup a private maven repository on Amazon S=
+3. Discussed in the context of Android development but useful for anyone d=
+eveloping in Java or other JVM languages.
+
+http://ryanharter.com/blog/2015/06/18/hosting-a-private-maven-repo-on-amaz=
+on-s3/
+
+
+A recent addition to Puppet is the Puppet Query Language or PQL. This post=
+ explores some of the syntax=2C how to use it and where it might be useful=
+=2E
+
+https://www.devco.net/archives/2016/11/01/puppet-query-language.php
+
+
+Somewhat simplistic but still useful reminder to not place all of your EC2=
+ instances or other servers in a public subnet.
+
+https://thepassionatecraftsman.com/where-to-put-your-server-in-a-private-o=
+r-public-subnet-ab1fa971269c#.vbkz6n8ai
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Config Management Camp is back in Gent on February 6th and 7th next year=
+=2C as always it=E2=80=99s the days following FOSDEM. The CFP is open now=
+ and the organisers are seeking talks on all things automation and operati=
+ons.
+
+http://cfgmgmtcamp.eu/gent-2017/
+
+
+Monitorama has announced their next event taking place May 22nd to 24th 20=
+17 in Portland=2C OR. As usual you can expect a ton of fantastic talks abo=
+ut monitoring=2C alerting and related DevOps topics. This is a single-trac=
+k event that you won't want to miss. Devops Weekly readers can use the cod=
+e 'DEVOPSWEEKLY' through December 31st=2C 2016 for a $50 discount off Gene=
+ral Admission tickets.
+
+https://ti.to/monitorama/pdx2017/discount/DEVOPSWEEKLY
+
+
+CITCON brings together people from every corner of the software developmen=
+t industry to discuss Continuous Delivery. Everything from Test Driven Dev=
+elopment to Continuous Deployment=2C from code metrics to post-release mon=
+itoring. CITCON New York is coming up on the 9th and 10th of December and=
+ registration is open now.
+
+http://citconf.com/newyork2016/
+
+
+All Day Devops is an online event spanning 15 time zones=2C 15 hours and a=
+ whopping 54 sessions. All Day Devops is taking place on the 15th of Novem=
+ber and registration is free for all.
+
+http://www.alldaydevops.com/
+
+
+
+Downtime sucks. Learn how leading minds in tech respond to outages on the=
+ Nov. 16th =E2=80=9CAsk Me Anything=E2=80=9D from Catchpoint & O=E2=80=99R=
+eilly Media.
+
+http://try.victorops.com/AMA
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

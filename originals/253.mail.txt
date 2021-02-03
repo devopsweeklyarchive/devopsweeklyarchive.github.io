@@ -1,0 +1,140 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#253?=
+Date: Sun, 8 Nov 2015 10:42:40 +0000
+
+DEVOPS WEEKLY
+ISSUE #253 - 8th November 2015
+
+A small but hopefully well formed issue this week with content ranging fro=
+m the latest technology (unikernels=2C pester) to avoiding single points o=
+f failure in people. Also a reminder that you should definitely try and ma=
+ke Configuration Management Camp next year if you=E2=80=99re in Europe in=
+ February.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] 7 Performance Metrics to Release Better Software=2C Faster
+
+Get real-life examples of application failures and how to avoid them by us=
+ing 7 key metrics to find problems early on. Also=2C learn how stuff reall=
+y works in =E2=80=9Cthe life of a metric=E2=80=9D and how to integrate per=
+formance metrics into automation tools throughout your application deliver=
+y chain.
+
+http://ow.ly/U3BJ7
+
+
+News
+=3D=3D=3D=3D
+
+Excellent looking talk focusing on how single points of failure often emer=
+ge from the people administering a system more than the underlying infrast=
+ructure.
+
+http://www.slideshare.net/AlexandraRosenbaum/spof-single-person-of-failure
+
+
+I=E2=80=99ve featured several unikernel articles over the last year=2C but=
+ deploying them can still require some work. This post describes how to ge=
+t OSV up and running on Google Cloud Platform.
+
+https://medium.com/google-cloud/unikernel-on-google-compute-engine-part-1-=
+running-an-osv-unikernel-tomcat-server-45bd9816910
+
+
+A good example of using testing tools to verify production infrastructure.=
+ In this post the author uses the Pester testing framework for Powershell=
+ to verify DNS configuration.
+
+https://pshirwin.wordpress.com/2015/11/06/pester-script-to-test-dns-config=
+uration/
+
+
+A nice introduction to the chatops concept. I particularly like all the ex=
+amples - from deploying applications and building infrastructure to ideas=
+ for sales/marketing and support.
+
+http://www.jasonhand.com/chatops-the-new-interface-of-devops/
+
+
+It=E2=80=99s easier to track buzz than actual adoption for software=2C so=
+ the data about actual Docker adoption in this roundup is interesting. Sev=
+eral facts and figures (from a specific sample) about container lifetime=
+=2C containers per host=2C adoption rates and more.
+
+https://www.datadoghq.com/docker-adoption/
+
+
+A good rightup of failures which exhibit irreversible and cascading proper=
+ties=2C specifically looking at the recent dynamodb outage and nicely brea=
+king down the official postmortem.
+
+http://blog.scalyr.com/2015/09/irreversible-failures-lessons-from-the-dyna=
+modb-outage/
+
+
+An interesting deck which makes the point testing is bad for catching unkn=
+own unknowns=2C and that extending testing with production monitoring is o=
+ne approach to this problem.
+
+http://www.slideshare.net/LeonFayer1/production-testing-through-monitoring
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Configuration Management Camp is back on the 1st and 2nd of February in Ge=
+nt=2C in Belgium. The deadline for talk submissions is November 15th so ge=
+t your thinking caps on.
+
+http://cfgmgmtcamp.eu/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Inspec is a new infrastructure testing tool based on the rspec Ruby testin=
+g framework. It has some nifty ideas=2C from a solid separation of transpo=
+rt to simple custom resources and dedicated CLI tool.
+
+https://github.com/chef/inspec
+
+
+A handy tool for anyone using Redis in a clustered setup. Redis Cluster To=
+ol is a CLI app for checking the status of the cluster=2C rebalancing and=
+ getting and setting configuration data.
+
+https://github.com/deep011/redis-cluster-tool
+
+
+If you=E2=80=99ve ever wanted to use Ruby natively in your shell=2C instea=
+d of Bash=2C then Rush might be for you. Some nice examples and rationale.
+
+https://s-mage.github.io/2015/10/25/rush.html
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

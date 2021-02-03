@@ -1,0 +1,197 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#293?=
+Date: Sun, 7 Aug 2016 10:58:30 +0000
+
+DEVOPS WEEKLY
+ISSUE #293 - 7th August 2016
+
+As with most issues of the newsletter I=E2=80=99ve included a few links to=
+ new tools. I always appreciate it when along with the tool itself I find=
+ a blog post explaining the context. Why something was written and by whom=
+=2C and snapshot of the first release=2C is always of interest. If you rel=
+ease a new tool=2C remember to write a blog post too.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Downtime can be expensive. Download the Incident Management Buyer=E2=80=99=
+s Guide to learn what your DevOps team can do about it. Get your copy here=
+:
+
+http://bit.ly/2aoyLJ0
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+A Tale of Two Pipelines: To DevOps or Not to DevOps
+
+Join this webinar to see two pipelines in work environments where people a=
+re running around putting out fires=2C pointing fingers=2C siloed=2C and l=
+osing sleep vs. teams with highly optimized communications=2C well defined=
+ roles=2C and common understood goals. You=E2=80=99ll take away insights o=
+n key pipeline factors that plague traditional delivery pipelines=2C and m=
+ajor practices that have significant impacts when leveraging a DevOps cult=
+ure and Continuous Delivery Pipeline.
+
+http://ow.ly/a3Av302XEHK
+
+
+News
+=3D=3D=3D=3D
+
+
+The combination of BigQuery and the GitHub archive make for a fantastic re=
+search tool. This post uncovers how Docker is being used=2C by looking at=
+ Dockerfiles in nearly 300=2C000 GitHub projects.
+
+http://blog.javabien.net/2016/08/01/analysing-docker-projects-on-github-wi=
+th-bigquery/
+
+
+All of the videos from the recent Monitorama conference are now available.=
+ Combined with the previous events that=E2=80=99s 135 videos covering ever=
+ything you ever wanted to know about monitoring.
+
+https://vimeo.com/monitorama
+
+
+Devops conversations can sometimes focus on the barriers between developme=
+nt and operations=2C but sometimes forget other silos within those separat=
+e organisations. A good post about silos within the development org.
+
+http://techbeacon.com/app-dev-silos-are-devops-killers-start-tearing-them-=
+down
+
+
+When learning how to secure applications it=E2=80=99s useful to have an in=
+secure application with known vulnerabilities to learn from. Bad Dockerfil=
+e is a known insecure Dockerfile=2C useful for testing tools or learning m=
+ore about container image security.
+
+http://www.stindustries.net/docker/bad-dockerfile/
+
+
+An informative story for anyone exploring chaos engineering approaches to=
+ building resilient systems. EC2=2C Systemd=2C ECS and more services combi=
+ne to provide hard-to-simulate failures.
+
+https://medium.com/production-ready/a-little-story-about-amazon-ecs-system=
+d-and-chaos-monkey-8bc7d1b5778#.iv3uuesg4
+
+
+I=E2=80=99m also interested in academic research into various devops topic=
+s and happy to help when I can. This survey is aimed at investigating how=
+ applications should be designed to enable and better support continuous d=
+elivery practices.
+
+https://docs.google.com/forms/d/1UPn1ucLXXgp-OQttw4KizO4L_vFjKs-jhYp3sAiRW=
+IU/viewform
+
+
+A good post on why it=E2=80=99s crazy to be dismissive of existing applica=
+tions and existing infrastructure running an organisation when talking abo=
+ut moving to cloud services or more modern architectures.
+
+https://apprenda.com/blog/cloud-existing-x-dilemma/
+
+
+A good discussion of one of the tenets of mircoservices=2C that of being i=
+ndependently deployable.
+
+https://medium.com/built-to-adapt/on-orchestrated-microservices-5c8bd787ea=
+d4#.1zp3uj2oe
+
+
+A quick look at the current state of image signing for containers. Discuss=
+ion of different approaches=2C why signing is useful and what some of the=
+ tools are doing today.
+
+https://anchore.com/blog/signed-sealed-deployed/
+
+
+Message queues are powerful tools for various tasks=2C but using them well=
+ can be challenging. This post is a good introduction to publish/subscribe=
+ architectures and some of the challenges of real time data processing wit=
+h queues.
+
+https://blog.ably.io/message-queues-the-right-way-to-process-and-work-with=
+-realtime-data-on-your-servers-2d15985301f8#.8cydtmmeo
+
+
+A nice=2C step-by-step look at using Google Cloud to setup a Jenkins based=
+ pipeline used to deploy a simple web application to Kubernetes=2C running=
+ in GKE.
+
+https://medium.com/google-cloud/zero-to-continuous-delivery-with-google-cl=
+oud-platform-8e3bf1312fb5#.a6or4atmv
+
+
+A simple example of writing a chat bot for Slack to act as a deployment to=
+ol. The power covers some of the pros for deploying via chat=2C but I do w=
+hich it talked about some of the downsides and issues too.
+
+https://tech-blog.serenytics.com/deploy-your-saas-with-a-slack-bot-f6d1fc7=
+64658#.n2xawflez
+
+
+Jobs
+=3D=3D=3D=3D
+
+Is Chef more to you than a character on South Park? Find new DevOps opport=
+unities on Hired.
+
+http://hrd.cm/23r2ok5
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+
+Devopsdays Berlin is coming up later this year on November 16th and 17th.=
+ The organisers are on the lookout for sponsors and speakers=2C so get you=
+r submissions in before the 1st of September.
+
+http://www.devopsdays.org/events/2016-berlin/welcome/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Terraform is an increasingly common tool for describing cloud infrastructu=
+re in code=2C but using it in teams requires some sharing of state. Enter=
+ Terragrunt=2C an open source service you can run to support locking and s=
+haring state between users.
+
+https://blog.gruntwork.io/add-automatic-remote-state-locking-and-configura=
+tion-to-terraform-with-terragrunt-656a57565a4d#.ejrf45azt
+https://github.com/gruntwork-io/terragrunt
+
+
+An interesting approach to creating an Apt package repository on S3=2C usi=
+ng Lambda to build the package index automatically when you upload new pac=
+kages.
+
+http://webscale.plumbing/managing-apt-repos-in-s3-using-lambda
+https://github.com/szinck/s3apt
+
+
+Skopeo is a command line utility for various operations on container image=
+s and image repositories. The main feature is the ability to explore image=
+ and layer metadata without pulling the filesystem portion.
+
+https://github.com/projectatomic/skopeo
+
+
+
+Downtime can be expensive. Download the Incident Management Buyer=E2=80=99=
+s Guide to learn what your DevOps team can do about it. Get your copy here=
+:
+
+http://bit.ly/2aoyLJ0
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

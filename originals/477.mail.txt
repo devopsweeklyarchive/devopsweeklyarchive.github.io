@@ -1,0 +1,123 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#477?=
+Date: Sun, 16 Feb 2020 10:33:05 +0000
+
+DEVOPS WEEKLY
+ISSUE #477 - 16th February 2020
+
+Everything from how work works in organisations=2C when to adopt microserv=
+ices=2C scaling database migrations=2C several posts on Terraform best pra=
+ctices and more this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Host extraordinaire=2C Benton Rochester=2C talks with Gene Kim about DevOp=
+s and his excellent new book=2C The Unicorn Project. Don't miss this highl=
+y-anticipated episode of Ship Happens=2C the Splunk + VictorOps podcast:
+
+https://go.victorops.com/devopsweekly-ship-happens-with-gene-kim
+
+
+News
+=3D=3D=3D=3D
+
+A post on organisational friction=2C and getting things done where work cr=
+osses team and other boundaries. Lots of examples and a useful framing of=
+ this type of problem.
+
+https://noidea.dog/blog/surviving-the-organisational-side-quest
+
+
+Microservices are one architectural approach=2C rather than the answer to=
+ all systems problems=2C at least according to this post on the tradeoffs=
+ and design decisions of choosing to adopt microservices.
+
+https://www.oreilly.com/ideas/should-i-use-microservices
+
+
+An interesting discussion of the role of database migrations=2C looking at=
+ historical approaches and a new automated approach using GitHub Actions.
+
+https://github.blog/2020-02-14-automating-mysql-schema-migrations-with-git=
+hub-actions-and-more/
+
+
+Most things in Kubernetes go through the API Serverer. That makes the Kube=
+rnetes audit log=2C which records those requests=2C a powerful monitoring=
+ tool. This post explores what it contains and how you can use that data e=
+ffectively.
+
+https://www.datadoghq.com/blog/monitor-kubernetes-audit-logs/
+
+
+A fantastically comprehensive look at what=E2=80=99s new in the latest Sal=
+t release. Far more than just a list of features=2C the post puts new capa=
+bilities in context and shows lots of examples.
+
+https://salt.tips/whats-new-in-salt-neon/
+
+
+A nice migration story=2C moving a CI/CD pipeline from Jenkins to Concours=
+e. Observations about improvements and expectations as well as difficultie=
+s. The fly CLI tool looks nice.
+
+https://wgtwo.com/blog/replacing-jenkins-with-concourse/
+
+
+Infrastructure described with Terraform is still code=2C and applying prog=
+ramming techniques like refactoring to keep it maintainable is important.=
+ This post explains why and shows a few examples.
+
+https://blog.doit-intl.com/refactor-terraform-into-modules-the-right-way-7=
+bce4d57d66a
+
+
+Another post on writing maintainable Terraform code. Lots of examples and=
+ a seet of rules around modules=2C data=2C interpolation=2C state and more=
+=2E
+
+https://medium.com/capital-one-tech/terraform-poka-yokes-writing-effective=
+-scalable-dynamic-and-error-resistant-terraform-dcbd6a0ada6a
+
+
+This post nicely summarises why Go has made such an impact on infrastructu=
+re and cloud-based applications=2C outlining several of the advantages of=
+ the runtime and toolchain in particular.
+
+https://rakyll.org/go-cloud/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devops Days New York is coming up on March 3rd and 4th with the usual mix=
+ of talks=2C ignites and open spaces. Interesting topics like lifecycle ma=
+nagement=2C product management for operations teams=2C CI/CD pipeline spra=
+wl and more. TIckets are available now and you can get a 15% discount with=
+ the code =E2=80=9Cdevopsweekly=E2=80=9D.
+
+https://devopsdays.org/events/2020-new-york-city/registration
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Preflight is a tool for verifying a Kubernetes cluster is configured corre=
+ctly using an opinionated set of Open Policy Agent policies.
+
+https://github.com/jetstack/preflight
+
+
+
+Host extraordinaire=2C Benton Rochester=2C talks with Gene Kim about DevOp=
+s and his excellent new book=2C The Unicorn Project. Don't miss this highl=
+y-anticipated episode of Ship Happens=2C the Splunk + VictorOps podcast:
+
+https://go.victorops.com/devopsweekly-ship-happens-with-gene-kim
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

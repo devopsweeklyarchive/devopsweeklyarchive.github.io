@@ -1,0 +1,148 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#359?=
+Date: Sun, 12 Nov 2017 13:44:43 +0000
+
+DEVOPS WEEKLY
+ISSUE #359 - 12th November 2017
+
+A few hardware and networking posts this week=2C along with talk of cloud=
+=2C serverless and continuous delivery with containers. Also a special men=
+tion for SysAdvent. If you have an interesting idea for a post=2C especial=
+ly if you=E2=80=99re new to writing=2C then definitely sign up. Lookout fo=
+r many of the SysAdvent posts in the newsletter in December.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Attending AWS re:Invent 2017? Visit the VictorOps booth=2C schedule a meet=
+ing=2C or join us for some after hours fun. See you in Vegas!
+
+http://try.victorops.com/DevOpsWeekly/AWS
+
+
+News
+=3D=3D=3D=3D
+
+An excellent example-packed post on what it means to be serverless. This t=
+opic keeps cropping up and I find this the best explanation of the various=
+ aspects of the pattern.
+
+https://read.acloud.guru/the-serverless-spectrum-147b02cb2292
+
+
+SysAdvent=2C the yearly advent calendar of systems administration content=
+=2C is back and well worth writing for. The organisers are looking for aut=
+hors and editors=2C and in particular looking for new and underrepresented=
+ voices in our community. The CFP closes on the 15th of November.
+
+https://groups.google.com/forum/#!topic/sysadvent/sAfqURcl79k
+
+
+A great post looking ahead to the coming wave of ARM servers. Some great b=
+enchmarks and observations about power consumption.
+
+https://blog.cloudflare.com/arm-takes-wing/
+
+
+Root cause analysis is a common practice after outages=2C but how much do=
+ you learn from all the times the same thing didn=E2=80=99t cause an issue=
+? This post explores why our need for a narrative can lead to us missing i=
+mportant information.
+
+http://www.michaelnygard.com/blog/2017/11/root-cause-analysis-as-storytell=
+ing/
+
+
+A presentation all about adopting continuous delivery with containers=2C w=
+ith a focus on the Java ecosystem. Covers everything from local developmen=
+t environments through different stages of a build and test pipeline.
+
+https://www.slideshare.net/dbryant_uk/devoxx-2017-continuous-delivery-with=
+-containers-the-good-the-bad-and-the-ugly
+
+
+Lots of organisations are pushing responsibility for infrastructure out to=
+ multiple teams=2C but how do you then track down infrastructure using the=
+ wrong shared service? This post looks at an NTP migration in such a setup=
+=2E
+
+https://blog.newrelic.com/2017/11/06/infrastructure-ntp-migration/
+
+
+As sites hit a certain large scale external traffic routing becomes more o=
+f a challenge. This post explores transit and peering=2C BGP and GeoDNS.
+
+https://githubengineering.com/transit-and-peering-how-your-requests-reach-=
+github/
+
+
+This post makes the point that cloud migrations all too often focus on exi=
+sting operational metrics around cost savings=2C rather than the large agi=
+lity benefits to be had in such a migration.
+
+https://www.infoworld.com/article/3236159/cloud-computing/how-to-shift-clo=
+ud-metrics-to-measuring-agility.html
+
+
+A nice case study of applying some of the operational principles found in=
+ the SRE book to a different operations domain.
+
+https://daasnerds.com/making-marketing-infrastructure-robust-8a630f6389c2
+
+
+Lots of examples for getting started with the buildah OCI-compatible conta=
+iner build tool.
+
+https://www.projectatomic.io/blog/2017/11/getting-started-with-buildah/
+
+
+The Linux Foundation
+=3D=3D=3D=3D
+
+Free Webinar: How BI & Data Science Gets Results
+November 16=2C Online
+
+Statistical/data science models can now run on Hadoop in a much more cost-=
+effective manner than a few years ago. This results in fostering the conve=
+rgence of traditional BI and Data Science disciplines (machine learning=2C=
+ artificial intelligence... etc). Join the discussion with an incredible p=
+anel including ODPi=2C 4C Decision=2C ZEPL=2C and Pivotal=2C as we'll shar=
+e how this phenomenon is going to impact the Hadoop standard.
+
+https://goo.gl/DZyuuV
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists=2C December 6-8=2C in Austin for a broad range of te=
+chnical sessions on the cloud native ecosystem. We sold out in Berlin and=
+ are excited to see thousands of you from the community join us=2C this ti=
+me in Austin!
+
+http://goo.gl/wbdqve
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+I=E2=80=99ve seen (and build) a few integration testing setups for contain=
+er images=2C but DockerSpec aims to come with everything out-of-the-box. R=
+Spec helpers for testing Dockerfiles=2C image builds=2C running containers=
+=2C Compose and more.
+
+https://github.com/zuazo/dockerspec
+
+
+Attending AWS re:Invent 2017? Visit the VictorOps booth=2C schedule a meet=
+ing=2C or join us for some after hours fun. See you in Vegas!
+
+http://try.victorops.com/DevOpsWeekly/AWS
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

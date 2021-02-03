@@ -1,0 +1,123 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#432?=
+Date: Sun,  7 Apr 2019 10:51:16 +0000
+
+DEVOPS WEEKLY
+ISSUE #432 - 7th April 2019
+
+Monitoring=2C operational sympathy and a few Kubernetes posts this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[You=E2=80=99re Invited] Death to Downtime: How to Quantify and Mitigate=
+ the True Costs of Downtime. VictorOps and Catchpoint are teaming up for a=
+ live webinar on 5 monitoring and incident response best practices for pre=
+venting outages.
+
+http://try.victorops.com/devopsweekly/catchpoint-victorops-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A detailed walkthrough of what happens under the hood of Kubernetes when y=
+ou run a simple command against the high-level APIs.
+
+https://github.com/jamiehannaford/what-happens-when-k8s/blob/master/README=
+=2Emd
+
+
+Scale Summit is an interesting event focused on in-depth discussions on a=
+ variety of operations topics=2C all under chatham house rules. This post=
+ features notes from some of the sessions.
+
+https://medium.com/@AaronKalair/scale-summit-2019-77b6da67f953
+
+
+A detailed post exploring whether operational sympathy is a good thing=2C=
+ looking at lots of anti-patterns when it comes to instrumentation and obs=
+ervability.
+
+https://medium.com/@autoletics/is-operational-sympathy-a-good-thing-ad6ae2=
+d5f905
+
+
+Another post on monitoring=2C in this case how to work together between de=
+velopers and operators to build instrumentation into the applications.
+
+https://medium.com/@daryn_74143/why-do-engineers-not-care-about-applicatio=
+n-monitoring-d5fbae2fa8f2
+
+
+A look at monitoring Linux systems from the ground up=2C covering the Kern=
+el=2C auditd=2C kprobe events=2C eBPF and more.
+
+https://capsule8.com/blog/different-approaches-to-linux-monitoring/
+
+
+Monitoring EKS is a combination of monitoring Kubernetes and monitoring th=
+e underlying AWS infrastructure and platform. These posts cover how to col=
+lect metrics and what to monitor to catch issues.
+
+https://www.datadoghq.com/blog/eks-cluster-metrics/
+https://www.datadoghq.com/blog/collecting-eks-cluster-metrics/
+
+
+A slidedeck exploring Serverless computing=2C making the argument than fun=
+ction as a service is only a part of the architecture.
+
+https://speakerdeck.com/eoinsha/faas-is-the-least-important-thing-about-se=
+rverless
+
+
+A set of best practices for building secure Docker container images; from=
+ signing to metadata and keeping images small to managing secret informati=
+on.
+
+https://snyk.io/blog/10-docker-image-security-best-practices/
+
+
+A useful presentation introducing the Helm package manager for Kubernetes.
+
+https://speakerdeck.com/unguiculus/helm-the-better-way-to-deploy-on-kubern=
+etes?slide=3D18
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The O'Reilly Velocity Conference returns to San Jose=2C June 10=E2=80=9313=
+=2E Velocity is the best place on the planet for web ops and systems enginee=
+ring professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on DevOps=2C systems eng=
+ineering=2C performance=2C and more=2C there's something for everyone. Pas=
+ses start at $796 when you use the code DEVW20 (applies to Gold=2C Silver=
+=2C and Bronze passes). Limited offer expires May 4. Register today!
+
+https://oreil.ly/2Uf3u63
+
+
+Tools
+=3D=3D=3D=3D
+
+CUE is a new data constraint language which aims to simplify tasks involvi=
+ng defining and using data. It is a superset of JSON with simplified synta=
+x=2C built-in validation and features for reusing configuration.
+
+https://cue.googlesource.com/cue/
+
+
+[You=E2=80=99re Invited] Death to Downtime: How to Quantify and Mitigate=
+ the True Costs of Downtime. VictorOps and Catchpoint are teaming up for a=
+ live webinar on 5 monitoring and incident response best practices for pre=
+venting outages.
+
+http://try.victorops.com/devopsweekly/catchpoint-victorops-webinar
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

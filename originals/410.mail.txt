@@ -1,0 +1,148 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#410?=
+Date: Sun, 4 Nov 2018 11:54:31 +0000
+
+DEVOPS WEEKLY
+ISSUE #410 - 4th November 2018
+
+Several posts this week from Velocity in London=2C one of the best confere=
+nces I=E2=80=99ve been along to in a while. A great mix of technical conte=
+nt and talks on the social and people side of operations and software. Con=
+grats to all the organisers this year.
+
+
+>From our sponsor=2C Victorops
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+DevOps teams need to organize their incident response in order to work col=
+laboratively and build robust systems. Improve service reliability with in=
+cident commanders and centralized on-call scheduling=2C alert routing=2C a=
+nd team collaboration tools. Learn more:
+
+http://try.victorops.com/devopsweekly/incident-management-checklist
+
+
+News
+=3D=3D=3D=3D
+
+I spent a few days last week at Velocity in London=2C and saw lots of inte=
+resting talks. These two posts covers a large number of the sessions and k=
+eynotes=2C with detailed notes and shots of some of the slides.
+
+https://medium.com/@AaronKalair/velocity-conf-london-2018-thursday-talks-4=
+eef8ff4b89a
+https://medium.com/@AaronKalair/velocity-conf-london-2018-friday-talks-2ed=
+c85058f22
+
+
+A look at building and maintaining infrastructure by building and maintain=
+ing a large infrastructure as code codebase.
+
+https://www.slideshare.net/brikis98/lessons-learned-from-writing-over-3000=
+00-lines-of-infrastructure-code-120597849
+
+
+Another Velocity talk=2C this one from me=2C on advanced image build patte=
+rns with Docker. Looking beyond just features to ways of using multi-stage=
+ builds and other image tooling to create maintainable images.
+
+https://speakerdeck.com/garethr/advanced-docker-image-build-patterns
+
+
+gRPC is increasingly popular for inter-service communications=2C but a new=
+ technology comes with new error conditions. This post walks through inves=
+tigating a gRPC error=2C and has some recommendations for anyone adopting=
+ the technology.
+
+https://blog.hostedgraphite.com/2018/10/30/deadlines-lies-and-videotape-th=
+e-tale-of-a-grpc-bug/
+
+
+Another gRPC related post=2C this one looking at gRPC-web=2C which uses th=
+e Envoy proxy to convert requests from a client (say a web browser) into H=
+TTP/2 gRPC calls to the backend.
+
+https://blog.envoyproxy.io/envoy-and-grpc-web-a-fresh-new-alternative-to-r=
+est-6504ce7eb880
+
+
+A detailed walkthrough of a zero-downtime deployment strategy using Terraf=
+orm and Cloud Init on AWS
+
+https://checklyhq.com/blog/2018/08/an-in-depth-look-at-100-zero-downtime-d=
+eployments-with-terraform/
+
+
+A presentation (and slides) on operating Kafka at scale on top of Kubernet=
+es.
+
+https://speakerdeck.com/brouberol/scaling-and-operating-kafka-in-kubernete=
+s
+https://www.youtube.com/watch?v=3D7eEOzguzOg0
+
+
+Different types of workloads often benefit from different schedulers. But=
+ at scale efficiency and resource utilisation become a problem. This post=
+ explores a custom large-scale cluster scheduler and lays out some of the=
+ tradeoffs of different approaches.
+
+https://eng.uber.com/peloton/
+
+
+A suite of tools for Linux fleet management. These include resource contro=
+l=2C resource utilization=2C workload isolation=2C load balancing=2C measu=
+ring=2C monitoring
+
+https://code.fb.com/open-source/linux/
+https://opensource.fb.com/#linux
+
+
+A rundown of various Ingress solutions for Kubernetes. Lots of options her=
+e and this post looks at 9 current options.
+
+https://kubedex.com/nginx-ingress-vs-kong-vs-traefik-vs-haproxy-vs-voyager=
+-vs-contour-vs-ambassador/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Senior Devops Engineer=2C Remote Friendly
+Citrusbyte is working with Google to build a nation-wide DevOps team and h=
+as the ability to give a few individuals the opportunity to work remotely=
+ for Google. You will work on various DevOps projects internal to Google a=
+s well as deploy complex systems to GCP for Fortune 500 clients.
+
+https://citrusbyte.applytojob.com/apply/MWcY29iFEt?source=3DDevopsWeekly
+
+
+Tools
+=3D=3D=3D=3D
+
+Garden is a new development tool for local development of multi-service ap=
+plications. Re-build only the services that changed and deploy to a local=
+ Kubernetes cluster.
+
+https://garden.io/
+https://github.com/garden-io/garden
+
+
+An interesting combination of using OPA (Open Policy Agent) in the context=
+ of a Kubernetes admission controller. Create policies to ensure your Kube=
+rnetes cluster meets governance or legal rules.
+
+https://github.com/Azure/kubernetes-policy-controller
+
+
+
+DevOps teams need to organize their incident response in order to work col=
+laboratively and build robust systems. Improve service reliability with in=
+cident commanders and centralized on-call scheduling=2C alert routing=2C a=
+nd team collaboration tools. Learn more:
+
+http://try.victorops.com/devopsweekly/incident-management-checklist
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

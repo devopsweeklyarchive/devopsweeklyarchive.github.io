@@ -1,0 +1,155 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#352?=
+Date: Sun, 24 Sep 2017 09:33:46 +0000
+
+DEVOPS WEEKLY
+ISSUE #352 - 24th September 2017
+
+Lots of good content this week but a couple of posts on documenting micros=
+ervice based systems in particular stood out for me. I=E2=80=99d love to s=
+ee more examples of how people document systems for operators.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Like DevOps? Register for All Day DevOps - a FREE online conference this O=
+ctober=2C offering 100 DevOps-focused sessions across six different tracks=
+=2E Learn more & register:
+
+http://bit.ly/2wLKpbV
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Lessons learned while writing The DevOps Handbook
+
+In a recent webinar=2C Gene Kim=2C co-author of The Phoenix Project=2C sha=
+red the top insights he discovered while co-authoring The DevOps Handbook.=
+ Read about the DevOps best practices he shared. As a bonus=2C you'll also=
+ get lessons learned from Dynatrace's own DevOps transformation =E2=80=93=
+ 26 major releases per year and 170 production deployments.
+
+http://ow.ly/q22H30fm5Wh
+
+
+News
+=3D=3D=3D=3D
+
+A nice look under-the-hood of how one organisation implemented a tracing s=
+ystem for a microservices architecture. The discussion of the data schema=
+ is particularly interesting.
+
+http://www.ebaytechblog.com/2017/09/19/dissect-helps-engineers-visualize-a=
+nd-debug-distributed-applications/
+
+
+An excellent post on how you can go about documenting a microservices arch=
+itecture. Discussion of concepts as well as various documentation tools an=
+d approaches.
+
+https://blog.codeship.com/documenting-microservices/
+
+
+Another approach to documenting service based systems. This one using wire=
+shark to capture traffic=2C and then generating traffic flow diagrams base=
+d on that capture. The post contains a video demo=2C sample code and some=
+ example images.
+
+http://danlebrero.com/2017/04/06/documenting-your-architecture-wireshark-p=
+lantuml-and-a-repl/
+
+
+An interesting look at how one organisation is using Prometheus for monito=
+ring=2C metrics and alerting for a huge globally distributed network.
+
+https://drive.google.com/file/d/0BzRE_fwreoDQNzUybnRFOHpWZTA/view
+
+
+Having curated this newsletter for 6 years or so=2C I=E2=80=99m interested=
+ in how we collectively talk about the craft of operations. Observability=
+ is definitely a word seeing more usage recently=2C this post tries to exp=
+lain what and why.
+
+https://www.vividcortex.com/blog/monitoring-isnt-observability
+
+
+Security has become a topic of increasing interest in the devops community=
+ over the past several years. The state of open source security survey sho=
+uld therefore be worth filling in and waiting on the results.
+
+https://stateofossecurity.typeform.com/to/flJswT
+
+
+A good description and explanation of the importance of Flow to modern IT=
+ management.
+
+https://medium.com/@jonathansmart1/know-your-flow-a436eb7c8af
+
+
+Extensive notes from all the talks at the recent Devops Days London event=
+=2C with lots of references to other related content too.
+
+https://gist.github.com/philandstuff/ed45d2a0184597ab18ebc9d9bd988047
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists=2C December 6-8=2C in Austin for a broad range of te=
+chnical sessions on the cloud native ecosystem. We sold out in Berlin and=
+ are excited to see thousands of you from the community join us=2C this ti=
+me in Austin!
+
+http://goo.gl/wbdqve
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Chef Community Summit - Connect with the Chef Community and learn about ge=
+tting involved=2C contributing to=2C and learning from your peers. Topics=
+ include Chef=2C InSpec=2C Habitat=2C Open Source=2C DevOps=2C and more! S=
+ummits are being held in Seattle=2C New York=2C and London this October. C=
+heck the agenda and register:
+
+http://summit.chef.io
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Chart Museum is an open source Helm Chart repository=2C for anyone using t=
+he helm package manager with Kubernetes. It supports S3=2C Google Cloud St=
+orage backends and local storage=2C and the README contains details for ho=
+w to get up and running.
+
+https://github.com/chartmuseum/chartmuseum
+
+
+Ducktape is a framework for writing high-level system integration tests fo=
+r distributed systems=2C originally written to test Kafka.
+
+https://github.com/confluentinc/ducktape
+https://ducktape-docs.readthedocs.io/en/latest/
+
+
+Jaeger is an open source system for monitoring distributed systems=2C usin=
+g the OpenTracing API.
+
+https://github.com/jaegertracing/jaeger
+
+
+
+Like DevOps? Register for All Day DevOps - a FREE online conference this O=
+ctober=2C offering 100 DevOps-focused sessions across six different tracks=
+=2E Learn more & register:
+
+http://bit.ly/2wLKpbV
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

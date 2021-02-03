@@ -1,0 +1,109 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#376?=
+Date: Sun, 11 Mar 2018 10:42:42 +0000
+
+DEVOPS WEEKLY
+ISSUE #376 - 11th March 2018
+
+Lots of tools this week (for deployment=2C managing functions as a service=
+ and conducting an open source license audit)=2C as well as a mix of posts=
+ on canary deployments=2C web application firewalls=2C secrets management=
+ and more.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Take advantage of the intelligence and context in your incident management=
+ with Amazon CloudWatch and VictorOps.
+
+http://try.victorops.com/DevOpsWeekly/AmazonCloudWatch
+
+
+News
+=3D=3D=3D=3D
+
+A detailed post on using automated canarying to quicken development=2C imp=
+rove production safety and help prevent outages.
+
+https://queue.acm.org/detail.cfm?id=3D3194655
+
+
+Playbooks are always interesting=2C but generally not public. Which makes=
+ this Site Reliability Guide for mybinder.org worth mining for ideas - lot=
+s of details on deployment=2C accessing metrics=2C useful snippets and inc=
+ident reports.
+
+https://mybinder-sre.readthedocs.io/en/latest/
+
+
+A discussion of the problems with web application firewalls=2C and a look=
+ at runtime application self-protection.
+
+https://labs.signalsciences.com/three-ways-wafs-fail
+
+
+A post on secrets management=2C explaining some of the theory behind stand=
+ard approaches and providing a few examples.
+
+https://sanderknape.com/2018/03/secret-management-design-decisions-theory-=
+plus-an-example/
+
+
+A look at the various commands and options for reading logs from Docker co=
+ntainers=2C including streaming logs=2C time slicing and searching.
+
+https://hackernoon.com/to-boldly-log-debug-docker-apps-effectively-using-l=
+ogs-options-tail-and-grep-53d2e655abcb
+
+
+Pact is an interesting tool for implementing consumer-driven contract test=
+ing=2C a useful approach to integration testing. This post explores pact.j=
+s for testing Javascript applications=2C thought other Pact implementation=
+s exist.
+
+https://itnext.io/node-js-integration-testing-with-pact-js-1a2ea8aa3116
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Skaffold is a command line tool that facilitates continuous development fo=
+r Kubernetes applications. It allows you to iterate on your application so=
+urce code locally then deploy to local or remote Kubernetes clusters.
+
+https://github.com/GoogleCloudPlatform/skaffold
+
+
+Gloo is a new function gateway=2C built on top of the envoy proxy. It aims=
+ to allows users to compose gateway APIs from more granular components=2C=
+ i.e. the functions that compose services=2C rather than the services them=
+selves.
+
+https://gloo.solo.io/
+https://github.com/solo-io/gloo
+
+
+Flatcar Linuxis an immutable Linux distribution intended for containers. I=
+t=E2=80=99s a fork of CoreOS=E2=80=99s Container Linux.
+
+https://www.flatcar-linux.org/
+
+
+Licensed is a new tool to help with conducting an open source license audi=
+t=2C with initial support for Bower=2C Bundler=2C Cabal=2C Go and NPM.
+
+https://github.com/github/licensed
+
+
+
+Take advantage of the intelligence and context in your incident management=
+ with Amazon CloudWatch and VictorOps.
+
+http://try.victorops.com/DevOpsWeekly/AmazonCloudWatch
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,165 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#231?=
+Date: Sun, 7 Jun 2015 10:18:27 +0000
+
+DEVOPS WEEKLY
+ISSUE #231 - 7th June 2015
+
+Lots of good content this week on ITSM=2C security=2C containers=2C SSDs a=
+nd more. Interesting thinking back to the early issues of this newsletter=
+ more than 4 years ago - I=E2=80=99m not sure any of those topics featured=
+ prominently. A good indication of the still-growing interest in the devop=
+s movements.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+Sponsored Event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] 5 Key Metrics to Release Better Software Faster
+
+No matter how often you deploy - or how sophisticated your delivery pipeli=
+ne is - you need to measure the quality of your software. But what exactly=
+ should you measure? Learn the 5 key metrics that will increase your confi=
+dence in producing a safe build for production. Register now.
+
+http://ow.ly/MWycl
+
+
+News
+=3D=3D=3D=3D
+
+Two excellent posts for anyone interesting in enterprise IT or service man=
+agement frameworks like ITIL. The second post is a fantastic critique of I=
+TIL as it stands and a compelling call for change.
+
+http://www.bmc.com/blogs/how-to-unlock-enterprise-it-gridlock/
+http://www.bmc.com/blogs/itil-and-devops-lets-not-paper-over-the-differenc=
+es/
+
+
+The discussion about the place of culture in devops is a recurring one. Th=
+is excellent post drills down into what we generally mean by culture=2C an=
+d why it=E2=80=99s a critical component of the conversation. Point people=
+ here if they complain the use of the work culture is too vague.
+
+http://blog.ingineering.it/post/120540969759/why-devops-really-is-about-cu=
+lture
+
+
+A nice roundup of open source networking software=2C specifically providin=
+g details of quagga=2C exabgp and bird. Includes code examples and some in=
+teresting observations about the networking space.
+
+http://keepingitclassless.net/2015/05/open-source-routing-comparison/
+
+
+The talk I gave at Infosecurity Europe this week=2C aiming partly at what=
+ the security community can learn from the successes of devops. Talk of sh=
+aring and reusing tools and various ways of introducing security testing i=
+nto continuous delivery pipelines.
+
+https://speakerdeck.com/garethr/maintaining-control-by-letting-go-security=
+-and-devops
+
+
+Probably the most practice container security talk I=E2=80=99ve seen. Some=
+ excellent technical advice=2C plus a call to ask the right questions base=
+d on an actual threat model for your usecase and to build empathy between=
+ developers=2C operations and security teams.
+
+http://www.slideshare.net/JenAndre/docker-security-talk
+
+
+Another security link=2C this one an excellent talk from Devopsdays Austin=
+ about common security issues from an operations perspective.
+
+https://vimeo.com/129822165
+
+
+Periodic reminder that physical things are still important and sometimes c=
+ool. A good post looking at the state of SSDs and a call to action to coll=
+ect and share more data.
+
+https://laur.ie/blog/2015/06/ssds-a-gift-and-a-curse/
+
+
+I=E2=80=99m finding more and more content on the evolution of service mana=
+gement and related topics=2C often referencing devops. Some good ideas her=
+e about the need for different speeds of operation=2C and some of the thin=
+gs that influence that.
+
+http://www.itskeptic.org/content/considerations-multi-speed-it
+
+
+A nice example of using docker to test software across multiple versions=
+=2C in this case running unit tests for Puppet code.
+
+http://logicminds.github.io/blog/2015/05/28/leveraging-docker-for-puppet-d=
+evelopment/
+
+
+A nice list of things to concentrate on when trying to optimise a continuo=
+us delivery pipeline - specifically talking about branching=2C binary mana=
+gement=2C builds=2C automated testing and approaches to development.
+
+http://www.beautifulbuilds.com/blog/2015/5/30/bbbctc-branching-binaries-bu=
+ilds-coding-and-testing-culture
+
+
+A future of the Linux operating system talk from LinuxCon with a strong Do=
+cker flavour. An interesting way of thinking about the changes coming with=
+ containers.
+
+http://spf13.com/presentation/the-future-of-the-os-linuxcon-2015-keynote/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Opbeat and Cloud 66 are hosting an event in London next week=2C on June 11=
+th from 6PM to 9PM. 3 interesting looking talks=2C covering Docker=2C cont=
+inuous integration and =E2=80=9CYou shipped it=2C you fix it=E2=80=9D.
+
+http://www.eventbrite.com/e/devops-masterclass-london-with-cloud-66-and-op=
+beat-tickets-16986184134
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+I=E2=80=99m a big fan of sysdig as an all-in-one tracing tool. Csysdig is=
+ a new=2C interactive=2C command line user interface to sysdig. It support=
+s querying live data as well as looking through previously captured traces=
+=2E
+
+https://sysdig.com/announcing-csysdig-strace-htop-lua-container-support/
+
+
+A nifty tool for sending alerts (to HipChat=2C PagerDuty=2C email=2C Slack=
+=2C Influxdb) based on changes in Consul health checks.
+
+https://github.com/AcalephStorage/consul-alerts
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

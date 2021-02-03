@@ -1,0 +1,161 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#300?=
+Date: Sun, 25 Sep 2016 10:48:59 +0000
+
+DEVOPS WEEKLY
+ISSUE #300 - 25th September 2016
+
+Several posts this week on automation and engineering efforts with physica=
+l hardware=2C as well as posts on serverless=2C unikernels and containers.=
+ Generalising when it comes to technology in this space is dangerous=2C wh=
+ich makes it all the more impressive that the culture and organisation asp=
+ects of devops appear to be so generally applicable.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+[WEBINAR] The Do=E2=80=99s and Dont=E2=80=99s of Post-Incident Analysis.=
+ Join VictorOps and Datadog to get an inside look at  how to conduct moder=
+n post-incident analysis.
+
+Sign up now: http://bit.ly/2d0Ejyk
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Top Lessons Learned While Researching and Writing The DevOps Handbook
+
+Join The DevOps Handbook co-author Gene Kim as he shares first-hand insigh=
+ts and lessons learned during the five years required to create this essen=
+tial resource=2C including DevOps transformation case studies around conti=
+nuous integration and delivery. Register today!
+
+http://ow.ly/EXwE304sS1F
+
+
+News
+=3D=3D=3D=3D
+
+Windows 10 is an increasingly interesting development environment. One of=
+ the things I=E2=80=99ve been waiting for is the ability to run windows hy=
+per-v containers and linux containers side by side. Here=E2=80=99s how to=
+ do it.
+
+https://stefanscherer.github.io/run-linux-and-windows-containers-on-window=
+s-10/
+
+
+A good reminder that adopting devops means acting to improve the culture o=
+f your organisation=2C and some good tips for building bridges between for=
+mer silos.
+
+https://speakerdeck.com/kdaniels/building-bridges-with-devops
+
+
+Most talk of unikernels has been about theory=2C but these notes from a re=
+cent talk discuss getting them into production. Lots of talk of scaling=2C=
+ hosting=2C testing and general observations of an early adopter.
+
+http://icfp2016.mirage.io/CUFP/baby-steps-to-unikernels-in-pr.md
+
+
+An argument that end-to-end testing is mainly not worth the effort due to=
+ long lead times and maintenance costs=2C and a more balanced continuous t=
+esting approach is more useful.
+
+http://www.slideshare.net/agilestevesmith/endtoend-testing-considered-harm=
+ful
+
+
+As seen in the post above=2C the best way to test web application is still=
+ a matter of opinion. This survey is collecting some data surrounding appl=
+ication testing and I=E2=80=99d be interested in seeing the results.
+
+https://www.surveymonkey.com/r/X7MW3JL
+
+
+Some good practical tips for anyone getting started with writing incident=
+ postmortems focused on learning rather than blame.
+
+https://medium.com/production-ready/writing-your-first-postmortem-8053c678=
+b90f#.6v7rac3tk
+
+
+Physical infrastructure doesn=E2=80=99t have to mean a lack automation. A=
+ solid post on mosting to a fully automated provisioning system using CIMC=
+ and Foreman.
+
+https://engineering.linkedin.com/blog/2016/09/project-autobuild
+
+
+I attended the recent Operability conference in London and these two posts=
+ nicely summarise the various talks and provide lots of links to the slide=
+s.
+
+https://skeltonthatcher.com/blog/operability-io-2016-operations-is-crucial=
+/
+https://skeltonthatcher.com/blog/operability-io-2016-operations-still-rele=
+vant-day-1/
+
+
+An interesting post about rebuilding a common part of a web application st=
+ack at scale=2C in this case how GitHub rebuild their load balancer layer.=
+ Good explanation of the design goals.
+
+http://githubengineering.com/introducing-glb/
+
+
+In 1.12 Docker added the HEALTHCHECK instruction to the Dockerfile syntax.=
+ This post covers what it does and why=2C and shows how you can add health=
+checks to your images.
+
+https://blog.newrelic.com/2016/08/24/docker-health-check-instruction/
+
+
+A detailed slide deck looking at building better security monitoring into=
+ your applications. Looks at data collection=2C visualisation and analysis=
+ of the collected data.
+
+http://www.slideshare.net/jtmelton/building-selfdefending-applications-wit=
+h-owasp-appsensor-javaone-2016
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+LambCI is a CI and build system designed to run on AWS Lambda. This makes=
+ for some interesting properties=2C including potentially large cost savin=
+gs depending on your build profile.
+
+https://medium.com/@hichaelmart/lambci-4c3e29d6599b#.fhhti6fbs
+https://github.com/lambci/lambci
+
+
+Static site generators are nothing new=2C but Trestus is interesting as it=
+=E2=80=99s very domain specific. It aims to build status pages=2C for comm=
+unicating with users around outages=2C with the data coming from Trello. I=
+f you=E2=80=99re using Trello internally to manage an outage that could be=
+ a nice workflow.
+
+https://canonical-ols.github.io/trestus/
+
+
+SQLint is a simple SQL syntax checker=2C ideal for sanity checking SQL fil=
+es as part of a continuous integration workflow.
+
+https://github.com/purcell/sqlint
+
+
+
+[WEBINAR] The Do=E2=80=99s and Dont=E2=80=99s of Post-Incident Analysis.=
+ Join VictorOps and Datadog to get an inside look at  how to conduct moder=
+n post-incident analysis.
+
+Sign up now: http://bit.ly/2d0Ejyk
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

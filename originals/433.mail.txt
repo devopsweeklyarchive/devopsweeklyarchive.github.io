@@ -1,0 +1,138 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#433?=
+Date: Sun, 14 Apr 2019 09:36:40 +0000
+
+DEVOPS WEEKLY
+ISSUE #433 - 14th April 2019
+
+A discussion of a method for managing on-call=2C common challenges adoptin=
+g chaos engineering=2C advice for adopting new technology and practices an=
+d several good database posts amongst other good devops topics this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[You=E2=80=99re Invited] Death to Downtime: How to Quantify and Mitigate=
+ the True Costs of Downtime. VictorOps and Catchpoint are teaming up for a=
+ live webinar on 5 monitoring and incident response best practices for pre=
+venting outages.
+
+http://try.victorops.com/devopsweekly/catchpoint-victorops-webinar
+
+
+News
+=3D=3D=3D=3D
+
+Adopting new technologies or practices may give you an advantage=2C or tak=
+e you down the wrong path. How do you decide? This post has lots of good c=
+oncrete suggestions as well as context for the ever-moving landscape.
+
+https://medium.com/@kaimarkaru/quick-note-fomo-vs-legacy-tech-18a993e6948e
+
+
+A walkthrough of a presentation on chaos engineering traps=2C common issue=
+s that people adopting chaos engineering practices for the first time ofte=
+n run into. Lots of context and good advice.
+
+https://medium.com/@njones_18523/chaos-engineering-traps-e3486c526059
+
+
+CASE is a method for improving monitoring=2C in particular on-call handlin=
+g. It provides teams and organizations a way to discuss the care and feedi=
+ng of automated alerting with a degree of formal language and emphasis on=
+ what=E2=80=99s important.
+
+http://onemogin.com/monitoring/case-method-better-monitoring-for-humans.ht=
+ml
+
+
+A look at an interesting serverless pattern=2C removing the need for funct=
+ions to transform incoming data and moving that responsibility into the AP=
+I gateway. More examples of why FaaS is only part of the serverless approa=
+ch.
+
+https://www.stackery.io/blog/future-of-serverless/
+
+
+As the systems we build get more complex we change how we manage them. Mon=
+itoring (observability) and testing (chaos engineering) have seen lots of=
+ discussion but what about the rest of ITSM?
+
+https://medium.com/itrevolution/learning-from-devops-why-complex-systems-n=
+ecessitate-new-itsm-thinking-4a9aa5c14c18
+
+
+The next post provides a useful primer for designing scalable database sys=
+tems=2C looking at horizontal and vertical scaling=2C read replicas=2C sha=
+rding and application to microservices architectures.
+
+https://www.red-gate.com/simple-talk/cloud/cloud-data/designing-highly-sca=
+lable-database-architectures/
+
+
+Another good database post=2C this one covering implementing a load testin=
+g tool for a postgresql cluster. Good technical details for anyone interes=
+ted in postgres and a good debugging story too.
+
+https://blog.lawrencejones.dev/building-a-postgresql-load-tester/
+
+
+I=E2=80=99ve always considered the relationship between testing and operat=
+ions to be close. This post introduces logging=2C monitoring and alerting=
+ from the point of view of a tester=2C useful to convince folks who haven=
+=E2=80=99t made the leap yet.
+
+http://thethinkingtester.blogspot.com/2019/04/logging-monitoring-and-alert=
+ing.html
+
+
+Quick tips for anyone building Docker images using the multi-stage built p=
+attern=2C focused on making sure you=E2=80=99re taking advantage of the la=
+yer cache.
+
+https://pythonspeed.com/articles/faster-multi-stage-builds/
+
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The Open Source Datacenter conference (OSDC) is coming up in Berlin on the=
+ 14th and 15th of May with talks on log management=2C devops practices=2C=
+ provisioning=2C storage=2C securing database and more.
+
+https://osdc.de/
+
+
+Tools
+=3D=3D=3D=3D
+
+Popeye describes itself as a Kubernetes cluster sanitizer. It scans your c=
+luster looking for unused secrets=2C namespaces without any objects=2C ima=
+ges using the latest tag and a dozen other potential misconfigurations.
+
+https://github.com/derailed/popeye
+
+
+KubeCDN is a distribution of Terraform code and other configuration for st=
+anding up your own small content delivery network running on AWS using Kub=
+ernetes.
+
+https://github.com/ilhaan/kubeCDN
+https://blog.insightdatascience.com/how-to-build-your-own-cdn-with-kuberne=
+tes-5cab00d5c258
+
+
+
+You=E2=80=99re Invited] Death to Downtime: How to Quantify and Mitigate th=
+e True Costs of Downtime. VictorOps and Catchpoint are teaming up for a li=
+ve webinar on 5 monitoring and incident response best practices for preven=
+ting outages.
+
+http://try.victorops.com/devopsweekly/catchpoint-victorops-webinar
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

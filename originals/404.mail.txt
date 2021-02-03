@@ -1,0 +1,155 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#404?=
+Date: Sun, 23 Sep 2018 17:18:51 +0000
+
+DEVOPS WEEKLY
+ISSUE #404 - 23rd September 2018
+
+Kicking off with a few good social posts this week on sharing and on build=
+ing up secure software practices. Then on to several posts on tooling and=
+ technology around a software delivery pipeline. Plus lots more posts on o=
+ther devops topics.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The term DevOps carries a number of misconceptions among some teams. So=2C=
+ we took it upon ourselves to straighten out the myths and define the trul=
+y key philosophies of DevOps:
+
+http://try.victorops.com/devopsweekly/core-tenets-of-devops
+
+
+News
+=3D=3D=3D=3D
+
+A fantastic post on why writing secure software is hard=2C including lots=
+ of references to literature and a discussion of the sociology of writing=
+ secure software. What can we do in our teams and organisations to minimis=
+e the risks?
+
+https://www.ncsc.gov.uk/blog-post/leaky-pipe-secure-coding
+
+
+As this post points out=2C sharing is one of the tenets of devops=2C but i=
+t=E2=80=99s not something we often delve into the details of. This present=
+ation does just that=2C making several important points about building a s=
+ustainable sharing culture.
+
+https://glennsarti.github.io/presentation/sharing-whats-in-it-for-me-ndcsy=
+d
+https://speakerdeck.com/glennsarti/ndc-sydney-sharing-whats-in-it-for-me
+
+
+A short post with easily understandable examples of why and where microser=
+vices solve problems=2C and where they create them instead.
+
+http://blog.jenkster.com/2018/07/microservices-check-size.html
+
+
+This posts argues for a split between the design of your deployment pipeli=
+nes and the tool you happen to implement them in. Many CI problems are act=
+ually pipeline design problems.
+
+https://cintia.me/blog/post/ci-tool/
+
+
+A quick example-laden walkthrough of why and how to ensure your container=
+ images use non-root users.
+
+https://medium.com/lucjuggery/running-a-container-with-a-non-root-user-e35=
+830d1f42a
+
+
+A good walkthrough of using Atomist SDM to build and deploy a Spring appli=
+cation to Kubernetes.
+
+https://the-composition.com/deploy-your-spring-boot-application-to-kuberne=
+tes-in-3-mins-fdd37a212c6c
+
+
+An Azure-flavoured look at managed cloud services and developer experience=
+=2C in particular looking at Dev Spaces=2C CosmosDB=2C Azure Functions and=
+ more.
+
+https://n4stack.io/2018/09/19/azure-operations-as-a-service/
+
+
+A quick introduction to the new Linkerd 2.0 service mesh release and how i=
+t=E2=80=99s feature help with operating applications in production.
+
+https://hackernoon.com/linkerd-2-0-service-ops-for-you-and-me-281cc5bd6424
+
+
+A nice definitions piece looking at structured logging and events and the=
+ relationship between the two.
+
+https://www.honeycomb.io/blog/2018/06/how-are-structured-logs-different-fr=
+om-events/
+
+
+A post on the overlap and tension between traditional ITSM approaches and=
+ devops=2C and why the focus on culture is both important and should bind=
+ the two together (but often doesn=E2=80=99t.)
+
+https://www.thinkhdi.com/library/supportworld/2018/devops-itsm-why-are-we-=
+arguing.aspx
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+The Observability Practitioners Summit is taking place on December 10th in=
+ conjunction with KubeCon + CloudNativeCon North America. Interested in le=
+arning about monitoring and observability from the maintainers of OpenTrac=
+ing=2C Prometheus=2C Fluentd and Jaeger? Register now.
+
+http://bit.ly/2oLEylg
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DevOps at Open Source Summit Europe | October 22 - 24=2C 2018
+
+Open Source Summit Europe kicks off in Edinburgh=2C UK in less one month!=
+ Join your DevOps peers to network=2C collaborate and learn. Get a deep-di=
+ve on how to migrate legacy infrastructure=2C learn to integrate the lates=
+t tools=2C and discover best practices on how to efficiently manage enviro=
+nments. With 300+ sessions=2C tutorials=2C labs=2C workshops=2C and more=
+=2C this is THE premier European open source event of the year where you=
+=E2=80=99ll learn about cutting-edge advances. View the full schedule=2C a=
+nd save 15% with discount code OSSDEVOPS15.
+
+http://bit.ly/DevOpsOSS18
+
+
+Chocolatey Fest is coming up on the 8th of October in San Francisco. A con=
+ference focused on all things Windows automation with talks ranging from p=
+rovisioning=2C Windows containers=2C automated compliance and more.
+
+https://chocolateyfest.com/
+
+
+Tools
+=3D=3D=3D=3D
+
+Jervis aims to bring the user experience of configuring Travis CI jobs to=
+ Jenkins. If users prefer configuration in data vs in the Gradle DSL this=
+ can lower the barrier to entry for self-service pipelines.
+
+https://github.com/samrocketman/jervis
+
+
+
+The term DevOps carries a number of misconceptions among some teams. So=2C=
+ we took it upon ourselves to straighten out the myths and define the trul=
+y key philosophies of DevOps:
+
+http://try.victorops.com/devopsweekly/core-tenets-of-devops
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

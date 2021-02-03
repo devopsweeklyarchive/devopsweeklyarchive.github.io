@@ -1,0 +1,118 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#469?=
+Date: Sun, 22 Dec 2019 13:42:26 +0000
+
+DEVOPS WEEKLY
+ISSUE #469 - 22nd December 2019
+
+For all the folks starting holidays at this time of year=2C think of all o=
+f the systems administrators and others keeping the lights on. Here=E2=80=
+=99s hoping everyone has quite on-call shifts.
+
+For mysterious reasons issue #468 didn=E2=80=99t go out last Sunday as int=
+ended=2C so this weekend you should have a double issue to read.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Ever find yourself asking=2C =E2=80=9CHow do I write Ansible playbooks for=
+ new Terraform servers?=E2=80=9D Well=2C this new walkthrough from Splunk=
+ + VictorOps has your answer:
+
+https://go.victorops.com/devopsweekly-ansible-playbooks-with-terraform
+
+
+News
+=3D=3D=3D=3D
+
+Lots of good sysadvent posts this week=2C including on error budgets=2C ge=
+nerating Inspec from Terraform=2C and introduction to data management with=
+ IRODS and more.
+
+https://sysadvent.blogspot.com/2019/12/day-19-sre-practice-error-budgets.h=
+tml
+https://sysadvent.blogspot.com/2019/12/day-22-metadata-rich-rule-based-obj=
+ect.html
+https://sysadvent.blogspot.com/2019/12/day-18-generating-compliance-as-cod=
+e.html
+
+
+It=E2=80=99s easy to take API-driven infrastructure for granted if you don=
+=E2=80=99t know what=E2=80=99s going on under the hood. This post presents=
+ a nice story of trying to build a hardware based cloud-like experience.
+
+https://thebsdbox.co.uk/2019/12/08/The-alchemy-of-turning-bare-metal-into-=
+a-cloud/
+
+
+A good data migration story=2C in this case moving a data processing syste=
+m over to BigQuery and then backfilling billions of events worth of data.
+
+https://itnext.io/parsing-18-billion-lines-json-with-go-738be6ee5ed2
+
+
+Introducing new terms is always fun=2C and one of those that=E2=80=99s gar=
+nered lovers and haters this last year has been devsecops. This post jumps=
+ in and breaks down some of the what=2C why and what=E2=80=99s next.
+
+https://www.slideshare.net/littleidea/devsecops-the-end-of-the-beginning-a=
+ustin
+
+
+Scaling down is as important as scaling up=2C whether you=E2=80=99re think=
+ing about single node=2C edge or development use cases. This post looks at=
+ a new OpenFaaS provider for containerd which removes the need for an orch=
+estrator.
+
+https://blog.alexellis.io/faas-containerd-serverless-without-kubernetes/
+
+
+An interesting idea to support running commands on EC2 instances via Lambd=
+a functions rather than managing SSH jump boxes and the like.
+
+https://www.transposit.com/blog/2019.12.18-using-lambda-as-an-ssh-proxy/
+
+
+With the ever wider usage of YAML for authored configuration the pointy ed=
+ges of the spec are a common way of introducing bugs. A post on the proble=
+ms with implicit typing in YAML and what you should do about it.
+
+https://hitchdev.com/strictyaml/why/implicit-typing-removed/
+
+
+A handy checklist for running a service on Kubernetes. Covers everything f=
+rom on-call and other operational concerns to CI/CD=2C security and applic=
+ation configuration.
+
+https://srcco.de/posts/web-service-on-kubernetes-production-checklist-2019=
+=2Ehtml
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Ytt is a new templating engine for YAML with a few interesting properties.=
+ The templates themselves are valid YAML documents and the focus is on dat=
+a rather than text.
+
+https://github.com/k14s/ytt
+https://get-ytt.io/
+
+
+Kube-query is an extension for osquery which allows for querying the state=
+ of your Kubernetes cluster using osquery and SQL.
+
+https://github.com/aquasecurity/kube-query
+
+
+Ever find yourself asking=2C =E2=80=9CHow do I write Ansible playbooks for=
+ new Terraform servers?=E2=80=9D Well=2C this new walkthrough from Splunk=
+ + VictorOps has your answer:
+
+https://go.victorops.com/devopsweekly-ansible-playbooks-with-terraform
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

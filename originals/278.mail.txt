@@ -1,0 +1,151 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#278?=
+Date: Sun, 24 Apr 2016 11:00:25 +0000
+
+DEVOPS WEEKLY
+ISSUE #278 - 24th April 2016
+
+Devopsdays London this week was a great event=2C in many ways it felt like=
+ Devopsdays Enterprise. The audience of people from banks=2C financial ser=
+vices as well as the wider UK tech community really made it clear how wide=
+ the devops conversation is reaching.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Runbooks are essential to DevOps. Learn to maximize their value in the upc=
+oming Minimum Viable Runbooks webinar from VictorOps.
+
+http://try.victorops.com/MVR_Webinar
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+>From Monolith to MicroServices
+
+Learn how PrepSportswear transformed from a team operating a monolithic ap=
+p using waterfall development methodology on an old=2C hard to maintain co=
+de base=2C to a modern IT organization applying new practices from Agile d=
+evelopment=2C DevOps and a Service-Oriented Architectural approach.
+
+http://ow.ly/4mJXxt
+
+
+News
+=3D=3D=3D=3D
+
+My talk from Devopsdays London about microservices=2C adoption of platform=
+s and devops; at the coevolutionary processes that bind them together.
+
+https://speakerdeck.com/garethr/rate-of-change-microservices-and-platforms=
+-a-tale-of-devops-coevolution
+
+
+An excellent post on adopting HTTPS for a large public facing application.=
+ Lots of details about the involvement of different teams and suggestions=
+ for making the whole thing easier.
+
+https://blog.yell.com/2016/03/https-is-hard/
+
+
+The ideas behind bi-modal IT were hot topics at the recent Devopsdays Lond=
+on event=2C with some strong opinions that the model leads to all sorts of=
+ problems=2C including formalising silos. This talk summed up some of the=
+ issues.
+
+http://www.automationlogic.com/bimodal-it-and-other-snakeoil/
+
+
+A useful review of the recent SRE book. The review does focus on some nega=
+tive issues=2C which I think are important to discuss. A useful reminder o=
+f the importance of shared language=2C and silos that can emerge without i=
+t.
+
+http://blog.lusis.org/blog/2016/04/17/review-site-reliability-engineering/
+
+
+A discussion of the potential challenges ahead for standards and general a=
+greement around containers=2C in particular looking at the OCI work.
+
+https://thoughts.krishworld.com/can-oci-specs-protect-against-balkanizatio=
+n-of-containers-3f058fe01bfe#.qkvtrt27c
+
+
+If you=E2=80=99re using public cloud then making use of autoscaling groups=
+ is essential in my view. This post does a good job of explaining why and=
+ how.
+
+https://medium.com/@alexbmeng/auto-scale-everything-5c99a512db62#.pkdhluz9=
+2
+
+
+Interesting post on making real-time scaling decisions based on constant f=
+eedback from the running system. Useful comparison to other approaches=2C=
+ including simply using queues for transport.
+
+http://blog.microscaling.com/2016/04/microscaling-with-nsq-queue.html
+
+
+A great deal of the infrastructure software we use and rely on is open sou=
+rce=2C so I think it=E2=80=99s useful and important to discuss the models=
+ under which contributions are licensed. This post is a discussion around=
+ CLAs vs the newer Developer Certificate of Origin.
+
+https://julien.ponge.org/blog/developer-certificate-of-origin-versus-contr=
+ibutor-license-agreements/
+
+
+Another reason for being skeptical about the curl pipe bash approach to so=
+ftware installation. It=E2=80=99s possible to detect on the server side=2C=
+ and hence to serve different content.
+
+https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-sid=
+e/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Is Chef more to you than a character on South Park? Find new DevOps opport=
+unities on Hired.
+
+http://hrd.cm/23r2ok5
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Cloud Custodian is a rules engine for AWS resource management. Lots of use=
+ful features including compliance to security policies=2C tag policies=2C=
+ garbage collection of unused resources=2C and cost management via off-hou=
+rs resource management
+
+https://github.com/capitalone/cloud-custodian
+
+
+Debezium is an open source distributed platform for change data capture. V=
+ersion 0.1 currently only supports MySQL=2C but then allows for streaming=
+ all database interactions. The tutorial shows this in more details.
+
+http://debezium.io/
+
+
+Another MySQL tool=2C Shift is fully-featured tool for maintaining and run=
+ning schema migrations. The post explains the problem of scaling database=
+ management=2C and how Shift tries to help.
+
+https://corner.squareup.com/2016/04/shift.html
+https://github.com/square/shift
+
+
+Runbooks are essential to DevOps. Learn to maximize their value in the upc=
+oming Minimum Viable Runbooks webinar from VictorOps.
+
+http://try.victorops.com/MVR_Webinar
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

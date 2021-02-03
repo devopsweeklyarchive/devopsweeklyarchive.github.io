@@ -1,0 +1,112 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#487?=
+Date: Sun, 26 Apr 2020 09:16:59 +0000
+
+DEVOPS WEEKLY
+ISSUE #487 - 26th April 2020
+
+A broad range of ops topics this week=2C from the new (chaos engineering=
+=2C cloud cost management) to the old (security=2C database operations=2C=
+ branch strategies).
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Our people and tools need to be connected now more than ever before. That=
+=E2=80=99s why VictorOps is offering free=2C 90-day extended Enterprise tr=
+ials for on-call incident response and alert management=2C up to 100 users=
+=2C to anyone who needs it:
+
+https://go.victorops.com/devopsweekly-extended-trials-for-incident-respons=
+e
+
+
+News
+=3D=3D=3D=3D
+
+A detailed write up from the recent Failover Conf on all things chaos engi=
+neering. Lots of notes and links to related content.
+
+https://www.firehydrant.io/blog/failover-conf-wrapup/
+
+
+A good post for any software developers needing to operate databases=2C in=
+ this case PostgreSQL. Covers tracing=2C query profiling=2C slow query log=
+s and more.
+
+https://medium.com/scopedev/introduction-to-profiling-and-optimizing-sql-q=
+ueries-for-software-engineers-3cf376ecc712
+
+
+A look at applying feature branches to infrastructure=2C automatically pro=
+visioning new Terraform workspaces for testing distinct changes.
+
+https://medium.com/env0/from-feature-branches-to-feature-environments-with=
+-terraform-652c0fdf0e78
+
+
+Related to the above post=2C this article covers patterns for using source=
+ control branches effectively.
+
+https://martinfowler.com/articles/branching-patterns.html
+
+
+A tutorial on managing exceptions in policy=2C using Open Policy Agent and=
+ Conftest. Looking at testing different types of Dockerfiles.
+
+https://menendezjaume.com/post/policy-as-code-exceptions-lists/
+
+
+An excellent recorded conversation=2C and transcript=2C on securing softwa=
+re. Covering the challenge of increasing complexity=2C the cost of vulnera=
+bilities and lots more.
+
+https://trendtalks.fyi/cloud/2020/the-security-of-software/
+
+
+A writeup of the new cf-for-k8s project=2C which provides a way to run Clo=
+ud Foundry on top of Kubernetes.
+
+https://starkandwayne.com/blog/deploy-cf-for-k8s-to-google-in-10-minutes/
+
+
+A look under the hood of Docker images=2C exploring the underlying overlay=
+ filesystem and the OCI specification.
+
+https://dev.to/napicella/how-are-docker-images-built-a-look-into-the-linux=
+-overlay-file-systems-and-the-oci-specification-175n
+
+
+A set of tips for managing your cloud bills=2C looking at optimising appli=
+cations=2C understanding your invoices=2C precommits and other ways to cut=
+ costs.
+
+https://www.cloudops.com/2020/04/8-ways-to-cut-cloud-consumption-costs/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Paketo is a new project=2C providing a set of curated=2C high quality=2C c=
+loud native buildpacks for common languages and frameworks. Use with pack=
+ or other tools to build container images quickly with minimal configurati=
+on.
+
+https://medium.com/paketo-buildpacks/building-apps-for-kubernetes-get-to-k=
+now-paketo-buildpacks-6dc29b0f3cf3
+https://paketo.io/
+
+
+Our people and tools need to be connected now more than ever before. That=
+=E2=80=99s why VictorOps is offering free=2C 90-day extended Enterprise tr=
+ials for on-call incident response and alert management=2C up to 100 users=
+=2C to anyone who needs it:
+
+https://go.victorops.com/devopsweekly-extended-trials-for-incident-respons=
+e
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,167 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#270?=
+Date: Sun, 28 Feb 2016 18:04:15 +0000
+
+DEVOPS WEEKLY
+ISSUE #270 - 28th February 2016
+
+>From chatops to unikernels and from getting started with application deplo=
+yment to failure and human factors. Hopefully something for everyone this=
+ issue.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+7 Practices to Expand Performance and Effective Collaboration in DevOps
+
+In DevOps=2C the product is only as good as the teamwork behind it. In thi=
+s webcast Mark Tomlinson=2C performance engineering veteran and founder of=
+ the popular PerfBytes podcast=2C shares 7 practices to help you expand pe=
+rformance and effective collaboration into your DevOps team.
+
+http://ow.ly/U3JH4
+
+
+News
+=3D=3D=3D=3D
+
+The concept of chatops has been around for a while=2C but implementing it=
+ can involve building=2C maintaining and integrating a lot of code. Enter=
+ cog=2C which though early features some nifty ideas like command pipelini=
+ng.
+
+https://blog.operable.io/introducing-cog-8a682e42a25a#.4p6ojg9ia
+https://github.com/operable/cog
+
+
+Docker as a universal packaging format is interesting=2C but you still nee=
+d to be able to call the software in the container from other software. Th=
+is post shows one way of going just that from Python.
+
+http://blog.deepgram.com/import-a-docker-container-in-python/
+
+
+A good exploration of the pros and cons of the single address space as see=
+n in unikernel systems. A good primer on why this is a design choice with=
+ some advantages=2C rather than something that=E2=80=99s a side effect or=
+ an afterthought.
+
+https://matildah.github.io/posts/2016-01-30-unikernel-security.html
+
+
+A detailed side-by-side comparison of Chef and Ansible. Covers basic diffe=
+rences and differences in language=2C along with lots of examples.
+
+http://tjheeta.github.io/2015/04/15/ansible-vs-chef/
+
+
+A nice deck making it clear that it=E2=80=99s completely possible to use c=
+ontinuous delivery practices in a WIndows environment. Includes several ex=
+amples as well as recommendations.
+
+https://speakerdeck.com/chrisann/cd-making-it-work-with-windows-and-net
+
+
+A great talk video focused on introducing more automated deployment workfl=
+ows to web developers currently still using FTP to upload files.
+
+https://rachelandrew.co.uk/presentations/deploy
+
+
+Failure=2C and in particular how human/computer systems fail=2C is a recur=
+ring theme in devops-minded conversations. This post explores so-called ze=
+ro harm and never events=2C and tries to explain why avoidance of accident=
+s can=E2=80=99t be the only strategy.
+
+http://humanisticsystems.com/2016/02/27/neverzero-thinking/
+
+
+A thoughtful post making the claim that distribution packaging as it stand=
+s is a broken model. Focuses on the potential for the gap between upstream=
+ developer and packager to lead to missed security updates or diverging=2C=
+ hard to manage=2C codebases.
+
+https://statuscode.ch/2016/02/distribution-packages-considered-insecure/
+
+
+A useful review of the paper IncludeOS: A minimal=2C resource efficient un=
+ikernel for cloud systems. IncludeOS is a new C++ based unikernel base wit=
+h some interesting ideas.
+
+http://blog.acolyer.org/2016/02/22/includeos/
+
+
+A second post in this series on chaos engineering=2C focusing on the shift=
+ in mindset required and the non-technical parts of selling the idea of in=
+troducing failure to your team and organisation.
+
+https://medium.com/production-ready/chaos-engineering-a-shift-in-mindset-d=
+8fbfc8c5dc2#.vkebld9ad
+
+
+A nice set of examples of separating code from data in the context of infr=
+astructure automation. In this case with examples from Salt=2C Ansible and=
+ Puppet.
+
+http://open.bekk.no/infrastructure-as-data
+
+
+A technical post looking into the details of how to run an elasticsearch c=
+luster at scale=2C in this case ingesting around 25k events per second.
+
+http://engineering.viki.com/blog/2015/log-processing-at-scale-elk-cluster-=
+at-25k-events-per-second/
+
+
+A quick ode to log files=2C and in what situations just looking at the log=
+s can be the simplest solution to finding a particular problem=2C over mor=
+e complex tracing tools.
+
+http://jvns.ca/blog/2016/02/12/why-i-love-log-files/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Austin is back with the next event on the 2nd and 3rd of May. T=
+here are a handful of tickets left and the CFP is open until the 25th of M=
+arch.
+
+http://www.devopsdaysaustin.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+DbDat is a tool for checking the security of your database=2C in particula=
+r working out which CVEs the database in question may be affected by. It h=
+as support for scanning everything from Postgres to Oracle and DB2 to Mong=
+o.
+
+https://github.com/foospidy/DbDat
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

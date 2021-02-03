@@ -1,0 +1,106 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#524?=
+Date: Sun, 10 Jan 2021 10:02:26 +0000
+
+DEVOPS WEEKLY
+ISSUE #524 - 10th January 2021
+
+Several posts on the cost of maintenance and change as software teams grow=
+=2E Plus engineering management=2C sketch notes for learning GCP=2C alert fa=
+tigue and more.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D
+
+Big News Alert! Introducing remote-run support for Terragrunt workflows=2C=
+ now available in env0!
+
+https://www.env0.com/blog/terragrunt-release
+
+About env0: use Infrastructure as Code to let your team manage their own e=
+nvironments across clouds. Governed by your policies and with complete vis=
+ibility & cost management.
+
+
+News
+=3D=3D=3D=3D
+
+A post on different sources of on-going maintenance=2C and some discussion=
+ of ways to improve the situation.
+
+https://jamesabley.com/software-is-drowning-the-world/
+
+
+As development teams grow=2C change becomes harder. This post looks at an=
+ approach for addressing high impact changes that are spread out across te=
+ams=2C and how to get buy in.
+
+https://kellysutton.com/2021/01/06/campaigns.html
+
+
+Discussion of the evolution of frameworks in software development=2C in pa=
+rticular looking at how AWS itself can be considered a framework=2C provid=
+ing primitives for logging=2C events=2C scaling=2C monitoring and more.
+
+https://medium.com/galvanize/aws-as-a-framework-9abd2b1f6dc1
+
+
+FOSDEM is going virtual this year on the 6th and 7th February=2C and lots=
+ of the devrooms have announced sessions. I=E2=80=99m particularly looking=
+ forward to the software composition devroom.
+
+https://fosdem.org/2021/schedule/tracks/
+https://fosdem.org/2021/schedule/track/software_composition/
+
+
+Lots of organisations will have a bunch of Perl code busily servicing crit=
+ical needs. The Perl Foundation is looking for input on what they can do t=
+o better support the community.
+
+https://news.perlfoundation.org/post/newperluserssurvey
+
+
+A walkthrough of setting up a build and deployment pipeline for AWS ECS us=
+ing Terraform=2C Terragrunt and GitHub Actions.
+
+https://camillovisini.com/article/terragrunt-github-actions-aws-ecs/
+
+
+A great resource for learning Google Cloud Platform=2C this repo contains=
+ comprehensive sketchnotes covering all of the main GCP services.
+
+https://github.com/priyankavergadia/GCPSketchnote
+
+
+A good reading list for anyone moving into more management roles in softwa=
+re.
+
+https://caitiem.com/2020/12/28/recommended-engineering-management-books/
+
+
+A how to for setting up Kubernetes to use AWS EC2 spot instances to reduce=
+ cost and maintain a zero-downtime cluster as instances come and go.
+
+https://medium.com/riskified-technology/run-kubernetes-on-aws-ec2-spot-ins=
+tances-with-zero-downtime-f7327a95dea
+
+
+Events
+=3D=3D=3D=3D=3D=3D=3D
+
+3 a.m. wake ups are for heart surgeons=2C newborn parents=E2=80=A6 and SRE=
+s. Sarah Wells from the Financial Times is on a mission with Jamie Dobson=
+=2C CEO of Container Solutions to keep good night rests sacred. Join them=
+ in the latest WTFinar=2C on Alert Fatigue and how to manage it. Sign up h=
+ere:
+
+https://bit.ly/35lITkT
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

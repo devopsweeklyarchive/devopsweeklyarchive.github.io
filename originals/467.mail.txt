@@ -1,0 +1,134 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#467?=
+Date: Sun,  8 Dec 2019 11:04:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #467 - 8th December 2019
+
+Monitoring tool comparisons=2C more semantic API content=2C cloud account=
+ management with code=2C testing infrastructure configuration and some obs=
+ervations from KubeCon this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+>From everyone at VictorOps=2C we wanted to wish you a happy holiday season=
+ and give thanks for this DevOps community. So=2C we put together this fun=
+ post to highlight the highs and lows of being on-call during the holidays=
+=2E
+
+https://go.victorops.com/devopsweekly-on-call-holidays
+
+
+News
+=3D=3D=3D=3D
+
+A detailed post on the differences between a Graphite-based monitoring sta=
+ck and Prometheus.
+
+https://engineering.nanit.com/from-graphite-to-prometheus-things-ive-learn=
+ed-e1d1e4b97fc
+
+
+A look at one approach to managing lots of AWS accounts using Terraform=2C=
+ with a few areas identified for improvement too.
+
+https://medium.com/faun/how-i-manage-my-aws-accounts-with-terraform-f52c63=
+dd2aa
+
+
+Tekton Pipelines is a project building primitives for build systems runnin=
+g on Kubernetes. It now has support for triggers=2C allowing it to react t=
+o events like the opening of a pull request. This post is a good introduct=
+ion to the concepts.
+
+https://medium.com/@dlorenc/tekton-triggers-3aba132c6344
+
+
+A quick introduction to JSON-LD=2C a method for adding more semantic meani=
+ng to JSON data particularly useful in APIs.
+
+https://blog.jonm.dev/posts/intro-json-ld/
+
+
+A presentation (slides and video) on automated testing of infrastructure c=
+overing unit tests=2C integration tests=2C end-to-end tests=2C dependency=
+ injection=2C test parallelism=2C retries and error handling=2C static ana=
+lysis and more.
+
+https://www.infoq.com/presentations/automated-testing-terraform-docker-pac=
+ker/
+
+
+Three very different trip reports for Kubernetes. Talking about how the co=
+mmunity has evolved=2C themes from the recent event like multi-cluster and=
+ a shift to users from contributors and some problems to fix.
+
+https://blog.aptimia.com/2019/12/06/kubecon-2019-observations/
+https://blog.rafay.co/we-live-in-a-multi-cluster-world
+https://chrisshort.net/kubecon-north-america-2019-trip-report/
+
+
+Sidecars are a common pattern for adding functionality to applications (in=
+ Kubernetes and some other systems) without modifying the application itse=
+lf. This post looks at how they are injected in Kubernetes.
+
+https://medium.com/dowjones/how-did-that-sidecar-get-there-4dcd73f1a0a4
+
+
+There are a number of tools to help with running Kubernetes locally for de=
+velopment purposes. This post reviews most of the popular options.
+
+https://itnext.io/run-kubernetes-on-your-machine-7ee463af21a2
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+We.Are.Expensify.com
+
+Join our passionate team of top-notch engineers to solve a real-world prob=
+lem=2C and help people spend less time managing expenses and more time pur=
+suing their real goals. As we revolutionize the way people manage their ex=
+penses=2C being part of the Expensify team means building the easiest=2C f=
+astest=2C and most efficient platform to automate everything expense-relat=
+ed. With a healthy mix of cloud and owned racks=2C you=E2=80=99d work hand=
+-in-hand in our engineering org on a profitable=2C well-loved product with=
+ a focus on improving scaling and security. Join the adventure at:
+
+https://we.are.expensify.com/jobs
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Nebula is described as a scalable overlay networking tool with a focus on=
+ performance=2C simplicity and security. It=E2=80=99s intended to help sec=
+urely connect tens of thousands of computers=2C hosted at multiple cloud s=
+ervice providers in dozens of locations around the globe.
+
+https://slack.engineering/introducing-nebula-the-open-source-global-overla=
+y-network-from-slack-884110a5579
+https://github.com/slackhq/nebula
+
+
+Finals is a new tool to help identify wasteful AWS resources and try and h=
+elp cut unwanted expenses.
+
+
+https://github.com/similarweb/finala
+
+
+
+>From everyone at VictorOps=2C we wanted to wish you a happy holiday season=
+ and give thanks for this DevOps community. So=2C we put together this fun=
+ post to highlight the highs and lows of being on-call during the holidays=
+=2E
+
+https://go.victorops.com/devopsweekly-on-call-holidays
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

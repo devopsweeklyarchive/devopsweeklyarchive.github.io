@@ -1,0 +1,173 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#316?=
+Date: Sun, 15 Jan 2017 11:20:48 +0000
+
+DEVOPS WEEKLY
+ISSUE #316 - 15th January 2017
+
+A typical wide range of content this week=2C with tales of transforming la=
+rge organisations alongside cross-compiling Docker images for ARM. I do so=
+metimes wonder if the readers of this newsletter enjoy the variety under t=
+he Devops banner as much as I do.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+It=E2=80=99s time to fix your incident management. Built for DevOps=2C Vic=
+torOps helps you respond to incidents faster and more effectively. Try it=
+ out for free.
+
+http://bit.ly/victoropsfreetrial
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+A Tale of Two Pipelines: To DevOps or Not to DevOps
+
+Trying to move to a DevOps methodology=2C or improve your current DevOps m=
+ethods? Need to increase innovation and the speed of your software deliver=
+y pipeline? Brett Hofer=2C Global DevOps Practice Lead at Dynatrace=2C wil=
+l show you how through a tour of two pipelines. You=E2=80=99ll get insight=
+s on key pipeline factors that plague traditional delivery pipelines and h=
+ow to overcome them with practices that establish a true DevOps.
+
+http://ow.ly/a3Av302XEHK
+
+
+News
+=3D=3D=3D=3D
+
+Devops has become accepted as an important part of wider business transfor=
+mation efforts over the past several years. Sometimes it=E2=80=99s a good=
+ idea to look for stories that make that context clearer=2C like this one=
+ about ING.
+
+http://www.leanessays.com/2017/01/the-end-of-enterprise-it.html
+
+
+Google have published a comprehensive white paper about how they secure th=
+eir infrastructure. This covers details of hardware security all the way t=
+o people matters=2C along with guiding principles and design. Essential re=
+ading.
+
+https://cloud.google.com/security/security-design/
+
+
+Linux containers aren=E2=80=99t magic=2C as this post points out. A dive i=
+nto containers without Docker or rkt=2C looking in detail at cgroups=2C ch=
+root and file systems.
+
+https://ericchiang.github.io/post/containers-from-scratch//
+
+
+Chaos Monkey=2C or a similar tool=2C is generally assumed to be running on=
+ a schedule. But using a handy CLI tool it=E2=80=99s possible to trigger d=
+ifferent failure conditions manually=2C and this post explains when that m=
+ight be useful.
+
+https://medium.com/production-ready/using-chaos-monkey-whenever-you-feel-l=
+ike-it-e5fe31257a07#.956g94blp
+
+
+The requirements for persistent storage tend to change over time in many a=
+pplications as they=2C and the team supporting them=2C grow. A nice exampl=
+e of that in the following post=2C and details of some of the challenges o=
+f moving data.
+
+http://githubengineering.com/moving-persistent-data-out-of-redis/
+
+
+Having testing as a core developer responsibility is common in high-perfor=
+ming teams. But load and performance tests are often separate and remain t=
+he preserve of specialists. This post argues that that=E2=80=99s a mistake=
+=2E
+
+https://engineering.klarna.com/four-reasons-developers-should-write-their-=
+own-load-tests-fac74c1be9f1#.4bxrp6ecx
+
+
+An interesting argument that the Linux and Windows worlds are converging=
+=2C and that for many applications or technology choices it=E2=80=99s no-l=
+onger about just picking one.
+
+http://m.thevarguy.com/open-source-application-software-companies/linux-an=
+d-windows-ecosystems-are-converging-heres-why-it-
+
+
+As ARM platforms become more commonplace=2C building containers that targe=
+t ARM architectures will come up more and more. It=E2=80=99s possible to d=
+o this using QEMU on more common intel machines with a few commands.
+
+http://blog.hypriot.com/post/setup-simple-ci-pipeline-for-arm-images/
+
+
+CNCF
+=3D=3D=3D=3D
+
+What is cloud native and why does it exist?
+
+Join us February 23rd at 10:00 AM PT to find out what Cloud Native Computi=
+ng is and why it matters. Presented by=2C Alexis Richardson=2C founder and=
+ CEO of Weaveworks and chairperson of the CNCF technical oversight committ=
+ee.
+
+Sign up now: https://goo.gl/AfqYjo
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Amsterdam is celebrating the 5th anniversary of DevOpsDays Amsterdam on Ju=
+ne 28th to 30th. If you have an interesting story to tell or want to lead=
+ a workshop on a piece of technology you're an expert on=2C the CFP is ope=
+n now.
+
+https://devopsdays.typeform.com/to/hbkd2j
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kubeplay is a REPL for the Kubernetes API. It allows for exploring and dis=
+playing information about Kubernetes resources using a Ruby DSL=2C with so=
+me commands for modifying resources too.
+
+https://github.com/errordeveloper/kubeplay
+
+
+Kubernetes provides a number of ways for third parties to extend it=2C kub=
+evirt runs with that and is adding the ability for Kubernetes to manage vi=
+rtual machines=2C adding the new VM resource amongst others.
+
+https://github.com/kubevirt/kubevirt
+
+
+Systemdlogger is a small tool to used to export systemd journald logs to a=
+n external service=2C for example cloudwatch or elasticsearch. It=E2=80=99=
+s designed to be simple=2C simpy running out of cron.
+
+https://github.com/techjacker/systemdlogger
+
+
+Screwdriver is a new Continuous Delivery build system. It runs atop Kubern=
+etes or Docker Swarm and provides a web UI as well as the ability to defin=
+e pipelines in a YAML dataformat.
+
+https://yahooeng.tumblr.com/post/155765242061/open-sourcing-screwdriver-ya=
+hoos-continuous
+http://screwdriver.cd/
+
+
+
+It=E2=80=99s time to fix your incident management. Built for DevOps=2C Vic=
+torOps helps you respond to incidents faster and more effectively. Try it=
+ out for free.
+
+http://bit.ly/victoropsfreetrial
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

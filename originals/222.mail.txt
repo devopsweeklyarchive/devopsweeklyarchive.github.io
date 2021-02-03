@@ -1,0 +1,192 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#222?=
+Date: Sun, 5 Apr 2015 11:42:31 +0000
+
+DEVOPS WEEKLY
+ISSUE #222 - 5th April 2015
+
+A pretty packed issue this week=2C if there is a theme it would be balanci=
+ng adopting new technologies against tried and trusted approaches: with a=
+ few practical docker posts=2C discussion of choosing boring technology al=
+ongside more talk of unikernels.
+
+It=E2=80=99s also your last chance to fill in the Devops Survey which clos=
+es on April 10th. The more people fill this in the more useful the results=
+ should be. https://www.surveygizmo.com/s3/1984283/4b0ea1afb087
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Viewing containers as just another packaging format leads you to miss the=
+ typical metadata available to tools like apt and yum. This post demonstra=
+tes a clever approach to fixing this problem=2C making containers much les=
+s of a black box.
+
+https://www.devco.net/archives/2015/03/30/some-thoughts-on-operating-conta=
+iners.php
+
+
+MirageOS and more generally unikernels are an interesting potential future=
+=2E These two posts demonstrate a simple deployment mechanism=2C and look at=
+ what future unikernel infrastructure might allow us to do.
+
+http://amirchaudhry.com/heroku-for-unikernels-pt1/
+http://amirchaudhry.com/heroku-for-unikernels-pt2/
+
+
+I=E2=80=99ve always found choosing technology interesting=2C how=2C if and=
+ when to adopt newer technology is very contextual and knowing whether you=
+ got it right takes time. This post does a great job of both telling a sto=
+ry but also providing ideas for how to go about technology choice.
+
+http://mcfunley.com/choose-boring-technology
+
+
+A great rundown of some of the tools and capabilities available when build=
+ing mobile applications and adopting devops practices.
+
+http://www.slideshare.net/jedi4ever/mobile-development-with-a-devops-minds=
+et
+
+
+One of the things that came out of Chef conf (if you were there please sen=
+d me links to things you found interesting) this week that I particularly=
+ liked was this take on describing some of the principals of Devops=2C tak=
+ing a steer from the idea of a school of Kung Fu.
+
+https://github.com/chef/devops-kungfu/blob/master/talk-notes.md
+
+
+A pretty indepth walkthrough a data intensive system=2C with talk of read/=
+write tradeoffs=2C partitioning=2C sharding=2C hardware selection and lots=
+ more.
+
+http://highscalability.com/blog/2015/3/30/how-we-scale-vividcortexs-backen=
+d-systems.html
+
+
+A post for anyone breaking down systems and teams=2C whether coming from a=
+ microservices or devops point of view. It focuses on the importance of co=
+nfiguration management debt as the first step in changing a large system.
+
+http://www.managingsoftwaredebt.com/2015/04/04/focus-on-configuration-mana=
+gement-debt-first/
+
+
+A good post on one of the advantages of using containers=2C that of improv=
+ing utilisation and reducing costs=2C by making multi-tenant systems easie=
+r. It doesn=E2=80=99t touch on the increased network complexity in those s=
+ituations but covers lots of other good points.
+
+http://byterot.blogspot.co.uk/2015/04/microservices-containerisation-in-li=
+ght-of-cloud-utilisation-and-high-availability.html
+
+
+A good call to action for security teams to adopt devops practices=2C high=
+lighting some interesting data from a recent survey that shows security as=
+ a primary concern when adopting devops=2C but also that it=E2=80=99s happ=
+ening anyway.
+
+http://newcontext.com/security-should-be-the-top-driver-for-devops/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Hired gives top DevOps Engineers more power in their job search. You'll cr=
+eate a profile & over 1 week tech companies will apply to you! You'll get=
+ salary/equity offers upfront & you're under no obligation to accept any o=
+ffer. Interested? Join Hired today!
+
+https://hired.com/?utm_source=3Dnewsletters&utm_medium=3Ddevopsweekly&utm_=
+campaign=3Dn-q2_15-devopsweekly&utm_content=3Dtopdevops
+
+
+DataSift is a streaming and real-time data processing platform=2C dealing=
+ with over 1 Billion interactions a day. We're looking for several Operati=
+ons Engineers with a passion for using automation=2C monitoring and modern=
+ operations tools to solve big data problems.  Our key principles are good=
+ automation and monitoring=2C and we use Chef=2C Graphite and Riemann at s=
+cale to help us with this. We offer competitive salaries=2C great benefits=
+ and awesome perks! We have offices in London and Reading.
+
+https://hire.jobvite.com/j?cj=3DoRqt0fwu&s=3DDevOpsWeekly
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Docker is awesome but doesn't come with batteries included; once you go be=
+yond the basics you'll be searching the web for insights and having to dec=
+ide between the old/new/hottest approach to do things. Pragmatic Docker is=
+ an event on April 21st in Belgium on what works today with only a brief f=
+ocus on glimpses of the future.
+
+For a limited time if you the code WE-ALL-LOVE-DEVOPS-WEEKLY you=E2=80=99l=
+l get 50% off the ticket price.
+
+http://www.eventbrite.com/e/pragmatic-docker-day-ghent-belgium-tickets-163=
+95147327
+
+
+DataSift are having an open house event at their Reading office in the UK=
+ on the 15th April=2C 6pm until 8pm. Mingle with the team=2C check out the=
+ awesome office and learn more about our new Pylon for Facebook product wo=
+rks. The event is free and there will be plenty of snacks=2C drinks and ga=
+mes.
+
+bit.ly/DS2015OpenHouse
+
+
+Box are hosting a Transform the Enterprise conference on April 22nd in San=
+ Francisco with talks and panels on security=2C open source and APIs. Usin=
+g the code boxdevops will get you a complimentary pass too.
+
+http://boxdev2015.com/sf
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+As containers become the unit of work in distributed systems=2C scheduling=
+ across hosts becomes increasingly important. Citadel is interesting becau=
+se=2C rather than being just an out of the box solution it=E2=80=99s posit=
+ioned as a toolkit for writing your own custom schedulers.
+
+http://citadeltoolkit.org/
+https://github.com/citadel/citadel
+
+
+Shpec is an rspec-like testing framework for shell scripts. The README giv=
+es you an idea of the syntax=2C and show how easy it is to extend with you=
+r own matchers.
+
+https://github.com/rylnd/shpec
+
+
+A simple Rake library which allows building Debian packages using either g=
+it-buildpackage or fpm. It would be nice if this supported other package t=
+ypes like RPM as well.
+
+https://github.com/jimdo/buildtasks
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

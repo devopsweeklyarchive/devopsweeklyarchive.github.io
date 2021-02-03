@@ -1,0 +1,117 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#440?=
+Date: Sun, 2 Jun 2019 08:54:01 +0000
+
+DEVOPS WEEKLY
+ISSUE #440 - 2nd June 2019
+
+Starting off with several solid practical posts this week=2C with advice o=
+n adopting CI/CD=2C secure system design=2C and embracing sustainable oper=
+ations practices.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+See how adopting DevOps and SRE methodologies can lead to faster and more=
+ reliable deployments. In the free eBook=2C Creating a Culture of Reliabil=
+ity=2C VictorOps talks about exactly how and why they implemented their ow=
+n SRE and DevOps practices:
+
+http://try.victorops.com/devopsweekly/sre-devops-ebook
+
+
+News
+=3D=3D=3D=3D
+
+A good post on what it takes to adopt CI/CD practices=2C looking at build=
+ and release engineering=2C monitoring=2C testing and more.
+
+https://medium.com/driven-by-code/the-journey-to-ci-cd-b1872927c36b
+
+
+A series of posts covering a set of design principles for building secure=
+ modern systems. The set of anti-patterns in particular makes for interest=
+ing reading for anyone interested in system design.
+
+https://www.ncsc.gov.uk/blog-post/secure-systems-design--new-guidance-now-=
+available
+https://www.ncsc.gov.uk/collection/cyber-security-design-principles
+https://www.ncsc.gov.uk/whitepaper/security-architecture-anti-patterns
+
+
+A detailed post on the importance of production excellence. Why simply giv=
+ing folks the keys to production isn=E2=80=99t enough=2C and why various a=
+spects of operations are essential for high-quality systems.
+
+https://www.infoq.com/articles/production-excellence-sustainable-operation=
+s-complex-systems/
+
+
+An interesting look at a new configuration tool with an interactive CLI to=
+ol vs more file management. Based on some survey research which has some i=
+nteresting questions too.
+
+https://marmelab.com/blog/2019/05/28/releasing-comfygure-1-0.html
+
+
+A post partly about the AWS SQS service=2C but more about why queuing syst=
+ems are at the heart of building scalable architectures.
+
+https://www.tbray.org/ongoing/When/201x/2019/05/26/SQS
+
+
+Kind is a tool designed for testing other Kubernetes tools. It makes it tr=
+ivial to spin up ephemeral clusters on top of Docker. This post uses Kind=
+ with a simple Makefile to build a simple provisioning tool.
+
+https://garethr.dev/2019/05/ephemeral-kubernetes-clusters-with-kind-and-ma=
+ke/
+
+
+A comparison of some aspects of the AWS and Azure serverless offerings. Lo=
+oking at the differences in pricing=2C language support=2C deployment opti=
+ons and state management amongst other areas.
+
+https://kreuzwerker.de/blog/going-serverless-drives-me-crazy-or-choosing-b=
+etween-aws-lambda-and-azure
+
+
+Tools
+=3D=3D=3D=3D
+
+Kui is described as a hybrid CLI/UI development experience for cloud-nativ=
+e applications. It provides similar functionality to parts of kubectl=2C b=
+ut combines a terminal with rich GUI output as well. Interesting tool and=
+ a novel user interface.
+
+https://github.com/IBM/kui
+
+
+Homebrew is a popular package manager for macOS. Homebrew Bundle provides=
+ a way of describing in a single file all the desired packages=2C and then=
+ installing them in one command. Handy for sharing dependencies between ma=
+chines.
+
+https://github.com/Homebrew/homebrew-bundle
+
+
+High-level Kubernetes tooling has often been restricted to Go=2C so it=E2=
+=80=99s nice to see tools like kopf appearing. Kopf is a Python library fo=
+r writing Kubernetes operators=2C with a simple API and lots of examples.
+
+https://github.com/zalando-incubator/kopf
+
+
+
+See how adopting DevOps and SRE methodologies can lead to faster and more=
+ reliable deployments. In the free eBook=2C Creating a Culture of Reliabil=
+ity=2C VictorOps talks about exactly how and why they implemented their ow=
+n SRE and DevOps practices:
+
+http://try.victorops.com/devopsweekly/sre-devops-ebook
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

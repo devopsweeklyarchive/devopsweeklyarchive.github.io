@@ -1,0 +1,106 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#475?=
+Date: Sun,  2 Feb 2020 09:56:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #475 - 2nd February 2020
+
+A short issue this week=2C but with links to lots of great technical talks=
+=2C a discussion of the changing role of the CIO and some kubernetes secur=
+ity and low-level container posts.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Service resilience requires both real-time incident response software and=
+ a robust incident management and IT ticketing tool. These common techniqu=
+es and tools can help you enhance your VictorOps and ServiceNow integratio=
+n =E2=80=93 making incident management suck less:
+
+https://go.victorops.com/devopsweekly-victorops-and-servicenow
+
+
+News
+=3D=3D=3D=3D
+
+For lots of people in large organisations=2C the CIO is the top role on th=
+e IT side. But the expectations=2C and the environment=2C are changing. Th=
+is post explores the changing role of the CIO in response.
+
+https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/=
+the-cio-challenge-modern-business-needs-a-new-kind-of-tech-leader
+
+
+A good talk on Kubernetes security=2C dipping into several  tools but main=
+ly showing the nature of a few specific exploits and giving tips to avoid=
+ common problems.
+
+https://drive.google.com/file/d/1ZWqSoCq6rw514I0ZAcs4cU-5-OJVMfO3/view
+
+
+The start of a series of posts implementing a container manager/runtime=2C=
+ in order to better understand the relationship between high-level tools l=
+ike Kubernetes and the containers that run on the operating system.
+
+https://iximiuz.com/en/posts/conman-the-container-manager-inception/
+
+
+A collection of 30 of the best technical talks from last year. Topics rang=
+e from building reliable services to low-level linux features and global t=
+raffic management to testing in production.
+
+https://medium.com/@copyconstruct/best-of-2019-in-tech-talks-bac697c3ee13
+
+
+A look at some of the patterns of container evolution=2C in particular exp=
+loring the rise of microVMs=2C unikernels and container sandboxes.
+
+https://upstart.chrishic.com/the-future-of-containers-whats-next/
+
+
+A nice walkthrough of installing Cloud Foundry on Kubernetes=2C looking at=
+ the different tools available to do the job.
+
+https://starkandwayne.com/blog/running-cloud-foundry-on-kubernetes-using-k=
+ubecf/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Hiring DevOps engineers in Berlin & remotely=2C Arweave is a permanent inf=
+ormation storage network=2C built on a new type of blockchain called a blo=
+ckweave. They're working to solve the problem of the =E2=80=98memory hole=
+=E2=80=99=2C as formulated by George Orwell in Nineteen Eighty-Four=2C by=
+ building the first data storage medium that truly never forgets. Arweave=
+ works by rewarding network participants for contributing hard disk space=
+ to the network=2C in a similar fashion to proof of work in Bitcoin and ot=
+her cryptocurrencies. Contact jobs@arweave.org or apply at:
+
+https://stackoverflow.com/jobs/350106/devops-arweave-arweave
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Rode looks like an interesting software supply chain tool. It provides for=
+ the collection=2C attestation and enforcement of policies=2C supported by=
+ Grafeas and Open Policy Agent.
+
+https://github.com/liatrio/rode
+
+
+
+Service resilience requires both real-time incident response software and=
+ a robust incident management and IT ticketing tool. These common techniqu=
+es and tools can help you enhance your VictorOps and ServiceNow integratio=
+n =E2=80=93 making incident management suck less:
+
+https://go.victorops.com/devopsweekly-victorops-and-servicenow
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

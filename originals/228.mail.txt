@@ -1,0 +1,174 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#228?=
+Date: Sun, 17 May 2015 15:10:48 +0000
+
+DEVOPS WEEKLY
+ISSUE #228 - 17th May 2015
+
+The first three posts this week are all about the broad impacts of the dev=
+ops movement and adopting related practices. The community definitely keep=
+s growing. On a related note I=E2=80=99m heading up to Manchester this wee=
+k for IP EXPO. If any readers are going to be there do drop me a line and=
+ say Hi.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored Event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] 5 Key Metrics to Release Better Software Faster
+
+No matter how often you deploy - or how sophisticated your delivery pipeli=
+ne is - you need to measure the quality of your software. But what exactly=
+ should you measure? Learn the 5 key metrics that will increase your confi=
+dence in producing a safe build for production. Register now.
+
+http://ow.ly/MWycl
+
+
+News
+=3D=3D=3D=3D
+
+The interest in Devops is still spreading but how can the wider community=
+ help even more people successfully adopt these practices? Some great sugg=
+estions here=2C especially the call for community reference implementation=
+s.
+
+http://www.fiercedevops.com/story/heres-how-we-can-help-push-devops-mainst=
+ream/2015-05-14
+
+
+This post discusses the impact of devops on outsourcing maintenance as a s=
+eparate activity from developing through a system=E2=80=99s entire life cy=
+cle.
+
+http://swreflections.blogspot.co.uk/2015/05/devops-is-killing-maintenance-=
+lets.html
+
+
+An interesting post that makes the claim that SIAM (Service Integration an=
+d Management for those not involved in the Service Management community) a=
+nd DevOps are two sides of the same coin.
+
+https://siammatters.wordpress.com/2015/04/08/combining-siam-and-devops-for=
+-digital-reimagination/
+
+
+A couple of interesting tools for analyzing mysql and postgresql database=
+ network traffic. Think tcpdump or wireshark but with an understanding of=
+ databases.
+
+https://vividcortex.com/blog/2015/05/13/announcing-vividcortex-network-ana=
+lyzer-mysql-postgresql/
+
+
+A call that the CAP theorem as generally described is too simplistic for r=
+eal world tradeoff discussions=2C especially when describing databases as=
+ CP or AP.
+
+https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-o=
+r-ap.html
+
+
+A post I wrote on using Test Kitchen=2C ServerSpec and Bats to test softwa=
+re installation as well as usage=2C in this case for compiling and running=
+ MirageOS unikernels.
+
+http://www.morethanseven.net/2015/05/09/acceptance-testing-mirageos/
+
+
+A great creative commons ebook all about running Erlang applications in pr=
+oduction. Everything from extracting metrics=2C debugging tips=2C analysin=
+g crash reports=2C memory leaks and tracing.
+
+http://www.erlang-in-anger.com/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Want to work on new projects? Try a new stack? Join Hired and discover new=
+ opportunities today.
+
+http://hrd.cm/1Ghn0BB
+
+
+Brandwatch (www.brandwatch.com) is one of the world=E2=80=99s leading soci=
+al media monitoring and analytics platforms. We are looking for Sysadmins/=
+DevOps across our Brighton=2C London and Berlin offices to join our growin=
+g International Systems team. If you're passionate about automation=2C mon=
+itoring=2C big data=2C or distributed computing=2C and you like the idea o=
+f working on interesting projects that contribute to the greater good of a=
+n exciting engineering department=2C then we'd love to hear from you.
+
+Brighton - https://hire.jobvite.com/j?cj=3DoVzU0fw8&s=3DDevOPs_Weekly
+London - https://hire.jobvite.com/j?cj=3Do2z20fwn&s=3DDevOPs_Weekly
+Berlin - https://hire.jobvite.com/j?cj=3Do2z20fwn&s=3DDevOPs_Weekly
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+It=E2=80=99s IP EXPO this coming week (Wednesday 20th=2C Thursday 21st) in=
+ Manchester UK=2C with a strong Devops theme. Talks on trust=2C people and=
+ culture as well as technical topics.  I=E2=80=99ll be at the main event a=
+s well as the Devops Manchester meetup on Wednesday night.
+
+http://www.ipexpomanchester.com/DevOps
+http://www.meetup.com/DevOps-Manchester/events/221465089/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Terraframe is a Ruby based DSL for Terraform=2C giving you the power of a=
+ full programming language with the Terraform support for different cloud=
+ providers.
+
+http://edcanhack.com/2015/01/terraframe-making-hashicorps-terraform-awesom=
+e/
+https://github.com/eropple/terraframe
+
+Chaos HTTP Proxy is a simple HTTP proxy which can be configured to break i=
+n ways useful to testing distributed systems. Mess with MD5 hashes=2C add=
+ client or server timeouts=2C throw in redirects=2C reorder response heade=
+rs and return error codes.
+
+https://github.com/bouncestorage/chaos-http-proxy
+
+
+Scope=2C from Weaveworks=2C is a new tool for visualising how your growing=
+ container based infrastructure connects together=2C focusing on how the n=
+etwork reveals your architecture.
+
+http://blog.weave.works/2015/05/13/announcing-weaveworks-scope-container-v=
+isibility/
+https://github.com/weaveworks/scope
+
+
+Swaddle is another take on building a single tool for packaging=2C whether=
+ you require debs=2C rpms or tars. It handily builds website documentation=
+ for each created package=2C supports signed packages and builds repositor=
+ies as well as individual packages.
+
+https://github.com/raphaelcohn/swaddle
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

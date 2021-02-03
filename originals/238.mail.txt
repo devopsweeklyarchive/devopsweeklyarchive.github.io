@@ -1,0 +1,186 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#238?=
+Date: Sun, 26 Jul 2015 10:45:40 +0000
+
+DEVOPS WEEKLY
+ISSUE #238 - 26th July 2015
+
+With the Open Container Project=2C and now the Cloud Native Computing Foun=
+dation=2C it=E2=80=99s interesting to see a move towards shared ownership=
+=2C and the potential for open standards=2C play out for containers. I=E2=
+=80=99d love to read more peoples opinions on how all of that will play ou=
+t.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] How to Use DevOps & APM to Release Better Software Faster
+
+Join us for a talk with Hasan Yasar=2C Technical Manager of Carnegie Mello=
+n's Software Engineering Institute=2C to learn the benefits of DevOps=2C a=
+utomation and CD=2C where APM fits in DevOps=2C and why you need to monito=
+r. Finally=2C find out all about auto-provisioning and deployment with Doc=
+ker=2C Vagrant=2C Ansible=2C and more. Register now.
+
+http://ow.ly/Q3waZ
+
+
+News
+=3D=3D=3D=3D
+
+A good write-up of investigating a performance problem for an appliance. L=
+ots of graphs and a discussion of the methodology and tools used=2C includ=
+ing wireshark and tcpdump.
+
+http://githubengineering.com/benchmarking-github-enterprise/
+
+
+The 2015 State of Devops report has been published (disclaimer - by my emp=
+loyer Puppet Labs)=2C with lots of solid data and analysis on the impact d=
+evops in organisations. Particularly useful for convincing management coll=
+eagues of the value of embracing devops ideas.
+
+http://www.networkworld.com/article/2947336/applications/puppet-labs-relea=
+ses-2015-state-of-devops-report-effective-devops-starts-with-it-leadership=
+=2Ehtml
+https://puppetlabs.com/blog/2015-state-devops-report-here
+
+
+Kubernetes is being adopted as a core part of a number of modern infrastru=
+cture platforms=2C so the release of 1.0 is noteworthy. It will be interes=
+ting to see what else comes from the newly announced Cloud Native Computin=
+g Foundation.
+
+http://googlecloudplatform.blogspot.co.uk/2015/07/Kubernetes-V1-Released.h=
+tml
+
+
+Some interesting observations and advice for people getting started with d=
+evops. It=E2=80=99s interesting how this topics has evolved over the last=
+ several years for different people getting interested now.
+
+http://itknowledgeexchange.techtarget.com/cloud-computing-enterprise/a-yea=
+r-of-living-devopsy/
+
+
+An interesting example of using Docker and Nix together. Using Nix to buil=
+d the container and then wrapping it with a scratch container so Docker ca=
+n run  it.
+
+http://datakurre.pandala.org/2015/07/building-docker-containers-from-scrat=
+ch.html
+
+
+A nice step back from the higher level container tools to introduce chroot=
+ and cgroups in the context of Docker. A useful quick introduction.
+
+http://www.standalone-sysadmin.com/blog/2015/07/so-containers-why-how-what=
+-start-here-if-you-havent/
+
+
+An excellent looking set of open course material for learning all about Me=
+sos. A good mix of all the commands you need as well as video tutorials.
+
+http://open.mesosphere.com/intro-course/ex1.html
+
+
+A reminder=2C with good data=2C that exposing unsecured databases to the i=
+nternet is never a good idea. Worth being reminded of the next time you tr=
+y any software out.
+
+https://blog.shodan.io/its-the-data-stupid/
+
+
+A nice look at how Devopsdays Melbourne worked; from the usual open spaces=
+ to discussions=2C panels=2C ignite talks and social events.
+
+http://glasnt.com/blog/2015/07/18/devopsdays-2015-wrap-up.html
+
+
+Jobs
+=3D=3D=3D=3D
+
+Looking for new DevOps opportunities? Spend your time building=2C not sear=
+ching for a job. Sign-up for Hired today.
+
+http://hrd.cm/1MZ7JcD
+
+
+Elsevier Technology are seeking a talented and self-motivated Infrastructu=
+re Developer/Ops Engineer. You'll be part of the operations / infrastructu=
+re team and work on a complete platform rebuild using public cloud infrast=
+ructure. You'll be using tools like Ansible=2C GoCD=2C Python=2C Java=2C R=
+iemann=2C Sensu to name a few open-source projects=2C which we not only us=
+e but also contribute to. If you love to =E2=80=9Cautomate everything" and=
+ have experience in managing dynamic infrastructure in a public cloud envi=
+ronment=2C get in touch!
+
+https://www.linkedin.com/jobs2/cap/view/62359748
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Software Circus is a conference dedicated to programmable infrastructure.=
+ It;s happening on the 10th and 11th of September in Amsterdam. Tickets ar=
+e on-sale and the CFP is open for another week too.
+
+http://softwarecircus.eu/
+
+
+DevSecCon is an upcoming conference all about bringing together developers=
+=2C analysts and systems administrators to talk about security. It=E2=80=
+=99s happening in London on the 22nd of October=2C and early-bird tickets=
+ are available now.
+
+https://devseccon.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Hygieia is a single=2C configurable=2C easy to use dashboard to visualize=
+ near real-time status of a continuous delivery pipeline.
+
+https://github.com/capitalone/Hygieia
+
+
+Waffles is intended to be a simple configuration management and deployment=
+ system written entirely in Bash for portability.
+
+http://waffles.terrarum.net/
+https://github.com/jtopjian/waffles
+
+
+Pupa is a handy bootstrapping tool for an opinionated modern Puppet setup=
+ using the latest puppet-agent as well as r10k to manage environments.
+
+https://daenney.github.io/2015/07/23/Pupa.html
+https://github.com/daenney/pupa
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

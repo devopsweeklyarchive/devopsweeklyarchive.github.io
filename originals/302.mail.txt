@@ -1,0 +1,186 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#302?=
+Date: Sun, 9 Oct 2016 16:36:23 +0000
+
+DEVOPS WEEKLY
+ISSUE #302 - 9th October 2016
+
+Shameless plug. I=E2=80=99m giving a talk at the upcoming PuppetConf event=
+ in San Diego at the end of the month=2C all about Puppet testing practice=
+s. If you=E2=80=99re a Puppet user then I=E2=80=99d love for you to take 5=
+ minutes to complete short survey. https://goo.gl/forms/wvKFi62SHDvcvO2o2.=
+ And please share with your Puppet using friends and colleagues.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Downtime costs a lot more than you think. Learn why - and how to make the=
+ case for Real-time Incident Management.
+
+http://bit.ly/1UYgXUE
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Gene Kim shares top lessons learned from The DevOps Handbook
+
+Join The DevOps Handbook co-author Gene Kim as he shares first-hand insigh=
+ts and lessons learned during the five years required to create this essen=
+tial resource=2C including DevOps transformation case studies around conti=
+nuous integration and delivery. Register today!
+
+http://ow.ly/EXwE304sS1F
+
+
+News
+=3D=3D=3D=3D
+
+An excellent talk=2C along with a full transcript=2C about incident respon=
+se. Talk of internal communication=2C tools=2C building trust with custome=
+rs and lots more.
+
+https://www.heavybit.com/library/video/every-minute-counts-coordinating-he=
+rokus-incident-response/
+
+
+Databases are terrible things and managing data incorrectly can lead to th=
+e worst types of outages. With a push for more generalist software folks I=
+ liked this post about being an accidental database admin.
+
+https://charity.wtf/2016/10/02/the-accidental-dba/
+
+
+Lots of teams adopt code reviews as a powerful way of improving software q=
+uality. This post makes a good argument for introducing code reviews=2C wi=
+th a good discussion of various anti-patterns.
+
+http://verraes.net/2013/10/pre-merge-code-reviews/
+
+
+A series of blog posts with a comprehensive look at Terraform=2C acting as=
+ a solid introduction=2C tips for management=2C reusability and more posts=
+ incoming.
+
+https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca#=
+=2Ek7h9vfj8g
+
+
+Lots of Kubernetes users automatically install a container networking solu=
+tion as well=2C likely an overlay or other SDN system. But you can run Kub=
+ernetes with more traditional networking setups too. This post explains ho=
+w and why.
+
+https://medium.com/@rothgar/no-sdn-kubernetes-5a0cb32070dd#.2k0j5mbgp
+
+
+A dive into some of the design choices for the Docker SwarmKit orchestrati=
+on library=2C covering replication=2C presence=2C push vs pull and more.
+
+https://speakerdeck.com/aluzzardi/heart-of-the-swarmkit-topology-managemen=
+t
+
+
+A continuation of the series from last issue on postmortems=2C this post l=
+ooking at identifying the root cause of an incident.
+
+https://medium.com/production-ready/on-finding-root-causes-c0ce524bf98b#.u=
+hdy6v44q
+
+
+In a system composed of many services working out what went wrong with a s=
+ingle request can be a challenge. This is where request tracing comes in a=
+nd the following slide deck introduces the concept and demonstrates the us=
+e of Zipkin.
+
+https://speakerdeck.com/adriancole/introduction-to-distributed-tracing-and=
+-zipkin-at-devopsdays-singapore
+
+
+A good explanation of some of the operational challenges that microservice=
+s introduce=2C as well as a look at linkerd and namerd for solving some of=
+ these problems.
+
+https://blog.buoyant.io/2016/05/04/real-world-microservices-when-services-=
+stop-playing-well-and-start-getting-real/
+
+
+A good presentation on what it means to be cloud native. Focuses on the jo=
+urney to embracing automation=2C and on the concepts in the 12 factor app=
+ model.
+
+https://speakerdeck.com/caseywest/containercon-north-america-cloud-anti-pa=
+tterns
+
+
+A look at setting up Prometheus to monitor a Docker cluster. Includes lots=
+ of code samples for alerts and pictures of the resulting dashboards so yo=
+u can get a feel for the full monitoring syste=2C
+
+https://stefanprodan.com/2016/a-monitoring-solution-for-docker-hosts-conta=
+iners-and-containerized-services/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon is coming up in Seattle on the 8th and 9th of November. The schedu=
+le is packed with low level technical talks as well as lots of production=
+ case studies. Something for Kubernetes experts and those just getting sta=
+rted.
+
+https://events.linuxfoundation.org/events/kubecon?utm_medium=3Demail&utm_c=
+ampaign=3Ddevopsweekly&utm_source=3Dnewsletter&utm_content=3Da
+
+
+Devopsdays Kansas City is happening on October 20th and 21st. The programm=
+e covers real world case studies as well as talk of containers and a super=
+ interesting sounding talk on human factors and devops. Tickets are availa=
+ble now.
+
+https://www.devopsdays.org/events/2016-kansascity/welcome/
+
+
+Devopsdays India is coming up on the 4th and 5th of November in Bangalore.=
+ Devopsdays really is global at this point so if you=E2=80=99re in the reg=
+ion then it should be a great event.
+
+http://devopsdaysindia.org/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+For lots of workflows setting the GitHub master branch to protected is a s=
+ensible choice=2C but it=E2=80=99s relatively recent addition and you may=
+ have lots of repos. Enter Petter=2C a simple tool to change the setting f=
+or all repos in a given organisation.
+
+https://github.com/jessfraz/pepper
+
+
+Zentral is a nice looking tool for host inventory and acting on inventory=
+ data=2C built atop osquery=2C Santa=2C Sal=2C ElasticSearch and with inte=
+gration with various other tools.
+
+https://github.com/zentralopensource/zentral/wiki
+
+
+Cillium is another container networking approach=2C but one which uses exp=
+erimental kernel features like BFP and XDP. It aims to provide fast in-ker=
+nel networking along with string security policy enforcement.
+
+https://github.com/cilium/cilium
+
+
+
+Downtime costs a lot more than you think. Learn why - and how to make the=
+ case for Real-time Incident Management.
+
+http://bit.ly/1UYgXUE
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

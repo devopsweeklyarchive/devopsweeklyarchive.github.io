@@ -1,0 +1,141 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#398?=
+Date: Sun, 12 Aug 2018 10:32:23 +0000
+
+DEVOPS WEEKLY
+ISSUE #398 - 12th August 2018
+
+Some good AWS tips this week=2C along with discussions of the evolution of=
+ continuous delivery and around building resilient systems.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+DevOps improves the incident management process by adding collaboration an=
+d visibility throughout the entire incident lifecycle. See how building a=
+ DevOps team makes incident resolution suck less:
+
+http://try.victorops.com/devopsweekly/incident-management-handbook
+
+
+News
+=3D=3D=3D=3D
+
+Credentials management and even just logging in via the command line can b=
+e tricky on AWS=2C depending on the configuration. This post explains the=
+ different approaches and moving parts.
+
+https://blog.gruntwork.io/a-comprehensive-guide-to-authenticating-to-aws-o=
+n-the-command-line-63656a686799
+
+
+Lots of good tips and tricks for using AWS Cloudformation in this post. Ev=
+erything from usage limits to custom resources to handling configuration d=
+ata.
+
+https://sanderknape.com/2018/08/two-years-with-cloudformation-lessons-lear=
+ned/
+
+
+Service meshes solve a number of challenges for building reliable network=
+ services but they are not a magic bullet. This post explains the advantag=
+es but also what=E2=80=99s still left for your application to deal with=2C
+
+http://blog.christianposta.com/microservices/application-safety-and-correc=
+tness-cannot-be-offloaded-to-istio-or-any-service-mesh/
+
+
+A discussion of emerging patterns around continuous delivery (like feature=
+ flags and automated canary releases)=2C and using the new banner of progr=
+essive delivery to describe them.
+
+https://launchdarkly.com/blog/progressive-delivery-a-history-condensed/
+
+
+A varied set of perspectives on the relationship between the ITIL framewor=
+k and Devops practices.
+
+https://purplegriffon.com/blog/is-itil-agile-enough
+
+
+An interesting look at building a custom bare-metal layer 4 load balancer.=
+ Lots of details about why this was needed at scale and how it solves a ve=
+ry specific problem.
+
+https://githubengineering.com/glb-director-open-source-load-balancer/
+
+
+Some good points on the relationship and influence of tooling choices of m=
+ore cultural aspects of adopting devops practices.
+
+https://opensource.com/article/18/8/how-tools-affect-culture
+
+
+A post on patterns for building resilient systems=2C looking at redundancy=
+ (of technology and people)=2C auto-scaling=2C immutable infrastructure an=
+d more.
+
+https://medium.com/@adhorn/patterns-for-resilient-architecture-part-1-d3b6=
+0cd8d2b6
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+EnvoyCon is taking place on December 10th in conjunction with KubeCon + Cl=
+oudNativeCon North America. Interested in sharing your expertise on Envoy?=
+ Submit a proposal to speak by August 24th!
+
+http://bit.ly/2OjkMIp
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Build Fast and Secure Systems with Practical Training From the Best in Tec=
+h
+
+How would you like to learn about the hottest topics=2C straight from the=
+ experts? At the O'Reilly Velocity Conference (Sep 30-Oct 3 in New York)=
+=2C you'll learn about SRE from Google=2C Kubernetes from Microsoft=2C the=
+ advantages or disadvantages of running containers at production from Gith=
+ub=2C and much more. The Velocity program helps you get the training you n=
+eed to stay ahead of the trends that impact your professional development=
+=2C including systems performance=2C scalability=2C cloud-based infrastruc=
+ture=2C security=2C and leadership. As a DevOps Weekly reader=2C Velocity=
+ is giving you 20% off Gold=2C Silver=2C and Bronze passes! Grab your pass=
+ before Early Price ends on August 17 to save up to $599. Just use code DO=
+W20 at checkout.
+
+https://oreil.ly/2z1aE4z
+
+
+Tools
+=3D=3D=3D=3D
+
+For some reason not everyone loves make. Mage is a new build tool where bu=
+ild files are written in Go but it provides helper libraries for common bu=
+ild tasks.
+
+https://github.com/magefile/mage
+https://magefile.org/
+
+
+A self-hosted application that listens for Terraform pull request events v=
+ia webhooks and then applies any changes to your infrastructure. Ideal for=
+ teams managing a shared cluster.
+
+https://github.com/runatlantis/atlantis
+
+
+DevOps improves the incident management process by adding collaboration an=
+d visibility throughout the entire incident lifecycle. See how building a=
+ DevOps team makes incident resolution suck less:
+
+http://try.victorops.com/devopsweekly/incident-management-handbook
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

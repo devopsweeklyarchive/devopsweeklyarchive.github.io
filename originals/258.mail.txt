@@ -1,0 +1,175 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#258?=
+Date: Sun, 13 Dec 2015 12:56:22 +0000
+
+DEVOPS WEEKLY
+ISSUE #258 - 13th December 2015
+
+With the end of the year in sight people often start thinking about the la=
+st year=2C and what 2016 will bring. If you=E2=80=99re writing a blog post=
+ about either of those topics focused on devops then let me know. Some rec=
+ap posts would be great for the next two issues of the newsletter.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] How to Build a Metrics-optimized Software Delivery Pipeline
+
+Learn a practical step-by-step approach to optimizing your delivery proces=
+s so you can deploy better quality software faster! You=E2=80=99ll learn w=
+hy you should move to a metric-driven pipeline=2C which key quality metric=
+s to measure and how to integrate them to catch problems earlier.
+
+http://ow.ly/UTMwE
+
+
+News
+=3D=3D=3D=3D
+
+Sysadvent is well under way=2C with 13 posts up so far. Several good posts=
+ on a varierty of topics. I particularly enjoyed the posts on design think=
+ing and organisational change.
+
+http://sysadvent.blogspot.co.uk/
+http://sysadvent.blogspot.co.uk/2015/12/day-3-design-thinking.html
+http://sysadvent.blogspot.co.uk/2015/12/day-9-leading-change-in-organizati=
+ons.html
+
+
+The State of On Call 2015 report has been published with lots of interesti=
+ng observations=2C thanks to all the Devops Weekly readers who filled it i=
+n. You can download the full report without signing up too.
+
+https://victorops.com/state-on-call-report-2015/
+
+
+As well as the official Sysadvent blog=2C one company is running there own=
+=2E Lots of useful low-level tips and tricks around using socks proxies=2C s=
+trace=2C bash=2C building RPMs and more.
+
+http://www.redpill-linpro.com/sysadvent/
+
+
+An interesting post on some of the ways that the many small connected devi=
+ces of the Internet of Things impacts on traditional service management.
+
+http://www.fusion.co.uk/_blog/The_Fusion_Blog/post/service-management-with=
+-iot/
+
+
+An interesting post on using AWS Lambda and the new API Gateway to build w=
+ebhooks for monitoring systems which provide context in your company chat=
+ room. Good explanation of why this is useful and how to tie the pieces to=
+gether.
+
+http://blog.lusis.org/blog/2015/12/09/aws-apigateway-for-fun-and-profit/
+
+
+Some interesting points about integrating performance measures into testin=
+g. =E2=80=9CYou don=E2=80=99t need to execute large scale load tests to fi=
+nd most of the problems that will later result in poor performance or scal=
+ability problems=E2=80=9D.
+
+http://apmblog.dynatrace.com/2015/12/01/production-performance-where-it-re=
+ally-matters/
+
+
+A good argument for why you should adopt pipelines as the conceptual frame=
+work for deployments.
+
+https://medium.com/aws-activate-startup-blog/the-case-for-deployment-pipel=
+ines-a0fe80205af1
+
+
+A nice comparison between Amazon=E2=80=99s ECS and Kubernetes for managing=
+ a cluster of containers. Covers managing volumes=2C ports=2C health check=
+s=2C service discovery and setup.
+
+https://railsadventures.wordpress.com/2015/12/06/why-we-chose-kubernetes-o=
+ver-ecs/
+
+
+A detailed look at end-to-end testing=2C and why it=E2=80=99s potentially=
+ the least effective and most expensive testing approach you can take.
+
+http://www.alwaysagileconsulting.com/articles/end-to-end-testing-considere=
+d-harmful/
+
+
+An interesting use of the Nix package manager=2C to help create reproducib=
+le builds using Stack for Haskell.
+
+http://www.tweag.io/blog/stack-nix-portable-reproducible-builds
+
+
+An excellent set of lightning talks from the London Continuous Delivery me=
+eting. Includes short talks no database deployments=2C ConcourseCI=2C the=
+ link between virtualisation and Devops and more.
+
+https://vimeo.com/album/3693804
+
+
+Jobs
+=3D=3D=3D=3D
+
+Hired gives top DevOps Engineers more power in their job search. In 1 week=
+ you'll get 8+ offers from top tech companies around the US and UK. Want t=
+o learn more? Check out Hired today!
+
+http://hrd.cm/1Ln3YwY
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+SCALE 14x is coming up January 21st until the 24th at the Pasadena Convent=
+ion Center. Topics range from the Linux Kernel all the way to talk of cont=
+ainers and security. The organisers have kindly offered a 50% discount on=
+ registration for readers of Devops Weekly with the promo code DVWK.
+
+http://www.socallinuxexpo.org/scale/14x
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+With the public nature of GitHub and other repositories leaking passwords=
+ and other credentials is becoming a bigger problem. Enter git-secrets=2C=
+ which uses local git hooks to prevent you pushing code with know passphra=
+ses and other sensitive information in.
+
+https://github.com/awslabs/git-secrets
+
+
+Most systems administrators need to quickly find things stored in CSV file=
+s at some point. Q looks like a handy tool to do just that using a subset=
+ of SQL.
+
+https://github.com/harelba/q
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

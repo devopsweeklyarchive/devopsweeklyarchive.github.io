@@ -1,0 +1,174 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#384?=
+Date: Sun, 6 May 2018 11:24:15 +0000
+
+DEVOPS WEEKLY
+ISSUE #384 - 6th May 2018
+
+Lots of tools links this week=2C including entire new programming language=
+s and a new polyglot VM. It=E2=80=99s clear the evolution of the practice=
+ of operations is having an impact on the development of new tools to supp=
+ort the new ways of working as well as the other way round.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devs=2C Ops=2C and IT teams are constantly working together to build quick=
+ly and remediate issues faster. Implementing the right tools for collabora=
+tion can be the difference between a good team and a great team:
+
+http://try.victorops.com/DevOpsWeekly/on-call-tools
+
+
+News
+=3D=3D=3D=3D
+
+A fantastic list of posts and other resources for anyone interested in pro=
+fessional operations and distributed systems engineering.
+
+https://techbeacon.com/new-face-ops-resources-modern-ops-distributed-syste=
+ms-engineers
+
+
+gVisor is a new project launched at KubeCon which provides a new OCI compa=
+tible container runtime compatible with Docker. The runtime provides more=
+ security than the namespaced containers but better performance than a hyp=
+ervisor.
+
+http://blog.nigelpoulton.com/gvisor-containers/
+
+
+A handy reminder that there are several steps on the journey towards cloud=
+ native computing=2C and that starting with orchestration may not be the b=
+est idea.
+
+https://container-solutions.com/when-is-the-wrong-time-to-use-kubernetes/
+
+
+A presentation on the reality of complex distributed systems and the need=
+ to have a good strategy for testing in production.
+
+https://speakerdeck.com/charity/engineering-large-systems-when-youre-not-g=
+oogle-or-facebook-test-in-prod
+
+
+A comprehensive look at continuous delivery patterns for modern architectu=
+res=2C including architecture visibility and contract testing.
+
+https://www.slideshare.net/dbryant_uk/deliveragile-2018-continuous-deliver=
+y-patterns-for-modern-architectures
+
+
+A useful post for any application developers starting to run applications=
+ on Kubernetes. Focuses on commands around developer workflows like logs a=
+nd deployments.
+
+https://godaddy.github.io/2018/05/02/kubernetes-introduction-for-developer=
+s/
+
+
+Slides from one of the KubeCon keynote presentations about the tale of a m=
+odern system outage and the benefits of chaos engineering.
+
+https://speakerdeck.com/obeattie/anatomy-of-a-production-kubernetes-outage=
+-kubecon-eu-2018
+
+
+Jobs
+=3D=3D=3D=3D
+
+HelloFresh are looking for Senior DevOps Engineers to join our platform tr=
+ibe. Platform forms a stable and fresh environment for our talented teams=
+ of developers to thrive. As well as building a great foundation=2C it is=
+ also responsible for spreading its knowledge throughout the tribes=2C mak=
+ing sure everyone is taking advantage of the easy to use infrastructure=2C=
+ and applying the best practices when it comes to continuous delivery=2C c=
+ontainerization=2C performance=2C Security etc.
+
+* Deliver solid infrastructure as code by using automation tools such as T=
+erraform and Ansible
+* Build and maintain container clusters with Kubernetes
+* Optimize and improve our CI / CD workflow
+* Develop and support tools for infrastructure to be used by other enginee=
+rs
+* Design blueprints and support engineers to implement them
+* Mentoring / supporting engineers regarding tools=2C concepts and best pr=
+actices
+
+https://www.hellofresh.de/careers/listings/78142?team=3Dtech-7082
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+O'Reilly Velocity Conference | June 11-14 in San Jose=2C CA
+Come to Velocity to future-proof your systems=E2=80=94and yourself. We=E2=
+=80=99ll help you stay ahead of important trends in systems performance=2C=
+ microservices=2C containers=2C cloud infrastructure=2C security=2C and mo=
+re. You=E2=80=99ll learn the strategies and tools you need to make your sy=
+stems fast=2C resilient=2C and secure straight from industry leaders like=
+ Susan Fowler (Stripe)=2C Julia Grace (Slack)=2C Kyle Kingsbury (Jepsen)=
+=2C and more. Register today and save up to $519 using code DOW20!
+
+https://oreil.ly/2GZ2ysI
+
+
+Devops Days London is coming up on the 20th and 21st of September=2C and t=
+he CFP is currently open until June 13th for 30 minute sessions and 5 minu=
+te lightning talks.
+
+https://docs.google.com/forms/d/e/1FAIpQLSdGb7ZUaUpUiH8ObK2OUBfeueGSU7pKLk=
+ZB4RqMh9aeKxjoeg/viewform
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Ballerina is a new programming language where microservices=2C APIs=2C and=
+ streams are first-class constructs. It=E2=80=99s build system is also abl=
+e to generate Docker and Kubernetes artefacts directly.
+
+https://ballerina.io/
+
+
+GraalVM is a universal virtual machine for running applications written in=
+ a range of languages=2C from Java to Python=2C and C++ to Ruby. Some inte=
+resting interop opportunities and performance improvements.
+
+https://www.graalvm.org/
+
+
+Terratest is a new project for testing infrastructure. It provides a set o=
+f Go packages and several packages for Terraform=2C Docker=2C Packer=2C AW=
+S and more.
+
+https://blog.gruntwork.io/open-sourcing-terratest-a-swiss-army-knife-for-t=
+esting-infrastructure-code-5d883336fcd5
+https://github.com/gruntwork-io/terratest
+
+
+A useful set of Docker images which replicate the runtime environment of A=
+WS Lambda=2C ideal for both automated and manual testing.
+
+https://github.com/lambci/docker-lambda
+
+
+Architect is a high-level tool for building serverless applications=2C pro=
+viding a text based manifest file and some useful abstractions to keep you=
+ away from too many infrastructure implementation details.
+
+https://arc.codes/
+
+
+
+Devs=2C Ops=2C and IT teams are constantly working together to build quick=
+ly and remediate issues faster. Implementing the right tools for collabora=
+tion can be the difference between a good team and a great team:
+
+http://try.victorops.com/DevOpsWeekly/on-call-tools
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

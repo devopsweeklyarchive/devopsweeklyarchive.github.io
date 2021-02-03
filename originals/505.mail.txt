@@ -1,0 +1,127 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#505?=
+Date: Sun, 30 Aug 2020 09:46:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #505 - 30th August 2020
+
+Some good content on how we think about operations this week=2C with posts=
+ on legacy IT systems=2C problems with platform teams=2C SRE in different=
+ types of organisations=2C good and bad incident response and more.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Preview environments give you better control over your infrastructure and=
+ a more reliable deployment setup. Check out how to set them up with Terra=
+form.
+
+https://www.env0.com//l/devops-wap-blog
+
+About env0: use Terraform to let your team manage their own environments i=
+n AWS=2C Azure and Google. Governed by your policies and with complete vis=
+ibility & cost management.
+
+
+News
+=3D=3D=3D=3D
+
+A good post on the problems with the word automation when getting buy-in a=
+cross an organisation for change=2C and why perception is important.
+
+https://blogs.starcio.com/2020/08/avoid-calling-it-automation.html
+
+
+A look at the hidden world of legacy IT systems. Explores some notable inc=
+idents and the need for us to learn more about building systems that remai=
+n operable in the long term.
+
+https://spectrum.ieee.org/computing/it/inside-hidden-world-legacy-it-syste=
+ms
+
+
+A post on the risks of adding a catch-all platform team as you grow your o=
+rganisation and why evolving towards platform components and reuse can be=
+ more scalable.
+
+https://kislayverma.com/organizations/a-case-against-platform-teams/
+
+
+How different organisations apply SRE is either pragmatism or heresy=2C de=
+pending on your point of view. This post explores why the tension between=
+ the Google-envisaged application and other organisations.
+
+https://sdarchitect.blog/2020/02/20/you-dont-need-sre-what-you-need-is-sre=
+/
+
+
+A look at 5 large recent outages from different services=2C looking at wha=
+t they handled well during and after the incident. Lots of good observatio=
+ns.
+
+https://statusgator.com/blog/2020/08/21/5-biggest-outages-of-q2-2020/
+
+
+A good writeup of several of the sessions at the recent KubeCon event=2C i=
+ncluding lots of links and twitter threads from the keynotes and several o=
+ther talks.
+
+https://firehydrant.io/blog/kubecon-2020-europe-wrapup/
+
+
+The Tekton project (which provides a pipeline resource for Kubernete) has=
+ been maturing and is now launching a preview of Tekton Hub to make it eas=
+ier to find tasks and pipelines.
+
+https://cd.foundation/blog/2020/08/10/introducing-tekton-hub/
+
+
+A good reminder about the limits of containers as a security boundary=2C l=
+ooking at escaping from a container and how to secure the underlying Docke=
+r socket.
+
+https://www.redtimmy.com/docker/a-tale-of-escaping-a-hardened-docker-conta=
+iner/
+
+
+Open Policy Agent has mainly been associated with Kubernetes use cases=2C=
+ but it=E2=80=99s increasingly being used in other places too. This post e=
+xplores using it to test Terraform plans.
+
+https://medium.com/@azizzoaib/policy-as-code-using-conftest-for-terraform-=
+9b24921b2ad2
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Shameless plug. My employer=2C Snyk=2C is holding an online event about al=
+l things application security and devops on October 21st/22nd. Free to reg=
+ister and the CFP is open now.
+
+https://snyk.io/snykcon/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Werf is a tool designed to simplify and speed up the delivery of applicati=
+ons from Git. It will build Docker images and deploy to Kubernetes=2C and=
+ is designed to integrate with existing CI systems.
+
+https://github.com/werf/werf
+
+
+KubeCarrier is an open source project for managing applications and servic=
+es across multiple Kubernetes Clusters. The accompanying blog post explain=
+s the use case nicely and provides an introduction.
+
+https://www.kubermatic.com/blog/getting-started-with-kubecarrier
+https://github.com/kubermatic/kubecarrier
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

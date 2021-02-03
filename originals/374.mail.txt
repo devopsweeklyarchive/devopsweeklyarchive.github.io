@@ -1,0 +1,160 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#374?=
+Date: Sun, 25 Feb 2018 11:57:09 +0000
+
+DEVOPS WEEKLY
+ISSUE #374 - 25th February 2018
+
+Several good posts this week on the reality of organisational change; prac=
+tical tips for changing an IT organisation=2C getting developers on-call a=
+nd swarming as an approach to support. Plus posts on Kubernetes and Promet=
+heus and some interesting upcoming events to attend.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Speed up delivery with ongoing intelligence. Integrate the power of Splunk=
+ with VictorOps.
+
+http://try.victorops.com/DevOpsWeekly/Splunk
+
+
+News
+=3D=3D=3D=3D
+
+An excellent=2C and practical=2C post with tips on helping a team or organ=
+isation actually change its culture. Culture might be a central tenet of d=
+evops=2C but finding hands-on discussions can be challenging.
+
+https://zwischenzugs.com/2018/02/24/5-things-i-did-to-change-a-teams-cultu=
+re/
+
+
+It=E2=80=99s one thing to say developers should be on-call for their servi=
+ces=2C but how do you enact that change across a team that hasn=E2=80=99t=
+ worked in that way before? This post has some ideas and observations.
+
+https://thenewstack.io/advice-management-teams-enrolling-changes-on-call-s=
+ystems/
+
+
+I=E2=80=99d wager most support organisations=2C including development team=
+s=2C use a very traditional 3 tier support model. This post explains some=
+ of the weaknesses of that approach and explores an alternative; swarming.
+
+https://www.slideshare.net/JonHall7/configuration-management-camp-2018-the=
+-problem-of-becoming-3rd-line-support-and-why-swarming-is-a-better-alterna=
+tive-87302610
+
+
+An in-depth look at time-series data=2C and how you can use it across an o=
+rganisation rather than just as a detail for a monitoring system.
+
+http://blog.colinbreck.com/from-a-time-series-database-to-a-key-operationa=
+l-technology-for-the-enterprise-part-i/
+
+
+The operations side of serverless is still a new field I feel=2C one of th=
+e specific areas worthy of discussion is security. This post provides a go=
+od overview of the current state of affairs and challenges to overcome.
+
+https://www.infoq.com/articles/serverless-security
+
+
+A look at patterns for organising Terraform code=2C focused on building a=
+ workflow that can scale across teams and more complex organisations.
+
+https://www.contino.io/insights/a-model-for-scaling-terraform-workflows-in=
+-a-large-complex-organization
+
+
+A nice walkthrough of the Prometheus monitoring tool=2C with nice diagrams=
+ showing the basic architecture and instructions for how to install and co=
+nfigure it.
+
+https://kjanshair.github.io/2018/02/20/prometheus-monitoring/
+
+
+Kubernetes as a large number of concepts=2C at various levels of abstracti=
+on. Deployments sit fairly high in the stack=2C and this post explains whe=
+n and how they are used for gradual rollouts of containers.
+
+https://blog.heroku.com/dissecting-kubernetes-deployments
+
+
+Jobs
+=3D=3D=3D=3D
+
+We're hiring a Senior DevOps Engineer onsite here at HelloFresh in Berlin.=
+ Our ideal candidate is passionate about contributing to open source=2C ex=
+perienced in developing tools for engineers to consume and loves to automa=
+te things! You can get a taste of what we've been working on by checking o=
+ut our engineering blog linked below.
+
+If you love food and want to work for the fastest growing company in Europ=
+e then don't hesitate to apply! We'll support you with full relocation ass=
+istance to Berlin if needed.
+
+Engineering blog: https://engineering.hellofresh.com/
+Job description/application: http://grnh.se/5t6a3p1
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Taking Serverless and AI to the Next Level
+February 27=2C Online
+
+Joins us for an overview of serverless architectures and efforts to encour=
+age collaboration and portability through CNCF working groups.
+
+https://goo.gl/4s8yFk
+
+
+Free Webinar - Building Serverless Application Pipelines
+March 6=2C Online
+
+Join us to learn about several application use-cases that are driving the=
+ serverless movement how they can be developed and deployed on top of Kube=
+rnetes using an open source serverless solution called kubeless.
+
+https://goo.gl/H6vgnz
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+SCALE 16x (the Southern California Linux Expo) is back on March 8th to 11t=
+h with everything from capture the flag competitions=2C great speakers and=
+ a day for children interested in open source. The day after the event is=
+ Devops Days LA too. You can use the code DEVOP for a discount on the tick=
+et prices.
+
+http://www.socallinuxexpo.org
+http://devopsdays.org/events/2018-los-angeles/welcome/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Micrometer is an interesting project which provides a standard way of inst=
+rumenting your JVM-based application (think timers=2C gauges=2C counters o=
+r distribution summaries) and then late-binding to services like Prometheu=
+s=2C Netflix Atlas=2C CloudWatch=2C Datadog=2C Graphite=2C Ganglia=2C JMX=
+=2C Influx/Telegraf=2C StatsD=2C SignalFx=2C and Wavefront.
+
+http://micrometer.io/
+
+
+
+Speed up delivery with ongoing intelligence. Integrate the power of Splunk=
+ with VictorOps.
+
+http://try.victorops.com/DevOpsWeekly/Splunk
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

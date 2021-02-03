@@ -1,0 +1,160 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#336?=
+Date: Sun, 4 Jun 2017 09:57:02 +0000
+
+DEVOPS WEEKLY
+ISSUE #336 - 4th June 2017
+
+Two interesting posts this week on the art of cost control in cloud enviro=
+nments. This is particularly interesting coming from large organisations w=
+ith lots of existing hardware and processes around them I think. Plus the=
+ usual scattering of new tools=2C talk of chatops=2C discussion of change=
+ management and more.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Upcoming devops.com webinar: Top 10 Practices of Highly Successful DevOps=
+ Incident Management Teams. Learn more and register:
+
+http://try.victorops.com/devopsWeekly_IMWebinar
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Sprinting for Success: Digital Transformation through Agile and DevOps
+
+Check out this webcast replay to hear Nita Awatramani=2C Associate Directo=
+r at Verizon Enterprise Solutions=2C share how Verizon was able to streaml=
+ine operations=2C optimize business output and deliver more useful product=
+s faster to their consumers by using a DevOps approach. The results are am=
+azing!
+
+http://ow.ly/ooQd300TUwM
+
+
+News
+=3D=3D=3D=3D
+
+A great post on balancing cost controls in the cloud with flexibility of c=
+hoice for operators and developers. Some good points about collaboration w=
+ith finance teams too.
+
+https://techblog.expedia.com/2017/05/19/cloud-and-finance-lessons-learned/
+
+
+Another interesting post on cost control in a cloud environment=2C this on=
+e looking at talking Azure cost data into Prometheus for analysis.
+
+https://tech.blue-yonder.com/public-cloud-cost-control/
+https://github.com/blue-yonder/azure-cost-mon
+
+
+A solid argument against adopting microservices in most circumstances=2C l=
+ooking at difficulties with local development=2C scaling=2C performance an=
+d operational overhead.
+
+https://aadrake.com/posts/2017-05-20-enough-with-the-microservices.html
+
+
+An overview of a number of different modern database platforms=2C includin=
+g Aurora=2C CitusDB=2C CockroachDB=2C Spanner=2C Cosmos as well as MongoDB=
+ and Postgres.
+
+https://brandur.org/cloud-databases
+
+
+This post has a good list of the differences between how a traditional IT=
+ organisation might approach change management=2C and how it=E2=80=99s oft=
+en discussed in devops circles.
+
+http://www.itskeptic.org/content/change-goes-away
+
+
+An interesting set of posts looking at modern microservices architectures=
+ using Envoy and Istio.
+
+http://blog.christianposta.com/microservices/00-microservices-patterns-wit=
+h-envoy-proxy-series/
+
+
+A presentation on adopting ChatOps in a Windows environment=2C with a focu=
+s on building a chat interface to PowerShell scripts.
+
+https://www.youtube.com/watch?v=3DXIMOFnfdOx0
+
+
+A good post on the reality of migrating a large application to a cloud env=
+ironment=2C with lots of real-world examples of working through problems b=
+etween a cloud native world and a traditional environment.
+
+https://medium.com/capital-one-developers/moving-one-of-capital-ones-large=
+st-customer-facing-apps-to-aws-668d797af6fc
+
+
+Having a mental model of how complex systems work can be helpful when deve=
+loping for=2C or running=2C them. This post explains Kubernetes via the in=
+teractions between components rather than the components themselves.
+
+https://blog.heptio.com/core-kubernetes-jazz-improv-over-orchestration-a79=
+03ea92ca
+
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon / CloudNativeCon Austin - Join leading Kubernetes and Cloud Native=
+ technologists in Austin for a full range of technology sessions on the cl=
+oud native ecosystem.
+
+We sold out in Berlin and are excited to see thousands of you from the com=
+munity in Austin! Call for papers and registration information linked.
+
+https://goo.gl/yKCHvh
+
+
+Jobs
+=3D=3D=3D=3D
+
+Thousands of Jobs=2C One Application. Get Hired
+
+http://hrd.cm/2jHrf1B
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Draft is a new high-level tool for managing kubernetes applications=2C tar=
+geting the local development experience with packs for common development=
+ environments.
+
+https://github.com/Azure/draft
+
+
+An interesting approach to creating distroless container images=2C using B=
+azel to build a minimal base image and accompanying language runtime image=
+s for Java=2C Python and more.
+
+https://github.com/GoogleCloudPlatform/distroless
+
+
+K2 is a new tool for deploying a Kubernetes cluster on top of CoreOS using=
+ Terraform and Ansible under the hood.
+
+https://github.com/samsung-cnct/k2
+https://github.com/samsung-cnct/k2cli
+
+
+Upcoming devops.com webinar: Top 10 Practices of Highly Successful DevOps=
+ Incident Management Teams. Learn more and register:
+
+http://try.victorops.com/devopsWeekly_IMWebinar
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

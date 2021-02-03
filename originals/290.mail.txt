@@ -1,0 +1,174 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#290?=
+Date: Sun, 17 Jul 2016 11:37:01 +0000
+
+DEVOPS WEEKLY
+ISSUE #290 - 17th July 2016
+
+Hopefully something for everyone this week=2C or lots for people intereste=
+d in everything. From serverless and function-as-a-service tools and discu=
+ssions to the importance of well-maintained QA environments and the basics=
+ of SQL. Plus container adoption stories and devops in the enterprise. Phe=
+w.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Downtime is expensive - in more ways that one. Learn the costs of downtime=
+ and how to minimize them in the new eBook from VictorOps=2C =E2=80=9CMaki=
+ng the Case for Real-Time Incident Management.=E2=80=9D
+
+http://try.victorops.com/downtimedata/devopsweekly
+
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Verizon=E2=80=99s DevOps Transformation [webcast replay]
+
+Check out this webcast replay to hear Nita Awatramani=2C Associate Directo=
+r at Verizon Enterprise Solutions=2C share how Verizon was able to streaml=
+ine operations=2C optimize business output and deliver more useful product=
+s faster to their consumers by using a DevOps approach. The results are am=
+azing!
+
+http://ow.ly/ooQd300TUwM
+
+
+News
+=3D=3D=3D=3D
+
+An interesting opinion about improving the state of software security=2C b=
+y taking influences from the evolution of testing and software quality ove=
+r the past 10+ years.
+
+https://medium.com/@moshjeier/software-security-does-quality-provide-a-blu=
+eprint-for-change-252691df1b3#.t7lvlo37o
+
+
+It=E2=80=99s common to have some sort of intermediary QA environment for v=
+arious forms of testing. It=E2=80=99s also too common for that environment=
+ to be poorly maintained and often to make it slow to get changes into pro=
+duction safely. Some tips to fix the impasse.
+
+http://www.michaelnygard.com/blog/2016/07/qa-instability-implies-productio=
+n-instability/
+
+
+An interesting case-study of one large retailers devops transformation eff=
+orts. Some good points about optimising the hiring process and about initi=
+al missteps.
+
+http://www.v3.co.uk/v3-uk/analysis/2464611/sainsburys-devops-revolution-cu=
+ts-upfront-capital-costs-and-lead-times-for-new-services
+
+
+A detailed look at what we mean by Serverless. Includes some of the pros a=
+nd cons=2C impact on operations=2C examples of emerging architectures and=
+ more.
+
+http://martinfowler.com/articles/serverless.html
+
+
+A nice practical container adoption story=2C focused on the benefits of a=
+ single deployment artefact and eschewing introducing a scheduler.
+
+https://gocardless.com/blog/from-idea-to-reality-containers-in-production-=
+at-gocardless/
+
+
+Another practical container story=2C this time in a much larger enterprise=
+ organisation which chose to use Puppet along with Docker UCP to build and=
+ manage a container platform.
+
+https://scottydoesntknow.io/building-a-caas-for-the-enterprise-part-1/
+
+
+A good list of the good=2C bad and ugly when it comes to adopting a platfo=
+rm (or indeed container) as a service. Everything from issues with network=
+ing and metrics to the advantages of consistency.
+
+https://sysdig.com/blog/deploying-private-paas-good-meh-aw-crap/
+
+
+SQL is pretty amazing=2C but can be hard to get your head around more than=
+ just the basics. This post provides a great beginners guide to the import=
+ant concepts.
+
+http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/
+
+
+A great review of the recent Realtime Data Processing at Facebook paper. T=
+he paper covers the variety of different tools used and build for realtime=
+ data analytics and introduces 5 design decisions for anyone building simi=
+lar systems.
+
+
+https://blog.acolyer.org/2016/07/11/realtime-data-processing-at-facebook/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Vrtigo is a VR analytics company looking for talented data and infrastruct=
+ure engineers.  We're a funded startup in downtown SF backed by Samsung=2C=
+ the leader in VR headset shipments.  You'll help build and maintain our d=
+ata pipeline using technologies like Kafka=2C Spark=2C and Cassandra=2C an=
+d container schedulers like Mesosphere and Kubernetes. There's also a heal=
+thy amount of Golang and some dabbling in the latest VR development enviro=
+nments.  Join us if you want to change the way VR experiences are created.
+
+http://vrtigo.io/careers
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Sanctuary is a handy tool for launching a Vault instance in AWS. It provid=
+es a simple tool which configures AWS services like S3 (for logs)=2C Dynam=
+oDB (for secrets) and a VPC network=2C along with certs from letsencrypt.
+
+https://www.drud.com/sanctuary-a-turn-key-vault-in-the-cloud/
+
+
+LeverOS is an open source serverless (or function-as-a-service) platform.=
+ Functions are written in Javascript and uploaded by the included tools=2C=
+ and can then be executed using the same tool or via an HTTP API.
+
+https://github.com/leveros/leveros
+
+
+If you=E2=80=99re seriously using AWS you often end up with multiple crede=
+ntials to manage=2C whether for multiple accounts of IAM profiles. Enter A=
+SAM=2C which provides a handy utility to switch between accounts=2C as wel=
+l as helpers for ssh and scp.
+
+https://github.com/mheffner/awsam
+
+
+A nifty way of assigning IAM credentials to individual docker containers r=
+ather than to hosts. Involves some iptables hackery but useful for some us=
+ecases.
+
+https://github.com/swipely/iam-docker
+
+
+Kong is an interesting looking proxy built atop Nginx=2C but exposing conf=
+iguration via a simple HTTP API and allowing for a set of pre-existing plu=
+gins to be added to individual routes.
+
+https://getkong.org/
+
+
+Downtime is expensive - in more ways that one. Learn the costs of downtime=
+ and how to minimize them in the new eBook from VictorOps=2C =E2=80=9CMaki=
+ng the Case for Real-Time Incident Management.=E2=80=9D
+
+http://try.victorops.com/downtimedata/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,157 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#407?=
+Date: Sun, 14 Oct 2018 09:19:19 +0000
+
+DEVOPS WEEKLY
+ISSUE #407 - 14th October 2018
+
+A few posts this week around process=2C both looking at working in a blame=
+less culture=2C combining documentation needs and chatops and how to get t=
+he best out of a pull-request based workflow. Plus a few serverless posts=
+ and new tooling for Kubernetes users.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+DevOps adoption increases every day. So=2C we researched some of the bigge=
+st changes and trends to better define what =E2=80=9CDevOps=E2=80=9D truly=
+ means in 2018=E2=80=93check it out here:
+
+http://try.victorops.com/devopsweekly/myths-and-fallacies-of-devops
+
+
+News
+=3D=3D=3D=3D
+
+A post on the importance of confidence=2C and how a blameless culture maxi=
+mises for learning.
+
+https://medium.com/bench-engineering/breaking-good-55fed1d81aac
+
+
+An interesting approach to documenting a tool=2C focused on usage snippets=
+ and exposing both the authoring and reading in the context of chat.
+
+https://codeascraft.com/2018/10/10/etsys-experiment-with-immutable-documen=
+tation/
+
+
+This post focuses on serverless from the business angle=2C not just lookin=
+g at the economics of running serverless applications but also at the deve=
+lopment efficiencies related to managed services.
+
+https://www.trek10.com/blog/business-case-for-serverless/
+
+
+A round up of the recent Chaos Engineering conference=2C with notes from t=
+he talks on everything from containers to observability to different facet=
+s of chaos engineering and testing.
+
+https://hub.packtpub.com/chaos-conf-2018-recap-chaos-engineering-hits-matu=
+rity-as-community-moves-towards-controlled-experimentation/
+
+
+A simple run down of what makes serverless environments different=2C touch=
+ing on frameworks=2C database and storage as a service=2C logging and metr=
+ics and a few other areas which see the most change.
+
+https://speakerdeck.com/jthomas/serverless-the-missing-manual
+
+
+This post focuses on AWS=2C but is pretty relevant to any conversation whe=
+re you are naming a new tool or product. Some good tips on areas to avoid=
+=2C with examples from the ever-increasing AWS portfolio.
+
+https://read.acloud.guru/dear-aws-we-need-to-talk-about-service-naming-d33=
+ea68027d8
+
+
+Pull request based workflows are common for lots of development teams. Thi=
+s post provides some tips for making that work=2C focusing on the unit of=
+ work=2C testing=2C clean code=2C commit messages and more.
+
+https://buttercms.com/blog/5-things-your-team-should-do-to-make-pull-reque=
+sts-less-painful
+
+
+A trick for authoring Makefiles with built-in documentation=2C using only=
+ comments in the Makefile and awk.
+
+https://suva.sh/posts/well-documented-makefiles/
+
+
+
+Hyperledger =E2=80=93 Open Source Blockchain Technologies
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Join us at Hyperledger Global Forum taking place in Basel=2C Switzerland f=
+rom December 12-15=2C 2018 and increase your blockchain developer skills!=
+ Whether you=E2=80=99re already developing on Hyperledger technologies or=
+ just getting started=2C there=E2=80=99s a workshop for everyone. Register=
+ by November 25 and save up to $150!
+
+http://bit.ly/2IXbbpv
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Last chance: Grab your Velocity ticket before they sell out!
+The O'Reilly Velocity Conference (30 Oct - 2 Nov in London) is just around=
+ the corner=2C but there's still time for you to save your spot for intera=
+ctive training in essential topics like Kubernetes=2C DevOps=2C SRE=2C ser=
+verless=2C and more. For just =C2=A399=2C the Pavilion Plus Pass grants yo=
+u access to all keynotes and sponsored sessions=2C all evening events and=
+ other casual discussion spaces at the conference=2C and of course=2C the=
+ Sponsor Pavilion to learn about the latest technology products and servic=
+es. What's the catch? There are only 100 Velocity Pavilion Plus Passes ava=
+ilable. Grab yours now before they sell out:
+
+https://oreil.ly/2NGuXed
+
+
+Devopsdays NYC is coming up next year=2C January 24th and 25th to be preci=
+se. The CFP is open now but closes on the 30th of October. The organisers=
+ are looking for 30 minute presentations and 5 minute ignite talks and hav=
+e some suggestions for interesting topics.
+
+https://www.papercall.io/dodnyc2019
+
+
+Tools
+=3D=3D=3D=3D
+
+Sourcegraph is a powerful tool for analyzing and searching across multiple=
+ codebases. It=E2=80=99s able to analyze the code and then allow navigatio=
+n between codebases=2C for instance following the implementation of a give=
+n library in another codebase.
+
+https://github.com/sourcegraph/sourcegraph
+
+
+The AWS Service Operator provides a CRD interface to AWS infrastructure=2C=
+ so you can now provision and manage various AWS services directly via the=
+ Kubernetes API.
+
+https://github.com/awslabs/aws-service-operator
+
+
+Kube Score is a handy tool for analysing Kubernetes config files and nudgi=
+ng you towards best practices. Handy locally or in a CI system.
+
+https://github.com/zegl/kube-score
+
+
+
+DevOps adoption increases every day. So=2C we researched some of the bigge=
+st changes and trends to better define what =E2=80=9CDevOps=E2=80=9D truly=
+ means in 2018=E2=80=93check it out here:
+
+http://try.victorops.com/devopsweekly/myths-and-fallacies-of-devops
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

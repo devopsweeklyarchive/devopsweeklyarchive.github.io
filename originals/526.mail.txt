@@ -1,0 +1,110 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#526?=
+Date: Sun, 24 Jan 2021 10:43:54 +0000
+
+DEVOPS WEEKLY
+ISSUE #526 - 24th January 2021
+
+Cost-per-performance for ARM servers=2C a maturity model for security and=
+ development team=2C web performance and tools for discovering open policy=
+ agent policies=2C migrating workloads to Kubernetes and more.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Big News Alert! Introducing remote-run support for Terragrunt workflows=2C=
+ now available in env0!
+
+https://www.env0.com/blog/terragrunt-release
+
+About env0: use Infrastructure as Code to let your team manage their own e=
+nvironments across clouds. Governed by your policies and with complete vis=
+ibility & cost management.
+
+
+News
+=3D=3D=3D=3D
+
+A post on the evolution of the relationship between development and securi=
+ty teams=2C proposing 4 levels of maturity.
+
+https://r2c.dev/blog/2021/four-levels-of-maturity-that-bridge-the-app-sec-=
+engineering-divide/
+
+
+There are lots of interesting things about the rise of ARM for server work=
+loads=2C but one that will likely drive adoption is price/performance. Thi=
+s post looks at a series of PostgreSQL benchmarks.
+
+https://www.percona.com/blog/2021/01/22/postgresql-on-arm-based-aws-ec2-in=
+stances-is-it-any-good/
+
+
+A good web performance case study=2C with lots of examples=2C discussion o=
+f tools=2C code samples and improvements made.
+
+https://www.smashingmagazine.com/2021/01/smashingmag-performance-case-stud=
+y/
+
+
+Rust is picking up lots of interest recently=2C especially for systems wor=
+k or low-level CLI tooling. But it might not be suitable=2C as a language=
+ or an ecosystem=2C yet for higher-level work like web development and API=
+s.
+
+https://macwright.com/2021/01/15/rust.html
+
+
+Lots of software benefits from a custom installer=2C but what makes for a=
+ good user experience for this kind of software? This post shares some tho=
+ughts and examples.
+
+https://banzaicloud.com/blog/declarative-installer/
+
+
+I think we=E2=80=99re starting to see a new rise of distributions=2C sever=
+al related tools that solve a larger problem when combined together. Konve=
+yor is a new project focused on migration=2C with tools for moving between=
+ and to Kubernetes=2C moving virtual machines and more.
+
+https://konveyor.io
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Web Assembly is a low level technology which is likely to have wide rangin=
+g influence. A good example of the kinds of innovation it makes possible a=
+re things like Artichoke=2C a new Ruby language which compiles to a WASM b=
+inary.
+
+https://www.artichokeruby.org
+https://github.com/artichoke/artichoke
+
+
+PolicyHub CLI is a CLI tool that provides a simple discovery engine for fi=
+nding useful Rego policies for Open Policy Agent.
+
+https://github.com/policy-hub/policy-hub-cli
+
+
+Cinc is a community project to build a free distribution of the Chef softw=
+are stack (currently including the Infra=2C Workstation and Inspec tools)=
+=2C released under an Apache 2.0 license.
+
+https://cinc.sh
+
+
+Biome is a community distribution of Chef Habitat released under the Apach=
+e 2.0 license.
+
+https://biome.sh/en/
+https://github.com/biome-sh
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

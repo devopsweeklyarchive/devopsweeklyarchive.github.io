@@ -1,0 +1,153 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#272?=
+Date: Sun, 13 Mar 2016 12:08:21 +0000
+
+DEVOPS WEEKLY
+ISSUE #272 - 13th March 2016
+
+Production systems=2C service management=2C security=2C vendor selection=
+=2C monitoring=2C deployment. Hopefully a little something for everyone th=
+is week.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] The Art of DevOps
+
+Inspired by the famous 6th century Chinese manuscript: The Art of War=2C t=
+his eBook discusses DevOps in the form of a mission to continuously delive=
+r assets to the operational battlegrounds safely=2C securely=2C and quickl=
+y.
+
+http://ow.ly/U3Jlm
+
+
+News
+=3D=3D=3D=3D
+
+An excellent write up of a Devops flavoured event at the RSA security conf=
+erence. Lots of links to the presentations at the conference=2C as well as=
+ takeaways including the potential of compliance as code and applying lean=
+ to security processes.
+
+https://labs.signalsciences.com/a-recap-of-devops-connect-rugged-devops-at=
+-rsac-2016-16c2f3b69e#.494vkk8yl
+
+
+A good collection of options on whether ITIL and DevOps are compatible? A=
+ useful introduction to set that scene as well.
+
+https://purplegriffon.com/blog/is-itil-agile-enough
+
+
+With everything from immutable infrastructure to containers and languages=
+ like go and rust=2C the build process is increasingly critical. This post=
+ delves into how Netflix treat the build pipeline.
+
+http://techblog.netflix.com/2016/03/how-we-build-code-at-netflix.html
+
+
+A detailed look at why one organisation chose GCE over AWS. Focuses on the=
+ core technology as well as looking at wider industry trends and future mo=
+vements.
+
+https://quizlet.com/blog/whats-the-best-cloud-probably-gcp
+
+
+A useful post on the confusion between the different roles of alerts and d=
+ashboards in monitoring. Discussion of two common mistakes and how to avoi=
+d them.
+
+http://kbrandt.com/post/alert_status/
+
+
+A good exploration of deployment in a cloud environment=2C in particular l=
+ooking at the advantage of having a single way of making changes and explo=
+ring different concepts which underpin some of the common deployment imple=
+mentations.
+
+https://medium.com/build-acl/modern-cloud-infrastructure-concepts-definiti=
+ons-841291511c47#.29ytm9uf8
+
+
+A nice reminder that=2C even if the default settings take security into co=
+nsideration=2C common user behaviours can undermine those. The example giv=
+en is of the dangers of mounting the Docker socket into containers.
+
+https://raesene.github.io/blog/2016/03/06/The-Dangers-Of-Docker.sock/
+
+
+Some good tips for running elasticsearch in production. Optimizing HEAP=2C=
+ documentation=2C threadpools=2C underlying storage and more.
+
+https://tech.scrunch.com/blog/lessons-learned-from-a-year-of-running-elast=
+icsearch-in-production/
+
+
+A summary of the first day of last week=E2=80=99s KubeCon conference in Lo=
+ndon=2C talking about all things Kubernetes.
+
+http://livewyer.com/blog/2016/03/10/kubecon-eu-day-1-summary
+
+
+Jobs
+=3D=3D=3D=3D
+
+Rally Health is looking for someone to join our team in DC=2C Chicago=2C o=
+r SF to make our systems more stable=2C secure=2C and performant. We are a=
+ profitable startup that improves our users' health and quality of life=2C=
+ at scale=2C with millions of users currently reachable by our platform. T=
+echnology chasers need not apply; risk-aware=2C scrappy folks are especial=
+ly welcomed.
+
+https://www.linkedin.com/jobs2/cap/view/108995626?pathWildcard=3D108995626=
+&trk=3Djob_capjs
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The dotScale conference combines talks on Scalability=2C DevOps and Distri=
+buted Systems and is taking place in Paris on April 25th. The organisers a=
+re offering readers a 30% discount too with the code DEVOPSWEEKLY.
+
+https://dotscale2016.eventbrite.com/?discount=3DDEVOPSWEEKLY.
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Juttle is described as a dataflow programming language. Along with the lan=
+guage are an entire ecosystem of tools for using it to interpret data from=
+ graphite=2C elasticsearch=2C slack=2C AWS=2C various databases and more.=
+ Interesting to see more examples of how this fits into a monitoring setup=
+=2E
+
+https://github.com/juttle/juttle
+https://github.com/juttle/juttle-engine
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,153 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#264?=
+Date: Sun, 24 Jan 2016 11:05:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #264 - 24th January 2015
+
+Next weekend is FOSDEM which means a explosion of related events in and ar=
+ound Belgium. As well as the main conference I=E2=80=99m aware of the FLOS=
+S Community Metrics meetup=2C the CentOS dojo=2C Monkigras in London and C=
+onfiguration Management Camp in Gent to name a few. Hopefully meet some re=
+aders there.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[OnDemand Webinar] DevOps from Adoption to Performance featuring Gene Kim
+
+DevOps isn=E2=80=99t just for the =E2=80=9CUnicorns.=E2=80=9D Join us as G=
+ene Kim explains how you can replicate the DevOps practices & successes of=
+ the so-called =E2=80=9CUnicorns.=E2=80=9D Discover the lessons he=E2=80=
+=99s learned from studying these companies and how you can apply them at y=
+our company!
+
+http://ow.ly/U3Kbj
+
+
+News
+=3D=3D=3D=3D
+
+An example of how recent research into failure modes in distributed system=
+s can help automate the detection of problems=2C even in the largest syste=
+ms.
+
+http://techblog.netflix.com/2016/01/automated-failure-testing.html
+
+
+The history of how Devops became a thing often starts with Devopsdays=2C b=
+ecause that=E2=80=99s where the word originates. But the ideas of agile sy=
+stems administration had been around longer. An interesting post from back=
+ in 2001.
+
+http://nextgendevops.com/2015/10/18/extreme-systems-administration/
+
+
+Some interesting ideas about a new configuration management tool. mgmt foc=
+uses on allowing for parallel execution=2C reacting to systems events and=
+ using a distributed architecture under the hood.
+
+https://ttboj.wordpress.com/2016/01/18/next-generation-configuration-mgmt/
+
+
+A quick overview of the state of the LibCloud project=2C also contains som=
+e observations relevant to anyone interesting in multi-vendor cloud abstra=
+ctions.
+
+http://www.slideshare.net/AnthonyShaw5/apache-libcloud-keeping-up-with-the=
+-cloud-market-in-2016
+
+
+A nice detailed look at using Chef Vault to store secrets for your Chef in=
+stallation. Good diagrams explain the theory and then into code showing ho=
+w to use it in your recipes.
+
+https://www.chef.io/blog/2016/01/21/chef-vault-what-is-it-and-what-can-it-=
+do-for-you/
+
+
+Interesting article looking at configuration as a service. Specifically ex=
+posing an API to drive some system configuration=2C allowing the managemen=
+t of that configuration to be pushed down to the teams building the variou=
+s components.
+
+http://codevoyagers.com/2016/01/08/configuration-as-a-service/
+
+
+Whether you like the use of Devops in job titles or not discussing skills=
+ and career paths for people interesting in the area is useful. This post=
+ does just that=2C with recommendations for things to learn around program=
+ming and systems administration
+
+http://brassy.net/articles/getting-in-to-devops/
+
+
+A familiar discussion of how bringing operational issues into focus earlie=
+r in a development lifecycle can make things easier. Some interesting poin=
+ts about how the move to cloud computing can act as a forcing function or=
+ opportunity to adopt devops practices.
+
+https://medium.com/@drew.firment/devops-shift-left-or-be-left-out-6b2755bd=
+7ee9#.ftf7da2az
+
+
+Some discussion and a recorded talk focusing on the increasing role of ano=
+maly detection in monitoring systems.
+
+http://www.coscale.com/blog/anomaly-detection-for-monitoring-web-performan=
+ce-does-it-do-what-it-says-on-the-box
+
+
+Versioning is a surprisingly tricky topic so any writing on it is a good t=
+hing in my view. This post looks at why using semantic versioning might no=
+t be suitable for some software=2C in particular for the main thing you re=
+lease to end users.
+
+https://davehall.com.au/blog/dave/2016/01/19/internal-applications-when-se=
+mantic-versioning-doesnt-make-sense
+
+
+Jobs
+=3D=3D=3D=3D
+
+Is Chef more to you than a character on South Park? Find new DevOps opport=
+unities on Hired.
+
+http://hrd.cm/1Ln3YwY
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+The debate about init systems and PID 1 inside a container has spawned a n=
+umber of projects. S6 overlay looks particularly interesting=2C and makes=
+ some good arguments about why one thing=2C rather than one process=2C per=
+ container is a useful distinction.
+
+https://github.com/just-containers/s6-overlay
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

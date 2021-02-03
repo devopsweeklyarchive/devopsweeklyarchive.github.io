@@ -1,0 +1,135 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#396?=
+Date: Sun, 29 Jul 2018 08:52:27 +0000
+
+DEVOPS WEEKLY
+ISSUE #396 - 29th July 2018
+
+A few posts this week this an academic flavour; a survey looking into cont=
+inuous integration practices and a collection of papers and research aroun=
+d resilience engineering. One of the things I=E2=80=99ve definitely noted=
+ over the years I=E2=80=99ve been curating the newsletter is the continued=
+ interest in devops topics in the academic community. It=E2=80=99s interes=
+ting and much appreciated.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+DevOps and SRE are a behavior=2C not a dedicated role. See how you can bui=
+ld a culture of collaboration and reliability by hiring the right people t=
+o cultivate an efficient=2C open environment.
+
+http://try.victorops.com/devopsweekly/devops-sre-hiring
+
+
+News
+=3D=3D=3D=3D
+
+Docker images make use of some file system tricks to optimise storage and=
+ build caching. This post explores how union filesystems work under the ho=
+od.
+
+https://terriblecode.com/blog/how-docker-images-work-union-file-systems-fo=
+r-dummies/
+
+
+Continuous integration is a common practice=2C but I=E2=80=99ve not seen m=
+uch research about how people actually adopt it. This survey=2C part of re=
+search from the University of Sannio and the University of Zurich=2C is lo=
+oking to gather data on the subject..
+
+https://www.surveygizmo.com/s3/4485492/CI-Anti-Pattern-Detection
+
+
+A good collection of research=2C talks and papers on the field of resilien=
+ce engineering.
+
+https://github.com/adaptivecapacitylabs/Resilience-Engineering-Resources
+
+
+Google announced Knative last week at Google Next=2C a toolkit for more op=
+inionated application and function-based workflows on top of Kubernetes. S=
+till early but some interesting components.
+
+https://m.chmarny.com/build-deploy-manage-modern-serverless-workloads-usin=
+g-knative-on-kubernetes-180c1a55e1b5
+
+
+The story of an evolution of a monitoring system=2C from Nagios and static=
+ checks to Prometheus and dynamic discovery of services.
+
+https://medium.com/thousandeyes-engineering/evolution-of-infrastructure-mo=
+nitoring-at-thousandeyes-engineering-be1c343881a7
+
+
+A roundup of a recent survey looking at the adoption of serverless technol=
+ogies. Some sample bias=2C but interesting data on language usage and prio=
+r experience with public cloud environments.
+
+https://serverless.com/blog/2018-serverless-community-survey-huge-growth-u=
+sage/
+
+
+A presentation with a good introduction to integration testing infrastruct=
+ure with Test Kitchen.
+
+https://www.slideshare.net/nathenharvey/introduction-to-test-kitchen
+
+
+Two comprehensive blog posts on building an open source security toolchain=
+ for containers. Looking at both runtime scanning and image analysis using=
+ Sysdig Falco. Anchore and Jenkins.
+
+https://sysdig.com/blog/oss-container-security-runtime/
+https://sysdig.com/blog/container-security-docker-image-scanning/
+
+
+There are a large number of core concepts in Kubernetes=2C from Pods and S=
+ervices to Ingress and ConfigMaps. This blog post is a good primer for any=
+one just getting up to speed.
+
+https://medium.com/yld-engineering-blog/kubernetes-core-concepts-324ea7028=
+c29
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DevOps at Open Source Summit | August 29-31=2C Vancouver=2C BC
+
+Open Source Summit kicks off in Vancouver=2C BC in less than a month! Join=
+ your DevOps peers to network and collaborate=2C or get a deep-dive on how=
+ to migrate legacy infrastructure=2C integrate the latest tools=2C or how=
+ to efficiently manage environments. With 250+ sessions=2C tutorials=2C la=
+bs=2C workshops=2C and more=2C this is THE premier open source event of th=
+e year where you=E2=80=99ll have the chance to learn about cutting-edge ad=
+vances.
+
+View the full schedule=2C and save 15% with discount code OSSDEVOPS15.
+
+http://bit.ly/open-source-summit-2018
+
+
+Tools
+=3D=3D=3D=3D
+
+Pulumi is a new multi-language=2C multi-cloud development platform. You ca=
+n write code in Go=2C Javascript=2C Python or Typescript against APIs whic=
+h support provisioning everything from instances to serverless functions o=
+n the main public clouds.
+
+https://pulumi.io/
+https://github.com/pulumi
+
+
+DevOps and SRE are a behavior=2C not a dedicated role. See how you can bui=
+ld a culture of collaboration and reliability by hiring the right people t=
+o cultivate an efficient=2C open environment.
+
+http://try.victorops.com/devopsweekly/devops-sre-hiring
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

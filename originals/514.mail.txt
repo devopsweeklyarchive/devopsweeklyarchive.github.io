@@ -1,0 +1,114 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#514?=
+Date: Sun,  1 Nov 2020 11:10:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #514 - 1st November 2020
+
+>From automation to the need to help executives understand some of the tech=
+nical aspects of digital transformation=2C and from stories of operational=
+ incidents to interesting new build and tracing tools.
+
+
+Env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+env0 lets your entire team manage their own cloud environments=2C governed=
+ by your policies and templates. Now manage your users even easier with Te=
+ams and RBAC.
+
+http://env0.com/l/devops-teams-launch
+
+
+News
+=3D=3D=3D=3D
+
+A fun set of 10 short stories highlighting the reality to production incid=
+ents.
+
+https://launchdarkly.com/blog/10-days-of-errors/
+
+
+Digital transformation is increasingly a strategic priority for all large=
+ organisations. That means it=E2=80=99s important for business executives=
+ to be familiar with the need to modernise applications and platforms.
+
+https://tanzu.vmware.com/content/blog/app-modernization-101
+
+
+Pulumi allows for defining infrastructure using general purpose programmin=
+g languages. With the new automation API=2C it=E2=80=99s now possible to e=
+mbed this capability in other programs=2C with initial support for Typescr=
+ipt and Go.
+
+https://www.pulumi.com/blog/automation-api/
+
+
+A quick case study of operating a large multi-tenant Kubernetes cluster in=
+ the public cloud. Covers provisioning=2C management=2C visibility and mor=
+e important operations challenges.
+
+https://vmblog.com/archive/2020/10/30/how-salesforce-operates-kubernetes-m=
+ultitenant-clusters-in-public-cloud-at-scale.aspx
+
+
+The term cloud native has become increasingly prevalent. This post talks a=
+bout why=2C and breaks down several tooling areas to focus on.
+
+https://codersociety.com/blog/articles/cloud-native-tools
+
+
+Both microservice and serverless architectures push for smaller units of e=
+xecution=2C this post looks at the differences between the two.
+
+https://talkingserverless.com/2020/10/27/microservices-serverless-function=
+s-the-difference/
+
+
+Events
+=3D=3D=3D=3D=3D=3D=3D
+
+WTF Are Microservices? Join Sam Newman=2C author of Monolith to Microservi=
+ces=2C on 5 November at 11:30 CET for a 90-minute crash course in microser=
+vices architecture: WTF it is=2C but also when you should and shouldn=E2=
+=80=99t use it. Register now
+
+https://bit.ly/3e1WS27
+
+
+WTF Is Cloud Native? It=E2=80=99s blogs=2C videos=2C events=2C and more=2C=
+ about an ever-changing world of strategy=2C culture=2C technology=2C and=
+ more=2C brought to you by Container Solutions. Let=E2=80=99s f*#king do t=
+his! Subscribe to the newsletter.
+
+https://bit.ly/34vtiiz
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Earthly is an interesting new build tool focused on repeatable builds. It=
+ combines Dockerfile and Make and makes it easier to run isolated tests an=
+d other commands.
+
+https://www.earthly.dev/
+https://github.com/earthly/earthly
+
+
+Tempo is an easy-to-use and high-scale distributed tracing backend. Tempo=
+ is integrated with cloud-based object storage and can be used with a vari=
+ety of tracing protocols=2C including Jaeger=2C Zipkin and OpenTelemetry.
+
+https://github.com/grafana/tempo
+
+
+Ripgrep is a local code search tool that=E2=80=99s optimised for performan=
+ce and nicely integrates with other developer tools like gitignore files.
+
+https://github.com/BurntSushi/ripgrep
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

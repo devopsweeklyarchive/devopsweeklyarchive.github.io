@@ -1,0 +1,121 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#387?=
+Date: Sun, 27 May 2018 11:40:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #387 - 27th May 2018
+
+A range of content this week on cost-reduction for Kubernetes clusters=2C=
+ devops influenced software development lifecycle=2C some devops history=
+=2C testing serverless applications and tips for data-driven post-mortems.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Embrace a DevOps culture of SRE and continuous deployment. Build reliabili=
+ty by establishing a system for constant reevaluation of technology=2C pro=
+cesses=2C and people.
+
+http://try.victorops.com/DevOpsWeekly/SRE-book
+
+
+News
+=3D=3D=3D=3D
+
+An excellent post on the developer experience of testing serverless functi=
+ons locally=2C looking at a real world example and demonstrating the AWS S=
+erverless Application Model.
+
+https://joaorosa.io/2018/05/21/life-of-a-c-developer-how-to-build-and-test=
+-an-aws-lambda-locally/
+
+
+A detailed look at how Netflix structure their development teams and imple=
+ment a software delivery lifecycle. Good discussion of trade-offs and adva=
+ntages with developers operating their own services in production.
+
+https://medium.com/netflix-techblog/full-cycle-developers-at-netflix-a08c3=
+1f83249
+
+
+Slides from my talk at Agile Portugal last week=2C a bit of history of the=
+ devops movement as well as an overview of topics being discussed in the c=
+ommunity now and (maybe) next.
+
+https://speakerdeck.com/garethr/devops-the-continuing-evolution-of-operati=
+ons
+
+
+A post on one of the challenges facing the Kubernetes community=2C that of=
+ complexity=2C and more interestingly where the end-user experience should=
+ lie.
+
+https://www.influxdata.com/blog/will-kubernetes-collapse-under-the-weight-=
+of-its-complexity/
+
+
+By making deployment and other systems administration tasks easier the con=
+versation about what is left for operators sometimes comes up. This post e=
+xplores the question and makes several good points.
+
+https://www.rundeck.com/blog/reports-of-the-impending-demise-of-ops-are-gr=
+eatly-exaggerated
+
+
+A nice workflow for packaging up tools as docker images=2C in this case to=
+ use them on Windows via NPM tasks.
+
+https://blog.stephencleary.com/2018/05/docker-as-a-tool-provider.html
+
+
+Good tips for reducing the cost of running Kubernetes clusters=2C some AWS=
+ specifics. Covers choosing the correct instance size and type as well as=
+ looking at vertical and horizontal autoscalers.
+
+https://medium.com/@dyachuk/why-do-kubernetes-clusters-in-aws-cost-more-th=
+an-they-should-fa510c1964c6
+
+
+A presentation containing some tips for running data-driven post mortems f=
+or incidents=2C including a full example of a real-world incident.
+
+https://drive.google.com/file/d/1i7hrTGtk_abE1-L68Mr6VH5V6LwjQuYD/view
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+O'Reilly Velocity Conference | June 11-14 in San Jose=2C CA
+Velocity is just two weeks away! Don't miss your chance to get practical t=
+raining in microservices=2C cloud migration=2C container orchestration=2C=
+ DevOps=2C performance=2C security=2C and much more. Check out the full pr=
+ogram to see how we can help you make your systems fast=2C reliable=2C and=
+ secure. Passes start at $199. Register today and save 20% on your Gold=2C=
+ Silver=2C or Bronze pass using code DOW20!
+
+https://oreil.ly/2GZ2ysI
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A handy tool for forensic analysis of Docker containers. Docker Explorer p=
+rovides utilities for exploring the layered file system at different point=
+s.
+
+https://github.com/google/docker-explorer/
+
+
+
+Embrace a DevOps culture of SRE and continuous deployment. Build reliabili=
+ty by establishing a system for constant reevaluation of technology=2C pro=
+cesses=2C and people.
+
+http://try.victorops.com/DevOpsWeekly/SRE-book
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

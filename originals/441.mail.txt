@@ -1,0 +1,158 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#441?=
+Date: Sun,  9 Jun 2019 10:57:36 +0000
+
+DEVOPS WEEKLY
+ISSUE #441 - 9th June 2019
+
+Infrastructure as code=2C service level objectives=2C the importance of lo=
+cal development environments as well as new tools for exploring cloud-base=
+d infrastructure. Lots to read in this week=E2=80=99s issue.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Want to see how to continuously improve DevOps and IT operations=2C along=
+ with system reliability=2C with this list of the top incident management=
+ KPIs to monitor? See how tracking these metrics can lead to on-call incid=
+ent management that doesn=E2=80=99t suck:
+
+http://try.victorops.com/devopsweekly/top-incident-management-metrics
+
+
+News
+=3D=3D=3D=3D
+
+Service Level Objectives are one of the tenets of SRE=2C this post explore=
+s how to set up alerting based on SLOs=2C discussing where to use white an=
+d black box testing.
+
+https://developers.soundcloud.com/blog/alerting-on-slos
+
+
+A detailed post on using AWS CDK to define AWS infrastructure using Typesc=
+ript. Also covers testing serverless applications locally using SAM.
+
+https://sanderknape.com/2019/05/building-serverless-applications-aws-cdk/
+
+
+A look at why local development is different to production=2C starting wit=
+h the point that we often have better observability looking in production=
+ than when developing the code in the first place.
+
+https://medium.com/windmill-engineering/observability-doesnt-work-in-dev-c=
+214a9fb3e2d
+
+
+GraphQL is increasingly popular for certain types of APIs=2C but brings wi=
+th it new types of query vulnerabilities. This post explores some of them=
+=2C and ways to protect your GraphQL services.
+
+https://blog.apollographql.com/securing-your-graphql-api-from-malicious-qu=
+eries-16130a324a6b
+
+
+The question of how best to partition workloads in Kubernetes comes up reg=
+ularly. This post explores how one organisation uses separate clusters and=
+ namespaces to split things up between teams and environments.
+
+https://medium.com/cruise/building-a-container-platform-at-cruise-part-1-5=
+07f3d561e6f
+
+
+A post exploring building a production logging stack=2C looking at ingesti=
+on=2C data retention=2C disaster recovery and more.
+
+https://medium.com/box-tech-blog/logging-at-box-more-efficient-and-more-co=
+st-effective-b42206c59b53
+
+
+A well argued post that some of the tension between monorepo and multi-rep=
+o approaches may be more to do with the properties of Git than the approac=
+hes themselves.
+
+https://www.rookout.com/cant-git-no-satisfaction-why-we-need-a-new-gen-sou=
+rce-control/
+
+
+Express Data Path (XDP) is a powerful tool for fast packet processing in t=
+he Linux kernel. This post introduces XDP and eBPF and the advantages of m=
+oving networking to userspace.
+
+https://sematext.com/blog/ebpf-and-xdp-for-processing-packets-at-bare-meta=
+l-speed/
+
+
+A post describing several tools for working with Kubernetes configuration=
+=2C looking at kubeval and conftest for validating and testing the documen=
+ts.
+
+https://medium.com/@princerachit/validating-kubernetes-deployment-yamls-d4=
+6a16a7e664
+
+
+A few tips for anyone building Docker images for Python=2C exploring probl=
+ems with some of the common simple examples people often come across.
+
+https://pythonspeed.com/articles/dockerizing-python-is-hard/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Upvest is hiring a Lead DevSecOps engineer in Berlin (Visa/relocation assi=
+stance offered too).
+Upvest provides you with the tools to build on top of Bitcoin and Ethereum=
+=2E Focus on your application=2C not the infrastructure. We take care of the=
+ security=2C of blockchain communication=2C and provide a simple HTTP API=
+ to allow you to build an application underpinned by the blockchain. We're=
+ hiring especially for a lead DevSecOps engineer to codify and solidify ou=
+r CI/CD and harden and secure our environment. We use GCP and Kubernetes b=
+ut there is a lot of scope for designing and taking ownership of the curre=
+nt setup.
+
+Interested? Send us a note along with your resume to people@upvest.co or c=
+heck out our jobs page.
+
+https://upvest.join.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Wash is a new project from the folks at Puppet. It=E2=80=99s a shell which=
+ allows for interacting with your cloud infrastructure using typical unix=
+ tools. Use ls to list EC2 instances or S3 buckets=2C use find to find spe=
+cific instances=2C use ps to see what processes they may be running=2C etc=
+=2E
+
+https://puppetlabs.github.io/wash/
+
+
+Typhoon is a free and open source Kubernetes distribution. As well as dist=
+ributing Kubernetes=2C the distro also comes with Terraform code to provis=
+ion and manage a cluster.
+
+https://typhoon.psdn.io/
+
+
+Bloom is a new caching solution specifically designed with HTTP REST-style=
+ APIs in mind. It has solid documentation which covers the design as well=
+ as implementation instructions.
+
+https://github.com/valeriansaliou/bloom
+
+
+
+Want to see how to continuously improve DevOps and IT operations=2C along=
+ with system reliability=2C with this list of the top incident management=
+ KPIs to monitor? See how tracking these metrics can lead to on-call incid=
+ent management that doesn=E2=80=99t suck:
+
+http://try.victorops.com/devopsweekly/top-incident-management-metrics
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

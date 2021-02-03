@@ -1,0 +1,176 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#284?=
+Date: Sun, 5 Jun 2016 11:06:05 +0000
+
+DEVOPS WEEKLY
+ISSUE #284 - 5th June 2016
+
+The usual wide range of devops related content this week - distributed sys=
+tems to remembering devops isn=E2=80=99t about change for it=E2=80=99s own=
+ sake=2C the meaning of operations to goings on in the Windows infrastruct=
+ure community. Enjoy.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Are you learning anything important from your monitoring & alerting? You s=
+hould be. Join Jason Hand as he talks about how to make better use of your=
+ IT Operational metrics.
+
+http://try.victorops.com/devops_webinar
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+DevOps: Hidden Risks and How to Achieve Results
+
+Get industry insights and practical tips from DevOps experts including Gen=
+e Kim=2C co-author of The Phoenix Project=2C and the Dynatrace Center of E=
+xcellence=C2=A9.
+
+http://ow.ly/hI1F300TUh2
+
+
+News
+=3D=3D=3D=3D
+
+The concept of what operations is makes for a great topic of conversation.=
+ My experience is that with the renewed interest in operations coming from=
+ the devops movement too many people think it=E2=80=99s just the technical=
+ aspects of systems administration.
+
+https://charity.wtf/2016/05/31/wtf-is-operations-serverless/
+
+
+The increasing awareness of distributed systems doesn=E2=80=99t make those=
+ systems any less complex. Runway is a new tool which aims to combine spec=
+ification=2C model checking=2C simulation=2C and visualization to make the=
+ design of these types of systems easier.
+
+https://medium.com/salesforce-open-source/runway-intro-dc0d9578e248#.vcdy5=
+t31d
+https://runway.systems
+
+
+A handy reminder that adopting devops practices should be driven by improv=
+ing customer experience or some other organisational goal=2C beyond just d=
+oing devops.
+
+https://www.sysaid.com/blog/entry/please-don-t-just-do-devops
+
+
+WinOps is one of the few events focused on the applying devops and modern=
+ infrastructure practices to Windows environments. Here are several writeu=
+ps from the recent conference.
+
+https://skeltonthatcher.com/blog/winops-conf-2016-devops-ification-of-wind=
+ows-server/
+https://sammart.in/winops-conference-london-2/
+http://thetestlabs.com/winops-a-brave-new-world/
+
+
+A nice mainstream press piece focusing on devops as cultural movement.
+
+http://www.forbes.com/sites/chriscancialosi/2016/05/23/devops-and-culture-=
+the-evolution-of-devops-in-the-tech-industry/#6dffc6804f2e
+
+
+Shell scripts are often simple enough to make even style-obsessed programm=
+ers throw caution to the wind. But in a large organisation they still add=
+ up to a great deal of critical code. This style guide is therefore a pret=
+ty good idea.
+
+https://google.github.io/styleguide/shell.xml
+
+
+A nice demonstration of MSBuild Structured Log=2C which is an MSBuild addo=
+n which helps to visualise a build based on logs which go way beyond just=
+ a flat text file.
+
+http://www.hanselman.com/blog/MSBuildStructuredLogRecordAndVisualizeYourBu=
+ilds.aspx
+
+
+I think this tcpdump docker container is a neat example of a pattern I=E2=
+=80=99m seeing=2C that of containers not just as a packaging format=2C but=
+ as a guide to common usage as well.
+
+http://jerrygamblin.com/2016/05/28/a-docker-container-to-capture-all-traff=
+ic-from-host/
+
+
+Part of the power of Mesos is that you can create and run your own framewo=
+rks on it. However framework development can appear a daunting prospect. E=
+nter mesos-starter=2C a sprint-boot Java library which aims to make creati=
+ng your own Mesos framework easier.
+
+http://container-solutions.com/state-future-mesos-starter/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Want to work on new projects? Try a new stack? Join Hired and discover new=
+ opportunities today.
+
+http://hrd.cm/23r2ok5
+
+
+The New York Times is hiring a Site Reliability Engineer to join a small t=
+eam within NYT Beta. The NYT Beta team sits at the intersection of our tec=
+hnology organization and our newsroom. As a member of the team=2C you will=
+ not only interact with exceptional engineers=2C designers and product man=
+agers=2C but also members of the best editorial operation in the world. If=
+ you are interested=2C please apply here:
+
+http://www.nytco.com/careers/technology/site-reliability-engineer-nyt-beta=
+/#25704
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Silicon Valley is coming up on June 24th and 25th and tickets a=
+re still available. The program is looking great too. I=E2=80=99m really l=
+ooking forward to seeing folks as well as it coincides with a trip to the=
+ US.
+
+www.devopsdays.org/events/2016-siliconvalley/program/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Snapcraft is the packaging tool for the snappy Ubuntu Core transactional p=
+ackaging system. It allows for composing software from multiple other pack=
+age formats into a single tree.
+
+https://github.com/ubuntu-core/snapcraft
+
+
+Torus is an open source project for distributed storage coordinated throug=
+h etcd. It ships with a simple block-device volume plugin=2C but is extens=
+ible to more and is seeing lots of development at the moment.
+
+https://github.com/coreos/torus
+
+
+SQL is one of those powerful and widely used common tools. KSQL brings the=
+ power of SQL to Kubernetes=2C allowing for querying resources like pods a=
+nd services using SQL.
+
+https://github.com/brendandburns/ksql
+
+
+Are you learning anything important from your monitoring & alerting? You s=
+hould be. Join Jason Hand as he talks about how to make better use of your=
+ IT Operational metrics.
+
+http://try.victorops.com/devops_webinar
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,194 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#315?=
+Date: Sun, 8 Jan 2017 17:30:39 +0000
+
+DEVOPS WEEKLY
+ISSUE #315 - 8th January 2017
+
+A bit of a bumper issue this week if I do say so myself. Lots of individua=
+l blog posts=2C videos from the excellent LISA16 conference=2C some intere=
+sting new tools and a great set of incident response documentation. Enjoy.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The "2016/17 State of On-Call" report from VictorOps is now available to d=
+ownload. Learn what 800+ respondents have to say about life on-call=2C and=
+ steps they're taking to make it better. Get your free copy here:
+
+https://victorops.com/state-of-on-call-2016/
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+DevOps adoption stuck in =E2=80=9Canalysis paralysis=E2=80=9D? Get unstuck
+
+Join us January 12th at 1:00 PM ET for practical tips that all IT groups f=
+rom Dev to Ops can use to start their DevOps journey quickly. With experie=
+nce from hundreds of DevOps deployments=2C Andreas Grabner=2C Chief DevOps=
+ Activist at Dynatrace=2C will provide insights it would take your team mo=
+nths or years to learn firsthand. Can=E2=80=99t make it? Register and we=
+=E2=80=99ll send you the replay.
+
+http://ow.ly/yJpv306Zlyy
+
+
+News
+=3D=3D=3D=3D
+
+Being on-call and incident response are recurring topics for the newslette=
+r so this new site is well worth a read. In-depth guides on preparing an o=
+n-call schedule=2C responding to events and what to do afterwards. It=E2=
+=80=99s available under an Apache license as well so you can use it in you=
+r organisation.
+
+https://www.pagerduty.com/blog/incident-response-documentation/
+https://response.pagerduty.com/
+https://github.com/PagerDuty/incident-response-docs
+
+
+The videos from all the LISA16 talks have been posted=2C and a whole bunch=
+ are likely relevant to readers. A whole range of talks on monitoring=2C l=
+oad balancers=2C discussions of operations as a discipline and lots of tal=
+ks about operations culture.
+
+https://www.usenix.org/conference/lisa16/conference-program
+
+
+A good look under the hood of the Docker daemon=2C looking at dockerd=2C c=
+ontainerd=2C runc and how the processes work together.
+
+https://hackernoon.com/docker-containerd-standalone-runtimes-heres-what-yo=
+u-should-know-b834ef155426#.vbyp9plis
+
+
+How containers get rebuilt is an unsolved problem for many=2C and the natu=
+re of how most people are using containers (with an embedded operating sys=
+tem) can lead to some critical issues.
+
+http://sobersecurity.blogspot.co.uk/2017/01/looks-like-you-have-bad-case-o=
+f.html
+
+
+A thorough hello world walkthrough for using Concourse CI for continuous i=
+ntegration. Lots of code examples and screenshots.
+
+https://specify.io/how-tos/concourse-ci-continious-integration-and-deliver=
+y-of-microservices
+
+
+A nice example of using various AWS services to ensure end-to-end encrypti=
+on of application traffic. A nice non-trivial CLoudFormation example ties=
+ it together.
+
+https://blog.drie.co/e2e-encryption-with-lambda-cloudformation-and-acm-2b8=
+020d6c6a4#.819v70g8h
+
+
+I=E2=80=99ve included several links to The Morning Paper over the last yea=
+r or so=2C but this catch up of some of the highlights is worth reading fo=
+r newcomers or folks not already subscribed.
+
+https://medium.com/@AshwinBaskaran/the-morning-paper-s-of-the-year-9d83a26=
+215f7#.fkratnrtd
+
+
+Security is now firmly embedded as one of the strands of devops I think. T=
+his post goes into detail about adding security testing to a continuous de=
+livery pipeline
+
+http://www.denimgroup.com/blog/2016/12/effective-application-security-test=
+ing-in-devops-pipelines/
+
+
+Some good tips for anyone wanting to make sure there Docker images are up=
+ to date with security patches.
+
+https://medium.com/microscaling-systems/dockerfile-security-tuneup-166f1cd=
+afea1#.7m8fp7nnv
+
+
+A nice detailed set of content for anyone deploying OpenShift in a secure=
+ environment=2C especially in the US Federal Government. It covers specifi=
+c compliance regimes and a long list of controls.
+
+http://openshift-compliance-guide.readthedocs.io/en/latest/
+https://github.com/RedHatGov/openshift-compliance
+
+
+Some discussion and ideas about how Docker Swarm could facilitate a server=
+less or function-as-a-service mode.
+
+http://blog.alexellis.io/functions-as-a-service/
+
+
+CNCF
+=3D=3D=3D=3D
+
+Free Introduction to Cloud Native Networking on January 12th 2017
+
+Join experts from Weaveworks and Tigera (the people behind Calico) for a f=
+ree introduction to cloud native networking as part of the Cloud Native Co=
+mputing Foundation's new webinar series. Networking knowledge is becoming=
+ essential for developers so grab a spot while you still can:
+
+http://bit.ly/cncfnetworkingwebinar
+
+
+Jobs
+=3D=3D=3D=3D
+
+Riffyn (Oakland=2C CA) seeks a lead DevOps engineer to operate and scale o=
+ur development and production infrastructure on AWS=2C and support operati=
+onal integrations with Riffyn=E2=80=99s enterprise customers. Riffyn provi=
+des research design and analytics software (SaaS) to global biotech=2C pha=
+rmaceutical=2C food and chemical companies. Riffyn offers a unique =E2=80=
+=9Cdesign-first=E2=80=9D approach to scientific product development to bri=
+ng medicines and greener materials to market faster.
+
+http://riffyn.com/lead-devops-engineer/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Salt Lake City Devopsdays is coming up on May 16th and 17th. The organiser=
+s are looking for talks and ignites and have a CFP open until February 15t=
+h.
+
+http://slcdevopsdays.org/2017-slc-devops-days-call-for-speaker-proposals/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Cherami is a new distributed=2C scalable=2C durable=2C and highly availabl=
+e message queue system. The accompanying blog post does a good job of expl=
+aining why another queuing server=2C and the animations give you a good se=
+nse of the design.
+
+https://eng.uber.com/cherami/
+https://github.com/uber/cherami-server
+
+
+Grumpy is a Python to Go source code transcompiler and runtime. That means=
+ you can convert your Python code to a Go static binary=2C avoiding the py=
+thon global interpreter lock and runtime dependency. Still early days but=
+ very interesting.
+
+https://github.com/google/grumpy
+
+
+
+The "2016/17 State of On-Call" report from VictorOps is now available to d=
+ownload. Learn what 800+ respondents have to say about life on-call=2C and=
+ steps they're taking to make it better. Get your free copy here:
+
+https://victorops.com/state-of-on-call-2016/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

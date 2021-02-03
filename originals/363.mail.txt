@@ -1,0 +1,114 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#363?=
+Date: Sun, 10 Dec 2017 17:56:20 +0000
+
+DEVOPS WEEKLY
+ISSUE #363 - 10th December 2017
+
+Just back home from Austin after a great KubeCon. I have lots of content f=
+rom the conference that will have to wait until next week unfortunately=2C=
+ but we still have a collection of posts on the role of the sysadmin=2C tr=
+ust  in hardware and data from the last year on serverless and container o=
+rchestration adoption.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Integrate VictorOps into DevOps workflows to deploy faster and maintain hi=
+gher quality. Get your free trial started today:
+
+http://try.victorops.com/DevOpsWeekly/FreeTrial
+
+
+News
+=3D=3D=3D=3D
+
+A great post from this years sysadvent about the evolving role of the sysa=
+dmin; why many things like microservices or containers are more similar to=
+ existing sysadmin tools than they appear.
+
+https://sysadvent.blogspot.co.uk/2017/12/day-6-sysadmins-evolution-of-role=
+=2Ehtml
+
+
+A detailed look at moving a core component of a large architecture=2C in t=
+his case moving a job queue away from a Redis based solution to Kafka. Use=
+ful diagrams and detail for decisions taken and the rollout.
+
+https://slack.engineering/scaling-slacks-job-queue-687222e9d100
+
+
+A solid post arguing that we as a community often put too much faith in ha=
+rdware isolation or security features in hypervisors=2C but the reality on=
+ the ground doesn=E2=80=99t really warrant it.
+
+https://www.cloudatomiclab.com/hardware/
+
+
+A good post on the importance of empathy when comparing different tools an=
+d what people do with them=2C looking at criticisms of Docker and how to a=
+ddress them.
+
+https://jpetazzo.github.io/2017/10/31/devops-docker-empathy/
+
+
+I=E2=80=99m pretty keen on the concept of establishing a set of shared des=
+ign principles when building software or services. This post has a number=
+ of examples=2C but I=E2=80=99d love to see more talk of design principles=
+ for operations.
+
+https://principles.design/
+
+
+Some interesting data on the adoption of container orchestration tools ove=
+r the past year=2C including a look at Kubernetes adoption=2C ECS adoption=
+ and what scheduler adoption does to host usage.
+
+https://www.datadoghq.com/container-orchestration/
+
+
+More data analysis=2C this time on the state of serverless functions on AW=
+S lambda. Information on language usage=2C geographical distribution=2C si=
+ze of functions and more.
+
+https://blog.newrelic.com/2017/11/21/aws-lambda-state-of-serverless/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Escape is a toolset for release engineering=2C life-cycle management and c=
+ontinuous delivery of software platforms and artefacts. Unlike some simila=
+r tools it hands off much of the work to other lower-level platforms or co=
+mmand line tools and focuses on the integration piece.
+
+https://github.com/ankyra/escape/
+https://escape.ankyra.io/docs/what-is-escape/
+
+
+Metaparticle is a new project aiming to be the standard library for distri=
+buted systems. It takes advantage of the capabilities of Kubernetes to exp=
+ose features like master election and container packaging and scale out=2C=
+ with current implementations in .NET=2C Java and Javascript.
+
+https://metaparticle.io/posts/welcome-to-metaparticle/
+https://metaparticle.io/
+
+
+SockGuard is a eat new project which provides a proxy to the Docker socket=
+ which exposes some useful access control features.
+
+https://github.com/buildkite/sockguard
+
+
+Integrate VictorOps into DevOps workflows to deploy faster and maintain hi=
+gher quality. Get your free trial started today:
+
+http://try.victorops.com/DevOpsWeekly/FreeTrial
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

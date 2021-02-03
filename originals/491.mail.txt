@@ -1,0 +1,130 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#491?=
+Date: Sun, 24 May 2020 10:43:14 +0000
+
+DEVOPS WEEKLY
+ISSUE #491 - 24th May 2020
+
+Build pipeline optimisation=2C serverless application design=2C using Post=
+greSQL for analysis=2C infrastructure as code and tried and trusted  linux=
+ command line tools. Lots of variety this week for your reading pleasure.
+
+
+News
+=3D=3D=3D=3D
+
+A good case study around improvising continuous integration build times=2C=
+ and the benefits with regards developer productivity. Parallelisation=2C=
+ maximum-allowable test time=2C randomised execution order and more good p=
+atterns
+
+https://kellysutton.com/2020/05/18/speeding-up-a-rails-continuous-integrat=
+ion-pipeline.html
+
+
+The start of a series of posts on getting started with Serverless applicat=
+ions. The aim is to provide good getting started material that has some de=
+pth and breadth=2C not just the basic hello world.
+
+https://www.serverlessops.io/blog/hello-serverless
+https://www.serverlessops.io/blog/hello-serverless-a-beginning-python-flas=
+k-application
+https://www.serverlessops.io/blog/hello-serverless-serverless-monoliths
+
+
+Postgres always has some surprising features. This post looks at using the=
+ embedded R functionality for data analysis=2C in this case with PostGIS a=
+nd spatial data.
+
+https://info.crunchydata.com/blog/spatial-analytics-with-postgres-postgis-=
+plr
+
+
+Windows is getting a built-in package manager. In preview at the moment bu=
+t interesting to see Windows evolve into a more linux-like development env=
+ironment.
+
+https://devblogs.microsoft.com/commandline/windows-package-manager-preview=
+/
+
+
+A new version of the Thoughtworks Technology Radar is out. Billed as an op=
+inionated guide to technology frontiers it=E2=80=99s an interesting look a=
+t new and emerging tools and processes.
+
+https://www.thoughtworks.com/radar
+
+
+A set of video introductions to using AWS CDK to manage infrastructure and=
+ integrate into various AWS services.
+
+https://www.youtube.com/watch?v=3DR5MZP4-1j5E
+https://www.youtube.com/watch?v=3DhGGiyNRGXH0
+
+
+Slides from a talk at last years Lisa conference with a great introduction=
+ to common linux command line tools.
+
+https://www.usenix.org/sites/default/files/conference/protected-files/lisa=
+19_maheshwari.pdf
+
+
+Another series of posts=2C this one introducing event sourcing and discuss=
+ing common misconceptions.
+
+https://medium.com/ssense-tech/event-sourcing-part-i-understanding-what-it=
+-is-core-components-and-common-misconceptions-5dec65f6d61
+
+
+Jobs
+=3D=3D=3D=3D
+
+King is looking for new members for the infrastructure engineering teams t=
+o help develop=2C manage and expand our software based networking setup ac=
+ross datacenters and (Google) cloud. Please take a look at the open role f=
+or networking engineer. We're also still looking for both database and str=
+eaming data engineers=2C if that is more your style.
+
+https://careers.king.com/jobs/job/14780-site-reliability-engineer-technolo=
+gy/
+https://careers.king.com/jobs/job/15353-database-site-reliability-engineer=
+-technology/
+https://careers.king.com/jobs/job/15270-network-site-reliability-engineer-=
+technology/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DevSecCon is a 24 hour event coming up on the 15th and 16th of June=2C foc=
+used on all things security and devops. Talks on threat modelling=2C desig=
+n thinking=2C software supply chain attacks and several discussion panels.
+
+https://www.devseccon.com/devseccon24-2020/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Managing feature flags at scale is an interesting problem. Piraha is a new=
+ tool that automatically refactors code to remove code as part of removing=
+ flags. Support for Java=2C Swift and ObjectiveC.
+
+https://eng.uber.com/piranha/
+https://github.com/uber/piranha
+
+
+Sidecars are used in Kubernetes for logging=2C service mesh=2C monitoring=
+=2C getting certificates=2C secret decryption and more. generic-sidecar-in=
+jector is a framework for injecting sidecars and related configuration usi=
+ng Mutating Webhook Admission Controllers.
+
+
+https://github.com/salesforce/generic-sidecar-injector
+https://engineering.salesforce.com/a-generic-sidecar-injector-for-kubernet=
+es-c05eede1f6bb
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

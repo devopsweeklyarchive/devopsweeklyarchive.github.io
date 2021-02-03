@@ -1,0 +1,169 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#237?=
+Date: Sun, 19 Jul 2015 12:13:35 +0000
+
+DEVOPS WEEKLY
+ISSUE #237 - 19th July 2015
+
+Back on UK time this week so lots more content this week=2C across the usu=
+al wide range of topics. I=E2=80=99ve definitely been including less tools=
+ recently I=E2=80=99ve noticed=2C so if you=E2=80=99re using or writing so=
+me new and interesting that you think would be relevant please do send me=
+ a link.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] Goodbye War Room=2C Hello DevOps 2.0
+
+Make war rooms the exception=2C not the rule in 2.0. Discover 6 ways to bu=
+ild quality into everything and say goodbye to crazy expensive bug fixing=
+ and war rooms.
+
+http://ow.ly/OMSU2
+
+
+News
+=3D=3D=3D=3D
+
+An excellent post placing devops in a historical context as well as talkin=
+g about the evolution of practice in industry.
+
+http://blog.gardeviance.org/2015/04/devops-weve-been-here-before-we-will-b=
+e.html
+
+
+An interesting post describing something I=E2=80=99ve seen too=2C creating=
+ a team explicitly to support other product teams with shared services and=
+ common problems. Here it=E2=80=99s terms Delivery Engineering.
+
+http://gregdmd.com/blog/2015/07/19/delivery-engineering-team/
+
+
+Automating the creation of Windows base boxes is quite an involved process=
+=2C so this post should be required reading for anyone trying to do the sa=
+me. Still a long process but no manual interaction required.
+
+http://www.hurryupandwait.io/blog/creating-windows-base-images-for-virtual=
+box-and-hyper-v-using-packer-boxstarter-and-vagrant
+
+
+A good write-up of building out an infrastructure to support a 12-factor a=
+pplication=2C in particular using Consul=2C Vault and Puppet. The screenca=
+pture demos are a great way of showing how this all works together.
+
+http://txt.fliglio.com/2015/07/12-factor-infrastructure-with-consul-and-va=
+ult/
+
+
+A good post on where to get started thinking about security in a devops en=
+vironment. Static analysis=2C shared responsibility=2C infrastructure as c=
+ode=2C education and more.
+
+https://www.checkmarx.com/2015/06/11/security-and-devops-how-to-get-starte=
+d/
+
+
+If anyone is thinking about organising=2C or is already helping with=2C a=
+ local devops meetup then this list is worth reading. Some good practical=
+ tips on vendor pitches=2C encouraging debate and widening the audience.
+
+http://dustinrcollins.com/lessons-learned-running-a-devops-meetup
+
+
+A video from Devopsdays Minneapolis about deploying Chef in a multi-team e=
+nvironments=2C and various tools and strategies to address the problems. F=
+eatures an important discussion at the end about developing empathy for th=
+ose without the same privilege as you.
+
+https://www.youtube.com/watch?v=3Dpt_qtcfTk3M&feature=3Dyoutu.be
+
+
+The application of machine learning and statistical methods to monitoring=
+ is definitely on the rise. This post presents a good example of why purel=
+y threshold based approaches fail and talks about one solution. The commen=
+ts have other suggestions too.
+
+http://techblog.netflix.com/2015/07/tracking-down-villains-outlier.html
+
+
+A good presentation on the 7 deadly sins of microservices. Lots of good po=
+ints on architecture=2C using the latest software=2C the importance of aut=
+omation and operational maturity and more.
+
+http://www.slideshare.net/dbryant_uk/devoxxuk-2015-the-seven-deadly-sins-o=
+f-microservices-full-version
+
+
+Incident reports are always interesting to read=2C whether you have experi=
+enced the same issue or not. This report covers a typical scaling problem=
+ and tells the story of what was tried and what worked to fix it.
+
+http://status.circleci.com/incidents/hr0mm9xmm3x6
+
+
+A quick run-through of using docker machine to boot the new docker experim=
+ental release=2C and to use machine and swarm with the new overlay network=
+ functionality.
+
+http://sirile.github.io/2015/07/15/docker-swarm-and-experimental-multihost=
+-networking-with-docker-machine-and-boot2docker.html
+
+
+An introduction to what Unikernels are=2C including slides and a video (if=
+ you scroll down). The post also contains lots of links to find out more i=
+nformation.
+
+http://amirchaudhry.com/unikernels-polyconf-2015/
+
+
+Jobs
+=3D=3D=3D=3D
+
+We are seeking a talented and self-motivated Infrastructure Developer/Ops=
+ Engineer. You'll be part of the operations / infrastructure team and work=
+ on a complete platform rebuild using public cloud infrastructure. You'll=
+ be using tools like Ansible=2C GoCD=2C Python=2C Java=2C Riemann=2C Sensu=
+ to name a few open-source projects=2C which we not only use but also cont=
+ribute to. If you love to =E2=80=9Cautomate everything" and have experienc=
+e in managing dynamic infrastructure in a public cloud environment=2C get=
+ in touch!
+
+https://www.linkedin.com/jobs2/cap/view/62359748
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Apache nifi is a tool for data flow management. It provides a GUI for crea=
+ting flows which can deal with system failure=2C overflowing data and more=
+=2E The site also features comprehensive documentation on the capabilities a=
+nd a good introduction.
+
+http://nifi.apache.org/
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

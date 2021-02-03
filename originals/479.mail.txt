@@ -1,0 +1,116 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#479?=
+Date: Sun,  1 Mar 2020 10:54:44 +0000
+
+DEVOPS WEEKLY
+ISSUE #479 - 1st March 2020
+
+Several security posts this week following on from RSA=2C as well as posts=
+ on extending Kubernetes=2C using production analytics to ensure safe roll=
+outs of complex systems and more.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Efficient management of SQL schema evolutions allows DevOps professionals=
+ to deploy code quickly and reliably with little to no impact. Learn how m=
+odern teams are building out zero impact SQL database deployment workflows=
+ here:
+
+https://go.victorops.com/devopsweekly-zero-impact-sql-database-deployments
+
+
+News
+=3D=3D=3D=3D
+
+An excellent talk from RSA on the intersection of governance=2C risk and c=
+ompliance with devops practices.
+
+https://www.rsaconference.com/usa/agenda/how-to-grc-your-devops
+
+
+Conftest=2C the Open Policy Agent based tool for testing infrastructure as=
+ code=2C now has a handy plugin model. This post covers a few examples=2C=
+ for Kubernetes and AWS=2C and explains how to build your own.
+
+https://www.blokje5.dev/posts/conftest-plugins/
+
+
+A look at Gandalf; an intelligent=2C end-to-end analytics service for safe=
+ deployment in cloud-scale infrastructure.
+
+https://blog.acolyer.org/2020/02/28/microsoft-gandalf/
+
+
+An interesting set of examples and exercises around Kubernetes security=2C=
+ looking at built-in Kubernetes capabilities.
+
+https://securek8s.dev/exercise/
+
+
+Another RSA talk=2C this one looking at the potential for attackers who kn=
+ow how Kubernetes works under-the-hood. Some pretty nefarious ideas demons=
+trated well.
+
+https://www.rsaconference.com/usa/agenda/advanced-persistence-threats-the-=
+future-of-kubernetes-attacks-3
+
+
+One of the advantages of Kubernetes as a platform is it=E2=80=99s extensib=
+ility. This post looks at two mechanisms for this; adding your own schedul=
+er and creating an an operator.
+
+
+https://wgtwo.com/blog/extending-k8s/
+
+
+A low-level look at how the logging framework Fluentd gathers metadata fro=
+m Kubernetes.
+
+https://www.zebrium.com/blog/how-fluentd-collects-kubernetes-metadata
+
+
+Jobs
+=3D=3D=3D=3D
+
+env0 makes Infra-as-Code easy=2C empowering every dev and test case to hav=
+e its own environment=2C while minimizing maintenance effort=2C costs and=
+ risk. We are a rapidly growing and well-funded startup based both in the=
+ San Francisco Bay Area and in Tel Aviv. We believe software development i=
+s a team effort=2C and are looking for people who strive for excellence=2C=
+ and enjoy the journey getting there.
+
+https://www.env0.com/open-positions/devops-relations-advocate
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Dispatch is an open source crisis management orchestration framework. IT i=
+ntegrates with Slack=2C Google Apps=2C Jira=2C etc. to make it easier to r=
+eact to  assembling participants=2C sending out notifications=2C tracking=
+ tasks=2C and assisting with post-incident reviews.
+
+https://medium.com/@NetflixTechBlog/introducing-dispatch-da4b8a2a8072
+https://github.com/Netflix/dispatch
+
+
+Ever wanted to query your Kubernetes cluster using SQL? Kube Query provide=
+s a bridge between osquery and Kubernetes to do just that.
+
+https://blog.aquasec.com/kube-query-osquery-kubernetes-clusters
+
+
+Efficient management of SQL schema evolutions allows DevOps professionals=
+ to deploy code quickly and reliably with little to no impact. Learn how m=
+odern teams are building out zero impact SQL database deployment workflows=
+ here:
+
+https://go.victorops.com/devopsweekly-zero-impact-sql-database-deployments
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

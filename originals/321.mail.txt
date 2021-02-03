@@ -1,0 +1,151 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#321?=
+Date: Sun, 19 Feb 2017 16:42:27 +0000
+
+DEVOPS WEEKLY
+ISSUE #321 - 19th February 2017
+
+A slightly smaller than average issue this week due to a trip to the US an=
+d back (and the resulting timezone and airport related issues). Still some=
+ interesting posts on containers in production=2C adopting new processes a=
+nd mistakes too many of us have probably already made ourselves.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Interested in ChatOps? Get the free 75 page O=E2=80=99Reilly report coveri=
+ng everything from basic concepts to deployment strategies.
+
+http://try.victorops.com/DOWeekly/chatops
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Gene Kim shares top lessons learned [Webcast Replay]
+
+DevOps researcher=2C Gene Kim=2C shares first-hand insights and lessons he=
+ learned while co-authoring The DevOps Handbook=2C including: DevOps trans=
+formation case studies around continuous integration and delivery=2C and c=
+oncrete techniques to build a culture of continuous experimentation and le=
+arning =E2=80=93 including those from Google=2C Etsy=2C Nordstrom=2C and C=
+apital One. Check it out!
+
+http://ow.ly/EXwE304sS1F
+
+
+News
+=3D=3D=3D=3D
+
+Institutional knowledge is one of the things I hope this newsletter repres=
+ents. This post is a good list of mistakes that=2C in theory=2C you have t=
+o make yourself.
+
+https://medium.com/@mcfunley/mistakes-you-apparently-just-have-to-make-you=
+rself-cc2dd2bfc25c#.yuh5knpc2
+
+
+An interesting analysis of Devops via the theory of constraints and answer=
+ing the 4 questions proposed by Goldratt.
+
+https://blog.devopspro.co.uk/devops-theory-of-constraints-cf1477f9bd1a#.iv=
+emtwc6y
+
+
+Today we see lots of interest in Kubernetes but a smaller amount of real-w=
+orld experience. This post contains 10 common deployment issues=2C from mi=
+ssing configuration to failed volume mounts=2C and how to find and fix the=
+m.
+
+https://kukulinski.com/10-most-common-reasons-kubernetes-deployments-fail-=
+part-1/
+https://kukulinski.com/10-most-common-reasons-kubernetes-deployments-fail-=
+part-2/
+
+
+An interesting experience report of one team switching to a deployment mod=
+el based around Git flow and pull requests=2C as well as ephemeral environ=
+ments spun up based on active branches=2C
+
+https://www.pivotaltracker.com/blog/experience-report-github-flow-pivotal-=
+web-services/
+
+
+Good tips for debugging Docker containers using tooling provided in a sepa=
+rate image=2C by jumping into the namespace of the container you want to d=
+ebug.
+
+https://medium.com/@rothgar/how-to-debug-a-running-docker-container-from-a=
+-separate-container-983f11740dc6#.enry2mqwi
+
+
+An interesting post about rolling out configuration management (in the ITI=
+L sense) and some of the difficulties and advantages of doing so. Some goo=
+d points about any process change.
+
+http://www.easyvista.com/blog/itil-mythbusting-is-configuration-management=
+-too-difficult-for-little-gain/
+
+
+CNCF
+=3D=3D=3D=3D
+
+What is cloud native and why does it exist?
+
+Join us February 23rd at 10:00 AM PT to find out what Cloud Native Computi=
+ng is and why it matters. Presented by=2C Alexis Richardson=2C founder and=
+ CEO of Weaveworks and chairperson of the CNCF technical oversight committ=
+ee. Sign up now.
+
+https://goo.gl/AfqYjo
+
+
+Jobs
+=3D=3D=3D=3D
+
+Are you up for a challenge? Optiopay is a payout platform tackling unsolve=
+d problems in a novel intersection of FinTech and AdTech. Our SRE and Secu=
+rity Engineers are key to the stability=2C performance=2C security and fle=
+xibility of our infrastructure. Following the DevSecOps ideals=2C they are=
+ embedded in product engineering teams=2C and are core participants in eve=
+ry significant engineering effort underway in the company.
+
+Come help us change the way people receive their money!
+
+https://www.optiopay.com/jobs#/department/19159
+
+
+Are you a Puppet master? Hired gives top DevOps Engineers more power in th=
+eir job search. Join today!
+
+http://hrd.cm/2jHrf1B
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+awless is a CLI for Amazon Web Services which aims to be fast=2C powerful=
+ and easy-to-use. Useful to exploring an existing infrastructure as well a=
+s ad-hoc commands.
+
+https://github.com/wallix/awless
+
+
+Mach is a new build tool trying to take some of the things about Make that=
+ make it great and bring to them projects (including Java and CLojure proj=
+ects) that use a hierarchical file system.
+
+https://github.com/juxt/mach
+
+
+
+Interested in ChatOps? Get the free 75 page O=E2=80=99Reilly report coveri=
+ng everything from basic concepts to deployment strategies.
+
+http://try.victorops.com/DOWeekly/chatops
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

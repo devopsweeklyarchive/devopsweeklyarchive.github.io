@@ -1,0 +1,110 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#485?=
+Date: Sun, 12 Apr 2020 12:20:44 +0000
+
+DEVOPS WEEKLY
+ISSUE #485 - 12th April 2020
+
+A few good case studies this week=2C along with articles on project govern=
+ance=2C understanding how third parties are using your Puppet modules=2C =
+ AWS container benchmarks=2C monitoring Kafka and more.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Episode 6 of the Ship Happens Podcast is here! Tammy Butow=2C Principal SR=
+E and Executive Team Member at Gremlin talks about her journey into SRE=2C=
+ chaos engineering and the importance of on-call training. Check it out:
+
+https://go.victorops.com/devopsweekly-ship-happens-tammy-butow
+
+
+News
+=3D=3D=3D=3D
+
+An excellent article on how to de-risking custom technology projects=2C lo=
+oking at devops practices=2C incremental development=2C budgeting and othe=
+r governance issues.
+
+https://github.com/18F/technology-budgeting/blob/master/handbook.md
+
+
+A look at one company's deployment pipeline to Kubernetes=2C using a GitOp=
+s pull approach and FluxCD.
+
+https://itnext.io/how-we-do-gitops-mettle-4cc771a6c029
+
+
+When building software=2C understanding how it=E2=80=99s being used by oth=
+ers is often hard to determine. This post=2C and new tool=2C analyzes all=
+ of the public Puppet code and identifies breaking changes in downstream m=
+odules.
+
+https://binford2k.com/2020/04/06/rangefinder/
+https://github.com/puppetlabs/puppet-community-rangefinder
+
+
+An interesting benchmark of how quickly AWS scales up container workloads=
+ using the different options; EKS=2C Fargate and ECS.
+
+https://www.vladionescu.me/posts/scaling-containers-in-aws.html
+
+
+A great Serverless case study=2C looking at a migration from a monolithic=
+ architecture to a 100+ Lambda functions running on AWS.
+
+https://medium.com/lego-engineering/accelerating-with-serverless-625da0769=
+64b
+
+
+An interesting look at Rust for developing against the Kubernetes APIs. So=
+me general Rust observations=2C in particular in comparison to Go.
+
+https://deislabs.io/posts/kubernetes-a-rusty-friendship/
+
+
+Docker Compose is a wildly popular tool for standing up a stack of contain=
+ers. A new effort is starting to standardise the format and make it more a=
+pplicable to other platforms too.
+
+https://codeengineered.com/blog/2020/docker-compose-spec/
+https://www.compose-spec.io/
+
+
+A set of posts on monitoring Kafka=2C looking at how to collect the variou=
+s metrics and which ones are important for maintaining a performance clust=
+er.
+
+https://www.datadoghq.com/blog/collecting-kafka-performance-metrics/
+https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Tilt is a development tool focused on helping manage the complexity of mic=
+roservices. It now has a handy extension mechanism and a shared repository=
+ of extensions for various workflows.
+
+https://github.com/windmilleng/tilt-extensions
+
+
+Krustlet aims to make it easier to run WebAssembly code on Kubernetes=2C b=
+y providing a custom Kubelet implementation.
+
+https://deislabs.io/posts/introducing-krustlet/
+https://github.com/deislabs/krustlet
+
+
+
+Episode 6 of the Ship Happens Podcast is here! Tammy Butow=2C Principal SR=
+E and Executive Team Member at Gremlin talks about her journey into SRE=2C=
+ chaos engineering and the importance of on-call training. Check it out:
+
+https://go.victorops.com/devopsweekly-ship-happens-tammy-butow
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

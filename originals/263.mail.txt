@@ -1,0 +1,164 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#263?=
+Date: Sun, 17 Jan 2016 11:17:36 +0000
+
+DEVOPS WEEKLY
+ISSUE #263 - 17th January 2015
+
+A big mix of content this week covering interviewing and career developmen=
+t through team organisation and why flying an aircraft is similar to monit=
+oring your infrastructure. Hopefully something for everyone=2C but if you=
+ think I=E2=80=99m regularly missing interesting topics do let me know.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+How to Use DevOps & APM to Release Better Software Faster
+Join us for a talk with Hasan Yasar=2C Technical Manager of Carnegie Mello=
+n's Software Engineering Institute=2C to learn the benefits of DevOps=2C a=
+utomation and CD=2C where APM fits in DevOps=2C and why you need to monito=
+r. Finally=2C find out all about auto-provisioning and deployment with Doc=
+ker=2C Vagrant=2C Ansible=2C and more.
+
+http://ow.ly/U3JX0
+
+
+News
+=3D=3D=3D=3D
+
+An interesting post on the evolving role of the network engineer. Points a=
+bout moving away from a fixation on individual hardware devices to a bigge=
+r picture view=2C and comparisons with the evolution of systems administra=
+tion over the past few years.
+
+http://siwdt.com/2016/01/16/the-evolving-role-of-the-network-engineer/
+
+
+A great post looking at the basics of value-stream-mapping for organising=
+ teams=2C and focusing on minimising dependencies with some great real-wor=
+ld examples.
+
+https://medium.com/scaling-teams/your-engineering-team-is-not-an-island-su=
+ccess-demands-a-holistic-view-of-the-business-bccd6116094b#.l1p5wvc9n
+
+
+An interesting approach to managing versioned dependencies in Terraform=2C=
+ by introducing a Terrafile which defines all the dependencies in one plac=
+e.
+
+http://bensnape.com/2016/01/14/terraform-design-patterns-the-terrafile/
+
+
+An interesting analogy=2C comparing flying by instrument to how infrastruc=
+ture monitoring works at scale=2C and how reacting to individual stimuli w=
+ithout a broader context can be dangerous.
+
+https://blog.raintank.io/the-monitoring-death-spiral/
+
+
+A detailed walkthrough of using BOSH and concourse as a deployment pipelin=
+e for infrastructure=2C focusing specifically on the problem of secrets ma=
+nagement (and using Vault to solve it).
+
+https://blog.starkandwayne.com/2016/01/11/spruce-vault-concourse-you/
+
+
+A detailed look at what it takes to write a good status update. Specific e=
+xamples and guidance for those times when you need to let people know some=
+thing if broken.
+
+http://blog.statuspage.io/how-to-write-a-good-status-update
+
+
+Building infrastructure out of many small open source parts can be tricky=
+=2C as the surface area for integration can be under defined. Here=E2=80=
+=99s a good example in why Kubernetes doesn=E2=80=99t use Docker=E2=80=99s=
+ libnetwork.
+
+http://blog.kubernetes.io/2016/01/why-Kubernetes-doesnt-use-libnetwork.htm=
+l
+
+
+An interesting post on how to interview for engineers to work on cloud bas=
+ed systems. It=E2=80=99s biased towards Amazon terminology and practice=2C=
+ but containers some good advice for other stacks too.
+
+https://medium.com/aws-activate-startup-blog/hiring-a-cloud-engineer-quest=
+ions-to-ask-and-what-you-should-hear-12a960d97163#.jce0fjwsa
+
+
+Jobs
+=3D=3D=3D=3D
+
+The Student Room Group are on the lookout for a Site Reliability Engineer=
+ / DevOps Engineer to join us in our Brighton office. We're in the process=
+ of rebuilding our entire infrastructure from the ground up within our own=
+ Private OpenStack Cloud=2C so it=E2=80=99s an exciting time to join us on=
+ this journey and be a key individual in the decisions and direction of ou=
+r infrastructure and the technologies we will use.
+
+http://tsrmatters.com/were-hiring-site-reliability-engineer-sre/
+
+
+The New York Times is hiring a Site Reliability Engineer to join a small t=
+eam within NYT Beta=2C the department responsible for developing NYT Now=
+=2C Cooking=2C Crosswords and Real Estate. The ideal candidate enjoys a mi=
+x of software and system engineering=2C building tools/services=2C solving=
+ production problems=2C automation=2C and working with product engineers t=
+o design systems and features. The Site Reliability Engineering team helps=
+ support and jumpstart new products being built from the ground up=2C as w=
+ell as scaling out new features on more mature products.
+
+http://www.nytco.com/careers/Technology/#25704
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+ShellCheck is a static analysis tool for shell scripts. As well as providi=
+ng hints on syntax it can also pick up on unused variables and in some cas=
+es suggest corrections for typos.
+
+https://github.com/koalaman/shellcheck
+
+
+Building on ShellCheck=2C Hadolint is a linter for Dockerfiles. As well as=
+ providing information based on Docker published guidelines it also picks=
+ up on issues with shell code using in RUN directives.
+
+https://github.com/lukasmartinelli/hadolint
+
+
+If you=E2=80=99re already familiar with Docker=2C but interested in runc=
+=2C then the riddler tool is likely useful. It can inspect a running docke=
+r container and automatically generate the config and runtime files requir=
+ed to start the same container under runc.
+
+https://github.com/jfrazelle/riddler
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

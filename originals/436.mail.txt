@@ -1,0 +1,143 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#436?=
+Date: Sun,  5 May 2019 11:35:15 +0000
+
+DEVOPS WEEKLY
+ISSUE #436 - 5th May 2019
+
+Config management=2C continuous delivery=2C managing monorepos=2C integrat=
+ion testing=2C deployment strategies and incident management tools. Lots o=
+f interesting content and tools this week across a wide range of devops to=
+pics.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[You=E2=80=99re Invited] Puppet=2C Splunk and VictorOps are teaming up fo=
+r a live webinar on powering continuous improvement by combining analytics=
+=2C incident response and automation. Learn best practices for releasing b=
+etter applications faster=2C without the fire drills.
+
+http://try.victorops.com/devopsweekly/continuous-improvement
+
+
+News
+=3D=3D=3D=3D
+
+I=E2=80=99ve been experimenting with the CUE language for configuration an=
+d have started writing a few posts. CUE nicely combines declaratie syntax=
+=2C built-in templating and validation and a local scripting language.
+
+https://garethr.dev/2019/04/configuring-kubernetes-with-cue/
+https://garethr.dev/2019/04/validating-cue-kubernetes-configuration-with-k=
+ubeval/
+
+
+A recap of the arguments for continuous delivery and regular deployment=2C=
+ taking apart the idea of the deployment freeze.
+
+https://charity.wtf/2019/05/01/friday-deploy-freezes-are-exactly-like-murd=
+ering-puppies/
+
+
+Some interesting observations about the differences between microservice-b=
+ased architectures and serverless with a discussion of unidirectional vs b=
+i-directional APIs and events.
+
+https://medium.com/@PaulDJohnston/serverless-and-microservices-a-match-mad=
+e-in-heaven-9964f329a3bc
+
+
+Slides from a recent talk at DockerCon demonstrating how to harden the doc=
+ker daemon by running without root. The presentation explains why=2C how a=
+nd where this might be useful.
+
+https://www.slideshare.net/AkihiroSuda/dockercon-2019-hardening-docker-dae=
+mon-with-rootless-mode
+
+
+Another talk from DockerCon=2C this one looking at using the Docker API to=
+ build integration tests using the testcontainers project.
+
+https://speakerdeck.com/gianarb/dockercon-2019-write-maintainable-integrat=
+ion-tests-with-docker
+
+
+A pragmatic experience report on adopting a monorepo. Walks through adopti=
+ng it for different parts of the overall system and talks about tradeoffs.
+
+https://pspdfkit.com/blog/2019/benefits-of-a-monorepo/
+
+
+A look at a number of different deployment strategies for Kubernetes; roll=
+ing deployments=2C recreating from scratch=2C blue/green=2C canary and mor=
+e.
+
+https://www.weave.works/blog/kubernetes-deployment-strategies
+
+
+A look at optimising build performance using the Drone CI system=2C by int=
+roducing a build cache.
+
+https://underthehood.meltwater.com/blog/2019/04/10/making-drone-builds-10-=
+times-faster/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The European Puppet Contributor Summit is coming up in Budapest on the 4th=
+ and 5th of June. A two-day=2C single-track event with lightning talks=2C=
+ breakouts=2C workshops and lots of hacking time.
+
+https://puppet.com/community/events/contributor-events/puppet-contributor-=
+summit
+
+
+Your path to production ready Kubernetes
+This workshop is for DevOps engineers=2C Kubernetes cluster operators=2C a=
+nd admins in the UK! Join our hands-on=2C in-person workshop at CodeNode o=
+n May 8. We'll walk you through developing=2C building=2C and operating Ku=
+bernetes cluster the GitOps way.
+
+https://www.eventbrite.com/e/workshop-your-path-to-production-ready-kubern=
+etes-tickets-59200887448
+
+
+Tools
+=3D=3D=3D=3D
+
+Grit copies commits from a source repository to a destination repository.=
+ It is intended to mirror projects residing in a private monorepo to an ex=
+ternal project-specific Git repository.
+
+https://github.com/grailbio/grit
+
+
+Response is an application designed to make incident response easier. It p=
+rovides a Slack application which allows for reporting incidents and track=
+ing who is dealing with them and where.
+
+https://github.com/monzo/response
+
+
+K3d provides a simple way of running the k3s Kubernetes distribution on to=
+p of Docker. Ideal for local development and for standing up ephemeral Kub=
+ernetes clusters for testing.
+
+https://github.com/rancher/k3d
+
+
+
+[You=E2=80=99re Invited] Puppet=2C Splunk and VictorOps are teaming up fo=
+r a live webinar on powering continuous improvement by combining analytics=
+=2C incident response and automation. Learn best practices for releasing b=
+etter applications faster=2C without the fire drills.
+
+http://try.victorops.com/devopsweekly/continuous-improvement
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

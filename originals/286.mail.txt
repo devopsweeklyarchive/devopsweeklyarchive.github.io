@@ -1,0 +1,187 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#286?=
+Date: Sun, 19 Jun 2016 15:54:46 +0000
+
+DEVOPS WEEKLY
+ISSUE #286 - 19th June 2016
+
+Devops weekly is on US time for the next few issues as I=E2=80=99m out in=
+ Seattle for DockerCon and then onto Santa Clara for Velocity and Devops D=
+ays. If you=E2=80=99re around any of those events do come and say Hi.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The cost of downtime is growing but DevOps practices & real-time incident=
+ management solutions can help to reduce MTTR.
+
+Learn more: http://try.victorops.com/downtime_data/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Sprinting for Success: Digital Transformation through Agile and DevOps
+
+Join our webinar and discover how Verizon digitally transformed their IT o=
+rganization using a DevOps approach. You=E2=80=99ll learn how they re-inve=
+nted the way they develop=2C deploy and run the software supporting their=
+ business. This enabled them to be ahead of the competition=2C profitable=
+=2C and relevant in an era of increasing customer expectations. If you can=
+=E2=80=99t make the webinar=2C be sure to register and we=E2=80=99ll send=
+ you the replay and slides.
+
+http://ow.ly/ooQd300TUwM
+
+
+News
+=3D=3D=3D=3D
+
+A quick overview of the announcements from the recent Hashiconf EU event=
+=2C covering new versions and features of Terraform=2C Vault=2C Nomad and=
+ more.
+
+http://blog.contino.io/blog/hashiconf-2016-all-you-need-to-know
+
+
+I think metadata for containers has the potential to unlock lots of useful=
+ shared tooling. So I=E2=80=99m super happy to see MicroBadger launch. It=
+ provides a simple way of visualising DOcker labels from images on Hub=2C=
+ as well as providing badges for use elsewhere.
+
+http://microbadger.com/#/
+
+
+A solid post on the state of systems operations today. Covering a focus on=
+ scalability=2C operations as a core skillset=2C a move away from dedicate=
+d operations teams in some smaller endeavours and other observations.
+
+http://www.somic.org/2016/04/12/rise-of-new-operations/
+
+
+Installers based on the curl pipe bash technique continue to be popular an=
+d oft-criticised. This post explores some of the potential attacks they ex=
+pose you to=2C and approaches to minise the impact of an attack.
+
+https://sysdig.com/blog/making-curl-bash-safer/
+
+
+A handy set of notes for anyone working with a large scale elasticsearch c=
+luster. Details of capacity planning=2C cluster design=2C managing updates=
+ and more.
+
+https://grey-boundary.io/field-notes-elasticsearch-at-petabyte-scale-on-aw=
+s/
+
+
+A biased=2C but interesting view on the value of distribution package main=
+tainer=2C in particular with a view to universal packages or containers as=
+ a distribution mechanism for upstream vendors.
+
+http://kmkeen.com/maintainers-matter/2016-06-15-11-51-16-472.html
+
+
+I=E2=80=99m all for people rediscovering make=2C it=E2=80=99s still a grea=
+t tool to learn in my view. This blog post contains a set of notes aimed a=
+t hipsters=2C in this case people more familiar with the javascript build=
+ tool chain.
+
+https://mattandre.ws/2016/05/make-for-hipsters/
+
+
+A nice walkthrough of using Kubernetes on Google Container Engine. Include=
+s examples of some utility helpers if you=E2=80=99re powering everything v=
+ia the kubectl command line interface.
+
+https://travix.io/deploying-your-application-to-kubernetes-2abaee6db222#.5=
+7t0jt5cl
+
+
+A nice look at the problem with debugging tools that require you to update=
+ the source code (in particular pry for Ruby or pdb for Python) and an inv=
+estigation into approaches using gdb.
+
+http://jvns.ca/blog/2016/06/12/a-weird-system-call-process-vm-readv/
+
+
+A quick writeup of why the dev-sec project=2C which is providing configura=
+tion management code as well as test suites for hardening infrastructure=
+=2C is interesting and important.
+
+http://swreflections.blogspot.com/2016/06/dev-secio-automated-hardening-fr=
+amework.html
+
+
+A nice detailed look at what serverless applications look like=2C and the=
+ first time I=E2=80=99ve seen the term function as a service used instead=
+ of the more controversial serverless moniker.
+
+http://martinfowler.com/articles/serverless.html
+
+
+Two different survey results around container adoption were published this=
+ week=2C both with interesting data. As always=2C the samples tend to be w=
+eighted towards certain vendor combinations or early adopters. But useful=
+ nonetheless.
+
+https://www.cloudfoundry.org/nearly-two-thirds-of-it-users-plan-to-mainstr=
+eam-containers-in-a-year-global-survey-reveals/
+https://clusterhq.com/assets/pdfs/state-of-container-usage-june-2016.pdf
+
+
+Jobs
+=3D=3D=3D=3D
+
+Hired gives top DevOps Engineers more power in their job search. In 1 week=
+ you'll get 8+ offers from top tech companies around the US and UK. Want t=
+o learn more? Check out Hired today!
+
+http://hrd.cm/23r2ok5
+
+
+The Environment Agency are looking for a Web-Ops Engineer to be based in e=
+ither Bristol=2C Warrington or Weybridge. We are constantly evolving to im=
+prove how we meet our customers=E2=80=99 diverse needs online=2C which cal=
+ls for new thinking and bold innovation. Joining us on this significant jo=
+urney of change=2C your ideas will be valued and your voice heard as you d=
+eliver impactful solutions that will build a digital future for Defra and=
+ our customers.
+
+https://environmentagencyjobs.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/b=
+rand-2/xf-9defdd872d9d/candidate/so/pm/1/pl/1/opp/1107-Digital-Recruitment=
+-Campaign/en-GB
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+MongoDB World is coming up on June 28-29 in NYC. Learn from the engineers=
+ who build MongoDB and from the users running the largest implementations=
+ in the world. Walk away with immediately applicable skills =E2=80=93 like=
+ performance tuning=2C how set up a multi-data center system=2C and contai=
+nerizing MongoDB. You can grab a 25% discount with the code DevOpsWeekly t=
+oo.
+
+https://www.mongodb.com/world16
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+dploy is an interesting looking opinionated deployment tool that leverages=
+ DC/OS and GitHub.
+
+https://medium.com/@mhausenblas/introducing-dploy-f112f6a6bbdf#.br5feah1g
+
+
+
+The cost of downtime is growing but DevOps practices & real-time incident=
+ management solutions can help to reduce MTTR.
+
+Learn more: http://try.victorops.com/downtime_data/DevOpsWeekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

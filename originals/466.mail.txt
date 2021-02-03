@@ -1,0 +1,114 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#466?=
+Date: Sun,  1 Dec 2019 14:25:25 +0000
+
+DEVOPS WEEKLY
+ISSUE #466 - 1st December 2019
+
+New monitoring tools=2C Serverless experience a report=2C devops and devse=
+cops theory and discussion of policy testing this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+>From everyone at VictorOps=2C we wanted to wish you a happy holiday season=
+ and give thanks for this DevOps community. So=2C we put together this fun=
+ post to highlight the highs and lows of being on-call during the holidays=
+=2E
+
+https://go.victorops.com/devopsweekly-on-call-holidays
+
+
+News
+=3D=3D=3D=3D
+
+A good experience report of adopting a Serverless architecture. Some defin=
+itions followed by lots of examples of changes to both technical and peopl=
+e processes.
+
+https://pauldambra.dev/2019/11/serverless-lessons-learned.html
+
+
+My talk from KubeCon=2C looking at using Open Policy Agent tooling=2C incl=
+uding Conftest and Gatekeeper=2C to enforce policy on developer tools from=
+ development to production.
+
+https://speakerdeck.com/garethr/applying-policy-throughout-the-application=
+-lifecycle-with-open-policy-agent
+
+
+A dive into moving from a manual IP failover based resilience solution to=
+ something more automated on bare metal machines.
+
+https://dtone.engineering/2019/from_failovers_to_keepalived_over_vswitches=
+_with_hetzner/
+
+
+A post from earlier this year=2C describing the 7 deadly diseases of devop=
+s. This post explores the first of these=2C looking at why invisible work=
+ is a problem when you=E2=80=99re trying to improve flow.
+
+https://electric-cloud.com/blog/the-7-deadly-diseases-of-devops-1-invisibl=
+e-work/
+
+
+A look at the importance of training and shadowing when joining a new team=
+ where you=E2=80=99ll be responsible for running production services.
+
+https://medium.com/glasswall-engineering/are-you-ready-new-starters-journe=
+y-to-production-bcf0f7e30ac2
+
+
+A presentation introducing DevSecOps and looking at what shifting left mea=
+ns in the context of application security.
+
+https://www.beautiful.ai/player/-LuUSXtd-8pNDU90zNP2/Shifting-Left-DevSecO=
+ps-as-an-Approach-to-Building-Secure-Products
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+We.Are.Expensify.com
+
+Join our passionate team of top-notch engineers to solve a real-world prob=
+lem=2C and help people spend less time managing expenses and more time pur=
+suing their real goals. As we revolutionize the way people manage their ex=
+penses=2C being part of the Expensify team means building the easiest=2C f=
+astest=2C and most efficient platform to automate everything expense-relat=
+ed. With a healthy mix of cloud and owned racks=2C you=E2=80=99d work hand=
+-in-hand in our engineering org on a profitable=2C well-loved product with=
+ a focus on improving scaling and security. Join the adventure at:
+
+https://we.are.expensify.com/jobs
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Hubble is a new tool that network=2C service and security observability fo=
+r Kubernetes. Powered by eBPF and Cillium=2C it provides some interesting=
+ visualisation and query tools.
+
+https://github.com/cilium/hubble
+
+
+kubectl fleet is a basic=2C but handy=2C plugin for Kubernetes users who a=
+re increasingly managing multiple clusters.
+
+https://github.com/mhausenblas/kcf
+
+
+
+>From everyone at VictorOps=2C we wanted to wish you a happy holiday season=
+ and give thanks for this DevOps community. So=2C we put together this fun=
+ post to highlight the highs and lows of being on-call during the holidays=
+=2E
+
+https://go.victorops.com/devopsweekly-on-call-holidays
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

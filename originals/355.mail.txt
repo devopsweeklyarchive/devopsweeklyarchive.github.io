@@ -1,0 +1,142 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#355?=
+Date: Sun, 15 Oct 2017 13:35:24 +0000
+
+DEVOPS WEEKLY
+ISSUE #355 - 15th October 2017
+
+Lots of events and conferences happening at the moment relevant to devops=
+ and devops weekly. If you see (or give) any particular talks that stand o=
+ut please do send me links to videos or slides.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+All Day DevOps is on Oct. 24th! This FREE=2C online conference offers 100=
+ DevOps-focused sessions across six different tracks. Learn more & registe=
+r:
+
+http://bit.ly/2wLKpbV
+
+
+News
+=3D=3D=3D=3D
+
+A fantastic talk from this week=E2=80=99s PuppetConf about continuous inte=
+gration as a superpower for infrastructure development. Puppet specific to=
+ols but good ideas for others too.
+
+https://speakerdeck.com/kpaulisse/puppetconf-2017-beyond-rspec-innovative-=
+strategies-for-confident-ci
+
+
+A short walk through of setting up AWS API Gateway=2C DynamoDB and Lambda=
+ to build a simple API endpoint.
+
+https://sanderknape.com/2017/10/creating-a-serverless-api-using-aws-api-ga=
+teway-and-dynamodb/
+
+
+A good post with a brief history of ITIL based ITSM=2C and why the focus o=
+n services can get lost in processes. Interesting point about the differen=
+t between IT services and IT management.
+
+https://itsm.tools/2017/09/28/why-itil-might-not-be-the-answer-to-todays-i=
+tsm-challenges/
+
+
+Solid research about the breakdown of different operating systems used in=
+ containers=2C based on an analysis of images on DockerHub.
+
+https://anchore.com/blog/breakdown-of-operating-systems-of-dockerhub/
+
+
+A good post exploring Prometheus for monitoring. A solid getting started w=
+alk through and some thoughts about where the project sits today.
+
+https://kartar.net/2017/10/prometheus/
+
+
+A nice introduction to security for operators=2C with points on extremes a=
+nd a good introduction to threat modelling and analysing risk
+
+https://www.slideshare.net/TomMcLaughlin9/iterative-security-secrets-when-=
+youre-not-ready-for-vault-or-conjur
+
+
+Understanding how network traffic flows through Kubernetes can help with t=
+he inevitable debugging. This post breaks out nc and iptables and shows ho=
+w traffic gets from load balancer to pod.
+
+https://medium.com/google-cloud/kubernetes-from-load-balancer-to-pod-3f239=
+9637b0c
+
+
+A neat approach to running continuous integration tests against an ephemer=
+al Kubernetes cluster=2C in this case in Travis CI.
+
+https://engineering.bitnami.com/articles/implementing-kubernetes-integrati=
+on-tests-in-travis.html
+
+
+The Linux Foundation
+=3D=3D=3D=3D
+
+Free Webinar: How BI & Data Science Gets Results
+November 16=2C Online
+
+Statistical/data science models can now run on Hadoop in a much more cost-=
+effective manner than a few years ago. This results in fostering the conve=
+rgence of traditional BI and Data Science disciplines (machine learning=2C=
+ artificial intelligence... etc). Join the discussion with an incredible p=
+anel including ODPi=2C 4C Decision=2C ZEPL=2C and Pivotal=2C as we'll shar=
+e how this phenomenon is going to impact the Hadoop standard.
+
+https://goo.gl/DZyuuV
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists=2C December 6-8=2C in Austin for a broad range of te=
+chnical sessions on the cloud native ecosystem. We sold out in Berlin and=
+ are excited to see thousands of you from the community join us=2C this ti=
+me in Austin!
+
+http://goo.gl/wbdqve
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kapitan is another Jsonnet based configuration tool for Kubernetes. As wel=
+l as configuration templates it provides built-in support for generating d=
+ocumentation and scripts=2C and a tool for separating data from configurat=
+ion.
+
+https://github.com/deepmind/kapitan
+
+
+Tarmak is a new toolkit for managing and provisioning a Kubernetes cluster=
+=2E It makes use of Packer=2C Puppet=2C Terraform and Docker to provide a de=
+gree of platform independence=2C but provides a higher-level CLI interface=
+ and good defaults for a secure=2C CI/CD ready cluster.
+
+http://docs.tarmak.io/en/latest/
+https://github.com/jetstack/tarmak
+
+
+
+Like DevOps? Register for All Day DevOps - a FREE online conference this O=
+ctober=2C offering 100 DevOps-focused sessions across six different tracks=
+=2E Learn more & register:
+
+http://bit.ly/2wLKpbV
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

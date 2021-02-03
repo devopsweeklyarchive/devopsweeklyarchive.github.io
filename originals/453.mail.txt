@@ -1,0 +1,111 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#453?=
+Date: Sun,  1 Sep 2019 09:34:52 +0000
+
+DEVOPS WEEKLY
+ISSUE #453 - 1st September 2019
+
+A relatively brief issue this week as I=E2=80=99ve mainly been on holiday=
+ the past week. Still several interesting posts on security embracing devo=
+ps=2C a look at existing Kubernetes dashboards=2C the Tekton project and m=
+ore.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Incident management and response don=E2=80=99t need to suck. See how you c=
+an build a collaborative incident management plan with shared transparency=
+ into developer availability and on-call schedules for IT operations:
+
+http://try.victorops.com/devopsweekly/incident-response-transformation
+
+
+News
+=3D=3D=3D=3D
+
+A quick introduction to the Tekton project=2C building a set of standardin=
+g CI/CD primitives and CRDs for running them on Kubernetes.
+
+https://www.slideshare.net/VictorIglesias6/introduction-to-tekton
+
+
+A discussion of what we mean when we talk about a single source of truth f=
+or data in our systems=2C and how the wrong mental model can lead to issue=
+s operating the dependent services.
+
+https://www.hidefsoftware.co.uk/2019/08/26/the-single-source-of-truth-real=
+ly/
+
+
+A useful overview of existing options when it comes to dashboards for Kube=
+rnetes. Some overlap obviously but some take on specific use cases or user=
+s.
+
+https://srcco.de/posts/kubernetes-web-uis-in-2019.html
+
+
+OCI Artifacts provide a way for existing registries to service different t=
+ypes of content. WIth the project moving forward=2C this post gives a glim=
+pse of what=E2=80=99s next=2C and how you can get involved if this piques=
+ your interest.
+
+https://stevelasker.blog/2019/08/25/oci-artifacts-and-a-view-of-the-future=
+/
+
+
+A slide deck looking at the roles of application team and platform team wh=
+en adopting Kubernetes. Observations about secrets=2C bound services=2C im=
+ages and more.
+
+https://www.slideshare.net/cdavisafc/youve-made-kubernetes-available-to-yo=
+ur-developers-now-what
+
+
+An attempt to codify some of the drivers of DevSecOps=2C including an emph=
+asis on maker-driven=2C automation=2C experimentation and more.
+
+https://www.verica.io/the-measure-of-devsecops/
+
+
+A post introducing the Wash shell=2C which normalises how you list or acce=
+ss various cloud-based resources (like EC2 instances=2C docker containers=
+=2C Kubernetes deployments=2C etc.) right in the shell.
+
+https://puppetlabs.github.io/wash/posts/2019/08/introducing-wash/
+
+
+A new set of high-quality free learning material for Kubernetes. Split int=
+o specific courses with each of those split into bite size video lessons.
+
+https://kubernetes.academy/
+
+
+A quick overview of security practices=2C and tools=2C around Kubernetes=
+=2C based on a recent talk from All Day Devops.
+
+https://blog.sonatype.com/kubesecops-kubernetes-security-practices-you-sho=
+uld-follow
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+PartiQL is a SQL-compatible query language which provides access to relati=
+onal=2C semi-structured=2C and nested data.
+
+https://aws.amazon.com/blogs/opensource/announcing-partiql-one-query-langu=
+age-for-all-your-data/
+https://partiql.org/
+
+
+Incident management and response don=E2=80=99t need to suck. See how you c=
+an build a collaborative incident management plan with shared transparency=
+ into developer availability and on-call schedules for IT operations:
+
+http://try.victorops.com/devopsweekly/incident-response-transformation
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

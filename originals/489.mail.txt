@@ -1,0 +1,103 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#489?=
+Date: Sun, 10 May 2020 09:26:11 +0000
+
+DEVOPS WEEKLY
+ISSUE #489 - 10th May 2020
+
+Posts this week covering the emergence of platform teams=2C journald=2C AW=
+S and a writeup from a devops conference held on a virtual island populate=
+d by animals.
+
+
+News
+=3D=3D=3D=3D
+
+Many organisations adopting devops practices form platform teams. This pos=
+t looks at some of the challenges and approaches to managing the product o=
+f an internal platform.
+
+https://medium.com/@skamille/product-for-internal-platforms-9205c3a08142
+
+
+A nice opinionated post about AWS services that you might avoid=2C at leas=
+t until you know how best to use them.
+
+https://medium.com/teamzerolabs/5-aws-services-you-should-avoid-f45111cc10=
+cd
+
+
+A look at using GitHub Actions to deploy your application based on a pull=
+ request. Some good tips for interacting with the GitHub API in your Actio=
+ns too.
+
+https://sanderknape.com/2020/05/deploy-pull-requests-github-actions-deploy=
+ments/
+
+
+A long writeup from the recent Deserted Island Devops conference (which to=
+ok place in Animal Crossing). Lots of the discussion and links to slides a=
+nd videos from the talks.
+
+https://www.firehydrant.io/blog/deserted-island-devops-wrapup/
+
+
+A post on combining Helm templates with Kustomize for overriding specific=
+ attributes=2C useful when you want to use third-party content with some m=
+inor changes.
+
+https://povilasv.me/helm-kustomze-better-together/
+
+
+An solid introduction to service mesh specifically for infrastructure team=
+s.
+
+https://www.singlestoneconsulting.com/blog/what-are-service-meshes/
+
+
+Istio is a powerful example of a service mesh=2C which has lots of feature=
+s and things which can be configured. This collection of learning resource=
+s should get you started.
+
+https://github.com/askmeegs/learn-istio
+
+
+Journald underpins logging on many modern Linux operating systems. This po=
+st explores in detail how it=E2=80=99s configured=2C how it stores logs an=
+d in particular how you can access and make use of those logs.
+
+https://sematext.com/blog/journald-logging-tutorial/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Tinkerbell is a new open source bare metal provisioning engine. It=E2=80=
+=99s based around a concept of workflows which can be stored as templates=
+ in source control and aims  to scale down to devices as well as up to lar=
+ge datacenter deployments.
+
+https://www.packet.com/blog/open-sourcing-tinkerbell/
+https://tinkerbell.org/
+
+
+Terraform Compliance is a tool for writing BDD-style tests for Terraform c=
+ode.
+
+https://github.com/eerkunt/terraform-compliance
+https://www.slideshare.net/EmreErkunt/compliance-as-code-with-terraformcom=
+pliance
+
+
+A new set of buildpacks=2C built with Google Cloud Platform in mind=2C but=
+ suitable for any environment. Supports Go=2C Python=2C Node=2C Java and .=
+NET. Good documentation around configuration too.
+
+https://github.com/GoogleCloudPlatform/buildpacks
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,165 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#337?=
+Date: Sun, 11 Jun 2017 11:18:33 +0000
+
+DEVOPS WEEKLY
+ISSUE #337 - 11th June 2017
+
+Lots of differently presented posts this week=2C with a mix of rich diagra=
+ms=2C infographics=2C code examples and even illustrations to explain comp=
+lex topics. Some excellent prose as well=2C covering the importance of met=
+rics=2C technology choice as fashion and the state of secrets management.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Upcoming devops.com webinar: Top 10 Practices of Highly Successful DevOps=
+ Incident Management Teams. Learn more and register:
+
+http://try.victorops.com/devopsWeekly_IMWebinar
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Monitoring with Artificial Intelligence
+
+The modern technologies that accelerate speed of innovation=2C enable hype=
+r-scale deployments=2C and promote business agility also make monitoring a=
+pplications the same old way too difficult and labor-intensive.  Only auto=
+mated AI-powered monitoring can keep pace with the speed at which your tea=
+m is innovating.  Join Daniel Kaar=2C Technology Strategist at Dynatrace=
+=2C for a discussion on how monitoring with AI can help you.
+
+http://ow.ly/20GF30csPzc
+
+
+News
+=3D=3D=3D=3D
+
+Choosing software systems is an interesting problem=2C and the internet ha=
+s a habit of making technology choice fashion=2C rather than context=2C dr=
+iven. This post makes the argument=2C with examples=2C of why you are not=
+ Google.
+
+https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb
+
+
+A follow up to conversations at the recent Monitorama event=2C about the i=
+mportance of metrics=2C and how tracing doesn=E2=80=99t replace more tradi=
+tional time series data for many cases.
+
+https://www.influxdata.com/metrics-are-dead/
+
+
+The 2017 state of Devops report has been published=2C with updated finding=
+s from this years survey. Some new and interesting data points about the i=
+nfluence leadership has on adopting devops practices.
+
+https://puppet.com/blog/2017-state-devops-report-here
+
+
+A great overview of the state of secrets management software=2C with a det=
+ailed look at Vault=2C KeyWhiz=2C Docker=2C Kubernetes=2C Rancher and DC/O=
+S.
+
+https://medium.com/on-docker/secrets-and-lie-abilities-the-state-of-modern=
+-secret-management-2017-c82ec9136a3d
+
+
+A good introduction to domain driven design=2C looking at how to organise=
+ a monolithic application before breaking it up into services.
+
+https://medium.com/weebly-engineering/how-to-organize-your-monolith-before=
+-breaking-it-into-services-69cbdb9248b0
+
+
+A nice writeup of the new caching features in Docker for Mac=2C demonstrat=
+ing how it can be used to improve the local development experience=2C in t=
+his case for Drupal development.
+
+https://www.drud.com/real-world-performance-gains-docker-for-mac-user-guid=
+ed-cache/
+
+
+A diagram-heavy post explaining the differences between request-oriented a=
+nd event-oriented architectures
+
+https://www.confluent.io/blog/build-services-backbone-events/
+
+
+A look at using InSpec to define security policy in code=2C with lots of e=
+xamples. Some interesting points about the difference between integration=
+ tests and tests for compliance with security policies.
+
+https://blog.threatstack.com/test-driven-security-with-chef-inspec
+
+
+A good explanation of various parts of Kubernetes=2C written as a collecti=
+on of observations=2C especially useful for anyone just starting out.
+
+https://jvns.ca/blog/2017/06/04/learning-about-kubernetes/
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon / CloudNativeCon Austin - Join leading Kubernetes and Cloud Native=
+ technologists in Austin for a full range of technology sessions on the cl=
+oud native ecosystem.
+
+We sold out in Berlin and are excited to see thousands of you from the com=
+munity in Austin! Call for papers and registration information linked.
+
+https://goo.gl/yKCHvh
+
+
+Jobs
+=3D=3D=3D=3D
+
+Motivate is hiring a Site Reliability Engineer in Brooklyn=2C NY. We are t=
+he largest producer & operator of bicycle sharing systems in North America=
+=2E As our first SRE hire=2C you will have an opportunity to shape our proce=
+ss=2C culture and tooling for years to come. Help us make the world a gree=
+ner=2C more bike-friendly place with DevOps!
+
+https://jobs.lever.co/motivateco/8491fc0a-2aa4-410a-81a1-fd633c35ad3b?leve=
+r-origin=3Dapplied&lever-source%5B%5D=3DDEVOPSWEEKLY
+
+
+Top Tech Companies Are Looking To Hire You. Let Them Find You On Hired.
+
+http://hrd.cm/2jHrf1B
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Config Management Camp is one of my favourite conferences in Europe=2C and=
+ it=E2=80=99s coming to Portland in the US on August 3rd. The CFP is open=
+ now if you have talk ideas about infrastructure management or automation.
+
+http://cfgmgmtcamp.eu/#cfp
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Welder is a simple script execution tool=2C intended for bootstrapping ser=
+ver instances with as few features as possible.
+
+https://github.com/pch/welder
+
+
+
+Upcoming devops.com webinar: Top 10 Practices of Highly Successful DevOps=
+ Incident Management Teams. Learn more and register:
+
+http://try.victorops.com/devopsWeekly_IMWebinar
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

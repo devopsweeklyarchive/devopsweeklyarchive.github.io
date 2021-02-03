@@ -1,0 +1,116 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#362?=
+Date: Sun, 3 Dec 2017 15:33:23 +0000
+
+DEVOPS WEEKLY
+ISSUE #362 - 3rd December 2017
+
+I=E2=80=99m in Austin all this week for KubeCon and CloudNativeCon so plea=
+se say Hi if you happen to be here too. Lots of service management content=
+ this week=2C along with several posts on skills and team organisation.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Integrate VictorOps into DevOps workflows to deploy faster and maintain hi=
+gher quality. Get your free trial started today:
+
+http://try.victorops.com/DevOpsWeekly/FreeTrial
+
+
+News
+=3D=3D=3D=3D
+
+Knowing how and when to adopt new technology is a key skill given the pote=
+ntial improvements and risks associated with doing so. This post has some=
+ great tips for knowing when=2C and where=2C to say No.
+
+https://blog.codeship.com/growing-tech-stack-say-no/
+
+
+There are a number of different ways of deploying software=2C each with di=
+fferent tradeoffs. This post does a great job of describing several=2C giv=
+ing them names and discussing pros and cons.
+
+http://blog.itaysk.com/2017/11/20/deployment-strategies-defined
+
+
+A nice set of habits=2C or principles=2C for anyone working as a site reli=
+ability engineer. A good discussion around the need for big-picture thinki=
+ng=2C analysis=2C trust in process and more.
+
+https://blog.newrelic.com/2017/11/13/site-reliability-engineer-sre-habits/
+
+
+Everyone is probably familiar with the idea of a three-tier support struct=
+ure=2C and some of the problems it can cause. But what alternatives exist?=
+ This post and talk introduce the concept of swarming for dealing with sup=
+port issues.
+
+https://medium.com/@JonHall_/itsm-devops-and-why-the-three-tier-structure-=
+must-be-replaced-with-swarming-91e76ba22304
+https://www.slideshare.net/JonHall7/it-in-the-park-2017-why-we-should-ditc=
+h-the-3tier-support-model-and-start-swarming
+
+
+I=E2=80=99ve always been interested in the automation of local development=
+ environments. This post explains some of the benefits=2C and goes into th=
+e details of a node.js setup using Docker.
+
+http://activelamp.com/blog/devops/docker-and-development-environments-sett=
+ing-up-for-nodejs-on-osx/
+
+
+A solid argument that sometimes focusing on bottom up change at the team l=
+evel misses the larger challenge of how multiple teams and the rest of the=
+ organisation work together. Definitely relevant to any organisation adopt=
+ing devops principles and practices.
+
+https://hackernoon.com/stop-obsessing-over-the-teams-454fae465d63
+
+
+A quick introduction to the concept of a service portfolio=2C why it can b=
+e a good way of managing priorities across a larger organisation=2C and ho=
+w that fits with devops. I don=E2=80=99t agree with all of the points=2C b=
+ut I do thing portfolios have a place.
+
+https://itsm.tools/2017/11/28/four-reasons-need-service-portfolio-effectiv=
+e-devops/
+
+
+A detailed walkthrough for setting up a CI pipeline for basic testing of a=
+nsible roles. I=E2=80=99d love to see more detailed assertions that just w=
+hether it runs cleany though.
+
+https://blog.travis-ci.com/2017-11-30-testing-ansible-roles-using-docker-o=
+n-travis
+
+
+High-level DSLs can provide a powerful way of managing configuration witho=
+ut requiring too much programming. This post introduces NaCl which is used=
+ for network rules for the includeOS firewall.
+
+http://www.includeos.org/blog/2017/introducing-nacl.html
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+MetalLB is a Kubernetes-native load balancer for environments where the cl=
+oud-provider load balancer integration isn=E2=80=99t suitable=2C for insta=
+nce when running a bare-metal cluster.
+
+https://github.com/google/metallb
+
+
+Integrate VictorOps into DevOps workflows to deploy faster and maintain hi=
+gher quality. Get your free trial started today:
+
+http://try.victorops.com/DevOpsWeekly/FreeTrial
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,165 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#399?=
+Date: Sun, 19 Aug 2018 09:07:08 +0000
+
+DEVOPS WEEKLY
+ISSUE #399 - 17th August 2018
+
+Everything from the challenges of running stateful workloads on Kubernetes=
+ to tools for managing Kafka=2C via the problem with healthchecks and disc=
+ussion of ITSM and digital transformation.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+On-call doesn=E2=80=99t have to be a horror movie. Incident response data=
+ and tools can be used to improve on-call rotations=2C escalation policies=
+=2C and collaboration. Read about some on-call horror stories and see how=
+ you can better avoid on-call disasters:
+
+http://try.victorops.com/devopsweekly/avoiding-on-call-disasters
+
+
+News
+=3D=3D=3D=3D
+
+An interview discussing the challenges of running database workloads on to=
+p of Kubernetes=2C applicable to many stateful workloads.
+
+https://gravitational.com/blog/running-postgresql-on-kubernetes/
+
+
+The second post in a series on patterns for helping organisation adopt dev=
+ops and agile practices and principles. This post focuses on the benefits=
+ of making things smaller in scope to achieve the biggest impact over time=
+=2E
+
+https://medium.com/@jonathansmart1/want-to-scale-agile-dont-descale-the-wo=
+rk-first-achieve-big-through-small-7bdd09962540
+
+
+Encouraging organisations to change practices and adopt devops principles=
+ can rarely be done by edict. This post delves a bit into how to build all=
+iances between different business units or groups.
+
+https://medium.com/@cote/creating-alliances-and-holding-zero-sum-trolls-at=
+-bay-3047c5804e34
+
+
+A detailed post on healthchecks in distributed systems=2C the problems of=
+ binary determinations and what to do in the case of a failing check.
+
+https://medium.com/@copyconstruct/health-checks-in-distributed-systems-aa8=
+a0e8c1672
+
+
+A tale of going from no appreciable monitoring to instrumenting a applicat=
+ion and it=E2=80=99s infrastructure=2C and identifying some large performa=
+nce gains in the process.
+
+https://buildchimp.me/Through-a-Dashboard-Darkly/
+
+
+An argument that ITSM and devops are more closely aligned than people some=
+times thing=2C with the interesting observation about the common mistake o=
+f underestimating the importance of culture.
+
+https://www.thinkhdi.com/library/supportworld/2018/devops-itsm-why-are-we-=
+arguing.aspx
+
+
+A quick comparison=2C along with examples=2C of using different tools to c=
+onfigure an AWS serverless environment=2C looking at Terraform=2C Serverle=
+ss framework and the new AWS CDK.
+
+https://blog.james-mullen.me.uk/2018-08-04-how-many-ways-can-you-skin-infr=
+astructure-as-code/
+
+
+An interesting behind-the-scenes look at the architecture and technology s=
+tack for an ecommerce operation. Discussion of technology choice over time=
+ and the tools used to build and deploy the applications.
+
+https://shopifyengineering.myshopify.com/blogs/engineering/e-commerce-at-s=
+cale-inside-shopifys-tech-stack
+
+
+A set of useful serverless use cases (like email=2C video processing=2C cr=
+on=2C etc.)=2C albeit with examples tied heavily to AWS functionality.
+
+https://www.simform.com/serverless-examples-aws-lambda-use-cases/
+
+
+Jobs
+=3D=3D=3D=3D
+
+We're hiring a DevSecOps Engineer onsite here at HelloFresh in Berlin. Our=
+ ideal candidate is passionate about contributing to open source=2C securi=
+ty=2C and loves to automate things! You can get a taste of what we've been=
+ working on by checking out our engineering blog linked below.
+
+If you love food and want to work for one of the fastest growing companies=
+ in Europe then don't hesitate to apply. We'll support you with full reloc=
+ation assistance to Berlin if needed.
+
+Engineering blog: https://engineering.hellofresh.com/
+Job description/Application: https://grnh.se/5d8e54541
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+EnvoyCon is taking place on December 10th in conjunction with KubeCon + Cl=
+oudNativeCon North America. Interested in sharing your expertise on Envoy?=
+ Submit a proposal to speak by August 24th!
+
+http://bit.ly/2OjkMIp
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DevOps Sessions & Tutorials at Open Source Summit Europe | October 22 - 24=
+=2C 2018=2C Edinburgh=2C UK
+
+Open Source Summit Europe=2C October 22-24 in Edinburgh=2C UK is the premi=
+er open source event in Europe and offers DevOps professionals a unique op=
+portunity to learn how to more efficiently manage environments=2C migrate=
+ legacy infrastructure=2C integrate the latest tools=2C and much more. Net=
+work with your community peers in the hallway track=2C or get educated on=
+ cutting edge technology - like Serverless and Kubernetes - in the 300+ se=
+ssions. Whether you=E2=80=99re interested in DevSecOps=2C infrastructure a=
+utomation or container testing and orchestration tools - you will have the=
+ chance to learn about the latest advances and best practices.
+
+View the full schedule=2C and save 15% with discount code OSSDEVOPS15.
+http://bit.ly/DevOpsOSS18
+
+
+Tools
+=3D=3D=3D=3D
+
+Kafka-Kit is a collection of tools for managing kafka clusters=2C includin=
+g tools that handle partition to broker mappings=2C failed broker replacem=
+ents=2C storage based partition rebalancing=2C and replication auto-thrott=
+ling.
+
+https://www.datadoghq.com/blog/engineering/introducing-kafka-kit-tools-for=
+-scaling-kafka/
+https://github.com/DataDog/kafka-kit
+
+
+
+On-call doesn=E2=80=99t have to be a horror movie. Incident response data=
+ and tools can be used to improve on-call rotations=2C escalation policies=
+=2C and collaboration. Read about some on-call horror stories and see how=
+ you can better avoid on-call disasters:
+
+http://try.victorops.com/devopsweekly/avoiding-on-call-disasters
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

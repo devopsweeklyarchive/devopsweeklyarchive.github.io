@@ -1,0 +1,176 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#235?=
+Date: Sun, 5 Jul 2015 20:49:12 +0000
+
+DEVOPS WEEKLY
+ISSUE #235 - 5th July 2015
+
+I=E2=80=99m really looking forward to the Operability conference (mentione=
+d below) later in the year as it promises to mix new and emerging tech wit=
+h talks about actual operations=2C service management=2C IT=2C etc. It=E2=
+=80=99s great to see these topics get there own conference alongside the m=
+ore tech and community focused events. Hopefully see a few readers there.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] Goodbye War Room=2C Hello DevOps 2.0
+
+Make war rooms the exception=2C not the rule in 2.0. Discover 6 ways to bu=
+ild quality into everything and say goodbye to crazy expensive bug fixing=
+ and war rooms.
+
+http://ow.ly/OMSU2
+
+
+News
+=3D=3D=3D=3D
+
+The following post nicely ties together organisational structure=2C softwa=
+re development methodology and systems architecture - and explains why and=
+ how they are related.
+
+http://aimconsulting.com/devops-architecture-methodoloy-connected/
+
+
+Moving past issuing an alert for every state change in your monitoring sys=
+tem can take some doing in some environments. This post does a good job of=
+ going through the different reasons to page someone.
+
+https://www.datadoghq.com/blog/monitoring-101-alerting/
+
+
+A good=2C practical=2C Docker experience report covering image layout=2C i=
+mage building=2C automation=2C logging=2C managing configuration and more.
+
+https://blog.newrelic.com/2015/06/18/zero-to-docker/
+
+
+The number of different monitoring tools is growing by the week. Monitorin=
+gscale looks like a nice attempt to catalogue all of them. Everything from=
+ brand new SaaS and open source tools all the way to Tivoli.
+
+https://www.bigpanda.io/monitoringscape/
+
+
+The IEEE are looking to produce a special issue of IEEE Software focused o=
+n the software-engineering challenges of adopting DevOps practices. They h=
+ave a call for articles out with a deadline of October=2C and publication=
+ next year. The list of suggested topics should help anyone thinking of su=
+bmitting.
+
+http://www.computer.org/web/computingnow/swcfp3
+
+
+A nice run-through of the tradeoffs of adopting containers when it comes t=
+o isolation. In short - don=E2=80=99t just treat them like virtual machine=
+s but understand the new capabilities and risks.
+
+http://blog.sei.cmu.edu/post.cfm/container-security-devops-176
+
+
+A nice reminder that Devops is intertwined with agile practices=2C and in=
+ many cases those core agile practices are not well understood or adopted.=
+ This tallies with my own experience too.
+
+http://blog.matthewskelton.net/2015/07/02/bridge-the-business-devops-gap-w=
+ith-agile-practices/
+
+
+A nice=2C quick=2C personal opinion comparing Jenkins to Rundeck for the w=
+eb based command and control frontend. I definitely agree with the conclus=
+ion that we should see more tools in this space.
+
+http://opsrevolution.com/free-automation-front-ends-should-i-pick-rundeck-=
+or-jenkins/
+
+
+A good interview from the recent Craft conference in Budapest=2C all about=
+ logs as a fundamental part of a data processing infrastructure=2C as well=
+ as some talk of the importance of event sourcing and CRDTs.
+
+http://www.infoq.com/interviews/kleppmann-data-infrastructure-logs-crdt
+
+Fan Networking is an interesting idea to expand IPv4 network space in a lo=
+cal network by using an underlay network. The fan is a mapping between a s=
+maller network address space (typically a /16 network) and a larger one (t=
+ypically a /8)=2C the site has examples using AWS VPC and Docker.
+
+https://wiki.ubuntu.com/FanNetworking
+
+
+A useful site on how and why to keep a changelog for your software project=
+s. I=E2=80=99m not always good at this so hopefully a useful reminder for=
+ others too.
+
+http://keepachangelog.com/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Gemalto (formerly SafeNet) Sentinel Software Monetization seeks multiple O=
+perations Engineers/Architects in US/Canada (100% remote with opportunitie=
+s for travel as part of global Engineering & Operations team) to help scal=
+e current cloud platform and guide next generation services and analytics=
+ stack. Tech Experience: Ansible=2C Jenkins=2C JVM/J2EE=2C  Python=2C Gola=
+ng=2C Scala=2C AWS=2C Ubuntu=2C MySQL.
+
+https://safenetinc.taleo.net/careersection/01/jobdetail.ftl?job=3D00668&la=
+ng=3Den&sns
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The Operability programme is now available. Operability is a new conferenc=
+e in London on the 24th and 25th of September all about how new technologi=
+es and approaches are changing IT Operations.
+
+http://operability.io/
+
+
+Devopsdays Melbourne is coming up on the 16th and 17th of July with a bunc=
+h of interesting sounding talks and the usual open spaces and ignites. Sti=
+ll tickets available if you=E2=80=99re in the area.
+
+http://www.devopsdays.org/events/2015-melbourne/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Aeron looks like an interesting new messaging system intended for very hig=
+h throughput and very low latency. It=E2=80=99s described as a message ori=
+ented replacement for TCP rather than a general purpose messaging platform=
+=2E
+
+http://highscalability.com/blog/2014/11/17/aeron-do-we-really-need-another=
+-messaging-system.html
+https://github.com/real-logic/Aeron
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

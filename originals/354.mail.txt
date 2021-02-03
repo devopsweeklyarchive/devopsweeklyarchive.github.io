@@ -1,0 +1,211 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#354?=
+Date: Sun, 8 Oct 2017 18:53:05 +0000
+
+DEVOPS WEEKLY
+ISSUE #354 - 8th October 2017
+
+Several posts this week with content from workshops=2C classes and trainin=
+g sessions. I know just how much effort it takes to put together high-qual=
+ity learning material like that and I=E2=80=99m super appreciative and hap=
+py that folks are increasingly making this content freely available online=
+=2E
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Essential eBook for DevOps pros: The Dev and Ops Guide to Incident Managem=
+ent offers 25+ pages of insight into building teams and improving your res=
+ponse to downtime.
+
+http://try.victorops.com/DevOpsWeekly/IM_eBook
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Lessons learned while writing The DevOps Handbook
+
+In a recent webinar=2C Gene Kim=2C co-author of The Phoenix Project=2C sha=
+red the top insights he discovered while co-authoring The DevOps Handbook.=
+ Read about the DevOps best practices he shared. As a bonus=2C you'll also=
+ get lessons learned from Dynatrace's own DevOps transformation =E2=80=93=
+ 26 major releases per year and 170 production deployments.
+
+http://ow.ly/q22H30fm5Wh
+
+
+News
+=3D=3D=3D=3D
+
+Designing and building secure software is not easy=2C and few teams adopt=
+ a formal approach to solving the problem. The UK National Cyber Security=
+ Centre have published a handy set of 8 principles with which to test your=
+ development methodology.
+
+https://www.ncsc.gov.uk/blog-post/secure-development-and-deployment
+https://github.com/ukncsc/secure-development-and-deployment/
+
+
+The STELLA report from the SNAFU catchers consortium was published this we=
+ek and makes interesting reading for anyone working on incident response o=
+r running large-scale systems. It contains writeups of several failures in=
+volving common technologies=2C delves into the theory and provides useful=
+ recommendations.
+
+http://stella.report
+
+
+An excellent take on why monitoring is changing in the face of the adoptio=
+n of cloud native platforms and microservice architectures. Nicely ties th=
+e co-evolution of the spaces together.
+
+https://medium.com/@copyconstruct/monitoring-in-the-time-of-cloud-native-c=
+87c7a5bfa3e
+
+
+A good take on why Kubernetes is interesting. The point about having a sin=
+gle database of the state of all of your applications is super powerful in=
+ my view.
+
+https://jvns.ca/blog/2017/10/05/reasons-kubernetes-is-cool/
+
+
+An excellent set of resources for anyone wanting to understand distributed=
+ systems. A nice=2C and not overlong=2C list of important books=2C papers=
+ and blog posts.
+
+https://caitiem.com/2017/09/07/getting-started-with-distributed-systems/
+
+
+Detailed notes for a class on distributed systems. This is perfect if you=
+ already know some bits but maybe not the formal language and want to iden=
+tify areas for more investigation.
+
+https://github.com/aphyr/distsys-class
+
+
+A good post on the tension between the desire to fix the problem when an o=
+utage occurs and the need to communicate with users and others about the p=
+roblem.
+
+http://www.joetheitguy.com/2017/09/27/service-management-isnt-one-job-two/
+
+
+A good slide deck exploring practical things you and your team can do to i=
+mprove the operability of your systems.
+
+https://blog.robthatcher.net/2017/10/02/practical-operability-techniques-f=
+or-teams-operability-practical-tips/
+
+
+Microservices typically present some interesting challenges for testing=2C=
+ which can easily result in expensive=2C slow and brittle tests to quickly=
+ dominate. This post has some good tips for unit testing services.
+
+https://medium.com/@nathankpeck/microservice-testing-unit-tests-d795194fe1=
+4e
+
+
+An interesting look at the numbers behind the growth of hyper-scale public=
+ cloud provider datacenters=2C and why the idea that everything will rapid=
+ly move to the public cloud might play out more slowly.
+
+https://www.linkedin.com/pulse/why-adoption-public-cloud-likely-wont-excee=
+d-17-percent-mark-thiele/?published=3Dt
+
+
+Assessing risk=2C and using that assessment to help design systems or proc=
+esses=2C is a useful skill. It=E2=80=99s critical to avoid under (or over)=
+ investment in securing systems in particular. This freely available works=
+hop content serves as a great introduction to risk assessment fundamentals=
+=2E
+
+https://medium.com/@seamustuohy/risk-assessment-fundamentals-1b7b1b9e103f
+
+
+A nice detailed look at how docker handles failure of containers=2C lookin=
+g at signals=2C exit codes=2C restart policies and health checks.
+
+https://sreeninet.wordpress.com/2017/08/15/docker-features-for-handling-co=
+ntainers-death-and-resurrection/
+
+
+The Linux Foundation
+=3D=3D=3D=3D
+
+Free Your Metadata by joining this webinar w/ODPi=2C IBM=2C ING=2C and Hor=
+tonworks
+October 12=2C Online
+
+We all use metadata every day. Metadata today has gravity=2C however=2C it=
+ should have the ability to be moved with the data and be augmented and pr=
+ocessed through APIs for permitted usages. Join us and find out how we're=
+ going to accomplish this.
+
+https://goo.gl/yhqQtQ
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Cloud Native Apps from Development to Production
+October 12=2C Online
+
+Learn about the advantages and elements of a cloud-native approach=2C and=
+ how GitLab is making it simpler to deploy cloud-native applications to pr=
+oduction using Kubernetes.
+
+https://goo.gl/fsSpPE
+
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists=2C December 6-8=2C in Austin for a broad range of te=
+chnical sessions on the cloud native ecosystem. We sold out in Berlin and=
+ are excited to see thousands of you from the community join us=2C this ti=
+me in Austin!
+
+http://goo.gl/wbdqve
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DevSecCon is back in London on the 19th and 20th of October. An interestin=
+g schedule of topics for operators=2C developers and security folks with t=
+alks on securing Apple laptops=2C making process secure by default=2C comp=
+liance in a continuous delivery world and more.
+
+http://www.devseccon.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kedge aims to provide a high-level data-centric interface for describing K=
+ubernetes applications=2C with a focus on good defaults and familiarity fo=
+r folks already using the lower-level APIs.
+
+http://kedgeproject.org/
+https://github.com/kedgeproject/kedge
+
+
+The Docker Version Manager (dvm) is a cross-platform command-line tool tha=
+t helps you install and switch between Docker clients. Handy if you=E2=80=
+=99re working with a range of different server versions.
+
+https://howtowhale.github.io/dvm/
+
+
+
+Like DevOps? Register for All Day DevOps - a FREE online conference this O=
+ctober=2C offering 100 DevOps-focused sessions across six different tracks=
+=2E Learn more & register:
+
+http://bit.ly/2wLKpbV
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

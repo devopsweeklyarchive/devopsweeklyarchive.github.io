@@ -1,0 +1,163 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#455?=
+Date: Sun, 15 Sep 2019 16:35:56 +0000
+
+DEVOPS WEEKLY
+ISSUE #455 - 15th September 2019
+
+A quick shout out to say the 10 year Devopsdays anniversary event is comin=
+g up=2C at the end of October in Ghent. The term devops was coined for the=
+ very first event=2C and 10 years seems something of a milestone. https://=
+devopsdays.org/events/2019-ghent/welcome/
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Machine learning is already being used in many DevOps processes =E2=80=93=
+ driving highly efficient workflows across the entire software delivery li=
+fecycle. See how machine learning is currently being used to improve incid=
+ent management and response in production environments:
+
+http://try.victorops.com/devopsweekly/machine-learning-and-incident-manage=
+ment
+
+
+News
+=3D=3D=3D=3D
+
+SSH is still the ubiquitous solution to remote management=2C and most of t=
+hose use public keys to authenticate. This post argues we=E2=80=99ve colle=
+ctively got this wrong=2C and the user experience and security when using=
+ SSH certificates is much superior.
+
+https://smallstep.com/blog/use-ssh-certificates/
+
+
+An interesting presentation on instrumenting your applications=2C covering=
+ consuming instrumentation=2C writing code that is easy to instrument and=
+ writing the instrumentation itself.
+
+https://speakerdeck.com/jcchavezs/instrumentation-fly-safe-in-production
+
+
+I=E2=80=99ve been experimenting with Octant recently=2C which is a new Kub=
+ernetes dashboard with lots of functionality built-in as well as a nifty p=
+lugin mechanism. This post is a good introduction.
+
+https://cormachogan.com/2019/09/10/a-first-look-at-octant-visualizing-your=
+-k8s-clusters/
+
+
+The latest Accelerate State of Devops report is out=2C featuring insights=
+ about how organisations are using cloud=2C models for improving organisat=
+ional performance and lots of data about devops adoption.
+
+https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-stat=
+e-of-devops-elite-performance-productivity-and-scaling
+
+
+A useful post on security-minded code review for Kubernetes applications a=
+nd configuration=2C featuring a checklist of things you should be consider=
+ing when looking at third party code in particular.
+
+https://pushbuildtestdeploy.com/security-code-review-for-public-kubernetes=
+-and-helm-code/
+
+
+Distributed tracing is still a new concept to lots of folks=2C and this po=
+st does a great job of introducing tracing from the basics=2C and explains=
+ the various terms from scratch.
+
+https://kinvolk.io/blog/2019/09/a-shallow-dive-into-distributed-tracing/
+
+
+Open Standards are just as important as Open Source=2C and projects like O=
+pen Telemetry are good examples of making software more compatible. This p=
+ost covers some recent news about existing agents adopting Open Telemetry.
+
+https://www.datadoghq.com/blog/opentelemetry-instrumentation/
+
+
+Observations about new Serverless frameworks running on top of KUbernetes=
+=2C in particular at CloudState which builds on Knative and focuses on sta=
+teful services.
+
+http://blog.thestateofme.com/2019/09/10/stateful-serverless/
+
+
+Helm 3 is nearing release=2C and resolves lots of the concerns folks had a=
+bout Helm 2=2C as well as adding some useful new capabilities. This post c=
+overs how to migrate to the new version given the old Tiller controller is=
+ no more.
+
+https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/
+
+
+How we organise work often has an impact on the work we deliver. This epic=
+ post looks at outcomes vs outputs=2C local vs global optimisation and sev=
+eral other antipatterns when looking to most more quickly in the right dir=
+ection.
+
+https://medium.com/sooner-safer-happier/agility-build-the-right-thing-69d3=
+16aeb56b
+
+
+Always interesting to see experience reports from Devopsdays events. My ex=
+perience is some of these points are quite local=2C but some useful observ=
+ations about what folks are talking and thinking about at the moment.
+
+https://www.darkcoding.net/software/a-developer-goes-to-a-devops-conferenc=
+e/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon and CloudNativeCon North America are coming up in San Diego from t=
+he 18th until the 21st of November. The schedule has just been announced a=
+nd it=E2=80=99s packed with talks on the CNCF projects like Kubernetes=2C=
+ Envoy=2C Helm as well as case studies=2C community meetings and more. The=
+ schedule is extended with separate focused events on the first day=2C eac=
+h one on a specific topic including security=2C CI/CD and Observability. H=
+ope to see a few readers in San Diego.
+
+http://bit.ly/2ko9SrP
+
+
+The O'Reilly Velocity Conference heads to Berlin=2C 4=E2=80=937 November.=
+ Velocity is the best place on the planet for web ops and systems engineer=
+ing professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on cloud native infrastr=
+ucture=2C DevOps=2C Kubernetes=2C and more=2C there's something for everyo=
+ne. Passes start at =E2=82=AC596 when you use the code DEVW20 (applies to=
+ Gold=2C Silver=2C and Bronze passes). Offer expires 20 September. Registe=
+r today!
+
+https://oreil.ly/99PIf
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kuma is another new service mesh=2C described as a universal control-plane=
+ for Service Mesh and Microservices that can run and be operated natively=
+ across both Kubernetes and VM environments=2C
+
+https://kuma.io/
+https://github.com/Kong/kuma
+
+
+
+Machine learning is already being used in many DevOps processes =E2=80=93=
+ driving highly efficient workflows across the entire software delivery li=
+fecycle. See how machine learning is currently being used to improve incid=
+ent management and response in production environments:
+
+http://try.victorops.com/devopsweekly/machine-learning-and-incident-manage=
+ment
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

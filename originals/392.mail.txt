@@ -1,0 +1,131 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#392?=
+Date: Sun,  1 Jul 2018 10:59:35 +0000
+
+DEVOPS WEEKLY
+ISSUE #392 - 1st July 2018
+
+Several security posts this week=2C along with a few Windows posts too. Pl=
+us how Devops and Cloud Native relate to each other=2C a look at Helm 3 an=
+d more.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Say goodbye to alert fatigue. Start quieting the noise=2C providing contex=
+tual alerts=2C and collaborating to quickly identify=2C diagnose=2C and re=
+mediate incidents:
+
+http://try.victorops.com/DevOpsWeekly/End-Alert-Fatigue
+
+
+News
+=3D=3D=3D=3D
+
+Devops and Cloud Native are parallel movements that have a lot of crossove=
+r. This presentation explores that relationship=2C and is a nice introduct=
+ion to both topics.
+
+https://www.slideshare.net/MichaelDucy/devops-in-a-cloud-native-world
+
+
+Prometheus is an increasingly popular monitoring tool aimed at cloud nativ=
+e environments. The new book Monitoring with Prometheus covers everything=
+ from the core concepts to installation and how to monitor an application.=
+ Subscribers can get a 25% discount using the code DEVOPSWEEKLY.
+
+https://www.prometheusbook.com/
+
+
+An interesting post on the move from a monolith to microservices=2C focuse=
+d on losing visibility into the system and the additional of tracing. Some=
+ interesting notes about database observability too.
+
+https://medium.com/@bas.vanbeek/opencensus-and-go-database-sql-322a26be5cc=
+5
+
+
+Helm has become an important tool for lots of Kubernetes users=2C and Helm=
+ 3 comes with a number of new features (including Lua-based object definit=
+ion.) This post introduces the changes.
+
+https://sweetcode.io/a-first-look-at-the-helm-3-plan/
+
+
+A good post on applying automation to building a repeatable workshop=2C in=
+cluding details of configuring build pipelines in VSTS.
+
+http://tattoocoder.com/learning-devops-and-building-the-asp-net-core-works=
+hop-up-to-date/
+
+
+A roundup of the a recent devops and security survey=2C some interesting d=
+ata about how developers and operators think about the security challenge=
+ and what tooling and practices are in use.
+
+https://www.slideshare.net/wickett/devsecops-in-the-year-2018
+
+
+A case study of using Kubernetes at the edge=2C looking at the architectur=
+e=2C installation and deployment.
+
+https://www.slideshare.net/BrianChambers10/chickfila-milking-the-most-out-=
+of-thousands-of-kubernetes-clusteres
+
+
+This isn=E2=80=99t just a Kubernetes issue but in my experience a more gen=
+eral open source issue. Support for Windows often comes later=2C but is re=
+quired for projects that want to see the widest possible adoption.
+
+https://codeengineered.com/blog/2018/k8s-app-survey-and-windows/
+
+
+The command line is an important tool for most systems administrators=2C a=
+nd it=E2=80=99s an area Windows has typically lagged behind in. This post=
+=2C looking at the evolution of the Windows command line=2C shows things c=
+hanging for the better.
+
+https://blogs.msdn.microsoft.com/commandline/2018/06/27/windows-command-li=
+ne-the-evolution-of-the-windows-command-line/
+
+
+Successfully embracing devops in a security team needs involvement from ac=
+ross the organisation. This post looks at the main roles involved and thei=
+r part in the process.
+
+https://www.cybric.io/the-players-on-your-devsecops-team/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Sensu Summit is coming up on August 22nd and 23rd=2C at the Portland Art M=
+useum in Portland. Some interesting speakers have been announced already w=
+ith more to come later this month. Readers can get a $50 discount with the=
+ code DevOpsWeekly.
+
+https://sensu.io/summit
+
+
+Ballerinacon is coming up on the 18th of July in San Francisco. Topics inc=
+lude microservice development best practices=2C resilience engineering=2C=
+ integration=2C Docker and Kubernetes deployment=2C service mesh=2C server=
+less=2C test-driven microservice development=2C lifecycle management=2C ob=
+servability=2C and security.  Devops Weekly readers can attend the event f=
+or free=2C just use code BalCon-DevopsWeekly when buying your ticket.
+
+https://con.ballerina.io/
+
+
+
+Say goodbye to alert fatigue. Start quieting the noise=2C providing contex=
+tual alerts=2C and collaborating to quickly identify=2C diagnose=2C and re=
+mediate incidents:
+
+http://try.victorops.com/DevOpsWeekly/End-Alert-Fatigue
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,103 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#476?=
+Date: Sun,  9 Feb 2020 10:12:52 +0000
+
+DEVOPS WEEKLY
+ISSUE #476 - 9th February 2020
+
+Team organisation=2C incident management processes=2C configuration manage=
+ment=2C monitoring AWS Lambda functions and several new tools Kubernetes a=
+pplication tools this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Host extraordinaire=2C Benton Rochester=2C talks with Gene Kim about DevOp=
+s and his excellent new book=2C The Unicorn Project. Don't miss this highl=
+y-anticipated episode of Ship Happens=2C the Splunk + VictorOps podcast:
+
+https://go.victorops.com/devopsweekly-ship-happens-with-gene-kim
+
+
+News
+=3D=3D=3D=3D
+
+The first post in a series summarising the team topologies book. Good poin=
+ts about Conway=E2=80=99s law=2C designing handoffs=2C communication overh=
+ead and more.
+
+https://markosrendell.wordpress.com/2020/02/04/team-topologies-book-summar=
+y-part-1-of-3-key-concepts/
+
+
+In the context of incident management=2C this post makes the argument that=
+ (just) counting production incidents can have negative side effects.
+
+https://medium.com/@rbranson/why-you-shouldnt-count-production-incidents-3=
+8616d8e6329
+
+
+A presentation looking at the best way to structure Terraform code=2C and=
+ how those practices are based on the evolution of the language and toolin=
+g.
+
+https://jen20.dev/post/cfgmgmtcamp-2020-terraform-without-the-mess/
+
+
+A look at the key metrics to monitor when working with AWS Lambda applicat=
+ions.
+
+https://www.datadoghq.com/blog/key-metrics-for-monitoring-aws-lambda/
+
+
+YAML is used in lots of places at the moment=2C but most YAML documents us=
+e a small subset of the language. This presentation explores some of the m=
+ore powerful features.
+
+https://www.slideshare.net/roidelapluie/yaml-magic
+
+
+A look at approaches to quantifying risk=2C why it=E2=80=99s useful in a s=
+ecurity context and a Python library to get started with.
+
+https://medium.com/@NetflixTechBlog/open-sourcing-riskquant-a-library-for-=
+quantifying-risk-6720cc1e4968
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+K14s is a set of Kubernetes Tools that follow Unix philosophy to be simple=
+ and composable. Templating=2C application management=2C image management=
+ and more.
+
+https://k14s.io/
+https://github.com/k14s
+
+
+Dekorate is an interesting approach to managing Kubernetes configuration=
+=2C moving the definition into annotations in your Java code and generatin=
+g the required manifests.
+
+https://github.com/dekorateio/dekorate
+
+
+L2i is a handy looking tool for working with Lambda layers. It makes it ea=
+sy to view the details of individual layers as well as export their conten=
+t for analysis.
+
+https://github.com/mhausenblas/l2i
+
+
+Host extraordinaire=2C Benton Rochester=2C talks with Gene Kim about DevOp=
+s and his excellent new book=2C The Unicorn Project. Don't miss this highl=
+y-anticipated episode of Ship Happens=2C the Splunk + VictorOps podcast:
+
+https://go.victorops.com/devopsweekly-ship-happens-with-gene-kim
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

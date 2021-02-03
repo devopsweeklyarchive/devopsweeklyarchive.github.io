@@ -1,0 +1,123 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#486?=
+Date: Sun, 19 Apr 2020 09:37:28 +0000
+
+DEVOPS WEEKLY
+ISSUE #486 - 19th April 2020
+
+Lots of great content this week=2C from post-indent reviews to infosec/ope=
+rations collaboration=2C microservices testing=2C API transport options an=
+d more.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Our people and tools need to be connected now more than ever before. That=
+=E2=80=99s why VictorOps is offering free=2C 90-day extended Enterprise tr=
+ials for on-call incident response and alert management=2C up to 100 users=
+=2C to anyone who needs it:
+
+https://go.victorops.com/devopsweekly-extended-trials-for-incident-respons=
+e
+
+
+News
+=3D=3D=3D=3D
+
+Post-incident reviews are increasingly common=2C but how many of them focu=
+s on learning from incidents vs blame or simplistic understanding? This de=
+ck contains lots of tips for how to improve the practice.
+
+https://speakerdeck.com/jallspaw/incident-analysis-how-star-learning-star-=
+is-different-than-star-fixing-star
+
+
+A detailed tutorial on how to build a GitHub Action. Covers everything fro=
+m managing dependencies to testing and releasing the Action.
+
+https://jeffrafter.com/releasing-github-actions/
+
+
+A podcast recording (and handily notes) on microservices testing approache=
+s=2C covering everything from bridging technology generations to the pros=
+ and cons of local tools vs remote/staging environments.
+
+https://www.getambassador.io/podcasts/podcast-livin-on-the-edge-podcast-3-=
+matt-klein-on-testing-microservices-and-building-cloud-platforms/
+
+
+An in-depth post on the need for coordination between operations and infor=
+mation security folks=2C looking at the benefits of organising games to im=
+prove coordination.
+
+https://swagitda.com/blog/posts/shall-we-play-a-coordination-game/
+
+
+A series of blog posts looking at the foundations of Open Policy Agent=2C=
+ and exploring the Rego policy language.
+
+https://blog.openpolicyagent.org/rego-design-principle-1-syntax-should-ref=
+lect-real-world-policies-e1a801ab8bfb
+https://blog.openpolicyagent.org/rego-design-principle-2-embrace-hierarchi=
+cal-data-8a4913bdfea1
+https://blog.openpolicyagent.org/rego-design-principle-3-optimize-performa=
+nce-automatically-2d29ad3ce96d
+
+
+An opinionated take on API transports=2C comparing gRPC=2C OpenAPI and RES=
+T style APIs and when to choose which option.
+
+https://cloud.google.com/blog/products/api-management/understanding-grpc-o=
+penapi-and-rest-and-when-to-use-them
+
+
+A look at building a LinuxKit virtual machine to run on Azure=2C specifica=
+lly for running container workloads.
+
+https://stevenfollis.com/2020/04/17/creating-a-minimal-os-for-containers-w=
+ith-linuxkit-and-azure/
+
+
+A post on hosting your own Helm Chart repository on Google Cloud=2C using=
+ Terraform and CircleCI in the mix.
+
+https://medium.com/@swade1987/creating-a-helm-repo-on-google-cloud-d970ccc=
+b60c9
+
+
+If you find yourself writing or editing lots of Kubernetes YAML files in V=
+im this post is for you. It shows how to configure a language server to pr=
+ovide autocompletion and inline hints for the various properties.
+
+https://octetz.com/docs/2020/2020-01-06-vim-k8s-yaml-support/
+
+
+A good list for anyone interested in bare metal provisioning and managemen=
+t tools.
+
+https://github.com/alexellis/awesome-baremetal
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Pomerium is an identity-aware proxy that enables secure access to internal=
+ applications=2C providing an interesting alternative to custom authentica=
+tion systems and VPNs.
+
+https://github.com/pomerium/pomerium
+
+
+Our people and tools need to be connected now more than ever before. That=
+=E2=80=99s why VictorOps is offering free=2C 90-day extended Enterprise tr=
+ials for on-call incident response and alert management=2C up to 100 users=
+=2C to anyone who needs it:
+
+https://go.victorops.com/devopsweekly-extended-trials-for-incident-respons=
+e
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

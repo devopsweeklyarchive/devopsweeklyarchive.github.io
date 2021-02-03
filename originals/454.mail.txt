@@ -1,0 +1,155 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#454?=
+Date: Sun,  8 Sep 2019 11:44:35 +0000
+
+DEVOPS WEEKLY
+ISSUE #454 - 8th September 2019
+
+Some good posts on operations fundamentals this week=2C including security=
+ policy and the relationship between delivery speed and stability=2C as we=
+ll as a case study of a migration. Also some new tools in the monitoring=
+=2C deployment and service mesh spaces.
+
+
+>From our sponsor=2C Splunk
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Do Google Docs and Jupyter Notebooks sound like a strange duo? Learn how t=
+his combination helps SREs and developers with incident management and roo=
+t-cause analysis:
+
+https://www.splunk.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+The CNAB specification=2C which is a standard packaging format for multi-c=
+omponent distributed applications=2C just hit 1.0. These two posts explain=
+ some of the background and why it=E2=80=99s important.
+
+https://deislabs.io/posts/state-of-cnab-part-1/
+https://deislabs.io/posts/state-of-cnab-part-2/
+
+
+An interesting article exploring the idea of policy debt. In particular lo=
+oking at security policies and a generational divide between architectures=
+ that favour encryption and those that obsess over firewalls. The post als=
+o observes that policy encodes culture which is an interesting lens throug=
+h which to view the problem.
+
+http://blog.thestateofme.com/2019/09/04/policy-debt/amp/?__twitter_impress=
+ion=3Dtrue
+
+
+The relationship between delivery speed and stability is much more interes=
+ting that simply being in opposition. High performing operations teams ach=
+ieve both. This post explores how=2C and why that=E2=80=99s important.
+
+https://www.cio.com/article/3432986/stability-vs-speed-pick-two.html
+
+
+An interesting story about migrating from one provider to another=2C based=
+ on available features. Data wasn=E2=80=99t really an issue here=2C but so=
+me good points about the potential in open APIs for portability.
+
+https://telescope.ac/battlefield/digital-ocean-to-amazon-in-4-hours
+
+
+The Cluster API project aims to bring declarative=2C Kubernetes-style APIs=
+ to cluster creation=2C configuration and management. It=E2=80=99s making=
+ good progress it seems and the documentation is a useful read.
+
+https://cluster-api.sigs.k8s.io/introduction.html
+
+A call for better build tools focused on the problems we see with microser=
+vice environments vs the larger monolithic binaries many build tools are b=
+est suited for. Lots of interesting things happening in this space.
+
+https://blog.tilt.dev/2019/09/05/put-down-particle-accelerator.html
+
+
+Keiko=2C introduced in this presentation=2C is an interesting set of Kuber=
+netes tools covering forensics=2C reliability=2C management at scale and m=
+ore.
+
+https://github.com/keikoproj/keiko/blob/master/presentations/Keiko.pdf
+
+
+A good writeup of using Open Policy Agent to enforce policy in a CI enviro=
+nment=2C in this case policy around dependencies in a Node.js project.
+
+https://blog.openpolicyagent.org/policy-driven-continuous-integration-with=
+-open-policy-agent-b98a8748e536
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon and CloudNativeCon North America are coming up in San Diego from t=
+he 18th until the 21st of November. The schedule has just been announced a=
+nd it=E2=80=99s packed with talks on the CNCF projects like Kubernetes=2C=
+ Envoy=2C Helm as well as case studies=2C community meetings and more. The=
+ schedule is extended with separate focused events on the first day=2C eac=
+h one on a specific topic including security=2C CI/CD and Observability. H=
+ope to see a few readers in San Diego.
+
+http://bit.ly/2ko9SrP
+
+
+The O'Reilly Velocity Conference premiers in Berlin=2C 4=E2=80=937 Novembe=
+r. Velocity is the best place on the planet for web ops and systems engine=
+ering professionals to get expert insight on building and maintaining clou=
+d native systems. With 4 days of practical content on DevOps=2C systems en=
+gineering=2C performance=2C and more=2C there's something for everyone. Pa=
+sses start at =E2=82=AC596 when you use the code DEVW20 (applies to Gold=
+=2C Silver=2C and Bronze passes). Limited offer expires 20 September. Regi=
+ster today!
+
+https://conferences.oreilly.com/velocity/vl-eu
+
+
+Jobs
+=3D=3D=3D=3D
+
+trivago is hiring Site Reliability Engineers (Cloud Engineers)! Help us to=
+ build the best Hotel Search of the world=2C powered by multiple Kubernete=
+s Clusters=2C operating in several regions on Google Cloud Platform by usi=
+ng open source technology like Kafka=2C Istio (incl. Envoy)=2C Redis=2C gR=
+PC=2C Go=2C Java=2C Kotlin and more on a worldwide scale with a talented a=
+nd senior team!
+
+http://trv.to/99vE
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Vector is a high-performance observability data router. It aims to make co=
+llecting=2C transforming=2C and sending logs=2C metrics=2C and events easy=
+=2E
+
+https://github.com/timberio/vector
+https://vector.dev/
+
+
+Maesh is a new entrant in the Service Mesh space. It aims for ease of inst=
+allation and is built on top of the Traefik proxy. It provides the typical=
+ load balancing=2C canary deployments=2C retries=2C failover=2C circuit br=
+eakers=2C rate limiting and more.
+
+https://mae.sh/
+https://github.com/containous/maesh
+
+
+
+Do Google Docs and Jupyter Notebooks sound like a strange duo? Learn how t=
+his combination helps SREs and developers with incident management and roo=
+t-cause analysis:
+
+https://www.splunk.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

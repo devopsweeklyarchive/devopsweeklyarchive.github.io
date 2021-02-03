@@ -1,0 +1,123 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#490?=
+Date: Sun, 17 May 2020 12:10:31 +0000
+
+DEVOPS WEEKLY
+ISSUE #490 - 17th May 2020
+
+AIOps=2C Observability=2C several new Kubernetes tools and the return of S=
+oftware Circus next week in this week=E2=80=99s issue.
+
+
+News
+=3D=3D=3D=3D
+
+A talk from last year=E2=80=99s GoTo Copenhagen on Why Your Private Cloud=
+ is Probably a Bad Idea.
+
+https://www.youtube.com/watch?v=3DMbaPtzSuQII&feature=3Dyoutu.be
+
+
+This post looks at the promise of AIOps=2C and its relationship to both op=
+erations and observability.
+
+https://thenewstack.io/observability-and-the-misleading-promise-of-aiops
+
+
+A look at the relationship between observability and controllability.
+
+https://www.weave.works/blog/gitops-part-3-observability
+
+
+A detailed series of posts on detection engineering=2C looking at identify=
+ing attackers and exploring core concepts like detection in depth and capa=
+bility abstraction.
+
+https://posts.specterops.io/capability-abstraction-fbeaeeb26384
+https://posts.specterops.io/detection-spectrum-198a0bfb9302
+https://posts.specterops.io/detection-in-depth-a2392b3a7e94
+
+
+A look at some powerful new Helm features in Helm 3 which allow for genera=
+ting a secret on installation which is then reused for upgrades.
+
+https://medium.com/workfloplus/reusing-auto-generated-helm-secrets-a742640=
+3d4bb
+
+
+A tutorial for managing Azure infrastructure using ARM templates deployed=
+ via Azure DevOps pipelines.
+
+https://aidanfinn.com/?p=3D21878
+
+
+It=E2=80=99s often useful to be able to grab a proper virtual machine loca=
+lly=2C for testing or development purposes. This post introduces multipass=
+=2C which provides a handy way of provisioning local VMs.
+
+https://www.maketecheasier.com/multipass-launch-ubuntu-virtual-machine/
+
+
+A look at using Conftest and Open Policy Agent to test Dockerfiles for var=
+ious best practices and issues.
+
+https://blog.madhuakula.com/dockerfile-security-checks-using-opa-rego-poli=
+cies-with-conftest-32ab2316172f
+
+
+Jobs
+=3D=3D=3D=3D
+
+King is looking for new members for the infrastructure engineering teams t=
+o help develop=2C manage and expand our software based networking setup ac=
+ross datacenters and (Google) cloud. Please take a look at the open role f=
+or networking engineer. We're also still looking for both database and str=
+eaming data engineers=2C if that is more your style.
+
+https://careers.king.com/jobs/job/14780-site-reliability-engineer-technolo=
+gy/
+https://careers.king.com/jobs/job/15353-database-site-reliability-engineer=
+-technology/
+https://careers.king.com/jobs/job/15270-network-site-reliability-engineer-=
+technology/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Software Circus is back. A 12 hour event=2C happening on 21st May=2C has t=
+alks on bare metal=2C API gateways=2C container registries=2C building you=
+r own PaaS as well as a costume contest and yoga sessions. Some fun and lo=
+ts of learning to be had.
+
+https://www.softwarecircus.io/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+cdk8s is a framework for defining Kubernetes applications and reusable abs=
+tractions using different programming languages=2C including TypeScript an=
+d Python with more planned.
+
+https://cdk8s.io/
+https://github.com/awslabs/cdk8s
+
+
+Kubie is a CLI tool to help with management of Kubernetes context and name=
+space information. Handy if working with multiple clusters.
+
+https://github.com/sbstp/kubie
+
+
+K9s is a terminal based UI to interact with your Kubernetes clusters. It a=
+ims to make it easier to navigate=2C observe and manage your deployed appl=
+ications from the command line.
+
+https://k9scli.io/
+https://opensource.com/article/20/5/kubernetes-administration
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

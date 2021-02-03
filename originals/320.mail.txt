@@ -1,0 +1,163 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#320?=
+Date: Sun, 12 Feb 2017 20:22:54 +0000
+
+DEVOPS WEEKLY
+ISSUE #320 - 12th February 2017
+
+Several posts this week from last week=E2=80=99s Configuration Management=
+ Camp event. It=E2=80=99s always nice to catch up with folks from across t=
+he different communities and to talk about higher-level problems.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Interested in ChatOps? Get the free 75 page O=E2=80=99Reilly report coveri=
+ng everything from basic concepts to deployment strategies.
+
+http://try.victorops.com/DOWeekly/chatops
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Gene Kim shares top lessons learned [Webcast Replay]
+
+DevOps researcher=2C Gene Kim=2C shares first-hand insights and lessons he=
+ learned while co-authoring The DevOps Handbook=2C including: DevOps trans=
+formation case studies around continuous integration and delivery=2C and c=
+oncrete techniques to build a culture of continuous experimentation and le=
+arning =E2=80=93 including those from Google=2C Etsy=2C Nordstrom=2C and C=
+apital One. Check it out!
+
+http://ow.ly/EXwE304sS1F
+
+
+News
+=3D=3D=3D=3D
+
+A comprehensive postmortem for the recent GitLab database outage. Read it=
+ to learn how to improve your processes not to criticise with the benefits=
+ of hindsight.
+
+https://about.gitlab.com/2017/02/10/postmortem-of-database-outage-of-janua=
+ry-31/
+
+
+My talk from Configuration Management Camp featuring research into what pe=
+ople are putting inside their containers=2C and why containers as black bo=
+xes pose operational challenges.
+
+https://speakerdeck.com/garethr/whats-inside-that-container
+
+
+A few nice folks had a great conversation at Configuration Management Camp=
+ about the role of the CMDB=2C and what a modern CMDB might look like. Som=
+e raw notes from that chat.
+
+https://www.evernote.com/shard/s301/sh/ecfdc3b5-01be-4c85-80a6-600dfbe2b24=
+5/fc17e00e7d3277d5
+https://gist.github.com/f3ew/1247b8fd656dd1e3c5b57268079d25c6
+
+
+A nice walkthrough of setting up Jenkins to autoscale based on demand with=
+in Kubernetes. Lots of code samples and screenshots if you want to try it=
+ out.
+
+http://www.monkeylittle.com/blog/2017/02/09/autoscaling-jenkins-with-kuber=
+netes.html
+
+
+A handy introduction to using inSpec for making test assertions around sec=
+urity and compliance activities.
+
+https://www.10thmagnitude.com/tech-blog/compliance-code-introduction-inspe=
+c/
+
+
+A presentation from Configuration Management Camp about how adopting SaaS=
+ and serverless approaches pushes the configuration to the edges=2C and ho=
+w promise theory can be used to understand the problem.
+
+http://www.slideshare.net/jedi4ever/code-will-come-servers-will-go-but-con=
+fig-management-will-stay-forever
+
+
+A good argument for shipping as small a diff as possible to production=2C=
+ based on visibility and operability.
+
+https://blog.skyliner.io/ship-small-diffs-741308bec0d1#.xeevfm77f
+
+
+A detailed walkthrough of using Terraform=2C Ansible=2C Packer and some cu=
+stom Python code to build a highly-available Rancher cluster in AWS.
+
+https://www.tastycidr.net/rancher-creating-a-highly-available-container-or=
+chestration-cluster-on-ec2/
+
+
+The guarantees provided by hashes are of critical importance for security.=
+ This post delves into some of the mathematics to give a better understand=
+ing of why and how.
+
+https://diogomonica.com/2017/02/03/why-should-hard-be-secure-enough-inform=
+ation-and-non-invertibility-2/
+
+
+Puppet has been around more than 10 years=2C and changed a lot during that=
+ time. This presentation takes us back to basics=2C showing some of the us=
+eful core functionality which is sometimes overlooked.
+
+http://www.slideshare.net/roidelapluie/puppet-dsl-back-to-the-basics
+
+
+The question of where Docker containers will be used is still often asked.=
+ This post takes a strong negative stance on using Docker for databases=2C=
+ but the comments balance some of the points out.
+
+https://myopsblog.wordpress.com/2017/02/06/why-databases-is-not-for-contai=
+ners/#comments
+
+
+Jobs
+=3D=3D=3D=3D
+
+DevOps Job Offers Without the Hassle - Try Hired Today
+
+http://hrd.cm/2jHrf1B
+
+
+FreeAgent are looking for a UK-based (Edinburgh or remote) Senior Operatio=
+ns Engineer. FreeAgent is one of the UK's leading SaaS accounting products=
+=2E You'll be working as part of our Infrastructure team=2C squashing single=
+ points of failure=2C fixing bottlenecks=2C profiling load and solving int=
+eresting scaling and automation problems. Some of the tech we use includes=
+ Puppet=2C SmartOS=2C Ruby and MySQL. You can read the full details on our=
+ website.
+
+https://freeagent.workable.com/jobs/411292
+http://engineering.freeagent.com/2017/02/06/ha-infrastructure-without-brea=
+king-the-bank/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+HubCommander is a new chatbox for GitHub organization management. You can=
+ create new repos=2C grant permissions=2C enable Travis all from your chat=
+ room.
+
+https://github.com/Netflix/hubcommander
+http://techblog.netflix.com/2017/02/introducing-hubcommander.html
+
+
+Interested in ChatOps? Get the free 75 page O=E2=80=99Reilly report coveri=
+ng everything from basic concepts to deployment strategies.
+
+http://try.victorops.com/DOWeekly/chatops
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

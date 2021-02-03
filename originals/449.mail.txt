@@ -1,0 +1,110 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#449?=
+Date: Sun,  4 Aug 2019 10:34:47 +0000
+
+DEVOPS WEEKLY
+ISSUE #449 - 4th August 2019
+
+A wide range of posts this week=2C on logging=2C robust systems=2C observa=
+tions about recent security compromises=2C devops and machine learning=2C=
+ Kubernetes developer tooling and more.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Interested in moving from IT operations to a more DevOps-focused role? Che=
+ck out our tips for making the career shift from IT Ops to DevOps and help=
+ move your business into the future of continuous testing and delivery:
+
+http://try.victorops.com/devopsweekly/moving-to-the-devops-model
+
+
+News
+=3D=3D=3D=3D
+
+Not all organisations are setup for developers and operators to work well=
+ together. This post explores a number of approaches to folks working in t=
+hose environments.
+
+https://medium.com/@daryn_74143/how-to-do-devops-when-you-have-no-idea-who=
+-the-devs-are-f156d42aab8f
+
+
+A post on the top seven myths of robust systems. From the idea of simply r=
+emoving risk=2C enforcing policies or adding in redundancy.
+
+https://www.verica.io/top-seven-myths-of-robust-systems/
+
+
+A discussion of structured logging=2C and an introduction to an approach c=
+alled canonical log lines.
+
+https://stripe.com/gb/blog/canonical-log-lines
+
+
+A post on the recent Capital One compromise. Some speculation=2C but some=
+ good discussion and advice about the nature of real world vulnerabilities=
+=2E
+
+https://medium.com/cloud-security/whats-in-your-cloud-673c3b4497fd
+
+
+Kubernetes operators provide a way of embedding management automation in K=
+ubernetes=2C which can be configured using custom resources. This post ste=
+ps through writing your first operator using the operator SDK.
+
+https://medium.com/faun/writing-your-first-kubernetes-operator-8f3df445323=
+4
+
+
+A look at adopting new functionality from NATs 2.0=2C in particular around=
+ secure multi-tenancy=2C into the Choria infrastructure orchestration tool=
+ing.
+
+https://choria.io/blog/post/2019/08/01/nats_20_networking/
+
+
+Slides looking at the challenges of developing applications for Kubernetes=
+=2C focused on the development part rather than just at deployment bits an=
+d looking at several tools in the space.
+
+https://garden.slides.com/ellenkorbes/k8sdevtools?token=3Dt3egVfZS#/1
+
+
+A post on applying devops practices to machine learning and data science.=
+ Experiments are often run without understanding all of the variables invo=
+lved=2C automation can help.
+
+https://dotscience.com/blog/run-tracking/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Inspecktor Gadget is a collection of tools for developers of Kubernetes ap=
+plications. It exposes lots of low level information from pods=2C like net=
+work and trace information.
+
+https://github.com/kinvolk/inspektor-gadget
+
+
+Keycloak is an open source identity and access management system. It suppo=
+rts user federation=2C identity brokering and social login amongst other f=
+eatures.
+
+https://www.keycloak.org/
+https://github.com/keycloak/keycloak
+
+
+
+Interested in moving from IT operations to a more DevOps-focused role? Che=
+ck out our tips for making the career shift from IT Ops to DevOps and help=
+ move your business into the future of continuous testing and delivery:
+
+http://try.victorops.com/devopsweekly/moving-to-the-devops-model
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,101 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#429?=
+Date: Sun, 17 Mar 2019 12:26:47 +0000
+
+DEVOPS WEEKLY
+ISSUE #429 - 17th March 2019
+
+Structured logging=2C configuring Kubernetes=2C gRPC and AWS Lambda=2C a g=
+ood introduction to NATs for messaging and more this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Start making on-call suck less. Last chance to register for the free Victo=
+rOps webinar where you can learn about using automation and improved colla=
+boration to create a better on-call experience:
+
+http://try.victorops.com/devopsweekly/making-on-call-suck-less
+
+
+News
+=3D=3D=3D=3D
+
+A detailed post on adopting structured logging=2C the advantages of schema=
+s for logs and making the full logging stack available for local developme=
+nt.
+
+https://engineering.grab.com/structured-logging
+
+
+This post introduces Kind (Kubernetes in Docker)=2C which provides an easy=
+ way of running ephemeral Kubernetes clusters suitable for use in automate=
+d testing. This post shows using it with Travis.
+
+https://www.loodse.com/blog/2019-03-12-running-kubernetes-in-the-ci-pipeli=
+ne-/
+
+
+A good introduction to the NATS message bus. Goes over the different subsc=
+ription models=2C NATS streaming and what=E2=80=99s coming in the next ver=
+sion of NATs.
+
+https://www.slideshare.net/wallyqs/connect-everything-with-nats-cloud-expo=
+-europe
+
+
+An opinion with regards orchestrator experience for developers and the des=
+ired level of abstraction for small teams=2C focused on AWS and Fargate.
+
+https://blog.hltbra.net/2019/03/06/aws-fargate.html
+
+
+A description of the work going on with the Cluster API for Kubernetes=2C=
+ which brings declarative=2C Kubernetes-style APIs to cluster creation=2C=
+ configuration=2C and management to Kubernetes.
+
+https://blogs.vmware.com/cloudnative/2019/03/14/what-and-why-of-cluster-ap=
+i/
+
+
+A tale of debugging making gRPC requests with AWS Lambda. This isn=E2=80=
+=99t quite possible today but the post covers what would be required and w=
+hy that may prove useful.
+
+https://blog.coinbase.com/grpc-to-aws-lambda-is-it-possible-4b29a9171d7f
+
+
+A quick summary of some of the things you should do or consider when looki=
+ng to secure container-based infrastructure.
+
+https://www.cloudops.com/2019/01/a-brief-guide-to-securing-containers-at-s=
+cale/
+
+
+Tools
+=3D=3D=3D=3D
+
+The Tekton Pipeline (formerly Knative Pipeline) project provides Kubernete=
+s-style resources for declaring CI/CD-style pipelines.
+
+https://tekton.dev/
+https://github.com/tektoncd/pipeline
+
+
+GitHub actions are great=2C but obviously only run on GitHub. Aktion provi=
+des a tool to convert those to run on Kubernetes using Tekton pipelines.
+
+https://github.com/triggermesh/aktion
+
+
+Start making on-call suck less. Last chance to register for the free Victo=
+rOps webinar where you can learn about using automation and improved colla=
+boration to create a better on-call experience:
+
+http://try.victorops.com/devopsweekly/making-on-call-suck-less
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

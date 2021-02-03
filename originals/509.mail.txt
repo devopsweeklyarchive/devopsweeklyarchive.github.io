@@ -1,0 +1,98 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#509?=
+Date: Sun, 27 Sep 2020 10:41:40 +0000
+
+DEVOPS WEEKLY
+ISSUE #509 - 27th September 2020
+
+A few posts this week on choosing software=2C both of which touch on the d=
+esire to outsource operations. Another post on the evolution of the role o=
+f systems administrations which talks about the people-side of that shift.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Tired of having to deal with manually managing resource tags across all yo=
+ur clouds? env0 just open sourced Terratag to make it easier to automatica=
+lly tag all your resources!
+
+Check out the blog for more details.
+
+https://www.env0.com/l/terratag-for-devops
+
+
+News
+=3D=3D=3D=3D
+
+A post on one open source project=E2=80=99s search for a new CI system. Lo=
+ts of useful research for anyone investigating CI and build systems.
+
+https://buoyant.io/2020/09/16/linkerds-ci-kubernetes-in-docker-github-acti=
+ons/
+
+
+A good post on the evolution of systems administration=2C the embrace of d=
+evops=2C shifting responsibility and changing job titles.
+
+https://medium.com/@brandonkenna/the-evolution-of-devops-and-why-we-are-he=
+re-f34771b3a70d
+
+
+The idea of commercial off-the-shelf software is fine=2C but the reality o=
+ften differs. This post explains the frustration and suggests it=E2=80=99s=
+ only COTS if you can get something up and running in a day.
+
+https://sboots.ca/2020/09/16/fake-cots-and-the-one-day-rule/
+
+
+Dependency management is an unfortunate consequence of a library ecosystem=
+=2E This post=2C reviewing a recent paper looking at the Python ecosystem=2C=
+ has some interesting ideas and tooling demonstrations.
+
+https://blog.acolyer.org/2020/09/21/watchman/
+
+
+A look at Terraspace=2C a deployment tool for Terraform that provides some=
+ interesting high-level features and visualisation tools.
+
+https://blog.boltops.com/2020/09/19/terraspace-all-deploy-multiple-stacks-=
+at-once
+
+
+AWS has grown to have several different overlapping approaches to managing=
+ users and accounts. This post looks at some of the nuance and makes some=
+ recommendations.
+
+https://cloudonaut.io/aws-account-structure-think-twice-before-using-aws-o=
+rganizations/
+
+
+Krew=2C the plugin manager for kubectl=2C now supports custom indexes. So=
+ you can distribute kubectl plugins for your own projects or for internal=
+ company usage.
+
+https://krew.sigs.k8s.io/docs/user-guide/custom-indexes/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+version-checker is a Kubernetes utility for observing the current versions=
+ of images running in the cluster=2C as well as the latest available upstr=
+eam. These checks get exposed as Prometheus metrics to be viewed on a dash=
+board.
+
+https://github.com/jetstack/version-checker
+
+
+Portus is an open source authorization service that sits atop a Docker con=
+tainer registry. It provides user management and a number of other useful=
+ features.
+
+http://port.us.org/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,163 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#292?=
+Date: Sun, 31 Jul 2016 11:38:19 +0000
+
+DEVOPS WEEKLY
+ISSUE #292 - 31st July 2016
+
+>From containers and cloud to managing COTS products and a reminder that de=
+vops is much more than just technology. Enjoy.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Downtime is expensive - in more ways that one. Learn the costs of downtime=
+ and how to minimize them in the new eBook from VictorOps=2C =E2=80=9CMaki=
+ng the Case for Real-Time Incident Management.=E2=80=9D
+
+http://try.victorops.com/downtimedata/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+How to Troubleshoot & Optimize Database Query Performance for Your Applica=
+tion
+
+According to the recent DZone Performance Guide=2C =E2=80=9Cdatabase perfo=
+rmance problems are the most challenging to fix=E2=80=9D with manual firef=
+ighting and lack of actionable insights being the top monitoring challenge=
+s. Join this webinar to discover how Dynatrace AppMon extends traditional=
+ APM through its new Database Agent=2C providing a view that both Develope=
+rs and DBAs can trust.
+
+http://ow.ly/LfkY302JdJK
+
+
+News
+=3D=3D=3D=3D
+
+I don=E2=80=99t see the wider devops movement as a cult=2C but I do someti=
+mes see the fetishisation of the technical aspects and the downplaying of=
+ the cultural=2C service management or transformation parts. Hopefully a u=
+seful reminder to some folks.
+
+http://www.itskeptic.org/content/cult-devops
+
+
+An excellent talk from the recent Monitorama conference=2C all about build=
+ing a culture of observability. How do you go technically having logs=2C m=
+etrics and traces to making them a fundamental part of how you operate?
+
+http://onemogin.com/observability/stripe/culture/monitoring/monitorama/cre=
+ating-a-culture-of-observability.html
+
+
+An interesting look under the hood of a moderately complex tech stack from=
+ Uber. Covers everything from programming language choices to data infrast=
+ructure to systems management and more.
+
+https://eng.uber.com/tech-stack-part-one/
+
+
+Kubernetes ships with a robust default scheduler=2C but it=E2=80=99s relat=
+ively simple to write your own for specific use cases. You can do this usi=
+ng the HTTP API too=2C which means schedulers can be implemented in whatev=
+er language you prefer. Here=E2=80=99s an example in elixir which acts as=
+ a nice hello world.
+
+https://deis.com/blog/2016/scheduling-your-kubernetes-pods-with-elixir/
+
+
+COTS (Commercial Off the Shelf) products are a reality in most if not all=
+ large organisations. This post is an interesting look at the difficulties=
+ of managing them in a modern IT world and how you can embrace devops prac=
+tices for doing so.
+
+https://www.infoq.com/articles/cots-in-devops-world
+
+
+An interesting and detailed look at how different cloud providers do insta=
+nce provisioning. Looking at two key themes in particular=2C a metadata se=
+rvice and cloud-init.
+
+https://ahmetalpbalkan.com/blog/cloud-instance-provisioning
+
+
+A good getting started example for anyone wanting to write Lambda function=
+s in Javascript.
+
+http://veewee.github.io/blog/writing-your-first-nodjs-lambda-function/
+
+
+A brief introduction to the Riemann monitoring tool=2C extracted from the=
+ recent The Art of Monitoring book. Explains the basics of events and stre=
+ams.
+
+http://thenewstack.io/introducing-riemann/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Hired gives top DevOps Engineers more power in their job search. You'll cr=
+eate a profile & over 1 week tech companies will apply to you! You'll get=
+ salary/equity offers upfront & you're under no obligation to accept any o=
+ffer. Interested? Join Hired today!
+
+http://hrd.cm/23r2ok5
+
+
+Goldstar is looking to hire someone who wants to dig into containers=2C AW=
+S=2C Kubernetes=2C Kafka=2C and more. You will get to be influential in ho=
+w the future of our infrastructure looks=2C and most importantly to us you=
+ will get to keep a proper work/life balance. This position is located in=
+ Portland=2C OR=2C just across the Willamette from Downtown.
+
+https://goo.gl/lN3388
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Hubblestack is a security auditing tool build on top of SaltStack. It prov=
+ides tools for file integrity scanning=2C integration with osquery and a r=
+eporting engine.
+
+http://hubblestack.io/
+
+
+Fabio is a fast=2C modern=2C zero-conf load balancing HTTP(S) router for d=
+eploying microservices managed by consul. Also provides integration with A=
+WS ELB and API Gateway=2C and natively outputs graphite metrics.
+
+https://github.com/eBay/fabio
+
+
+Test Kitchen is a popular acceptance testing framework for infrastructure=
+=2C and kitchen-terraform provides a plugin using Terraform to provision t=
+he infrastructure under test.
+
+https://github.com/newcontext/kitchen-terraform
+
+
+In pursuit of everything as code=2C Mermaid is a DSL for generating a wide=
+ variety of charts and diagrams=2C from gantt charts and flowcharts to seq=
+uence diagrams and more. It provides a powerful online editor and output t=
+o SVG too.
+
+http://knsv.github.io/mermaid/index.html#mermaid
+
+
+
+Downtime is expensive - in more ways that one. Learn the costs of downtime=
+ and how to minimize them in the new eBook from VictorOps=2C =E2=80=9CMaki=
+ng the Case for Real-Time Incident Management.=E2=80=9D
+
+http://try.victorops.com/downtimedata/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

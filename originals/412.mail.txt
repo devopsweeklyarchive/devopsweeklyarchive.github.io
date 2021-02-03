@@ -1,0 +1,137 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#412?=
+Date: Sun, 18 Nov 2018 10:11:21 +0000
+
+DEVOPS WEEKLY
+ISSUE #412 - 18th November 2018
+
+Some topics I cover in this this newsletter weren=E2=80=99t really around=
+ when I started=2C at least in the way we know them know. This week we hav=
+e posts on tracing=2C feature flags=2C Kubernetes and serverless. Other to=
+pics appear timeless=2C the first post this week explores why you really c=
+an=E2=80=99t have rollback.
+
+
+>From our sponsor=2C Victorops
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Being part of a DevOps team means you thrive in collaborative environments=
+ and enjoy learning new things. Learn more about the type of people managi=
+ng DevOps teams and what they=E2=80=99re looking for when hiring:
+
+http://try.victorops.com/devopsweekly/devops-hiring-guide
+
+
+News
+=3D=3D=3D=3D
+
+Rollback is one of those nice sounding ideas that=2C when you look closely=
+=2C isn=E2=80=99t really possible. This post explains why.
+
+https://blog.skyliner.io/you-cant-have-a-rollback-button-83e914f420d9
+
+
+A post on how adopting serverless changes the teams that build software. L=
+ooks at different service teams=2C the impact on hiring=2C reskilling and=
+ more.
+
+https://www.slideshare.net/padajo/how-serverless-changes-the-it-department=
+-november-2018-serverless-computing-london
+
+
+A look at automating the creation of pipelines in TeamCity using a new Ter=
+raform provider.
+
+https://cvbarros.io/2018/11/building-builds---teamcity-pipelines-as-code-u=
+sing-terraform/
+
+
+A nice deck that introduces the concept of distributed tracing. Covers the=
+ why=2C the basics of tracing=2C and why the opentracing standard exists.
+
+https://speakerdeck.com/gianarb/distributed-tracing-faq
+
+
+A post on the relationship between Devops (=E2=80=9Cphilosophy that aims t=
+o unite the roles of development (Dev) and operations=E2=80=9C) and SRE (=
+=E2=80=9Cgoverns the collaboration between Dev and Ops=E2=80=9D) that make=
+s a number of good points.
+
+https://www.cloudops.com/2018/07/devops-sundae-with-sre/
+
+
+A walkthrough of the tradeoffs of building a feature flag routing system.=
+ Control vs performance=2C single points of failure=2C caching and circuit=
+ breakers are all discussed.
+
+https://auth0.com/blog/progressive-service-architecture-at-auth0/
+
+
+Once recurring aspect of the conversations around serverless is cost as a=
+ first-class part of the development process. This post explores this idea=
+s and the potential for stronger alignment between software organisations=
+ and accounting.
+
+https://medium.com/cloudzeroinc/findevops-and-serverless-unlocking-the-pro=
+mise-of-the-cloud-f2f747a045a
+
+
+A nice counter argument to using Kubernetes to solve all your problems=2C=
+ this post explores some areas and contexts where Kubernetes might not to=
+ a good solution.
+
+https://medium.com/notbinary/the-kubernetes-conundrum-a9a28f3fca33
+
+
+Jobs
+=3D=3D=3D=3D
+
+REWE Systems is the internal service provider for the cooperative REWE Gro=
+up=2C one of Europe's largest Retail and Tourism Groups.
+We are an interdisciplinary team of enthusiasts enabling dev and ops teams=
+ to make building=2C deploying and running enterprise software fun again.=
+ You are eager to travel the cloud native landscape with us=2C using open=
+ roads wherever possible. You don't fear roadblocks and dead ends=2C but e=
+mbrace the opportunity to learn. Be part of our team based in Cologne=2C G=
+ermany=2C enjoying the many perks a large company can offer.
+
+https://karriere.rewe-group.com/rewesystems/job/DevOps-Engineer-%28mw%29-5=
+1149/484220401/
+
+
+Tools
+=3D=3D=3D=3D
+
+Gatekeeper is a Kubernetes Operator to manage Dynamic Admission Controller=
+s using Open Policy Agent. This allows things like prohibiting pods with i=
+mages tagged latest or other arbitrary policy rules.
+
+https://github.com/replicatedhq/gatekeeper
+
+
+An interesting set of templates for Packer=2C focused on software developm=
+ent. Outputs to Hyper-V=2C AWS and Vagrant for Virtualbox=2C with boxes fo=
+r Visual Studio=2C IIS=2C SQL Server and Docker.
+
+https://github.com/gusztavvargadr/packer
+
+
+Kasane is another tool for managing Kubernetes deployments. Kasane support=
+s layering existing configuration files together and natively supports Jso=
+nnet.
+
+https://github.com/google/kasane
+
+
+
+Being part of a DevOps team means you thrive in collaborative environments=
+ and enjoy learning new things. Learn more about the type of people managi=
+ng DevOps teams and what they=E2=80=99re looking for when hiring:
+
+http://try.victorops.com/devopsweekly/devops-hiring-guide
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

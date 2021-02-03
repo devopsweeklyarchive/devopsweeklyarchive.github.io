@@ -1,0 +1,138 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#314?=
+Date: Sun, 1 Jan 2017 12:38:45 +0000
+
+DEVOPS WEEKLY
+ISSUE #314 - 1st January 2017
+
+Happy new year everyone. A big thank you to all the people who read Devops=
+ Weekly=2C everyone who built or wrote something I included in the newslet=
+ter last year=2C and a huge thank you to the current sponsors VictorOps an=
+d Dynatrace. Let me know what you=E2=80=99ll like to see more of in 2017.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The "2016/17 State of On-Call" report from VictorOps is now available to d=
+ownload. Learn what 800+ respondents have to say about life on-call=2C and=
+ steps they're taking to make it better. Get your free copy here:
+
+https://victorops.com/state-of-on-call-2016/
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Practical Tips to Start Your DevOps Journey
+
+Join Andreas Grabner=2C Chief DevOps Activist at Dynatrace on January 12th=
+ at 1:00 PM EST=2C to learn practical tips that all IT groups from Dev to=
+ Ops can use to start their DevOps journey quickly. With experience from h=
+undreds of DevOps deployments=2C Andi will provide insights it would take=
+ your team months or years to learn firsthand.
+
+http://ow.ly/yJpv306Zlyy
+
+
+News
+=3D=3D=3D=3D
+
+Some good practical tips for involving operations staff and teams within a=
+ sprint-based delivery model like Scrum.
+
+http://agilopedia.blogspot.co.uk/2016/01/how-to-continuously-involve-ops-s=
+tuff_6.html
+
+
+It turns out Docker already has support for multi-architecture images=2C b=
+ut it=E2=80=99s not yet fully exposed in the official tooling. This post e=
+xplains how to create your own manifests to support ARM and X86 from the s=
+ame Hub address.
+
+http://container-solutions.com/multi-arch-docker-images/
+
+
+A good argument for more specialisation in teams=2C with devops as the glu=
+e that ties a development team together.
+
+http://www.informationweek.com/devops/project-management/the-devops-engine=
+er-is-an-optical-illusion/a/d-id/1327647
+
+
+An interesting attempt at a standard for HTTP service endpoints=2C for thi=
+ngs like healthchecks=2C status endpoints=2C configuration and more.
+
+https://github.com/beamly/SE4
+
+
+Some good tips for any developer writing tests for there software=2C which=
+ hopefully should be everyone.
+
+https://blog.nelhage.com/2016/12/how-i-test/
+
+
+A good post for anyone looking at Docker for the first time. Lots of refer=
+ences and diagrams explaining what=E2=80=99s going on.
+
+https://mhdzaherghaibeh.name/2016/12/30/what-i-have-learned-about-docker-i=
+n-the-past-few-days/
+
+
+A good reminder that running databases (or any internal service) public on=
+ the internet without some sort of authentication is a terrible default.
+
+https://medium.com/@shahinism/for-gods-sake-secure-your-mongo-redis-etc-4f=
+310cf1bed2#.t5d5f3zku
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Conductor is a new microservices orchestration engine. It provides a bluep=
+rint DSL to describe a process flow=2C and then wires up individual micros=
+ervices as well as providing a useful visualisation of the topology.
+
+https://github.com/Netflix/conductor
+https://netflix.github.io/conductor/
+
+
+Burry is a backup and recovery tool for etcd and zookeeper. As these tools=
+ are often used as critical components of some systems being able to use b=
+ackups to recover from some failure modes is likely to be critical.
+
+https://github.com/mhausenblas/burry.sh
+
+
+Alerta is a powerful addition to a monitoring setup=2C providing a single=
+ place to manage alerts. It integrates with a wide range of monitoring sys=
+tems and does simple de-duplication and correlation.
+
+http://alerta.io/
+
+
+Banshee is a real-time anomaly detection system for periodic metrics. It i=
+ntegrates nicely with statsd and can issue alerts as well as providing a n=
+ice dashboard.
+
+https://github.com/eleme/banshee
+
+
+Ostent collects metrics (memory=2C CPU=2C network IO=2C disk space=2C etc.=
+) and forwards them to tools like InfluxDB=2C Graphite or Librato. It also=
+ features a simple user interface.
+
+https://github.com/ostrost/ostent
+
+
+
+The "2016/17 State of On-Call" report from VictorOps is now available to d=
+ownload. Learn what 800+ respondents have to say about life on-call=2C and=
+ steps they're taking to make it better. Get your free copy here:
+
+https://victorops.com/state-of-on-call-2016/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

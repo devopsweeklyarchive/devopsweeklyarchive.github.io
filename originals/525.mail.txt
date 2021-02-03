@@ -1,0 +1,115 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#525?=
+Date: Sun, 17 Jan 2021 10:00:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #525 - 17th January 2021
+
+Several posts this week on the ever-important topic of build tools. Archit=
+ecture=2C a couple of deep-dive Kubernetes posts and securing your GitHub=
+ repositories too.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+
+How do you know your GraphQL API is secure? Watch StackHawk CSO Scott Gerl=
+ach walk through how to run application security tests for GraphQL-backed=
+ apps.
+
+http://sthwk.com/webinar-graphql
+
+
+News
+=3D=3D=3D=3D
+
+A good argument for service mesh disappearing out of sight=2C making the p=
+oint that service mesh is the dynamic linker for cloud based environments.
+
+https://go.forrester.com/blogs/why-the-service-mesh-should-fade-out-of-sig=
+ht/
+
+
+A good checklist of things to do to protect your GitHub projects. Supply c=
+hain attacks are increasingly in the news.
+
+https://marcinhoppe.com/securing-your-github-project/
+
+
+A set of posts on best practices for creating container images for your .N=
+ET applications=2C including configuration and connecting to a database.
+
+https://martin-horvath.medium.com/a-container-journey-asp-net-core-5-docke=
+rization-6dacd4432a0
+https://martin-horvath.medium.com/the-journey-continues-containerized-net-=
+web-app-on-docker-connects-to-database-container-9c11c8c90383
+
+
+A few posts on less-well-known capabilities of the Kubernetes role-based-a=
+ccess system=2C looking closely at bind and escalate.
+
+https://raesene.github.io/blog/2020/12/12/Escalating_Away/
+https://raesene.github.io/blog/2021/01/16/Getting-Into-A-Bind-with-Kuberne=
+tes/
+
+
+An interesting walkthrough of the test suite of a reasonably complex proje=
+ct=2C discussing tradeoffs=2C configuration and the importance of optimisi=
+ng CI.
+
+https://www.phoenixframework.org/blog/improving-testing-and-continuous-int=
+egration-in-phoenix
+
+
+Most internal development teams have documentation for new starters to get=
+ set up with all of the needed software. It=E2=80=99s an interesting insig=
+ht into a team=E2=80=99s stack. But it=E2=80=99s interesting to see this s=
+et of documentation posted publicly for others to explore.
+
+https://medium.com/gocardless-tech/deploying-software-at-gocardless-open-s=
+ourcing-our-getting-started-tutorial-ab857aa91c9e
+https://github.com/gocardless/utopia-getting-started/wiki/Utopia:-Tutorial=
+s:-Getting-Started
+
+
+A good post for anyone needing to learn Gradle=2C or interested in buildin=
+g understandable software.
+
+https://www.bruceeckel.com/2021/01/02/the-problem-with-gradle/
+
+
+A comprehensive guide to vertical pod autoscaling in Kubernetes.
+
+https://povilasv.me/vertical-pod-autoscaling-the-definitive-guide/
+
+
+A big list of patterns for working with environment variables on the shell=
+=2E
+
+https://doppler.com/blog/how-to-set-environment-variables-in-linux-and-mac
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+driftctl tracks how well your Terraform/AWS codebase covers your cloud con=
+figuration and warns you about drift.
+
+https://github.com/cloudskiff/driftctl
+https://driftctl.com/2020/12/22/announcing-driftctl/
+
+
+Please is a cross-language build system with an emphasis on high performan=
+ce=2C extensibility and reproducibility. It supports a number of popular l=
+anguages and can automate nearly any aspect of your build process.
+
+https://please.build
+https://github.com/thought-machine/please
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

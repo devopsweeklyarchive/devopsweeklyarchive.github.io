@@ -1,0 +1,149 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#301?=
+Date: Sun, 2 Oct 2016 10:32:58 +0000
+
+DEVOPS WEEKLY
+ISSUE #301 - 2nd October 2016
+
+A quick shout-out to all the people who send me links for the newsletter.=
+ Devops as a topic is very wide ranging and there is always more interesti=
+ng content out there=2C so if you write anything or see anything please do=
+ email or ping me at @garethr on Twitter.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+[WEBINAR] The Do=E2=80=99s and Dont=E2=80=99s of Post-Incident Analysis.=
+ Join VictorOps and Datadog to get an inside look at  how to conduct moder=
+n post-incident analysis.
+
+Sign up now: http://bit.ly/2d0Ejyk
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Gene Kim shares top lessons learned from The DevOps Handbook
+
+Join The DevOps Handbook co-author Gene Kim as he shares first-hand insigh=
+ts and lessons learned during the five years required to create this essen=
+tial resource=2C including DevOps transformation case studies around conti=
+nuous integration and delivery. Register today!
+
+http://ow.ly/EXwE304sS1F
+
+
+News
+=3D=3D=3D=3D
+
+
+The pets vs cattle analogy has been common when talking about infrastructu=
+re for a while=2C but have you ever wondered where it came from? And what=
+ the original meaning was?
+
+http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle=
+/
+
+
+A pretty indepth hands-on guide to running Rancher as your container platf=
+orm of choice. Lots of code examples for installation and using Compose to=
+ define your applications.
+
+http://agiletesting.blogspot.co.uk/2016/09/docker-orchestration-with-ranch=
+er.html
+
+
+InSpec is a handy tool for writing infrastructure acceptance tests=2C and=
+ the following post is a nice hands-on example of how to write your own cu=
+stom resources to make your controls simpler.
+
+https://tech.spaceapegames.com/2016/09/23/custom-inspec-resources/
+
+
+With all the interesting technology around it=E2=80=99s easy to forget tha=
+t automation is but one part of the devops story. This post is a good remi=
+nder=2C focusing instead on the culture=2C measurement and sharing aspects=
+=2E
+
+https://devopscollective.org/2016/04/19/automation-is-not-devops/
+
+
+With the release of Windows Server 2016 we also have a full release of Nan=
+o to play with. Here=E2=80=99s a post which contains instructions for runn=
+ing Chef on Nano=2C but is a pretty good getting started guide too.
+
+http://www.hurryupandwait.io/blog/creating-a-docker-container-host-on-wind=
+ows-nano-server-with-chef
+
+
+A nice explanation of the evolution of Docker from the point of view of th=
+e process tree. A solid rationale for the engine as intermediary process a=
+nd where containerd fits in.
+
+https://gist.github.com/jpetazzo/f1beba1dfd4c38e8daf2ebf2dcf3cdeb
+
+
+ElasticSearch is a popular backend for various search and monitoring appli=
+cations=2C so understanding how to collect metrics and monitor its perform=
+ance is a useful skill to have. Enter this excellent set of posts.
+
+https://www.datadoghq.com/blog/elasticsearch-performance-scaling-problems/
+https://www.datadoghq.com/blog/collect-elasticsearch-metrics/
+https://www.datadoghq.com/blog/monitor-elasticsearch-performance-metrics/
+
+
+A post with lots of tips for incident response=2C focusing on a formal com=
+municate=2C learn=2C act loop.
+
+http://blog.scalyr.com/2016/09/so-youve-been-paged/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon is coming up in Seattle on the 8th and 9th of November. The schedu=
+le is packed with low level technical talks as well as lots of production=
+ case studies. Something for Kubernetes experts and those just getting sta=
+rted.
+
+https://events.linuxfoundation.org/events/kubecon?utm_medium=3Demail&utm_c=
+ampaign=3Ddevopsweekly&utm_source=3Dnewsletter&utm_content=3Da
+
+
+Jobs
+=3D=3D=3D=3D
+
+Are you a Puppet master? Hired gives top DevOps Engineers more power in th=
+eir job search. Join today!
+
+http://hrd.cm/23r2ok5
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Doorman is a very interesting approach to rate limiting for internal servi=
+ces=2C pushing some of the authority to the client but providing a central=
+ service knowledgable about the needs and wants to the different clients.
+
+https://github.com/youtube/doorman
+
+
+Babushka is a tool for automating systems administration tasks which makes=
+ explicit the configuration change and the test to verify the change.
+
+http://babushka.me/
+
+
+
+[WEBINAR] The Do=E2=80=99s and Dont=E2=80=99s of Post-Incident Analysis.=
+ Join VictorOps and Datadog to get an inside look at  how to conduct moder=
+n post-incident analysis.
+
+Sign up now: http://bit.ly/2d0Ejyk
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

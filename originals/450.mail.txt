@@ -1,0 +1,152 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#450?=
+Date: Sun, 11 Aug 2019 11:03:30 +0000
+
+DEVOPS WEEKLY
+ISSUE #450 - 11th August 2019
+
+Quite a few technical posts this week=2C with several on new developer or=
+ integration tools around Kubernetes. Alongside those we have content on l=
+earning=2C sharing ideas=2C trunk based development and more.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Endorsing a culture of blameless transparency around post-incident reviews=
+ can lead to continuous improvement and more resilient services. Check out=
+ some techniques that DevOps teams are using to improve post-incident anal=
+ysis and learn more from failure:
+
+http://try.victorops.com/devopsweekly/fishbone-diagram-post-incident-revie=
+ws
+
+
+News
+=3D=3D=3D=3D
+
+A nice post on the importance of investing in learning when it comes to op=
+erations=2C both learning from running systems=2C from incidents and from=
+ the past.
+
+https://blog.dbsmasher.com/2019/08/08/how-we-keep-learning.html
+
+
+A post advocating trunk based development=2C and skipping pull request bas=
+ed workflows. Lots of good arguments for this in the abstract=2C but like=
+ the author I don=E2=80=99t see most teams working this way.
+
+https://medium.com/@mattia.battiston/why-i-love-trunk-based-development-64=
+1fcf0b94a0
+
+
+The Cloud Native Computing Foundation (CNCF) are running a wide ranging su=
+rvey focused on usage of the various projects in the foundation and about=
+ the role of the organisation.
+
+https://www.surveymonkey.com/r/cloudnativesurvey2019
+
+
+Conversations around multi-cloud tend to fall a little into idealistic and=
+ pragmatic. This post outlines some of the FUD without over selling any pa=
+rticular advantage.
+
+https://stacksense.io/krishnan/thought-leadership/busting-the-multi-cloud-=
+drumbeat/
+
+
+A post on investigating a production incident with Kubernetes and Istio an=
+d learning more about readiness probes=2C autoscaling and resource exhaust=
+ion in the process.
+
+https://medium.com/kudos-engineering/increasing-resilience-in-kubernetes-b=
+6ddc9fecf80
+
+
+A user experience report of using the Garden development tool for Kubernet=
+es. Looking forward to other reviews of tools in this space.
+
+https://www.kartar.net/2019/08/garden/
+
+
+A look at using Kind (Kubernetes in Docker) to test applications targeting=
+ Kubernetes=2C with an example of using Brigade to automate that testing o=
+n a Kubernetes cluster.
+
+https://radu-matei.com/blog/kubernetes-e2e-kind-brigade/
+
+
+One part of different disciplines working together is sharing ideas. This=
+ post has some specific tips for embracing devops and working across devel=
+opment=2C operations and QA teams on new ideas to improve the way you work=
+=2E
+
+https://medium.com/@daryn_74143/lets-get-dev-ops-and-qa-talking-about-idea=
+s-d2d50d4ea976
+
+
+BuildKit=2C the build library that powers docker build=2C supports custom=
+ frontends which allow you to build your own build UI. This post explores=
+ why that=E2=80=99s useful with a demo of a high-level declarative build c=
+onfig file for Ubuntu base images.
+
+https://matt-rickard.com/building-a-new-dockerfile-frontend/
+
+
+A good discussion about the role and pitfalls of CloudFormation=2C and mor=
+e generally some useful thoughts about declarative infrastructure APIs and=
+ client side abstractions built on top of them.
+
+https://read.acloud.guru/cloudformation-is-an-infrastructure-graph-managem=
+ent-service-and-needs-to-act-more-like-it-fa234e567c82
+
+
+Most examples of writing tools for Kubernetes use Go=2C but I find it usef=
+ul to highlight examples in other languages. Here=E2=80=99s a useful tutor=
+ial for writing a Kubernetes operator in Python.
+
+https://medium.com/flant-com/kubernetes-operator-in-python-451f2d2e33f3
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The 3rd Sensu summit is coming up in Portland=2C Oregon on the 9th and 10t=
+h of September. It features technical talks as well hands-on workshops on=
+ all things monitoring related. You can get a sizeable discount of tickets=
+ with the following link as well.
+
+https://ti.to/sensu/sensu-summit-2019/discount/DevOpsWeekly
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Octant is a new Kubernetes dashboard which provides a rich plugin model fo=
+r others to extend its functionality and add new components.
+
+https://github.com/vmware/octant
+
+
+A useful library for anyone writing Go-based HTTP services. Sundheit allow=
+s you to register async health checks for your dependencies and the servic=
+e itself and provides a health endpoint that exposes status and health met=
+rics.
+
+https://medium.com/appsflyer/health-checks-like-a-pro-3fa362942883
+https://github.com/AppsFlyer/go-sundheit
+
+
+
+Endorsing a culture of blameless transparency around post-incident reviews=
+ can lead to continuous improvement and more resilient services. Check out=
+ some techniques that DevOps teams are using to improve post-incident anal=
+ysis and learn more from failure:
+
+http://try.victorops.com/devopsweekly/fishbone-diagram-post-incident-revie=
+ws
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

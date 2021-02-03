@@ -1,0 +1,189 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#343?=
+Date: Sun, 23 Jul 2017 11:23:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #343 - 23rd July 2017
+
+Filesystems=2C change management=2C serverless and operations and lots of=
+ new container tooling to experiment with. Hopefully something for everyon=
+e this week.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The definitive guide for DevOps Post-Incident Reviews (AKA - Postmortems).=
+ Learn why traditional methods don=E2=80=99t work - and why fast incident=
+ response isn=E2=80=99t enough. Download your free copy of the 90+ page eB=
+ook from O=E2=80=99Reilly Media and VictorOps.
+
+http://try.victorops.com/Post_Incident_Review/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+BizOps Done Right: Breaking DevOps Silos to Deliver Great User Experiences
+
+Join this webinar to learn how individual business units in large enterpri=
+ses embrace DevOps to optimize specific digital touchpoints -- website=2C=
+ mobile apps=2C and even kiosks -- to deliver an optimized user experience=
+=2C reduce costs and improve operational efficiency.
+
+http://ow.ly/P2GA30dOSZv
+
+
+News
+=3D=3D=3D=3D
+
+A nice case study of migrating from a physical infrastructure to a public=
+ cloud=2C with some practical tips that should be useful to others doing t=
+he same.
+
+https://medium.com/meilleursagents-engineering/story-of-a-successful-migra=
+tion-to-google-cloud-platform-6bc7fa0798e8
+
+
+A thought-provoking piece of some of the differences in approach to change=
+ management between ITIL and some devops practices=2C in particularly look=
+ing at error budgets and standard change.
+
+https://medium.com/@JonHall_/on-the-false-equivalence-of-devops-and-itils-=
+standard-change-and-why-it-s-a-problem-9a63b85b11a
+
+
+A good post on the impact and potential of serverless on traditional IT op=
+erators=2C with some practical advice for things to consider.
+
+https://techbeacon.com/serverless-computing-has-landed-how-it-ops-can-adap=
+t
+
+
+A number of different approaches to building Docker images are cropping up=
+ at the moment. This post looks at using the Bazel build tool.
+
+https://medium.com/bitnami-perspectives/building-docker-images-without-doc=
+ker-c619061b13a9
+
+
+A post describing the Traefik reverse proxy=2C and why it=E2=80=99s partic=
+ularly suitable for microservice and docker environments.
+
+https://medium.com/@lukastosic/traefik-docker-reverse-proxy-and-much-much-=
+more-a39b24b9d959
+
+
+A look at filesystems=2C and in particular why ZFS is both the best curren=
+t choice and somewhat disappointing.
+
+http://blog.fosketts.net/2017/07/10/zfs-best-filesystem-now/
+
+
+A good set of Kubernetes best-practices which mainly apply to other contai=
+ner-based platforms too. Tips on metadata=2C building images=2C process ma=
+nagement and more.
+
+https://speakerdeck.com/thesandlord/kubernetes-best-practices
+
+
+Some good tips for developing operable software=2C focused on Go but much=
+ of the content is relevant to other programming environments.
+
+https://speakerdeck.com/ianschenck/operability-in-go
+
+
+A solid introduction to automated testing. Contains a big-picture overview=
+=2C some useful discussion of definitions and terms and some examples. Als=
+o discusses maintenance of tests=2C why test and more.
+
+http://www.lihaoyi.com/post/PrinciplesofAutomatedTesting.html
+
+
+A good write-up from CloudCamp in London a few weeks ago on Serverless and=
+ the death of devops. The title is a little tongue-in-cheek but some inter=
+esting future observations.
+
+http://www.markwilson.co.uk/blog/2017/07/serverless-death-devops.htm
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon / CloudNativeCon Austin - Join leading Kubernetes and Cloud Native=
+ technologists in Austin for a full range of technology sessions on the cl=
+oud native ecosystem.
+
+We sold out in Berlin and are excited to see thousands of you from the com=
+munity in Austin! Call for papers and registration information linked.
+
+https://goo.gl/yKCHvh
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The first Sensu summit will be held August 15th and 16th in Portland Orego=
+n. Lots of talks about recent developments=2C case studies from large user=
+s=2C workshops and time to hack. The organisers have kindly provided a 50%=
+ discount for Devops Weekly readers too.
+
+https://ti.to/sensu/sensu-summit-2017/discount/DEVOPSWEEKLY
+
+
+Full Stack Fest 2017: Problems of today=2C wonders from the future. Barcel=
+ona=2C 4-8 Sept. 2017
+
+Text: Are you a curious mind? Full Sack Fest is a week-long conference bas=
+ed in the amazing city of Barcelona that peeks into the web of tomorrow. S=
+erverless=2C Blockchain=2C WebVR=2C Distributed Web=2C Progressive Web App=
+s... Come and see! Early bird tickets available with a 10% discount using=
+ the code DEVOPSWEEK.
+
+https://2017.fullstackfest.com
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kedge is looking to provide a concise application definition for kubernete=
+s. Higher-level than the full API wireformat=2C Kedge describes a YAML fil=
+e format which can be expanded by the bundled command line kedge tool.
+
+http://kedgeproject.org/
+https://github.com/kedgeproject/kedge
+
+
+Jsonnet is cropping up in a number of places for managing configuration so=
+ it=E2=80=99s nice to see a native unit testing framework.
+
+https://github.com/yugui/jsonnetunit
+
+
+Buildah is a new tool for building OCI-compatible and Docker-compatible im=
+ages. It provides a series of commands for building images up=2C and can a=
+lso use existing Dockerfiles.
+
+https://github.com/projectatomic/buildah
+
+
+Karn is a tool for creating seccomp and apparmor profiles. It provides a s=
+imple TOML based description language and a tool to convert multiple decla=
+rations to the more complex profiles.
+
+https://github.com/GrantSeltzer/karn
+
+
+
+The definitive guide for DevOps Post-Incident Reviews (AKA - Postmortems).=
+ Learn why traditional methods don=E2=80=99t work - and why fast incident=
+ response isn=E2=80=99t enough. Download your free copy of the 90+ page eB=
+ook from O=E2=80=99Reilly Media and VictorOps.
+
+http://try.victorops.com/Post_Incident_Review/DevOpsWeekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

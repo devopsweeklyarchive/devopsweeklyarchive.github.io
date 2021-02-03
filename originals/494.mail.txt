@@ -1,0 +1,127 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#494?=
+Date: Sun, 14 Jun 2020 10:57:16 +0000
+
+DEVOPS WEEKLY
+ISSUE #494 - 14th June 2020
+
+Lots of posts this week on common challenges for growing teams and organis=
+ations. Test speed=2C monorepo performance=2C strategy patterns=2C data pl=
+atform migration and more.
+
+
+News
+=3D=3D=3D=3D
+
+A look at using Nomad for dynamic scheduling across 200+ edge locations=2C=
+ in particular for running local management tooling.
+
+https://blog.cloudflare.com/how-we-use-hashicorp-nomad/
+
+
+A look at a recent paper=2C and some of the maths behind it=2C for setting=
+ effective service level objectives that take into account backend perform=
+ance and user impact.
+
+https://billduncan.org/the-tail-at-scale/
+https://billduncan.org/the-tail-at-scale-revisited/
+
+
+Cloud Native is more than just technology and tools. This post explores mo=
+dern patterns for strategy and transformation=2C including how to make sma=
+ll investments pay off=2C build psychological safety=2C reducing the cost=
+ of experiments and more. See the webinar from the authors of these patter=
+ns below too.
+
+https://www.container-solutions.com/a-pattern-language-for-strategy-chapte=
+r-ii
+
+
+Lots of teams are and organisations are adopting monorepos=2C but one of t=
+he challenges at scale is Git repository performance. This post explores w=
+ork from one team to speed things up.
+
+https://dropbox.tech/application/speeding-up-a-git-monorepo-at-dropbox-wit=
+h--200-lines-of-code
+
+
+Hard won lessons from implementing Istio=2C pointing out both the good and=
+ the bad.
+
+https://zwischenzugs.com/2020/05/05/riding-the-tiger-lessons-learned-imple=
+menting-istio/
+
+
+As organisations grow=2C the speed of tests invariably becomes a challenge=
+=2E This post looks at using dynamic analysis to map files to tests=2C and t=
+hen to selectively run a subset of the tests when changes are made.
+
+https://engineering.shopify.com/blogs/engineering/spark-joy-by-running-few=
+er-tests
+
+
+A well reasoned argument for why one organisation doesn=E2=80=99t use Kube=
+rnetes. Looking at operational overhead and security challenges.
+
+https://blog.coinbase.com/container-technologies-at-coinbase-d4ae118dcb6c
+
+
+A case study looking at a large data platform migration=2C including movin=
+g from Hive to Spark=2C and building a developer-friendly system.
+
+https://databricks.com/blog/2020/06/10/accelerating-developers-by-ditching=
+-the-data-center.html
+
+
+This post explores how a single SQL statement can drastically improve perf=
+ormance. The basics of SQL are well understood but a good reminder how pow=
+erful databases like postgreSQL are.
+
+https://jlongster.com/how-one-word-postgresql-performance
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+A free webinar with Jamie Dobson to introduce a pattern language for strat=
+egy and execution. This language was developed after analysing five years=
+ of studying successful (and unsuccessful) Cloud Native transformations. P=
+erfect for executives=2C leaders and engineers.
+
+https://info.container-solutions.com/strategy-webinar-with-jamie-dobson?ut=
+m_source=3Ddevopsns&utm_medium=3Dnewsletter&utm_campaign=3Dpatterns
+
+
+Jobs
+=3D=3D=3D=3D
+
+King is looking for new members for the infrastructure engineering teams t=
+o help develop=2C manage and expand our software based networking setup ac=
+ross datacenters and (Google) cloud. Please take a look at the open role f=
+or networking engineer. We're also still looking for both database and str=
+eaming data engineers=2C if that is more your style.
+
+https://careers.king.com/jobs/job/14780-site-reliability-engineer-technolo=
+gy/
+https://careers.king.com/jobs/job/15353-database-site-reliability-engineer=
+-technology/
+https://careers.king.com/jobs/job/15270-network-site-reliability-engineer-=
+technology/
+
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+KIP is a virtual kubelet implementation which allows for launching pods in=
+ ephemeral EC2 or GCP instances=2C including spot instances in EC2.
+
+https://github.com/elotl/kip
+https://itnext.io/cloud-bursting-with-virtual-kubelet-and-kip-kloud-instan=
+ce-provider-4b86a479ce38
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

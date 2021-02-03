@@ -1,0 +1,146 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#234?=
+Date: Sun, 28 Jun 2015 22:44:22 +0000
+
+DEVOPS WEEKLY
+ISSUE #234 - 28th June 2015
+
+Apologies for the late arrival this week and the slightly abbreviated cont=
+ent. Travel and a bunch of other things caught up with me this week but ho=
+pefully there are a few links in this weeks issue to keep folks busy.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] Goodbye War Room=2C Hello DevOps 2.0
+
+Make war rooms the exception=2C not the rule in 2.0. Discover 6 ways to bu=
+ild quality into everything and say goodbye to crazy expensive bug fixing=
+ and war rooms.
+
+http://ow.ly/OMSU2
+
+
+News
+=3D=3D=3D=3D
+
+The Open Container Project is a lightweight=2C open governance structure=
+=2C to be formed under the auspices of the Linux Foundation=2C for the exp=
+ress purpose of creating open industry standards around container formats=
+ and runtime.
+
+http://www.opencontainers.org/
+
+
+If you=E2=80=99re wondering what the above means then you might be interes=
+ted in looking at runc. It=E2=80=99s a lightweight container runtime=2C ba=
+sically just the core of Docker plus some additional contributed features.=
+ runc can be embedded into other systems easily=2C and doesn=E2=80=99t req=
+uire a daemon of any kind.
+
+https://runc.io/
+
+
+A good high-level opinion piece about the above mentioned open container f=
+ormat. If you=E2=80=99re just catching up or more interested in the big pi=
+cture than the technical details worth reading.
+
+http://www.forbes.com/sites/benkepes/2015/06/24/the-container-format-wars-=
+are-over-docker-won-but-coreos-didnt-necessarily-lose/
+
+
+Nulecule is an attempt to provide a standardized methodology for deliverin=
+g an application composed of multiple containers.
+
+http://rhelblog.redhat.com/2015/06/23/announcing-yum-rpm-for-containerized=
+-applications-nulecule-atomic-app/
+https://github.com/projectatomic/nulecule
+
+
+An excellent talk from Dockercon on some of the pitfalls building resilien=
+t distributed systems=2C in particular focusing on routing and discovery a=
+s key problems to solve.
+
+https://speakerdeck.com/sirupsen/dockercon-2015-resilient-routing-and-disc=
+overy
+
+
+Mesos=2C and it=E2=80=99s accompanying frameworks=2C is a powerful tool. T=
+hat can mean trying it out is a barrier to entry. This posts shows how to=
+ create a simple local sandbox to solve that problem using docker and comp=
+ose.
+
+https://spof.io/blog/2015/06/23/mesos-sandbox-using-docker-compose/
+
+
+I mentioned a few of the Monitorama 2015 talks in last weeks issue. Well a=
+ll the videos are now available online for you to catch up on everything.
+
+https://vimeo.com/channels/933981
+
+
+Jobs
+=3D=3D=3D=3D
+
+Hired gives top DevOps Engineers more power in their job search. You'll cr=
+eate a profile & over 1 week tech companies will apply to you! You'll get=
+ salary/equity offers upfront & you're under no obligation to accept any o=
+ffer. Interested? Join Hired today!
+
+http://hrd.cm/1DTmkR4
+
+
+Gemalto (formerly SafeNet) Sentinel Software Monetization seeks multiple O=
+perations Engineers/Architects in US/Canada (100% remote with opportunitie=
+s for travel as part of global Engineering & Operations team) to help scal=
+e current cloud platform and guide next generation services and analytics=
+ stack. Tech Experience: Ansible=2C Jenkins=2C JVM/J2EE=2C  Python=2C Gola=
+ng=2C Scala=2C AWS=2C Ubuntu=2C MySQL.
+
+https://safenetinc.taleo.net/careersection/01/jobdetail.ftl?job=3D00668&la=
+ng=3Den&sns
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Notary is a tool designed to allow people to publish and verify content. B=
+ased on the Tor update framework model=2C one of the usecases is to allow=
+ for the current curl sudo bash install model but with a verification mode=
+l.
+
+https://github.com/docker/notary
+
+
+Image sprawl can be a problem with Docker and Sherdock aims to help.  Sher=
+dock is a simple image management tool which features garbage collection o=
+f unused images as well as identifying orphaned volumes and other cleanlin=
+ess-centric features.
+
+http://rancher.com/sherdock/
+https://github.com/rancherio/sherdock
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

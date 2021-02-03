@@ -1,0 +1,131 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#371?=
+Date: Sun, 4 Feb 2018 14:42:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #371 - 4th February 2018
+
+A little late sending the newsletter this weekend as it=E2=80=99s the year=
+ly visit to FOSDEM and Configuration Management in Brussels and Gent. Hope=
+fully I=E2=80=99ll gather a few slides and talks together for next weekend=
+s issue.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+ChatOps continues to gain momentum in all industries. See what Jason Hand=
+ had to say about the progression
+
+http://try.victorops.com/DevOpsWeekly/ChatOpsUpdate
+
+
+News
+=3D=3D=3D=3D
+
+An interesting look at how AWS uses time-sharing to allocate CPU cycles to=
+ Lambda functions=2C and how higher-memory also equates to more available=
+ CPU.
+
+https://engineering.opsgenie.com/how-does-proportional-cpu-allocation-work=
+-with-aws-lambda-41cd44da3cac
+
+
+A great=2C detailed=2C post on building a development infrastructure for a=
+ large slow running test suite. The main things I like where stepping thro=
+ugh the constraints of the system=2C context at the time and eventual desi=
+gn decisions made.
+
+https://hackernoon.com/kubernetes-for-dev-infrastructure-40b9175cb8c0
+
+
+The technique called branch by abstraction is one way to manage a fast mov=
+ing codebase=2C but understanding exactly how to apply it can be tricky. T=
+his sites carries lots of diagrams and a well reasoned argument for not br=
+anching in the source code management system.
+
+https://www.branchbyabstraction.com/
+
+
+A good post putting Serverless in context with PaaS and in particular what=
+ the big-picture looks like for AWS.
+
+http://redmonk.com/sogrady/2018/01/26/serverless-is-the-new-paas/
+
+
+A nice set of principles for testing software=2C particularly aimed at tes=
+ters or developers more familiar with a manual approach to building qualit=
+y software.
+
+http://devopsagenda.techtarget.com/opinion/How-the-Testing-Manifesto-is-go=
+ing-to-change-development
+
+
+The Azure FaaS platform is also available to run on your own hosts=2C and=
+ this post explains how you can get the runtime running on Kubernetes.
+
+http://www.jamessturtevant.com/posts/Running-the-Azure-Functions-runtime-i=
+n-kubernetes/
+
+
+A post on a new approach to Kubernetes networking=2C cni-ipvlan-vpc-k8s pr=
+ovides a set of CNI and IPAM plugins implementing a simple=2C fast=2C and=
+ low latency networking stack for running Kubernetes within Virtual Privat=
+e Clouds (VPCs) on AWS.
+
+https://eng.lyft.com/announcing-cni-ipvlan-vpc-k8s-ipvlan-overlay-free-kub=
+ernetes-networking-in-aws-95191201476e
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Machine Learning and AI in the Datacenter and How it Will A=
+ffect You
+February 6=2C Online
+https://goo.gl/pHmJe5
+
+Join us for a fast-paced introduction to machine learning and how it actua=
+lly works=2C as well as a look at what it might look like in action in you=
+r datacenter =E2=80=94 especially in terms of projects that already exist.
+
+
+Free Webinar - Deployment Strategies on Kubernetes
+February 13=2C Online
+https://goo.gl/3gUvFY
+
+Take a practical look at the different strategies to deploy an application=
+ to Kubernetes. We list the pros and cons of each strategy and define whic=
+h one to adopt depending on real world examples and use cases.
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Propone is a very interesting looking project which provides a tool for wr=
+iting network-wide routing policy which can generate a highly scalable=2C=
+ and completely distributed eBGP implementation for every device in the ne=
+twork
+
+https://www.cs.princeton.edu/~rbeckett/Propane/index.html
+https://github.com/rabeckett/propane
+
+
+Watchmen provides a way of monitoring AWS accounts for compliance with int=
+ernal polcies based on custom rules. It runs as a native AWS application=
+=2C using Lambda=2C ElasticSearch=2C CloudWatch and more.
+
+https://github.com/iagcl/watchmen
+
+
+
+ChatOps continues to gain momentum in all industries. See what Jason Hand=
+ had to say about the progression
+
+http://try.victorops.com/DevOpsWeekly/ChatOpsUpdate
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

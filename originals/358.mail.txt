@@ -1,0 +1,173 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#358?=
+Date: Sun, 5 Nov 2017 11:23:41 +0000
+
+DEVOPS WEEKLY
+ISSUE #358 - 5th November 2017
+
+Fairly heavy on tools and architecture this week=2C with lots of details f=
+or anyone learning about building or running various flavours of container=
+ infrastructure. If you want a break from tools and want something a bit d=
+eeper I would highly recommend Mark=E2=80=99s essay on Microservices=2C th=
+e future of society=2C and all that.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Integrate VictorOps into DevOps workflows to deploy faster and maintain hi=
+gher quality. Get your free trial started today:
+
+http://try.victorops.com/DevOpsWeekly/FreeTrial
+
+
+News
+=3D=3D=3D=3D
+
+A detailed essay on how we compose and decompose systems=2C why where we d=
+raw the boundaries between things is important=2C and using promise theory=
+ to make sense of this around the architecture of operations of microservi=
+ce-based systems.
+
+http://markburgess.org/blog_reactive.html
+
+
+A solid argument that continuous delivery is a fundamental practice=2C whi=
+le continuous deployment more of a niche concern. Useful post on definitio=
+ns.
+
+https://blog.matthewskelton.net/2017/10/27/continuous-deployment-is-a-nich=
+e-practice-continuous-delivery-is-more-fundamental/
+
+
+Docker announced support for Kubernetes will be coming soon=2C but if you=
+=E2=80=99d like to try this out now it=E2=80=99s possible to build your ow=
+n Kubernetes cluster using Linuxkit using the following step-by-step instr=
+uctions.
+
+http://collabnix.com/getting-started-with-multi-node-kubernetes-cluster-us=
+ing-linuxkit/
+
+
+An analysis of a recent paper on the architecture and economic impact of a=
+dopting serverless. Some useful pros and cons=2C as well as observations f=
+rom a few case studies.
+
+https://blog.acolyer.org/2017/10/19/serverless-computing-economic-and-arch=
+itectural-impact/
+
+
+A nice presentation which acts as a good introduction to the helm package=
+ manager for Kubernetes=2C and Draft=2C a tool which makes adopting a Kube=
+rnetes and Helm workflow for your application easier.
+
+https://speakerdeck.com/michellen/managing-applications-with-helm-oss-eu-1=
+7
+
+
+Docker exposes a lot of performance data about running containers. This po=
+st shows how to get at it them using the CLI tools=2C HTTP API and underly=
+ing cgroups filesystem.
+
+https://crate.io/a/analyzing-docker-container-performance-native-tools/
+
+
+A presentation looking at serverless programme architecture=2C with a stro=
+ng argument for functions and functional programming=2C and an interesting=
+ comparison of serverless components and Lisp-style functions.
+
+https://www.slideshare.net/lars3loff/putting-the-f-in-faas-functional-comp=
+ositional-patterns-in-a-serverless-world
+
+
+This post takes a look at the common sidecar pattern for setting up a mode=
+rn container network=2C explains why and where it=E2=80=99s useful=2C and=
+ makes the case that it=E2=80=99s not always the best starting place.
+
+https://blog.turbinelabs.io/the-first-step-in-modern-networking-isnt-a-sid=
+ecar-ed657db67cd3
+
+
+A comprehensive workshop for anyone learning how best to run Kubernetes on=
+ AWS. A range of exercises covering integration with AWS services as well=
+ as collected best practices.
+
+https://github.com/arun-gupta/kubernetes-aws-workshop
+
+
+The Linux Foundation
+=3D=3D=3D=3D
+
+Free Webinar: How BI & Data Science Gets Results
+November 16=2C Online
+
+Statistical/data science models can now run on Hadoop in a much more cost-=
+effective manner than a few years ago. This results in fostering the conve=
+rgence of traditional BI and Data Science disciplines (machine learning=2C=
+ artificial intelligence... etc). Join the discussion with an incredible p=
+anel including ODPi=2C 4C Decision=2C ZEPL=2C and Pivotal=2C as we'll shar=
+e how this phenomenon is going to impact the Hadoop standard.
+
+https://goo.gl/DZyuuV
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Best Practices for Using Developer Tooling to Drive Operati=
+ons with GitOps
+November 9=2C Online
+
+In this webinar=2C Alexis Richardson (CEO=2C Weaveworks) will explain how=
+ easy it is to create cloud native applications=2C CICD pipelines=2C integ=
+rate operations and more=2C using GitOps.
+
+https://goo.gl/GhEZVv
+
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists=2C December 6-8=2C in Austin for a broad range of te=
+chnical sessions on the cloud native ecosystem. We sold out in Berlin and=
+ are excited to see thousands of you from the community join us=2C this ti=
+me in Austin!
+
+http://goo.gl/wbdqve
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Neugram is a new scripting language=2C based heavily on Go=2C but with som=
+e useful tricks to cut down on some of the syntax. It also provides a REPL=
+ and shebang support.
+
+https://neugram.io/blog/neugram-briefly
+https://neugram.io/
+
+
+Psykube provides a slightly higher-level abstraction that the raw APIs for=
+ describing applications running on Kubernetes.
+
+https://github.com/CommercialTribe/psykube
+
+
+CIM looks like a handy tool for anyone managing AWS CloudFormation templat=
+es. Rather than try and provide an abstraction=2C CIM provides a number of=
+ helpful user interface tools which make working with templates easier.
+
+https://medium.com/@rgfindley/meet-cim-cloud-infrastructure-manager-bc8bcf=
+e0593c
+https://github.com/thestackshack/cim
+
+
+
+Integrate VictorOps into DevOps workflows to deploy faster and maintain hi=
+gher quality. Get your free trial started today:
+
+http://try.victorops.com/DevOpsWeekly/FreeTrial
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

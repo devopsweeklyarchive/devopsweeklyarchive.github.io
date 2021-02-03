@@ -1,0 +1,157 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#394?=
+Date: Sun, 15 Jul 2018 10:10:55 +0000
+
+DEVOPS WEEKLY
+ISSUE #394 - 15th July 2018
+
+A fairly packed issue this week=2C with everything from moving back to mon=
+olithic applications=2C why tickets are the wrong way to manage IT operati=
+ons=2C examples of CI/CD workflows and AWS Fargate configurations=2C some=
+ nifty ideas for security tooling for users of GitHub and more.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Take monitoring data and turn it into actionable alerts and insights. See=
+ how you can aggregate monitoring data and prioritize alerts to create vis=
+ibility and improve workflows:
+
+http://try.victorops.com/devopsweekly/monitoring-visibility
+
+
+News
+=3D=3D=3D=3D
+
+Tickets are the universal way of approaching operations work=2C but have l=
+ots of downsides. Worse=2C their existence is rarely considered. This post=
+ looks at approaches of reducing the number of ticket queues in your organ=
+isation.
+
+https://www.rundeck.com/blog/tickets_make_operations_unnecessarily_miserab=
+le
+
+
+A solid post about moving from microservices to a monolithic application a=
+nd a monorepo. Good arguments for the growing complexity in certain archit=
+ectures.
+
+https://segment.com/blog/goodbye-microservices/
+
+
+Kubernetes is part of the the puzzle of running applications=2C but how do=
+ you build an effective developer workflow around it? This slide deck expl=
+ores patterns and problems to solve for.
+
+https://www.slideshare.net/dbryant_uk/cncf-webinar-series-creating-an-effe=
+ctive-developer-experience-on-kubernetes
+
+
+I think I disagree with the categorisation=2C but this post is a good expl=
+oration of some of the different approaches to platform management.
+
+https://stacksense.io/krishnan/platforms/three-approaches-to-cloud-native-=
+platforms/
+
+
+A post looking at the differences between test infrastructure and build in=
+frastructure. I=E2=80=99ve definitely seen this distinction first hand wit=
+h certain types of project and I think it=E2=80=99s a good lens through wh=
+ich to view certain tools.
+
+https://medium.com/@thomas.shaw78/splitting-build-and-test-infrastructure-=
+d10a03f9c1f9
+
+
+A look at consuming the event data from GitHub for later analysis=2C in th=
+is case when investigating potential security issues related to source cod=
+e and interaction with it.
+
+https://gdstechnology.blog.gov.uk/2018/07/13/building-a-tool-to-improve-ou=
+r-github-security/
+
+
+A walkthrough of setting up a highly available application=2C in this case=
+ a Grafana dashboard=2C when running on Fargate in AWS.
+
+https://medium.com/247sports-engineering/highly-available-grafana-running-=
+on-aws-fargate-and-rds-aurora-2bbea9d41b50
+
+
+An in-depth good=2C bad and ugly analysis of Google Cloud Platform as it s=
+tands today. Useful for anyone looking at adopting any GCP services.
+
+https://www.deps.co/blog/google-cloud-platform-good-bad-ugly/
+
+
+A nice walkthrough of a continuous delivery setup using Jenkins=2C Docker=
+=2C Kubernetes=2C BitBucket=2C Vault and more.
+
+https://blog.apptension.com/2018/07/11/setup-software-deployment/
+
+
+A quick comparison of the JIB build tool=2C for building Docker images for=
+ Java applications=2C with existing approaches like the Docker Maven plugi=
+n.
+
+https://ro14nd.de/jib-vs-dmp
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DevOps at Open Source Summit | August 29-31=2C Vancouver=2C BC
+
+The Open Source Summit offers DevOps professionals a unique opportunity to=
+ learn how to more efficiently manage environments=2C migrate legacy infra=
+structure=2C integrate the latest tools=2C and much more. Network with you=
+r community peers in the hallway track=2C or get educated on cutting edge=
+ technology - like Serverless and Kubernetes - in the 250+ sessions. Wheth=
+er you=E2=80=99re interested in DevSecOps=2C infrastructure automation or=
+ container testing and orchestration tools - you will have the chance to l=
+earn about the latest advances and best practices.
+
+View the schedule=2C and save 15% with discount code OSSDEVOPS15.
+
+http://bit.ly/open-source-summit-2018
+
+
+Tools
+=3D=3D=3D=3D
+
+XAR lets you package many files into a single self-contained executable fi=
+le which makes it easy to distribute and install. Impressive examples of u=
+sing this to package standalone Python applications with fast boot times.
+
+https://github.com/facebookincubator/xar/
+https://code.fb.com/data-infrastructure/xars-a-more-efficient-open-source-=
+system-for-self-contained-executables/
+
+
+Dragonfly looks like an interesting building block. It=E2=80=99s an intell=
+igent P2P based file distribution system which aims to resolve issues rela=
+ted to low-efficiency=2C low-success rate and waste of network bandwidth i=
+n file transferring process. Useful in large-scale file distribution scena=
+rios such as application distribution=2C cache distribution=2C log distrib=
+ution and image distribution.
+
+https://github.com/alibaba/Dragonfly
+
+
+runq is a hypervisor-based Docker runtime based on runc to run regular Doc=
+ker images in a lightweight KVM/Qemu virtual machine.
+
+https://github.com/gotoz/runq
+
+
+Take monitoring data and turn it into actionable alerts and insights. See=
+ how you can aggregate monitoring data and prioritize alerts to create vis=
+ibility and improve workflows:
+
+http://try.victorops.com/devopsweekly/monitoring-visibility
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

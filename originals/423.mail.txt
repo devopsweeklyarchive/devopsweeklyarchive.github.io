@@ -1,0 +1,116 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#423?=
+Date: Sun, 3 Feb 2019 15:41:15 +0000
+
+DEVOPS WEEKLY
+ISSUE #423 - 3rd February 2019
+
+It=E2=80=99s that time of year when the configuration management community=
+ meet up in beautiful Gent=2C in Belgium (also home to the original Devops=
+days event). Lots of talks over the next few days on all things automation=
+=2E Say Hi if you see me wandering around.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Problem and incident management in the traditional ITIL and ITSM framework=
+ doesn=E2=80=99t translate to the rapid delivery of reliable services. See=
+ how DevOps changes the game:
+
+http://try.victorops.com/devopsweekly/itil-to-devops-problem-management-li=
+fecycle
+
+
+News
+=3D=3D=3D=3D
+
+A fantastic resource for anyone planning incident reviews of blameless pos=
+tmortems=2C this site contains a selection of articles on everything from=
+ checklists to writing tips.
+
+https://postmortems.pagerduty.com/
+
+
+A wide-ranging survey on the current state of security and devops adoption=
+=2E The survey closes early this coming week=2C and the results should be sh=
+ared in a month or so.
+
+https://www.surveymonkey.com/r/dsod
+
+
+A pair of posts looking in detail at account management in AWS=2C explorin=
+g how many AWS accounts your need and how to best organise them.
+
+https://nodramadevops.com/2019/01/how-many-aws-accounts-do-i-need/
+https://nodramadevops.com/2019/01/how-should-i-organize-my-aws-accounts/
+
+
+A Kubernetes case study from CERN=2C covering lots of technical and non-te=
+chnical aspects of adopting the platform for data analysis and other workl=
+oads.
+
+https://speakerdeck.com/rochaporto/kubernetes-at-cern-use-cases-integratio=
+n-and-challenges
+
+
+Vault is a popular way of dealing with secrets in infrastructure=2C and th=
+is blog post services looks into all the ways you can automate it to fit w=
+ith your current systems. First up=2C auto-unsealing.
+
+https://blog.gruntwork.io/a-guide-to-automating-hashicorp-vault-1-auto-uns=
+ealing-b219970f02c6
+
+
+A post looking at the challenges with running data science workloads and t=
+he risk of silos emerging as that becomes a larger part of operational wor=
+kloads.
+
+https://www.datascience.com/blog/why-is-it-so-hard-to-put-data-science-in-=
+production
+
+
+A nice succinct explanation of what concurrency means in the context of ta=
+lking about databases.
+
+https://www.vividcortex.com/blog/what-is-concurrency-in-a-database
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Amsterdam is coming up in June=2C and the CFP is open now until=
+ the 1st of April. The organisers are looking for lightning talks=2C prese=
+ntations and longer workshops on all things devops.
+
+https://sessionize.com/dodams2019
+
+
+Tools
+=3D=3D=3D=3D
+
+Warp is a kubectl plugin which allows you to execute your local code direc=
+tly in Kubernetes without an intermediary image build process.
+
+https://github.com/ernoaapa/kubectl-warp
+https://itnext.io/introducing-kubectl-warp-live-develop-code-in-kubernetes=
+-9846c16d4bec
+
+
+Hiera editor is a cross-platform GUI tool for working with data in Hiera=
+=2C the hierarchical data store often used for Puppet configuration.
+
+https://github.com/desertkun/hiera-editor
+
+
+Problem and incident management in the traditional ITIL and ITSM framework=
+ doesn=E2=80=99t translate to the rapid delivery of reliable services. See=
+ how DevOps changes the game:
+
+http://try.victorops.com/devopsweekly/itil-to-devops-problem-management-li=
+fecycle
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,219 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#241?=
+Date: Sun, 16 Aug 2015 10:27:52 +0000
+
+DEVOPS WEEKLY
+ISSUE #241 - 16th August 2015
+
+A packed issue this week=2C with lots of news=2C events=2C jobs and tools=
+ - something for everyone hopefully. I=E2=80=99m also noticing that I=E2=
+=80=99m starting to include more critiques which I=E2=80=99m finding incre=
+asingly a good source of opinion. If you=E2=80=99ve been criticising somet=
+hing recently write a blog post and send me a link.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+DevOps: From Adoption to Performance =E2=80=93 featuring Gene Kim
+
+DevOps isn=E2=80=99t just for the =E2=80=9CUnicorns.=E2=80=9D Watch this o=
+n-demand replay to hear Gene Kim explain how you can replicate the DevOps=
+ practices and successes of the so-called =E2=80=9CUnicorns.=E2=80=9D Disc=
+over the lessons he=E2=80=99s learned from studying these companies and ho=
+w you can apply them at your company!
+
+http://ow.ly/Lr1oo
+
+
+News
+=3D=3D=3D=3D
+
+A fantastic talk on the importance of operations=2C and how to grow an ope=
+rations team=2C in a high-velocity environment. The video=2C slides and a=
+ full transcript are available.
+
+http://www.heavybit.com/library/video/2015-02-24-charity-majors
+
+
+Great notes from a recent talk about how Google built its datacenter netwo=
+rk. Lots of details and observations about how the push to service based a=
+rchitectures fundamentally changed network requirements.
+
+http://highscalability.com/blog/2015/8/10/how-google-invented-an-amazing-d=
+atacenter-network-only-they.html/
+
+
+A good reminder to be wary of rushing to new techniques or tools without c=
+onsidering why previous approaches worked or what problems they solved. Lo=
+oking specifically at potential pitfalls with microservices and container=
+ base systems.
+
+http://blog.gardeviance.org/2015/08/is-there-trouble-brewing-in-land-of.ht=
+ml
+
+
+A critique of the Dockerfile format used by docker to build images=2C incl=
+uding comments on layers=2C the registry and approaches to testing contain=
+ers.
+
+http://blog.wercker.com/2015/07/28/Dockerfiles-considered-harmful.html
+
+
+A good experience report of using Terraform with Azure=2C focusing on some=
+ of the differences between Azure and AWS and with lots of examples.
+
+http://doics.co/2015/08/13/using-terraform-with-microsoft-azure/
+
+
+A good point on why individual log items are rarely enough when debugging=
+ a problem=2C and a discussion of a tool to help correlate items together.
+
+http://engineering.laterooms.com/connecting-logs/
+
+
+An introduction to the rise of containers focused on the benefits to appli=
+cation developers. A decent run through of some of the advantages=2C new e=
+merging tools and companies providing backing or support for containers.
+
+http://techbeacon.com/essential-guide-software-containers-application-deve=
+lopment
+
+
+Adopting Devops practices can be bottom up or top down or some combination=
+ of both=2C but without some buy in from management and without some under=
+standing of the business goals in the development and operation team you c=
+an only go so far. Several good points on the theme of management and devo=
+ps in this post.
+
+http://www.fiercedevops.com/story/managements-role-devops-orchestrating-wh=
+y/2015-08-13
+
+
+If you=E2=80=99re running a web facing site or application you should be u=
+sing a variety of HTTP headers aimed at making the web more secure. Based=
+ on this interesting report lots of people aren=E2=80=99t doing.
+
+https://scotthelme.co.uk/how-widely-used-are-security-based-http-response-=
+headers/
+
+
+A good presentation about how to adopt a test driven development approach=
+ for infrastructure and operations work. Code examples as well as as discu=
+ssion of strategies for implementing.
+
+https://speakerdeck.com/ranjibd/adopting-test-driven-development-in-operat=
+ions
+
+
+Another good presentation=2C this one on using CDNs as part of a security=
+ defence in depth. Lots of shoutouts to HAProxy=2C as wellas mention of a=
+ test suite for proxies/load balancers which is a pattern I=E2=80=99ve see=
+n a few times recently. Good notes from the talk=2C with the video and sli=
+des at the bottom of the page.
+
+https://www.fastly.com/blog/githubs-joe-williams-discusses-mitigating-secu=
+rity-threats
+
+
+Jobs
+=3D=3D=3D=3D
+
+We at trivago are looking for an experienced Site Reliability Engineer / S=
+oftware Engineer to join the world=E2=80=99s largest hotel search and ensu=
+re a reliable=2C fault-tolerant production environment. If PHP is your mot=
+her tongue then we should talk!
+
+http://www.trivago.com/jobs/details/1079-site-reliability-engineer-softwar=
+e-engineer?cip=3D99060001013016
+
+
+Sainsbury's Digital are looking for a DevOps Team Lead in London or Covent=
+ry. As well as managing a small team of engineers you'll be in the thick o=
+f designing and building interesting distributed systems that scale to mee=
+t growing demand. Experience with common monitoring=2C configuration manag=
+ement and operating system stacks is essential as is a desire to approach=
+ DevOps practices in new and creative ways.
+
+http://www.sainsburys.work/dandt
+
+
+Flipboard is looking for a site reliability engineer leader to help us man=
+age=2C maintain and monitor all aspects of the Flipboard production enviro=
+nment. We work exclusively in AWS=2C ensuring a highly available and perfo=
+rmant Flipboard experience for millions of users daily. If you have a pass=
+ion for working with large scale distributed systems and the challenges th=
+at come with them=2C come check us out.  You will be leading the team that=
+ scales with the growth of a highly trafficked mobile and web app with con=
+currency in the millions coupled with services that consume the world of c=
+ontent and social signals.
+
+https://hire.jobvite.com/j?cj=3Do4pl1fwz&s=3DDevops
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Infra Bootcamp is an interesting new event in Houten in the Netherlands on=
+ the afternoon of September the 8th. A selection of talks focusing on auto=
+mating Windows environments with various open source tools including Puppe=
+t=2C Chef and Openstack
+
+http://infrabootcamp.com/
+
+
+Devops Sprint is a one day event for experimenting and hacking on infrastr=
+ucture tools in Halle in Germany on the 30th of September. The organisers=
+ are collecting ideas for projects people would like to work on before the=
+ event.
+
+http://www.meetup.com/de/DevOps-Sprint/events/223910698/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+dlayer is a handy tool for anyone building several docker images. It produ=
+ces statistics about the use of layers=2C including how many layers are re=
+used and how much space is being take up.
+
+https://github.com/wercker/dlayer
+
+
+Battleschool is a development environment provisioning tool based on Ansib=
+le=2C similar to Boxen or Kitchenplan.
+
+https://github.com/spencergibb/battleschool
+
+
+Testing your systems with inputs designed to cause problems is a good idea=
+=2C but requires a good list of bad inputs. This list of naughty strings s=
+hould come in handy.
+
+https://github.com/minimaxir/big-list-of-naughty-strings
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

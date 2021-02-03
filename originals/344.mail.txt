@@ -1,0 +1,204 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#344?=
+Date: Sun, 30 Jul 2017 11:08:24 +0000
+
+DEVOPS WEEKLY
+ISSUE #344 - 30th July 2017
+
+Posts about the future of operation=2C the changing role of team leads in=
+ organisations adopting devops and lots of technical posts about debugging=
+ performance problems=2C cloud provisioning and fundamental TCP improvemen=
+ts.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The definitive guide for DevOps Post-Incident Reviews (AKA - Postmortems).=
+ Learn why traditional methods don=E2=80=99t work - and why fast incident=
+ response isn=E2=80=99t enough. Download your free copy of the 90+ page eB=
+ook from O=E2=80=99Reilly Media and VictorOps.
+
+http://try.victorops.com/Post_Incident_Review/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Breaking DevOps Silos to Deliver Great User Experiences
+
+Join this webinar to learn how individual business units in large enterpri=
+ses embrace DevOps to optimize specific digital touchpoints to deliver bet=
+ter user experiences=2C reduce costs and improve operational efficiency.
+
+http://ow.ly/P2GA30dOSZv
+
+
+News
+=3D=3D=3D=3D
+
+A great post arguing that while the last decade was all about teaching sys=
+admins to write code=2C the next will be about teaching operations to soft=
+ware developers.
+
+https://opensource.com/article/17/7/state-systems-administration
+
+
+Another interesting post on the future of operations=2C with some similari=
+ties and some differences to the post above. Good points about the broad s=
+cope of things we often bundle under operations.
+
+https://medium.com/@cindysridharan/the-death-of-ops-is-greatly-exaggerated=
+-ff3bd4a67f24
+
+
+A simple explanation of what Google have been up to with BBR=2C a new back=
+off algorithm for TCP which appears to improve performance with just some=
+ changes to the serving application.
+
+http://everythingsysadmin.com/2017/07/googles-bbr.html
+
+
+An interesting tale of debugging a production performance issue on a publi=
+c cloud. Useful stuff for anyone needing to understand how quotas for I/O=
+ work=2C and BurstBalance on AWS in particular.
+
+https://jeremyeder.com/2017/07/25/docker-operations-slowing-down-on-aws-th=
+is-time-its-not-dns/
+
+
+A good conversation about the importance of semantics when discussing arch=
+itecture=2C in particular digging into what we mean when we talk about mon=
+oliths.
+
+https://genehughson.wordpress.com/2017/07/26/what-makes-a-monolith-monolit=
+hic/
+
+
+An interesting post on the changing role of team leads in organisations ad=
+opting devops practices. Some good ideas for team formation and a tips for=
+ leads.
+
+https://www.cevo.com.au/devops/2017/05/16/evolving-team-leadership.html
+
+
+A post in praise of gRPC for service communications. Lots of code examples=
+ and pros and cons vs other options and attempts at the same sort of thing=
+=2E
+
+https://about.sourcegraph.com/go/grpc-in-production-alan-shreve
+
+
+Some good tips for focusing development effort on issues which result in s=
+upport queries=2C with a few real-world examples.
+
+http://blog.scalyr.com/2017/07/support-driven-development/
+
+
+A nice case study of the evolution of an AWS environment=2C from manually=
+ provisioning resources to using services like CloudFormation and CodeDepl=
+oy.
+
+https://clevertap.com/blog/aws-infrastructure-setup-the-clevertap-way/
+
+
+A quick comparison of when you might choose Google Cloud Functions vs Goog=
+le Container Engine. Mainly relevant for the more general serverless vs co=
+ntainer orchestrators question.
+
+https://medium.com/@JamWils/cloud-functions-vs-container-engine-5c773e364c=
+ed
+
+
+A description of the new StackSets functionality for CloudFormation=2C mak=
+ing it much easier to specify resources across multiple accounts and regio=
+ns at the same time.
+
+https://sanderknape.com/2017/07/cloudformation-stacksets-automated-cross-a=
+ccount-region-deployments/
+
+
+A couple of posts centered on the problem of sharing data across teams=2C=
+ without getting in each other=E2=80=99s way. The first post looks at some=
+ anti-patterns while the second explores alternatives.
+
+http://engineering.rallyhealth.com/microservices/soa/databases/transaction=
+s/2017/07/17/database-updates-across-two-databases-part-1.html
+http://engineering.rallyhealth.com/microservices/soa/databases/transaction=
+s/messaging/2017/07/17/database-updates-across-two-databases-part-2.html
+
+
+Jobs
+=3D=3D=3D=3D
+
+We.Are.Expensify.com - We=E2=80=99re on the hunt for one bright soul to jo=
+in our infrastructure team to help battle expense reports that suck. We gu=
+arantee you fun=2C an amazing opportunity to learn and teach=2C and the si=
+ren's call of distant riches. With a healthy mix of cloud and owned racks=
+=2C you=E2=80=99d work hand-in-hand in our engineering org on a profitable=
+=2C well-loved product with a focus on improving scaling and security. Joi=
+n the adventure at
+
+http://we.are.expensify.com/jobs
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon / CloudNativeCon Austin - Join leading Kubernetes and Cloud Native=
+ technologists in Austin for a full range of technology sessions on the cl=
+oud native ecosystem.
+
+We sold out in Berlin and are excited to see thousands of you from the com=
+munity in Austin! Call for papers and registration information linked.
+
+https://goo.gl/yKCHvh
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays London is happening on the 6th and 7th of September=2C with tal=
+ks on boring software=2C development methodologies=2C humane software team=
+s and more. You can get a discount on tickets with the code DEVOPS_WEEKLY_=
+LON.
+
+https://www.devopsdays.org/events/2017-london
+
+
+Devopsdays Phoenix is coming up on October 24th and the CFP is open now un=
+til August 22nd. The organisers are on the look-out for original and inter=
+esting sessions=2C workshops and lightning talks.
+
+https://www.devopsdays.org/events/2017-phoenix/
+https://www.papercall.io/devopsdays-phoenix-2017
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Manifesto is a new tool for storing and retrieving Docker image metadata a=
+longside the image in question in a repository=2C including on Docker Hub.
+
+https://github.com/aquasecurity/manifesto
+
+
+Terraboard is a handy dashboard for anyone using Terraform. It allows for=
+ visualising and querying terraform state from a simple browser-based inte=
+rface.
+
+https://github.com/camptocamp/terraboard
+
+
+The definitive guide for DevOps Post-Incident Reviews (AKA - Postmortems).=
+ Learn why traditional methods don=E2=80=99t work - and why fast incident=
+ response isn=E2=80=99t enough. Download your free copy of the 90+ page eB=
+ook from O=E2=80=99Reilly Media and VictorOps.
+
+http://try.victorops.com/Post_Incident_Review/DevOpsWeekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

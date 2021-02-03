@@ -1,0 +1,198 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#267?=
+Date: Sun, 7 Feb 2016 12:41:19 +0000
+
+DEVOPS WEEKLY
+ISSUE #267 - 7th February 2016
+
+A busy last week=2C thanks to everyone who helped run=2C spoke at or atten=
+ded Configuration Management Camp in Gent. Lots of content from the confer=
+ence below and I=E2=80=99m sure I=E2=80=99ll find more next week too.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] 7 Performance Metrics to Release Better Software=2C Faster
+
+There are 7 key metrics you must know to deploy software faster without fa=
+iling faster. Read this eBook to learn these=2C with real-life examples=2C=
+ so you can avoid problems later.
+
+http://ow.ly/U3BJ7
+
+
+Configuration management Camp
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D
+
+My own talk on the second day covered building APIs for container runtime=
+ and the importance of metadata=2C and metadata standards=2C in managing c=
+ontainers in production.
+
+https://speakerdeck.com/garethr/managing-container-configuration-with-meta=
+data
+
+
+A nice talk about what orchestration is from a higher level=2C and where i=
+t fits in with other conversations around configuration management=2C sche=
+duling and automation in general.
+
+https://speakerdeck.com/liamjbennett/everything-is-an-orchestration-proble=
+m
+
+
+Orchestration was definitely a topic of discussion this year. Another talk=
+ looking at constraints (using the example of the New York subway) and the=
+ relationship to model-based configuration management problems.
+
+http://www.slideshare.net/lutter/orchestration-and-the-new-york-subway-578=
+28762
+
+
+Good talk from the event about using automation to build self-service syst=
+ems=2C in this case empowering developers to deploy their own data stores.
+
+http://www.slideshare.net/bobtfish/empowering-developers-to-deploy-their-o=
+wn-data-stores
+
+
+Quick introduction to the InSpec testing framework=2C with examples of cod=
+e alongside a discussion of the importance of demonstrating compliance in=
+ code=2C rather than spreadsheets.
+
+http://www.slideshare.net/mpgoetz/inspec-or-how-to-translate-compliance-sp=
+readsheets-into-code
+
+
+A look at how the OpenStack infrastructure group use Puppet and Ansible to=
+gether to manage infrastructure. Lots of code examples and a story of how=
+ this has evolved over time.
+
+http://spencerkrum.com/talks/better-together-cfgmgmtcamp2016/slides/#1
+
+
+Comprehensive raw notes from various talks at configuration management cam=
+p.
+
+https://gist.github.com/philandstuff/7fe6037ad2c1fcdab999
+
+
+Interesting look at the the reasons for having a GUI for a configuration m=
+anagement tool (in this case Salt) and an introduction to the new Saltpad=
+ application.
+
+https://speakerdeck.com/lothiraldan/saltpad-a-saltstack-web-gui
+
+
+News
+=3D=3D=3D=3D
+
+Especially if your audience is a technical one details in a public inciden=
+t report go someway to making up for any disruption. This is an excellent=
+ example=2C with a good learning points=2C regarding a recent GitHub outag=
+e.
+
+https://github.com/blog/2106-january-28th-incident-report
+
+
+I tend to avoid industry news style posts but this one makes some great po=
+ints about the future direction of containers=2C unikernels and VM based i=
+nfrastructure with regards the user interface. Worth reading.
+
+http://it20.info/2016/01/why-docker-containers-and-docker-oss-docker-inc/
+
+
+Two posts about operating Elasticsearch=2C covering choosing it in the fir=
+st place through monitoring and scaling to hundreds of millions of documen=
+ts.
+
+https://signalfx.com/how-we-monitor-and-run-elasticsearch-at-scale/
+https://signalfx.com/scaling-elasticsearch-sharding-availability-hundreds-=
+millions-documents/
+
+
+A good post arguing that we need a new approach to systems development whe=
+re =E2=80=9Ccontinuous partial failure=E2=80=9D is the normal state of aff=
+airs. A few examples and more posts to come in the series.
+
+http://blog.cognitect.com/blog/2016/2/3/the-new-normal-failure-is-a-good-t=
+hing
+
+
+Some interesting=2C if obviously skewed=2C data on container adoption from=
+ the Kubernetes community. The challenges are worth reading for anyone con=
+sidering containers at the moment.
+
+http://blog.kubernetes.io/2016/02/state-of-container-world-january-2016.ht=
+ml
+
+
+Raising the profile of a technology tends to bring about questions and cri=
+tiques=2C which can be useful in improving or validating that technology.=
+ Several recent posts have talked about potential issues with Unikernel ba=
+sed systems - this one focuses on the single address space=2C management a=
+nd complexity.
+
+http://etbe.coker.com.au/2016/02/04/unikernels/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Looking for new DevOps opportunities? Spend your time building=2C not sear=
+ching for a job. Sign-up for Hired today.
+
+http://hrd.cm/23r2ok5
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The first Sheffield Devops is next week=2C on Thursday the 11th at Union S=
+treet. A new community meetup with two talks (An Introduction to DevOps in=
+ Microsoft Azure and Everything you ever wanted to know about Devops but w=
+ere afraid to ask) and plenty of room for discussion.
+
+http://www.sheffielddevops.org.uk/?og=3D1
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Simple tool for talking the contents of a configuration file and saving it=
+ as a Kubernetes secret for use by other Kubernetes resources.
+
+https://github.com/kelseyhightower/conf2kube
+
+
+Uphold is an interesting looking tool intended to verify backups. It downl=
+oads the backup=2C decompressing=2C loading and then running programmatic=
+ tests against it.
+
+https://github.com/forward3d/uphold
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

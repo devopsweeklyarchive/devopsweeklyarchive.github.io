@@ -1,0 +1,149 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#229?=
+Date: Sun, 24 May 2015 15:52:59 +0000
+
+DEVOPS WEEKLY
+ISSUE #229 - 24th May 2015
+
+One topic that comes up regularly in this newsletter=2C including in this=
+ issue=2C is testing infrastructure. I=E2=80=99m doing a bit of research s=
+o if you=E2=80=99re written anything on infrastructure testing=2C or built=
+ any interesting tools=2C let me know at gareth@morethanseven.net.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored Event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] 5 Key Metrics to Release Better Software Faster
+
+No matter how often you deploy - or how sophisticated your delivery pipeli=
+ne is - you need to measure the quality of your software. But what exactly=
+ should you measure? Learn the 5 key metrics that will increase your confi=
+dence in producing a safe build for production. Register now.
+
+http://ow.ly/MWycl
+
+
+News
+=3D=3D=3D=3D
+
+Some tips on how and why to implement a continuous delivery pipeline for y=
+our infrastructure. Particular useful due to the strong definitions.
+
+http://fractio.nl/2015/05/22/cd-for-infrastructure-services/
+
+
+A video from the recent OpenStack summit=2C entitled OpenStack is Doomed.=
+ Some details of how OpenStack got here and some suggestions for how to fi=
+x some of the problems. Useful for anyone interested in large projects.
+
+https://www.youtube.com/watch?v=3DZY8hnMnUDjU
+
+
+8 tenets to consider when building or choosing software=2C focused on oper=
+ational concerns.
+
+http://www.slideshare.net/postwait/operational-software-design
+
+
+Fedora is replacing the Yum package manager with the similar but newer DNF=
+=2E If you=E2=80=99re using a RedHat based system=2C or targeting the latest=
+ version of Fedora something to be aware of.
+
+http://dnf.baseurl.org/2015/05/11/yum-is-dead-long-live-dnf/
+
+
+Some interesting points about the explosion of applications within large o=
+rganisations=2C and questions about how we can consider IT asset managemen=
+t along-side all the other topics being discussed on the technology or ser=
+vice management side.
+
+http://evolvingitsm.com/2014/03/12/lack-of-itsm-and-itam-alignment-is-caus=
+ing-application-sprawl/
+
+
+A nice example of taking a previously manual process and automating it. In=
+ this case a risk calculation around deployment in a tightly regulated env=
+ironment.
+
+http://betsandbits.com/2015/05/21/automating-security-turning-it-up-to-11/
+
+
+Intel=E2=80=99s Clear Linux containers are an interesting way of attemptin=
+g to combine the best of virtual machines with the best of containers. Thi=
+s write-up shows you how to get up and running to test them out.
+
+http://blog.kismatic.com/quickstart-intel-clear-linux-containers/
+
+
+It=E2=80=99s easy to look at stories of practices at Etsy or Facebook and=
+ think your organisation can=E2=80=99t do that. This post explains how to=
+ get started with accelerating your own organization's software delivery.
+
+http://stackstorm.com/2015/05/20/on-beginning-software-delivery-accelerati=
+on/
+
+
+A useful run through the different components that make up a Graphite metr=
+ics install=2C along with alternatives or commonly used supporting softwar=
+e.
+
+http://blog.takipi.com/graphite-vs-grafana-build-the-best-monitoring-archi=
+tecture-for-your-application/
+
+
+A good introduction to a new MySQL feature in 5.6=2C Performance Schema=2C=
+ which exposes performance metrics for queries as a table in the database.=
+ The post has nice examples of how to use the data and why it=E2=80=99s pr=
+oved useful in production.
+
+http://githubengineering.com/using-mysql-performance-schema-for-workload-a=
+nalysis/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The concept of the blameless postmortem is a popular one in devops circles=
+=2C but how do you conduct them so they become the best ways to learn from=
+ both failures and successes? This workshop with Dave Zwieback in Seattle=
+ on June 15th is a great start.
+
+https://ti.to/mindweather/awesome-postmortems-seattle-2015/en
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Percheron is a command line and YAML based tool for describing a stack of=
+ related Docker containers.
+
+https://github.com/ashmckenzie/percheron
+
+
+A handy command line tool for interacting with the Marathon API. The READM=
+E shows a simple text format example for describing applications running i=
+n Marathon.
+
+https://github.com/eBayClassifiedsGroup/marathon_deploy
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

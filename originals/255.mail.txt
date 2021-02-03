@@ -1,0 +1,172 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#255?=
+Date: Sun, 22 Nov 2015 14:02:45 +0000
+
+DEVOPS WEEKLY
+ISSUE #255 - 22nd November 2015
+
+Lots of containers this week=2C with content and discussions from DockerCo=
+n and ContainerSched front of mind. Other content covers some ideas about=
+ meetings and deployment cadence=2C and several interesting new software p=
+rojects.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] How to Build a Metrics-optimized Software Delivery Pipeline
+
+Learn a practical step-by-step approach to optimizing your delivery proces=
+s so you can deploy better quality software faster! You=E2=80=99ll learn w=
+hy you should move to a metric-driven pipeline=2C which key quality metric=
+s to measure and how to integrate them to catch problems earlier.
+
+http://ow.ly/UTMwE
+
+
+News
+=3D=3D=3D=3D
+
+Interesting observations about the relationship between meetings and shipp=
+ing code. Some other good examples of the impact of the size of deployment=
+ on frequency of deployment too. I=E2=80=99d love to see that studied with=
+ data from the field.
+
+https://www.facebook.com/notes/kent-beck/slow-deployment-causes-meetings/1=
+055427371156793?_rdr=3Dp
+
+
+One of the closing demos from DockerCon EU was this example of running uni=
+kernel applications (in this case based on the Rump Kernel project) inside=
+ Docker containers. The post covers the why and how of the demo.
+
+http://unikernel.org/blog/2015/unikernels-meet-docker/
+
+
+I spend the start of the week at DockerCon EU. This write-up covers some o=
+f the high level themes=2C including the improving Docker security story a=
+nd the renewed interest in Swarm.
+
+http://redmonk.com/fryan/2015/11/19/docker-maturity-and-dockercon/
+
+
+I occasionally include academic papers in the newsletter=2C and this prese=
+ntation is a great reason why. The talk skims through 30+ years of researc=
+h into distributed systems=2C picking out key concepts and papers for folk=
+s to read.
+
+https://speakerdeck.com/randommood/we-hear-you-like-papers
+
+
+A good set of videos from the recent Security at Scale conference=2C cover=
+ing everything from data visualisation=2C mobile malware=2C crypto=2C open=
+ source and more.
+
+https://code.facebook.com/posts/1523938234583894/security-scale-2015-engin=
+eering-security/
+
+
+A presentation entitled The Road To Unikernels=2C from the recent Containe=
+rSched conference in London. A good introduction to why unikernels are int=
+eresting and a look at the current state of development.
+
+http://roadtounikernels.myriabit.com/
+
+
+A nice write up of one organisation's move to use microservices=2C some ni=
+ce ideas about resource discovery vs service discovery and the advantages=
+ of a shared language for integration.
+
+http://keaplogik.blogspot.co.uk/2015/11/spring-boot-vertx-microservice-tec=
+h.html
+
+
+A good series of guest blog posts looking at some aspects of configuration=
+ management in a containerised world. Most of this still talks about build=
+ time management=2C but the series is still looking for more posts for the=
+ next week.
+
+http://theagileadmin.com/tag/dockercmroundup/
+
+
+A detailed description of one organisation=E2=80=99s development environme=
+nt=2C including details of Docker=2C Vagrant=2C Terraforma and CircleCI.
+
+https://segment.com/blog/automating-our-infrastructure/
+
+
+A good look at (mainly business) trends around cloud computing=2C looking=
+ at everything from enterprise software companies=2C container adoption=2C=
+ company spending and future trends.
+
+http://www.slideshare.net/adriancockcroft/cloud-trends-nov2015-structure
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Spinnaker is an open source=2C multi-cloud continuous delivery platform. I=
+t provides a nice looking dashboard based around pipelines=2C specifically=
+ designed for deploying infrastructure in cloud platforms. The video provi=
+des a great high-level overview.
+
+http://spinnaker.io/
+
+
+Firmament is a new cluster resource scheduler intended to make high-qualit=
+y scheduling decisions. It=E2=80=99s based on original research into flow=
+ networks and is guaranteed to find the optimal assignment based on user p=
+rovided policy.
+
+http://www.firmament.io/
+https://github.com/ms705/firmament
+
+
+Containerbuddy provides a very nice way of integrating existing applicatio=
+ns with containers and service discovery. It acts as PID1 inside the conta=
+iner=2C and integrates with Consul using a simple configuration file.
+
+https://github.com/joyent/containerbuddy
+
+
+Heroic is a new scalable time series database based on Cassandra and Elast=
+icsearch. It has some nice features around a global federation=2C allowing=
+ independent clusters to query each other.
+
+https://labs.spotify.com/2015/11/17/monitoring-at-spotify-introducing-hero=
+ic/
+https://github.com/spotify/heroic
+
+
+AppArmor is a powerful security control=2C but configuring it can be a dar=
+k art. Bane therefore looks a useful tool=2C providing a much more human f=
+riendly to AppArmor configurations=2C with some nifty docker security prof=
+ile integration.
+
+https://github.com/jfrazelle/bane
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

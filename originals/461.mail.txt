@@ -1,0 +1,124 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#461?=
+Date: Sun, 27 Oct 2019 11:51:14 +0000
+
+DEVOPS WEEKLY
+ISSUE #461 - 27th October 2019
+
+Configuration management=2C a few posts on policy controls=2C deployment p=
+ractices and the link between culture and tools to read up on this week. E=
+njoy the 10 year anniversary devopsdays event everyone.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Need a new DevOps podcast? Then check out episode one of the new VictorOps=
+ podcast=2C Ship Happens. Engineering Manager=2C Benton Rochester sits dow=
+n with Bethany Abbott=2C TechOps Manager at NS1 to discuss on-call and the=
+ gender gap in tech:
+
+http://try.victorops.com/devopsweekly/ship-happens-episode-one
+
+
+News
+=3D=3D=3D=3D
+
+Lots of conversations recently about the pros and cons of deploying on Fri=
+day. This post breaks down some of the main arguments with discussions of=
+ quality=2C culture and context.
+
+https://hackernoon.com/deploy-on-fridays-or-dont-qg2y32jk
+
+
+A look at enforcing policy controls (like required tags or deployment plat=
+forms) for a Serverless application in your continuous integration system=
+ using Open Policy Agent=2C Conftest and CircleCI.
+
+https://dev.to/kenfdev/continuously-enforce-policies-on-your-configs-with-=
+conftest-and-circleci-1afd
+
+
+A presentation from the recent Serverless Conf about why YAML (or at least=
+ declarative formats) might be a better approach to configuration than you=
+r favourite programming language.
+
+https://acloud.guru/series/serverlessconf-nyc-2019/view/yaml-better
+
+
+There is a deep relationship between what we talk about as culture and the=
+ tools we use to do the work. In sociotechnical systems changing one has a=
+n effect on the other=2C this post is a good reminder that sometimes chang=
+e starts with a new tool.
+
+https://redmonk.com/rstephens/2019/10/25/devops-tools-can-lead-the-culture=
+-change/
+
+
+A nice reminder of the Devops journey over the last 10 years. Looking back=
+ through some of the community conversations and speculating about topics=
+ we might discuss more in the future.
+
+https://speakerdeck.com/iennae/devops-now-and-to-the-future
+
+
+It=E2=80=99s too easy to take your automated systems for granted=2C lots o=
+f systems administration is still far more manual. This post explains some=
+ ways to help folks overcome the fears that often hold back moving to more=
+ automated approaches.
+
+https://www.redhat.com/sysadmin/introducing-automation
+
+
+A long and detailed post on software project management=2C covering everyt=
+hing from user stories=2C estimation=2C kanban=2C bugs=2C triage and more.
+
+https://apenwarr.ca/log/20171213
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon + CloudNativeCon North America is coming up in San Diego from the=
+ 18th until the 21st of November. The schedule is packed with talks on the=
+ CNCF projects like Kubernetes=2C Envoy and Helm as well as case studies=
+=2C community meetings and more. The code KCNADOW19 will save DevOps Weekl=
+y readers 10% off the ticket price too.
+
+http://bit.ly/2ko9SrP
+
+
+The O'Reilly Velocity Conference heads to Berlin=2C 4=E2=80=937 November.=
+ Velocity is the best place on the planet for web ops and systems engineer=
+ing professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on cloud native infrastr=
+ucture=2C DevOps=2C Kubernetes=2C and more=2C there's something for everyo=
+ne. Passes start at =E2=82=AC676 when you use the code DEVW20 (applies to=
+ Gold=2C Silver=2C and Bronze passes). Register today!
+
+https://oreil.ly/99PIf
+
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+K-rail is a new workload policy enforcement tool for Kubernetes. It suppor=
+ts reporting and enforcing policies and comes with a built-in set of commo=
+n security policies for Kubernetes deployments.
+
+https://github.com/cruise-automation/k-rail
+
+
+Need a new DevOps podcast? Then check out episode one of the new VictorOps=
+ podcast=2C Ship Happens. Engineering Manager=2C Benton Rochester sits dow=
+n with Bethany Abbott=2C TechOps Manager at NS1 to discuss on-call and the=
+ gender gap in tech:
+
+http://try.victorops.com/devopsweekly/ship-happens-episode-one
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

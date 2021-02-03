@@ -1,0 +1,144 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#236?=
+Date: Sun, 12 Jul 2015 10:03:50 +0000
+
+DEVOPS WEEKLY
+ISSUE #236 - 12th July 2015
+
+The Monitoring Survey 2015 closes at the end of this week. If you=E2=80=99=
+ve not already taken it you should definitely head over to https://www.sur=
+veymonkey.com/s/monitoringsurvey2015. Last years results where worth readi=
+ng and seeing how things have changed a year later should be interesting.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] Goodbye War Room=2C Hello DevOps 2.0
+
+Make war rooms the exception=2C not the rule in 2.0. Discover 6 ways to bu=
+ild quality into everything and say goodbye to crazy expensive bug fixing=
+ and war rooms.
+
+http://ow.ly/OMSU2
+
+
+News
+=3D=3D=3D=3D
+
+Some nice specific statements about a devops culture. I particularly liked=
+ =E2=80=9Cthe primary characteristic of DevOps culture is increased collab=
+oration between the roles of development and operations=E2=80=9D.
+
+http://martinfowler.com/bliki/DevOpsCulture.html
+
+
+An interesting article on testing distributed systems covering approaches=
+ to end-to-end testing=2C dealing with node failure and testing recovery f=
+rom failure conditions.
+
+http://queue.acm.org/detail.cfm?id=3D2800697
+
+
+A discussion of the different roles in continuous integration and deployme=
+nt=2C and why a single service (in this case Jenkins) poses problems for a=
+ccess control and management.
+
+http://blog.conjur.net/why-continuous-integration-and-continuous-delivery-=
+are-not-the-same
+
+
+Apollo is an opinionated integrated infrastructure stack. This post looks=
+ at the continuous delivery workflow=2C taking in various kinds of testing=
+ and integration with lots of testing and deployment tooling.
+
+http://capgemini.github.io/open%20source/continuously-deploying-apollo/
+
+
+A good high-level run-down of what Mesos is and why it=E2=80=99s interesti=
+ng. Touches on features like the API=2C Docker integration and scaling.
+
+http://container-solutions.com/the-rise-of-apache-mesos/
+
+
+The MirageOS unikernel project has shipped a new version with first-class=
+ support for SSL/TLS=2C based on a pure OCaml implementation of TLS. This=
+ post shows an example building a simple static site unikernel served over=
+ HTTPS.
+
+https://mirage.io/blog/mirage-seal
+
+
+Nginx is both great software and very popular so this series of posts abou=
+t monitoring nginx should be of interest to lots of people. A good run thr=
+ough of what is available and how to get at it.
+
+https://www.datadoghq.com/blog/how-to-monitor-nginx/
+https://www.datadoghq.com/blog/how-to-collect-nginx-metrics/
+
+
+At some point we=E2=80=99ve all probably looked at a graph from our monito=
+ring system and found it strangely artful. Well=2C this Tumblr is collecti=
+ng attractive graphs. If you have favourites you can submit them for inclu=
+sion.
+
+http://theartofmonitoring.tumblr.com
+
+
+Jobs
+=3D=3D=3D=3D
+
+Expensify prides itself in solving a real world problem with a team of mot=
+ivated=2C top notch engineers. We are passionate about eliminating our cus=
+tomers=E2=80=99 expense report pain=2C and are looking for equally passion=
+ate people to join our team. Operations Engineering is responsible for ove=
+rseeing the development=2C implementation and maintenance of the infrastru=
+cture used by our applications. We work closely with the product developme=
+nt team to expand and enhance our deeply integrated service platform. Our=
+ goal is to develop and support a platform for consistent deployment=2C wh=
+ile ensuring operational flexibility.
+
+http://grnh.se/3ijtm4
+
+
+Is Chef more to you than a character on South Park? Find new DevOps opport=
+unities on Hired.
+
+http://hrd.cm/1IDr1xC
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+SwifttypeMonitoring is an interesting looking set of Ruby helpers to help=
+ build application-level monitoring checks. with build-in examples of chec=
+kings for MySQL=2C ElasticSearch and Redis it=E2=80=99s relatively easy to=
+ see how to write your own checks.
+
+https://github.com/swiftype/swiftype-monitoring
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

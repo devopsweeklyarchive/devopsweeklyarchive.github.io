@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#470?=
+Date: Sun, 29 Dec 2019 11:51:56 +0000
+
+DEVOPS WEEKLY
+ISSUE #470 - 29th December 2019
+
+File systems=2C serverless patterns=2C security journeys=2C GitHub Actions=
+ tips and the overlap between tools and devops culture. Lots to dive into=
+ this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Learn how to modernize your approach to incident management and slash MTTA=
+/MTTR in the latest webinar from VictorOps + Splunk:
+
+https://go.victorops.com/devopsweekly-modernized-incident-management
+
+
+News
+=3D=3D=3D=3D
+
+A nice set of talks on devops culture from the recent Puppetize event. Sev=
+eral good discussions of the overlap between technical practices and devel=
+oper adoption.
+
+https://puppet.com/blog/the-evolution-of-devops-culture-sessions-from-pupp=
+etize-pdx
+
+
+If you=E2=80=99ve started experimenting with GitHub Actions then you=E2=80=
+=99ll likely find something of interest in this 24 post series. Using the=
+ GitHub Script action caught my eye in particular.
+
+https://www.edwardthomson.com/blog/github_actions_advent_calendar.html
+
+
+I=E2=80=99m a fan of asking the question =E2=80=9Cwhat does infrastructure=
+ mean to you?=E2=80=9D because it always raises different viewpoints. This=
+ post is a good example=2C looking at infrastructure as code from a wider=
+ definition of infrastructure.
+
+https://sysadvent.blogspot.com/2019/12/day-24-expanding-on-infrastructure-=
+as.html
+
+
+A nice collection of common AWS Serverless architecture patterns=2C coveri=
+ng gateways=2C quesing=2C proxies and more.
+
+https://serverlesspatterns.io/
+
+
+An interesting post proposing a model for thinking about operational incid=
+ents.
+
+https://lorinhochstein.wordpress.com/2019/08/25/the-gamma-knife-model-of-i=
+ncidents/
+
+
+Mainly a personal story of encountering and then adopting devops practices=
+ for security=2C but it=E2=80=99s interesting to think back how you first=
+ came across some of the terms and approaches in your career too.
+
+https://medium.com/cloud-security/my-history-of-devsecops-58defb149804
+
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+kf is a CLI tool for Knative which provides a cloud foundry-like deploymen=
+t workflow. Just push your application code and the platform will build an=
+d run it.
+
+https://github.com/google/kf
+
+
+Chubaofs is a distributed file system and object storage service for cloud=
+ native applications. It supports multi-tenancy=2C a POSIX-compatible and=
+ mountable filesystem as well as the S3 object storage interface.
+
+https://github.com/chubaofs/chubaofs
+
+
+Static analysis of infrastructure as code is looking like a hot topic for=
+ 2020. Checkov is a new tool which scans cloud infrastructure provisioned=
+ using Terraform and detects security and compliance misconfigurations.
+
+https://github.com/bridgecrewio/checkov
+
+
+Learn how to modernize your approach to incident management and slash MTTA=
+/MTTR in the latest webinar from VictorOps + Splunk:
+
+https://go.victorops.com/devopsweekly-modernized-incident-management
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

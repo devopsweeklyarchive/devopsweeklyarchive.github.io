@@ -1,0 +1,200 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#331?=
+Date: Sun, 30 Apr 2017 10:43:43 +0000
+
+DEVOPS WEEKLY
+ISSUE #331 - 30th April 2017
+
+Lots of content around Serverless this week=2C mainly coming from the exce=
+llent ServerlessConf held last week in Austin. Along with that some good p=
+osts on digital transformation and ITSM=2C and on the skills needed to emb=
+race the rapid changes in operations.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Resolving DevOps and IT incidents is not enough. Download the eBook: =E2=
+=80=9CBlameless Post Mortems (and how to do them)=E2=80=9D=2C and start le=
+arning from them.
+
+http://try.victorops.com/BlamelessPostMortems/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Practical Tips to Start Your DevOps Journey
+
+Even when DevOps is not fully embraced throughout an organization there ar=
+e still benefits. And getting started can be quicker than you think. In th=
+is on-demand webinar=2C Andreas Grabner=2C Chief DevOps Activist at Dynatr=
+ace=2C shares practical tips that all IT groups can use to start their Dev=
+Ops journey quickly.
+
+http://ow.ly/yJpv306Zlyy
+
+
+News
+=3D=3D=3D=3D
+
+A good list of some of the advantages of standardising on a single unit of=
+ software (in this case Docker) and on a platform (ECS on AWS)=2C looking=
+ at open source=2C security and billing.
+
+https://www.mapbox.com/blog/switch-to-ecs/
+
+
+A really interesting piece placing digital transformation and ITSM in cont=
+ext=2C I particularly liked the observation that =E2=80=9Cmost enterprise=
+ IT functions were built around service provision=2C rather than product i=
+nnovation.=E2=80=9D
+
+https://medium.com/@JonHall_/on-digital-transformation-itsm-and-devops-oh-=
+and-pizza-93acd09dbdb8
+
+
+A good blog post and accompanying presentation all about how serverless co=
+mputing changes security=2C for the better and for the worse.
+
+https://snyk.io/blog/serverless-security-implications-from-infra-to-owasp/
+https://snyk.io/blog/serverless-security-at-serverless-conf/
+
+
+A solid post which places many of the practices and tools we talk about un=
+der the devops banner in the context of the common manual approaches that=
+ came before. The post goes on to talk about what you need to do to get in=
+to devops coming from that background.
+
+https://carlosonunez.wordpress.com/2017/03/02/getting-into-devops/
+
+
+An interesting survey from the Linux Foundation about how those in the ope=
+n source community consider the input open source community efforts of the=
+ large cloud providers.
+
+https://www.surveymonkey.com/r/OSS-Sentiment
+
+
+An update to a post from a few years ago=2C on Docker adoption. The sample=
+ size and consistency over several samples makes for interesting observati=
+ons.
+
+https://www.datadoghq.com/docker-adoption/
+
+
+An excellent deep-dive blog post on docker overlay networks and how they w=
+ork=2C based on a talk from the recent DockerCon conference.
+
+http://techblog.d2-si.eu/2017/04/25/deep-dive-into-docker-overlay-networks=
+-part-1.html
+
+
+Interesting analysis on what causes flaky tests. The results aren=E2=80=99=
+t super surprising=2C but the methodology and dataset size are interesting=
+=2E
+
+https://testing.googleblog.com/2017/04/where-do-our-flaky-tests-come-from.=
+html
+
+
+A slidedeck on building resilient microservice systems=2C looking at the i=
+nevitable failures in distributed systems and the use of bulkheads to prev=
+ent cascading failures.
+
+https://www.slideshare.net/ufried/resilient-functional-service-design
+
+
+A simple example of using the new multistage Docker builds to create small=
+er images when using compiled languages and static binaries.
+
+https://medium.com/travis-on-docker/multi-stage-docker-builds-for-creating=
+-tiny-go-images-e0e1867efe5a
+
+
+A presentation on modern agile practices=2C and how serverless helps to fa=
+cilitate some of those processes.
+
+https://drive.google.com/file/d/0B1XX8jViOyqOMVoyV3JVTHE2SFk/view
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar Series =E2=80=93 The =E2=80=9CHow-To=E2=80=9D of Cloud-native=
+ Traffic Management with Ranga Rajagopalan of Avi Networks
+
+Containers bring a new level of agility and speed to app development=2C wh=
+ile also demanding a new architecture for the application services managin=
+g these microservices and apps=2C particularly in regards to traffic manag=
+ement. In this webinar=2C we will discuss how cloud-native traffic managem=
+ent must be approached differently and how dev=2C app=2C and network teams=
+ can work synchronously to deliver microservices applications.
+
+https://goo.gl/b48DH1
+
+
+KubeCon / CloudNativeCon Austin - Join leading Kubernetes and Cloud Native=
+ technologists in Austin for a full range of technology sessions on the cl=
+oud native ecosystem. We sold out in Berlin and are excited to see thousan=
+ds of you from the community in Austin! Call for papers and registration i=
+nformation linked.
+
+https://goo.gl/r0RHDO
+
+
+Jobs
+=3D=3D=3D=3D
+
+We're hiring a Senior DevOps Engineer onsite here at HelloFresh in Berlin.=
+ Our ideal candidate is passionate about contributing to open source=2C ex=
+perienced in developing tools for engineers to consume and loves to automa=
+te things! You can get a taste of what we've been working on by checking o=
+ut our engineering blog which is linked below.
+
+If you love food and want to work for the fastest growing company in Europ=
+e then don't hesitate to apply! We'll support you with relocation assistan=
+ce to Berlin and visas if needed.
+
+Engineering blog: https://engineering.hellofresh.com/
+Job description/Application: http://grnh.se/5t6a3p1
+
+
+Find a DevOps Job You Love This Year. Try Hired and Get Access to over 6=
+=2C000 Companies
+
+http://hrd.cm/2jHrf1B
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devops Days London is coming up on September 6th and 7th=2C with the theme=
+ of Transforming the future together. The CFP is open now until the 31st o=
+f May.
+
+https://www.devopsdays.org/events/2017-london/propose/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Gordon is a tool for deploying and managing AWS Lambda functions=2C backed=
+ by CloudFormation. It provides a nice high-level abstraction over the man=
+y underlying services=2C and the documentation has lots of useful examples=
+=2E
+
+https://github.com/jorgebastida/gordon
+
+
+Resolving DevOps and IT incidents is not enough. Download the eBook: =E2=
+=80=9CBlameless Post Mortems (and how to do them)=E2=80=9D=2C and start le=
+arning from them.
+
+http://try.victorops.com/BlamelessPostMortems/DevOpsWeekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

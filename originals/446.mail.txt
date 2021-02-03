@@ -1,0 +1,97 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#446?=
+Date: Sun, 14 Jul 2019 10:23:11 +0000
+
+DEVOPS WEEKLY
+ISSUE #446 - 14th July 2019
+
+A busy week so a relatively short issue today. Some detailed posts on scal=
+ing graphite and setting up a CI/CD pipeline for Helm charts and several p=
+osts on packaging and release engineering topics.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Free Webinar] VictorOps partnered with Catchpoint to share actionable wa=
+ys to transform your monitoring and incident response practices. See how D=
+evOps teams are being more proactive toward service reliability:
+
+http://try.victorops.com/devopsweekly/death-to-downtime
+
+
+News
+=3D=3D=3D=3D
+
+A good discussion on the local maxima of adhoc deployment pipelines=2C loo=
+king at the typical stages in deploying software=2C and some areas for imp=
+rovement.
+
+https://medium.com/darklang/how-dark-deploys-code-in-50ms-771c6dd60671
+
+
+A post on scaling Graphite. From a single very large physical server to mo=
+ving to an HA setup on AWS using Go Graphite. Lots of data and discussion=
+ of experiments.
+
+https://medium.com/teads-engineering/scaling-graphite-in-a-cloud-environme=
+nt-6a92fb495e5
+
+
+A series of posts showing how to create a full pipeline for building=2C te=
+sting and releasing Helm charts.
+
+https://tech.paulcz.net/blog/creating-a-helm-chart-monorepo-part-1/
+https://tech.paulcz.net/blog/creating-a-helm-chart-monorepo-part-2/
+https://tech.paulcz.net/blog/creating-a-helm-chart-monorepo-part-3/
+
+
+Logging Made Easy is an interesting looking project to allow small organis=
+ations to gain a basic level of centralised security logging for Windows c=
+lients and provide functionality to detect attacks.
+
+https://www.ncsc.gov.uk/blog-post/logging-made-easy
+https://github.com/ukncsc/lme
+
+
+A short essay with thoughts about package distribution=2C in particular ab=
+out a federated model package distribution to avoid single monolithic pack=
+age repositories.
+
+https://gist.github.com/jcoglan/64cf9d3f9a4e25092ac132bd72b63491
+
+
+A personal experience report of moving to work as a Site Reliability Engin=
+eer=2C with some thoughts about when adopting SRE makes sense.
+
+https://gianarb.it/blog/when-do-you-need-a-site-reliability-engineer
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Ignite is a new open source tool for provisioning a micro virtual machine=
+ with a container-like user interface. Under the hood it uses Firecracker=
+ and OCI images for packaging.
+
+https://github.com/weaveworks/ignite
+https://www.weave.works/blog/fire-up-your-vms-with-weave-ignite
+
+
+Otto looks like an interesting tool for modelling a complete continuous in=
+tegration and deployment pipeline. The examples are a good starting point.
+
+https://github.com/rtyler/otto
+
+
+
+[Free Webinar] VictorOps partnered with Catchpoint to share actionable wa=
+ys to transform your monitoring and incident response practices. See how D=
+evOps teams are being more proactive toward service reliability:
+
+http://try.victorops.com/devopsweekly/death-to-downtime
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

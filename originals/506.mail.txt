@@ -1,0 +1,104 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#506?=
+Date: Sun,  6 Sep 2020 09:51:28 +0000
+
+DEVOPS WEEKLY
+ISSUE #506 - 6th September 2020
+
+Feature flags=2C incident response=2C complex adaptive systems and the ret=
+urn of Devops Days in a virtual format. Lots of variety this week.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Preview environments give you better control over your infrastructure and=
+ a more reliable deployment setup. Check out how to set them up with Terra=
+form.
+
+https://www.env0.com//l/devops-wap-blog
+
+About env0: use Terraform to let your team manage their own environments i=
+n AWS=2C Azure and Google. Governed by your policies and with complete vis=
+ibility & cost management.
+
+
+News
+=3D=3D=3D=3D
+
+A good inside view of a series of incidents. Load balancer firmware=2C net=
+work connectivity issues and how it feels to be on the other side of an em=
+erging incident.
+
+https://m.signalvnoise.com/inside-a-code-red-network-edition/
+
+
+A set of principles for managing feature toggles in teams=2C from making t=
+hem visible to ensuring they are short lived.
+
+https://www.thoughtworks.com/insights/blog/managing-feature-toggles-teams
+
+
+A discussion of complex adaptive systems in relation to IT service managem=
+ent. Interesting points about the importance of constraint to limit negati=
+ve emergent behaviour.
+
+https://medium.com/@JonHall_/complex-adaptive-systems-ii-thinking-about-em=
+ergence-and-itsm-afec6c3305a3
+
+
+Devops Days made a comeback in Chicago=2C with an online version. Talks on=
+ resilience engineering=2C growing a local devops community=2C chaos engin=
+eering as well as ignites and breakouts.
+
+https://firehydrant.io/blog/devopsdays-chicago-2020-wrapup/
+
+
+Tips for using third party software packages and images from public reposi=
+tories=2C including considering availability=2C rebuilding from source and=
+ local caches.
+
+https://stevelasker.blog/2020/09/01/consuming-upstream-content/
+
+
+Open Policy Agent is powerful=2C but like any new tool has a learning curv=
+e. This 30 minute tutorial takes you through learning the basics of the Re=
+go language.
+
+https://academy.styra.com/
+
+
+An excellent introduction to the basics of Kubernetes=2C covering core com=
+ponents=2C the general architecture and deploying your first applications.
+
+https://luminousmen.com/post/kubernetes-101
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+oso is an open source policy engine for authorization that you can embed i=
+n your Java=2C Python=2C Ruby or Node application. It provides a consisten=
+t DSL and some good getting started documentation.
+
+https://github.com/osohq/oso/
+
+
+Gitleaks is a handy tool for detecting secrets in Git repositories=2C with=
+ integration with GitHub Actions and the ability to scan all repos in an o=
+rganisation.
+
+https://github.com/zricethezav/gitleaks
+
+
+Continuous Machine Learning (CML) is an open-source library for CI/CD in m=
+achine learning projects. Automate model training and evaluation=2C compar=
+ing ML experiments across your project history=2C and monitoring changing=
+ datasets.
+
+https://github.com/iterative/cml
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

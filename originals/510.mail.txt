@@ -1,0 +1,109 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#510?=
+Date: Sun,  4 Oct 2020 09:32:49 +0000
+
+DEVOPS WEEKLY
+ISSUE #510 - 4th October 2020
+
+Lots of higher level content this week=2C from service registries to open=
+ source compliance policies and dealing with least privilege to attribute=
+ based access control.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Check out how to set up Continuous Deployment of a Python3 application int=
+o a VMware vSphere environment=2C all automated with Terraform!
+
+https://www.env0.com/l/setting-up-cd-with-vmware
+
+About env0: use Terraform to let your team manage their own environments i=
+n AWS=2C Azure and Google. Governed by your policies and with complete vis=
+ibility & cost management.
+
+
+News
+=3D=3D=3D=3D
+
+Open source has led to companies sharing undifferentiated code=2C but work=
+ on processes and policies is rarely done in the open. Given lots of compa=
+nies are subject to the same compliance regimes=2C this is definitely wast=
+eful. So I=E2=80=99m super interested to see this set of HIPAA policies.
+
+https://policy.datica.com/
+https://github.com/catalyzeio/policies
+
+
+This post looks at how to embrace devops at the same time as maintain leas=
+t privilege controls in cloud environments.
+
+https://ermetic.com/whats-new/blog/the-three-ways-of-devops/
+
+
+A look at the concept of emergence in system design and management and how=
+ emergent behaviour can be both positive and negative.
+
+https://medium.com/@JonHall_/complex-adaptive-systems-ii-thinking-about-em=
+ergence-and-itsm-afec6c3305a3
+
+
+A post on why moving from a monolithic to microservices architecture is ti=
+me consuming=2C due to assumptions and coupling that need to be broken dow=
+n.
+
+https://medium.com/@kentbeck_7670/monolith-services-theory-practice-617e45=
+46a879
+
+
+A look at building a service registry from jsonnet files in a Git reposito=
+ry. Interesting ides about the benefits of standard service descriptions a=
+nd building tools on top of that to make managing infrastructure and appli=
+cations easier.
+
+https://blog.lawrencejones.dev/service-registry/
+
+
+Scaling managing permissions is hard. This post looks at one proposed appr=
+oach=2C using attribute based access control=2C and some its problems.
+
+https://onecloudplease.com/blog/security-september-still-early-days-for-ab=
+ac
+
+
+Balancing defaults between getting started quickly and scaling is often tr=
+icky. A good post on configuring sidecars to limit the memory consumed by=
+ large Istio clusters.
+
+https://karlstoney.com/2020/10/03/istio-at-scale-sidecar/
+
+
+A walkthrough of configuring a high-availability Kubernetes cluster on Azu=
+re using Terraform=2C looking at the various services needed for a product=
+ion setup=2C like Calico and Active Directory.
+
+https://codersociety.com/blog/articles/terraform-azure-kubernetes
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Couler provides a DSL for creating and managing workflows on different wor=
+kflow engines=2C including Argo Workflows=2C Tekton Pipelines=2C and Apach=
+e Airflow.
+
+https://github.com/couler-proj/couler
+
+
+Pinot is a real-time distributed OLAP datastore=2C built to deliver scalab=
+le real-time analytics with low latency. It can ingest from batch data sou=
+rces (such as Hadoop HDFS=2C Amazon S3=2C Azure ADLS=2C Google Cloud Stora=
+ge) as well as stream data sources (such as Apache Kafka).
+
+https://pinot.apache.org/
+https://github.com/apache/incubator-pinot
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

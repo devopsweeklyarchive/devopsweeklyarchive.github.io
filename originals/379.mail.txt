@@ -1,0 +1,148 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#379?=
+Date: Sun, 1 Apr 2018 12:10:53 +0000
+
+DEVOPS WEEKLY
+ISSUE #379 - 1st April 2018
+
+Running the gamut of topics this week with some great posts on technical s=
+upport=2C centralising traditional operations tasks=2C deployment tooling=
+=2C the importance of scripting=2C immutable infrastructure=2C secrets man=
+agement and more.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Chaos engineering is the future of continuous integration and development.=
+ Creating a DevOps culture of reliability begins with developing an SRE st=
+ructure of collaboration and accountability. Read how VictorOps is using=
+ =E2=80=9CGame Days=E2=80=9D to create a strong SRE culture.
+
+http://try.victorops.com/DevOpsWeekly/GameDays
+
+
+News
+=3D=3D=3D=3D
+
+A series of posts on evolving a deployment process. Starting with a fairly=
+ typical automated SSH/Git based process and stepping through the design d=
+ecisions for adopting container-based tooling.
+
+https://medium.com/@AaronKalair/all-aboard-the-deploy-train-stop-1-anyone-=
+for-tea-a5c12b984ed9
+
+
+A walkthrough of why Helm is important to the Kubernetes ecosystem=2C cove=
+ring what problems a package manager sets out to solve and a discussion of=
+ some of the related tooling.
+
+https://platform9.com/blog/kubernetes-helm-why-it-matters/
+
+
+A good post on the tension between pushing operational responsibility out=
+ to the development teams=2C and the benefits of centralising certain aspe=
+cts of ops=2C especially those related to traditional service management.
+
+https://aws.amazon.com/blogs/enterprise-strategy/the-critical-missing-piec=
+e-of-devopsand-how-to-find-it/
+
+
+A post on the importance of generative tooling and scripting for administr=
+ators=2C and in this specific case why PowerShell is a required skill for=
+ Office365 administrators.
+
+https://www.petri.com/powershell-important-office365-admins
+
+
+Brigade allows for scripting a set of steps to run in containers. This pos=
+t explores how to share data as part of your pipeline=2C looking at both t=
+he pipe concept and the use of a shared filesystem=2C and what this looks=
+ like in the API.
+
+http://technosophos.com/2018/03/26/how-brigade-shares-data-between-contain=
+ers.html
+
+
+Investigating swarming as an approach to technical support=2C and a look a=
+t applying swarming to deliver cynefin.
+
+https://medium.com/@JonHall_/using-swarming-to-deliver-cynefin-in-tech-sup=
+port-34dc4992e3e0
+
+
+Instructions for configuring hiera to lookup secrets from Vault in your Pu=
+ppet runs=2C including some useful tips for improving performance with hie=
+ra 5.
+
+https://petersouter.xyz/how-to-use-vault-with-hiera-5-for-secret-managemen=
+t-with-puppet/
+
+
+A good overview of the various options available when running Java applica=
+tions in Docker containers - looking at the various operating system base=
+ images and different flavours of JDK.
+
+https://medium.com/oracledevs/running-spring-boot-in-a-docker-container-on=
+-openjdk-oracle-jdk-zulu-on-alpine-linux-oracle-c9dd56b75f76
+
+
+A look at configuring the Drone CI/CD system to run on Kubernetes. Some in=
+teresting container-native integration bits=2C including Helm and Docker s=
+upport in the pipeline definition.
+
+https://akomljen.com/set-up-a-drone-ci-cd-pipeline-with-kubernetes/
+
+
+A nice introduction to monitoring applications with Prometheus. Including=
+ starting your own instance=2C examples of instrumentation and querying fo=
+r metrics using PromSQL.
+
+https://blog.alexellis.io/prometheus-monitoring/
+
+
+A slide desk stepping through immutable infrastructure=2C explaining how i=
+t varies from other approaches which rely on mutable systems and what the=
+ benefits of this approach are.
+
+https://www.slideshare.net/rhirschfeld/srecon-immutable-infrastructure-ret=
+hinking-configuration-mgmt
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Netassert is a network testing tool which supports Kubernetes as well as p=
+lain networks. You describe assertions in YAML=2C and the README contains=
+ lots of examples to help getting started.
+
+https://github.com/controlplaneio/netassert
+
+
+Building a hello-world style Lambda function is relatively straight-forwar=
+d=2C but what does that look like when expanded to a more featureful appli=
+cation? This repository has a nice examples in Go which has lots of good e=
+xamples.
+
+https://github.com/nzoschke/gofaas
+
+
+Dashbling is a handy looking dashboard application. It=E2=80=99s intended=
+ to be easy to confure with your own widgets=2C which can be shared as NPM=
+ packages.
+
+https://github.com/pascalw/dashbling
+
+
+
+Chaos engineering is the future of continuous integration and development.=
+ Creating a DevOps culture of reliability begins with developing an SRE st=
+ructure of collaboration and accountability. Read how VictorOps is using=
+ =E2=80=9CGame Days=E2=80=9D to create a strong SRE culture.
+
+http://try.victorops.com/DevOpsWeekly/GameDays
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,113 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#422?=
+Date: Sun, 27 Jan 2019 11:39:24 +0000
+
+DEVOPS WEEKLY
+ISSUE #422 - 27th January 2019
+
+New technology and discussion of operations this week; from on-call and in=
+cident investigations to package management and logging.
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+The core of DevOps is all about continuous improvement. Thorough post-inci=
+dent reviews drive innovation and system reliability. Leverage this free p=
+ost-incident review template to start conducting highly effective post-inc=
+ident reviews today:
+
+http://try.victorops.com/devopsweekly/post-incident-review-guide
+
+
+News
+=3D=3D=3D=3D
+
+A good personal take on being on-call=2C with tips to make it more managea=
+ble; from good hardware and connectivity=2C to self-care and notification=
+ hygiene.
+
+https://www.hostedgraphite.com/blog/surviving-on-call-tips-from-a-hosted-g=
+raphite-sre
+
+
+Slides from a talk I gave this last week on Cloud Native Application Bundl=
+es=2C or CNAB. CNAB is a new specification for packaging distributed appli=
+cations with multiple toolchains. The slides cover some of the problem=2C=
+ details of the spec and the emerging tooling.
+
+https://speakerdeck.com/garethr/cnab-packagaging-for-applications-with-mul=
+tiple-toolchains
+
+
+It=E2=80=99s common to hold some sort of investigation into an outage=2C b=
+ut how those investigations are conducted=2C and what we get out of them c=
+an vary wildly. This post digs into one detail; when to end an investigati=
+on.
+
+https://ryanfrantz.com/posts/when-does-an-investigation-end.html
+
+
+There are lots of discussion going on at the moment about using OCI regist=
+ries for distributing other types of content. This post explores why that=
+=E2=80=99s interesting=2C and how it might apply to Helm.
+
+https://blog.bacongobbler.com/post/2019-01-25-distributing-with-distributi=
+on/index.html
+
+
+Analysing failures is a great way of learning how systems behave in the re=
+al world. This repository is collecting tales (mainly links to blog posts=
+ and talks) of Kubernetes-related outages.
+
+https://github.com/hjacobs/kubernetes-failure-stories
+
+
+A post describing different approaches to logging for PHP applications run=
+ning on Kubernetes=2C showing a few problems and their solutions.
+
+https://pracucci.com/php-on-kubernetes-application-logging-via-unix-pipe.h=
+tml
+
+
+A detailed post on migrating from a self-hosted technology to a new manage=
+d service from a cloud provider. Lots of good general takeaways.
+
+https://medium.com/bench-engineering/from-activemq-to-amazon-mq-why-and-ho=
+w-we-moved-to-awss-managed-solution-afeba3ea7e23
+
+
+A post on a newly discovered (and patched) vulnerability in the Apt packag=
+e manager=2C which also comes back to the issue of HTTP vs HTTPS for packa=
+ge repositories.
+
+https://justi.cz/security/2019/01/22/apt-rce.html
+
+
+A walkthrough of setting up security scanning for Docker images in your CI=
+ system of choice. Examples using Microscanner as well as GitLab and Jenki=
+ns.
+
+https://aboullaite.me/docker-security-scan/
+
+
+Tools
+=3D=3D=3D=3D
+
+Img2lamda allows for using the Docker image build tools to create an image=
+=2C and then convert that into AWS Lambda layers=2C and publishes those as=
+ new layer versions to Lambda.
+
+https://github.com/awslabs/aws-lambda-container-image-converter/
+
+
+The core of DevOps is all about continuous improvement. Thorough post-inci=
+dent reviews drive innovation and system reliability. Leverage this free p=
+ost-incident review template to start conducting highly effective post-inc=
+ident reviews today:
+
+http://try.victorops.com/devopsweekly/post-incident-review-guide
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

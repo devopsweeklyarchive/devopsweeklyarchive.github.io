@@ -1,0 +1,172 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#262?=
+Date: Sun, 10 Jan 2016 11:38:14 +0000
+
+DEVOPS WEEKLY
+ISSUE #262 - 10th January 2015
+
+Lots of interesting content this week=2C looks like folks have come back f=
+rom the holiday energised. If you=E2=80=99ve written anything interesting=
+=2C or are hacking on a novel project=2C be sure to let me know.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+How Automation Can Help You Build a Bigger And Better Pipeline
+Learn how a 5-point maturity model helped a Fortune 500 company transform=
+ themselves into a full-fledged DevOps company=2C and how it can do the sa=
+me for your company.  You=E2=80=99ll also learn how automation can help yo=
+u build a bigger and better pipeline=2C and how to create modular environm=
+ents for local development all the way through production.
+
+http://ow.ly/U3JbY
+
+
+News
+=3D=3D=3D=3D
+
+A nice look at devops=2C specifically focusing on getting alignment betwee=
+n different stakeholders. Looking at common problems and the advantages of=
+ getting it right.
+
+http://www.ypobo.com/blog/beyond-devops-stakeholder-alignment
+
+
+A lovely detailed and well illustrated post on the basics of scaling data=
+ platforms. Everything from traditional batch processing to stream process=
+ing.
+
+http://www.benstopford.com/2015/04/28/elements-of-scale-composing-and-scal=
+ing-data-platforms/
+
+
+Getting the basics right when it comes to securing infrastructure is still=
+ not as common as it should be. This article covers those basics looking a=
+t remote login=2C firewalls=2C logging=2C trust boundaries and more.
+
+http://blog.mailgun.com/security-guide-basic-infrastructure-security/
+
+
+Some useful experiments and data concerning the performance impact of cont=
+ainers and container network overlays. I=E2=80=99d love to see the code pu=
+blished for experiments like this.
+
+http://www.slideshare.net/i21aneka/about-microservices-containers-and-thei=
+r-underestimated-impact-on-network-performance
+
+
+A useful analysis of various popular architectures=2C viewed from a high l=
+evel. Looking particular at agility=2C scalability=2C performance=2C deplo=
+yment and testability.
+
+http://www.firatatagun.com/blog/2016/01/09/analysis-of-software-architectu=
+res/
+
+
+A quickstart for trying out Intel Clear Linux=2C the secure containers pro=
+ject which is aiming to expose hardware virtualization bits to containers.
+
+https://kismatic.com/technical/quickstart-intel-clear-linux-containers/
+
+
+A good video discussion (with notes) all about the challenge of hiring sof=
+tware developers=2C focusing particularly on embracing agile and devops.
+
+http://blog.smartbear.com/agile-software-development/hiring-agile-develope=
+rs/
+
+
+Dump-init is another approach to managing PID1 inside a container. Specifi=
+cally it=E2=80=99s intended to correctly handle signals and processes with=
+out the overhead of a full-blown init system.
+
+http://engineeringblog.yelp.com/2016/01/dumb-init-an-init-for-docker.html
+
+
+An short introduction to devops and continuous delivery=2C aimed at people=
+ coming from a security background. Worth reading as well to understand so=
+me of the view points from that audience if you=E2=80=99re a developer or=
+ admin.
+
+https://labs.signalsciences.com/what-security-experts-need-to-know-about-d=
+evops-and-continuous-delivery-f9e0d53dd09
+
+
+A good example of using modules in your Terraform configuration=2C with lo=
+ts of examples of how to create specific contexts.
+
+http://avi.io/blog/2016/01/05/using-modules-in-terraform/
+
+
+Occasionally doing operations work you end up writing a little C. This nex=
+t post contains a great deal of opinions about what good modern C good sho=
+uld look like.
+
+https://matt.sh/howto-c
+
+
+Jobs
+=3D=3D=3D=3D
+
+Hired gives top DevOps Engineers more power in their job search. You'll cr=
+eate a profile & over 1 week tech companies will apply to you! You'll get=
+ salary/equity offers upfront & you're under no obligation to accept any o=
+ffer. Interested? Join Hired today!
+
+http://hrd.cm/1Ln3YwY
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon=2C the Kubernetes conference=2C is coming to London on March 10th-=
+11th. Super Early Bird tickets are available now. The CFP is also open unt=
+il the 5th of February.
+
+https://ti.to/kubecon/kubecon-eu-2016/en
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Minimesos is a set of tools to make running a Mesos cluster locally easy=
+=2C even on OSX. Particularly useful if you=E2=80=99re developing your own=
+ mesos frameworks.
+
+http://container-solutions.com/minimesos-0-5-0-mac-os-x-support-and-improv=
+ed-docker-support/
+https://github.com/ContainerSolutions/minimesos
+
+
+Apex is a CLI tool for working with AWS Lambda=2C providing simple deploym=
+ent=2C build and introspection capabilities and supporting Go and Python a=
+s well as the native Node.js.
+
+https://github.com/apex/apex
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

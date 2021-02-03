@@ -1,0 +1,193 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#285?=
+Date: Sun, 12 Jun 2016 10:11:02 +0000
+
+DEVOPS WEEKLY
+ISSUE #285 - 12th June 2016
+
+Monitoring is one of those recurring topics for Devops Weekly=2C so I=E2=
+=80=99m hugely happy to see the new book The Art of Monitoring is now avai=
+lable. https://www.artofmonitoring.com/. At nearly 800 pages this should b=
+e worth reading for monitoring newbies and experts alike.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Built for DevOps=2C the VictorOps platform provides seamless incident mana=
+gement to improve uptime and make on-call suck less.
+
+Start your free trial today: http://try.victorops.com/DevOps-Weekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+DevOps: Hidden Risks and How to Achieve Results
+
+Get industry insights and practical tips from DevOps experts including Gen=
+e Kim=2C co-author of The Phoenix Project=2C and the Dynatrace Center of E=
+xcellence=C2=A9.
+
+http://ow.ly/hI1F300TUh2
+
+
+News
+=3D=3D=3D=3D
+
+A great presentation about the state of containers=2C orchestrators=2C mic=
+roservices and more. Lots of data showing direction of travel=2C and some=
+ useful speculation about the future.
+
+https://speakerdeck.com/acolyer/making-sense-of-it-all
+
+
+It=E2=80=99s not just me who things that metadata is powerful and underuse=
+d when it comes to docker containers and images. This post has some ideas=
+=2C a round-up of interesting usage and some new tooling.
+
+http://blog.microscaling.com/2016/06/the-joy-of-organising-container-image=
+_6.html
+
+
+Not a new problem=2C but a good description and demonstration of the peril=
+s of arbitrary code execution when installing packaging from third-party r=
+epositories.
+
+http://incolumitas.com/2016/06/08/typosquatting-package-managers/
+
+
+We often talk about blameless postmortems=2C but this post does a good job=
+ of convincing that blame is an important part of learning and that we sho=
+uld strive for blame aware rather than wholly blameless.
+
+http://techbeacon.com/blameless-postmortems-dont-work-heres-what-does
+
+
+A useful overview of the term Platform as a Service=2C it=E2=80=99s evolut=
+ion and relationship to more recent trends like containers and serverless=
+ architectures.
+
+http://redmonk.com/sogrady/2016/06/10/paas-the-term/
+
+
+A handy side-by-side comparison of the Kubernetes API and kubectl command=
+ line tool=2C and when you should use each.
+
+http://k8s.uk/kubectl-vs-http-api.html
+
+
+An excellent series of posts on techniques and the maths behind reducing n=
+oise in monitoring alerts.
+
+https://signalfx.com/blog/reducing-alert-noise-transformations-dynamic-thr=
+esholds/
+https://signalfx.com/blog/reducing-alert-noise-ranges-firing-clearing/
+https://signalfx.com/blog/reducing-alert-noise-rates-change/
+https://signalfx.com/blog/reducing-alert-noise-static-thresholds-durations=
+-transformations/
+
+
+I quite don=E2=80=99t agree with all the analysis=2C but the topic of the=
+ increasing role developers and practitioners play in the procurement proc=
+ess is worthy of more discussion.
+
+https://medium.com/@JoeEmison/vendors-must-cater-to-developers-or-die-7af7=
+559dca70#.8pthxxgr4
+
+
+Two similar posts about the serverless movement=2C how the name can lead t=
+o confusion (but is just a name)=2C that it=E2=80=99s not the answer to ev=
+erything but that the approach does have merits worth investigating.
+
+https://whaletech.co/2016/06/07/serverless-whats-in-a-name.html
+https://medium.com/@PaulDJohnston/serverless-is-just-a-name-we-could-have-=
+called-it-jeff-1958dd4c63d7#.f1aj8bwk8
+
+
+Some changes in Docker 1.10 changed how the docker build cache could be di=
+stributed across hosts. This post shows what changed and some alternative=
+ solutions to the problem.
+
+http://blog.runnable.com/post/145362675491/distributing-docker-cache-acros=
+s-hosts
+
+
+A solid set of books to read if you=E2=80=99re interested in some of the u=
+nderpinnings of devops like lean=2C agile and XP.
+
+https://langerman.co.za/2016/05/17/32-best-reads-for-lean-agile-and-devops=
+/
+
+
+With most of the buzz out of the way=2C work continues to build out some o=
+f the libraries required to make unikernels useful. Here=E2=80=99s a quick=
+ description of ongoing work to support syslog.
+
+http://www.gina.codes/ocaml/2016/06/06/syslog-a-tale-of-specifications.htm=
+l
+
+
+An opinionated look at the challenges to the evolution of the traditional=
+ hardware network router.
+
+https://medium.com/hyperscale-routing/the-end-of-the-router-e4d769aea60f#.=
+343hj86x7
+
+
+Jobs
+=3D=3D=3D=3D
+
+At Udacity=2C our mission is to democratize education. We aim to bring acc=
+essible=2C affordable=2C engaging=2C and relevant higher education to ever=
+yone. To do this=2C we are building a next-generation Platform-as-a-Servic=
+e so Udacity engineers can rapidly build=2C deploy=2C scale=2C and interco=
+nnect amazing new microservices. We empower Udacity to bring higher educat=
+ion to the world. Remotes welcome.
+
+https://jobs.lever.co/udacity/7f1f2c60-4637-44ae-96f7-c92f17adc415
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devops Enterprise Summit is coming to London on the 30th of June and 1st o=
+f July. The full lineup has been announced with some great looking topics=
+ including enterprise transformation=2C mainframes=2C accounting and lots=
+ of case studies.
+
+http://events.itrevolution.com/eu/schedule/
+
+
+Devopsdays Amsterdam is also taking place on June 30th and July 1st with t=
+he usual mix of talks and open spaces. The discount code DODAMS_LOVES_DEVO=
+PSWEEKLY should get you 15% off the ticket price.
+
+http://www.devopsdays.org/events/2016-amsterdam/program/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+SwarmKit is a new toolkit from Docker for orchestrating distributed system=
+s. It includes primitives for node discovery=2C raft-based consensus=2C ta=
+sk scheduling and more.
+
+https://github.com/docker/swarmkit
+
+
+Cake is an open source and cross platform build automation system with a C=
+# DSL=2C particularly handy for building NuGet packages.
+
+http://cakebuild.net/
+
+
+Built for DevOps=2C the VictorOps platform provides seamless incident mana=
+gement to improve uptime and make on-call suck less.
+
+Start your free trial today: http://try.victorops.com/DevOps-Weekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

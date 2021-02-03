@@ -1,0 +1,136 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#447?=
+Date: Sun, 21 Jul 2019 11:30:40 +0000
+
+DEVOPS WEEKLY
+ISSUE #447 - 21st July 2019
+
+A mix of posts this week on serverless architectures=2C advancements in co=
+ntinuous delivery tooling and monitoring distributed systems.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Containers and microservices can improve development speed and service fle=
+xibility. But=2C more complex systems have a higher potential for incident=
+s. Learn how DevOps teams are building more reliable services and adding c=
+ontext to microservices and containerized environments:
+
+http://try.victorops.com/devopsweekly/contextualizing-microservices
+
+
+News
+=3D=3D=3D=3D
+
+A post introducing distributed tracing. It steps through the background=2C=
+ recent work on standards=2C tools you can use to trace application reques=
+ts and a nice example.
+
+https://www.kartar.net/2019/07/intro-to-distributed-tracing/
+
+
+A slide deck looking at emerging serverless application and architecture p=
+atterns.
+
+https://drive.google.com/file/d/1noYxjle5Dx-y7ElVKbkU89YUEDRWDN9D/view
+
+
+A presentation on continuous integration for cloud native systems=2C looki=
+ng at the background behind the Tekton project - standards=2C reusable com=
+ponents=2C serverless CI and more.
+
+https://docs.google.com/presentation/d/1Zflisk1MErUTa9KrxaeZKtdA5ydu1fHmTP=
+ZOh79Nims/
+
+
+A description of the problems modelling real-world continuous delivery pip=
+elines=2C and details of the new Otto modelling language I mentioned in la=
+st weeks issue.
+
+https://brokenco.de/2019/07/18/otto-matic.html
+
+
+A short post on the benefits of core dumps for debugging production system=
+s.
+
+https://jbd.dev/prod-debugging/
+
+
+Another detailed post on a tool I mentioned last issue. This post explores=
+ Ignote=2C a tool with a Docker-like CLI interface for launching tiny VM i=
+mages using Firecracker.
+
+https://felixwiedmann.de/ignite/
+
+
+An experience report of moving an open source project over to use Azure Pi=
+pelines. Some gothas and useful tips for anyone looking to do the same.
+
+https://stevenmurawski.com/2019/07/migrating-test-kitchen-to-azure-pipelin=
+es/
+
+
+A look at the new Puppet provisioner available in the latest Terraform rel=
+ease.
+
+https://www.greenreedtech.com/terraform-puppet-provisioner/
+
+
+Triggermesh is providing higher-level deployment tools for Knative. This p=
+ost shows the use of the Serverless Framework configuration to further sim=
+plify the developer experience.
+
+http://triggermesh.com/2019/07/deploying-functions-to-knative-the-serverle=
+ss-framework-way/
+
+
+An argument for building out a remote development environment=2C rather th=
+an running everything locally.
+
+https://www.welcometothejungle.co/fr/articles/reasons-work-cloud
+
+
+A workshop focused on securing Serverless applications on AWS Lambda.
+
+https://speakerdeck.com/danilop/serverless-security-workshop
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Puppetize PDX is coming up on October 9th and 10th=2C featuring sessions o=
+n Devops=2C infrastructure delivery and of course Puppet. You can grab a $=
+100 discount with the code DevOpsWeekly25.
+
+https://puppet.com/puppetize
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kabanero is an opinionated distribution of tools built around Kubernetes a=
+nd Istio. It builds on the platform components with opinionated collects f=
+or specific frameworks=2C including  SPring=2C Node.js and Swift.
+
+https://kabanero.io/
+
+
+Kubernetes is a fast moving project with numerous components. That makes t=
+he new release notes site particularly useful.
+
+https://relnotes.k8s.io/
+
+
+
+Containers and microservices can improve development speed and service fle=
+xibility. But=2C more complex systems have a higher potential for incident=
+s. Learn how DevOps teams are building more reliable services and adding c=
+ontext to microservices and containerized environments:
+
+http://try.victorops.com/devopsweekly/contextualizing-microservices
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,113 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#504?=
+Date: Sun, 23 Aug 2020 08:26:02 +0000
+
+DEVOPS WEEKLY
+ISSUE #504 - 23th August 2020
+
+Some solid ops content this week=2C on the changing role of operations=2C=
+ NAT networking=2C tagging cloud resources=2C logging=2C testing infrastru=
+cture as code=2C and more.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+When developing for the cloud=2C separate branches aren't enough anymore -=
+ you want full on separate environments for whatever you're working on.
+
+https://www.env0.com/l/devops-feature-environments
+
+
+News
+=3D=3D=3D=3D
+
+A great post on the changing role of operations. Some good tips for those=
+ wondering what modern ops looks like=2C with tips on vendor management=2C=
+ outsourcing infrastructure and the importance of understanding sociotechn=
+ical systems.
+
+https://acloudguru.com/blog/engineering/the-future-of-ops-jobs
+
+
+A good introduction to NAT networks=2C for anyone wanting to understand th=
+is area of networking better. Good diagrams and examples and lots of detai=
+ls.
+
+https://tailscale.com/blog/how-nat-traversal-works/
+
+
+Metrics are used for lots of different purposes=2C including reporting to=
+ the top of an organisation. This post explores engineering KPIs for board=
+ room conversations.
+
+https://codeclimate.com/blog/engineering-kpis-board-deck/
+
+
+Ever wanted to ensure that messages between services are kept in order=2C=
+ with a retry mechanism for any lost messages? This post describes a speci=
+fic pattern=2C but is also part of a set of articles on distributed comput=
+ing patterns that=E2=80=99s worth exploring.
+
+https://martinfowler.com/articles/patterns-of-distributed-systems/single-s=
+ocket-channel.html
+
+
+Incident reviews are increasingly common but often hard to do well. This v=
+ideo and detailed transcript has various tips for improving the process.
+
+https://www.blameless.com/blog/improving-postmortems-paul-osman
+
+
+An ambitious idea for a new journal for Systems research. Definitely relev=
+ant to the interests of some readers of Devops Weekly I think.
+
+https://medium.com/@vijayc/a-new-journal-for-systems-research-2dbbfca6b860
+
+
+Pulumi=2C the Infrastructure as Code tool=2C now supports using Open Polic=
+y Agent to validate the resulting resources. This post explores why and ho=
+w.
+
+https://www.pulumi.com/blog/opa-support-for-crossguard/
+
+
+Even if you=E2=80=99re not writing applications in Java=2C it=E2=80=99s of=
+ten useful to have some knowledge of how logging works as you=E2=80=99ll p=
+robably end up running at least some Java applications. These posts provid=
+e a solid foundation.
+
+https://sematext.com/blog/java-logging/
+https://sematext.com/blog/java-logging-best-practices/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Tags are critical to managing AWS resources at scale. Awstaghelper provide=
+s a command line tool to ease adding and managing tags to and from CSV fil=
+es across the wide range of AWS resources.
+
+https://github.com/mpostument/awstaghelper
+
+
+The GitOps Toolkit is a set of composable APIs and specialized tools that=
+ can be used to build a Continuous Delivery platform on top of Kubernetes.=
+ They should provide the underpinnings for the v2 of Flux=2C but could als=
+o be used to build other interesting high-level tools that take the same c=
+ontrol loop approach.
+
+https://toolkit.fluxcd.io/
+
+
+Kip is a Virtual Kubelet provider that allows a Kubernetes cluster to tran=
+sparently launch pods onto their own cloud instances. Handy if you require=
+ additional workload isolation.
+
+https://github.com/elotl/kip
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

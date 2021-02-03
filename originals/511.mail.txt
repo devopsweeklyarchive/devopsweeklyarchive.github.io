@@ -1,0 +1,92 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#511?=
+Date: Sun, 11 Oct 2020 10:08:25 +0000
+
+DEVOPS WEEKLY
+ISSUE #511 - 11th October 2020
+
+A mix of people and process (on-call for managers=2C team design)=2C pract=
+ice (observability=2C logging) and tooling (Terraform=2C Kubernetes) posts=
+ this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Hi DevOps Weekly. StackHawk is proud to be a new sponsor of the newsletter=
+=2E We are application security testing built for CI/CD. Read our post on De=
+veloper-Centric AppSec Testing.
+
+http://sthwk.com/dow-appsec
+
+
+News
+=3D=3D=3D=3D
+
+Designing on-call often lands on managers=2C so understanding the differen=
+ce between good and bad on-call is critically important if you want to be=
+ a good engineering manager. This post is a great introduction.
+
+https://charity.wtf/2020/10/03/on-call-shouldnt-suck-a-guide-for-managers/
+
+
+A look at applying approaches from domain driven design and team topologie=
+s to identify improvements in how teams build reliable co-operating system=
+s.
+
+https://www.joaorosa.io/2020/08/18/using-team-topologies-to-discover-and-i=
+mprove-reliability-qualities/
+
+
+Five tips for implementing observability=2C looking at black box monitorin=
+g=2C service metrics=2C tracing and more.
+
+https://prometheuskube.com/5-tips-on-implementing-observability
+
+
+An interesting new Lambda feature=2C extensions open up lots of opportunit=
+ies for monitoring and security use cases that have been hard to implement=
+ up to now.
+
+https://lumigo.io/blog/aws-lambda-extensions-what-are-they-and-why-do-they=
+-matter/
+
+
+Anyone who has worked with logs will be familiar with the concept of log l=
+evels. This post has a bit of history and discusses how log levels are com=
+monly used.
+
+https://sematext.com/blog/logging-levels/
+
+
+Terraform is building up an ecosystem of developer tools around it=2C but=
+ which to try first? This video playlist has several tool reviews which mi=
+ght be of interest.
+
+https://www.youtube.com/playlist?list=3DPLvz1V_9d3uivwNgADT_eB-wKEWOzOOQXy
+
+
+
+Many large organisations end up using multiple cloud providers=2C whether=
+ by inertia or design. This post covers some common issues and misconcepti=
+ons.
+
+https://www.cloudops.com/blog/the-biggest-myths-of-multi-cloud/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Troubleshoot is a set of tools for supporting applications deployed to Kub=
+ernetes. Preflight provides pre-installation cluster conformance testing a=
+nd validation and support-bundle provides post-installation troubleshootin=
+g and diagnostics.
+
+https://github.com/replicatedhq/troubleshoot
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

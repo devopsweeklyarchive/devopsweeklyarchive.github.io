@@ -1,0 +1,134 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#391?=
+Date: Sun, 24 Jun 2018 11:35:18 +0000
+
+DEVOPS WEEKLY
+ISSUE #391 - 24th June 2018
+
+A few good case studies of adopting modern infrastructure and devops pract=
+ices this week=2C along with a couple of posts on the evolution of local d=
+evelopment environments.
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Cloud-based=2C serverless operations allow you to build at the speed of De=
+vOps. Start taking advantage of serverless operations and create a reliabl=
+e culture of continuous integration=2C continuous deployment=2C and proact=
+ive incident management:
+
+http://try.victorops.com/DevOpsWeekly/Going-Serverless
+
+
+News
+=3D=3D=3D=3D
+
+A detailed post on raising the level of abstraction within an organisation=
+ and introducing standardisation to application teams infrastructure.
+
+https://medium.com/@pingles/convergence-to-kubernetes-137ffa7ea2bc
+
+
+It=E2=80=99s time to complete the State of Devops survey again. This year=
+ the focus is on mapping the prescriptive next steps an organization needs=
+ to take to be successful with devops=2C what the roadblocks are along the=
+ way=2C and how to shortcut them.
+
+https://polls.onresearch.net/xsurvey/18JT030/18JT030T1/Survey.aspx
+
+
+A look at different development workflows for Docker-based applications=2C=
+ looking at Dockerfiles=2C Make and other tooling. Also contains some bits=
+ specific to AWS Fargate but much of it is generic.
+
+https://medium.com/containers-on-aws/how-i-do-local-docker-development-for=
+-my-aws-fargate-application-8957e3fdb50
+
+
+An excellent collection of documentation for anyone learning Envoy. Everyt=
+hing from getting started to more advanced features.
+
+https://www.learnenvoy.io/
+
+
+A good look at the best ways of testing serverless applications=2C looking=
+ both at local testing and acceptance testing.
+
+https://medium.freecodecamp.org/the-best-ways-to-test-your-serverless-appl=
+ications-40b88d6ee31e
+
+
+Some useful tips for anyone looking to grow a Kubernetes cluster; setting=
+ CPU and memory limits=2C understanding per-node container limits=2C node=
+ affinities and more.
+
+https://medium.com/@brendanrius/scaling-kubernetes-for-25m-users-a7937e353=
+6a0
+
+
+A good summary of various container security risks and open source tools t=
+hat help to mitigate them.
+
+https://www.slideshare.net/MichaelDucy/securing-your-container-environment=
+-with-open-source
+
+
+A good tale of hunting down a kernel bug causing regular server reboots.
+
+https://medium.com/booking-com-infrastructure/linux-kernel-bug-hunting-35f=
+648c8dbb7
+
+
+This article focuses mainly on local networks but it=E2=80=99s also a grea=
+t description of DNS rebinding attacks.
+
+https://medium.com/@brannondorsey/attacking-private-networks-from-the-inte=
+rnet-with-dns-rebinding-ea7098a2d325
+
+
+Jobs
+=3D=3D=3D=3D
+
+We=E2=80=99re Nested=2C a London based startup taking the pain out of sell=
+ing homes. We=E2=80=99re looking for a Platform Engineer to influence the=
+ development and deployment platform here. You=E2=80=99ll be an early memb=
+er of our technical operations team and help shape our practices=2C platfo=
+rm and culture from the very beginning.  Our tech stack currently includes=
+ Google Cloud Platform=2C Kubernetes=2C Terraform=2C PostgreSQL=2C Elixir=
+=2C ReactJS=2C Python and more.
+
+https://nested.workable.com/j/F69BC7758A
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Pulumi is a new multi-language runtime (with examples in typescript=2C Go=
+ and Python at present) which allows for creating and managing cloud infra=
+structure at a very high-level of abstraction. Would love to see an experi=
+ence report soon.
+
+https://github.com/pulumi
+http://joeduffyblog.com/2018/06/18/hello-pulumi/
+
+
+Kochiku is a distributed platform for test automation. It integrates with=
+ various Git servers and watches for changes=2C running jobs distributed a=
+cross a cluster of workers.
+
+https://github.com/square/kochiku
+
+
+
+Cloud-based=2C serverless operations allow you to build at the speed of De=
+vOps. Start taking advantage of serverless operations and create a reliabl=
+e culture of continuous integration=2C continuous deployment=2C and proact=
+ive incident management:
+
+http://try.victorops.com/DevOpsWeekly/Going-Serverless
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

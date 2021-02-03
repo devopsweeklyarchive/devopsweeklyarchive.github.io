@@ -1,0 +1,140 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#435?=
+Date: Sun, 28 Apr 2019 11:06:37 +0000
+
+DEVOPS WEEKLY
+ISSUE #435 - 28th April 2019
+
+A mix of topics this week=2C resilience engineering=2C benchmarking servic=
+e mesh infrastructure=2C some thoughts on web assembly and serverless plat=
+forms.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Continuous intelligence in DevOps can lead to efficient release cycles and=
+ more reliable software delivery. See how continuous intelligence and impr=
+oved collaboration allows DevOps teams to proactively address concerns and=
+ build resilient services faster.
+
+http://try.victorops.com/devopsweekly/why-devops-matters-guide
+
+
+News
+=3D=3D=3D=3D
+
+An introduction to Web Assembly. Where it came from=2C a little bit about=
+ how it works=2C and some speculation about where things might go next.
+
+https://cybernetist.com/2019/04/25/wasm-universal-application-runtime/
+
+
+A look at the new Google Cloud Run service=2C how it varies from AWS Lambd=
+a and some more conversation about what FaaS and serverless is.
+
+https://read.acloud.guru/the-good-and-the-bad-of-google-cloud-run-34455e67=
+3ef5
+
+
+The Accelerate Devops Survey is open for 2019 with questions on deployment=
+ toolchains=2C cloud=2C disaster recovery=2C how we work=2C and more.
+
+https://cloud.google.com/blog/products/devops-sre/make-your-voice-heard-ta=
+ke-the-2019-accelerate-state-of-devops-survey
+
+
+One of the advantages of adopting API gateways is moving release orchestra=
+tion into software. This post explores using the Ambassador gateway to imp=
+lement a number of different canary release patterns.
+
+https://blog.getambassador.io/canary-release-patterns-for-apis-application=
+s-and-services-with-ambassador-51174b3fab4e
+
+
+A post on benchmarking service mesh tools=2C including Istio and Linkerd=
+=2C mainly focused on the (large) CPU overhead incurred by Istio at presen=
+t.
+
+https://medium.com/@michael_87395/benchmarking-istio-linkerd-cpu-c36287e32=
+781
+
+
+A useful set of notes on resilience engineering with lots of links to pape=
+rs=2C blog posts and an introduction to the topic.
+
+https://github.com/lorin/resilience-engineering
+
+
+A post on the benefits of using Docker=2C in particular for building devel=
+opment environments and deploying to different environments.
+
+https://semaphoreci.com/blog/docker-benefits
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The O'Reilly Velocity Conference returns to San Jose=2C June 10=E2=80=9313=
+=2E Velocity is the best place on the planet for web ops and systems enginee=
+ring professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on DevOps=2C systems eng=
+ineering=2C performance=2C and more=2C there's something for everyone. Pas=
+ses start at $796 when you use the code DEVW20 (applies to Gold=2C Silver=
+=2C and Bronze passes). Limited offer expires May 4. Register today!
+
+https://oreil.ly/2Uf3u63
+
+
+Your path to production ready Kubernetes
+This workshop is for DevOps engineers=2C Kubernetes cluster operators=2C a=
+nd admins in the UK! Join our hands-on=2C in-person workshop at CodeNode o=
+n May 8. We'll walk you through developing=2C building=2C and operating Ku=
+bernetes cluster the GitOps way.
+
+https://www.eventbrite.com/e/workshop-your-path-to-production-ready-kubern=
+etes-tickets-59200887448
+
+
+Devops Heroes is an event in Parma=2C Italy on the 20th of October. Topics=
+ include continuous delivery=2C microservices and writing high quality bas=
+h code!
+
+http://www.devops-heroes.net/
+
+
+Tools
+=3D=3D=3D=3D
+
+K3OS is a new operating system which integrates a minimal Linux distro wit=
+h Kubernetes. All management is done via the Kubernetes APIs which is inte=
+resting.
+
+https://rancher.com/blog/2019/announcing-k3os-kubernetes-operating-system/
+https://github.com/rancher/k3os
+
+
+Kiali provides observability of services within Istio=2C showing a useful=
+ visualisation of the service topology and individual service metrics.
+
+https://www.kiali.io/
+https://github.com/kiali
+NEMU is a new hypervisor designed for cloud workloads=2C it=E2=80=99s base=
+d on QEMU but with a much narrower focus and optimised for modern hardware=
+=2E
+
+https://github.com/intel/nemu
+
+
+
+Continuous intelligence in DevOps can lead to efficient release cycles and=
+ more reliable software delivery. See how continuous intelligence and impr=
+oved collaboration allows DevOps teams to proactively address concerns and=
+ build resilient services faster.
+
+http://try.victorops.com/devopsweekly/why-devops-matters-guide
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

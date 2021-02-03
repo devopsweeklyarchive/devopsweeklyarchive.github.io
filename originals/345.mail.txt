@@ -1,0 +1,173 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#345?=
+Date: Sun, 6 Aug 2017 12:12:05 +0000
+
+DEVOPS WEEKLY
+ISSUE #345 - 6th August 2017
+
+Several people at the moment are writing great posts codifying the process=
+ and techniques that have emerged over the past several years. This week w=
+e have great posts on the service mesh pattern and on SRE=2C as well as th=
+e usual run of other interesting thoughts on the role of architects=2C QA=
+ and posts on serverless=2C and ops transparency.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Being on-call sucks - but is it getting better? See what 800+ professional=
+s have to say about being on-call it in VictorOps=E2=80=99 annual =E2=80=
+=9CState of On-Call=E2=80=9D report.
+
+http://try.victorops.com/StateofOnCall/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Are you wasting your investment in DevOps?
+
+Join our webinar=2C =E2=80=9CBreaking DevOps Silos to Deliver Great User E=
+xperiences=E2=80=9D=2C this Thursday=2C to learn how individual business u=
+nits are embracing DevOps to optimize specific digital touchpoints to deli=
+ver better user experiences=2C reduce costs and improve operational effici=
+ency. You=E2=80=99ll gain best practices for ensuring DevOps is optimized=
+ for business success.
+
+http://ow.ly/P2GA30dOSZv
+
+
+News
+=3D=3D=3D=3D
+
+An excellent detailed post on the service mesh pattern=2C including the ev=
+olution of networking to this point. Illustrated with some excellent diagr=
+ams.
+
+http://philcalcado.com/2017/08/03/pattern_service_mesh.html
+
+
+An interesting look at how SRE works at Google=2C with lots of real-world=
+ details about managing headcount=2C how and when SRE might get involved i=
+n a service and more.
+
+https://medium.com/@rakyll/the-sre-model-6e19376ef986
+
+
+A presentation on evolving a continuous delivery system for Kubernetes=2C=
+ from an initial manual deployment process via integration with source con=
+trol and CI systems to a more advanced release management process.
+
+https://www.slideshare.net/lukemarsden/continuous-delivery-the-hard-way-wi=
+th-kubernetes-78507782
+
+
+An interesting approach to malware detection=2C packaged as a serverless a=
+pplication. It makes an interesting and nicely documented example of a rea=
+l-world serverless application too.
+
+https://medium.com/airbnb-engineering/binaryalert-real-time-serverless-mal=
+ware-detection-ca44370c1b90
+
+
+A software architect's view of embracing devops practices and some some id=
+eas for what it means to be a cloud native architect.
+
+https://medium.com/@gregsimons84_87567/the-cloud-native-architect-e86124f1=
+30cb
+
+
+A look at using the Serf gossip protocol to issue commands to run Puppet a=
+cross your infrastructure.
+
+http://www.admintome.com/blog/orchestrating-puppet-with-serf/
+
+
+An interesting comparison between the unix programming model where everyth=
+ing is a file=2C to the serverless programming model where everything is a=
+n HTTP interface.
+
+https://serverless.zone/everything-is-an-https-interface-ead2e888b31
+
+
+A post about the move towards increased transparency in operations teams=
+=2C and some tips for publishing root cause analyses.
+
+https://medium.com/synqfm-ops/building-mops-modern-ops-process-transparent=
+-status-and-rcas-72b716964bb8
+
+
+A post on the role of QA in organisations adopting devops=2C and some of t=
+he types of work QA folks can do when supporting infrastructure work.
+
+http://rea.tech/lean-qa-aka-qa-ops/
+
+
+A detailed walkthrough of using Linuxkit to build AMIs for running on AWS.=
+ A walkthrough of all the commands needed with handy screenshots.
+
+http://collabnix.com/running-linuxkitos-on-amazon-web-service-platformaws/
+
+
+An interesting trick for mounting an executable into a container in Kubern=
+etes using a configmap with executable permissions.
+
+http://blog.phymata.com/2017/07/29/inject-an-executable-script-into-a-cont=
+ainer-in-kubernetes/
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Intro to CNI=2C the Container Network Interface
+August 24=2C Online
+https://www.cncf.io/event/webinar-introtocni/
+
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists in Austin for a broad range of technical sessions on=
+ the cloud native ecosystem. We sold out in Berlin and are excited to see=
+ thousands of you from the community join us=2C this time in Austin!
+
+https://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-north=
+-america
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Kansas City is coming up on the 21st and 22nd of September. The=
+ typical mix of open spaces=2C ignite talks and presentations.
+
+https://www.devopsdays.org/events/2017-kansascity/welcome/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Supercronic nicely solves the problem of running cron jobs in containers=
+=2C providing a cron implementation which happily takes environment variab=
+les and outputs straight to stdout and stderr amongst other features.
+
+https://github.com/aptible/supercronic
+
+
+Atlantis is a workflow tool for teams working with Terraform. It provides=
+ some nice features to prevent common mult-users issues and integrates wit=
+h GitHub pull requests.
+
+https://github.com/hootsuite/atlantis
+
+
+
+Being on-call sucks - but is it getting better? See what 800+ professional=
+s have to say about being on-call it in VictorOps=E2=80=99 annual =E2=80=
+=9CState of On-Call=E2=80=9D report.
+
+http://try.victorops.com/StateofOnCall/DevOpsWeekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

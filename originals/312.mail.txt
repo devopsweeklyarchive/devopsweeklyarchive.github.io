@@ -1,0 +1,152 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#312?=
+Date: Sun, 18 Dec 2016 11:44:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #312 - 18th December 2016
+
+We=E2=80=99re nearly to the end of 2016=2C which means at least a few peop=
+le will be thinking back over the year=2C and about what 2017 will bring f=
+or the devops community. If you write=2C or come across=2C any good year-i=
+n-review posts do drop me a line and I=E2=80=99ll include the best ones I=
+ find.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The "2016/17 State of On-Call" report from VictorOps is now available to d=
+ownload. Learn what 800+ respondents have to say about life on-call=2C and=
+ steps they're taking to make it better. Get your free copy here:
+
+https://victorops.com/state-of-on-call-2016/
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Practical Tips to Start Your DevOps Journey
+
+Join Andreas Grabner=2C Chief DevOps Activist at Dynatrace on January 12th=
+ at 1:00 PM EST=2C to learn practical tips that all IT groups from Dev to=
+ Ops can use to start their DevOps journey quickly. With experience from h=
+undreds of DevOps deployments=2C Andi will provide insights it would take=
+ your team months or years to learn firsthand.
+
+http://ow.ly/yJpv306Zlyy
+
+
+News
+=3D=3D=3D=3D
+
+Support is an important part of the majority of IT organisations. This pos=
+t argues that the typical structure in IT support teams is an impediment t=
+o achieving some of the successes that devops promises=2C and suggests swa=
+rming as an alternatives method.
+
+https://medium.com/@JonHall_/itsm-devops-and-why-the-three-tier-structure-=
+must-be-replaced-with-swarming-91e76ba22304#.r606rx2ce
+
+
+A useful post on using a deployment pipeline to manage the code that descr=
+ibes your infrastructure environment=2C as well as your application code.
+
+https://medium.com/@kief/https-medium-com-kief-using-pipelines-to-manage-e=
+nvironments-
+with-infrastructure-as-code-b37285a1cbf5#.ani23xa13
+
+
+A nice real-world example of integrating AWS lambda and AWS codebuild to c=
+reate a serverless workflow for backing up Route53 DNS records.
+
+https://dashsoft.dk/da/blog/Route53_Lambda_Backups/
+https://github.com/dashsoftaps/lambda-roadworker
+
+
+Docker annoucned containerd this week=2C along with an accompanying open g=
+overnance model. This post explains why that=E2=80=99s important to the wi=
+der container community.
+
+https://integratedcode.us/2016/12/14/the-new-containerd-an-open-governance=
+-driven-embeddable-container-runtime/
+
+
+A good reminder that just having an SSH jump server isn=E2=80=99t enought=
+=2C ultimately it opens up new risks and well as helping to address others=
+=2E
+
+https://donjones.com/2016/12/15/you-need-to-rethink-that-jump-server/
+
+
+Monitoring systems often use statistical methods to display information=2C=
+ and lots of people will be familiar with percentiles in this context. But=
+ do you understand how they work? And when and where they are useful?
+
+https://www.vividcortex.com/blog/why-percentiles-dont-work-the-way-you-thi=
+nk
+
+
+We probably all use various package managers on a regular basis=2C for any=
+one who has considered how these work at a low level this paper=2C on the=
+ NP-completeness of the dependency problem=2C is an interesting read.
+
+https://research.swtch.com/version-sat
+
+
+There are different viewpoints on why containers are rapidly becoming the=
+ unit of software. This post looks specifically at packaging=2C effcientcy=
+ and security as the three main drivers of the change.
+
+https://blog.heptio.com/cloud-native-part-4-79dc3875e03c#.4nfh9dvrh
+
+
+Operations is a large discipline=2C with a lot of tribal knowledge and har=
+d-earned wisdom. If you=E2=80=99re coming from a development background kn=
+owing where to start can be tricky.  Operations For Developers aims to sol=
+ve that problem=2C with content written for developers around common ops t=
+opics.
+
+http://some.ops4devs.info/
+
+
+The version of systemd in Centos7 is nearly 2 years old=2C which makes sen=
+se for PID1 in many cases but given the rapid development of systemd it mi=
+ght be useful to run something more recent. This post explains how.
+
+https://maciej.lasyk.info/2016/Dec/16/systemd-231-latest-in-centos-7-thx-t=
+o-facebook/
+
+
+Special offer
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Terraform has featured regularly in this newsletter since it=E2=80=99s rel=
+ease=2C and the Terraform Book is an excellent introduction for beginners=
+ with enough solid material for old hands. The author has kindly provided=
+ a discount code for newsletter readers which will see 20% of the price of=
+ any of the bundles. Just use DEVOPSWEEKLYTF at checkout.
+
+https://terraformbook.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A lot of information is stored in a github repository as it=E2=80=99s used=
+=2C and the git CLI tools provide one interface to that information. GitQL=
+ provides a more SQL like read-only view=2C handy for repository anaylsis.
+
+https://github.com/cloudson/gitql
+
+
+
+The "2016/17 State of On-Call" report from VictorOps is now available to d=
+ownload. Learn what 800+ respondents have to say about life on-call=2C and=
+ steps they're taking to make it better. Get your free copy here:
+
+https://victorops.com/state-of-on-call-2016/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,110 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#502?=
+Date: Sun,  9 Aug 2020 10:04:19 +0000
+
+DEVOPS WEEKLY
+ISSUE #502 - 9th August 2020
+
+Lots of interesting tools this week=2C include a new container runtime and=
+ a new Envoy-based service mesh. Also posts covering anti-patterns for dig=
+ital transformation=2C a recent public container registry incident review=
+ and information dashboard design.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Kubernetes + Namespaces + Terraform =3D a powerful combo for managing and=
+ scaling lots of environments. Omry dives deep on how to set it all up and=
+ make your life easier.
+
+https://www.env0.com/l/devops-kubernetes-namespaces
+
+
+News
+=3D=3D=3D=3D
+
+A list of anti-patterns for transformation projects in large organisations=
+=2E Good advice on choosing technology=2C technical management=2C roadmaps a=
+nd more.
+
+https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/=
+ten-antipatterns-that-are-derailing-technology-transformations
+
+
+A detailed incident review for the recent Quay container registry outage.=
+ Reading these sorts of reviews can help everyone learn from incidents=2C=
+ this one related to a storm of database connections.
+
+https://www.openshift.com/blog/about-the-quay.io-outage-post-mortem
+
+
+A great post on dashboard design=2C with lots of reasoning=2C hints=2C tip=
+s and examples.
+
+https://aws.amazon.com/builders-library/building-dashboards-for-operationa=
+l-visibility/
+
+
+A look at several tools that are useful to validating and testing Kubernet=
+es configuration files. Useful comparison table and examples of each of th=
+e different tools.
+
+https://learnk8s.io/validating-kubernetes-yaml
+
+
+A good discussion of all things Service Mesh and the SMI specification.
+
+https://www.arresteddevops.com/service-mesh/
+
+
+A post on using Conftest and Regula to help write secure Terraform code an=
+d test as part of a CI process.
+
+https://dev.to/prince_of_pasta/securing-your-terraform-pipelines-with-conf=
+test-regula-and-opa-4hkh
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Open Service Mesh is a new lightweight=2C extensible=2C service mesh for d=
+ynamic microservice environments. It provides out-of-the-box observability=
+ features and uses SMI for configuration.
+
+https://openservicemesh.io/
+https://github.com/openservicemesh/osm
+
+
+Sysbox is a new container runtime that makes it easier to run low-level so=
+ftware=2C like Systemd=2C Docker=2C and Kubernetes=2C in containers. You c=
+an run it with Docker too due to the pluggable runtimes feature.
+
+https://github.com/nestybox/sysbox
+
+
+We=E2=80=99re starting to see application frameworks and developer tools p=
+rovide high-level abstractions for running on platforms like Kubernetes. T=
+ye is an interesting .NET tool that eases running .NET applications on clo=
+ud native platforms.
+
+https://github.com/dotnet/tye
+
+
+Turandot allows for using TOSCA with Kubernetes. TOSCA provides a high-lev=
+el service description aimed at portability and interoperability between u=
+nderlying infrastructure.
+
+https://turandot.puccini.cloud/
+
+
+Copper is a configuration file validator for Kubernetes. It supports writi=
+ng bespoke tests using a built-in Javascript DSL.
+
+https://github.com/cloud66-oss/copper
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

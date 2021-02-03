@@ -1,0 +1,193 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#273?=
+Date: Sun, 20 Mar 2016 12:41:50 +0000
+
+DEVOPS WEEKLY
+ISSUE #273 - 20th March 2016
+
+One of the interesting things for me over the last 5+ years of observing t=
+he devops community is their are always more related groups getting involv=
+ed. The first link this week is a good example of this=2C a list of posts=
+ all about how devops practices and principles are changing the role of th=
+e traditional IT service desk.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] The Art of DevOps
+
+Inspired by the famous 6th century Chinese manuscript: The Art of War=2C t=
+his eBook discusses DevOps in the form of a mission to continuously delive=
+r assets to the operational battlegrounds safely=2C securely=2C and quickl=
+y.
+
+http://ow.ly/U3Jlm
+
+
+News
+=3D=3D=3D=3D
+
+Lots of large and medium sized organisations will operate a service desk=
+=2C but I=E2=80=99ve not read a lot about the impact or influences of devo=
+ps on them. This post has 7 interesting articles on just that topic.
+
+http://avocetrecruiting.com/2016/02/18/essential-devopsservice-desk-bedtim=
+e-reading/
+
+
+An insightful post on the evolution (or needed evolution) of a security sy=
+stems development lifecycle=2C touching on many devops practices.
+
+https://labs.signalsciences.com/the-rehabilitated-security-sdlc-cba239c696=
+b2#.sdfu6hct1
+
+
+Building secure software and systems is increasingly of interest=2C and th=
+is set of design principles is a great starting point. It=E2=80=99s split=
+ into three main categories: Making services hard to compromise=2C Reducin=
+g the impact of a compromise and Making compromises easy to detect.
+
+https://www.cesg.gov.uk/guidance/security-design-principles-digital-servic=
+es-0
+
+
+tcpdump is pretty amazing. This post shows why=2C and nicely starts with a=
+ useful example of debugging slow HTTP requests.
+
+http://jvns.ca/blog/2016/03/16/tcpdump-is-amazing/
+
+
+Once you start looking at containers you=E2=80=99re forced to ask the ques=
+tion=2C how should I break up my application? What runs in what container?=
+ This post contains some recommendations and common reasons for making the=
+ call.
+
+http://rhelblog.redhat.com/2016/03/16/container-tidbits-when-should-i-brea=
+k-my-application-into-multiple-containers/
+
+
+Handy tips for things to do when creating a new AWS account. Mainly focuse=
+d on user account management and enabling various security features.
+
+https://medium.com/@rafgarcia/four-things-to-do-as-soon-as-you-sign-up-for=
+-aws-5c095097679f#.raa7mmupi
+
+
+A survey looking at an area of containers that=E2=80=99s arguably less wel=
+l understood and less mature than some others=2C storage. The results of t=
+he survey should be posted later=2C so look out for a link to that in a fu=
+ture issue.
+
+https://www.surveymonkey.com/r/StorageOS_Persistent_Storage_Survey
+
+
+A neat trick for building makefiles with per-task documentation available=
+ from a standard help command.
+
+http://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
+
+
+A nice detailed overview of the state of the main cloud vendors in 2016. S=
+ome ideas on where Amazon=2C Google and Microsoft might be going.
+
+https://medium.com/simone-brunozzi/the-cloud-wars-of-2016-3f87e0a03d18#.bx=
+sta48v1
+
+
+I always like reading counter arguments to things=2C including to Devops.=
+ I think the following conflates some particular practices with the higher=
+-level definition of devops as a cultural movement. But it=E2=80=99s inter=
+esting nonetheless.
+
+http://blog.automic.com/the-devops-emperor-has-no-clothes-when-devops-is-d=
+efunct
+
+
+Jobs
+=3D=3D=3D=3D
+
+We.Are.Expensify.com - We=E2=80=99re on the hunt for one bright soul to jo=
+in our infrastructure team to help battle expense reports that suck. We gu=
+arantee you fun=2C an amazing opportunity to learn and teach=2C and the si=
+ren's call of distant riches. With a healthy mix of cloud and owned racks=
+=2C you=E2=80=99d work hand-in-hand in our engineering org on a profitable=
+=2C well-loved product with a focus on improving scaling and security. Joi=
+n the adventure:
+
+http://we.are.expensify.com/jobs
+
+
+Are you a Puppet master? Hired gives top DevOps Engineers more power in th=
+eir job search. Join today!
+
+http://hrd.cm/23r2ok5
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays is coming to Oslo=2C Norway=2C on the 5th and 6th of September.=
+ The organisers are looking for both sponsors and speakers. The CFP is ope=
+n now with registration opening soon.
+
+http://open.bekk.no/devopsdays-is-coming-to-oslo
+http://www.devopsdays.org/events/2016-oslo/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Libretto is a new Golang library to create Virtual Machines (VMs) on any c=
+loud and Virtual Machine hosting platforms such as AWS=2C Azure=2C OpenSta=
+ck=2C vSphere=2C or VirtualBox.
+
+https://www.apcera.com/blog/using-golang-virtual-machine-management
+https://github.com/apcera/libretto
+
+
+Dalmatiner is a new metrics database that is fast=2C low overhead=2C and e=
+asy to query and manage. It uses ZFS under the hood for checksums=2C compr=
+essions and caching.
+
+https://dalmatiner.io/
+https://github.com/dalmatinerdb/dalmatinerdb
+
+
+Kube2Consul is a simple bridge between Kubernetes and Consul. It will watc=
+h the kubernetes API for changes in Services and then register those Servi=
+ces in Consul.
+
+https://github.com/Beldur/kube2consul
+
+
+Blaz is a tool for bundling up you scripts into docker containers. It prov=
+ides a simple Python based API=2C and allows for nested execution in separ=
+ate containers too.
+
+https://github.com/amiorin/blaz
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

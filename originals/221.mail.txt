@@ -1,0 +1,160 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#221?=
+Date: Sun, 29 Mar 2015 11:10:36 +0000
+
+DEVOPS WEEKLY
+ISSUE #221 - 29th March 2015
+
+I was lucky enough to attend the latest Scale Summit event in London last=
+ week and had lots of good conversations about all things infrastructure.=
+ Thanks to everyone who went along and made it such a good event. If anyon=
+e writes up notes from any of the sessions please do sent me the links.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored book
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] 3 expert tips to enable a DevOps transformation & more
+
+Companies utilizing DevOps practices are 2.5x more likely to exceed profit=
+ability=2C market share=2C and productivity goals. Get expert tips to enab=
+le a high performance DevOps transformation from guru Gene Kim=2C co-autho=
+r of The Phoenix Project=2C and other experts.
+
+http://cpwr.it/KigTf
+
+
+News
+=3D=3D=3D=3D
+
+Lattice is a container management platform combining web load-balancing=2C=
+ a cluster scheduler=2C log aggregation and health management. It=E2=80=99=
+s build on some of the new Cloud Foundry components including the Diego ru=
+ntime.
+
+http://lattice.cf/
+https://github.com/cloudfoundry-incubator/lattice
+
+
+The amount of freely available infrastructure services that are useful for=
+ personal projects or bootstrapping is pretty impressive. Here=E2=80=99s a=
+ crowdsourced list of useful services=2C just fork the repo to suggest mor=
+e.
+
+https://www.devco.net/archives/2015/03/19/collecting-links-to-free-service=
+s-for-developers.php
+https://github.com/ripienaar/free-for-dev
+
+
+An interesting slide deck about the rise of the search engine=2C and in pa=
+rticular Lucene and Solr. Some interesting points about search engines as=
+ systems of record (eventually) and about testing search at scale.
+
+http://www.slideshare.net/markrmiller1/dev-bigdatasearchengine
+
+
+Monitoring is definitely a hot topic around running containers at the mome=
+nt=2C and this post describing a monitoring/integration testing approach u=
+sing a small amount of python=2C datadog and pagerduty is interesting.
+
+https://mesosphere.com/2015/03/26/integration-testing-with-mesos-chronos-d=
+ocker/
+
+
+An argument that you=E2=80=99re probably not going to adopt microservices=
+=2C at least in the way you think. Comparisons with other trends (SOA=2C E=
+SB=2C etc.) and a realisation that most organisations probably don=E2=80=
+=99t have all the prerequisites in terms of people and structure.
+
+http://blog.christianposta.com/microservices/youre-not-going-to-do-microse=
+rvices/
+
+
+Some notes from a few of the sessions at last weeks Scale Summit open spac=
+es event in London. Conversations on Docker=2C security=2C team organising=
+ and service discovery.
+
+https://github.com/bazbremner/scalesummit-2015-notes
+
+
+An interesting tale of debugging a problem along with a clear introduction=
+ to the concept of transparent huge pages and alternative memory allocator=
+s.
+
+https://shk.io/2015/03/22/transparent-huge-pages/
+
+
+A good post demonstrating how to test drive the configuration of an infras=
+tructure component=2C in this case a web server. I particular like the poi=
+nt about dependency injection and viewing the infrastructure under test as=
+ just a component in your wider software system.
+
+https://gdstechnology.blog.gov.uk/2015/03/25/test-driving-web-server-confi=
+guration/
+
+
+One of the interesting use cases for unikernel projects like MirageOS is t=
+o be able to boot an entire kernel in request. Here=E2=80=99s an example o=
+f doing just that for a DNS server.
+
+http://www.skjegstad.com/blog/2015/03/25/mirageos-vm-per-url-experiment/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Wandera has pioneered the Secure Mobile Gateway to help businesses tackle=
+ the next generation of enterprise mobility challenges. We are looking to=
+ hire a DevOps engineer to join our growing team of technologists and to h=
+elp build and run our rapidly growing cloud services platform.  If you are=
+ mad about all things DevOps and have experience of Python and Ruby=2C con=
+fig management and cloud orchestration=2C rapid deployment=2C automation=
+=2C cloud services provided by AWS=2C Rackspace and Softlayer=2C SQL/NoSQL=
+ databases=2C monitoring and networks then please apply via the below link=
+=2E
+
+https://www.wandera.com/careers/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Graphite beacon is a very simple alerting system for Graphite metrics. Jus=
+t install the app and describe your alerts in JSON. Can alert via SMTP=2C=
+ Hipchat=2C Slack or HTTP.
+
+https://github.com/klen/graphite-beacon
+
+
+A nifty little tool=2C httpdiff allows you to diff two HTTP requests and s=
+how any differences in the headers. Useful for exploration or building tes=
+ting tools on top of.
+
+https://github.com/jgrahamc/httpdiff
+
+
+Bazel is a new build tool from Google=2C it=E2=80=99s able to build a wide=
+ range of software quickly and is particularly suited to organisation usin=
+g a single very large monolithic repository.
+
+http://bazel.io/
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

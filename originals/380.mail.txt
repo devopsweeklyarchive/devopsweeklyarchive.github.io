@@ -1,0 +1,139 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#380?=
+Date: Sun,  8 Apr 2018 11:06:15 +0000
+
+DEVOPS WEEKLY
+ISSUE #380 - 8th April 2018
+
+Posts on several core practices of continuous delivery this week=2C from n=
+ot branching to feature flags to how to manage database migrations. Also s=
+everal posts on the growth of Kubernetes as a target platform for developm=
+ent tooling.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+DevOps teams need real-time monitoring=2C alerting=2C and communication to=
+ols that work well together. VictorOps integrates with 100+ tools to impro=
+ve system observability and team collaboration to optimize incident respon=
+se=2C all in one place.
+
+http://try.victorops.com/DevOpsWeekly/integration-partners
+
+
+News
+=3D=3D=3D=3D
+
+As part of the Kubernetes Application Definitions working group=2C and the=
+ Apps Special Interest Group=2C we=E2=80=99re running a survey to find out=
+ how people are deploying applications to Kubernetes. If you=E2=80=99re al=
+ready using Kubernetes please take 10 minutes to help us understand the cu=
+rrent landscape of tools and practices.
+
+https://goo.gl/Vzaua3
+
+
+An excellent set of details notes from SRECon=2C contains both opinions of=
+ the various talks as well as all the links to slides or material covered=
+ in the presentations.
+
+https://noidea.dog/blog/srecon-americas-2018-day-1
+https://noidea.dog/blog/srecon-americas-2018-day-2
+https://noidea.dog/blog/srecon-americas-2018-day-3
+
+
+A well argued take on why branching makes for a poor development workflow=
+ when adopting continuous delivery practices.
+
+http://www.davefarley.net/?p=3D247
+
+
+As Kubernetes becomes more popular for running applications the developmen=
+t tooling is starting to get better too. This post explores a few of the c=
+urrent tools for building apps for Kubernetes.
+
+https://blog.hasura.io/draft-vs-gitkube-vs-helm-vs-ksonnet-vs-metaparticle=
+-vs-skaffold-f5aa9561f948
+
+
+Feature flags are a powerful tool but can become unwieldy in practice. Thi=
+s post explores a few ways of managing flag debt; from integrating with is=
+sue trackers=2C expiring flags and limiting the number of flags.
+
+https://www.split.io/blog/managing-feature-flag-debt-split/
+
+
+A presentation on scaling Prometheus=2C in particular looking at Thanos=2C=
+ a system for providing a global and durable approach to distributed Prome=
+theus clusters.
+
+https://www.slideshare.net/BartomiejPotka/thanos-global-durable-prometheus=
+-monitoring
+
+
+If you=E2=80=99re managing PostgreSQL you=E2=80=99re probably familiar wit=
+h the process of vacuuming. This post explores how monitoring a few key Po=
+stgreSQL metrics and events will help you ensure that vacuum processes are=
+ proceeding as expected.
+
+https://www.datadoghq.com/blog/postgresql-vacuum-monitoring/
+
+
+Continuous deployment of stateless applications is much easier to manage t=
+hat those with data. Part of the challenge involves managing schema change=
+s in an automatic fashion. This post explores why database deploys should=
+ be decoupled from application changes.
+
+http://www.philandstuff.com/2018/04/04/keep-database-deploys-separate.html
+
+
+A post on why trying to identify a single root cause for a failure in a co=
+mplex system is limiting to trying to to prevent future failures.
+
+http://willgallego.com/2018/04/02/no-seriously-root-cause-is-a-fallacy/
+
+
+An interesting approach to implementing automated rollback for Helm deploy=
+ments on Kubernetes=2C using metrics from ElasticSearch and Prometheus.
+
+https://container-solutions.com/automated-rollback-helm-releases-based-log=
+s-metrics/
+
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Textql is a handy utility for executing SQL queries against structured tex=
+t like CSV or TSV.
+
+https://github.com/dinedal/textql
+
+
+Lots of people using AWS end up with multiple AWS accounts. CIDR House Rul=
+es is an application for aggregating and centralising network information=
+ like elastic IPs=2C load balancers and VPC configuration.
+
+https://github.com/trulia/cidr-house-rules
+https://www.trulia.com/blog/tech/trulia-open-source/
+
+
+Gitkube is a tool for building and deploying docker images on Kubernetes u=
+sing a Heroku-like git push workflow.
+
+https://gitkube.sh/
+
+
+DevOps teams need real-time monitoring=2C alerting=2C and communication to=
+ols that work well together. VictorOps integrates with 100+ tools to impro=
+ve system observability and team collaboration to optimize incident respon=
+se=2C all in one place.
+
+http://try.victorops.com/DevOpsWeekly/integration-partners
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

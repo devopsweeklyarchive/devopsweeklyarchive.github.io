@@ -1,0 +1,124 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#366?=
+Date: Sun, 31 Dec 2017 12:25:24 +0000
+
+DEVOPS WEEKLY
+ISSUE #366 - 31st December 2017
+
+A relatively short issue this week=2C butt for those still looking for mor=
+e to read I=E2=80=99d recommend catching up on all things sysadvent. https=
+://sysadvent.blogspot.co.uk/. Another great year of posts on open source l=
+icensing=2C choosing a database=2C building bastion hosts and more - thank=
+s to the organisers=2C authors and editors.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Incident readiness requires preparation and learning =E2=80=94 about incid=
+ents=2C systems=2C and your team. Enter Game Days. Learn more about how to=
+ build readiness using a game day.
+
+http://try.victorops.com/DevOpsWeekly/Readiness
+
+
+News
+=3D=3D=3D=3D
+
+A detailed essay on testing microservices applications=2C making a clear c=
+ase for both pre and post deployment testing and the relative strengths an=
+d weaknesses.
+
+https://medium.com/@copyconstruct/testing-microservices-the-sane-way-9bb31=
+d158c16
+
+
+A fantastic post explaining the state of networking=2C load balancing and=
+ proxying=2C with a focus on modern microservices architectures.
+
+https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-a=
+nd-proxying-a57f6ff80236
+
+
+A series of posts on building a distributed log=2C covering how to store t=
+he data efficiently and how to replicate data for availability. Interestin=
+g reading for anyone wanting to understand tools like Kafka.
+
+https://bravenewgeek.com/building-a-distributed-log-from-scratch-part-1-st=
+orage-mechanics/
+https://bravenewgeek.com/building-a-distributed-log-from-scratch-part-2-da=
+ta-replication/
+
+
+A quick look at testing terraform code=2C and why it=E2=80=99s currently m=
+issing an important step. Coming from the testing tools for Puppet and the=
+ similarities with Terraform I definitely agree.
+
+https://www.unixdaemon.net/tools/terraform-testing-thoughts/
+
+
+A handy rundown of various new database technologies released in 2017; fro=
+m graph databases as a service to timeseries data in PostgreSQL and hybrid=
+ SQL/NoSQL databases.
+
+https://medium.com/@peterc/a-look-at-ten-new-database-systems-released-in-=
+2017-94a3aa4c2aab
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar -  What=E2=80=99s New in Kubernetes 1.9
+January 9=2C Online
+
+Join members of the Kubernetes 1.9 release team to learn about the major f=
+eatures in this release including Windows and Docker support=2C storage=2C=
+ admission control=2C and the workloads API.
+
+https://goo.gl/Q7FPck
+
+
+Free Webinar -  Introducing Jaeger 1.0
+January 16=2C Online
+
+Learn about the features released in Jaeger 1.0=2C its architecture=2C dep=
+loyment options=2C integrations with other CNCF projects=2C and the roadma=
+p.
+
+https://goo.gl/AWfDaZ
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+TimescaleDB is an open-source time-series database optimized for fast inge=
+st and complex queries=2C interestingly built as a PostgreSQL extension.
+
+https://github.com/timescale/timescaledb/
+
+
+Fireworq is a lightweight=2C high-performance job queue system with an HTT=
+P-based API=2C web console and backed with a MySQL database.
+
+https://github.com/fireworq/fireworq
+
+
+Kubeflow is a new project which integrates several machine learning tools=
+ (currently Tensorflow and Jupyter) and runs them on top of Kubernetes usi=
+ng ksonnet.
+
+https://github.com/google/kubeflow
+http://blog.kubernetes.io/2017/12/introducing-kubeflow-composable.html
+
+
+Incident readiness requires preparation and learning =E2=80=94 about incid=
+ents=2C systems=2C and your team. Enter Game Days. Learn more about how to=
+ build readiness using a game day.
+
+http://try.victorops.com/DevOpsWeekly/Readiness
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

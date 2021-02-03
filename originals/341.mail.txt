@@ -1,0 +1,160 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#341?=
+Date: Sun, 9 Jul 2017 11:14:13 +0000
+
+DEVOPS WEEKLY
+ISSUE #341 - 9th July 2017
+
+Everything from architectural patterns to Serverless=2C via linux tracing=
+ tools=2C thoughts about the future of linux distributions=2C a great read=
+ing list for managers and executives interested in devops and some tips fo=
+r testing and rolling out low-level infrastructure changes.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+New eBook for DevOps pros: The Dev and Ops Guide to Incident Management of=
+fers 25+ pages of essential insight into building teams and improving your=
+ response to downtime.
+
+http://try.victorops.com/DevOpsWeekly/IM_eBook
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+DevOps: Cultural and Tooling Tips Around the World
+
+DevOps! One of the most abused terms in the software industry over the las=
+t few years. The term can mean something totally different=2C depending on=
+ your role=2C and your business. Join us for a 30-minute =E2=80=9Csecret s=
+auce=E2=80=9D session to hear customer learnings and best practices from D=
+evOps adopters around the world.
+
+http://ow.ly/qGbu30dc2yY
+
+
+News
+=3D=3D=3D=3D
+
+An excellent set of documented architectural design patterns for working w=
+ith microservices. This isn=E2=80=99t invention=2C but formalisation=2C wh=
+ich is just as important. Good stuff on ambassadors=2C api gateways and wo=
+rking with legacy systems.
+
+https://azure.microsoft.com/en-us/blog/design-patterns-for-microservices/
+
+
+A fantastic post delving into linux tracing systems. Explaining what they=
+ are=2C how the different pieces fit together and some practical tips on w=
+hy you might use different tools.
+
+https://jvns.ca/blog/2017/07/05/linux-tracing-systems/
+
+
+I attended the excellent JeffConf=2C all about Serverless compute=2C last=
+ week in London. That inspired some predictions for the future of serverle=
+ss platforms that are hopefully of interest to some folks.
+
+https://www.morethanseven.net/2017/06/26/predictions-for-the-direction-of-=
+serverless-platforms/
+
+
+An interesting argument for the coming irrelevance of operating system dis=
+tributions. Makes some good points and discusses some of the context for d=
+istros being quite so different.
+
+https://blog.flameeyes.eu/2017/06/distributions-becoming-irrelevant/
+
+
+A detailed look at a Kubernetes workflow in use for a good sized deploymen=
+t=2C including aspects for regulatory compliance. A useful focus on the wo=
+rkflow steps over the tools too.
+
+https://developer.atlassian.com/blog/2017/07/kubernetes-workflow/
+
+
+A look at the problems with managing configuration=2C including config fil=
+es and environment variables=2C the problem with version control=2C and th=
+e ever-expanding nature of configuration settings.
+
+https://blog.buildo.io/the-three-laws-of-config-dynamics-1e9724593aa9
+
+
+An look at testing infrastrastructure provisioning with terraform=2C looki=
+ng at emerging integration and unit testing approaches.
+
+https://www.contino.io/insights/top-3-terraform-testing-strategies-for-ult=
+ra-reliable-infrastructure-as-code
+
+
+A nice reminder of the changing role of the traditional systems administra=
+tor=2C but also some good points for developers that work on standards=2C=
+ security and dependability now lie further up the stack.
+
+http://blogs.forrester.com/robert_stroud/17-07-06-the_future_of_operations=
+_a_developer
+
+
+In many cases devops has seen bottom-up adoption=2C but at some point that=
+ means introducing the concepts to management. This list provides a curate=
+d set of reading=2C with an explanation of why each article or briefing is=
+ relevant.
+
+http://langerman.co.za/a-step-by-step-curated-reading-list-an-introduction=
+-to-new-ways-of-working-lean-agile-and-devops/
+
+
+An interesting look at the type of issues that can occur when rolling out=
+ infrastructure software that underpins everything else=2C and some discus=
+sion of new tooling to rollout changes over a period of time automatically=
+=2E
+
+https://labs.spotify.com/2017/06/22/improving-critical-infrastructure-roll=
+outs/
+
+
+Go is becoming increasingly popular for infrastructure tooling=2C so under=
+standing the Go toolchain is useful I think. This set of exercises and wor=
+kshop material is an excellent introduction.
+
+https://github.com/campoy/go-tooling-workshop
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon / CloudNativeCon Austin - Join leading Kubernetes and Cloud Native=
+ technologists in Austin for a full range of technology sessions on the cl=
+oud native ecosystem.
+
+We sold out in Berlin and are excited to see thousands of you from the com=
+munity in Austin! Call for papers and registration information linked.
+
+https://goo.gl/yKCHvh
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Smith is a command line utility for building microcontainers from rpm pack=
+ages or oci images. The resulting image only contains the process to be ru=
+n and its direct dependencies=2C is particular careful about file ownershi=
+p and permissions and can be run read-only.
+
+https://github.com/oracle/smith
+
+
+
+New eBook for DevOps pros: The Dev and Ops Guide to Incident Management of=
+fers 25+ pages of essential insight into building teams and improving your=
+ response to downtime.
+
+http://try.victorops.com/DevOpsWeekly/IM_eBook
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

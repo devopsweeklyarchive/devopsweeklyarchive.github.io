@@ -1,0 +1,123 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#488?=
+Date: Sun,  3 May 2020 10:59:37 +0000
+
+DEVOPS WEEKLY
+ISSUE #488 - 3rd May 2020
+
+Several architecture posts this week=2C along with posts looking at modern=
+ continuous deployment tools=2C shell scripting=2C complexity and more.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Our people and tools need to be connected now more than ever before. That=
+=E2=80=99s why VictorOps is offering free=2C 90-day extended Enterprise tr=
+ials for on-call incident response and alert management=2C up to 100 users=
+=2C to anyone who needs it:
+
+https://go.victorops.com/devopsweekly-extended-trials-for-incident-respons=
+e
+
+
+News
+=3D=3D=3D=3D
+
+A detailed summary of modern deployment tools=2C looking at Jenkins-X=2C F=
+lux and ArgoCD. A nice mix of facts and opinions.
+
+https://blog.container-solutions.com/fluxcd-argocd-or-jenkins-x-which-is-t=
+he-right-gitops-tool-for-you
+
+
+A well documented set or security architecture antipatterns=2C mainly focu=
+sed on the risks of management access.
+
+https://www.ncsc.gov.uk/whitepaper/security-architecture-anti-patterns
+
+
+A set of posts looking at Tekton=2C explaining what it is (a platform for=
+ building CD tools) and why it=E2=80=99s important.
+
+https://medium.com/relay-sh/whats-going-on-with-tekton-part-1-9c3e006d39fc
+https://medium.com/relay-sh/whats-going-on-with-tekton-part-2-ab39176c9c45
+
+
+Bash (or shell scripts in general) are still incredibly useful. This post=
+ points out a few common problems=2C and pointers for writing better bash=
+ scripts.
+
+https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-l=
+ittle-effort
+
+
+A comprehensive body of knowledge around modern digital and IT practices=
+=2C based on Agile=2C cloud-native=2C Lean=2C and DevOps principles.
+
+https://gitlab.com/theopengroup/dpbok-community-edition
+
+
+While it can be easy to think everyone already has automated deploying app=
+lications=2C it=E2=80=99s definitely not the case. This post contains a go=
+od list of benefits for those still making the business case.
+
+https://octopus.com/blog/the-five-big-benefits-of-automated-deployment
+
+
+A useful look at extracting binaries from container images without needing=
+ to pull the full image. Another example of the flexibility of the OCI spe=
+c.
+
+https://medium.com/@thomas.shaw78/extracting-a-single-artifact-from-a-dock=
+er-image-without-pulling-3fc038a6e57e
+
+
+A look at adding policy controls (using Open Policy Agent and Conftest) to=
+ Terraform deployments using Atlantis.
+
+https://marcyoung.us/post/atlantis-opa/
+
+
+Something that has a lot of bearing on operations is complexity=2C and I t=
+hink this post points to one issue with seemingly simple services being co=
+mplex to operate in aggregate.
+
+https://ferd.ca/complexity-has-to-live-somewhere.html
+
+
+Jobs
+=3D=3D=3D=3D
+
+King is looking for new members for the Infrastructure engineering team to=
+ help manage the streaming data platform and the MySQL based backend for i=
+ts games.
+Are you interested in helping games develop faster and scale to global pre=
+sence=2C take a look at our open roles.
+
+https://careers.king.com/jobs/job/14780-site-reliability-engineer-technolo=
+gy/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kubexit is a command supervisor for coordinated Kubernetes pod container t=
+ermination. The README has a nice set of use cases that explain where it=
+=E2=80=99s useful.
+
+https://github.com/karlkfi/kubexit
+
+
+Our people and tools need to be connected now more than ever before. That=
+=E2=80=99s why VictorOps is offering free=2C 90-day extended Enterprise tr=
+ials for on-call incident response and alert management=2C up to 100 users=
+=2C to anyone who needs it:
+
+https://go.victorops.com/devopsweekly-extended-trials-for-incident-respons=
+e
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

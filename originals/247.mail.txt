@@ -1,0 +1,189 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#247?=
+Date: Sun, 27 Sep 2015 12:31:21 +0000
+
+DEVOPS WEEKLY
+ISSUE #247 - 27th September 2015
+
+I attended the first WinOps conference this week=2C focused on Devops prac=
+tices in Windows environments. The interesting part was how much of the au=
+dience was new to everything Devops - it=E2=80=99s worth remembering that=
+ if you=E2=80=99re thinking about writing or talking about something and n=
+ot sure what to cover. We still need lots more good introductory material=
+ out there.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] The Art of DevOps
+
+Inspired by the famous 6th century Chinese manuscript: The Art of War=2C t=
+his eBook discusses DevOps in the form of a mission to continuously delive=
+r assets to the operational battlegrounds safely=2C securely=2C and quickl=
+y.
+
+http://ow.ly/SAQjT
+
+
+News
+=3D=3D=3D=3D
+
+VMware have been previewing a number of container based technologies recen=
+tly=2C and for those already running a VMware stack this overview is likel=
+y very useful.
+
+http://cloudarchitectmusings.com/2015/09/22/sorting-out-vmwares-container-=
+technologies/
+
+
+It=E2=80=99s often too easy for sensitive information to end up publicly a=
+ccessible on GitHub=2C whether that=E2=80=99s git tokens=2C SSH private ke=
+ys or AWS credentials. Gitrob is a tool aimed an internal security folk fo=
+r finding that information before it can be used against you.
+
+http://michenriksen.com/blog/gitrob-putting-the-open-source-in-osint/
+https://github.com/michenriksen/gitrob
+
+
+A nice description of the utility of the CoreOS toolbox=2C a pattern that=
+=E2=80=99s applicable to any minimal OS/container combination. The idea th=
+at for debugging you can bring your own tools with you only when needed.
+
+https://mlafeldt.github.io/blog/bring-your-tools-with-you/
+
+
+The Goat Farm is a relatively new podcast focused on Devops practices in l=
+arge enterprise organisations. 9 episodes in and it has some great intervi=
+ews with people from IBM=2C Standard Bank=2C Target and more. If you have=
+ stories to share get in touch with the presenters.
+
+http://goatcan.do/category/podcasts/
+
+
+One of the talks from Operability this week=2C on common problems with log=
+ging and how to fix them. Some good points about why it=E2=80=99s importan=
+t to log accurate and useful information too.
+
+http://www.slideshare.net/SkeltonThatcher/unbroken-logging-operabilityio-2=
+015-matthew-skelton
+
+
+Another talk from Operability=2C this one by me entitled operations withou=
+t the operating system. How does operations change as the OS becomes drast=
+ically simpler or disappears entirely?
+
+https://speakerdeck.com/garethr/operations-without-the-operating-system
+
+
+Confidentiality=2C integrity and availability is a common way of talking a=
+bout information security. This handy presentation maps those concepts to=
+ devops practices=2C likely a great way of building bridges between ops an=
+d security.
+
+https://speakerdeck.com/jamfish/securing-the-heart-of-automated-infrastruc=
+ture-automacon-version
+
+
+An impassioned plea to sell the business value of being able to deploy sof=
+tware early in a project. A good reminder that this isn=E2=80=99t a given=
+ everywhere.
+
+https://medium.com/@drunkcod/ops-and-business-value-25ef0e5c2a0a
+
+
+Recent versions of Linux have added improved low-level tracing and instrum=
+entation tools. This post shows some useful tools useful for performance o=
+ptimisation build on top of those capabilities.
+
+http://www.brendangregg.com/blog/2015-09-22/bcc-linux-4.3-tracing.html
+
+
+Some good points about the utility vs cost of separate DR or performance t=
+esting environments.
+
+http://techironic.com/post/129767406981/the-truth-behind-building-multiple=
+-environments-to
+
+
+Two notable conference in London this week=2C WinOps and Operability=2C bo=
+th attracted some interesting conversations and note taking. Worth reading=
+ if you couldn=E2=80=99t make them.
+
+https://skeltonthatcher.com/blog/operability-io-conference-2015-day-1/
+http://hannahfoxwell.net/2015/09/25/review-of-winops-2015/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Stelligent is searching for talented DevOps engineers to help bring Contin=
+uous Deployment automation in the AWS cloud to our growing customer base.=
+ If you are proficient with AWS=2C test frameworks=2C configuration manage=
+ment=2C build tools=2C and Git/SVN; but yearning to learn more=2C Stellige=
+nt is the place for you. Visit the link below for more details on availabl=
+e jobs and how to apply.
+
+http://www.stelligent.com/devopsweekly/
+
+
+Close.io is looking for a Lead DevOps / Infrastructure engineer. We're a *=
+profitable* fast-growing SaaS startup looking for great people to join our=
+ ~10 person team in Palo Alto or *remotely*. Come help us improve API perf=
+ormance=2C tune our databases=2C tighten up security=2C setup autoscaling=
+=2C make deployments faster and safer=2C scale our Elasticsearch/MySQL/Mon=
+goDB/Redis data stores=2C setup centralized logging=2C instrument our app=
+ with metric collection=2C set up better monitoring=2C etc.
+
+https://jobs.lever.co/close.io/38d0c4ac-c3eb-47e9-a49e-4611f96eef8d
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Muxy looks like a pretty comprehensive tool for testing network activity=
+=2C by introducing delays=2C bandwidth constraints or other issues. It wor=
+ks as a simple proxy with a configuration file to control the features.
+
+https://github.com/mefellows/muxy
+
+
+Traefik looks an interesting new reverse proxy with some modern capabiliti=
+es like integration with service management frameworks=2C hot reloading of=
+ configuration=2C exposing metrics over HTTP and an API for configuration.
+
+https://github.com/EmileVauge/traefik
+
+
+At this point the AWS interface is huge=2C so SAWS might be a good alterna=
+tive command line interface. In particular it provides command completion=
+ and shortcuts which should make things both quicker and more discoverable=
+=2E
+
+https://github.com/donnemartin/saws
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

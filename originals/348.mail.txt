@@ -1,0 +1,144 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#348?=
+Date: Sun, 27 Aug 2017 09:18:12 +0000
+
+DEVOPS WEEKLY
+ISSUE #348 - 27th August 2017
+
+Interesting post this week about why devops practices appear to be catchin=
+g on in the real world=2C along with academic research into post-incident=
+ reviews and a few solid technical posts too.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+More efficiently reach on-call teams and incident responders with a new wa=
+y to deploy Live Call Routing using Twilio Functions and VictorOps. Check=
+ it out:
+
+http://try.victorops.com/LiveCallRouting/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+AI-Powered DevOps: Injecting Speed & Quality Across Verizon=E2=80=99s Clou=
+d Pipelines
+
+With customer experience being a top priority=2C Verizon turned to an auto=
+mated delivery pipeline approach that leveraged cloud and container techno=
+logy. This enabled teams to deploy new features faster=2C directly into pr=
+oduction. But it also increased technical complexity. Learn how Verizon us=
+ed Artificial Intelligence (AI)-powered monitoring=2C and was able to tran=
+scend this problem=2C and today easily manages complex=2C web-scale DevOps=
+ in the cloud.
+
+http://ow.ly/I1k330elsWO
+
+
+News
+=3D=3D=3D=3D
+
+Interesting observation about why devops might be working in places where=
+ previous service management processes failed; it=E2=80=99s all about the=
+ focus on people.
+
+http://www.itskeptic.org/content/why-devops-transformations-succeed-where-=
+itsm-so-often-doesnt
+
+
+Excellent talk on the potential for firmware to make systems hard to debug=
+=2C especially those systems dealing with storing data.
+
+https://www.slideshare.net/bcantrill/zebras-all-the-way-down-the-engineeri=
+ng-challenges-of-the-data-path
+
+
+Post-incident reviews=2C or post-mortems=2C are an important practice for=
+ teams running systems in production. Taking this survey=2C part of an aca=
+demic research project=2C should help us as a community understand them be=
+tter.
+
+https://www.surveymonkey.com/r/devops-retros
+
+
+Naming is important=2C as it allows us to discuss and share ideas about sp=
+ecific concepts. This post looks to define observability=2C and how it dif=
+fers from monitoring. A useful distinction.
+
+https://honeycomb.io/blog/2017/08/observability-whats-in-a-name/
+
+
+Building serverless systems on Lambda often involves integrating with othe=
+r supporting services. This post contains a good introduction to SQS usage=
+ with Lambra for building async systems.
+
+https://cloudonaut.io/integrate-sqs-and-lambda-serverless-architecture-for=
+-asynchronous-workloads/
+
+
+A good roundup of some of the core aspects for devops=2C from culture=2C a=
+utomation=2C process and measurement.
+
+https://blog.xebialabs.com/2017/06/06/4-core-capabilities-devops/
+
+
+A good set of posts on has to manage configuration in Kubernetes with Conf=
+igMaps and Secrets.
+
+https://medium.com/google-cloud/kubernetes-configmaps-and-secrets-68d061f7=
+ab5b
+https://medium.com/google-cloud/kubernetes-configmaps-and-secrets-part-2-3=
+dc37111f0dc
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists in Austin for a broad range of technical sessions on=
+ the cloud native ecosystem. We sold out in Berlin and are excited to see=
+ thousands of you from the community join us=2C this time in Austin!
+
+http://goo.gl/wbdqve
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Learn about DevOps methods=2C practices and tools alongside 2k other open=
+ source developers and practitioners at Open Source Summit Europe=2C Oct.=
+ 23-26 in Prague. Featuring 200+ sessions and tutorials on DevOps=2C Linux=
+=2C cloud computing=2C containers and more=2C OSS EU (previously known as=
+ LinuxCon + ContainerCon + CloudOpen) includes the new Open Community Conf=
+erence and Diversity Empowerment Summit=2C and is co-located with Embedded=
+ Linux Conference=2C MesosCon=2C Kernel Summit and KVM Forum. Check out th=
+e just-announced session lineup=2C and register to save $150 through Septe=
+mber 18.
+
+https://goo.gl/NAKoH4
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Squash looks like an interesting idea to build a debugger for microservice=
+s. Currently it supports Kubernetes and VSCode. The rolling demo gives you=
+ an idea of how it works.
+
+https://github.com/solo-io/squash
+
+
+
+More efficiently reach on-call teams and incident responders with a new wa=
+y to deploy Live Call Routing using Twilio Functions and VictorOps. Check=
+ it out:
+
+http://try.victorops.com/LiveCallRouting/DevOpsWeekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

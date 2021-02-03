@@ -1,0 +1,151 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#460?=
+Date: Sun, 20 Oct 2019 10:17:20 +0000
+
+DEVOPS WEEKLY
+ISSUE #460 - 20th October 2019
+
+Lots of posts this week covering topics as wide ranging as infrastructure=
+ as code=2C team culture=2C security testing and static analysis=2C metric=
+s=2C on-call and more.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+In our latest guide=2C Resilience First=2C you=E2=80=99ll learn about the=
+ origin of SRE=2C how it's evolved over the last few years=2C and the futu=
+re of its impact on building highly observable=2C resilient applications a=
+nd infrastructure.
+
+http://try.victorops.com/devopsweekly/sre-golden-signals-guide
+
+
+News
+=3D=3D=3D=3D
+
+We often talk about the importance of teams when discussing devops practic=
+es=2C This post explains some of the common problems organisations face as=
+ they try and move embracing a team culture vs individual incentives.
+
+https://agileoutloud.wordpress.com/2019/10/17/towards-a-culture-of-teams/
+
+
+Testing for security alongside testing for functionality isn=E2=80=99t a n=
+ew idea=2C although it=E2=80=99s only now becoming more popular. This post=
+ (written by yours truly) looks at the different tradeoffs involved in dec=
+iding where in the SDLC to test=2C based on feedback=2C coverage and cost.
+
+https://snyk.io/blog/container-security-throughout-the-sdlc/
+
+
+Some interesting thoughts on both the importance of infrastructure as code=
+ and its potential evolution into higher-level reusable architecture compo=
+nents.
+
+https://aws.amazon.com/blogs/containers/containers-and-infrastructure-as-c=
+ode-like-peanut-butter-and-jelly/
+
+
+A solid side-by-side comparison of CloudFormation and Terraform=2C with a=
+ focus on AWS management.
+
+https://medium.com/@cep21/after-using-both-i-regretted-switching-from-terr=
+aform-to-cloudformation-8a6b043ad97a
+
+
+An introduction to the power of metrics=2C specifically looking at getting=
+ started with Prometheus from the point of view of a developer or operator=
+ producing/consuming metrics.
+
+https://tech.showmax.com/2019/10/prometheus-introduction/
+
+
+A good argument for deploying the simplest possible application end-to-end=
+ as quickly as possible=2C with a useful discussion of counter arguments a=
+nd how to respond to them.
+
+https://blog.thepete.net/blog/2019/10/04/hello-production/
+
+
+A useful getting started post on Kubernetes manifests that has some tips f=
+or old timers as well. Using kubectl explain to introduce the main resourc=
+es and how to find the correct property is a nice idea.
+
+https://prefetch.net/blog/2019/10/16/the-beginners-guide-to-creating-kuber=
+netes-manifests/
+
+
+An in-depth post on DNS security=2C looking at DNSSEC=2C DNS over HTTPS an=
+d the various actors and threats involved.
+
+https://www.netmeister.org/blog/doh-dot-dnssec.html
+
+
+Good post on evolving an on-call rota. Especially as teams launch more and=
+ more services=2C and organisations grow in size=2C it=E2=80=99s important=
+ to constantly improve critical processes like on-call.
+
+https://www.intercom.com/blog/rapid-response-how-we-developed-an-on-call-t=
+eam-at-intercom
+
+
+Interesting post on the benefits of various static analysis techniques for=
+ large code bases.
+
+https://instagram-engineering.com/static-analysis-at-scale-an-instagram-st=
+ory-8f498ab71a0c
+
+
+A look at three handy dashboard tools for working locally with Docker cont=
+ainers and images.
+
+https://medium.com/ssense-tech/my-docker-support-stack-58b1e67f5f4f
+
+Jobs
+=3D=3D=3D=3D
+
+:rocket: SuperOrbital is looking for a Kubernetes training instructor!
+Are you a K8s expert who loves helping people learn? If you enjoy being on=
+ stage=2C traveling to interesting cities=2C and talking with teams who're=
+ dealing with no-kidding scaling issues=2C then join us as a freelance tra=
+iner! Read more and apply here!
+
+https://superorbit.al/careers/instructor/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon + CloudNativeCon North America is coming up in San Diego from the=
+ 18th until the 21st of November. The schedule is packed with talks on the=
+ CNCF projects like Kubernetes=2C Envoy and Helm as well as case studies=
+=2C community meetings and more. The code KCNADOW19 will save DevOps Weekl=
+y readers 10% off the ticket price too.
+
+http://bit.ly/2ko9SrP
+
+
+The O'Reilly Velocity Conference heads to Berlin=2C 4=E2=80=937 November.=
+ Velocity is the best place on the planet for web ops and systems engineer=
+ing professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on cloud native infrastr=
+ucture=2C DevOps=2C Kubernetes=2C and more=2C there's something for everyo=
+ne. Passes start at =E2=82=AC676 when you use the code DEVW20 (applies to=
+ Gold=2C Silver=2C and Bronze passes). Register today!
+
+https://oreil.ly/99PIf
+
+
+
+In our latest guide=2C Resilience First=2C you=E2=80=99ll learn about the=
+ origin of SRE=2C how it's evolved over the last few years=2C and the futu=
+re of its impact on building highly observable=2C resilient applications a=
+nd infrastructure.
+
+http://try.victorops.com/devopsweekly/sre-golden-signals-guide
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

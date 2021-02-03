@@ -1,0 +1,162 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#383?=
+Date: Sun, 29 Apr 2018 08:48:32 +0000
+
+DEVOPS WEEKLY
+ISSUE #383 - 29th April 2018
+
+I=E2=80=99ll be heading to KubeCon EU in Copenhagen next week and hopefull=
+y see a few readers there. I=E2=80=99ll try collect details on announcemen=
+ts and interesting talks for the next issue.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Get everything you need to know about incident management tooling for your=
+ DevOps team. Download the Incident Management Buyers Guide to learn what=
+=E2=80=99s truly essential for incident management:
+
+http://try.victorops.com/DevOpsWeekly/Buyers-Guide
+
+
+News
+=3D=3D=3D=3D
+
+Docker Compose has a number of ways of extending a configuration using mul=
+tiple Compose files. This post explains where that=E2=80=99s useful and ho=
+w to structure the configuration to make it easy to manage.
+
+https://pspdfkit.com/blog/2018/how-to-manage-multiple-system-configuration=
+s-using-docker-compose/
+
+
+A detailed look at Python packaging; the importance of PyPi=2C requirement=
+s files=2C Pipenv and self-hosted package repositories. Also contains some=
+ good recommendations for ensuring the security of your dependencies.
+
+https://www.b-list.org/weblog/2018/apr/25/lets-talk-about-packages/
+
+
+AWS RDS allows for launching various database engines=2C including Postgre=
+SQL. This set of posts covers how best to monitor PostgreSQL in this conte=
+xt and what metrics you should be paying attention to.
+
+https://www.datadoghq.com/blog/aws-rds-postgresql-monitoring/
+https://www.datadoghq.com/blog/collect-rds-metrics-for-postgresql/
+
+
+A presentation on includeOS and unikernels=2C covering use cases like IoT=
+=2C low-latency applications and function-as-a-service.
+
+https://www.slideshare.net/perbu/include-os-flossuk-2018
+
+
+Running modern IT systems invariably involves a high degree of complexity.=
+ How do errors happen=2C and what can we learn from them to improve the pe=
+rformance of our teams? This talk takes a look at recent research in this=
+ area.
+
+https://speakerdeck.com/jallspaw/devopsdays-seattle-2018
+
+
+A post on the current state of building unprivileged Docker containers=2C=
+ looking at several new tools and how to combine them to achieve the desir=
+ed results.
+
+https://zwischenzugs.com/2018/04/23/unprivileged-docker-builds-a-proof-of-=
+concept/
+
+
+A quick look at troubleshooting and profiling microservices applications w=
+ith a focus on Kubernetes.
+
+https://speakerdeck.com/mhausenblas/troubleshooting-and-profiling-microser=
+vices
+
+
+This talk looks at how the Netflix engineering team thinks about failure=
+=2C and explores the tools=2C techniques=2C and training they use to short=
+en the inevitable failures of their systems.
+
+https://www.infoq.com/presentations/netflix-incident-management
+
+
+A handy and quick guide to getting started with Zipkin for tracing request=
+s in your distributed applications.
+
+https://sematext.com/blog/opentracing-zipkin-as-distributed-tracer/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+O'Reilly Velocity Conference: Early Price ends this Friday!
+The O'Reilly Velocity Conference (June 11-14 in San Jose=2C CA) helps syst=
+ems engineers=2C software developers=2C and DevOps teams future-proof thei=
+r systems=E2=80=94and their careers. Come to Velocity and learn the strate=
+gies and tools you need to make your systems fast=2C resilient=2C and secu=
+re. Topics include continuous delivery=2C distributed data=2C Kubernetes=
+=2C monitoring and observability=2C SRE & DevOps=2C systems engineering &=
+ architecture=2C and more. Early Price ends this Friday=2C May 4--Save up=
+ to $599 using code DOW20!
+
+https://oreil.ly/2GZ2ysI
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Dynamic Security Governance and Visibility of Kubernetes Wo=
+rkloads
+May 1=2C Online
+Join us for this detailed walkthrough of the steps to achieving continuous=
+ security governance for your Kubernetes clusters and their hosted applica=
+tions.
+
+http://bit.ly/2JyVxiT
+
+
+KubeCon + CloudNativeCon - Come together with leading cloud native contrib=
+utors for a broad range of technical sessions on the cloud native ecosyste=
+m. We sold out in Austin and are excited to see thousands of you from the=
+ community join us=2C this time in Copenhagen on May 2-4!
+
+http://bit.ly/2EARWy8
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Lots of Cloud providers are now providing a Kubernetes-as-a-service=2C but=
+ provisioning requires different API calls and configuration. Kubeformatio=
+n aims to abstract away some of that=2C providing a declarative configurat=
+ion file and compatibility with different services.
+
+https://kubeformation.sh/
+
+
+Duplicacy Autobackup is a handy automatic file backup solutions packaged a=
+s a Docker image and with support for S3. Azure=2C Backblaze and more.
+
+https://github.com/christophetd/duplicacy-autobackup
+
+
+It=E2=80=99s common practice to lint source code=2C to catch style or comm=
+on programming errors. Prose lint adds another useful capability to that l=
+ist=2C linting the written word. I=E2=80=99d love to see this used to impr=
+ove READMEs in lots of projects.
+
+http://proselint.com/
+
+
+Get everything you need to know about incident management tooling for your=
+ DevOps team. Download the Incident Management Buyers Guide to learn what=
+=E2=80=99s truly essential for incident management:
+
+http://try.victorops.com/DevOpsWeekly/Buyers-Guide
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

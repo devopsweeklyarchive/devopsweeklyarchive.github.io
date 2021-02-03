@@ -1,0 +1,145 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#518?=
+Date: Sun, 29 Nov 2020 11:33:33 +0000
+
+DEVOPS WEEKLY
+ISSUE #518 - 29nd November 2020
+
+Incident reports=2C books covering devops topics=2C KubeCon reports and se=
+veral interesting new tools this week.
+
+
+Env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+env0 lets your entire team manage their own cloud environments=2C governed=
+ by your policies and templates. Now manage your users even easier with Te=
+ams and RBAC.
+
+http://env0.com/l/devops-teams-launch
+
+
+News
+=3D=3D=3D=3D
+
+A look at a number of different security incidents involving AWS customers=
+=2C inferring patterns and making some recommendations.
+
+https://speakerdeck.com/ramimac/learning-from-aws-customer-security-incide=
+nts
+
+
+An up-to-date list of books to read on the various facets of devops. Most=
+ interesting is the choose-your-own-adventure tool to help with deciding w=
+hat you should read next.
+
+https://octopus.com/blog/devops-reading-list
+
+
+Two good=2C detailed=2C writeups from the recent KubeCon virtual event. Ke=
+y takeaways and reviews of a selection of the sessions on Kubernetes and r=
+elated technologies.
+
+https://blog.getambassador.io/kubecon-na-2020-key-takeaways-platforms-safe=
+ty-and-end-users-cb6df12082e6
+https://firehydrant.io/blog/kubecon-north-america-2020-wrapup/
+
+
+A writeup of the recent AWS US-East-1 outage. Reading incident reports is=
+ always interesting=2C but few are at quite this scale.
+
+https://aws.amazon.com/message/11201/
+
+
+How do we know that databases really behave as advertised at scale? The Je=
+psen testing tool is helping here=2C and the new checker described in a re=
+cent paper helps identify even more issues.
+
+https://blog.acolyer.org/2020/11/23/elle/
+
+
+A KubeCon session on disaster recovery. Discussion of outbreaks=2C being o=
+n-call=2C emergency response and eventual prevention=2C with the interesti=
+ng twist being a comparison of site reliability engineering and the ongoin=
+g pandemic healthcare response.
+
+https://thenewstack.io/kubecon-lessons-in-disaster-recovery-from-covid-19-=
+and-site-reliability-engineering
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Fire Drills: A Guide to Preparing for Your Next Incident shows you how to=
+ design and run a fire drill for your SRE team. In this Whitepaper from El=
+ieser Pereira - Customer Reliability Engineer at Container Solutions=2C yo=
+u will see the roles of the game master=2C the on-call engineer=2C a sampl=
+e scenario and what questions to expect when all seems bleak during an out=
+age. Download the free PDF.
+
+https://bit.ly/3mgyY6k
+
+
+Jobs
+=3D=3D=3D=3D
+
+I=E2=80=99m on the lookout for an experienced product leader for a Directo=
+r of Product Management role at Snyk. The job would involve owning the Sny=
+k Container product=2C so a strong focus on Kubernetes and container secur=
+ity and on helping developers build secure applications. I=E2=80=99m mainl=
+y looking for candidates in the UK or Israel in order to be close to the e=
+ngineering teams. More details on the Snyk jobs site.
+
+https://boards.greenhouse.io/snyk/jobs/4948658002
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The ThoughtWorks Technology Radar has been around for 10 years and covers=
+ emerging techniques=2C tools=2C platforms=2C languages and frameworks. Ne=
+xt week=2C on the 7th of December=2C join 2 of the people involved in putt=
+ing together this year's edition to hear about what=E2=80=99s new.
+
+https://www.thoughtworks.com/radar/technology-radar-webinar-vol-23-uk
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Lots of interest in user interfaces for Kubernetes at the moment=2C the la=
+test being Headlamp. Interestingly you can run the headlamp dashboard loca=
+lly or in-cluster. It also features a plugin system for extending its core=
+ functionality.
+
+https://kinvolk.io/blog/2020/11/shining-a-light-on-the-kubernetes-user-exp=
+erience-with-headlamp/
+https://github.com/kinvolk/headlamp
+
+
+cloudquery is a tool that queries the state of a public cloud infrastructu=
+re and saves a snapshot of that information in a SQL database for offline=
+ querying.
+
+https://github.com/cloudquery/cloudquery
+https://docs.cloudquery.io/
+
+
+Setting up dashboards for every service can end up being a manual and repe=
+titive process. Legend builds and publishes Grafana dashboards for your se=
+rvices with prefilled metrics and alerts=2C integrating with cloudwatch=2C=
+ prometheus=2C influxdb and more.
+
+
+https://github.com/grofers/legend
+
+
+K6 is an interesting new load testing tool=2C written in Go but configured=
+ using a powerful Javascript DSL.
+
+https://github.com/loadimpact/k6
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

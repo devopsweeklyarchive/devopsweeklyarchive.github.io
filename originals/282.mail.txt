@@ -1,0 +1,154 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#282?=
+Date: Sun, 22 May 2016 11:12:44 +0000
+
+DEVOPS WEEKLY
+ISSUE #282 - 22nd May 2016
+
+Lots of interesting and varied tools this week=2C including novel or new a=
+pproaches to well trod problems in the way of a new reverse proxy and load=
+ balancer in Traefik and BLESS=2C an interesting solution to the age-old p=
+roblem of SSH access via trusted keys.
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Need help communicating during an outage? We're partnering with StatusPage=
+=2Eio to share lessons learned about crisis communication in a webinar on Tu=
+esday. Sign up to reserve your spot!
+
+http://try.victorops.com/l/44432/2016-05-20/czmk8z
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Sprinting for Success: Digital Transformation through Agile and DevOps
+
+Discover how Verizon digitally transformed their IT organization using a D=
+evOps approach. You=E2=80=99ll learn how they decreased the number of apps=
+ they support by 40%; reduced IT complexity by consolidating from 13 to 5=
+ data centers; and much more!
+
+http://ow.ly/rrhU300b5W6
+
+
+News
+=3D=3D=3D=3D
+
+A very well argued piece that containers will displace hypervisors in the=
+ future for the majority of workloads. Solid details about what hypervisor=
+s are=2C why arguments against don=E2=80=99t stack up and why it will take=
+ time anyway.
+
+http://cloudscaling.com/blog/cloud-computing/will-containers-replace-hyper=
+visors-almost-certainly/
+
+
+A nice reminder of some of the fundamentals underpinning devops=2C and a l=
+ook at how as-a-service models are just outsourcing done right.
+
+https://blog.opsee.com/devops-is-undead-ad128c543165#.q49m7medc
+
+
+An interesting article on some of the underpinnings of devops and agile pr=
+actices=2C with a focus on application in Big IT environments.
+
+https://medium.com/@josef_89142/big-it-rising-b98826b68364#.pw4n9bcng
+
+
+Lots of tools and writing exist around the running of large numbers of con=
+tainers=2C but comparatively little about the building of containers at sc=
+ale. This post explores some approaches to creating a manageable supply ch=
+ain model.
+
+http://rhelblog.redhat.com/2016/05/18/architecting-containers-part-5-build=
+ing-a-secure-and-manageable-container-software-supply-chain/
+
+
+A presentation with a focus on applying and embracing devops practices if=
+ you work in a traditional enterprise. Lots of silos and workflows and on=
+ the importance of trust and patience.
+
+http://www.slideshare.net/lnxchk/transforming-enterprise-teams-to-devops-w=
+orkflows
+
+
+A nice overview of various messaging services=2C particular Kafka=2C Rabbi=
+tMQ and NATS. Focuses on their use as an integration platform=2C and some=
+ of the differences to more traditional message bus applications.
+
+https://seroter.wordpress.com/2016/05/16/modern-open-source-messaging-apac=
+he-kafka-rabbitmq-and-nats-in-action/
+
+
+A presentation on what succeeding with devops practices can look like. Som=
+e good underpinning references to sociotechnical systems research and some=
+ specific tips around managing change.
+
+http://www.slideshare.net/john.clapham/succeeding-with-devops-mk2
+
+
+With more and more services comes a greater need for runtime visibility. B=
+ut instrumenting all those services might be a costly endeavour. This post=
+ explains how to use the linkerd proxy to get information into the Zipkin=
+ tracing tool for all your services in one go.
+
+https://blog.buoyant.io/2016/05/17/distributed-tracing-for-polyglot-micros=
+ervices/index.html
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The WinOps event is back in London this coming week=2C on the 24th and 25t=
+h of May. Some great speakers and topics around devops practices in a Wind=
+ows world and a few tickets still available.
+
+http://www.winops.org/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Falco is a new tool using the sysdig codebase which allows for writing rul=
+es for behavioral activity monitoring. Falco is designed to make it easy t=
+o to detect anomalous activity in your applications and infrastructure.
+
+http://www.sysdig.org/falco/
+https://github.com/draios/falco
+
+
+BLESS is an SSH Certificate Authority that runs as a AWS Lambda function a=
+nd is used to sign ssh public keys. An interesting approach to the problem=
+ of managing SSH access to machines in a time limited but still useful way=
+=2E
+
+https://github.com/Netflix/bless
+
+
+Traefik is a new reverse proxy and load balancer with backend support for=
+ Swarm=2C Mesos=2C Kubernetes=2C Consul=2C etcd and more. A nice UI=2C met=
+rics available via an API and SSL out-of-the-box with Let=E2=80=99s Encryp=
+t make an interesting offer.
+
+https://traefik.io/
+
+
+Apex is an interesting looking toolkit for building and running serverless=
+ functions in AWS Lambda. It supports a shim for non-JS languages=2C as we=
+ll as tools for a dry-run mode and accessing metrics/
+
+http://apex.run/
+
+
+Need help communicating during an outage? We're partnering with StatusPage=
+=2Eio to share lessons learned about crisis communication in a webinar on Tu=
+esday. Sign up to reserve your spot!
+
+http://try.victorops.com/l/44432/2016-05-20/czmk8z
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

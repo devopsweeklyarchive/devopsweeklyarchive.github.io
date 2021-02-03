@@ -1,0 +1,147 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#297?=
+Date: Sun, 4 Sep 2016 11:23:36 +0000
+
+DEVOPS WEEKLY
+ISSUE #297 - 4th September 2016
+
+Some good soft-skills posts this week=2C including a great exploration of=
+ software estimation and a really honest post about the barriers to entry=
+ caused by jargon. These types of posts tend to be harder to find=2C so dr=
+op me an email if you come across more culture oriented devops content.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Got ChatOps? Download the free eBook from O'Reilly Media and VictorOps:  h=
+ttp://try.victorops.com/devopsweekly/chatops
+Want even more? Meet the author on Sept 8th in a live stream event: http:/=
+/try.victorops.com/devopsweekly/chatops/livestream
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Verizon=E2=80=99s DevOps Transformation
+
+Learn how Verizon streamlined operations=2C optimized business output and=
+ delivered more useful products to their consumers faster by using a DevOp=
+s approach. The results are amazing!
+
+http://ow.ly/ooQd300TUwM
+
+
+News
+=3D=3D=3D=3D
+
+
+I had the good fortune of talking at Software Circus last week=2C with a b=
+y-example introduction to threat modeling. Hopefully some good tips for so=
+ftware developers=2C especially those adopting more cloud native architect=
+ures.
+
+https://speakerdeck.com/garethr/thinking-evil-thoughts
+
+
+Estimation of software projects is one of those things which some people g=
+et really quite annoyed with=2C but personally I=E2=80=99ve always found u=
+seful if you understand what estimation is for. This article is an excelle=
+nt discussion of how to estimate for software.
+
+https://medium.com/@skamille/yes-virginia-you-can-estimate-that-e33303eec9=
+cf#.9s58owx9p
+
+
+Some code or architectures become so obsessed with avoiding repetition tha=
+t they become hard to change and tightly coupled. This post makes some int=
+eresting points about when you should repeat yourself.
+
+http://devblog.songkick.com/2016/08/31/when-to-repeat-yourself/
+
+
+An excellent case study around the use of AWS lambda=2C along with some in=
+teresting cost/capacity numbers and so good and bad points about going ser=
+verless.
+
+https://fmlnerd.com/2016/08/16/30k-page-views-for-0-21-a-serverless-story/
+
+
+The impact of jargon on communicating concepts=2C especially around techno=
+logy=2C is huge. This post is a great reminder to anyone writing code=2C o=
+r documentation or describing a design that needless jargon introduces a b=
+arrier to entry.
+
+https://medium.com/@duretti/confronting-jargon-7d39c8dd9353#.27czpqns0
+
+
+A good discussion of the complexities of managing data in a microservices=
+ architecture=2C in particular looking at the tradeoffs involved.
+
+http://blog.christianposta.com/microservices/the-hardest-part-about-micros=
+ervices-data/
+
+
+A related post to the one above about the role of data in microservices. T=
+his post digs into the issues with distributed transactions.
+
+http://www.grahamlea.com/2016/08/distributed-transactions-microservices-ic=
+ebergs/
+
+
+Most people=E2=80=99s interaction with Docker is done via the command line=
+=2C but everything is also supported by the remote API too. This post is a=
+ nice introduction to setting up a swarm cluster and launching services=2C=
+ all without touching the CLI.
+
+https://scottydoesntknow.io/docker-remote-apis-meets-eye/
+
+
+A balanced pros and cons article regarding the new Microsoft Nano server=
+=2C focusing on the long tail of IT.
+
+https://www.petri.com/nano-server-debate-yes-no
+
+
+A good discussion of scalability differences between pull and push monitor=
+ing methodologies=2C looking in particular at how prometheus works on aggr=
+egates rather than events.
+
+https://prometheus.io/blog/2016/07/23/pull-does-not-scale-or-does-it/
+
+
+One of the presentations from Software Circus=2C covering some aspects of=
+ container security. In particular looks at what containers are=2C some id=
+eas about layer based security and multitenancy.
+
+https://docs.google.com/presentation/d/1Fs32kRG2FhbeO_-WdYSdP2dauepeo_VV5R=
+69Q_xZeYo/pub
+
+
+A presentation for security professionals introducing devops and picking o=
+n some of the technologies and practices that could benefit the security d=
+omain.
+
+http://www.slideshare.net/infosecresearch/bsidesmcr2016whatcaninfoseclearn=
+fromdevops
+
+
+Jobs
+=3D=3D=3D=3D
+
+Want to work on new projects? Try a new stack? Join Hired and discover new=
+ opportunities today.
+
+http://hrd.cm/23r2ok5
+
+
+
+Got ChatOps? Download the free eBook from O'Reilly Media and VictorOps:  h=
+ttp://try.victorops.com/devopsweekly/chatops
+Want even more? Meet the author on Sept 8th in a live stream event: http:/=
+/try.victorops.com/devopsweekly/chatops/livestream
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

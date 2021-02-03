@@ -1,0 +1,161 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#385?=
+Date: Sun, 13 May 2018 17:16:11 +0000
+
+DEVOPS WEEKLY
+ISSUE #385 - 13th May 2018
+
+The State of Devops survey is back for another year and I hope everyone ca=
+n make some time to take it. The data=2C and resulting analysis=2C is of h=
+uge value to the wider devops community when it comes to knowing what=E2=
+=80=99s working and how to help others understand why.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+A culture of communication and collaboration is the key to building DevOps=
+-focused teams and processes. See how manual and automated ChatOps tools w=
+ork cross-functionally to improve team-wide communication:
+
+http://try.victorops.com/DevOpsWeekly/ChatOpsUpdates
+
+
+News
+=3D=3D=3D=3D
+
+The State of Devops survey is open for this year=2C closing on June 8th. T=
+he data and analysis from the State of Devops report is hugely valuable=2C=
+ and the more folks take the survey the better. It should only take you 20=
+ minutes.
+
+https://devops-survey.com/survey.php?survey_id=3D10
+
+
+A practical post on various SRE practices which also has the clearest desc=
+ription of the relationship between SRE and Devops I=E2=80=99ve seen=2C de=
+scribing SRE as an implementation of Devops.
+
+https://cloudplatform.googleblog.com/2018/05/SRE-vs-DevOps-competing-stand=
+ards-or-close-friends.html
+
+
+A good post on why it=E2=80=99s often not a zero-sum game when it comes to=
+ technology adoption=2C in this case looking at Kubernetes and Serverless.
+
+http://www.diversity.net.nz/serverless-is-going-to-crush-kubernetes-but-on=
+ly-in-a-theoretical-world-which-doesnt-actually-exist/2018/05/10/
+
+
+A useful walkthrough for anyone doing Node.js development. Steps through c=
+reating a Dockerfile and Compose file for both running the application and=
+ running integration tests locally.
+
+https://blog.codeship.com/using-docker-compose-for-nodejs-development/
+
+
+A post on applying some of the technical practices of devops=2C in particu=
+lar Infrastructure as code and CI/CD=2C to data science.
+
+http://www.hyperbi.co.uk/applying-devops-to-data-science/
+
+
+Debugging complex microservices architectures running on an orchestrator i=
+s very different to debugging a classic monolith. This post explores the s=
+tate of debugging on Kubernetes and shows some of the ongoing work in this=
+ space.
+
+https://radu-matei.com/blog/state-of-debugging-microservices-on-k8s/
+
+
+An interesting post on complexity in software=2C looking specifically at t=
+he question of whether Kubernetes is too complicated for many users and us=
+ecases.
+
+http://jmoiron.net/blog/is-k8s-too-complicated/
+
+
+There are quite a few tools which are databases but are often not thought=
+ about as such. That can lead to forgetting about things like backups. Thi=
+s post shows how to backup consult data=2C including encrypting backups an=
+d some other useful tricks.
+
+https://medium.com/ww-engineering/consul-snapshot-vault-kubernetes-503dc33=
+32b76
+
+
+Jaeger is a distributed tracing application which implements the OpenTraci=
+ng specification. This post explains how to set it up and how to use it.
+
+https://sematext.com/blog/opentracing-jaeger-as-distributed-tracer/
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Take the O'Reilly 2018 Ops Survey
+As an IT operations professional=E2=80=94whether you call yourself a sysad=
+min=2C DevOps practitioner=2C SRE=2C DBA=2C or something else=E2=80=94O'Re=
+illy Media invites you to share a few details about yourself. We want to l=
+earn about the demographics=2C work environments=2C tools=2C and compensat=
+ion of practitioners in our growing field. All responses are reported in a=
+ggregate to assure your anonymity. The survey will take approximately 5-10=
+ minutes to complete. We'll share the results once they're compiled. Start=
+ the survey now:
+
+https://oreil.ly/2FX5Pr3
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DockerCon is just around the corner=2C taking place in San Francisco June=
+ 12th to 15th. The schedule is up with lots of talks on containers=2C Kube=
+rnetes and real-world case studies. You can use the promo code devops for=
+ 10% off the ticket price.
+
+https://2018.dockercon.com/
+
+
+Devops Days Berlin is happening September 12th and 13th and the CFP is ope=
+n now. The organisers are looking for Ignite talks=2C half hour presentati=
+ons and 45 minute hands-on sessions.
+
+https://www.devopsdays.org/events/2018-berlin/propose/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Consistently bootstrapping development environments is something that defi=
+nitely benefits from a shared set of scripts. This new project builds on C=
+hocolatey and Boxstarter to provide a great starting place for Windows env=
+ironments.
+
+https://github.com/Microsoft/windows-dev-box-setup-scripts
+
+
+Corral is a MapReduce framework for Serverless environments like AWS Lambd=
+a. It=E2=80=99s best suited for data-intensive but computationally inexpen=
+sive tasks=2C such as ETL jobs.
+
+https://github.com/bcongdon/corral
+
+
+Bakery is a centralised AWS identity and access management solution to avo=
+id the duplication of user accounts/policies across multiple AWS accounts.
+
+https://github.com/iagcl/bakery
+
+
+A culture of communication and collaboration is the key to building DevOps=
+-focused teams and processes. See how manual and automated ChatOps tools w=
+ork cross-functionally to improve team-wide communication:
+
+http://try.victorops.com/DevOpsWeekly/ChatOpsUpdates
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

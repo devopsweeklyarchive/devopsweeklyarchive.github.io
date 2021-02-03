@@ -1,0 +1,161 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#382?=
+Date: Sun, 22 Apr 2018 09:58:21 +0000
+
+DEVOPS WEEKLY
+ISSUE #382 - 22nd April 2018
+
+A mix of posts this week on operations and operations culture on one hand=
+=2C and BPF=2C open tracing and automating CI pipelines on the other.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+On-call sucks=E2=80=A6 But it doesn=E2=80=99t have to! Read the following=
+ article to learn more about structuring on-call rotations that make your=
+ team happier while also maintaining uptime.
+
+http://try.victorops.com/DevOpsWeekly/Defined-On-Call
+
+
+News
+=3D=3D=3D=3D
+
+A great set of posts on software defined culture. A set of 5 posts=2C cove=
+ring building for reliability=2C operability=2C observability and responsi=
+bility.
+
+https://blog.0x74696d.com/posts/software-defined-culture/
+
+
+A post on the flexibility of Jenkins new Jenkinsfile=2C demonstrating how=
+ to provide a shared library to allow pipelines to be defined purely in a=
+ YAML file in the repository rather than writing Groovy.
+
+https://medium.com/wolox-driving-innovation/dynamic-jenkins-pipelines-b040=
+66371fbc
+
+
+A good overview of open tracing. What it is=2C what problem it=E2=80=99s t=
+rying to solve=2C and details of the various moving parts of the standard.
+
+https://sematext.com/blog/opentracing-distributed-tracing-emerging-industr=
+y-standard/
+
+
+A post on avoiding creating even more silos when adopting devops=2C lookin=
+g at the full range of operations work and the balance between local and g=
+lobal efficiency.
+
+https://medium.com/@kaimarkaru/avoiding-devopsops-944050eb01af
+
+
+BPF is replacing the venerable iptables for all things Linux network filte=
+ring. This post provides a great overview of why=2C how this is being done=
+ in a non-disruptive manner and what you can expect in the future.
+
+https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-ip=
+tables/
+
+
+A useful description of how to configure a robust Nginx proxy with Docker=
+ containers in various setups.
+
+https://ilhicas.com/2018/04/14/Nginx-Upstream-Unavalailble-Docker.html
+
+
+A post on the inherent complexity of the on-demand cloud billing models=2C=
+ with some good points about why adopting cloud services can stumble on co=
+st and what you can do about it.
+
+https://www.linuxjournal.com/content/agony-and-ecstasy-cloud-billing
+
+
+A good overview of ways of extending Kubernetes by creating custom control=
+lers.
+
+https://medium.com/@trstringer/create-kubernetes-controllers-for-core-and-=
+custom-resources-62fc35ad64a3
+
+
+A looks at the similarities and differences between container-based and se=
+rverless architectures=2C and when you might choose each.
+
+https://www.simform.com/serverless-vs-containers/
+
+
+Having a portable local development environment has lots of advantages. Th=
+is post explains some of them=2C as well as some tips for using Docker ima=
+ges.
+
+https://medium.com/@eightlimbed/how-and-why-i-moved-my-environment-from-va=
+grant-to-docker-e054c71af2bb
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+You=E2=80=99re invited to the O'Reilly Velocity Conference in San Jose=2C=
+ CA
+Now in its 11th year=2C the O'Reilly Velocity Conference (June 11-14 in Sa=
+n Jose=2C CA) helps systems engineers=2C software developers=2C and DevOps=
+ teams stay ahead of their game by keeping pace with key innovations and t=
+rends. Come to Velocity and learn the strategies and tools you need to mak=
+e your systems fast=2C resilient=2C and secure. Speakers include Abby Full=
+er (Amazon Web Services)=2C Susan Fowler (Stripe)=2C Julia Grace (Slack)=
+=2C Kyle Kingsbury (Jepsen)=2C Bryan Liles (Heptio)=2C and more. Early Pri=
+ce ends May 4. Register today to save up to $200.
+
+https://oreil.ly/2GZ2ysI
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar - Deploying and managing Kubernetes-ready apps with Kubeapps
+April 24=2C Online
+
+Join us to learn how you can install Kubeapps in your cluster=2C access th=
+e dashboard and use it to launch an app connected to a database provisione=
+d by the Service Catalog.
+
+http://bit.ly/2qnREWl
+
+
+KubeCon + CloudNativeCon - Come together with leading cloud native contrib=
+utors for a broad range of technical sessions on the cloud native ecosyste=
+m. We sold out in Austin and are excited to see thousands of you from the=
+ community join us=2C this time in Copenhagen!
+
+http://bit.ly/2EARWy8
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Danger is a handy tool for enforcing various standards in a CI environment=
+=2E Lots of plugins and a DSL for describing rules like commit message style=
+=2C watch out for certain files or licenses=2C or prohibit large diffs.
+
+https://github.com/danger/danger
+
+
+Liman is a simple Docker container monitoring application with a web inter=
+face. Just point it at your docker socket and will allow access to stats a=
+nd logs for running containers.
+
+https://github.com/salihciftci/liman
+
+
+
+On-call sucks=E2=80=A6 But it doesn=E2=80=99t have to! Read the following=
+ article to learn more about structuring on-call rotations that make your=
+ team happier while also maintaining uptime.
+
+http://try.victorops.com/DevOpsWeekly/Defined-On-Call
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

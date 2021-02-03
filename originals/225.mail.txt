@@ -1,0 +1,139 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#225?=
+Date: Sun, 26 Apr 2015 11:19:20 +0000
+
+DEVOPS WEEKLY
+ISSUE #225 - 26th April 2015
+
+A slightly shorter newsletter this week more to do with me being busy that=
+ anything else. If anyone was at Craft in Budapest or at the Open Source D=
+ata Centre conference in Berlin this last week I=E2=80=99d love to hear hi=
+ghlights or be sent links to your favourite talks.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored Event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Live Webinar] DevOps from Adoption to Performance featuring Gene Kim
+
+DevOps isn=E2=80=99t just for the =E2=80=9CUnicorns.=E2=80=9D Join us as G=
+ene Kim explains how you can replicate the DevOps practices & successes of=
+ the so-called =E2=80=9CUnicorns.=E2=80=9D Discover the lessons he=E2=80=
+=99s learned from studying these companies and how you can apply them at y=
+our company! Register now:
+
+http://ow.ly/Lr1oo
+
+
+News
+=3D=3D=3D=3D
+
+A nice slide deck introducing unikernels=2C with numbers from various ongo=
+ing projects. Interesting observation about the similarities between embed=
+ded development and unikernels.
+
+http://www.xenproject.org/component/allvideoshare/video/latest/next-genera=
+tion-cloud-the-rise-of-the-unikernel-updated-april-2015.html
+
+
+A detailed post on how to use Test Kitchen to test multi-node systems=2C u=
+sing some of the new features in the latest release candidate.
+
+http://www.hurryupandwait.io/blog/multi-node-testing-with-test-kitchen-and=
+-docker
+
+
+I think we=E2=80=99re still collectively discovering development patterns=
+ for containers. This post does a nice job of summarising a few of those p=
+atterns to emerge and takes a go at the tricky naming patterns thing.
+
+http://www.hokstad.com/docker/patterns
+
+
+A useful introduction to a few approaches to testing in production=2C incl=
+uding canary servers=2C feature switches and A/B testing.
+
+http://blog.takipi.com/4-creative-ways-to-test-your-code-in-production/
+
+
+The idea of using a regular retrospective as a way of improving how you wo=
+rk is popular in lots of different approaches to software development. Thi=
+s site has lots of different formats which can help stop regular retrospec=
+tives becoming stale.
+
+http://retrospectivewiki.org/
+
+
+I like the idea of high level tenets that can be used to test ideas and pr=
+oposed approaches. This post summarises the architectural tenets used at N=
+ike.
+
+http://blog.zurelsoft.com/blog/all-cios-and-ctos-can-use-nikes-architectur=
+al-tenets
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+dotScale is coming up in Paris on the 8th of June. A single day conference=
+ on all things scalability=2C devops and distributed systems. You can snag=
+ a 20% discount using the code DEVOPSWEEKLY.
+
+http://www.dotscale.io/
+https://dotscale2015.eventbrite.com/?discount=3DDEVOPSWEEKLY
+
+
+Opbeat and Cloud9 are hosting a free Devops masterclass event next week in=
+ Amsterdam=2C April 29th. Talks on You shipped it=2C you fix it and Runnin=
+g a cloud-based developer platform.
+
+https://www.eventbrite.com/e/devops-masterclass-amsterdam-with-cloud9-and-=
+opbeat-tickets-16394975814
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Bottled Water is an interesting looking tool for streaming data from Postg=
+reSQL to Kafka. You could then use that stream for warming caches=2C build=
+ing a search index or doing any form of stream processing.
+
+http://blog.confluent.io/2015/04/23/bottled-water-real-time-integration-of=
+-postgresql-and-kafka/
+https://github.com/confluentinc/bottledwater-pg
+
+
+Following on from last weeks tools for secret management=2C Sneaker is a t=
+ool for storing secrets on S3 using Amazon Key Management Store. Excellent=
+ documentation describing various different threat models too.
+
+https://github.com/codahale/sneaker
+
+
+A nice example of an opinionated container=2C it provides an Nginx HTTP lo=
+ad balancer which updates automatically based on information from etcd. It=
+ also integrates with another container running registrator to do this aut=
+omatically.
+
+https://github.com/factorish/proxy
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,166 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#368?=
+Date: Sun, 14 Jan 2018 16:17:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #368 - 14th January 2018
+
+A packed issue this week=2C with lots of posts and tools on everything fro=
+m new serverless platforms to musings on microservices=2C team organisatio=
+n=2C vendor selection and technical posts on testing containers and migrat=
+ing build tools.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+See how CloudBees Jenkins Solutions & VictorOps work together to bridge th=
+e on-call gap for CI/CD in this webinar. Register today.
+
+http://join.cloudbees.com/l/272242/2018-01-09/739hy
+
+
+News
+=3D=3D=3D=3D
+
+A good post covering pros and cons of microservices=2C good questions to a=
+sk when designing systems and the posit that microservices are less about=
+ architecture and more an implementation pattern.
+
+http://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/
+
+
+An interesting look at Amdahl=E2=80=99s Law=2C the Universal Scaling Law a=
+nd what they mean for microservices and for how we=E2=80=99re organsing so=
+ftware teams. What is the cost in your systems of maintaining coherence?
+
+http://www.michaelnygard.com/blog/2018/01/coherence-penalty-for-humans/
+
+
+A detailed walkthrough of tooling build to automate some of the tasks arou=
+nd being on-call. Looking particularly at ways of bringing context along w=
+ith alters and to where the operator is interacting with the system.
+
+https://engineering.linkedin.com/blog/2017/12/open-sourcing-fossor-and-asc=
+ii-etch
+
+
+A detailed look at a specific technology selection process - from determin=
+ing who was responsible for what=2C to reviewing potential architectures a=
+nd experimenting with the technology and finally making a decision.
+
+https://codeascraft.com/2018/01/04/selecting-a-cloud-provider/
+
+
+A tale of a 10x improvement in built times for a large repository=2C with=
+ some good practical tips for anyone else looking at the Bazel build tool.
+
+https://redfin.engineering/we-switched-from-maven-to-bazel-and-builds-got-=
+10x-faster-b265a7845854
+
+
+A post on the importance of design when it comes to the operator experienc=
+e. I particularly liked the points about designing data formats or DSLs wh=
+ere the operators interact with them directly.
+
+https://medium.com/@aHev/designing-for-the-operator-experience-21b63db8143
+
+
+A solid post on cloud adoption patterns. Covering immutable infrastructure=
+=2C state management=2C event driven architecture=2C infrastructure as cod=
+e and more.
+
+https://hackernoon.com/10-lessons-from-10-years-of-aws-part-1-258b56703fcf
+
+
+A handy comparison between Cloud Foundry and Kubernetes. I think this miss=
+es the point about them being different levels of the stack=2C but that=E2=
+=80=99s a common misconception and I think the post makes some good points=
+ about opinionated developer tooling.
+
+https://medium.com/@odedia/comparing-kubernetes-to-pivotal-cloud-foundry-a=
+-developers-perspective-6d40a911f257
+
+
+Container Structure Tests demonstrates a way of writing unit tests for you=
+r Docker images. It provides tools for different types of tests including=
+ file system assertions=2C running commands and asserting on the output an=
+d checking metadata.
+
+https://opensource.googleblog.com/2018/01/container-structure-tests-unit-t=
+ests.html
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar -  Introducing Jaeger 1.0
+January 16=2C Online
+
+Learn about the features released in Jaeger 1.0=2C its architecture=2C dep=
+loyment options=2C integrations with other CNCF projects=2C and the roadma=
+p.
+
+https://goo.gl/AWfDaZ
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Scatter ATX 2018 is the inaugural event for distributed teams and remote w=
+orkers. Taking place March 21st and 22nd in Austin TX=2C this single-track=
+ conference will cover the tools=2C processes=2C habits=2C and challenges=
+ faced for remote workers in the modern age. If you're already working rem=
+ote=2C want to learn how to start=2C or are looking for remote-friendly op=
+portunities=2C this is the event for you. Use the discount code SCATTEROPS=
+ for $50 off the ticket price.
+
+http://scatter.us/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+I=E2=80=99ll group these three new tools together. Dispatch=2C Riff and Nu=
+clio are all new serverless platforms targeting Kubernetes (Nuclio can als=
+o be run standalone). Lots of projects in this space now and probably more=
+ to come. I=E2=80=99d love to see links to experience reports when people=
+ have tried them out.
+
+https://github.com/vmware/dispatch
+https://github.com/projectriff/riff
+https://github.com/nuclio/nuclio
+
+
+Rubiks is a tool for managing Kubernetes configuration. It provides a Pyth=
+on
+based internal-DSL for generating the configs and outputs to YAML or JSON=
+ for use in other tooling.
+
+https://github.com/olx-global/rubiks
+
+
+Argo is a workflow engine for Kubernetes=2C intended for usecases like con=
+tinuous integration and deployment or data processing. It=E2=80=99s implem=
+ented as a Kubernetes Custom Resource so tools (like Rubiks above) can be=
+ used for managing the configuration.
+
+https://applatix.com/open-source/argo/
+
+
+Dockly is a nice looking command line GUI for Docker. If you want somethin=
+g more visual than the CLI=2C but don=E2=80=99t want to leave the terminal=
+=2C this looks pretty handy.
+
+https://github.com/lirantal/dockly
+
+
+See how CloudBees Jenkins Solutions & VictorOps work together to bridge th=
+e on-call gap for CI/CD in this webinar. Register today.
+
+http://join.cloudbees.com/l/272242/2018-01-09/739hy
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

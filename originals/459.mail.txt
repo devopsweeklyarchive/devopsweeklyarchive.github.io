@@ -1,0 +1,139 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#459?=
+Date: Sun, 13 Oct 2019 10:55:18 +0000
+
+DEVOPS WEEKLY
+ISSUE #459 - 13th October 2019
+
+Lots of thoughtful content on devops staple topics like testing=2C configu=
+ration management=2C technology adoption and monitoring this week.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Adopt an incremental approach to machine learning to empower DevOps and IT=
+ teams and make on-call incident management suck less. Check out the open=
+ webinar recording today.
+
+http://try.victorops.com/devopsweekly/machine-learning-in-devops-and-it
+
+
+News
+=3D=3D=3D=3D
+
+A talk from the recent ServerlessConf discussing some interesting question=
+s=2C like what Serverless can learn from Kubernetes=2C gaining tech adopti=
+on and whether smaller services are always desirable.
+
+https://m.subbu.org/penalties-and-purgatory-341660b15712
+
+
+A look at modern configuration management=2C looking at categorizing vario=
+us tools according to the configuration complexity clock.
+
+https://speakerdeck.com/ahpook/cloud-native-configuration-management
+
+
+A look at embedding tests related to compliance into a CI/CD pipeline usin=
+g open policy agent.
+
+https://www.blokje5.dev/posts/compliance-in-cicd/
+
+
+A look at different strategies for testing microservice based applications=
+=2C from unit and integration testing to contract testing=2C performance t=
+esting and more.
+
+https://www.simform.com/microservice-testing-strategies/
+
+
+There are a number of different ingress solutions for Kubernetes that gove=
+rn traffic into your Kubernetes cluster. This post contains a useful analy=
+sis of the different options.
+
+https://medium.com/flant-com/comparing-ingress-controllers-for-kubernetes-=
+9b397483b46b
+
+
+Another discussion of monitoring and observability=2C describing them alon=
+g an axis of how much data you have available to make determinations on.
+
+https://bravenewgeek.com/microservice-observability-part-1-disambiguating-=
+observability-and-monitoring/
+
+
+The JVM is a powerful application runtime with lots of options when it com=
+es to instrumentation. This post looks in-depth at memory management and s=
+ome common issues to look out for.
+
+https://www.datadoghq.com/blog/java-memory-management/
+
+
+A detailed walkthrough of the new Puppet provisioner in Terraform=2C expla=
+ining what it does and how to use it.
+
+https://alexharv074.github.io//2019/10/12/adventures-in-the-terraform-dsl-=
+part-viii-the-puppet-provisioner.html
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon + CloudNativeCon North America is coming up in San Diego from the=
+ 18th until the 21st of November. The schedule is packed with talks on the=
+ CNCF projects like Kubernetes=2C Envoy and Helm as well as case studies=
+=2C community meetings and more. The code KCNADOW19 will save DevOps Weekl=
+y readers 10% off the ticket price too.
+
+http://bit.ly/2ko9SrP
+
+
+The O'Reilly Velocity Conference heads to Berlin=2C 4=E2=80=937 November.=
+ Velocity is the best place on the planet for web ops and systems engineer=
+ing professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on cloud native infrastr=
+ucture=2C DevOps=2C Kubernetes=2C and more=2C there's something for everyo=
+ne. Passes start at =E2=82=AC676 when you use the code DEVW20 (applies to=
+ Gold=2C Silver=2C and Bronze passes). Register today!
+
+https://oreil.ly/99PIf
+
+
+Jobs
+=3D=3D=3D=3D
+
+We are looking for a lead for the SRE team at Snyk. Ideally based in Londo=
+n or Tel Aviv=2C the role involves managing a growing team working with ou=
+r distributed engineering teams to make sure the Snyk service works well f=
+or our customers. You=E2=80=99ll be involved in building useful tools=2C w=
+orking with customers running Snyk on their own infrastructure and helping=
+ to move the field of application security forward.
+
+https://boards.greenhouse.io/snyk/jobs/4391430002
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Firekube is a new Kubernetes distribution running on Firecracker which com=
+es with an integrated Git-based workflow for changes. Just check in manife=
+sts to a local Git repository and the cluster will automatically update ba=
+sed on a control loop.
+
+https://github.com/weaveworks/wks-quickstart-firekube
+https://www.weave.works/blog/firekube-fast-and-secure-kubernetes-clusters-=
+using-weave-ignite
+
+
+
+Adopt an incremental approach to machine learning to empower DevOps and IT=
+ teams and make on-call incident management suck less. Check out the open=
+ webinar recording today.
+
+http://try.victorops.com/devopsweekly/machine-learning-in-devops-and-it
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

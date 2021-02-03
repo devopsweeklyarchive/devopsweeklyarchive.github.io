@@ -1,0 +1,141 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#289?=
+Date: Sun, 10 Jul 2016 10:35:33 +0000
+
+DEVOPS WEEKLY
+ISSUE #289 - 10th July 2016
+
+A mixture of content on container and microservices=2C TLS=2C practical so=
+ft skills for developers and operators and 3 whole days of video from Moni=
+torama. Hopefully something for everyone this week.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The cost of downtime is growing but DevOps practices & real-time incident=
+ management solutions can help to reduce MTTR.
+
+Learn more: http://try.victorops.com/downtime_data/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] Agile Approach to Digital Transformation
+
+Join our webinar and discover how Verizon digitally transformed their IT o=
+rganization using a DevOps approach. You=E2=80=99ll learn how they decreas=
+ed the number of apps they support by 40%=2C reduced IT complexity by cons=
+olidating from 13 to 5 data centers=2C and much more!  If you can=E2=80=99=
+t make the webinar=2C be sure to register and we=E2=80=99ll send you the r=
+eplay and slides.
+
+http://ow.ly/ooQd300TUwM
+
+
+News
+=3D=3D=3D=3D
+
+A detailed comparison of the various container schedulers available. Lots=
+ of details about Swarm=2C Mesos/Marathon and Kubernetes and about the gen=
+eral domain and usecases.
+
+https://medium.com/@ArmandGrillet/comparison-of-container-schedulers-c427f=
+4f7421#.u5fmkx4ux
+
+
+An attempt at mythbusting one of the oft-quoted advantages of microservice=
+s; that of requiring no coordination between teams. A strong reminder that=
+ the important part of the system if probably the data.
+
+https://medium.com/@skamille/i-do-not-want-to-pick-on-the-author-of-the-or=
+iginal-piece-but-i-see-this-reasoning-as-support-for-d3223c45b67d#.4nmiao8=
+rq
+
+
+If you missed out on Monitorama this year=2C and have any interest in the=
+ current state of monitoring=2C then you can relive the whole 3 days of th=
+e conference in real-time with the recorded livestream.
+
+https://www.youtube.com/playlist?list=3DPLGJrMkJUF3M3Vi_vgDiyBpWsOP41XzJnM
+
+
+A good post on the various reasons why companies adopt microservices=2C an=
+d some notes on how you might structure your teams to take advantage of do=
+ing so.
+
+https://medium.com/@asimaslam/why-companies-adopt-microservices-and-how-th=
+ey-succeed-2ad32f39c65a#.ihoat4ucb
+
+
+A look at the key requirements for adopting infrastructure as code=2C incl=
+uding image building=2C testing infrastructure=2C version control and more=
+=2E
+
+https://www.oreilly.com/learning/a-quick-guide-to-choosing-infrastructure-=
+tools
+
+
+Empathy is one of those topics that is touched on in devops conversations=
+ but rarely do we talk about what that means in practice. This post introd=
+uces some practical soft-skills for developers and operators.
+
+https://www.pagerduty.com/blog/hugops-in-practice/
+
+
+A good step-by-step look at using Vault as a an SSL/TLS Certificate Author=
+ity using the PKI secrets backend.
+
+http://cuddletech.com/?p=3D959
+
+
+Lots of survey results come from the early adopters=2C so this survey arou=
+nd expected and existing cloud adoption amongst late-adopting enterprise o=
+rganisations is an interesting data point.
+
+https://cote.io/2016/07/06/everyones-waiting-for-the-azure-accession/
+
+
+A couple of quick writeups from the recent Devops Enterprise summit. Picks=
+ out the main points coming from the talks and links to some of the materi=
+al from the conference.
+
+https://medium.com/@gareth.workman/devops-enterprise-summit-london-2016-1b=
+972728495e#.8q9at4cyh
+https://opencredo.com/key-takeaways-devops-enterprise-summit-2016-eu/
+
+
+A handy overview of the recent Snap package format announcement from Canon=
+ical=2C and some of the wider community issues it raised.
+
+http://thenewstack.io/canonicals-snap-great-good-bad-ugly/
+
+
+A good high-level list of things to consider when looking at containers an=
+d Docker in an enterprise setting.
+
+https://zwischenzugs.wordpress.com/2016/07/08/a-checklist-for-docker-in-th=
+e-enterprise/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Configuring SSL is complicated. The TLS Observatory project provides a use=
+ful scanning tool which has the useful feature of providing recommendation=
+s for things to change.
+
+https://github.com/mozilla/tls-observatory
+
+
+
+The cost of downtime is growing but DevOps practices & real-time incident=
+ management solutions can help to reduce MTTR.
+
+Learn more: http://try.victorops.com/downtime_data/DevOpsWeekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

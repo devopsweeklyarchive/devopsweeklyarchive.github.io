@@ -1,0 +1,153 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#403?=
+Date: Sun, 16 Sep 2018 10:05:06 +0000
+
+DEVOPS WEEKLY
+ISSUE #403 - 16th September 2018
+
+A few posts this week got me thinking about the value of both reading and=
+ writing critques. It can often be hard to write=2C especially when you ha=
+ve the intention of helping improve something but aren=E2=80=99t sure what=
+ the solution should be. I=E2=80=99ll definitely be on the lookout for mor=
+e good posts in this area.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+DevOps isn=E2=80=99t one-dimensional. Teams implement DevOps in unique way=
+s that are helpful to their specific causes. But=2C investing in the core=
+ principles of DevOps will make your team more collaborative and drive con=
+tinuous improvement:
+
+http://try.victorops.com/devopsweekly/investing-in-devops
+
+
+News
+=3D=3D=3D=3D
+
+If you=E2=80=99re reading this newsletter you=E2=80=99ve probably written=
+ a bunch of YAML files recently. Here are a few very useful GitHub-integra=
+ted tools for avoiding mistakes=2C either with invalid syntax or files tha=
+t don=E2=80=99t match the relevant Kubernetes schema.
+
+https://urcomputeringpal.com/2018/09/09/yaml
+https://github.com/urcomputeringpal/kubevalidator
+
+
+A look at the performance of the various public cloud serverless platforms=
+=2C looking at concurrency and overhead across different configurations=2C=
+ albeit for a simple fibonacci function.
+
+https://medium.com/elbstack/the-largest-benchmark-of-serverless-providers-=
+ac19b55750f4
+
+
+Another set of research on serverless platform performance=2C this time lo=
+oking at cold start times. This post also explores the impact of different=
+ languages and of additional dependencies on cold start performance.
+
+https://mikhail.io/2018/08/serverless-cold-start-war/
+
+
+A useful set of in-depth posts on all things containers. Everything from n=
+amespaces=2C cgroups to  users and networking. Lots of helpful examples us=
+ed to explain the inner workings.
+
+https://pierrchen.blogspot.com/2018/08/understand-container-index.html?m=
+=3D1
+
+
+Systems programming is one of those terms that is often associated with so=
+me operations and infrastructure work=2C but you=E2=80=99d probably get di=
+fferent definitions from different people. This post digs in to that conun=
+drum and why we maybe need different terminology.
+
+http://willcrichton.net/notes/systems-programming/
+
+
+A presentation on the benefits of functional programming when applied to c=
+onfiguration=2C and in particular looking at the dhall configuration langu=
+age.
+
+https://docs.google.com/presentation/d/1Mmz7Fe_BKHm68DFlUjrE9Lub7DLePurrhh=
+0CIyiuECM/edit#slide=3Did.p
+
+
+Learning how to best utilise and engage with open source and the open sour=
+ce community is=2C I think=2C part of many large devops transformation. Th=
+is presentation tells a story of one traditional organisation starting dow=
+n this path.
+
+https://www.slideshare.net/dberkholz/open-source-open-community-at-a-100ye=
+arold-company
+
+
+A nice trick for accessing private repositories or other private resources=
+ when building Docker images by using multi-stage builds to ensure you don=
+=E2=80=99t leak sensitive information.
+
+https://jessicadeen.com/tech/how-to-access-private-azure-devops-repos-from=
+-a-dockerfile/
+
+
+Observability invariably means dealing with large volumes of data=2C poten=
+tially with lots of producers and consumers and storage systems. This post=
+ explores the idea of an observability pipeline to manage the resulting co=
+mplexity.
+
+https://bravenewgeek.com/the-observability-pipeline/
+
+
+A critique of the Helm package manager for Kubernetes. I don=E2=80=99t agr=
+ee with all of the arguments but I always learn more by reading criticism=
+=2C please share good critical posts if you come across them.
+
+https://medium.com/virtuslab/think-twice-before-using-helm-25fbb18bc822
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+O'Reilly Velocity Conference | Sep 30-Oct 3 in New York City
+
+Velocity is heading to New York City in just a couple of weeks and where w=
+ill you be? At the office=2C wishing you weren=E2=80=99t missing the leadi=
+ng conference on DevOps=2C performance=2C cloud infrastructure=2C and more=
+? With Pavilion Plus passes starting at only $149=2C you can't afford to m=
+iss it. Plus=2C as a DevOps Weekly reader=2C you can get 20% off of your G=
+old=2C Silver=2C or Bronze pass with code DOW20=E2=80=94that=E2=80=99s up=
+ to $519 in savings! Find the pass that's right for you:
+
+https://oreil.ly/2tC4z9q
+
+
+DevOpsDays Kansas City is coming up on the 17th and 18th of October. Talks=
+ on incident response=2C adopting common tooling=2C the perils of org char=
+ts and the usual open spaces. You can get a discount of $25 with the code=
+ DEVOPSWEEKLY.
+
+http://devopsdayskc.org/
+
+
+Tools
+=3D=3D=3D=3D
+
+Another Kubernetes configuration tool=2C Mortar supports templating with E=
+RB and an overlay feature which allows for better variant management.
+
+https://github.com/kontena/mortar
+
+
+
+DevOps isn=E2=80=99t one-dimensional. Teams implement DevOps in unique way=
+s that are helpful to their specific causes. But=2C investing in the core=
+ principles of DevOps will make your team more collaborative and drive con=
+tinuous improvement:
+
+http://try.victorops.com/devopsweekly/investing-in-devops
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

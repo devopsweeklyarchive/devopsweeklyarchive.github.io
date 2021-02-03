@@ -1,0 +1,133 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#373?=
+Date: Sun, 18 Feb 2018 11:40:48 +0000
+
+DEVOPS WEEKLY
+ISSUE #373 - 18th February 2018
+
+A selection of posts this week on some of the harder non-technical aspects=
+ of devops; from sociotechnical systems to why the relationship between co=
+mpliance and software development is often fraught. Plus posts on immutabl=
+e infrastructure=2C automating the management of a large database cluster=
+ and more.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Learn how to accelerate your path to full-stack monitoring and alerting in=
+ this webinar. Register now:
+
+http://try.victorops.com/DevOpsWeekly/ZenossWebinar
+
+
+News
+=3D=3D=3D=3D
+
+An excellent post on the divide between compliance teams and development t=
+eams in typical enterprise environments.
+
+https://m.subbu.org/devops-and-governance-c9f2e73b7a70
+
+
+An essay on the inter-relationship between technology and practice=2C expl=
+aining the field of sociotechnical systems and why particular technology c=
+hoices won=E2=80=99t resolve wider cultural issues.
+
+https://queue.acm.org/detail.cfm?id=3D3185224
+
+
+A good post on building services which become part of the background=2C th=
+e importance of reliability and what UX research can learn from site relia=
+bility engineering.
+
+https://medium.com/@aHev/why-ux-researchers-should-learn-sre-practices-a2b=
+213e69a8a
+
+
+A nice presentation on various common container patterns=2C from spoofing=
+ hosts to multi-stage builds and from sidecar containers to mounting sourc=
+es at runtime. Nicely presented and explained with examples.
+
+https://l0rd.github.io/containerspatterns/
+
+
+Slides from my Configuration Management Camp talk=2C all about why applica=
+tion configuration should have a schema=2C and all the time and toil savin=
+g things we could do if it did.
+
+https://speakerdeck.com/garethr/why-your-configuration-needs-a-schema
+
+
+Another talks from Configuration Management Camp=2C on the reasons behind=
+ immutable infrastructure and how to adopt the pattern using LinuxKit.
+
+https://www.cloudatomiclab.com/immutable-gent/
+
+
+A deck covering how to sell serverless to your colleagues. Looking at iner=
+tia=2C the reality today vs potential in the future and embracing the serv=
+ice ecosystem.
+
+https://www.slideshare.net/sallamar/selling-serverless-to-your-colleagues
+
+
+A description of the automation behind managing a 150 node Cassandra clust=
+ers=2C using Chef=2C Rundeck and Terraform.
+
+https://medium.com/teads-engineering/easy-cassandra-scaling-with-terraform=
+-chef-rundeck-9443e0375aa7
+
+
+A walkthrough of building a pipeline for building and testing a virtual ma=
+chine=2C in this case using Packer=2C Ansible=2C InSpec and Pester.
+
+https://medium.com/@trondhindenes/building-an-testing-vm-images-403d68b5ea=
+cf
+
+
+A quick look at setting up a lab environment to test prometheus and grafan=
+a=2C using Docker Compose.
+
+https://www.unixdaemon.net/sysadmin/prometheus-experiments-with-docker-com=
+pose/
+
+
+When working with Kubernetes exposing a service to the outside world is a=
+ common requirement. This post covers how to go about doing so using Kuber=
+netes Ingress.
+
+http://container-solutions.com/production-ready-ingress-kubernetes/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DotScale is back=2C bringing together speakers on devops=2C scalability an=
+d distributed systems in Paris from May 31st to June 1st. The organisers h=
+ave kindly shared a 20% discount code for newsletters of DEVOPSWEEKLY.
+
+https://2018.dotscale.io/tickets?promocode=3DDEVOPSWEEKLY
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Alpinist provides a simple way of maintaining an Alpine APK package reposi=
+tory. Just upload packages to S3 and a Lambda function will build the repo=
+sitory metadata.
+
+https://github.com/forward3d/alpinist
+
+
+
+Learn how to accelerate your path to full-stack monitoring and alerting in=
+ this webinar. Register now:
+
+http://try.victorops.com/DevOpsWeekly/ZenossWebinar
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

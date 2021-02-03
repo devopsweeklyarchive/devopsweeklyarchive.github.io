@@ -1,0 +1,197 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#311?=
+Date: Sun, 11 Dec 2016 12:19:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #311 - 11th December 2016
+
+So much good content this week=2C and that=E2=80=99s before you get to all=
+ the posts being written for AWS advent and Sysadvent. Go read all of them=
+=2C and remember they=E2=80=99ll have a new post every day through to Chri=
+stmas. Hats off to everyone involved.
+
+http://sysadvent.blogspot.co.uk/
+https://www.awsadvent.com/
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The "2016/17 State of On-Call" report from VictorOps is now available to d=
+ownload. Learn what 800+ respondents have to say about life on-call=2C and=
+ steps they're taking to make it better. Get your free copy here:
+
+https://victorops.com/state-of-on-call-2016/
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Verizon=E2=80=99s DevOps Transformation
+
+Check out this webcast replay to hear Nita Awatramani=2C Associate Directo=
+r at Verizon Enterprise Solutions=2C share how Verizon was able to streaml=
+ine operations=2C optimize business output and deliver products faster to=
+ their consumers by adopting a DevOps approach. The results are amazing!
+
+http://ow.ly/ooQd300TUwM
+
+
+News
+=3D=3D=3D=3D
+
+An excellent presentation about building empathy in security=2C and a whol=
+e range of typical behaviours that are likely counterproductive to effecti=
+ve security operations.
+
+https://speakerdeck.com/chriseng/time-to-grow-up-counterproductive-securit=
+y-behaviors-that-must-end
+
+
+A deep-dove into how and why to design your team for modern software syste=
+ms - exploring the implications of Conway=E2=80=99s law=2C different team=
+ topologies and more.
+
+http://www.slideshare.net/SkeltonThatcher/how-and-why-to-design-your-teams=
+-for-modern-software-systems-matthew-skelton-devopscon-munich-2016
+
+
+A handy detailed comparison of various security auditing and enforcement t=
+ools=2C including seccomp=2C  SELinux=2C Apparmor=2C Sysdig falco and audi=
+td.
+
+https://sysdig.com/blog/selinux-seccomp-falco-technical-discussion/
+
+
+An interesting analysis of some data looking at container usage=2C in part=
+icular at operating system usage=2C differences in opinions between differ=
+ent types of users and how much security factors into container choices.
+
+https://redmonk.com/fryan/2016/12/01/containers-in-production-is-security-=
+a-barrier-a-dataset-from-anchore/
+
+
+An interesting post on an evolving architecture to deal with interdependen=
+t RPC services=2C using graphs to simplify complex systems code.
+
+https://blog.twitter.com/2016/simplify-service-dependencies-with-nodes
+
+
+slow_cooker is a load tester designed explicitly for long-running load tes=
+ts to identify lifecycle issues. Very handy for latency or GC sensitive ne=
+twork systems.
+
+https://blog.buoyant.io/2016/12/09/slow-cooker-load-testing-for-tough-soft=
+ware/
+https://github.com/buoyantio/slow_cooker
+
+
+A look at a real-world data architecture=2C discussing the large range of=
+ tools in use and how best to make sure they can all operate safely on the=
+ same data.
+
+https://slack.engineering/data-wrangling-at-slack-f2e0ff633b69#.8dfjgpnyv
+
+
+An interesting look at Docker adoption=2C specifically looking at one data=
+ set around the growth of ECS=2C in particular being correlated with incre=
+asing use of Docker and growth in images.
+
+https://www.datadoghq.com/blog/3-clear-trends-in-ecs-adoption/
+
+
+A nice case study of one organisations road to adopting continuous deploym=
+ent=2C including changes to how the team worked=2C new processes and new t=
+echnology.
+
+https://speakerdeck.com/mrook/the-road-to-continuous-deployment-devopscon-=
+munchen-2016
+
+
+Jobs
+=3D=3D=3D=3D
+
+Riffyn (Oakland=2C CA) seeks a lead DevOps engineer to operate and scale o=
+ur development and production infrastructure on AWS=2C and support operati=
+onal integrations with Riffyn=E2=80=99s enterprise customers. Riffyn provi=
+des research design and analytics software (SaaS) to global biotech=2C pha=
+rmaceutical=2C food and chemical companies. Riffyn offers a unique =E2=80=
+=9Cdesign-first=E2=80=9D approach to scientific product development to bri=
+ng medicines and greener materials to market faster.
+
+http://riffyn.com/lead-devops-engineer/
+
+
+ThoughtWorks is looking for Infrastructure Developers to join their teams=
+ across the United States. You'll work with a variety of client developmen=
+t teams to understand and improve continuous delivery=2C and deploy and ma=
+nage virtualized and/or containerized workloads across development through=
+ production. The technology you build will break through traditional organ=
+izational models and establish a lasting DevOps culture. Roles are offered=
+ in Atlanta=2C Chicago=2C Dallas=2C Denver=2C New York=2C and San Francisc=
+o.
+
+https://www.thoughtworks.com/jobs/502797
+
+
+Special offer
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Terraform has featured regularly in this newsletter since it=E2=80=99s rel=
+ease=2C and the Terraform Book is an excellent introduction for beginners=
+ with enough solid material for old hands. The author has kindly provided=
+ a discount code for newsletter readers which will see 20% of the price of=
+ any of the bundles. Just use DEVOPSWEEKLYTF at checkout.
+
+https://terraformbook.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+I=E2=80=99m seeing lots of interest in using Kubernetes as a platform on w=
+hich to run serverless architectures. Fission looks like a good early appr=
+oach to this=2C although it=E2=80=99s described as being in =E2=80=9Cearly=
+ alpha=E2=80=9D.
+
+http://fission.io/
+https://github.com/platform9/fission
+
+
+pREST is a handy looking tool for very simply exposing a PostgreSQL databa=
+se via an HTTP interface.
+
+https://github.com/nuveo/prest
+
+
+Anistrano is a port of the features and usage patterns of Capistrano 2.0 t=
+o Ansible=2C providing a deploy and rollback role to aid with application=
+ deployment.
+
+https://github.com/ansistrano/deploy
+
+
+Jid is a simple tool for exploring JSON documents interactively. Very hand=
+y if you=E2=80=99re dealing with large JSON documents=2C say with the AWS=
+ CLI responses.
+
+https://github.com/simeji/jid
+
+
+Grafanalib is a nifty library for generating Grafana dashboards from simpl=
+e Python scripts.
+
+https://github.com/weaveworks/grafanalib
+
+
+
+The "2016/17 State of On-Call" report from VictorOps is now available to d=
+ownload. Learn what 800+ respondents have to say about life on-call=2C and=
+ steps they're taking to make it better. Get your free copy here:
+
+https://victorops.com/state-of-on-call-2016/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

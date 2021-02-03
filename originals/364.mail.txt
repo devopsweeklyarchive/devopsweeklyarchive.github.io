@@ -1,0 +1,145 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#364?=
+Date: Sun, 17 Dec 2017 13:21:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #364 - 17th December 2017
+
+A selection of links this week from KubeCon=2C as well as a bunch of other=
+ non-Kubernetes related posts and tools for everyone else.
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+A robust mobile app is essential for on-call. See why VictorOps updated bo=
+th native iOS and Android apps.
+
+http://try.victorops.com/DevOpsWeekly/MobileBlog
+
+
+KubeCon
+=3D=3D=3D=3D=3D=3D=3D
+
+One of my favourite talks from KubeCon=2C drawing comparisons between how=
+ Kubernetes could evolve with the management of the linux kernel and linux=
+ distributions.
+
+https://speakerdeck.com/thockin/kubecon-2017-kernels-and-distros
+
+
+A good overview of the current state of container build=2C describing the=
+ problem and then reviewing a number of tools all with different tradeoffs=
+=2E
+
+https://www.slideshare.net/MichaelDucy/survey-of-container-build-tools-835=
+16254
+
+
+A useful post with observations about Kubernetes from a Docker perspective=
+=2E Useful if you=E2=80=99re investigating Kubernetes and are already famili=
+ar with Docker tooling.
+
+https://jpetazzo.github.io/2017/12/06/letter-to-santa-kube/
+
+
+I gave a talk at KubeCon on the need for developer tooling around Kubernet=
+es configuration=2C in particular drawing on the mature testing practices=
+ from traditional configuration management tools and applying the same ide=
+as to Kubernetes.
+
+https://speakerdeck.com/garethr/developer-tooling-for-kubernetes-configura=
+tions
+
+
+An important post for anyone looking at running a Kubernetes cluster. What=
+ makes for a production-grade experience? A quick rundown of various prope=
+rties and some of the tools that do and don=E2=80=99t support them.
+
+https://5pi.de/2017/12/15/production-grade-kubernetes/
+
+
+A nice write-up of the KubeCon event from a first-time attendee. Links to=
+ some of the talks and pulls out community=2C stability and innovation as=
+ the main takeaways.
+
+https://medium.com/@ryandotclair/reflecting-on-kubecon-2017-c6ef22ce4b21
+
+
+News
+=3D=3D=3D=3D
+
+A great post with tips for anyone working on a team which supports interna=
+l developers. Discussion of a free-market software culture=2C internal too=
+ls support=2C treating tools as products and more.
+
+http://engineroom.ft.com/2017/12/01/tips-for-in-house-teams-in-a-free-mark=
+et-software-culture/
+
+
+With microservices and containers it=E2=80=99s a regular refrain that ever=
+yone now has distributed systems problems now. But what do we mean when we=
+ say something is a distributed system? This post provides a useful defini=
+tion.
+
+http://container-solutions.com/what-is-a-distributed-system/
+
+
+A detailed introduction to Kafka=2C covering what Kafka is=2C how it scale=
+s out=2C where you might use it and a look at the new KSFL DSL for writing=
+ streaming jobs.
+
+https://hackernoon.com/thorough-introduction-to-apache-kafka-6fbf2989bbc1
+
+
+A detailed set of posts on monitoring PostgreSQL. The first post covers wh=
+at metrics you should keep an eye on when running PostgreSQL=2C and the se=
+cond post delves into a number of the tools for doing so.
+
+https://www.datadoghq.com/blog/postgresql-monitoring/
+https://www.datadoghq.com/blog/postgresql-monitoring-tools/
+
+
+Interesting post on applying devops practices to large organisations. Some=
+ opinionated historical context and some discussion of similarities and di=
+fferences between devops and matrix management=2C agile and digital transf=
+ormation.
+
+http://www.automationlogic.com/devops-make-sense-large-organisations-kris-=
+saxton/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kashti is a dashboard for anyone using Brigade=2C a tool I=E2=80=99ve ment=
+ioned previously for building elaborate pipelines composed of multiple con=
+tainers running on Kubernetes.
+
+https://open.microsoft.com/2017/12/06/kashti-kubernetes-open-source-micros=
+oft/
+https://github.com/Azure/kashti
+
+
+Jo is a handy utility which can output JSON based on arguments to the CLI=
+ tool. Handy for API testing and other use cases.
+
+https://github.com/jpmens/jo
+
+
+Kitchen Terraform is a plugin for Test Kitchen to allow for testing resour=
+ces provisioned by Terraform.
+
+https://newcontext-oss.github.io/kitchen-terraform/
+
+
+
+A robust mobile app is essential for on-call. See why VictorOps updated bo=
+th native iOS and Android apps.
+
+http://try.victorops.com/DevOpsWeekly/MobileBlog
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

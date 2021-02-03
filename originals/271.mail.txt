@@ -1,0 +1,166 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#271?=
+Date: Sun, 6 Mar 2016 14:10:09 +0000
+
+DEVOPS WEEKLY
+ISSUE #271 - 6th March 2016
+
+A pretty packed issue this week with some great longform pieces on deploym=
+ent=2C metrics visualisation and the evolution of container management as=
+ well as introductions to new technology=2C how large IT organisations are=
+ changing and more. Enjoy.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] The Art of DevOps
+
+Inspired by the famous 6th century Chinese manuscript: The Art of War=2C t=
+his eBook discusses DevOps in the form of a mission to continuously delive=
+r assets to the operational battlegrounds safely=2C securely=2C and quickl=
+y.
+
+http://ow.ly/U3Jlm
+
+
+News
+=3D=3D=3D=3D
+
+I=E2=80=99m nearly always happy to help promote surveys as the more folks=
+ who complete them the more interesting the results tend to be. This surve=
+y from The New Stack is covering a wide breadth of real-world container us=
+age.
+
+http://thenewstack.io/container-orchestration-survey/
+
+
+There are a wide range of different ways of presenting timeseries metrics=
+=2C and it=E2=80=99s easy to just rely on obvious presentations. This post=
+ digs into lots of different ways of presenting timeseries data=2C and why=
+ you might use each of them.
+
+https://www.datadoghq.com/blog/timeseries-metric-graphs-101/
+
+
+A detailed post on everything to do with deploying software. Everything fr=
+om branching strategies to monitoring to feature flags and queuing and loc=
+ks to audit trails.
+
+https://zachholman.com/posts/deploying-software
+
+
+A paper on Borg=2C Omega=2C and Kubernetes - Lessons learned from three co=
+ntainer-management systems over a decade. Focused on the evolution of cont=
+ainer management software within Google with some notes on hard=2C open pr=
+oblems.
+
+http://queue.acm.org/detail.cfm?id=3D2898444
+
+
+A great post showing how to use the rkt container runtime. Lots of example=
+s and just enough context=2C a useful read with rkt having just hit 1.0./
+
+http://blog.codeship.com/getting-started-rkt/
+
+
+A side-by-side comparison of configuring the same piece of software (Sensu=
+ in this case) using Puppet=2C Chef=2C Salt and Ansible.
+
+http://www.xkyle.com/a-configuration-management-rosetta-stone-configuring-=
+sensu-with-puppet-chef-ansible-and-salt/
+
+
+An excellent example of using audit logs and a chat interface to provide e=
+ffective security monitoring around sensitive activity on your servers.
+
+https://slack.engineering/distributed-security-alerting-c89414c992d6#.5m0q=
+o2ie4
+
+
+A high level look at four things which are shaping the future of IT; from=
+ the idea that software is eating the world to open source and the challen=
+ge for the typical enterprise of becoming a software company.
+
+http://www.cio.com/article/3040853/software/4-principles-that-will-shape-t=
+he-future-of-it.html
+
+
+A post focusing on the business benefits for adopting containers (focused=
+ on Docker) focused on cost reduction=2C standardisation=2C time to market=
+ and resource consolidation.
+
+https://www.brianchristner.io/how-to-create-a-docker-business-case/
+
+
+A low level look at how strace works=2C including examining the ptrace sys=
+tem call.
+
+http://blog.packagecloud.io/eng/2016/02/29/how-does-strace-work/
+
+
+A nice reminder that problems with deployments often start with a differen=
+t in how production and development environments are managed. Some interes=
+ting points about scale differences for data-intensive infrastructures as=
+ well.
+
+http://www.svds.com/crossing-the-development-to-production-divide/
+
+
+If you=E2=80=99re doing anything with relational databases it=E2=80=99s im=
+portant to have a good understanding of indexes if you want things to work=
+ well. This post is a nice introduction from first principles to indexes u=
+sing PostgreSQL.
+
+http://eftimov.net/postgresql-indexes-first-principles
+
+
+A nice=2C very visual=2C introduction to unikernels and the problems they=
+ aim to solve.
+
+http://www.slideshare.net/JakubJermar/unikernels-the-new-kids-on-the-block
+
+
+Jobs
+=3D=3D=3D=3D
+
+Hired gives top DevOps Engineers more power in their job search. In 1 week=
+ you'll get 8+ offers from top tech companies around the US and UK. Want t=
+o learn more? Check out Hired today!
+
+http://hrd.cm/23r2ok5
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+CPUStat describes itself as a =E2=80=9Cfancy top=E2=80=9D. It=E2=80=99s an=
+ interactive tool for analysing CPU utilization and saturation in a helpfu=
+l way=2C focusing on taking highly granular samples every 200ms.
+
+https://github.com/uber-common/cpustat
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

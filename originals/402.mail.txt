@@ -1,0 +1,141 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#402?=
+Date: Sun, 9 Sep 2018 10:00:59 +0000
+
+DEVOPS WEEKLY
+ISSUE #402 - 9th September 2018
+
+Several posts this week on the people and process side of operations; a gr=
+eat example service handbook=2C the evolution of ITSM=2C and several on th=
+e technical side; in particular on kubernetes networking and testing tools=
+ for local SDN.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Choosing the right tools for cross-functional=2C collaborative DevOps team=
+s can present a challenge. Check out what to look for when implementing to=
+ols to optimize your incident management and DevOps workflows:
+
+http://try.victorops.com/devopsweekly/choosing-devops-tools
+
+
+News
+=3D=3D=3D=3D
+
+Running a production services benefits greatly from well documented and es=
+tablished processes and procedures. This public example of a handbook for=
+ running a large online service makes for a great public example.
+
+https://www.atlassian.com/software/jira/ops/handbook
+
+
+A call for a more fundamental look at ITSM that just integrating specific=
+ aspects of Devops practices and incremental improvement of existing proce=
+sses.
+
+https://medium.com/@JonHall_/itsm-needs-its-own-devops-renaissance-but-it-=
+wont-find-it-by-copying-devops-d2abf37f73c2
+
+
+Starting any transformation in an organisations needs to build momentum=2C=
+ which makes how to pick the first projects to work on an important consid=
+eration.
+
+https://medium.com/@cote/a-small-series-of-projects-d6107c3d9d3e
+
+
+A good post on three emerging patterns for cloud native application develo=
+pment=2C looking at service virtualisation=2C canary releases and differen=
+t local development approaches.
+
+https://hackernoon.com/three-patterns-for-an-effective-cloud-native-develo=
+pment-workflow-6f59525f5bf1
+
+
+An argument to run less software=2C mainly argued from an organisation opt=
+imisation point of view=2C which might be useful when arguing the same to=
+ reduce operational complexity.
+
+https://www.intercom.com/blog/run-less-software/
+
+
+A nice overview to the problem of multi-node networking=2C looking at how=
+ Kubernetes networking is particular is built atop network namespaces=2C a=
+nd how appswitch helps to manage the problem.
+
+http://appswitch.io/blog/kubernetes_istio_and_network_function_devirtualiz=
+ation_with_appswitch/
+
+
+A look at the core features of time series data=2C and a quick summary of=
+ several open source tools that provide this functionality.
+
+https://opensource.com/article/18/8/open-source-monitoring-tools
+
+
+Jobs
+=3D=3D=3D=3D
+
+(Senior) Software Engineer=2C Development Platform
+
+FreeAgent is one of the leading online accounting platforms=2C loved by ov=
+er 65=2C000 freelancers=2C small business owners and their accountants. We=
+=E2=80=99re on the look out for an experienced mid or senior level softwar=
+e engineer with a DevOps mindset to join a small team that helps our devel=
+opers and designers do their best work=2C more efficiently. You=E2=80=99ll=
+ be joining a development platform team that=E2=80=99s responsible for our=
+ in-house CI/CD pipeline doing thousands of builds and hundreds of product=
+ion deployments every month. We develop various internal tools and integra=
+tions=2C involving both back-end and front-end work=2C and coming soon we'=
+ll be looking at next generation metrics and alerting=2C and investigating=
+ the potential benefits of managed cloud services and container-based depl=
+oyments.
+
+https://www.freeagent.com/company/careers/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Now through 14 September: Save up to =C2=A3519 on your pass to Velocity in=
+ London
+
+The O'Reilly Velocity Conference is returning to London=2C 30 October to 2=
+ November=E2=80=94and just wait until you see who will be there: Crystal H=
+irschorn (Director of Engineering=2C Cond=C3=A9 Nast International)=2C Mar=
+tin Kleppmann (Software engineer=2C entrepreneur=2C and author=2C Universi=
+ty of Cambridge)=2C Sarah Wells (Principal Engineer=2C Financial Times)=2C=
+ plus another 66 experts and thoughtleaders. And that's just the speakers.=
+ Velocity attendees are a pretty fascinating bunch=2C too. Don't miss this=
+ unique opportunity to discuss the latest in DevOps=2C Systems Engineering=
+=2C Infrastructure=2C Security=2C and more with those working on the front=
+ lines.
+
+As a DevOps Weekly reader=2C you'll save 20% on your pass with code DOW20.=
+ Register before Early Price ends on 14 September to save up to =C2=A3519!
+
+https://oreil.ly/2tC4z9q
+
+
+Tools
+=3D=3D=3D=3D
+
+Mininet is a handy tool for creating a local realistic virtual network=2C=
+ running real kernel=2C switch and application code=2C on a single machine=
+=2E Useful for experimenting with OpenFlow and SDN.
+
+http://mininet.org/
+
+
+Choosing the right tools for cross-functional=2C collaborative DevOps team=
+s can present a challenge. Check out what to look for when implementing to=
+ols to optimize your incident management and DevOps workflows:
+
+http://try.victorops.com/devopsweekly/choosing-devops-tools
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

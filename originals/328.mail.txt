@@ -1,0 +1,148 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#328?=
+Date: Sun, 9 Apr 2017 12:06:27 +0000
+
+DEVOPS WEEKLY
+ISSUE #328 - 9th April 2017
+
+More operations content this week=2C with great posts on the importance of=
+ documentation=2C practical points about the four pillars of devops=2C wha=
+t developers can do to make operations easier and on the importance of saf=
+ety when building effective teams.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Are your incident management skills sharp=2C or are you continuously fight=
+ing fires? Take the free=2C online incident management assessment from Vic=
+torOps and compare your practices against leading DevOps methodologies.
+
+http://try.victorops.com/ima/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+DevOps Journey Series: End User Monitoring [replay]
+
+When measuring DevOps success=2C it=E2=80=99s not just about feature deliv=
+ery speed=2C but how end users respond to your innovation. Watch part 3 of=
+ our DevOps Journey Series and get practical tips for end user monitoring=
+ that you can implement quickly.
+
+http://ow.ly/Ug4A309wkmC
+
+
+News
+=3D=3D=3D=3D
+
+A solid argument for why you shouldn=E2=80=99t use environment variables f=
+or secrets=2C in particular that the use of ENV for secrets provides lots=
+ of opportunities for secrets to be accidentally leaked.
+
+https://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-=
+secret-data/
+
+
+An interesting presentation looking at the role of developers in enabling=
+ good operations and self-service platforms.
+
+https://www.slideshare.net/Rundeck/helping-ops-help-you-developments-role-=
+in-enabling-selfservice-operations
+
+
+An indepth look at the use of good old DNS=2C covering monitoring and mana=
+gement as well as the use of DNS for service discovery.
+
+https://labs.spotify.com/2017/03/31/spotifys-lovehate-relationship-with-dn=
+s/
+
+
+A good look at the importance of process and documentation when it comes t=
+o operations at scale=2C with some great real-world examples and takeaways=
+=2E
+
+https://zwischenzugs.wordpress.com/2017/04/04/things-i-learned-managing-si=
+te-reliability-for-some-of-the-worlds-busiest-gambling-sites/
+
+
+A post on the critical importance of safety in building effective teams. C=
+ontains a list of pathologies and how they impact on the formation of agil=
+e=2C self-organising groups of people.
+
+https://theitriskmanager.wordpress.com/2017/04/01/executives-and-safety/
+
+
+Many readers of this newsletter probably spend a fair amount of time at th=
+e command line=2C so this criticism of how we view this user interface is=
+ likely worth reading (although it would have been interesting to get a vi=
+ew of PowerShell in there too.)
+
+http://mkremins.github.io/blog/unix-not-acceptable-unix/
+
+
+Many systems expose some sort of API for other systems to consume=2C but w=
+hat makes an API fit-for-purpose? This post looks at the importance of mon=
+itoring=2C acceptance tests=2C generated documentation and other good idea=
+s.
+
+https://medium.com/salesforce-engineering/setting-up-a-web-api-for-success=
+-ff039f76d322
+
+
+A good recap on the main principles of Devops=2C with some of the organisa=
+tion and cultural antipatterns explained=2C and some interesting points on=
+ repeating some of this errors when adopting containers.
+
+https://www.slideshare.net/KrisBuytaert/run-stuff-deploy-stuff-jax-london-=
+2017-edition
+
+
+Jobs
+=3D=3D=3D=3D
+
+CL seeks a UNIX/Linux systems administrator to join a small (~50)=2C tech-=
+driven=2C laid-back workplace to assist in maintaining a stable and scalab=
+le platform where milliseconds matter.  Come help us save the world=2C or=
+ at least our corner of the Internet.
+
+https://www.craigslist.org/about/craigslist_is_hiring
+
+
+DevOps has come a long way. So has job hunting. Try Hired
+
+http://hrd.cm/2jHrf1B
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+springboard is a cli utility to help get your secrets into vault. It allow=
+s for storing encrypted files in source control=2C and publishing those se=
+crets securely in Vault.
+
+https://github.com/benschw/springboard
+
+
+One of the issues for some with the unikernel approach is the need to use=
+ specific programming languages. This demonstration shows a possible alter=
+native=2C in this case transpiling PHP.
+
+https://github.com/tfjmp/php2uni
+https://www.cl.cam.ac.uk/research/srg/opera/publications/papers/2017ic2ePH=
+P2Uni.pdf
+
+
+
+Are your incident management skills sharp=2C or are you continuously fight=
+ing fires? Take the free=2C online incident management assessment from Vic=
+torOps and compare your practices against leading DevOps methodologies.
+
+http://try.victorops.com/ima/devopsweekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

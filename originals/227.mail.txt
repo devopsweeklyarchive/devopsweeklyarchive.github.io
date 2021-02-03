@@ -1,0 +1,166 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#227?=
+Date: Sun, 10 May 2015 10:43:20 +0000
+
+DEVOPS WEEKLY
+ISSUE #227 - 10th May 2015
+
+The first post this week is all about leadership=2C mentoring and team bui=
+lding - all hugely important aspects of embracing devops practices and cul=
+ture. I=E2=80=99d love to see more discussion of how the ideals around dev=
+ops have influenced people=E2=80=99s day-to-day work. Get writing and send=
+ me your links.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored Event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] 3 expert tips to enable a DevOps transformation & more
+
+Companies utilizing DevOps practices are 2.5x more likely to exceed profit=
+ability=2C market share=2C and productivity goals. Get expert tips to enab=
+le a high performance DevOps transformation from guru Gene Kim=2C co-autho=
+r of The Phoenix Project=2C and other experts.
+
+http://cpwr.it/KigTf
+
+
+News
+=3D=3D=3D=3D
+
+An excellent piece on leadership=2C mentoring and the soft skills required=
+ to help build a high functioning devops team.
+
+http://biven.org/leadership-and-mentoring-for-devops/
+
+
+A good writeup from the recent Devops Days Austin event=2C with links to p=
+resentations on securing chat tools for chatops=2C of-shore development te=
+ams=2C breaking down silos and technical compliance.
+
+http://tylerturk.com/devopsdays-atx/
+
+
+A detailed writeup of a pretty impressive debugging session involving bugs=
+ in Zookeeper and the Linux Kernel.
+
+http://www.pagerduty.com/blog/the-discovery-of-apache-zookeepers-poison-pa=
+cket/
+
+
+How to embrace a devops culture nearly always touches on how best to test=
+ software. This article makes some good suggestions=2C contrasting with a=
+ recent post from Google.
+
+https://www.symphonious.net/2015/04/30/making-end-to-end-tests-work/
+
+
+A nice analysis of the recent Google Borg paper. If you=E2=80=99re interes=
+ting in where Kubernetes came from this is worth reading.
+
+http://blog.acolyer.org/2015/05/07/large-scale-cluster-management-at-googl=
+e-with-borg/
+
+
+A post on some of the current problems with virtualization for some use ca=
+ses. Lots of details but not much about advancements in virtualization=2C=
+ benefits and It=E2=80=99s probably a bit too pro-container to be balanced
+
+http://radar.oreilly.com/2015/05/the-unwelcome-guest-why-vms-arent-the-sol=
+ution-for-next-gen-applications.htmlhttp://radar.oreilly.com/2015/05/the-u=
+nwelcome-guest-why-vms-arent-the-solution-for-next-gen-applications.html
+
+
+Some observations about the app container standard and rtk container imple=
+mentation=2C with a focus on what the end user gets (or doesn=E2=80=99t) f=
+rom competing standards.
+
+http://rhelblog.redhat.com/2015/05/05/rkt-appc-and-docker-a-take-on-the-li=
+nux-container-upstream/
+
+
+An interesting post looking at the potential impact of containers on multi=
+-tenancy vs single-tenancy architecture decisions.
+
+http://samnewman.io/blog/2015/05/05/single-tenancy-vs-multi-tenancy/
+
+
+A nice breakdown of the main metrics you should be monitoring if you=E2=80=
+=99re running elasticsearch in production.
+
+http://blog.sematext.com/2015/05/05/top-10-elasticsearch-metrics-to-watch/
+
+
+Jobs
+=3D=3D=3D=3D
+
+We at trivago are looking for an experienced Site Reliability Engineer to=
+ join the world=E2=80=99s largest hotel search and ensure a reliable=2C fa=
+ult-tolerant production environment. If PHP is your mother tongue then we=
+ should talk!
+
+http://www.trivago.com/jobs/details/938-site-reliability-engineer?cip=3D99=
+060001012484
+
+
+ClusterHQ=2C the newly funded open source provider of containerisation sof=
+tware=2C needs your automation skills to create and run a world-class engi=
+neering environment. This is chance to be part of something significant=2C=
+ where you can have influence and be recognised. Discretionary relocation=
+ assistance is offered=2C to Bristol UK - fast becoming the cloud computin=
+g hub of Europe and renowned for its high quality of life;
+
+http://techfolk.co.uk/current-jobs/senior-devops-engineer-central-bristol-=
+tl70
+
+
+Sainsbury Digital are looking for Devops Engineers in London and Coventry.=
+ The job will involve everything from configuration management and infrast=
+ructure provisioning to deployment=2C automated testing and monitoring. Yo=
+u'll be working collaboratively with delivery teams to define requirements=
+ and to implementing process=2C all with the aim of increasing the pace of=
+ change while protecting the live services. You should have experience of=
+ managing some of Windows=2C Linux and Solaris as well as experience with=
+ tools such as Perl=2C Python=2C Powershell=2C Ansible=2C Chef=2C Git and=
+ Ruby.
+
+http://www.sainsburys.work/dandt
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Apollo is a collection of tools (Mesos=2C Weave=2C Docker=2C Consul=2C HAP=
+roxy and more) integrated together to allow for building your own platform=
+-as-a-service.
+
+https://github.com/Capgemini/Apollo
+
+
+Nulecule is a work-in-progress specification for an open format to describ=
+e multi-component applications=2C similar to Docker Compose. I=E2=80=99ve=
+ included a link to an example manifest too.
+
+https://github.com/projectatomic/nulecule
+https://github.com/projectatomic/atomicapp/blob/master/examples/wordpress/=
+nulecule
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,116 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#517?=
+Date: Sun, 22 Nov 2020 11:20:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #517  - 22nd November 2020
+
+With KubeCon finishing up this last week we have a fair amount of Kubernet=
+es news this week=2C but if that=E2=80=99s not your thing look out for som=
+e good posts on embracing collaboration when it comes to security teams=2C=
+ not blaming workarounds for problems and some great learning material for=
+ distributed systems topics.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+The shift to rapid=2C frequent deployments over the past decade initially=
+ left application security behind. Modern AppSec belongs in the CI/CD pipe=
+line.
+
+https://sthwk.com/app-sec-in-pipeline
+
+
+News
+=3D=3D=3D=3D
+
+Workarounds might be inevitable in complex people and computer systems=2C=
+ how can we identify and remove the need for workarounds that lead to secu=
+rity problems?
+
+https://surfingcomplexity.blog/2020/07/20/how-could-they-be-so-stupid/
+
+
+A presentation stepping through improving application security by supporti=
+ng developers with security expertise and services. Secure API design=2C t=
+hread modelling and more good tips.
+
+https://speakerdeck.com/abhaybhargav/devsecoops-stories-of-devsecops-failu=
+res-and-success
+
+
+A long post telling the story of a long-running migration to Kubernetes. L=
+ots of details about the why=2C monitoring=2C automation=2C governance and=
+ more.
+
+https://lambda.grofers.com/learnings-from-two-years-of-kubernetes-in-produ=
+ction-b0ec21aa2814
+
+
+Some observations from last week's KubeCon event=2C looking at the content=
+ presented and what it might mean about the maturity of the community and=
+ project.
+
+https://harness.io/2020/11/kubecon-2020-recap-maturity-in-cloud-native/
+
+
+Distributed systems have lots of interesting properties that warrant detai=
+led study=2C and this up-to-date set of course material (notes slides and=
+ videos) is a great start for anyone seeking more in-depth knowledge.
+
+https://martin.kleppmann.com/2020/11/18/distributed-systems-and-elliptic-c=
+urves.html
+
+
+An interesting look at the scale of the growing BPF ecosystem. Lots of too=
+ls at lots of different layers of the stack=2C with a focus on Kubernetes=
+ use cases.
+
+https://speakerdeck.com/ahrkrak/beyond-the-buzzword-bpfs-unexpected-role-i=
+n-kubernetes
+
+
+A new report on container adoption. Lots of interesting aggregate data on=
+ cloud provider Kubernetes adoption=2C popular stateful container applicat=
+ions=2C container registry usage and more.
+
+https://www.datadoghq.com/container-report/
+
+
+A 12 part series on running .NET applications on Kubernetes. Everything fr=
+om Helm charts to health checks and database migrations to rolling deploym=
+ents.
+
+https://andrewlock.net/series/deploying-asp-net-core-applications-to-kuber=
+netes/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Ever found yourself wanting to quickly look up DNS information? Dog is a C=
+LI tool with a nice user interface and the ability to output JSON.
+
+https://dns.lookup.dog/
+
+
+illuminatio is a tool for automatically testing kubernetes network policie=
+s. Simply execute illuminatio clean run and illuminatio will scan your kub=
+ernetes cluster for network policies=2C build test cases accordingly and e=
+xecute them to determine if the policies are in effect.
+
+https://github.com/inovex/illuminatio
+
+
+Karpenter is a metrics-driven autoscaler built for Kubernetes and can run=
+ in any Kubernetes cluster anywhere. It's performant=2C extensible=2C and=
+ can autoscale anything that implements the Kubernetes scale subresource
+
+https://github.com/awslabs/karpenter
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

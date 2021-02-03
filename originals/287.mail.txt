@@ -1,0 +1,178 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#287?=
+Date: Sun, 26 Jun 2016 16:30:08 +0000
+
+DEVOPS WEEKLY
+ISSUE #287 - 26th June 2016
+
+This issue might be a bit heavy on content from Velocity and DockerCon=2C=
+ but luckily both events were excellent and contained lots of great talks.=
+ Normal service will resume next week.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+The cost of downtime is growing but DevOps practices & real-time incident=
+ management solutions can help to reduce MTTR.
+
+Learn more: http://try.victorops.com/downtime_data/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Sprinting for Success: Digital Transformation through Agile and DevOps
+
+Join our webinar and discover how Verizon digitally transformed their IT o=
+rganization using a DevOps approach. You=E2=80=99ll learn how they re-inve=
+nted the way they develop=2C deploy and run the software supporting their=
+ business. This enabled them to be ahead of the competition=2C profitable=
+=2C and relevant in an era of increasing customer expectations. If you can=
+=E2=80=99t make the webinar=2C be sure to register and we=E2=80=99ll send=
+ you the replay and slides.
+
+http://ow.ly/ooQd300TUwM
+
+
+Velocity
+=3D=3D=3D=3D=3D=3D
+
+I managed to somehow do a talk at Velocity where I debated myself on the t=
+opic of software adoption=2C focusing on the Google Infrastructure for Eve=
+ryone Else meme.
+
+https://speakerdeck.com/garethr/the-two-sides-to-google-infrastructure-for=
+-everyone-else
+
+
+We=E2=80=99re all individually and collectively making technical decisions=
+ all the time. But are they the right ones? This excellent presentation pr=
+esents some handy tips for making better decisions.
+
+https://speakerdeck.com/charity/a-young-ladys-primer-to-technical-decision=
+-making
+
+
+A tale of running Nagios in production for 10 years. A tale of constant im=
+provement and learning=2C and the addition and building of tools to improv=
+e the operator experience.
+
+http://www.slideshare.net/lozzd/leveling-up-monitoring-a-decade-of-automat=
+ing-and-scaling-nagios
+
+
+This talk covered the importance of design to building an effective securi=
+ty organisation. Lots of good tips and a good reminder that security is a=
+ wide ranging multi-disciplinary activity.
+
+https://dymaxion.org/talks/2016-Velocity-SantaClara-YouGotYourSecurityTeam=
+InMyDesignTeam.pdf
+
+
+Similar to the Nagios talk above=2C this one covers the evolution of Elast=
+icSearch=2C Logstash and Kibana in the same organisation. I like this form=
+at.
+
+http://www.slideshare.net/avleenvig/elk-mooseively-scaling-your-log-system
+
+
+DockerCon
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+One of the announcements that got the most interest at DockerCon was the n=
+ew swarm integration. This post explores the new service model and the bui=
+lt-in load balancer.
+
+http://container-solutions.com/hail-new-docker-swarm/
+
+
+I also got to speak at DockerCon=2C on The Dockerfile explosion and the ne=
+ed for higher level tools. All about scaling image build=2C with some idea=
+s for the future and a run through various community tools.
+
+https://speakerdeck.com/garethr/the-dockerfile-explosion-and-the-need-for-=
+higher-level-tools
+
+
+A handy set of blog posts with notes from both DockerCon keynotes. The fir=
+st covers new software or updates to docker. Day 2 focused on partnerships=
+ and the ecosystem.
+
+http://blog.scottlowe.org/2016/06/20/dockercon-2016-day-1-keynote/
+http://blog.scottlowe.org/2016/06/21/dockercon-2016-day-2-keynote/
+
+
+Inspired by the closing demos at DockerCon=2C this post demonstrates an ap=
+proach to using docker to provide a function as a service/serverless frame=
+work this time in Go.
+
+https://medium.com/@chanwit/function-as-a-service-for-docker-609677b9ba3b#=
+=2E9ztg9a3e6
+
+
+An opinion about what the integration of swarm into docker engine means fo=
+r other orchestrators=2C and the various companies in the space.
+
+https://medium.com/@cloud_opinion/container-orchestration-market-gets-exci=
+ting-37e29ae0d069#.8fyz4no70
+
+
+News
+=3D=3D=3D=3D
+
+The Pets vs Cattle metaphor is oft-used. This post makes the case that it=
+=E2=80=99s no longer a useful way of talking about our systems=2C in parti=
+cular because the reality is a blur of state of converged systems.
+
+http://bitmason.blogspot.com/2016/06/the-end-of-cattle-vs-pets.html
+
+
+If you=E2=80=99ve ever wanted to monitor or tune the linux networking stac=
+k then this epic and incredibly detailed post is for you.Fantastically det=
+ailed low-level information.
+
+http://blog.packagecloud.io/eng/2016/06/22/monitoring-tuning-linux-network=
+ing-stack-receiving-data/
+
+
+A good post exploring the AWS ElasticSearch service. Interesting to read e=
+ven if you=E2=80=99re not an ES user as it has a number of good points for=
+ anyone designing SaaS interfaces for existing software.
+
+http://www.havingatinker.uk/aws-elasticsearch-service-woes.html
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+There's been an explosion of tools recently for bootstrapping a Kubernetes=
+ or Docker cluster. Spread is one such tool=2C but with a few nice looking=
+ features around reproducibility.
+
+https://github.com/redspread/spread
+
+
+Entropy is a fault injection system for Docker based systems. Define a pol=
+icy and point it at your docker endpoints to trigger failures of container=
+s to aid with building resilient systems.
+
+https://github.com/buildertools/entropy
+
+
+If you already have a reasonable size AWS setup=2C adopting a tool like Cl=
+oudFormation can mean a lot of re-work. Bellerophon aims to generate CF te=
+mplates automatically from existing AWS resources by querying the API.
+
+https://github.com/arminhammer/bellerophon
+
+
+The cost of downtime is growing but DevOps practices & real-time incident=
+ management solutions can help to reduce MTTR.
+
+Learn more: http://try.victorops.com/downtime_data/DevOpsWeekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

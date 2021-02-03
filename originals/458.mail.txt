@@ -1,0 +1,144 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#458?=
+Date: Sun,  6 Oct 2019 10:36:35 +0000
+
+DEVOPS WEEKLY
+ISSUE #458 - 6th October 2019
+
+Multi-cloud=2C the part caching plays in Serverless architectures=2C conve=
+rsational interfaces and several new tools and events feature this weekend=
+=2E
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Free Webinar] Last chance to register for this week=E2=80=99s live webin=
+ar =E2=80=93 How to Succeed in Machine Learning Without Really Trying. See=
+ how IT and engineering leaders are implementing ML to build more robust s=
+ystems and improve on-call incident response:
+
+http://try.victorops.com/devopsweekly/devops-machine-learning
+
+
+News
+=3D=3D=3D=3D
+
+Multi-cloud often gets folks riled up=2C but in my experience it=E2=80=99s=
+ often the result of distributed decisions and pragmatism rather than one-=
+true architecture. This post does a good job of making that argument.
+
+https://stacksense.io/krishnan/thought-leadership/multi-cloud-happens-but-=
+not-necessarily-by-design/
+
+
+Some hard won tips for optimising an Elasticsearch cluster. Looking at imp=
+roved defaults in recent versions=2C sharding=2C indexing and memory usage=
+=2E
+
+https://medium.com/kudos-engineering/how-we-enhanced-our-elasticsearch-clu=
+ster-84050eb49fad
+
+
+Serverless architectures change a few things about how we build and run sy=
+stems=2C but the basics like caching are still very relevant. This post ex=
+plains why.
+
+https://theburningmonk.com/2019/10/all-you-need-to-know-about-caching-for-=
+serverless-applications/
+
+
+Having a chat interface to ops tools is increasingly common. This post exp=
+lores building such an integration=2C with some good tips for UI design fo=
+r conversational interfaces.
+
+https://www.transposit.com/blog/2019.08.29-dialogflow-cloudwatch/
+
+
+Kubernetes has a concept of liveness probes=2C that help Kubernetes unders=
+tand if an application is running as expected. Unfortunately they have som=
+e downsides that you should be aware of. This post describes when and how=
+ to use them.
+
+https://srcco.de/posts/kubernetes-liveness-probes-are-dangerous.html
+
+
+A look at some of the findings from the State of Devops report=2C in parti=
+cular looking at the correlation between wider devops practices and modern=
+ security processes.
+
+https://www.techrepublic.com/article/latest-research-says-organizations-ne=
+ed-to-integrate-security-principles-with-devops/
+
+
+A look at building a multi-tenant Kubernetes cluster based around Istio an=
+d OpenID Connect.
+
+https://medium.com/hal24k-techblog/multitenancy-on-kubernetes-with-istio-e=
+xternal-authentication-server-and-openid-connect-33e02544e0db
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon + CloudNativeCon North America is coming up in San Diego from the=
+ 18th until the 21st of November. The schedule is packed with talks on the=
+ CNCF projects like Kubernetes=2C Envoy and Helm as well as case studies=
+=2C community meetings and more. The code KCNADOW19 will save DevOps Weekl=
+y readers 10% off the ticket price too.
+
+http://bit.ly/2ko9SrP
+
+
+The O'Reilly Velocity Conference heads to Berlin=2C 4=E2=80=937 November.=
+ Velocity is the best place on the planet for web ops and systems engineer=
+ing professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on cloud native infrastr=
+ucture=2C DevOps=2C Kubernetes=2C and more=2C there's something for everyo=
+ne. Passes start at =E2=82=AC676 when you use the code DEVW20 (applies to=
+ Gold=2C Silver=2C and Bronze passes). Register today!
+
+https://oreil.ly/99PIf
+
+
+The All Day Devops online conference is back=2C featuring 150 speakers acr=
+oss 5 tracks over 24 hours. The programme covers pretty much everything=2C=
+ from security to culture change to SRE to automation and more. Register f=
+or free.
+
+https://www.alldaydevops.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+S3audit is a small tool that quickly checks all of your S3 buckets are sec=
+urely configured=2C from being encrypted to having ACLs in place.
+
+https://github.com/scalefactory/s3audit
+https://medium.com/the-scale-factory/securing-s3-buckets-with-s3audit-a8cb=
+989cb861
+
+
+Wksctl is a new tool for managing Kubernetes clusters. Rather than another=
+ point and shoot tool=2C wksctl aims to make managing many on-demand clust=
+ers easier using a control loop and declarative configuration for the clus=
+ter itself.
+
+https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-git=
+ops
+https://github.com/weaveworks/wksctl
+
+
+
+[Free Webinar] Last chance to register for this week=E2=80=99s live webin=
+ar =E2=80=93 How to Succeed in Machine Learning Without Really Trying. See=
+ how IT and engineering leaders are implementing ML to build more robust s=
+ystems and improve on-call incident response:
+
+http://try.victorops.com/devopsweekly/devops-machine-learning
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,138 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#416?=
+Date: Sun, 16 Dec 2018 17:05:25 +0000
+
+DEVOPS WEEKLY
+ISSUE #416 - 16th December 2018
+
+The Kubernetes community is starting to move on beyond the core APIs and w=
+e=E2=80=99re seeing lots of innovation around custom resources. A few exam=
+ples in today=E2=80=99s newsletter highlight this - for deployment=2C netw=
+orking and user management. I=E2=80=99m sure we=E2=80=99ll see a lot more=
+ happening with CRDs next year too.
+
+
+>From our sponsor=2C Victorops
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Combine the power of on-call scheduling and alerting in one powerful solut=
+ion. When on-call scheduling software is highly integrated with your alert=
+ing platform=2C you improve overall incident visibility and collaboration.=
+ Learn more about managing your on-call and alerting platform:
+
+http://try.victorops.com/devopsweekly/managing-on-call-systems
+
+
+News
+=3D=3D=3D=3D
+
+After a number of discussions at KubeCon last week=2C I wrote up some deta=
+ils about CNAB. This post explains Cloud Native Application Bundles in ter=
+ms of existing emerging patterns and prior-art in the infrastructure as co=
+de space.
+
+https://www.morethanseven.net/2018/12/15/what-is-cnab/
+
+
+A good in-depth post on microservices architectures. It goes into some of=
+ the technical problems=2C but emphasises the social advantages.
+
+https://medium.com/@odedia/microservices-are-for-humans-not-machines-721a6=
+a56344f
+
+
+This post compares and contrasts the classic middleware tier and the enter=
+prise service bus with the new breed of service mesh technologies.
+
+https://www.cloudops.com/2018/09/does-the-service-mesh-spell-the-end-for-m=
+iddleware/
+
+
+An interesting approach to visualising and communicating information about=
+ the health of an IT estate to senior management. Operations tends to focu=
+s on real-time visualisations=2C but big picture has a place for longer-te=
+rm decision makers.
+
+https://medium.com/@pollyrt/the-state-were-in-c7549cb03938
+
+
+Statemaps look like an interesting approach to visualising the state of a=
+ system over time=2C focused mainly on prompting questions amongst observe=
+rs which may warrant investigation.
+
+https://www.slideshare.net/bcantrill/visualizing-systems-with-statemaps
+
+
+A good talk on moving from a smaller team and monolith to a much larger=2C=
+ distributed team and service-based architecture. Lots of real-world techn=
+ology and people observations from a growing team and system.
+
+https://www.infoq.com/presentations/airbnb-soa-migration
+
+
+Notes for a lecture on the different ways of restricting processes in Unix=
+-family operating systems. A tour through ACLs=2C shells=2C chroot=2C cgro=
+ups=2C namespaces and more. Everything that underpins containers today.
+
+https://www.netmeister.org/blog/restricting-processes.html
+
+
+A multi-part series on the architecture of Tomcat as it pertains to monito=
+ring=2C as well as what to monitor and which tools and JVM settings will h=
+elp.
+
+https://www.datadoghq.com/blog/tomcat-architecture-and-performance/
+https://www.datadoghq.com/blog/tomcat-monitoring-tools/
+
+
+Some handy tips for folks adopting there testing approach to devops practi=
+ces=2C mentioning the importance of test data=2C service virtualisation=2C=
+ continuous integration and more.
+
+https://www.agileconnection.com/article/5-key-factors-achieve-agile-testin=
+g-devops
+
+
+Tools
+=3D=3D=3D=3D
+
+Shipper introduces deployment strategies (like blue/green deployments and=
+ canary releases) into the Kubernetes API. Nicely avoids complex CI automa=
+tion or deployment scripts=2C and integrates with Helm charts.
+
+https://github.com/bookingcom/shipper
+
+
+Osiris enables greater resource efficiency within a Kubernetes cluster by=
+ allowing idling workloads to automatically scale-to-zero and allowing sca=
+led-to-zero workloads to be automatically re-activated on-demand by inboun=
+d requests.
+
+https://github.com/deislabs/osiris
+
+
+ecs-deploy is a continuous deployment platform for AWS ECS. It automates d=
+eploys based a simple JSON file which can be integrated in your CI/CD.
+
+https://github.com/in4it/ecs-deploy
+
+
+With more systems comes more places to store user authentication and autho=
+rization information. rbacsync introduces Kubernetes custom resources to a=
+void this problem=2C syncing user details from Google accounts to native K=
+ubernetes RBAC.
+
+https://github.com/cruise-automation/rbacsync
+
+
+Combine the power of on-call scheduling and alerting in one powerful solut=
+ion. When on-call scheduling software is highly integrated with your alert=
+ing platform=2C you improve overall incident visibility and collaboration.=
+ Learn more about managing your on-call and alerting platform:
+
+http://try.victorops.com/devopsweekly/managing-on-call-systems
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

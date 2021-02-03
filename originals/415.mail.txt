@@ -1,0 +1,114 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#415?=
+Date: Sun, 9 Dec 2018 23:53:24 +0000
+
+DEVOPS WEEKLY
+ISSUE #415 - 9th December 2018
+
+Just arriving in Seattle with 8000 others for KubeCon and CloudNativeCon.=
+ The only problem is likely to be keeping up with all the context and anno=
+uncements. If you don=E2=80=99t like Kubernetes you might want to skip nex=
+t week=E2=80=99s issue.
+
+
+>From our sponsor=2C Victorops
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Learn from the state of DevOps in 2018 to make the most of your DevOps str=
+ategy heading into 2019. Find out about the tools and strategies helping t=
+eams make the most of their DevOps transformation:
+
+http://try.victorops.com/devopsweekly/2018-devops-changes-and-trends
+
+
+News
+=3D=3D=3D=3D
+
+Something I=E2=80=99ve been working on recently=2C along with folks from M=
+icrosoft and other tech companies. Cloud Native Application Bundles (CNAB)=
+ is a specification for a general packaging format for multi-service (and=
+ multi-toolchain) applications.
+
+https://cnab.io/
+
+
+The CNAB spec is pretty low-level. Conversely Docker App is a high-level u=
+ser-facing tool for parameterising and sharing Compose based applications=
+=2C including for Kubernetes. It implements the CNAB spec under the hood=
+=2C which opens up signing and all-in-one bundles and compatibility with o=
+ther supporting tools.
+
+https://blog.docker.com/2018/12/docker-app-and-cnab/
+
+
+A nice write-up of solving a scaling problem by distributing work across m=
+ultiple machines=2C looking at features flags to roll out and a service di=
+scovery and locking mechanism to ensure certain characteristics.
+
+https://blog.hostedgraphite.com/2018/12/03/a-victim-of-its-own-popularity-=
+scaling-our-cloudwatch-integration/
+
+
+It=E2=80=99s one thing to setup a CI system=2C but how do you get developm=
+ent teams to adopt it? This post looks at providing a higher-level DSL whi=
+ch makes reuse across teams using similar technologies much easier.
+
+https://betterment.engineering/ci-cd-at-betterment-part-ii-standardizing-t=
+he-interface-69a15f0735f3
+
+
+Two posts that provide both a good overview of the ActiveMQ architecture a=
+nd a deep dive into collecting useful operational metrics from a running i=
+nstance.
+
+https://www.datadoghq.com/blog/activemq-architecture-and-metrics/
+https://www.datadoghq.com/blog/collecting-activemq-metrics/
+
+
+A set of slides on the evolution of devops. Some reading between the lines=
+ required but lots of great reading recommendations and a reminder that de=
+vopsdays (and devops in general) is an amazing story of people sharing and=
+ helping others.
+
+https://www.slideshare.net/jedi4ever/devops-is-dead-long-live-devops-patri=
+ck-debois
+
+
+A good slide deck looking at building a continuous delivery pipeline with=
+ Docker for Java applications. Some general best practices and some specif=
+ic advice for Java developers.
+
+https://www.slideshare.net/dbryant_uk/dockercon-eu-2018-continuous-deliver=
+y-with-docker-and-java
+
+
+Tools
+=3D=3D=3D=3D
+
+Crossplane is an open source multicloud control plane. It introduces workl=
+oad and resource abstractions on-top of existing managed services that ena=
+bles a high degree of workload portability across cloud providers. It prov=
+ides primitives for Azure=2C AWS and GCP out of the box and an API based o=
+n Kubernetes.
+
+https://crossplane.io/
+https://github.com/crossplaneio/crossplane
+
+
+JL is a nice=2C small=2C tool for working with structured logs in JSON. It=
+ provides a nice human-friendly output when logs are piped through JL.
+
+https://github.com/koenbollen/jl
+
+
+
+Learn from the state of DevOps in 2018 to make the most of your DevOps str=
+ategy heading into 2019. Find out about the tools and strategies helping t=
+eams make the most of their DevOps transformation:
+
+http://try.victorops.com/devopsweekly/2018-devops-changes-and-trends
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

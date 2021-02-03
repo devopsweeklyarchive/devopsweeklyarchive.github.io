@@ -1,0 +1,140 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#360?=
+Date: Sun, 19 Nov 2017 11:59:46 +0000
+
+DEVOPS WEEKLY
+ISSUE #360 - 19th November 2017
+
+A collection of posts on monitoring and on the importance of managing cost=
+ this week=2C along with a few good getting started tutorials and other po=
+sts. Enjoy.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Attending AWS re:Invent 2017? Visit the VictorOps booth=2C schedule a meet=
+ing=2C or join us for some after hours fun. See you in Vegas!
+
+http://try.victorops.com/DevOpsWeekly/AWS
+
+
+News
+=3D=3D=3D=3D
+
+An excellent essay on the pitfalls of viewing IT as a cost center=2C and h=
+ow not addressing that as part of digital transformation efforts can lead=
+ to failure.
+
+http://www.leanessays.com/2017/11/the-cost-center-trap.html
+
+
+Monitoring CPU or memory usage is relatively easy=2C but the SRE book prop=
+oses latency=2C traffic=2C errors=2C and saturation as more useful and imp=
+ortant. This post=2C the first in a series=2C explores how to monitor thes=
+e golden signals.
+
+https://medium.com/devopslinks/how-to-monitor-the-sre-golden-signals-1391c=
+adc7524
+
+
+osquery provides powerful capabilities for querying the state of an entire=
+ infrastructure. The following post explores why that=E2=80=99s particular=
+ly useful for various security use cases=2C and describes how to build and=
+ configure a multi-platform osquery install.
+
+https://medium.com/@palantir/osquery-across-the-enterprise-3c3c9d13ec55
+
+
+A good blog post listing out a set of guidelines and emerging best practic=
+es for observability.
+
+https://honeycomb.io/blog/2017/11/best-practices-for-observability/
+
+
+A handy tutorial for getting up and running with OpenFaaS locally using Mi=
+nikube. Some other interesting observations about latency in FaaS environm=
+ents.
+
+https://medium.com/@lizrice/getting-started-with-openfaas-on-minikube-8d51=
+987f5bbb
+
+
+A deep dive into one of those seemingly easy=2C but actually fiendishly ha=
+rd=2C problems in distributed systems; time. This post explores unified cl=
+ocks in online games=2C but it=E2=80=99s a great technical post about the=
+ challenges with time.
+
+https://engineering.riotgames.com/news/determinism-league-legends-unified-=
+clock
+
+
+A relevant post for anyone managing cloud infrastructure=2C focused on man=
+aging cost with a number of practical tips.
+
+https://medium.com/teads-engineering/real-life-aws-cost-optimization-strat=
+egy-at-teads-135268b0860f
+
+
+Go has become increasingly popular for infrastructure tools in the last se=
+veral years. This presentation looks at how one organisation adopted it=2C=
+ and features some interesting examples of tooling to assist teams collabo=
+rate on projects.
+
+https://speakerdeck.com/farslan/go-at-digitalocean
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+Free Webinar -  What=E2=80=99s New in Prometheus 2.0
+November 30=2C Online
+
+Join members of the Prometheus 2.0 release team to learn about the major f=
+eatures in this release and demo some of the highlights in the areas of st=
+orage=2C staleness handling=2C snapshot backups=2C and more.
+
+https://goo.gl/HnckHc
+
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists=2C December 6-8=2C in Austin for a broad range of te=
+chnical sessions on the cloud native ecosystem. We sold out in Berlin and=
+ are excited to see thousands of you from the community join us=2C this ti=
+me in Austin!
+
+http://goo.gl/wbdqve
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+container-diff is a new tool for comparing container images=2C either loca=
+lly or from a remote repository. It detects packages from a number of pack=
+age management tools=2C as well as filesystem changes. Useful for debuggin=
+g image build problems.
+
+https://opensource.googleblog.com/2017/11/container-diff-for-comparing-con=
+tainer-images.html
+https://github.com/GoogleCloudPlatform/container-diff
+
+
+Open Policy Agent is an interesting new project providing which provides a=
+ DSL for describing policy=2C and software to ensure described systems rem=
+ain compliant. Examples include managing Kubernetes API admission=2C Terra=
+form permissions and SSH authorization.
+
+http://www.openpolicyagent.org/
+
+
+
+Attending AWS re:Invent 2017? Visit the VictorOps booth=2C schedule a meet=
+ing=2C or join us for some after hours fun. See you in Vegas!
+
+http://try.victorops.com/DevOpsWeekly/AWS
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

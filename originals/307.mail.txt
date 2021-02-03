@@ -1,0 +1,157 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#307?=
+Date: Sun, 13 Nov 2016 13:12:11 +0000
+
+DEVOPS WEEKLY
+ISSUE #307 - 13th November 2016
+
+Posts on what the fundamentals of operations and the tradeoffs of automate=
+d vs manual testing=2C alongside technical posts on container clusters=2C=
+ continuous integration and application tracing. Hopefully something for e=
+veryone.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Downtime sucks. Learn how leading minds in tech respond to outages on the=
+ Nov. 16th =E2=80=9CAsk Me Anything=E2=80=9D from Catchpoint & O=E2=80=99R=
+eilly Media.
+
+http://try.victorops.com/AMA
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Transforming 6 Months Waterfall to 1 Hour Code Deploys [Webinar]
+
+On November 17th=2C Anita Engleder=2C DevOps Lead at Dynatrace=2C will pre=
+sent the challenges she and her team faced transforming 6 Months Waterfall=
+ to 1 Hour Code Deploys. Topics include: how to align key stakeholders and=
+ teams=2C the cultural and mindset shift all engineering teams had to make=
+ to achieve =E2=80=9CNoOps=E2=80=9D=2C and the criticality of having a con=
+tinuous feedback loop. Register today.
+
+http://ow.ly/MCBs305RKsM
+
+
+News
+=3D=3D=3D=3D
+
+A fantastic example of integrating GitHub with webpagetest=2C and allowing=
+ developers to ask for additional tests to be run by applying a label to a=
+ pull request.
+
+https://medium.com/engineering-housing/continuous-integration-using-webpag=
+etest-and-webpack-1f4465d95405#.jks29g9pm
+
+
+Some great nuggets of hard-earned wisdom for anyone working in operations.=
+ Everything from tips on communication=2C empathy=2C design and more.
+
+http://www.slideshare.net/MarkImbriaco/what-i-learned-leading-ops-at-githu=
+b-heroku-digitalocean-and-more
+
+
+A detailed multi-part series about monitoring Kubernetes. A good descripti=
+on of all the moving parts and how to get at useful metrics for all of the=
+m.
+
+https://www.datadoghq.com/blog/monitoring-kubernetes-era/
+https://www.datadoghq.com/blog/monitoring-kubernetes-performance-metrics/
+https://www.datadoghq.com/blog/how-to-collect-and-graph-kubernetes-metrics=
+/
+
+
+Interesting look at the value of end-to-end-testing approaches=2C comparin=
+g automation with a more manual=2C crowdsourced approach.
+
+http://www.slideshare.net/KatieChin3/comparing-agile-aq-approaches-to-endt=
+oend-testing-68145860
+
+
+A nice look at the benefits to updating to the latest version=2C in this c=
+ase of PHP7. Some good tips on making sure everything will work after the=
+ upgrade as well as some impressive data around performance improvements.
+
+https://engineering.tumblr.com/post/152998126990/php-7-at-tumblr
+
+
+Some performance problems are relatively easy to find and fix=2C others ar=
+e a lot more esoteric. This detailed write up is definitely the latter=2C=
+ but is an interesting read for anyone who likes low-level details.
+
+http://digihippo.net/?p=3D241
+
+
+A quick look at a few approaches to building static artefacts using Docker=
+ as the build system=2C and why you should be using docker cp rather than=
+ just bind mounting from the local file system.
+
+http://blog.slashdeploy.com/2016/11/07/docker-build-container-pattern/
+
+
+Tracing the traffic between services is becoming increasingly important wi=
+th the explosion of microservice architectures. This post walks through su=
+ch a setup.
+
+https://tech.showmax.com/2016/10/tracing-distributed-systems-at-showmax/
+
+
+Team formation and change are interesting areas so I found this post about=
+ a form of self organisation interesting=2C especially given the examples=
+ of proportions included.
+
+https://blogs.msdn.microsoft.com/bharry/2015/07/24/self-forming-teams-at-s=
+cale/
+
+
+A basic example of setting up a Nomad cluster behind a load balancer=2C in=
+ this case using Consul=2C HAProxy and DNSMasq.
+
+https://medium.com/@mustwin/service-discovery-and-load-balancing-with-hash=
+icorps-nomad-db435c590c26#.gbv1dzibr
+
+
+Jobs
+=3D=3D=3D=3D
+
+Flatiron Health in NYC is looking for Senior Technical Operations engineer=
+s of all types to help lead the fight on cancer with organized data.  Enab=
+le secure=2C speedy=2C repeatable delivery and rapid iteration.  Tools inc=
+lude AWS=2C Ansible=2C Python=2C Jenkins=2C Splunk (and more) in Linux and=
+ Windows environments.
+
+Linux: http://grnh.se/3di78t1
+Windows: http://grnh.se/pbiqs11
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+If you=E2=80=99re building your own dashboards it can be easier to start w=
+ith some sort of framework. Enter this project=2C which provides a set of=
+ responsive templates specifically aimed at making dashboards quickly.
+
+https://github.com/keen/dashboards
+
+
+RackHD describes itself as a stack for enabling automated hardware managem=
+ent and orchestration. It=E2=80=99s an opinionated set of existing tools=
+=2C bundled together with a high-level API server.
+
+http://rackhd.readthedocs.io/en/latest/
+
+
+Downtime sucks. Learn how leading minds in tech respond to outages on the=
+ Nov. 16th =E2=80=9CAsk Me Anything=E2=80=9D from Catchpoint & O=E2=80=99R=
+eilly Media.
+
+http://try.victorops.com/AMA
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
+

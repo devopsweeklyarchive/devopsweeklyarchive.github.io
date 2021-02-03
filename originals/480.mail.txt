@@ -1,0 +1,120 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#480?=
+Date: Sun,  8 Mar 2020 09:45:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #480 - 8th March 2020
+
+CI pipeline optimisations=2C platforms and platform teams and posts and to=
+ols around using general purpose programming languages for authoring confi=
+guration. Lots more content too on cloud migrations=2C operability and sol=
+id system administration topics.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+See the tangible benefits of incident management reporting and analytics w=
+hen it comes to faster incident detection=2C acknowledgment=2C response an=
+d resolution. Read on to learn about real KPIs and incident metrics that d=
+rive reliability:
+
+https://go.victorops.com/devopsweekly-incident-management-reporting
+
+
+News
+=3D=3D=3D=3D
+
+A post on optimising a CI build pipeline based on Bazel=2C looking at the=
+ challenge introduced by immutable infrastructure and the benefits of pers=
+istent caching.
+
+https://filipnikolovski.com/posts/bazel-performance-in-a-ci-environment
+
+
+A useful presentation on what we mean by platform=2C and how platforms and=
+ platform teams can reduce the cognitive burden on development teams.
+
+https://www.slideshare.net/ManuelPais/kubernetes-is-not-your-platform-its-=
+just-the-foundation-qcon-london-march-2020
+
+
+An interesting set of posts on alternatives to writing Kubernetes configur=
+ation in YAML files. The same simple example in JSON=2C C#=2C F#=2C Terraf=
+orm=2C Java and Python so far.
+
+https://www.phillipsj.net/posts/k8s-yaml-alternative-json/
+https://www.phillipsj.net/posts/k8s-yaml-alternative-dotnet/
+https://www.phillipsj.net/posts/k8s-yaml-alternative-terraform/
+https://www.phillipsj.net/posts/k8s-yaml-alternative-java/
+https://www.phillipsj.net/posts/k8s-yaml-alternative-python/
+
+
+Part of a series on building more operable software=2C this post looks at=
+ trailing and leading indicators of operability.
+
+https://www.continuousdeliveryconsulting.com/blog/build-operability-in-mea=
+sures/
+
+
+A neat visualisation of some of the things that someone wanting to move in=
+to system administration would likely want to learn. It does however focus=
+ squarely on the tools rather than wider devops issues.
+
+https://roadmap.sh/devops
+
+
+A two part migration story=2C moving from EC2 on AWS=2C to Kubernetes on G=
+oogle Cloud. Details of data=2C databases=2C moving from AWS ALB to Istio=
+ and more.
+
+https://medium.com/kudos-engineering/our-migration-journey-from-aws-to-goo=
+gle-cloud-part-1-542b6e40b730
+https://medium.com/kudos-engineering/our-migration-journey-from-aws-to-goo=
+gle-cloud-part-2-e66bd53b5d9a
+
+
+Many organisations are just starting to adopt more automated approaches. T=
+his post highlights a few areas centered around test automation which migh=
+t make doing so more difficult.
+
+https://techbeacon.com/app-dev-testing/5-ways-drive-your-automation-engine=
+ers-away
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Iter8 is a toolset of analytics-driven canary releases and A/B testing=2C=
+ build atop Kubernetes and Istio.
+
+https://iter8.tools/
+https://github.com/iter8-tools/docs
+
+
+Another tool for writing Kubernetes configuration in anything-but-YAML. cd=
+k8s extends the AWS CDK tool to add Kubeernetes support=2C allowing you to=
+ write your configuration in TypeScript.
+
+https://github.com/awslabs/cdk8s
+
+
+StatusBay is a new dashboard for Kubernetes=2C focused on deployment. It s=
+ubscribes to the various events occurring in your cluster to present a nic=
+e real-time view. It also supports multiple clusters.
+
+https://github.com/similarweb/statusbay
+
+
+See the tangible benefits of incident management reporting and analytics w=
+hen it comes to faster incident detection=2C acknowledgment=2C response an=
+d resolution. Read on to learn about real KPIs and incident metrics that d=
+rive reliability:
+
+https://go.victorops.com/devopsweekly-incident-management-reporting
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

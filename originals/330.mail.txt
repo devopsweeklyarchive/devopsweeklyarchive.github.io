@@ -1,0 +1,212 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#330?=
+Date: Sun, 23 Apr 2017 11:08:13 +0000
+
+DEVOPS WEEKLY
+ISSUE #330 - 23rd April 2017
+
+A packed issue this week with everything from service management to new co=
+ntainer tools and views of devops as a movement to in-depth incident repor=
+ts.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Incident management is essential to modern DevOps environments. Learn why=
+ in the eBook=2C =E2=80=9CMaking the Case for Real-time Incident Managemen=
+t=E2=80=9D from your friends at VictorOps.
+
+http://try.victorops.com/realtime_incident_mgmt/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Practical Tips to Start Your DevOps Journey
+
+Even when DevOps is not fully embraced throughout an organization there ar=
+e still benefits. And getting started can be quicker than you think. In th=
+is on-demand webinar=2C Andreas Grabner=2C Chief DevOps Activist at Dynatr=
+ace=2C shares practical tips that all IT groups can use to start their Dev=
+Ops journey quickly.
+
+http://ow.ly/yJpv306Zlyy
+
+
+News
+=3D=3D=3D=3D
+
+Management tools tend to need a great deal of access to your systems to do=
+ there job=2C so protecting the interfaces to those management tools shoul=
+d be a priority. Some good advice and discussion of common patterns.
+
+https://www.ncsc.gov.uk/blog-post/protect-your-management-interfaces
+
+
+A nice look at the new LinuxKit project announced at DockerCon. This post=
+ delves into running the build tools and demonstrating how testing works=
+=2C as a way to understand the potential of the tool.
+
+https://gianarb.it/blog/linuxkit-operating-system-build-for-containers
+
+
+An excellent writeup of issues with not securing a Kubernetes infrastructu=
+re during a recent CTF exercise. The issues are well explained=2C and nice=
+ly demonstrate the new attack surface areas with new tools.
+
+https://hackernoon.com/capturing-all-the-flags-in-bsidessf-ctf-by-pwning-o=
+ur-infrastructure-3570b99b4dd0
+
+
+A detailed set of slides from DockerCon=2C covering how to analyse the per=
+formance of your applications running in containers.
+
+https://www.slideshare.net/brendangregg/container-performance-analysis
+
+
+Building systems automatically based on metadata is a lot less effort than=
+ describing them upfront. This post provides a great example of this looki=
+ng at configuring monitoring and logging for applications running on Kuber=
+netes.
+
+https://medium.com/@micahhausler/compose-your-infrastructure-dont-microman=
+age-it-5cb2062946c
+
+
+A quick introduction to the challenges of Windows server automation=2C and=
+ a look at the Chocolatey package manager=2C including the DSC integration=
+=2E
+
+https://www.slideshare.net/ferventcoder/software-management-with-powershel=
+l-dsc-and-chocolatey-powershell-summit-2017
+
+
+I included a wide ranging infrastructure survey a few months back=2C and t=
+he results of that survey have just been published. Data on the adoption o=
+f configuration management tools=2C deployment pipelines=2C container adop=
+tion and more.
+
+https://medium.com/@rothgar/infrastructure-survey-results-ec6ab950c5b
+
+
+A nice summary of why ITIL and Devops are not incompatible. I like the sta=
+tement =E2=80=9CITSM is Devops best practice.=E2=80=9D
+
+http://blog.queueload.com/2017/04/19/itil-devops-the-clash-that-shouldnt-b=
+e/
+
+
+It=E2=80=99s always interesting to read people's views of devops and this=
+ post makes some good observations about the changing role of developers a=
+nd operators. I don=E2=80=99t buy all of it=2C and it=E2=80=99s too San Fr=
+ancisco centric=2C but a worthwhile read.
+
+https://medium.com/@cindysridharan/what-is-devops-5b0181fdb953
+
+
+Another good view of devops=2C again not one I completely buy into. The ar=
+gument here is the operability is a clearer thing to aim for that the less=
+ easily measured devops.
+
+http://www.alwaysagileconsulting.com/articles/aim-for-operability-not-devo=
+ps-as-a-cult/
+
+
+A good explanation of why you might want to turn over infrastructure on a=
+ regular basis=2C in this case terminating and restarting containers and h=
+osts every day. No mention of dealing with forensics in this model of oper=
+ations though.
+
+https://blog.edgemesh.com/edgemeshs-clean-slate-protocol-782fa00eb3c6
+
+
+Some good tips for anyone maintaining a Chef infrastructure (or really any=
+ large codebase) in particular focused on good naming practices and buildi=
+ng for collaboration.
+
+https://blog.dnsimple.com/2017/04/cookbook_maintenance/
+
+
+An interesting way of explaining AWS VPC networking via a town planning an=
+alogy. Useful given the large number of concepts in the VPC APIs.
+
+http://start.jcolemorrison.com/aws-vpc-core-concepts-analogy-guide/
+
+
+A good first-hand report of dealing with an incident at scale=2C and the i=
+mportance of holding a postmortem.
+
+https://cloudplatform.googleblog.com/2017/02/Incident-management-at-Google=
+-adventures-in-SRE-land.html
+
+
+Jobs
+=3D=3D=3D=3D
+
+Articulate is looking for Site Reliability Engineers in Europe and Austral=
+ia to join our Engineering Ops team. We're a fully distributed company wit=
+h a high degree of autonomy and no office space. At Articulate you'll work=
+ remotely with an awesome team of engineers to evolve our services=2C impr=
+ove site reliability=2C contribute to open source projects=2C and delight=
+ our customers. Join us in building systems and tools that enable our engi=
+neers to ship with speed and confidence so we can empower millions of lear=
+ners around the world.
+
+http://articulate.applytojob.com/apply/YTxubFfTMS
+
+
+As a talented developer=2C shouldn=E2=80=99t companies apply to you? On Hi=
+red=2C we empower you to find your ideal role=2C by delivering multiple jo=
+b offers=2C with upfront compensation details and personalized career supp=
+ort.
+
+http://hrd.cm/2jHrf1B
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kubemr is a mapreduce framework for data processing on Kubernetes. It=E2=
+=80=99s an interesting example of using the various Kubernetes primitives=
+ to build higher-level systems.
+
+http://www.sajalkayan.com/post/kubemr.html
+https://github.com/turbobytes/kubemr
+
+
+Vaul UI is a user interface for the Vault secrets management application.=
+ It=E2=80=99s neatly packaged as either a local application or a shared we=
+b app=2C and supports a number of backends for authentication.
+
+https://github.com/djenriquez/vault-ui
+
+
+Deputize neatly integrates PagerDuty and LDAP=2C by exporting on-call info=
+rmation from a PagerDuty schedule to a configurable LDAP group.
+
+https://blog.threatstack.com/balancing-security-and-your-on-call-rotation-=
+using-deputize
+https://github.com/threatstack/deputize
+
+
+Weathervane is a new application for conducting a performance benchmark ag=
+ainst a virtualized or cloud environment.
+
+https://blogs.vmware.com/performance/2017/04/weathervane-performance-bench=
+marking-now-open-source.html
+https://github.com/vmware/weathervane
+
+
+
+Incident management is essential to modern DevOps environments. Learn why=
+ in the eBook=2C =E2=80=9CMaking the Case for Real-time Incident Managemen=
+t=E2=80=9D from your friends at VictorOps.
+
+http://try.victorops.com/realtime_incident_mgmt/devopsweekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

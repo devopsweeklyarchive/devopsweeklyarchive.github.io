@@ -1,0 +1,162 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#349?=
+Date: Sun, 3 Sep 2017 10:47:52 +0000
+
+DEVOPS WEEKLY
+ISSUE #349 - 3rd September 2017
+
+Devops Weekly hit a bit of a milestone last week=2C with subscription to t=
+he newsletter crossing 25=2C000. Thanks to everyone who has stuck around o=
+ver the past 6+ years or just joined last week=2C I=E2=80=99m happy so man=
+y people still find it useful.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+More efficiently reach on-call teams and incident responders with a new wa=
+y to deploy Live Call Routing using Twilio Functions and VictorOps. Check=
+ it out:
+
+http://try.victorops.com/LiveCallRouting/DevOpsWeekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+AI-powered DevOps for complex cloud environments
+
+
+With customer experience being a top priority=2C Verizon turned to an auto=
+mated delivery pipeline approach that leveraged cloud and container techno=
+logy. This enabled teams to deploy new features faster=2C directly into pr=
+oduction. But it also increased technical complexity. Learn how Verizon us=
+ed Artificial Intelligence (AI)-powered monitoring=2C and was able to tran=
+scend this problem=2C and today easily manages complex=2C web-scale DevOps=
+ in the cloud.
+
+http://ow.ly/I1k330elsWO
+
+
+News
+=3D=3D=3D=3D
+
+An excellent presentation packed with information on operating microservic=
+es. Lots of technology advice but also lots of tips for the people and org=
+anisation side of running distributed systems.
+
+https://bridgetkromhout.com/speaking/2017/srecon/
+
+
+A good post stepping through one team=E2=80=99s approach to database desig=
+n and query optimisation for a particular search load.
+
+https://hipmunk.github.io/posts/2017/Aug/16/a-fare-cache-in-a-sharded-data=
+-cluster/
+
+
+The tension between multiple teams working in parallel=2C and shared infra=
+structure=2C is a common issue. This post covers how one team=2C mainly wo=
+rking on web frontend infrastructure=2C deal with the problems.
+
+http://tech.adroll.com/blog/frontend/2017/08/29/how-to-run-a-front-end-inf=
+rastructure-team.html
+
+
+Interesting post explaining how clear containers (backed by hypervisor-lev=
+el guarantees) can work with Kubernetes pods. WOrth noting how a single cl=
+uster can run different types of workloads.
+
+https://medium.com/cri-o/intel-clear-containers-and-cri-o-70824fb51811
+
+
+While some people work in large teams=2C others are the first infrastructu=
+re-orientated person in an organisation. This presentation has some good t=
+ips for anyone in small teams too.
+
+https://www.slideshare.net/manjiki/instruction-manual-79325469
+
+
+With more applications targeting container platforms it=E2=80=99s importan=
+t that those applications shut down correctly. This post explains why and=
+ how to go about building well-behaved apps.
+
+https://blog.risingstack.com/graceful-shutdown-node-js-kubernetes/
+
+
+The sheer amount of technologies in use in many organisations means it can=
+ be hard to keep up. Learning how to learn therefore becomes critical=2C a=
+nd this presentation has good tips.
+
+https://www.slideshare.net/JuliaEvans8/so-you-want-to-be-a-wizard-73101468
+
+
+CNCF - Cloud Native Computing Foundation
+=3D=3D=3D=3D
+
+
+KubeCon + CloudNativeCon - Join leading Kubernetes=2C Docker=2C and Cloud=
+ Native technologists in Austin for a broad range of technical sessions on=
+ the cloud native ecosystem. We sold out in Berlin and are excited to see=
+ thousands of you from the community join us=2C this time in Austin!
+
+http://goo.gl/wbdqve
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+WinOps=2C the conference all about how to implement DevOps principles and=
+ practices in a Windows-based environment=2C is coming up in London on the=
+ 21st of September. Lots of great talks on Windows topcs; from Azure to DS=
+C=2C but also on more general devops adoption. The organisers have kindly=
+ provided a discount code for Devops Weekly readers=2C use DevOpsWeekly10=
+ to get 10% off the price.
+
+https://www.winops.org/london/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+OK Log is a distributed and co=C3=B6rdination-free log management system f=
+or large clusters. It's designed to be a building block: easy to understan=
+d=2C easy to operate=2C and easy to extend.
+
+https://github.com/oklog/oklog
+
+
+Cruise-control (not the CI system) is a new tool to fully automate the dyn=
+amic workload rebalancing and self-healing of a large kafka cluster.
+
+https://engineering.linkedin.com/blog/2017/08/open-sourcing-kafka-cruise-c=
+ontrol
+https://github.com/linkedin/cruise-control
+
+
+Gosu solves a specific problem for anyone building Docker images=2C namely=
+ running an application as a different user but without interfering with s=
+ignal processing and TTY.
+
+https://github.com/tianon/gosu
+
+
+PlantUML is a text-based diagramming tool=2C and this project provides pri=
+mitives for diagraming with AWS service. Lots of good examples in the READ=
+ME.
+
+https://github.com/milo-minderbinder/AWS-PlantUML
+
+
+
+More efficiently reach on-call teams and incident responders with a new wa=
+y to deploy Live Call Routing using Twilio Functions and VictorOps. Check=
+ it out:
+
+http://try.victorops.com/LiveCallRouting/DevOpsWeekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,111 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#497?=
+Date: Sun,  5 Jul 2020 09:47:48 +0000
+
+DEVOPS WEEKLY
+ISSUE #497 - 5th July 2020
+
+A wide mix of posts this week=2C from academic papers=2C reference archite=
+ctures for Serverless=2C embracing policy controls in the development proc=
+ess=2C chaos engineering and lots more.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Are you running Terraform locally? Want an easy way to automate it in a co=
+llaborative way? env0 is the easiest way to get started automating Terrafo=
+rm=2C giving you consistent templates=2C total visibility of what=E2=80=99=
+s running=2C and automatic project level cost visibility.
+
+Check it out at https://www.env0.com/automate-terraform
+
+
+News
+=3D=3D=3D=3D
+
+Dashboards aren=E2=80=99t just used in computer operations=2C and we can a=
+lways learn from other disciplines. This excellent essay on the history of=
+ urban dashboards is well worth reading.
+
+https://placesjournal.org/article/mission-control-a-history-of-the-urban-d=
+ashboard/
+
+
+A project to describe a set of reference architectures for AWS Serverless=
+ applications. Lots of hard won knowledge here. Starting with a simple web=
+ service=2C scalable webhook and strangler pattern.
+
+https://www.jeremydaly.com/serverless-reference-architectures/
+
+
+An interesting paper on Residuality Theory=2C and the design of complex so=
+ftware systems. In particular looking at non-functional properties as firs=
+t class citizens of design efforts.
+
+https://www.sciencedirect.com/science/article/pii/S1877050920305585
+
+
+A nice example of a team using Open Policy Agent and Conftest to enforce b=
+est practices and various policies when authoring Kubernetes configuration=
+=2E
+
+https://engineering.plex.com/posts/kubernetes-policy-conftest/
+
+
+Notes from the recent HashiConf Digital. Lots of news and case studies aro=
+und Terraform=2C Consul=2C Vault and more.
+
+https://www.firehydrant.io/blog/hashiconf-digital-wrapup-june-2020/
+
+
+A nice introduction to chaos engineering=2C putting it in context with oth=
+er types of testing.
+
+https://www.chaosmesh.com/chaos-engineering/
+
+
+A presentation on the state of serverless=2C with lots of thoughts about w=
+here serverless is heading and what the most interesting problems are in 2=
+020.
+
+https://www.slideshare.net/TimWagner/aws-serverless-community-day-keynote-=
+and-vendia-launch-6262020
+
+
+A look at the Azure Service Operator=2C a set of custom resource definitio=
+ns for Kubernetes for managing Azure services like Storage Account=2C Virt=
+ual Machines and Azure SQL=2C
+
+https://medium.com/01001101/azure-service-operator-manage-your-azure-resou=
+rces-with-kubernetes-69f49d9dbbc5
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Vector is a lightweight=2C ultra-fast tool for building observability pipe=
+lines. Take data from files=2C syslog=2C statsd and more=2C then transform=
+ and output to S3=2C elasticsearch=2C prometheus=2C etc.
+
+https://github.com/timberio/vector
+
+
+Ortelius is a tool for mapping microservices. Version and track applicatio=
+n configuration and help with adopting domain driven design.
+
+https://github.com/ortelius/ortelius
+https://ortelius.io/
+
+
+BeeMesh is intended to run services on a cluster of machines=2C using a pe=
+er-to-peer model and podman under the hood. Potentially interesting in edg=
+e scenarios.
+
+https://www.beemesh.io/
+https://github.com/beemesh
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

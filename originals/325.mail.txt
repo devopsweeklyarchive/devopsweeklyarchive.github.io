@@ -1,0 +1,190 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#325?=
+Date: Sun, 19 Mar 2017 11:14:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #325 - 19th March 2017
+
+A bunch of container and cloud related posts and tools this week=2C along=
+ with some tips for anyone involved with Devops transformation efforts or=
+ organising meetings in your team.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Got ChatOps? This 75 page ebook from O=E2=80=99Reilly Media covers ChatOps=
+ from concept to deployment. Get started managing operations in group chat=
+ today. Download the your free copy here:
+
+http://try.victorops.com/DOWeekly/chatops
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Practical Tips for Ops: End User Monitoring [Part 3: DevOps Journey Serie=
+s]
+
+When measuring DevOps success=2C it=E2=80=99s not just about feature deliv=
+ery speed=2C but how end users respond to your innovation. Join us March 2=
+3rd for part 3 of our DevOps Journey Series where you=E2=80=99ll get pract=
+ical tips for end user monitoring that you can implement quickly.
+
+http://ow.ly/Ug4A309wkmC
+
+
+News
+=3D=3D=3D=3D
+
+Some good tips for anyone considering using multiple cloud providers; from=
+ lock-in=2C to considering fault domains=2C to the risks of lowest common=
+ denominators services.
+
+https://m.subbu.org/how-to-think-about-multi-cloud-46ea0dfba8dd#.wi2bp2sqp
+
+
+A good set of four values to help drive a devops flavoured transformation.=
+ Work lean=2C embrace failure=2C automate everything and demand diversity.
+
+https://www.cevo.com.au/culture/2017/03/12/four-values-of-devops.html
+
+
+An interesting approach to using Goss to test a Docker image. Quickly gene=
+rate tests interactively and then run those tests against an image using t=
+he new dgoss tool.
+
+https://medium.com/@aelsabbahy/tutorial-how-to-test-your-docker-image-in-h=
+alf-a-second-bbd13e06a4a9#.8ryq36vfk
+
+
+Devops Weekly covers a pretty broad range of topics=2C but sometimes you j=
+ust want the deep dive on one particular topic. Monitoring Weekly is a new=
+ weekly email=2C think Monitorama but in email form. I=E2=80=99m certainly=
+ looking forward seeing what it covers.
+
+http://bit.ly/2n1f6YZ
+
+
+With the myriad options and new technologies for running applications any=
+ reminder about YAGNI and focusing on architectural simplicity is welcome.
+
+https://hackernoon.com/after-i-just-do-all-this-itll-be-so-simple-de73c5f7=
+99e2#.dk8y5udc6
+
+
+A detailed look at how to run one-off batch jobs using Docker containers o=
+n Docker Swarm via the CLI and API.
+
+http://blog.alexellis.io/containers-on-swarm/
+
+
+API driven infrastructure might make it easy to provision infrastructure=
+=2C but it also makes it easy to spend money. This post covers one approac=
+h to analysing and cutting that spend.
+
+https://segment.com/blog/the-million-dollar-eng-problem/
+
+
+A nice description of Docker=2C from the high-level platform=2C via the va=
+rious components to the low-level bits like cgroups and namespaces. A few=
+ months old so missing containerd=2C but still a useful primer.
+
+https://nschoe.com/articles/2016-05-26-Docker-Taming-the-Beast-Part-1.html
+
+
+Meetings are a common way of organising work=2C so making them effective a=
+nd efficient is a useful skill. Some good tips for common software enginee=
+ring meetings.
+
+https://truss.works/blog/2017/2/3/well-met-the-software-engineering-meetin=
+gs-you-actually-need
+
+
+CNCF
+=3D=3D=3D=3D
+
+KubeCon / CloudNativeCon 17 - Join leading Kubernetes and Cloud Native tec=
+hnologists in Berlin for a full range of technology sessions on the cloud=
+ native ecosystem. Almost sold out=2C register below.
+
+https://goo.gl/hjfE4g
+
+
+An introduction to Linkerd with William Morgan of buoyant.io
+
+Linkerd is the latest hosted project to join the CNCF alongside Kubernetes=
+=2C Prometheus=2C OpenTracing and Fluentd. Linkerd is an open source=2C re=
+silient service mesh for cloud-native applications. Used by companies like=
+ Twitter=2C Soundcloud=2C Pinterest and ING. Linkerd brings scalable=2C pr=
+oduction-tested reliability to cloud-native applications in the form of a=
+ service mesh=2C a dedicated infrastructure layer for service communicatio=
+n that adds resilience=2C visibility and control to applications without r=
+equiring complex application integration.
+
+https://goo.gl/z7GM0n
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+MongoDB World is coming up on June 20th and 21st in Chicago. WIth content=
+ on everything from microservices and security to performance in productio=
+n The organisers have kindly offered readers a discount code=2C use TECH t=
+o get 25% off the early bird price.
+
+https://www.mongodb.com/world17?jmp=3Dmtp
+
+
+OSDC=2C the Open Source Datacenter Conference=2C is in Berlin on May 16th=
+ until the 18th. Topics cover infrastructure tooling=2C testing=2C contain=
+ers=2C configuration management and more.
+https://www.netways.de/en/events/osdc/program/
+
+
+Jobs
+=3D=3D=3D=3D
+
+DevOps Job Offers Delivered=2C straight to your inbox - Get Hired
+
+http://hrd.cm/2jHrf1B
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+LXDock is a tool intended for building a local development environment. It=
+ acts as a thin wrapper around LXD and provides a YAML based users interfa=
+ce for describing what you need.
+
+https://github.com/lxdock/lxdock
+https://lxdock.readthedocs.io/en/stable/
+
+
+If you=E2=80=99re writing tools against the AWS APIs testing can be a chal=
+lenge. Localstack provides an easy-to-use test and mocking framework with=
+ local copies of several AWS APIs including Lambda=2C DynamoDB=2C S3=2C AP=
+I Gateway and more=2C all packaged as a Docker image.
+
+https://github.com/atlassian/localstack
+
+
+FireHOL is a language (and a program to run it) which builds secure=2C sta=
+teful firewalls from easy to understand=2C human-readable configurations.=
+ It also includes FireQOS which provides extensions for traffic shaping to=
+o.
+
+http://firehol.org/
+
+
+
+Got ChatOps? This 75 page ebook from O=E2=80=99Reilly Media covers ChatOps=
+ from concept to deployment. Get started managing operations in group chat=
+ today. Download the your free copy here:
+
+http://try.victorops.com/DOWeekly/chatops
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,152 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#327?=
+Date: Sun, 2 Apr 2017 10:50:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #327 - 2nd April 2017
+
+Whether you consider yourself to work in IT=2C Digital=2C software develop=
+ment=2C security or some other job flavour=2C the variety of organisations=
+ interested in and apply devops practices is only increasing. A few of the=
+ posts this week touch on differences within those roles and organisations=
+ which I find particularly interesting for the future of devops.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Are your incident management skills sharp=2C or are you continuously fight=
+ing fires? Take the free=2C online incident management assessment from Vic=
+torOps and compare your practices against leading DevOps methodologies.
+
+http://try.victorops.com/ima/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+A Tale of Two Pipelines: To DevOps or Not to DevOps
+
+Trying to improve your current DevOps methods? Need to increase innovation=
+ and the speed of your software delivery pipeline? Brett Hofer=2C Global D=
+evOps Practice Lead at Dynatrace=2C will show you how through a tour of tw=
+o pipelines. You=E2=80=99ll get insights on key pipeline factors that plag=
+ue traditional delivery pipelines and how to overcome them with practices=
+ that establish a true DevOps.
+
+http://ow.ly/a3Av302XEHK
+
+
+News
+=3D=3D=3D=3D
+
+Some interesting survey results from a survey asking about Java EE and mic=
+roservices. Interesting because it shines a light on existing enterprise n=
+eeds vs more recent practices.
+
+http://blog.rahmannet.net/2017/03/dzonejava-ee-guardians-survey-results_24=
+=2Ehtml
+
+
+An excellent talk on the potential of devops to help build bridges between=
+ different groups in your organisation. Some great practical tips.
+
+https://speakerdeck.com/kdaniels/building-bridges-with-effective-devops-1
+
+
+A good introduction to opentracing=2C how it aims to solve the difficultie=
+s with implementing tracing in a real-world microservices environment.
+
+https://docs.google.com/presentation/d/1Q2WtyB2Kf4SEIC2Y5yHkd3iotVCKYQ0Tsj=
+06hzzxp3M/mobilepresent?slide=3Did.g1876875e06_0_228
+
+
+An interesting blog post about upcoming changes to Docker=E2=80=99s build=
+ tools which allow for multi-stage builds from a single Dockerfile.
+
+http://blog.alexellis.io/mutli-stage-docker-builds/
+
+
+A detailed look at monitoring a Docker Swarm installation on AWS using Pro=
+metheus. Covers metrics and alerting of the various moving parts.
+
+https://airtame.engineering/practical-services-monitoring-with-prometheus-=
+and-docker-30abd3cf9603
+
+
+Relying on the container toolchain means relying on a number of linux kern=
+el features like cgroups and namespaces. The Container Hardening project a=
+ims to bring people together to focus on ensuring those primitives are sec=
+ure.
+
+https://containerhardening.org/
+
+
+Most people write little bits of bash at various points=2C but few people=
+ master it. This post covers some of the interesting quirks that should at=
+ least allow you to write slightly better and more maintainable scripts.
+
+https://jvns.ca/blog/2017/03/26/bash-quirks/
+
+
+A good argument that automated testing is an important=2C but often missed=
+=2C part of adopting infrastructure as code.
+
+https://opencredo.com/programmable-infrastructure-needs-testing/
+
+
+Quick blog post about using PhotonOS to support running Test Kitchen=2C a=
+ nice idea for those in a VMware environment with typical enterprise restr=
+ictions.
+
+https://jjasghar.github.io/blog/2017/03/29/photonos-as-your-backend-for-ki=
+tchen-docker/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Thousands of Jobs=2C One Application. Get Hired
+
+http://hrd.cm/2jHrf1B
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The first Devopsdays Switzerland is coming up on Wednesday=2C May 3rd and=
+ 4th in
+Z=C3=BCrich.
+
+https://www.devopsdays.org/events/2017-zurich/welcome/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Dockerscan is another security scanning tool for use with Docker images=2C=
+ but one focused on gathering information useful for an attacker. Useful f=
+or defence in better understanding your exposure.
+
+https://github.com/cr0hn/dockerscan
+
+
+Related to the opentracing presentation above=2C Loki is a new opentracing=
+ compatible tracing application with similar design sensibilities to the p=
+rometheus monitoring system.
+
+https://github.com/weaveworks-experiments/loki
+
+
+
+Are your incident management skills sharp=2C or are you continuously fight=
+ing fires? Take the free=2C online incident management assessment from Vic=
+torOps and compare your practices against leading DevOps methodologies.
+
+http://try.victorops.com/ima/devopsweekly
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,128 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#456?=
+Date: Sun, 22 Sep 2019 15:41:53 +0000
+
+DEVOPS WEEKLY
+ISSUE #456 - 22nd September 2019
+
+Several posts on security this week=2C from the business side with managin=
+g a security team with KPIs=2C=2C hands on tops for threat modelling=2C an=
+d a technical presentation on Kubernetes insecure defaults.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+See why DevOps teams are more collaborative and transparent than tradition=
+al IT operations =E2=80=93 helping them build highly efficient incident ma=
+nagement and response systems:
+
+http://try.victorops.com/devopsweekly/devops-incident-management-flowchart
+
+
+News
+=3D=3D=3D=3D
+
+An excellent presentation stepping through the various (insecure) defaults=
+ for Kubernetes configuration and how an attacker might exploit them.
+
+https://speakerdeck.com/iancoldwater/the-path-less-traveled-abusing-kubern=
+etes-defaults
+
+
+A post on the importance and evolution of team structures=2C and in partic=
+ular the nature of communications between teams.
+
+https://itrevolution.com/beyond-team-structures/
+
+
+How we measure outcomes or activities can often have an impact on those sa=
+me activities. Knowing what to set as a key performance indicator is somet=
+imes easy=2C but that=E2=80=99s often not the case for security. This post=
+ explores approaches to the problem.
+
+https://medium.com/starting-up-security/a-key-performance-indicator-for-in=
+fosec-organizations-7f654b7cd256
+
+
+An interesting post exploring software design and architecture as it happe=
+ns today in tech companies and startups vs the general perception.
+
+https://blog.pragmaticengineer.com/software-architecture-is-overrated/
+
+
+A two part series on building a container platform. Covering why organisat=
+ions are taking this approach as well as how to define the right abstracti=
+on for the consumers of the platform.
+
+https://medium.com/@trevor00/building-container-platforms-part-one-introdu=
+ction-4ee2338eb11
+https://medium.com/@trevor00/building-container-platforms-part-two-abstrac=
+tions-325b08a74e33
+
+
+A nice short introduction to threat modelling and how it fits into the SDL=
+C.
+
+https://code.likeagirl.io/pushing-left-like-a-boss-part-6-threat-modelling=
+-8607daf43b17
+
+
+A walkthrough of the new Puppet provisioner in Terraform 0.12.x=2C demonst=
+rating standing up a vSphere machine and configuring the host with Puppet.
+
+https://www.greenreedtech.com/terraform-puppet-provisioner/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+KubeCon and CloudNativeCon North America are coming up in San Diego from t=
+he 18th until the 21st of November. The schedule is packed with talks on t=
+he CNCF projects like Kubernetes=2C Envoy=2C Helm as well as case studies=
+=2C community meetings and more. The event is extended with separate focus=
+ed events on the first day=2C each one on a single topic=2C including secu=
+rity=2C CI/CD and Observability. Hope to see a few readers in San Diego.
+
+http://bit.ly/2ko9SrP
+
+
+The O'Reilly Velocity Conference heads to Berlin=2C 4=E2=80=937 November.=
+ Velocity is the best place on the planet for web ops and systems engineer=
+ing professionals to get expert insight on building and maintaining cloud=
+ native systems. With 4 days of practical content on cloud native infrastr=
+ucture=2C DevOps=2C Kubernetes=2C and more=2C there's something for everyo=
+ne. Passes start at =E2=82=AC676 when you use the code DEVW20 (applies to=
+ Gold=2C Silver=2C and Bronze passes). Register today!
+
+https://oreil.ly/99PIf
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kubepox looks a handy tool for anyone wanting to explore how network polic=
+ies affet traffic in a Kubernetes cluster.
+
+https://github.com/aporeto-inc/kubepox
+
+
+Mimic is a tool for authoring configuration in Go. It uses a provider mode=
+l to help generate specific config files and offer a typed interface so yo=
+u can use it for=2C for instance=2C generating HCL for Terraform and YAML=
+ for Kubernetes at the same time.
+
+https://github.com/bwplotka/mimic
+
+
+
+See why DevOps teams are more collaborative and transparent than tradition=
+al IT operations =E2=80=93 helping them build highly efficient incident ma=
+nagement and response systems:
+
+http://try.victorops.com/devopsweekly/devops-incident-management-flowchart
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,133 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#428?=
+Date: Sun, 10 Mar 2019 12:19:51 +0000
+
+DEVOPS WEEKLY
+ISSUE #428 - 10th March 2019
+
+Lots of tools this week=2C and only a few posts=2C plus a few slide decks=
+ from last weeks QCon event in London. I=E2=80=99ve spotted lots of conver=
+sations recently about the cross-over (or not) between Serverless and the=
+ Cloud Native communities=2C if you spot any good posts please point me in=
+ their direction.
+
+
+>From our sponsor=2C VictorOps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Being on-call sucks. To make it better=2C sign up for the free webinar=2C=
+ =E2=80=9CHow to Make On-Call Suck Less=E2=80=9D=2C to learn 5 simple step=
+s you can take to improve the on-call experience and become a more efficie=
+nt DevOps team:
+
+http://try.victorops.com/devopsweekly/making-on-call-suck-less
+
+
+News
+=3D=3D=3D=3D
+
+Keynote talk from QCon London this week=2C on mature practices for microse=
+rvices. Independent releases=2C loosely coupled teams=2C experimentation a=
+nd devops.
+
+https://speakerdeck.com/sarahjwells/qcon-london-2019-mature-microservices-=
+and-how-to-operate-them
+
+
+My talk from the Security Transformation track at QCon London this last we=
+ek=2C all about parallels between where infrastructure as code was 10 year=
+s ago=2C and a desire to move security policy into code now.
+
+https://speakerdeck.com/garethr/a-continuation-of-devops-policy-as-code
+
+
+Two related posts on the relationship between serverless and Kubernetes th=
+at position them at different parts of the same stack.
+
+https://medium.com/adobetech/serverless-microservices-and-service-mesh-oh-=
+my-cd7903bd499d
+https://medium.com/adobetech/why-i-a-serverless-developer-dont-care-about-=
+your-containers-40c08d36aee4
+
+
+eBPF is a Linux Kernel level observability feature that=E2=80=99s seeing m=
+ore widespread adoption as tools are built atop it. The post explains what=
+ it is and contains some sample eBPF programs.
+
+https://sematext.com/blog/linux-kernel-observability-ebpf/
+
+
+An interesting post on the relationship between increasing the rate of cha=
+nge with more deployments=2C and the resulting stability of the system. Th=
+e post explores what it actually takes to improve stability without sacrif=
+icing speed.
+
+https://m.subbu.org/taming-the-rate-of-change-439e3dccbb5d
+
+
+A little bit of a rant=2C but this post looks at the perils of IAM=2C and=
+ identity provision in general=2C to lock you in to specific tools or serv=
+ices.
+
+https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-clou=
+d-lock-in/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Senior Devops Engineer @ Google=2C via Citrusbyte=2C CA Bay Area=2C $180=
+=2C000 =E2=80=93 $225=2C000
+Citrusbyte is working with Google to build a DevOps team and has the abili=
+ty to give a few individuals the opportunity to work for Google. You will=
+ work with the Google Cloud team to help onboard high-profile and strategi=
+c Google accounts to GCP. You'll work with modern DevOps tools like Terraf=
+orm=2C Kubernetes=2C and GCP and implement practices such as those from th=
+e Site Reliability Handbook.
+
+https://citrusbyte.applytojob.com/apply/DIZpovyqjC?source=3DDevopsWeekly
+
+
+Tools
+=3D=3D=3D=3D
+
+Talos is a modern Linux distribution for Kubernetes that provides a number=
+ of capabilities optimised for a clustered environment and with no concept=
+ of host level access.
+
+https://github.com/autonomy/talos
+
+
+Keptn is a framework for shipping and running cloud-native applications. I=
+t=E2=80=99s deployed and run on top of a Kubernetes cluster and brings dep=
+loyment pipelines=2C blue/green deployments and other higher-level integra=
+tions.
+
+https://keptn.sh/
+
+
+The Interplanetary Docker Registry is a Docker registry which supports the=
+ v2 registry API but is backed by IPFS=2C which is a global=2C versioned=
+=2C peer-to-peer filesystem.
+
+https://github.com/miguelmota/ipdr
+
+
+Kraken is another take on a Docker registry=2C this one using a peer-to-pe=
+er system to distribute images across a large number of nodes quickly.
+
+https://eng.uber.com/introducing-kraken/
+https://github.com/uber/kraken
+
+
+Being on-call sucks. To make it better=2C sign up for the free webinar=2C=
+ =E2=80=9CHow to Make On-Call Suck Less=E2=80=9D=2C to learn 5 simple step=
+s you can take to improve the on-call experience and become a more efficie=
+nt DevOps team:
+
+http://try.victorops.com/devopsweekly/making-on-call-suck-less
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

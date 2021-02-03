@@ -1,0 +1,129 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#411?=
+Date: Sun, 11 Nov 2018 11:03:52 +0000
+
+DEVOPS WEEKLY
+ISSUE #411 - 11th November 2018
+
+Issue 411. Sent at the 11th hour of the 11th day of the 11th month.
+
+
+>From our sponsor=2C Victorops
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Well-managed on-call systems and tools naturally encourage human collabora=
+tion and system reliability. Learn more about creating effective on-call s=
+ystems that bolster your DevOps operations:
+
+http://try.victorops.com/devopsweekly/devops-on-call-tools
+
+
+News
+=3D=3D=3D=3D
+
+Some good tips for optimizing your CI/CD pipeline=2C starting with visuali=
+sing it and optimising the slower parts of the buid.
+
+https://blog.petegoo.com/2018/11/09/optimizing-ci-cd-pipelines/
+
+
+A detailed look at cloud pricing as it relates to running Kubernetes workl=
+oads=2C in particular looking at how to use spot instances to extract cost=
+ savings.
+
+https://learnk8s.io/blog/kubernetes-spot-instances
+
+
+A tale of adopting a new tool=2C in this case moving from Jenkins to Conco=
+urse for continuous integration. Lots of detail about testing container bu=
+ilds and the importance of ownership when it comes to critical services li=
+ke CI.
+
+https://www.thoughtworks.com/insights/blog/modernizing-your-build-pipeline=
+s
+
+
+A good slide deck on adopting SRE practices=2C diving into Service Level O=
+bjectives=2C removing toil from operations and psychological safety.
+
+https://speakerdeck.com/hannahfoxwell/reliability-engineering-for-humans
+
+
+Some handy new features in the latest version of Docker=2C specifically fo=
+r providing more control over built-time secrets and forwarding SSH connec=
+tions (for instance to clone private repositories more easily.)
+
+https://medium.com/@tonistiigi/build-secrets-and-ssh-forwarding-in-docker-=
+18-09-ae8161d066
+
+
+Knative Build allows for building Docker images on a Kubernetes cluster=2C=
+ but it mainly provides the low-level primitives to allow for this. Knctl=
+ provides a handy command line tool to make it easier to use.
+
+https://starkandwayne.com/blog/build-docker-images-inside-kubernetes-with-=
+knative-build/
+
+
+A post on evolutionary architecture in general=2C and on time-service data=
+bases in particular. Follows three generations of choosing technology as a=
+ service scales.
+
+https://www.outlyer.com/blog/why-not-to-build-a-time-series-database/
+
+
+A detailed look at using Kops and Terraform to provision a Kubernetes clus=
+ter on AWS. Interesting seeing projects compiling down to Terraform=E2=80=
+=99s DSL.
+
+https://medium.com/bench-engineering/deploying-kubernetes-clusters-with-ko=
+ps-and-terraform-832b89250e8e
+
+
+Jobs
+=3D=3D=3D=3D
+
+Senior Devops Engineer=2C Remote Friendly
+Citrusbyte is working with Google to build a nation-wide DevOps team and h=
+as the ability to give a few individuals the opportunity to work remotely=
+ for Google. You will work on various DevOps projects internal to Google a=
+s well as deploy complex systems to GCP for Fortune 500 clients.
+
+https://citrusbyte.applytojob.com/apply/MWcY29iFEt?source=3DDevopsWeekly
+
+
+Tools
+=3D=3D=3D=3D
+
+Applications running in Kubernetes can involve a number of pods that come=
+ and go. That makes consuming logs challenging. Kail nicely solves that wi=
+th a CLI tool for watching logs from multiple pods.
+
+https://github.com/boz/kail
+
+
+Kubefwd is another handy utility for working with Kubernetes. It allows fo=
+r port forwarding Kubernetes services for local development=2C making it e=
+asier to develop services that will co-exist in the same cluster.
+
+https://github.com/txn2/kubefwd
+
+
+PowerShellBuild is a useful starting point for anyone creating a PowerShel=
+l module. It provides psake and Invoke-Build integration and tasks for com=
+mon build=2C test=2C and release steps.
+
+https://github.com/psake/PowerShellBuild
+
+
+
+Well-managed on-call systems and tools naturally encourage human collabora=
+tion and system reliability. Learn more about creating effective on-call s=
+ystems that bolster your DevOps operations:
+
+http://try.victorops.com/devopsweekly/devops-on-call-tools
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

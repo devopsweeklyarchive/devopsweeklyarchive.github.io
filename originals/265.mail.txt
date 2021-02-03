@@ -1,0 +1,181 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#265?=
+Date: Sun, 31 Jan 2016 14:54:24 +0000
+
+DEVOPS WEEKLY
+ISSUE #265 - 31st January 2015
+
+FOSDEM for the last few days and then Configuration Management Camp tomorr=
+ow and Tuesday should mean lots of content for next weekends issue. For th=
+is week we have talk of monitoring standards=2C service discovery=2C talki=
+ng continuous deployment for business and profiling unikernels.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+[OnDemand Webinar] Managing Technical Debt While Innovating on DevOps
+
+How do you =E2=80=9Ckeep the lights on=E2=80=9D for your legacy systems=2C=
+ while also enabling your DevOps teams to launch new features faster? Watc=
+h this webinar to learn tips to manage technical debt in legacy code=2C pl=
+us efficient ways to close loops while enabling DevOps to optimize innovat=
+ion and releases.
+
+http://ow.ly/U3Jqn
+
+
+News
+=3D=3D=3D=3D
+
+An excellent explanation of why continuous deployment matters to business.=
+ Includes well reasoned lists for advantages for both developers and busin=
+ess folks=2C ideal if you=E2=80=99re trying to convince your organisation=
+ to adopt.
+
+https://medium.com/@crowquine/why-continuous-deployment-matters-to-busines=
+s-6a79b5602145#.wcei2lsoi
+
+
+An excellent slide deck and video from a talk from the recent Scale14x con=
+ference=2C all about adopting service discovery=2C and the various problem=
+s encountered and overcome as they scaled usage.
+
+https://blog.froese.org/2016/01/23/service-discovery-in-the-cloud-with-con=
+sul/
+
+
+I=E2=80=99ve spoken previously about the importance of standards emerging=
+=2C in particular around monitoring. So OpenTracing looks like a great end=
+eavour=2C aiming to offer consistent=2C expressive=2C vendor-neutral APIs=
+ for popular tracing platforms.
+
+http://opentracing.io/
+
+
+There has been some conversations about what debugging might look like for=
+ Unikernel based systems recently. This post takes a deep dive into profil=
+ing Mirage=2C both as a unix binary using standard tools and a proof-of-co=
+ncept flame graph for MIrage running on Xen.
+
+http://www.brendangregg.com/blog/2016-01-27/unikernel-profiling-from-dom0.=
+html
+
+
+A nice early experience report of running Kubernetes in production. Some p=
+oints about the use of environments and namespaces=2C monitoring and deplo=
+yment workflows.
+
+http://labs.unacast.com/2016/01/27/three-lessons-from-running-k8s-in-produ=
+ction/
+
+
+FOSDEM spans two days=2C at least 20 tracks and a huge number of talks so=
+ consider this just a sample=2C but these raw notes give you a good idea o=
+f how some of the talks went this year.
+
+http://tech.mattbostock.com/2016/01/30/fosdem-day-one/
+http://tech.mattbostock.com/2016/01/31/fosdem-day-two/
+
+
+Managing public keys in a large infrastructure is a subtle problem=2C and=
+ this post does a good job of asking and answering some of the common ques=
+tions.
+
+http://tfitch.com/chef/artifactory/2016/01/26/remote-copying-of-generated-=
+keys.html
+
+
+I=E2=80=99m not sold on the term microcontainer=2C but this post is a good=
+ introduction to the use and advantages of smaller base operating system i=
+mages like Alpine for Docker containers.
+
+http://www.iron.io/blog/2016/01/microcontainers-tiny-portable-containers.h=
+tml
+
+
+An exploration of what an end-to-end pipeline might look like for a docker=
+ based workflow. Covering everything from running tests to static analysis=
+=2C a good reference for related tools.
+
+http://capgemini.github.io/devops/docker-ci-workflows/
+
+
+
+Jobs
+=3D=3D=3D=3D
+
+DemystData is hiring an Infrastructure Automation Engineer to join our sma=
+ll=2C but growing=2C engineering team. Demyst is a financial technology st=
+artup headquartered in New York City. Candidates must have extensive AWS e=
+xperience=2C be fully on board with Infrastructure as Code=2C and be secur=
+ity-minded. This position is full-time remote.
+
+https://demystdata.workable.com/j/89E56BF9EA
+
+
+We're looking for a versatile DevOps engineer to work primarily in Linux u=
+sing Docker=2C Terraform=2C Chef and AWS. Our team is seasoned=2C humble=
+=2C and forward thinking. We're using the latest tools to deliver a 100% u=
+ptime clustered web application across many production environments. We va=
+lue continuous integration=2C high-quality testing=2C and infrastructure a=
+utomation so that we can focus on building new features=2C not mucking wit=
+h overhead.
+
+Stormpath is an authentication and user management service that helps deve=
+lopers quickly and securely create web and mobile applications. We hire sm=
+art=2C fun=2C and passionate people who love what they do and deliver qual=
+ity work. Interested in learning more?
+
+https://boards.greenhouse.io/stormpath/jobs/158512#.VqlnlFMrLOQ
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Builds servers can become complex quickly=2C sometimes because the problem=
+ you=E2=80=99re trying to solve is itself complicated. But if you have hig=
+hly opinionated (git and GitHub only) and simpler CI requirements then Sur=
+f might be worth a look.
+
+https://github.com/surf-build/surf
+
+
+Goad is a nice demonstration of building a useful tool using Apache Lambda=
+=2E It=E2=80=99s a Go based distributed load testing tool that takes advanta=
+ge of the serverless architecture of Lambda to spin up on demand.
+
+https://goad.io/
+
+
+Keeping up with what service is running on what port is always tricky=2C a=
+nd the commands to get the information tend to be somewhat cryptic. Enter=
+ whatportis=2C a simple interface for getting the ports in use by a servic=
+e=2C or the service running on a specified port.
+
+https://github.com/ncrocfer/whatportis
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
