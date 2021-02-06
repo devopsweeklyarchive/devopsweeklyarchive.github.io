@@ -109,3 +109,11 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-LE1DY91GV3"
+    anonymize_ip: false # default
+
+repository: devopsweeklyarchive/devopsweeklyarchive.github.io
