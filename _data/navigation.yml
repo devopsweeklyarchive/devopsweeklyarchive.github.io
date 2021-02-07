@@ -1,4 +1,6 @@
 main:
+  - title: "devopsweekly.com"
+    url: "https://www.devopsweekly.com/"
   - title: "Posts"
     url: /posts/
   - title: "About"
