@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Public archive of the [Devops Weekly](https://www.devopsweekly.com/)
+Public archive of [Devops Weekly](https://www.devopsweekly.com/)
 
 Author of the newsletters: [Gareth Rushgrove](https://morethanseven.net)
 
