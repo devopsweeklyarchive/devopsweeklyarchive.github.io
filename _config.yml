@@ -116,6 +116,8 @@ tag_archive:
   type: liquid
   path: /tags/
 
+google_site_verification: MWtjRUQLcu5USjjZ6BdNtvAFtTJg3IrOpMqDf7nAWSo
+
 analytics:
   provider: "google-gtag"
   google:
