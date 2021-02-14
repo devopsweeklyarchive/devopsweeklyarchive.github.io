@@ -1,0 +1,90 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#529?=
+Date: Sun, 14 Feb 2021 11:10:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #529 - 14th February 2021
+
+Lots of tools this week=2C from small utilities for secret detection and A=
+WS management=2C to tools working with Knative and monorepos. Plus posts o=
+n devops trends=2C logging=2C Kubernetes and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+
+Register now for the first-ever ZAPCon taking place March 9th. The free ev=
+ent will focus on OWASP ZAP and application security best practices. You w=
+on=E2=80=99t want to miss it!
+
+http://sthwk.com/zapcon-devops-weekly
+
+
+News
+=3D=3D=3D=3D
+
+Lots of details about Kubernetes liveness probes=2C including the problems=
+ they look to solve and some of the common implementation errors.
+
+https://loft.sh/blog/kubernetes-liveness-probes-examples-common-pitfalls/i=
+ndex-1/
+
+
+A post on potential trends in and around infrastructure and operations in=
+ 2021. Continued evolution rather than revolution.
+
+https://phoenixnap.com/blog/devops-trends
+
+
+Open source software has been an important part of the devops story. This=
+ paper explores some of the recent conversations about licensing=2C ethics=
+ and the issues with open communities.
+
+https://osf.io/hnerp/?view_only=3D44b5c10772d5470892b701dfe4b2c833
+
+
+A post on automating the release process for a complex monorepo project us=
+ing Lerna.
+
+https://sudolabs.io/blog/automated-release-process-for-lerna-monorepo
+
+
+Logging is too easy to get wrong. This post covers lots of details about J=
+ava logging=2C useful for those building or operating Java applications.
+
+https://sematext.com/blog/log4j-tutorial/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+I=E2=80=99m a big fan of making it possible to experiment and learn with e=
+ven complex platforms locally. Knative on Kind (Konk) does just that for K=
+native.
+
+https://github.com/csantanapr/knative-kind
+
+
+A simple but handy utility to resize EBS volumes on AWS.
+
+https://github.com/mpostument/ebs-autoresize
+
+
+Another useful utility=2C SecretScanner does exactly what you=E2=80=99d th=
+ink=2C finding secrets from file systems or container images.
+
+https://github.com/deepfence/SecretScanner
+
+
+Monorepos appear particularly popular with some JavaScript communities. Ru=
+sh is a new toolkit helping to build and publish many packages from a comm=
+on Git repo.
+
+https://rushjs.io
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
