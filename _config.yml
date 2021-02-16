@@ -21,6 +21,7 @@ twitter_username: devopsweekly
 github_username: devopsweeklyarchive
 minimal_mistakes_skin: default
 search: true
+search_provider: algolia
 
 # Build settings
 markdown: kramdown
@@ -125,3 +126,9 @@ analytics:
     anonymize_ip: false # default
 
 repository: devopsweeklyarchive/devopsweeklyarchive.github.io
+
+algolia:
+  application_id: QQ1VEULO3H
+  index_name: devopsweekly
+  search_only_api_key: aacfb641da8e2fd146e7e37af50fa871
+  powered_by: true
