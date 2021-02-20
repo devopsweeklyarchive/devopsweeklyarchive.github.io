@@ -47,6 +47,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - originals/
+  - vendor
 
 # Plugins (previously gems:)
 plugins:
