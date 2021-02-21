@@ -1,0 +1,103 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#530?=
+Date: Sun, 21 Feb 2021 08:46:59 +0000
+
+DEVOPS WEEKLY
+ISSUE #530 - 21st February 2021
+
+A look at the package repository side of dependency confusion attacks=2C 2=
+021 predictions=2C working in IT and tools for moving files between cloud=
+ storage services and more.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D
+
+Prevent cloud misconfigurations by shifting security left in your IaC depl=
+oyments!
+
+https://www.env0.com/blog/better-together-checkov-and-env0
+
+About env0: use Infrastructure as Code to let your team manage their own e=
+nvironments across clouds. Governed by your policies and with complete vis=
+ibility & cost management.
+
+
+News
+=3D=3D=3D=3D
+
+What to expect from devops in 2021? This post pin-points some evergreen to=
+pics like security=2C a focus on the business=2C automation=2C but also th=
+e growth of low code and pipeline analytics and monitoring.
+
+https://www.cloudbees.com/blog/devops-this-year
+
+
+An interesting post from someone involved with accessing RubyGems after th=
+e recent dependency confusion attack interest.
+
+https://mensfeld.pl/2021/02/rubygems-dependency-confusion-attack-side-of-t=
+hings/
+
+
+Python is both a great programming language to get started with=2C and inc=
+reasingly a useful extra tool to have in your toolbox for data and analyti=
+cs work. This university course is a good starting place.
+
+https://farid.berkeley.edu/downloads/tutorials/learnPython/
+
+
+Another set of public course materials=2C this time on Systems Administrat=
+ion fundamentals. Storage=2C file systems=2C networking=2C common protocol=
+s=2C system security=2C configuration management and ethics for systems ad=
+ministrators among the topics.
+
+https://stevens.netmeister.org/615/
+https://www.youtube.com/channel/UCK9UCt1zAQ9JvTG0o6Z8zpg
+
+
+A nice post on why lots of people enjoy working in IT. The people=2C the c=
+onstant learning=2C the problem solving and more.
+
+https://itsm.tools/love-most-about-working-in-it/
+
+
+The recent changes around the CentOS project=2C with the new CentOS Stream=
+s approach=2C are triggering some interesting conversations. The new Hyper=
+scale special interest group is just forming to discuss large scale deploy=
+ment challenges and solutions.
+
+https://wiki.centos.org/SpecialInterestGroup/Hyperscale
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Rclone (rsync for cloud storage) is a command line program to sync files a=
+nd directories to and from different cloud storage providers like Google D=
+rive=2C S3=2C Dropbox=2C Backblaze B2=2C One Drive=2C Google Cloud Storage=
+ and more.
+
+https://github.com/rclone/rclone
+https://rclone.org
+
+
+A handy web service that makes it easy to check which cloud provider a web=
+site is using for it=E2=80=99s public services.
+
+https://runson.cloud
+
+
+The above runson.cloud service is based on a set of handy open source libr=
+aries that also have accompanying CLI tools that do the same.
+
+https://github.com/sampointer/digaws
+https://github.com/sampointer/digaz
+https://github.com/sampointer/digg
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
