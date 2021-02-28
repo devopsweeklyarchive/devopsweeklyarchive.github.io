@@ -1,0 +1,109 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#531?=
+Date: Sun, 28 Feb 2021 10:36:18 +0000
+
+DEVOPS WEEKLY
+ISSUE #531 - 28th February 2021
+
+Empathy for systems administrators=2C performance engineering=2C logging a=
+nd secrets management in AWS=2C scaling infrastructure as code practices a=
+nd more this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Mark your calendars! The first conference for OWASP ZAP users is taking pl=
+ace March 9. Get your free ticket to connect with other ZAP users and lear=
+n about the project's roadmap.
+
+http://sthwk.com/zapcon-devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Moving to a new platform can have performance implications. This post goes=
+ over how one team designed experiments to work out what was going on afte=
+r moving to Kubernetes and how to fix it.
+
+https://www.datadoghq.com/blog/engineering/moving-a-jobsystem-to-kubernete=
+s/
+
+
+A detailed post on best practice for logging in AWS focused on security us=
+e cases.
+
+https://www.marcolancini.it/2021/blog-security-logging-cloud-environments-=
+aws/
+
+
+A post on how the software community came to appreciate systems administra=
+tors a little more with the hugops movement.
+
+https://www.protocol.com/enterprise/oral-history-hugops
+
+
+Some good tips for scaling infrastructure as code across teams and organiz=
+ations. Observations about public modules=2C standards=2C reusable code=2C=
+ having a formal release/versioning process and more.
+
+https://www.singlestoneconsulting.com/blog/infrastructure-as-code-at-enter=
+prise-scale/
+
+
+JSON comes in a surprisingly large number of formats=2C with subtle differ=
+ences. Throw in different JSON parsers in different languages and there is=
+ the potential for vulnerabilities caused by interoperability issues.
+
+https://labs.bishopfox.com/tech-blog/an-exploration-of-json-interoperabili=
+ty-vulnerabilities
+
+
+A good roundup of Linux server monitoring. Looking quickly at sar=2C vmsta=
+t=2C nethogs and monitorix.
+
+https://www.linode.com/docs/guides/linux-system-monitoring-fundamentals/
+
+
+A post on Kubernetes robustness=2C showing with examples how to bring up v=
+arious Kubernetes services after failure.
+
+https://itnext.io/breaking-down-and-fixing-kubernetes-4df2f22f87c3
+
+
+A comparison of System Manager Parameter Store and the newer Secrets Manag=
+er for managing secrets in AWS environments.
+
+https://www.davehall.com.au/blog/2021/02/22/parameter-store-vs-secrets-man=
+ager/
+
+
+A nice worked example of live debugging using VSCode when you have a monor=
+epo application and multiple container-based applications.
+
+https://ikshitijsharma.medium.com/seamless-multi-container-multi-root-work=
+spaces-debugging-in-vscode-devcontainers-on-steroid-54d7cff4ff77
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+cloudquery transforms your cloud infrastructure into SQL or Graph database=
+ for easy monitoring=2C governance and security.
+
+https://github.com/cloudquery/cloudquery
+
+
+A new bash-like shell with a few interesting features. In-line spell check=
+ing=2C typed pipelines=2C built-in testing framework=2C user-friendly erro=
+r handling and more.
+
+https://github.com/lmorg/murex
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
