@@ -1,0 +1,143 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#532?=
+Date: Sun,  7 Mar 2021 11:27:13 +0000
+
+DEVOPS WEEKLY
+ISSUE #532 - 7th March 2021
+
+Some great longer reads this week on cloud migration=2C architecture and s=
+ecurity engineering teams working more closely with development organisati=
+ons. Plus several interesting tools and tech discussions.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D
+
+Prevent cloud misconfigurations by shifting security left in your IaC depl=
+oyments!
+
+https://www.env0.com/blog/better-together-checkov-and-env0
+
+About env0: use Infrastructure as Code to let your team manage their own e=
+nvironments across clouds. Governed by your policies and with complete vis=
+ibility & cost management.
+
+
+News
+=3D=3D=3D=3D
+
+A solid architecture post on a large scale compute platform that aims to c=
+ombine the best aspects of microservices with asynchronous workflows and s=
+erverless functions. Combines migration=2C design=2C future thoughts and m=
+ore.
+
+https://netflixtechblog.com/the-netflix-cosmos-platform-35c14d9351ad
+
+
+3 interesting observations about adopting public cloud when coming from tr=
+aditional infrastructure; the cloud has its own CMDB=2C the only thing tha=
+t knows about a thing is itself=2C and the advantage of cloud is flexibili=
+ty.
+
+https://blog.mangoteque.com/blog/2021/02/22/3-things-to-know-when-moving-t=
+o-public-cloud/
+
+
+A great post on devops and security=2C from the security engineering persp=
+ective. Some good practical tips including embedding security engineers in=
+ engineering teams (and vice versa)=2C gamification and more.
+
+https://segment.com/blog/shifting-engineering-right/
+
+
+Argo introduces some interesting higher-level concepts into Kubernetes=2C=
+ including AppProject which allows for a project container to tie together=
+ other resources.
+
+https://blog.argoproj.io/hassle-free-multi-tenant-k8s-clusters-management-=
+using-argo-cd-7dd35619046a
+
+
+Containers are for stateless services=2C or so the tale goes. In reality l=
+ots of people are running databases in containers. This post=2C focused on=
+ PostgreSQL=2C makes the case that the benefits often outweigh the disadva=
+ntages.
+
+https://blog.crunchydata.com/blog/deep-postgresql-thoughts-resistance-to-c=
+ontainers-is-futile
+
+
+A couple of handy posts on how to monitor AWS Fargate. What metrics should=
+ you be interested in=2C and how can you best access them?
+
+https://www.datadoghq.com/blog/aws-fargate-metrics/
+https://www.datadoghq.com/blog/tools-for-collecting-aws-fargate-metrics/
+
+
+I like arguments against the zeitgeist=2C like this post on scaling issues=
+ with GitOps. I think there are some assumptions here that=2C if you are a=
+re building for scale you can address with automation=2C or are fundamenta=
+l to scale rather than the approach=2C but I like the debate.
+
+https://humanitec.com/blog/fundamental-flaws-of-gitops-a-statistical-analy=
+sis
+
+
+Cloud migration in large=2C complex organisations is invariably a lot more=
+ complicated that it might first appear=2C partly because it=E2=80=99s as=
+ much about people and structures as technology. Some good observations al=
+ong those lines in this next post.
+
+https://www.linkedin.com/pulse/struggle-cloud-adoption-mark-thiele/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+WTF is SRE? Container Solutions presents a new WTFinar that tackles the be=
+ginning of understanding SRE. Join Nathen Harvey from Google to learn abou=
+t service level indicators (SLIs) and service level objectives (SLOs) - co=
+mponents of error budgets. 9th February=2C 15:00 CET.
+
+https://bit.ly/3atRvHI
+
+
+What are you doing on 20 May? Giving a talk on Monitoring Distributed Syst=
+ems? CI/CD on Multicloud systems? How about Adopting SRE=2C monitoring SLI=
+s=2C agreeing on SLOs and SLAs? Container Solutions is organising a virtua=
+l conference called WTF is SRE and the CFP is open! Register & submit your=
+ talk here:
+
+https://bit.ly/3biTNuO
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+OpenHistogram is an open source data structure for quickly and efficiently=
+ summarizing large numbers of measurements. It provides highly efficient a=
+nd easily mergeable histograms and implementations so far in C=2C Python=
+=2C Go=2C Lua=2C Javascript and C#.
+
+https://openhistogram.io
+
+
+Conprof is a continuous profiling tool. It=E2=80=99s intended to ensure yo=
+u have a profile for just when an important event occurred=2C in order to=
+ make debugging easier.
+
+https://github.com/conprof/conprof
+
+
+An assorted set of tools for security-related task for git repositories=2C=
+ including identifying people and leaked information in the repository his=
+tory.
+
+https://github.com/pownjs/git
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
