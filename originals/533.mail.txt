@@ -1,0 +1,103 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#533?=
+Date: Sun, 14 Mar 2021 11:24:16 +0000
+
+DEVOPS WEEKLY
+ISSUE #533 - 14th March 2021
+
+The rich future of operations careers=2C secrets leakage=2C making encrypt=
+ion easier to apply to software releases and a few posts on Kubernetes too=
+ling.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D
+
+Join Snyk and StackHawk on March 18 as they walk through how to use Softwa=
+re Composition Analysis (SCA) and Dynamic Application Security Testing (DA=
+ST) in CI/CD to ship more secure applications.
+
+http://sthwk.com/stackhawk-snyk-webinar
+
+
+News
+=3D=3D=3D=3D
+
+Infrastructure and operations. Two words that folks typically consider as=
+ a moment in time=2C rather than as something more fundamental. A good pos=
+t on the changes in infrastructure=2C and in how we operate it=2C and why=
+ change is always part of a career in operations.
+
+https://thenewstack.io/the-future-of-ops-careers/
+
+
+A look at the scale of secrets and sensitive data leaking into source code=
+ repositories=2C and where it=E2=80=99s most commonly found across differe=
+nt types of files.
+
+https://blog.gitguardian.com/top-10-file-extensions/
+
+
+The reason I=E2=80=99m a fan of Open Policy Agent is just how general purp=
+ose it is. Here=E2=80=99s a great example. Using OPA itself to lint OPA re=
+go policies.
+
+https://blog.styra.com/blog/linting-rego-with-rego
+
+
+A detailed overview of different open source chaos engineering tools for K=
+ubernetes.
+
+https://blog.flant.com/chaos-engineering-in-kubernetes-open-source-tools/
+
+
+Sigstore is a new project aiming to lower the barrier to entry to using si=
+gning to ensure the integrity of software releases. At the prototype stage=
+ but interesting to track progress.
+
+https://sigstore.dev
+https://next.redhat.com/2021/03/09/introducing-sigstore-software-signing-f=
+or-the-masses/
+
+
+An argument for using Mage (a Go build tool) in place for Make=2C along wi=
+th a basic introduction to Mage.
+
+https://carolynvanslyck.com/blog/2021/01/mage-is-my-favorite-make/
+
+
+Lots of practical tips for running Vault on Kubernetes. High availability=
+=2C end-to-end encryption and more.
+
+https://expel.io/blog/production-readiness-hashicorp-vault-kubernetes/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Dolt is a SQL database that you can fork=2C clone=2C branch=2C merge=2C pu=
+sh and pull just like a git repository. Connect to Dolt just like any MySQ=
+L database to run queries or update the data using SQL commands.
+
+https://github.com/dolthub/dolt
+
+
+PacBot is is a platform for continuous compliance monitoring=2C compliance=
+ reporting and security automation for the cloud. Custom rules in Java=2C=
+ as well as a plugin model for ingesting other data sources.
+
+https://tmobile.github.io/pacbot/
+
+
+Mackintosh is a framework for mocking microservices=2C with support for pe=
+rformance testing=2C asynchronous communications=2C multiple-services and=
+ more.
+
+https://up9.com/open-source-microservice-mocking-introducing-mockintosh
+https://mockintosh.io
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
