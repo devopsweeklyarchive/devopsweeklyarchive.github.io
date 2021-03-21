@@ -1,0 +1,91 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#534?=
+Date: Sun, 21 Mar 2021 08:40:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #534 - 21st March 2021
+
+I was lucky enough to be around the nascent devops community early on=2C h=
+ence the long running nature of this newsletter. Another ever-present has=
+ been the State of Devops report=2C which is now open for the 10th year. P=
+lease do take the time to complete as the insights are always interesting.
+
+
+env0 sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D
+
+Prevent cloud misconfigurations by shifting security left in your IaC depl=
+oyments!
+
+https://www.env0.com/blog/better-together-checkov-and-env0
+
+About env0: use Infrastructure as Code to let your team manage their own e=
+nvironments across clouds. Governed by your policies and with complete vis=
+ibility & cost management.
+
+
+News
+=3D=3D=3D=3D
+
+The State of Devops report is in its 10th year. This year=E2=80=99s survey=
+ is now open=2C focusing this year on how teams and work are organized=2C=
+ interaction between teams=2C feedback loops=2C  self-service and more.
+
+https://puppet.com/blog/take-the-2021-state-of-devops-survey-be-part-of-ou=
+r-10-year-history/
+https://survey-d.dynata.com/survey/selfserve/53b/2103608?list=3D3#?
+
+
+A post arguing for software bill of materials standards and implementation=
+s. Lots of context to the problem and to how similar risks are mitigated i=
+n other areas.
+
+https://drrispens.medium.com/why-the-world-needs-a-software-bill-of-materi=
+als-now-5a565df65dff
+
+
+gRPC is a general-purpose RPC layer. Addressing a range of different types=
+ of services means it=E2=80=99s configurable. And configuration is often a=
+ source of errors. This post explains why=2C along with some examples to l=
+earn from.
+
+https://www.evanjones.ca/grpc-is-tricky.html
+
+
+A 3 part series covering a wide range of production troubleshooting stori;=
+ performance problems=2C database migration=2C proxies=2C caching and more=
+=2E
+
+https://blog.flant.com/troubleshooting-web-apps-issues-6-recent-cases-from=
+-our-sres/
+https://blog.flant.com/recent-troubleshooting-cases-from-our-sres-part-2/
+https://blog.flant.com/recent-troubleshooting-cases-from-our-sres-part-3/
+
+
+Are you tired of bumping the image tag manually every time you make a chan=
+ge in Kubernetes? This post covers how to automate deployments and updates=
+ using Argo CD.
+
+https://blog.argoproj.io/closing-ci-cd-loop-using-argoproj-a78a50a98fe8
+
+
+An interesting interview on the importance and challenges of application s=
+ecurity.
+
+https://www.microsoft.com/security/blog/2021/03/11/the-biggest-challenges-=
+and-important-role-of-application-security/
+
+
+Standards benefit from multiple implementations. This post on runj describ=
+es a new OCI runtime implementation targeting FreeBSD and it=E2=80=99s Jai=
+ls capability.
+
+https://samuel.karp.dev/blog/2021/03/runj-a-new-oci-runtime-for-freebsd-ja=
+ils/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
