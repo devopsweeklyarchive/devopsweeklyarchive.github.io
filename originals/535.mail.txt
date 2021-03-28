@@ -1,0 +1,81 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#535?=
+Date: Sun, 28 Mar 2021 11:33:47 +0000
+
+DEVOPS WEEKLY
+ISSUE #535 - 28th March 2021
+
+Operations and compliance=2C a few posts on helping to justify investment=
+=2C and see the results of=2C improvements to your CI and CD pipelines=2C=
+ collected Kubernetes security resources and more this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+You can utilize Swagger Docs in security testing to drive more thorough an=
+d accurate vulnerability scans of your APIs. Learn how:
+
+http://sthwk.com/api-testing-with-swagger
+
+
+News
+=3D=3D=3D=3D
+
+A great discussion on the importance of risk management and compliance in=
+ technical operations.
+
+https://medium.com/boldstart-ventures/technical-ops-and-compliance-from-bo=
+otstrap-to-scale-with-richard-crowley-acc11bb52ec8
+
+
+A presentation on CI/CD pipeline analytics=2C measuring flow and other met=
+rics as part of software delivery.
+
+https://www.hashicorp.com/resources/measuring-devops-success-with-pipeline=
+-analytics
+
+A survey from researchers at the Technical University of Darmstadt and the=
+ University of St.Gallen on the adoption of devops practices and tooling.
+
+https://forms.gle/WFedDB83iQTioQ9t7
+
+
+A curated collection of security resources for Kubernetes. Everything from=
+ the basics to tools=2C video recordings and papers.
+
+https://github.com/magnologan/awesome-k8s-security
+
+
+A brief introduction to the concept of service mesh=2C and a comparison in=
+cluding Linkerd=2C Consul Connect=2C Istio and Kuma.
+
+https://www.toptal.com/kubernetes/service-mesh-comparison
+
+
+A spreadsheet for modelling savings from improvements to CI/CD.
+
+https://docs.google.com/spreadsheets/d/1g9C10s5EBPN1TtB5JHDYhJV1Qz_Rc6sHXx=
+l9PCIGlSg/htmlview
+
+
+A quick introduction to some of the software supply chain security issues=
+ mitigated by sigstore.
+
+https://www.i-programmer.info/news/90-tools/14436-sigstore-to-mitigate-mos=
+t-supply-chain-hazards-but-not-all.html
+
+
+A post on understanding some of the OAuth flows that can result in authent=
+ication and authorization security issues=2C and planned changes to the sp=
+ecification to avoid them.
+
+https://medium.com/cloud-security/do-you-know-your-oauth-flows-137fb01b45f=
+8
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
