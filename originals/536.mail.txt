@@ -1,0 +1,90 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#536?=
+Date: Sun,  4 Apr 2021 09:09:34 +0000
+
+DEVOPS WEEKLY
+ISSUE #536 - 4th April 2021
+
+Distributed operating systems=2C high performance teams and continuous del=
+ivery=2C logging=2C caching=2C security. Good range of content this week I=
+ reckon.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+You can utilize Swagger Docs in security testing to drive more thorough an=
+d accurate vulnerability scans of your APIs. Learn how:
+
+http://sthwk.com/api-testing-with-swagger
+
+
+News
+=3D=3D=3D=3D
+
+A pitch for a Distributed Operating System Interface (DOSi) and that opera=
+ting systems should be reimagined to support higher level workloads that a=
+re managed in a distributed environment.
+
+https://nivenly.com/lib/2021-04-02-operating-system-interface/
+
+
+How do you fulfill the promise of continuous deployment? A presentation on=
+ the importance of high performance teams and how to build and measure pro=
+gress.
+
+https://speakerdeck.com/charity/cd
+
+
+A nice explanation of how to trigger a GitHub Action from a webhook=2C usi=
+ng the repository dispatch configuration and API.
+
+https://mainawycliffe.dev/blog/github-actions-trigger-via-webhooks
+
+
+A post on what you should be logging=2C at least from a security point of=
+ view. A good overview of the  Adversarial Tactics=2C Techniques=2C and Co=
+mmon Knowledge (ATT&CK) taxonomy from MITRE.
+
+https://www.ncsc.gov.uk/blog-post/what-exactly-should-we-be-logging
+
+
+A look at how one security team started building security into the develop=
+ment process by integrating various code scanning tools.
+
+https://www.afterpaytechblog.com/software-security-at-rocketship-pace/
+
+
+How to use a multilayer cache to improve cache hit rate on long tail conte=
+nt.
+
+https://www.cdn77.com/blog/tackle-long-tail-with-multilayer-cache
+
+
+What=E2=80=99s the argument for adopting a service mesh? This post explore=
+s the question=2C and some of the advantages and challenges.
+
+https://containerjournal.com/features/when-is-service-mesh-worth-it/
+
+
+What's New in Salt 3003 Aluminium: Beacons=2C Cloud=2C Development=2C Salt=
+ Extensions=2C Performance and caching=2C Juniper minion=2C FIPS mode and=
+ more.
+
+https://salt.tips/whats-new-in-salt-aluminium-release/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+The first sigstore tool I=E2=80=99ve come across. Cosign allows for signin=
+g a container image and storing the signature in the registry=2C and findi=
+ng and verifying signatures for a container image.
+
+https://github.com/sigstore/cosign
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
