@@ -1,0 +1,117 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#538?=
+Date: Sun, 18 Apr 2021 11:01:45 +0000
+
+DEVOPS WEEKLY
+ISSUE #538 - 18th April 2021
+
+Several good technology and tools posts this week=2C including on SQLite=
+=2C Vault=2C Spring Boot=2C Cloud Run=2C Cosign=2C Telepresence=2C open po=
+licy agent=2C containerd and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Are you a ZAP user looking to automate your security testing? Make sure to=
+ tune in to ZAPCon After Hours on Tuesday at 8 am PT to see how you can us=
+e Jenkins and Zest scripts to automate ZAP.
+
+http://sthwk.com/zapcon-afterhours
+
+
+News
+=3D=3D=3D=3D
+
+I love SQLite. This post does a good job of explaining why it=E2=80=99s a=
+ unique and powerful tool for lots of different use cases.
+
+https://antonz.org/sqlite-is-not-a-toy-database/
+
+
+A post on the importance and differences between platform engineering and=
+ site reliability engineering.
+
+https://www.effx.com/blog/platform-engineering-vs-site-reliability-enginee=
+ring
+
+
+A quick how-to post on using cosign to cryptographically sign container im=
+ages.
+
+https://raesene.github.io/blog/2021/03/21/Trying-out-cosign/
+
+
+Vault supports different backends for storage=2C but what are the performa=
+nce characteristics of using Postgres=2C Consul or GCS? This post answers=
+ the question and shows the working.
+
+https://blog.flant.com/comparing-hashicorp-vault-backends-performance/
+
+
+A look at using Telepresence for local development and debugging of applic=
+ations running on Kubernetes.
+
+https://codefresh.io/kubernetes-tutorial/telepresence-2-local-development/
+
+
+A fast inner loop for developers testing out new ideas is a powerful tool=
+=2C and one approach is a strong opinion about integrating frameworks=2C l=
+ocal tools and cloud services. A nice example with Spring Boot and Google=
+ Cloud Run.
+
+https://seroter.com/2021/04/13/exploring-a-fast-inner-dev-loop-for-spring-=
+boot-apps-targeting-google-cloud-run/
+
+
+A nice walkthrough of using cloud native buildpacks to solve operational p=
+roblems with building container images.
+
+https://www.magalix.com/blog/how-to-on-using-cloud-native-buildpacks-for-o=
+perational-efficiency
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+CONFLANG=2C a workshop on configuration languages=2C is coming up as part=
+ of SPLASH=2C on the 17th-22nd of October. The CFP is open now and looking=
+ for talks on New languages for configuration=2C Specification learning an=
+d mining for configurations=2C Infrastructure and configuration code maint=
+enance and evolution and more.
+
+https://2021.splashcon.org/home/conflang-2021#Call-for-Presentations
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+An experimental CLI tool for using containerd in a similar way to Docker.=
+ Not intended as a replacement as much as a place for some interesting exp=
+eriments with cutting edge functionality.
+
+https://github.com/containerd/nerdctl
+
+
+OPAL is an administration layer for Open Policy Agent (OPA)=2C detecting c=
+hanges to both policy and policy data in realtime and pushing live updates=
+ to your agents.
+
+https://www.opal.ac
+https://github.com/authorizon/opal
+
+
+An example of solving a problem with end-to-end automation. Using CDK to p=
+rovision an AWS Config rule and Lambda function that detects and then remo=
+ves an public SSH access.
+
+https://github.com/adhorn/ssh-restricted
+
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
