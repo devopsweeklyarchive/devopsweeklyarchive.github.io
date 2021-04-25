@@ -1,0 +1,142 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#539?=
+Date: Sun, 25 Apr 2021 10:05:58 +0000
+
+DEVOPS WEEKLY
+ISSUE #539 - 25th April 2021
+
+It feels like we=E2=80=99re at the time of year where interesting events a=
+re starting to crop up. DevX Conf and Failover Conf mentioned below coming=
+ up this week definitely qualify and KubeCon EU is in a couple of weeks. P=
+osts on platform teams=2C handover=2C incident commanders and more as well=
+=2E
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Serverless doesn't mean secure. Use modern security testing tools to asses=
+s serverless applications for vulnerabilities during development.
+
+http://sthwk.com/serverless
+
+
+News
+=3D=3D=3D=3D
+
+A strong argument for why you need a platform team to really benefit from=
+ running on Kubernetes.
+
+https://polarsquad.com/blog/why-you-need-a-platform-team-for-kubernetes
+
+
+In a growing organisation=2C ownership of services will naturally move fro=
+m team to team over time. This post contains some great tips on how to mak=
+e those types of transitions more successful.
+
+https://developers.soundcloud.com/blog/how-to-successfully-hand-over-syste=
+ms
+
+
+A post on using the role of incident commander to aid in addressing operat=
+ional incidents smoothly.
+
+https://increment.com/reliability/technical-incident-command/
+
+
+I=E2=80=99m a fan of light-weight community metadata standards. a8r.io is=
+ a set of annotations for Kubernetes objects for finding things like runbo=
+oks=2C issue tracking=2C log viewers=2C chat channels=2C etc.
+
+https://ambassadorlabs.github.io/k8s-for-humans/
+
+
+AsyncAPI is a project aiming to make building and working with event drive=
+n architectures easier. Open source tools and specifications similar to Op=
+enAPI.
+
+https://www.asyncapi.com/
+
+
+A post on using preemptible nodes on GCP. These are unreliable by design=
+=2C so implementing chaos engineering approaches is even more critical.
+
+https://expel.io/blog/migrating-gke-preemptible-nodes-making-space-for-cha=
+os-monkeys/
+
+
+Lots of teams are managing increasingly large Kafka clusters. This post in=
+troduces Cruise Control and some of it=E2=80=99s features for rebalancing=
+ and visualising cluster workloads.
+
+https://medium.com/teads-engineering/visualization-in-kafka-cruise-control=
+-83da2e0a93e3
+
+
+Jobs
+=3D=3D=3D=3D
+
+Do you love solving business problems? Are you driven by translating what=
+ you see into the design and implementation? Are you looking to automate a=
+nd manage day-to-day operations of software and hardware infrastructure? O=
+ptiver are hiring Site Reliability Engineers!
+
+As Site Reliability Engineer you will deploy=2C maintain=2C monitor and im=
+prove the reliability=2C scalability and performance of our in-house built=
+ trading software. You will sit on the trading floor together with the end=
+-users and set standards for the production environment =E2=80=93 it is an=
+ engineering role=2C not a support role. You will have a real=2C direct im=
+pact on our ability to trade and trading results. You will work with short=
+ feedback loops and flat hierarchy. No two days are the same!
+
+https://www.optiver.com/working-at-optiver/career-opportunities/1470795/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DevX Conf is coming up this week on the 28th and 29th of April. A virtual=
+ conference dedicated to developer experience. 20+ speakers covering every=
+thing from code editors to collaboration=2C and build and release tooling=
+ to monitoring and security. The focus throughout is on bringing back joy=
+ and speed to our workflows.
+
+https://devxconf.org
+
+
+This year's Failover Conf won=E2=80=99t be like any other virtual conferen=
+ce=2C with panel discussions=2C lightning talks=2C fireside chats=2C dance=
+ parties=2C pet slideshows=2C tons of swag=2C and more. Join us for discus=
+sions on reliability=2C DevOps=2C and SRE on April 27th at 9am PDT.
+
+https://go.gremlin.rocks/3v69tZD
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+ConsoleMe is a web service that aims to make AWS IAM permissions and crede=
+ntial management easier for end-users and cloud administrators.
+
+https://github.com/Netflix/consoleme
+
+
+Early=2C but very interesting. Zellij is on the surface just another termi=
+nal multiplexer. But it=E2=80=99s webassembly plugin system and plans for=
+ a browser based interface look interfacing for sharing reusable UIs.
+
+https://zellij.dev/news/beta/
+
+
+Qovery is a high-level cloud application platform. It provides an interfac=
+e based around Git and branches but deploys to your cloud environment=2C s=
+upporting AWS=2C Azure and GCP.
+
+https://github.com/Qovery/engine
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
