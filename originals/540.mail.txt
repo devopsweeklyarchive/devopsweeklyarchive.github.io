@@ -1,0 +1,127 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#540?=
+Date: Sun,  2 May 2021 10:14:08 +0000
+
+DEVOPS WEEKLY
+ISSUE #540 - 2nd May 2021
+
+Cost efficiency=2C runbooks=2C using games to build teams=2C logging servi=
+ces=2C secrets management and more. Lots of core operations topics this we=
+ek. Plus the return of an in-person event later in the year.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Join StackHawk Tuesday May 4 at 9 am PT for a hands-on technical workshop!=
+ By the end of the session=2C you will have three types of security testin=
+g running in your GitHub pipeline. Register:
+
+http://sthwk.com/tech-workshop
+
+
+News
+=3D=3D=3D=3D
+
+An interesting post covering a few topics=2C including Backstage as a plat=
+form for developer context and the movement to shift cloud cost control to=
+ development teams.
+
+https://redmonk.com/jgovernor/2021/04/28/shifting-cost-optimisation-left-s=
+potify-backstage-cost-insights/
+
+
+A post on the importance of planning and runbooks for important operationa=
+l activities=2C and a tribute to the astronaut Michael Collins=2C who pass=
+ed away this last week.
+
+https://flyingbarron.medium.com/michael-collins-carrying-the-fire-6ac19cdf=
+0983
+
+
+A nice post stepping back over the last 20+ years and considering the evol=
+ution of operations and the technology we=E2=80=99re operating.
+
+https://www.effx.com/blog/the-evolution-into-devops-and-why-it-works-today
+
+
+All of the videos from the DevX event last week have been posted=2C coveri=
+ng all things developer experience. This has been a focus for lots of team=
+s building developer tools as the expectations have increased over the las=
+t several years.
+
+https://www.youtube.com/playlist?list=3DPL3TSF5whlprUTnpP9drAl-knNUnPqKrui
+
+
+A post on the importance of games as learning tools for operations teams=
+=2C for improving team communication=2C incident response=2C delegation an=
+d more.
+
+https://opsdrill.com/blog/games-devops-teams-play-to-stay-sharp/
+
+
+A description of various anti-patterns when it comes to operating models=
+=2C and in particular assuming one size fits all when it comes to large or=
+ganisations.
+
+https://www.remoteaf.co/blogs/operating-model-anti-patterns
+
+
+There are now lots of SaaS services to help handle distributed logging cha=
+llenges. This post (from one of the included vendors) provides a handy lis=
+t and overview of some of the current offerings.
+
+https://sematext.com/blog/cloud-logging-services/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Are you interested in challenges outside "the cloud"?  Would you like to u=
+tilize software engineering for best-in-class tailored solutions to our in=
+frastructure? Would you like to participate in the design and implementati=
+on of core infrastructure systems?
+
+Join Optiver as Infrastructure Software Engineer!
+
+We look for Engineers with Linux Servers experience and an ability code in=
+ Python or have the propensity to pick it up. If you don't consider yourse=
+lf a developer=2C no problem! We=E2=80=99re also looking for individuals a=
+ble to do scripting while working with Linux or networking low levels. Tak=
+e a look here for further details of the role and how to apply:
+
+https://www.optiver.com/working-at-optiver/career-opportunities/3090815/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Monitorama is back=2C on the 13th to the 15th of September in Portland=2C=
+ Oregon. Yes=2C a real life in-person event. As always Monitorama will bri=
+ng together the open source and operations communities in pushing the boun=
+daries of observability software and practices.
+
+https://monitorama.com/2021/pdx.html
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Teller is a command line tool for managing and accessing secrets. It suppo=
+rts Hashicorp Vault=2C AWS Secrets Manager=2C Google Secret Manager=2C and=
+ more for secure storage.
+
+https://github.com/spectralops/teller
+
+
+gRPCurl is a command line tool for interacting with gRPC endpoints. It can=
+ browse remote schemas=2C show protocol buffers and send requests using JS=
+ON as input.
+
+https://github.com/fullstorydev/grpcurl
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
