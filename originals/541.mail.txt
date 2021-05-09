@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#541?=
+Date: Sun,  9 May 2021 09:33:33 +0000
+
+DEVOPS WEEKLY
+ISSUE #541 - 9th May 2021
+
+Quite a few KubeCon inspired posts this week=2C including several Kubernet=
+es-related tools.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Tune into ZAPCon After Hours this Tuesday at 8 am PT to learn how to inclu=
+de automated security testing in your builds with ZAP
+
+http://sthwk.com/zapcon-3
+
+
+News
+=3D=3D=3D=3D
+
+Are developer portals (like those powered by Backstage) an anti-pattern? T=
+his post argues yes.
+
+https://www.lastweekinaws.com/blog/developer-portals-are-an-anti-pattern/
+
+
+The full playlist of talks from last week's GitOps Con event with case stu=
+dies and deep dive technical sessions.
+
+https://www.youtube.com/playlist?list=3DPLXOML2VBdIo7xEp8Bo9kFB-d6tTlHK5Fk
+
+
+An interesting post on hosting SQLite databases on static hosting=2C in th=
+is case GitHub pages. SQlite databases are just files=2C and the post show=
+s how to compile SQLite itself to WASM for serving.
+
+https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pa=
+ges/
+
+
+AWS CDK now supports Java=2C allowing for native deployment tooling for an=
+other ecosystem. This post demonstrates deploying a Java app to Lambda usi=
+ng CDK.
+
+https://aws.amazon.com/blogs/opensource/packaging-and-deploying-aws-lambda=
+-functions-written-in-java-with-aws-cloud-development-kit/
+
+
+Pyston is an alternative Python runtime (technically a fork of CPython) th=
+at purports to be 30% faster for common workloads. Originally developed at=
+ Dropbox=2C Pyston is now an open source project.
+
+https://blog.pyston.org/2021/05/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Gitpod.io is looking for senior engineers helping to build out our SRE tea=
+m.
+
+Want to work in open source and fully-remote with some of the world's most=
+ talented K8s and developer tools engineers? You are obsessed with DevX an=
+d automating our workflows? We pioneered the concept of dev-environments-a=
+s-code and provision automated and ready-to-code development environments=
+ that blend in your existing workflow. We'd love to hear from you.
+
+https://www.gitpod.io/careers/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Pixie is an observability stack for Kubernetes applications. It provides d=
+ashboards and a handy CLI tool=2C and doesn=E2=80=99t require complex inst=
+rumentation.
+
+https://px.dev
+https://github.com/pixie-labs/pixie
+
+
+DazedAndConfused is a tool for helping identify dependency confusion attac=
+ks=2C with support for a wide range of different package managers.
+
+https://github.com/salesforce/DazedAndConfused
+
+
+kcp is a prototype of a Kubernetes API server that is not a Kubernetes clu=
+ster. If you=E2=80=99re interested in Kubernetes-like APIs but for other t=
+ools this might be interesting to watch.
+
+https://github.com/kcp-dev/kcp
+
+
+Pinniped is the easy=2C secure way to log in to your Kubernetes clusters=
+=2C including support for OpenID Connect.
+
+https://pinniped.dev
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
