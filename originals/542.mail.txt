@@ -1,0 +1,109 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#542?=
+Date: Sun, 16 May 2021 09:42:28 +0000
+
+DEVOPS WEEKLY
+ISSUE #542 - 16th May 2021
+
+Metrics=2C dashboards=2C KubeCon recaps and lots of tools this week=2C fro=
+m eBPF on Windows to new tools for testing with Kubernetes and Linux.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+APIs are not only the backbone of modern application architecture=2C but t=
+hey are also a key part of security. Discover what API security testing is=
+=2C how it works=2C and get started using API security tools
+
+http://sthwk.com/API-security
+
+
+News
+=3D=3D=3D=3D
+
+A post on the best way to present metrics on dashboards. Definitely releva=
+nt to anyone presenting information from monitoring or software developmen=
+t metrics.
+
+https://medium.com/salesforce-ux/metric-display-standards-54736533c81
+
+
+A rebuttal to a post from last week=2C on how Backstage hopes to address s=
+ome of the traditional issues described with developer portals.
+
+https://roadie.io/blog/developer-portals-are-a-superpower/
+
+
+A couple of write ups from the recent KubeCon EU event. High level themes=
+ and details of various talks and tracks.
+
+https://loft.sh/blog/kubecon-europe-2021-wrapup/
+https://blog.getambassador.io/kubecon-eu-2021-developers-developers-develo=
+pers-and-control-planes-1ed8f9bd5703
+
+
+A post on avoiding vendor lockin by owning you data=2C your front-end inte=
+rfaces=2C your source code and avoiding long term contracts.
+
+https://sboots.ca/2021/05/12/rule-number-one-avoid-vendor-lock-in/
+
+
+A good post on the practices required to adopt continuous delivery=2C with=
+ examples using the Batect build system.
+
+https://isthisit.nz/posts/2021/devops-practices-for-continuous-deployment/
+
+
+A quick overview of the metrics you should be measuring if you=E2=80=99re=
+ running Kubernetes clusters.
+
+https://sematext.com/blog/kubernetes-metrics/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+vcluster creates fully functional virtual Kubernetes clusters running insi=
+de a namespace of an underlying Kubenretes cluster. It's cheaper than crea=
+ting separate clusters and it offers better multi-tenancy and isolation th=
+an regular namespaces.
+
+https://www.vcluster.com
+https://github.com/loft-sh/vcluster
+
+
+Lima is a brand new tool for anyone on a Mac wanting to run Linux instance=
+s that come pre-configured with containerd for running containers.
+
+https://github.com/AkihiroSuda/lima
+
+
+eBPF on Windows. Lots of interesting things are being built on top of eBPF=
+ in the Linux kernel. The idea of eBPF implementations in other operating=
+ systems and even user space programmes is certainly interesting.
+
+https://cloudblogs.microsoft.com/opensource/2021/05/10/making-ebpf-work-on=
+-windows/
+https://github.com/microsoft/ebpf-for-windows
+
+
+Do you find yourself writing bash scripts but wish you could write JavaScr=
+ipt instead? Zx provides some nice utilities and removes the need for user=
+s to be node or npm experts.
+
+https://github.com/google/zx
+
+
+Ahoy is a user-friendly dashboard for managing Helm-deployed applications=
+ on Kubernetes.
+
+https://joe-bigelow.medium.com/introducing-ahoy-a-helm-gui-7d391981f9e1
+https://github.com/oslabs-beta/Ahoy
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
