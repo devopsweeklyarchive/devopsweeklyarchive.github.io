@@ -1,0 +1,91 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#543?=
+Date: Sun, 23 May 2021 10:03:02 +0000
+
+DEVOPS WEEKLY
+ISSUE #543 - 23rd May 2021
+
+Several posts this week on Kubernetes operations=2C from debugging running=
+ pods to scheduling and from migrating to Kubernetes at scale to service m=
+esh complexity.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Join StackHawk on Tuesday March 25 for a hands-on authenticated security t=
+esting workshop. Follow along as we walk through three common authenticati=
+on scenarios step-by-step. Register:
+
+http://sthwk.com/authentication
+
+
+News
+=3D=3D=3D=3D
+
+A detailed case study focused on a large infrastructure architecture effor=
+t moving from managing virtual machines to Kubernetes.
+
+https://stackoverflow.blog/2021/05/19/rethinking-system-architecture-can-k=
+ubernetes-help-to-solve-rewrite-anxiety/
+
+
+An important post on the risks with the AWS =E2=80=9Cfree=E2=80=9D tier wh=
+en it comes to learning and unexpected bills. This can apply to other deve=
+loper-focused metered services as well.
+
+https://cloudirregular.substack.com/p/please-fix-the-aws-free-tier-before
+
+
+A post on adopting service mesh that=E2=80=99s also a post on the risks in=
+herent in adopting early stage technologies=2C in this case looking at dro=
+pping Istio and moving to Linkerd.
+
+https://medium.com/polymatic-systems/service-mesh-wars-goodbye-istio-b047d=
+9e533c7
+
+
+Some observations on the imbalance in knowledge between vendors and buyers=
+ and the importance of market forces in solving some of the security chall=
+enges that are ever more visible.
+
+https://www.scmagazine.com/perspectives/fix-a-broken-market-and-we-can-res=
+olve-so-many-cybersecurity-issues/
+
+
+New features in Kubernetes often lead to interesting user tooling a little=
+ later. This post looks at EphemeralContainers and the kubectl debug tool=
+ for debugging running pods.
+
+https://martinheinz.dev/blog/49
+
+
+Another pod on debugging Kubernetes=2C this time looking at pod status and=
+ in particular looking at debugging pending pods with the scheduler.
+
+https://www.datadoghq.com/blog/debug-kubernetes-pending-pods/
+
+
+A pair of posts looking into garbage collection in Java and how to monitor=
+ its impact on your applications.
+
+https://sematext.com/blog/java-garbage-collection-logs/
+https://sematext.com/blog/java-gc-log-analysis-tools/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Batect is a tool for defining repeatable tasks to aid local development. R=
+unning builds=2C executing tests=2C running deployments=2C spinning up dep=
+endent services=2C etc.
+
+https://batect.dev
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
