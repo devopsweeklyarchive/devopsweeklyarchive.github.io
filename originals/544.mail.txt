@@ -1,0 +1,100 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#544?=
+Date: Sun, 30 May 2021 10:56:35 +0000
+
+DEVOPS WEEKLY
+ISSUE #544 - 30th May 2021
+
+The growing cost of cloud services=2C on-demand staging environments=2C de=
+fining SLOs in code=2C data sharing and several other topics this week acr=
+oss the devops spectrum.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+APIs are not only the backbone of modern application architecture=2C but t=
+hey are also a key part of security. Discover what API security testing is=
+=2C how it works=2C and get started using API security tools
+
+http://sthwk.com/API-security
+
+
+News
+=3D=3D=3D=3D
+
+The DORA/Google State of Devops survey is open=2C focusing this year on me=
+trics=2C how SRE fits with Devops=2C security and compliance=2C distribute=
+d teams and more.
+
+https://cloud.google.com/blog/products/devops-sre/take-2021-state-devops-s=
+urvey-shape-future-devops
+http://goo.gle/DORA2021Survey
+
+
+A post on providing on-demand test environments for growing development te=
+ams=2C supported by a developer portal.
+
+https://increment.com/containers/on-demand-staging-environments-kubernetes=
+/
+
+
+OpenSLO is a service level objective (SLO) language that declaratively def=
+ines reliability and performance targets using a simple YAML specification=
+=2E Store your SLOs in Git=2C with tooling to help validation in your CI pip=
+eline.
+
+https://openslo.com
+
+
+A post on the reality of cloud costs as organisations grow. Lots of useful=
+ insights into public data=2C mainly pointing out it=E2=80=99s more nuance=
+d at scale for certain types of workloads.
+
+https://a16z.com/2021/05/27/cost-of-cloud-paradox-market-cap-cloud-lifecyc=
+le-scale-growth-repatriation-optimization/
+
+
+A reminder that system complexity can easily reduce uptime of the whole. T=
+he examples are simplistic=2C ignoring partial failures=2C but still a use=
+ful example to bear in mind.
+
+https://which-50.com/how-systems-complexity-reduces-uptime/
+
+
+A post on profiling production services using Prometheus and Jaeger.
+
+https://medium.com/miro-engineering/profiling-in-production-to-detect-serv=
+er-bottlenecks-321919d2da51
+
+
+An in-depth look at autoscaling in Kubernetes. What problems does it solve=
+=2C how is it implemented and how it works under-the-hood.
+
+https://around25.com/blog/horizontal-pod-autoscaler-in-kubernetes/
+
+
+Delta sharing is an open protocol for secure real-time exchange of large d=
+atasets=2C aiming to enable secure data sharing across products.
+
+https://delta.io/sharing/
+https://databricks.com/blog/2021/05/26/introducing-delta-sharing-an-open-p=
+rotocol-for-secure-data-sharing.html
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Open Policy Agent=2C and it=E2=80=99s Rego language=2C can be applied to l=
+ots of different problems. Confectionary provides a set of policies for te=
+sting Terraform plans. My hope is we=E2=80=99ll see more of these sorts of=
+ pre-packaged policies.
+
+https://github.com/Cigna/confectionery
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
