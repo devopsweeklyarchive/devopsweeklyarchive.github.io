@@ -1,0 +1,90 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#545?=
+Date: Sun,  6 Jun 2021 09:37:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #545 - 6th June 2021
+
+Health on-call culture=2C usable monitoring dashboards=2C AWS security bou=
+ndaries=2C technical posts on ProtoBuf performance=2C container build tool=
+chains and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk is helping One Medical equip developers with automated security=
+ testing and self-service remediations. See how:
+
+http://sthwk.com/one-medical
+
+
+News
+=3D=3D=3D=3D
+
+An excellent post on building a healthy on-call culture for developers. Lo=
+ts of concrete advice=2C centered on respecting engineers and their time.
+
+https://developers.soundcloud.com/blog/building-a-healthy-on-call-culture
+
+
+ProtoBuf API v2 has some large performance implications. This post is a go=
+od primer=2C as well as a look at how one project solved the problem with=
+ a project-specific code generator.
+
+https://vitess.io/blog/2021-06-03-a-new-protobuf-generator-for-go/
+
+
+Is an AWS account a security boundary? This post digs into the details=2C=
+ showing a large number of ways services cross accounts.
+
+https://matthewdf10.medium.com/aws-accounts-as-security-boundaries-97-ways=
+-data-can-be-shared-across-accounts-b933ce9c837e
+
+
+Moving from a monolithic architecture to one based on many services often=
+ means having to distribute authorization. This post explores how one orga=
+nization used humeji.
+
+https://medium.com/airbnb-engineering/himeji-a-scalable-centralized-system=
+-for-authorization-at-airbnb-341664924574
+
+
+Some useful tips for building usable monitoring dashboards.
+
+https://dmoldovan.medium.com/monitoring-how-to-build-your-monitoring-dashb=
+oards-e11f89918dd1
+
+
+A post on the benefits of being able to repave a datacenter=2C including t=
+ips on how to get started.
+
+https://rackn.com/2021/06/03/is-repaving-data-centers-the-way-to-better-ro=
+i/
+
+
+A look at a toolchain for building and publishing container images=2C usin=
+g GitHub Actions and ECR. It=E2=80=99s a good example of the trade off bet=
+ween complexity and secure tool chains with current tooling.
+
+https://www.davehall.com.au/blog/2021/05/31/rube-goldberg-machine-containe=
+r-workflows/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Managing tags for cloud resources is critical but also a pretty thankless=
+ task. Yor is a new tool to help=2C that integrates with infrastructure as=
+ code and is intended for use in a CI pipeline.
+
+https://github.com/bridgecrewio/yor
+https://bridgecrew.io/blog/announcing-yor-open-source-iac-tag-trace-cloud-=
+resources/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
