@@ -1,0 +1,87 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#546?=
+Date: Sun, 13 Jun 2021 10:16:01 +0000
+
+DEVOPS WEEKLY
+ISSUE #546 - 13th June 2021
+
+Asset management and tips for moving into information security=2C as well=
+ reducing cloud network transfer costs and tips for Prometheus=2C JVM and=
+ PostgreSQL users.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Join the GraphQL Security Testing Learning Lab on June 29 at 9 AM PT. Lear=
+n how to run automated security testing against your GraphQL APIs so you c=
+an find and fix vulnerabilities fast.
+
+http://sthwk.com/graphql-learninglab
+
+
+News
+=3D=3D=3D=3D
+
+A post on the importance of asset management in relation to good cyber sec=
+urity health.
+
+https://www.ncsc.gov.uk/blog-post/asset-management-for-cyber-security
+
+
+A large infrastructure is likely to have hugely complex network traffic fl=
+ow.This post describes a state-of-the-art eBPF system for providing networ=
+k insight at scale.
+
+https://netflixtechblog.com/how-netflix-uses-ebpf-flow-logs-at-scale-for-n=
+etwork-insight-e3ea997dca96
+
+
+The way some cloud services work=2C internal data transfer costs can quick=
+ly escalate. This post looks into minimising cross-region container regist=
+ry costs using a local cache.
+
+https://lambda.grofers.com/reducing-data-transfer-costs-with-a-docker-regi=
+stry-based-cache-8f93d7e561f3
+
+
+An introduction to extending Prometheus monitoring systems with Thanatos.
+
+https://thesaadahmed.medium.com/thanos-monitoring-with-prometheus-and-graf=
+ana-843ed231c8a6
+
+
+An opinionated list of 50 things you should learn to work in information s=
+ecurity. Lots of cross-over with good security knowledge for systems admin=
+istrators too.
+
+https://www.netmeister.org/blog/infosec-competencies.html
+
+
+A good list of places to get help or learn more about PostgreSQL.
+
+https://xzilla.net//blog/2021/Jun/Where-To-Get-Postgres-Help-Online.html
+
+
+If you=E2=80=99re running Java applications then you need to understand ho=
+w to get metrics from the JVM. This post describes the critical JVM metric=
+s available via JMX like memory usage=2C garbage collection=2C and thread=
+ counts.
+
+https://sematext.com/blog/jvm-metrics/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A set of best practices for AWS Serverless applications available for test=
+ing your infrastructure as code as plugins for cfn-lint and tflint.
+
+https://github.com/awslabs/serverless-rules
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
