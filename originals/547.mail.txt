@@ -1,0 +1,82 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#547?=
+Date: Sun, 20 Jun 2021 10:20:54 +0000
+
+DEVOPS WEEKLY
+ISSUE #547 - 20th June 2021
+
+Several posts this week regarding incident management=2C from the risks of=
+ counting incidents to incident management frameworks=2C as well as great=
+ hardening exercises for Kubernete=2C discussion of SLOs and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Join ZAP Founder & Project Lead Simon Bennetts on June 30 for a live AMA w=
+here he will be answering questions on all things open source and AppSec.=
+ Register:
+
+http://sthwk.com/Simon-Bennetts-AMA
+
+
+News
+=3D=3D=3D=3D
+
+A post on why counting incidents and trying to reduce the number might not=
+ be the best approach to incident management.
+
+https://incident.io/blog/dont-count-your-incidents-make-your-incidents-cou=
+nt
+
+
+A fantastically detailed post on everything site reliability engineering f=
+or Kubernetes=2C including detailed hardening exercises to conduct.
+
+https://tammybutow.medium.com/site-reliability-engineering-for-kubernetes-=
+b52877c70fb7
+
+
+A look at a new proposed incident management framework and why we need one=
+=2E
+
+https://itrevolution.com/new-framework-for-incident-management/
+
+
+A post on the difficulties of implementing SLOs=2C and introducing the Slo=
+th toolkit.
+
+https://itnext.io/slos-should-be-easy-say-hi-to-sloth-9c8a225df0d4
+
+
+An interesting use of OpenTracing to not only provide tracing through a se=
+rvice-based system=2C but also to carry custom context for anything from s=
+harding to localisation to testing in production.
+
+https://doordash.engineering/2021/06/17/leveraging-opentelemetry-for-custo=
+m-context-propagation/
+
+
+A quick approach to hardening linux servers using the DevSec hardening fra=
+mework and Ansible.
+
+https://fak3r.com/2021/06/18/secure-linux-servers-by-default/
+
+
+Containers and virtual machines have different tradeoffs. This post looks=
+ into how to run docker containers inside a microvm using QEMU.
+
+https://mergeboard.com/blog/2-qemu-microvm-docker/
+
+
+Kubernetes by example is a comprehensive set of learning resources for Kub=
+ernetes including video=2C hands-on examples and a streaming community.
+
+https://www.kubernetesbyexample.com/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
