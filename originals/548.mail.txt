@@ -1,0 +1,88 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#548?=
+Date: Sun, 27 Jun 2021 10:00:51 +0000
+
+DEVOPS WEEKLY
+ISSUE #548 - 27th June 2021
+
+A couple of posts looking at the Twelve Factor App and back at the ensurin=
+g influence of Heroku. Also several Kubernetes policy-related posts featur=
+ing Open Policy Agent and Kyverno for different use cases.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Get ready for some GraphQL! Tune in this Tuesday=2C June 29 at 9 AM PT for=
+ an automated GraphQL security testing learning lab. Register:
+
+https://sthwk.com/graphql-learninglab
+
+
+News
+=3D=3D=3D=3D
+
+The Twelve Factor App methodology is 10 years old. But how does it hold it=
+ to modern application needs? This post explores each of the factors.
+
+https://codersociety.com/blog/articles/twelve-factor-app-methodology
+
+
+A post on the need to watch out for the pitfall of counterfactuals when an=
+alyzing incidents=2C with good examples of potential issues.
+
+https://www.michaelnygard.com/blog/2021/06/counterfactuals-are-not-causali=
+ty/
+
+
+We=E2=80=99re definitely seeing higher and higher levels of abstraction wh=
+en it comes to cloud services=2C but the user interface for developers is=
+ still key. A post considering this issue and the influence of Heroku.
+
+https://redmonk.com/sogrady/2021/06/23/aws-heroku/
+
+
+The Kyerno policy engine for Kubernetes can be used as a mutating webhook=
+ as well as a validating one=2C which opens up several use cases. This pos=
+t looks at ensuring pull secrets are available in new namespaces and podsp=
+ecs.
+
+https://medium.com/hepsiburadatech/how-i-tackle-docker-hub-rate-limiting-p=
+olicy-with-a-policy-engine-kyverno-ea263ea95035
+
+
+A post on getting Gatekeeper violation information from your Kubernetes cl=
+uster into Prometheus and Grafana for improved visibility.
+
+https://itnext.io/expose-open-policy-agent-gatekeeper-constraint-violation=
+s-with-prometheus-and-grafana-6b7ac92ea07f
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+An online editor and visualisation tool=2C along with a built-in tutorial=
+=2C for writing Kubernetes network policies.
+
+https://editor.cilium.io/?id=3Ds3WhlNQCdjA4UGOG
+
+
+Rocky Linux is a new Linux Operating System designed to be a drop-in repla=
+cement for CentOS=2C operating in the same manner CentOS did previously as=
+ a downstream project.
+
+https://rockylinux.org
+https://github.com/rocky-linux
+
+
+Kube Karp is a handy tool with a specific purpose=2C to add a floating vir=
+tual IP to Kubernetes cluster nodes to make load balancing easy.
+
+https://github.com/immanuelfodor/kube-karp
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
