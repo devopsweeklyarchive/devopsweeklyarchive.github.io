@@ -1,0 +1,99 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#549?=
+Date: Sun,  4 Jul 2021 09:37:58 +0000
+
+DEVOPS WEEKLY
+ISSUE #549 - 4th July 2021
+
+Several good posts this week with an architecture theme=2C along with post=
+s on Kubernetes tooling=2C BPF=2C sharing Grafana dashboards and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Planetly saved weeks of work by implementing StackHawk instead of building=
+ an internal ZAP service. See how:
+
+https://sthwk.com/plantely-picks-stackhawk
+
+
+News
+=3D=3D=3D=3D
+
+A detailed discussion of why it=E2=80=99s a bad idea to treat an event bro=
+ker as a database=2C even with strong consistency guarantees.
+
+https://blog.swim.ai/brokers-arent-databases
+
+
+A post coining the term PAGNI=2C for things you probably are going to need=
+ to implement=2C or that benefit you to have early=2C like automated deplo=
+yment=2C continuous integration=2C mobile kill switches and more.
+
+https://simonwillison.net/2021/Jul/1/pagnis/
+
+
+A good primer on BPF=2C taking the angle of helping add observability usin=
+g BPF to your own software.
+
+https://brendangregg.com/blog/2021-07-03/how-to-add-bpf-observability.html
+
+
+A set of best practices for anyone using Helm with Kubernetes. Tips on doc=
+umentation=2C dependencies=2C labels=2C testing and secrets and more.
+
+https://codersociety.com/blog/articles/helm-best-practices
+
+
+Grafana supports sharing reusable dashboards=2C and this post contains som=
+e interesting examples covering everything from Splunk to Elixir and Kuber=
+netes to GitHub.
+
+https://grafana.com/blog/2021/06/22/grafana-dashboard-showcase-visualizati=
+ons-for-prometheus-home-energy-usage-github-and-more/
+
+
+A tongue-in-cheek post on emulating the design of 30 year old software usi=
+ng modern multi-language=2C multi-service=2C architecture.
+
+https://blog.davetcode.co.uk/post/21st-century-emulator/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kubewarden is a new entry into the policy engine space for Kubernetes. Pol=
+icies are written in existing programming=2C as long as they can be compil=
+ed to webassembly.
+
+https://www.kubewarden.io
+
+
+DuckDB is an open source in-process SQL database management system. Lots o=
+f interesting use cases and packages available for various programming lan=
+guages.
+
+https://duckdb.org
+https://github.com/duckdb/duckdb
+
+
+Ever wanted to distribute APT packages publicly=2C or without having to se=
+t up a repository infrastructure? This plugin allows for using a standard=
+ OCI container registry for package distribution.
+
+https://github.com/AkihiroSuda/apt-transport-oci
+
+
+Leapp is a local tool for managing cloud resources=2C keeping the credenti=
+als encrypted locally and provisioning time-limited credentials for manage=
+ment when needed.
+
+https://github.com/Noovolari/leapp
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
