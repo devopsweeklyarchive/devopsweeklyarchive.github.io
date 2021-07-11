@@ -1,0 +1,99 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#550?=
+Date: Sun, 11 Jul 2021 11:16:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #550 - 11th July 2021
+
+WebAssembly=2C Kubernetes and Serverless posts today. I think increasingly=
+ we=E2=80=99ll see the three combined in interesting ways as well as some=
+ folks position them as competitive.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Learn how our team at StackHawk tests external cookie authentication using=
+ Ktor=2C and check out some of the helper functions we wrote to make the t=
+ests easy to write=2C read=2C and maintain.
+
+https://sthwk.com/ktor-cookie-auth
+
+
+News
+=3D=3D=3D=3D
+
+WebAssembly is interesting and important. It=E2=80=99s now getting to the=
+ point where it=E2=80=99s in active use for lots of interesting use cases.=
+ This post is a great introduction to the current ecosystem.
+
+https://thenewstack.io/what-is-webassembly/
+
+
+Security conversations are too often cursed with binary thinking. This pos=
+t has lots of examples=2C from compliance to open source=2C incident manag=
+ement and more.
+
+https://www.philvenables.com/post/cybersecurity-and-the-curse-of-binary-th=
+inking
+
+
+Grafana supports sharing dashboards=2C but can lead to lots of repetition=
+ in definitions. Enter Grafonnet=2C using Jsonnet to maximise reuse.
+
+https://medium.com/adidoescode/dashboards-dashboards-everywhere-as-code-76=
+97f221b0c5
+
+
+An interesting discussion of the tradeoffs with how teams choose to develo=
+p software=2C balancing predictability and speed of feedback=2C with two e=
+xtreme examples and talk of risk appetite.
+
+https://review.firstround.com/the-right-way-to-ship-software
+
+
+A detailed post on tips for adopting a serverless architecture on AWS=2C i=
+ncluding discussion of the mindset shift and benefits of upfront training=
+ on the differences.
+
+https://medium.com/galvanize/going-serverless-on-aws-116a04a0defd
+
+
+A look at multi-cluster support in Kubernetes=2C using Kind to launch seve=
+ral clusters for testing and Submariner and Calico for the networking.
+
+https://piotrminkowski.com/2021/07/08/kubernetes-multicluster-with-kind-an=
+d-submariner
+
+
+A comprehensive post on essential tools for Kubernetes=2C covering deploym=
+ent=2C build=2C security=2C policy=2C higher-level interfaces=2C extension=
+s and lots more. It does point to the size and complexity of the ecosystem=
+ now.
+
+https://itnext.io/kubernetes-essential-tools-2021-def12e84c572
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Space Cloud is a Kubernetes based serverless platform that provides instan=
+t=2C real time APIs on any database=2C with event triggers. Think Firebase=
+ on Kubernetes.
+
+https://github.com/spacecloud-io/space-cloud
+
+
+Turbolift automates forking=2C cloning=2C committing=2C and raising PRs ag=
+ainst a large number of Git repositories. Handy for those organization wid=
+e changes that sometimes need making like adding=2C removing or modifying=
+ specific files.
+
+https://github.com/Skyscanner/turbolift
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
