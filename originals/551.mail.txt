@@ -1,0 +1,109 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#551?=
+Date: Sun, 18 Jul 2021 12:18:10 +0000
+
+DEVOPS WEEKLY
+ISSUE #551 - 18th July 2021
+
+Lots of observability posts this week=2C from introductions to instrumenta=
+tion to consideration for data engineering. Plus software bill of material=
+ standards=2C the complexities of branching=2C security posture management=
+ and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+On July 28=2C ZAP Creator Simon Bennetts is giving a first look at ZAP's n=
+ew automation framework. Grab your spot:
+
+https://sthwk.com/ZAP-Automation-Framework
+
+
+News
+=3D=3D=3D=3D
+
+The NTIA Multistakeholder process has published the minimum elements for a=
+ software bill of materials. Lower level than most considers will care for=
+=2C but lots happening in this space at the moment on the standards and ea=
+rly tooling fronts.
+
+https://www.ntia.gov/blog/2021/ntia-releases-minimum-elements-software-bil=
+l-materials
+https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-=
+sbom
+
+
+A look at the tradeoffs between testing in a pipeline and observability in=
+ production for data engineering.
+
+https://medium.com/bigeye/testing-vs-observability-which-is-right-for-your=
+-data-quality-needs-1ceb34a12867
+
+
+A post describing 6 categories of security posture in need of management=
+=2C from cloud and applications to identity and devices.
+
+https://www.linkedin.com/pulse/6-categories-cybersecurity-posture-david-ma=
+tousek/
+
+
+The OpenTelemetry standard is making it easier for generic client librarie=
+s to have built-in instrumentation=2C but there are still interesting trad=
+eoffs and design decisions as discussed in this post.
+
+https://neskazu.medium.com/opentelemetry-in-client-libraries-96136d441f0b
+
+
+Large open source projects have interesting dynamics. This thoughtful post=
+ from the Knative project considers whether a project or product mindset w=
+ould be best for the long term future of the project.
+
+https://hackmd.io/8YbvSOwsS1SCy9gQsyP9mQ
+
+
+A post on the complexity of branching strategies and the fact many teams j=
+ust take that friction for granted rather than try something simpler.
+
+https://thinkinglabs.io/articles/2021/07/14/on-the-evilness-of-feature-bra=
+nching-a-tale-of-two-teams.html
+
+
+A deep dive on what=E2=80=99s happening under the hood of AWS Lambda.
+
+https://www.bschaatsbergen.com/behind-the-scenes-lambda
+
+
+An example of using Google Cloud=2C Pulumi and Debezium=2C a Change Data C=
+apture framework=2C to build a fault tolerant event driven architecture.
+
+https://daily.dev/blog/building-a-fault-tolerant-event-driven-architecture=
+-with-google-cloud-pulumi-and-debezium
+
+
+A nice summary of what observability is and why it=E2=80=99s important.
+
+https://adri-v.medium.com/unpacking-observability-a-beginners-guide-833258=
+a0591f
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A handy Kubernetes operator that simplifies the management of Role Binding=
+s and Service Accounts=2C using a declarative configuration for RBAC with=
+ new custom resources.
+
+https://github.com/FairwindsOps/rbac-manager
+
+
+Moco is a MySQL operator on Kubernetes using GTID-based semi-synchronous r=
+eplication.
+
+https://github.com/cybozu-go/moco
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
