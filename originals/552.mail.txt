@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#552?=
+Date: Sun, 25 Jul 2021 09:56:47 +0000
+
+DEVOPS WEEKLY
+ISSUE #552 - 25th July 2021
+
+A set of posts on Devops transformation=2C SRE and Kubernetes tools and pr=
+actices this week. Congrats to everyone involved in the 10th year of the S=
+tate of Devops report too.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+DataRobot is using StackHawk to automate API security testing and to scale=
+ AppSec across their dev team. Learn more about all they're up to:
+
+https://sthwk.com/DataRobot-API-Security
+
+
+News
+=3D=3D=3D=3D
+
+The latest State of Devops report is out=2C with some interesting observat=
+ions based on this years survey around cultural blockers holding up adopti=
+on of mature devops practices.
+
+https://puppet.com/blog/2021-state-of-devops-report/
+
+
+Discussion of the importance of team structures and communication when it=
+ comes to devops transformation. Promises=2C feedback and customer centric=
+ity.
+
+https://www.sussna-associates.com/blog/after-team-topologies-getting-past-=
+the-devops-middle
+
+
+It=E2=80=99s easy to have an SRE team or function that feels siloed from o=
+ther engineering teams. This post examines why=2C and what you can do abou=
+t it.
+
+https://rootly.io/blog/de-siloing-incident-management-how-to-make-reliabil=
+ity-engineering-everyone-s-job
+
+
+A look at solving the thundering herd problem after clearing a higher leve=
+l cache.
+
+https://www.reddit.com/r/RedditEng/comments/obqtfm/solving_the_three_stoog=
+es_problem/
+
+
+A look on designing useful altering systems=2C with a good list of dos and=
+ don=E2=80=99ts.
+
+https://hceris.com/monitoring-alerts-that-dont-suck/
+
+
+A reasoned argument for not using Kubernetes.
+
+https://ably.com/blog/no-we-dont-use-kubernetes
+
+
+A look at the Headlamp Kuberneters dashboard and why you may consider usin=
+g it.
+
+https://loft-sh.medium.com/kubernetes-dashboards-headlamp-3743e1bc3c4f
+
+
+If you=E2=80=99re managing the nodes under a Kuberntes cluster you might f=
+ind some nodes causing problems. This post looks at using the Kubernetes A=
+PI and extension points to make the cluster self-healing.
+
+https://blog.cloudflare.com/automatic-remediation-of-kubernetes-nodes/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+SchemaHero is a Kubernetes-native implementation of declarative database s=
+chema management.
+
+https://schemahero.io/learn/
+https://github.com/schemahero/schemahero
+
+
+Ortelius is a platform for managing microservices. It provides a central c=
+atalog of services with their deployment specs=2C application teams can ea=
+sily consume and deploy services across a cluster.
+
+https://ortelius.io
+https://github.com/ortelius/ortelius
+
+
+N8n is a tool for connecting services together=2C with a visual editor=2C=
+ command line tools=2C and commons clause self-hosted version available.
+
+https://n8n.io/
+https://github.com/n8n-io/n8n
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
