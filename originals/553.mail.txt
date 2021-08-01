@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#553?=
+Date: Sun,  1 Aug 2021 09:59:52 +0000
+
+DEVOPS WEEKLY
+ISSUE #553 - 1st August 2021
+
+Reports on devops and cloud trends and papers on developer productivity th=
+is week=2C along with posts on SRE for microservices and everyone=E2=80=99=
+s favourite topic=2C DNS.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Traditional application security testing methods fail for single page appl=
+ications. Check out why single page apps are different and how you can run=
+ security tests on your SPAs.
+
+https://sthwk.com/SPA
+
+
+News
+=3D=3D=3D=3D
+
+A new report on devops and cloud trends=2C covering the evolution of cloud=
+ services=2C adoption of SRE=2C observability and CI/CD practices and more=
+=2E
+
+https://www.infoq.com/articles/devops-and-cloud-trends-2021/
+
+
+There are nearly 100 DNS record types! This comprehensive post covers deta=
+ils of the different types=2C including providing an example domain files=
+ demonstrating everything.
+
+https://www.netmeister.org/blog/dns-rrs.html
+
+
+A recent paper on developer productivity=2C with good coverage of misconce=
+ptions (about activity=2C individual productivity=2C management and more)=
+ and proposing the SPACE framework (Satisfaction=2C Performance=2C Activit=
+y=2C Communication and Efficiency).
+
+https://queue.acm.org/detail.cfm?id=3D3454124
+
+
+All projects include some level of testing. But do we agree on what we mea=
+n by testing when it comes to software development? Not always=2C as discu=
+ssed in this post.
+
+https://dannorth.net/2021/07/26/we-need-to-talk-about-testing/
+
+
+Microservice environments present a novel set of reliability challenges. T=
+his post looks at some of those challenges=2C and some of the best practic=
+es to address them.
+
+https://rootly.io/blog/the-unique-reliability-engineering-requirements-of-=
+microservices
+
+
+The first two posts in a series on the theory of monitoring=2C starting wi=
+th defining terms and then discussing indicators and synthetics.
+
+https://aonewomanshow.medium.com/monitoring-theory-from-scratch-the-defini=
+tions-d0b59f124965
+https://aonewomanshow.medium.com/monitoring-theory-from-scratch-indicators=
+-and-synthetics-f6d3ede7e34f
+
+
+A look at one organisations tracing infrastructure=2C discussing various a=
+spects of the implementation from clients to capacity planning and other c=
+hallenges.
+
+https://medium.com/sharechat-techbyte/making-tracing-as-a-part-of-engineer=
+ing-dna-f71192edbbff
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Authorino is a cloud native AuthN/AuthZ enforcer for Zero Trust API protec=
+tion built on top of Envoy. It provides a wide range of identity verificat=
+ion methods=2C policy enforcement options and caching options.
+
+https://github.com/kuadrant/authorino
+
+
+Naml is a configuration management tool for describing Kubernetes configur=
+ation in Go. It has a nice tool for converting YAML (including direct from=
+ the Kubernetes API) into Go as a way to bootstrap as well.
+
+https://github.com/kris-nova/naml
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
