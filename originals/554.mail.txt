@@ -1,0 +1,103 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#554?=
+Date: Sun,  8 Aug 2021 09:12:08 +0000
+
+DEVOPS WEEKLY
+ISSUE #554 - 8th August 2021
+
+Posts this week on monitoring (with posts on scaling Prometheus and the re=
+lationship between testing and observability)=2C Docker usage tips=2C mode=
+rn Unix tools=2C hardening ubernetes and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+ICYMI ZAP Creator and Project Lead Simon Bennetts recently unveiled ZAP's=
+ new automation framework. Watch the session and see how it works:
+
+https://sthwk.com/automation-frmwrk
+
+
+News
+=3D=3D=3D=3D
+
+A great post on scaling Prometheus. Slow queries=2C data retention=2C high=
+ availability and more areas of discussion.
+
+https://hackernoon.com/my-prometheus-is-overwhelmed-help-qi1937xj
+
+
+We often see hello-world CI/CD examples=2C but real world examples are inv=
+ariably more complex. This post does a good job of avoiding some of the he=
+llo world issues=2C looking at a full pipeline with Kubernetes=2C Tekton a=
+nd ArgoCD.
+
+https://piotrminkowski.com/2021/08/05/kubernetes-ci-cd-with-tekton-and-arg=
+ocd/
+
+
+A post on a common problem=2C how to access secure resources (like from a=
+ private GitHub repository or Nexus or other private package repository) f=
+rom within a Docker build=2C without leaking sensitive information in the=
+ resulting image.
+
+https://medium.com/marionete/pass-secure-information-for-building-docker-i=
+mages-8adeafe08355
+
+
+Relational SQL accounts for maybe 20% of the current specification. This s=
+ite contains lots of information about modern advances in SQL and the supp=
+ort in different databases for them.
+
+https://modern-sql.com/
+
+
+I=E2=80=99ve always found the overlap between testing and monitoring inter=
+esting. This post delves into the topic=2C looking at observability=2C mut=
+ation testing=2C chaos testing and more.
+
+https://rodolfohansen.medium.com/unit-tests-give-you-observability-cae71ee=
+23303
+
+
+Kubernetes hardening guidance from the NSA=2C covering scanning of contain=
+ers and Pods for vulnerabilities or misconfigurations=2C running container=
+s and Pods with the least privileges possible=2C and using network separat=
+ion=2C firewalls=2C strong authentication=2C log auditing and more.
+
+https://www.nsa.gov/News-Features/Feature-Stories/Article-View/Article/271=
+6980/nsa-cisa-release-kubernetes-hardening-guidance/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A collection of modern replacement tools for standard unix utilities like=
+ ls=2C grep=2C cut=2C sed=2C ping=2C history and more.
+
+https://github.com/ibraheemdev/modern-unix
+
+
+If you=E2=80=99re using Docker and needing to work with multiple cloud-pro=
+vider container registries you=E2=80=99ll have had to jump through hoops w=
+hen it comes to credentials. docker-credential-magic makes all of that muc=
+h simpler.
+
+https://github.com/docker-credential-magic/docker-credential-magic
+https://medium.com/@jdolitsky/docker-credential-magic-a-magic-shim-for-doc=
+ker-credential-helpers-deae9e78c2df
+
+
+PipeCD is a new continuous delivery tool for declarative Kubernetes=2C ser=
+verless and infrastructure applications
+
+https://pipecd.dev/
+https://github.com/pipe-cd/pipe
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
