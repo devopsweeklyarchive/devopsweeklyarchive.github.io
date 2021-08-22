@@ -1,0 +1,98 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#556?=
+Date: Sun, 22 Aug 2021 08:06:50 +0000
+
+DEVOPS WEEKLY
+ISSUE #556 - 22nd August 2021
+
+Identify and access management=2C data operations=2C root cause analysis=
+=2C SLOs and a few interesting Kubernetes security posts and tools this we=
+ek.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Trying to automate application and API security testing? See how StackHawk=
+ and Burp Suite Enterprise stack up:
+
+https://sthwk.com/burp
+
+
+News
+=3D=3D=3D=3D
+
+Access and Identify is a deep topic=2C no more so when it comes to AWS. Th=
+is post does a good job of explaining the current situation and related pr=
+oblems=2C and discusses potential improvements.
+
+https://ben11kehoe.medium.com/aws-doesnt-know-who-i-am-here-s-why-that-s-a=
+-problem-4aeca591b0a6
+
+
+Gatekeeper (the Kubernetes policy enforcement tool) now has an alpha capab=
+ility to mutate resources. This post is a good introduction=2C including a=
+n example of automatically fixing pod security admission issues.
+
+https://medium.com/@LachlanEvenson/mutating-kubernetes-resources-with-gate=
+keeper-3e5585d49ead
+
+
+Everyone likes the idea of a single root cause when a problem occurs. This=
+ post compares that to how we think about successes=2C to make the point a=
+bout the fragility of looking for a singular root cause.
+
+https://surfingcomplexity.blog/2021/08/13/root-cause-of-failure-root-cause=
+-of-success
+
+
+A detailed post on how best to audit and secure an AWS account.
+
+https://acloudguru.com/blog/engineering/how-to-audit-and-secure-an-aws-acc=
+ount
+
+
+A good post on service level objectives. It starts out with a good introdu=
+ction=2C but it=E2=80=99s nice to see concrete examples and discussion of=
+ how to implement this in code=2C in this case with Ruby and Java.
+
+https://www.betterment.com/resources/service-level-objectives-slo
+
+
+If you=E2=80=99ve read much about SRE=2C you=E2=80=99ll probably have hear=
+d of the four golden signs of monitoring. This post provides a quick intro=
+duction and suggests some improvements and gaps.
+
+https://rootly.io/blog/how-to-improve-upon-google-s-four-golden-signals-of=
+-monitoring
+
+
+The infrastructure for storage and usage of internal data is an ever-growi=
+ng part of lots of operations teams responsibilities. This post provides a=
+ useful high level view of such a modern data platform.
+
+https://towardsdatascience.com/the-anatomy-of-an-active-metadata-platform-=
+13473091ad0d
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Secrets and Kubernetes can be a challenge. This webhook provides one optio=
+n=2C injecting secrets into Kubernetes resources from various secrets mana=
+gers including Vault=2C AWS=2C GCP and Azure secrets managers.
+
+https://github.com/OT-CONTAINER-KIT/k8s-vault-webhook
+
+
+Kubescape is a new security scanning tool for checking the setup of a Kube=
+rnetes cluster=2C based on the recently published NSA and CISA guidance.
+
+https://github.com/armosec/kubescape
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
