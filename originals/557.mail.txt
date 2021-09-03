@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#557?=
+Date: Sun, 29 Aug 2021 08:31:48 +0000
+
+DEVOPS WEEKLY
+ISSUE #557 - 29th August 2021
+
+Internet fundamentals=2C survey of cloud usages=2C production outstage sto=
+ries=2C instumenting build processes and more solid devops and operations=
+ content this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Check out the latest from StackHawk's Chief Security Officer=2C Scott Gerl=
+ach=2C on why security should be part of building software=2C and how Stac=
+kHawk helps teams catch vulns before prod.
+
+https://sthwk.com/cloud-native
+
+
+News
+=3D=3D=3D=3D
+
+Results from a recent survey of more than 3200 practitioners looking at th=
+e state of cloud adoption. Security=2C cost=2C skills shortages=2C multi-c=
+loud=2C spend and lots of other interesting topics covered.
+
+https://www.hashicorp.com/state-of-the-cloud
+
+
+An interesting post on instrumenting infrastructure deployment=2C in this=
+ case using Pulumi and Honeycomb and low-level libraries for each.
+
+https://dev.to/fllstck/observable-infrastructure-as-code-52ha
+
+
+=E2=80=9CThe Domain Name System or DNS is a never-ending source of amuseme=
+nt and amazement.=E2=80=9D The latest post in this series looks at TLDs.
+
+https://www.netmeister.org/blog/tlds.html
+
+
+Another internet fundamentals posts=2C this one looking at email authentic=
+ity with DKIM=2C SPF and DMARC.
+
+https://www.alexblackie.com/articles/email-authenticity-dkim-spf-dmarc/
+
+
+Establishing trust in the context of untrusted networks is an interesting=
+=2C and increasingly relevant problem given how we build software today. T=
+his post looks at approaches based around trust on first use and the role=
+ of transparency logs.
+
+https://dlorenc.medium.com/improving-tofu-with-transparency-da674aa2879d
+
+
+JSON Schema has been seeing quite a bit of development recently. This post=
+ mainly looks at the new bundling capabilities in the latest version of th=
+e specification=2C but touches on other recent improvements too.
+
+https://json-schema.org/blog/posts/bundling-json-schema-compound-documents
+
+
+A great story of debugging a production problem and seemingly innocuous ch=
+anges having a large effect.
+
+https://mailchimp.com/developer/blog/computers-are-the-easy-part/
+
+
+Sometimes the thing that causes an outage is getting a calculation wrong.=
+ This post features several reliability problems caused by maths errors.
+
+https://rootly.io/blog/you-do-the-math-reliability-issues-triggered-by-mat=
+h-errors
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+A new virtual event coming October 19th to 21st=2C PREVAIL is focused on a=
+ll things non-functional requirements. The call for papers is open until 1=
+0th of September.
+
+https://flyingbarron.medium.com/ibm-prevail-conference-october-19-21-2021-=
+f4e482aed2d2
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Octopilot is a CLI tool designed to help you automate your Git workflow=2C=
+ by automatically creating and merging GitHub Pull Requests to update spec=
+ific content in Git repositories.
+
+https://github.com/dailymotion-oss/octopilot
+https://vbehar.medium.com/introducing-octopilot-a-cli-to-automate-the-crea=
+tion-of-github-pull-request-in-your-gitops-e49b9eb0177a
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
