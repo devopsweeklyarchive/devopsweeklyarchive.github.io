@@ -1,0 +1,103 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#558?=
+Date: Sun,  5 Sep 2021 11:31:05 +0000
+
+DEVOPS WEEKLY
+ISSUE #558 - 5th September 2021
+
+Error budgets=2C managing ransomware=2C SRE=2C observability=2C handy Git=
+ tools and more this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Trying to scale AppSec across engineering is no joke. Check out the 3 main=
+ reasons developers struggle with AppSec and how to make it better.
+
+https://sthwk.com/3reasons
+
+
+News
+=3D=3D=3D=3D
+
+A good introduction to error budgets and using them to make trade-offs bet=
+ween risk and stability.
+
+https://medium.com/jump-start/data-driven-negotiation-with-slis-slos-and-e=
+rror-budgets-2-2-e52ebd5a9d4f
+
+
+An interesting post on modern ransomware and malware attacks and now to mi=
+tigate and deal with the fallout.
+
+https://www.ncsc.gov.uk/blog-post/rise-of-ransomware
+https://www.ncsc.gov.uk/guidance/mitigating-malware-and-ransomware-attacks
+
+
+A handy pattern for when you need to create new repositories based on a te=
+mplate and some variables=2C using GitHub repository templates=2C Actions=
+ and the python cookiecutter tool.
+
+https://simonwillison.net/2021/Aug/28/dynamic-github-repository-templates/
+
+
+A look at the security profile operator for Kubernetes. This exposes a fir=
+st-class interface for configuring seccomp profiles amongst other useful f=
+eatures including exposing metrics and enriching logs.
+
+https://medium.com/@LachlanEvenson/managing-kubernetes-seccomp-profiles-wi=
+th-security-profiles-operator-c768cff58b0
+
+
+The first two parts of a series on building an analytics platform based on=
+ Druid. Background on technology choice and lots of technical details abou=
+t the implementation.
+
+https://medium.com/pinterest-engineering/pinterests-analytics-as-a-platfor=
+m-on-druid-part-1-of-3-9043776b7b76
+https://medium.com/pinterest-engineering/pinterests-analytics-as-a-platfor=
+m-on-druid-part-2-of-3-e63d5280a1a9
+
+
+A post looking at the role of an SRE team in adopting observability toolin=
+g. A lot of this depends=2C in my experience=2C on the reality on the grou=
+nd of roles vs the titles.
+
+https://rootly.io/blog/the-role-of-sres-in-observability
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Kubernetes Community Days UK is coming up on the 15th and 16th September.=
+ A virtual event over 2 days=2C with talks on supply chain security=2C sec=
+rets=2C scaling=2C getting started with Kubernetes and lots more.
+
+https://community.cncf.io/events/details/cncf-kcd-uk-presents-kubernetes-c=
+ommunity-days-uk-2021/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+There is so much interesting information in Git and GitHub metadata. Askgi=
+t is a CLI tool for exposing that data via a SQL interface to make it easi=
+er to use.
+
+https://github.com/askgitdev/askgit
+
+
+Monika is a nice and simple monitoring tool. Define probes for URLs in a c=
+onfig file=2C what failure looks like and how you want to be notified of a=
+ny issues. It also supports Postman and HAR files as input.
+
+https://github.com/hyperjumptech/monika
+https://monika.hyperjump.tech/quick-start
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
