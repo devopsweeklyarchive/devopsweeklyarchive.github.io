@@ -1,0 +1,94 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#559?=
+Date: Sun, 12 Sep 2021 07:49:06 +0000
+
+DEVOPS WEEKLY
+ISSUE #559 - 12th September 2021
+
+A few good hindsight design posts this week=2C both on API design and on d=
+ata storage cost control. As with lots of decisions=2C you can apply some=
+ patterns too early=2C but knowing you=E2=80=99ll need to change later if=
+ you succeed is useful to remember.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Trying to figure out how to keep your APIs secure? You're not the only one=
+=2E See how DataRobot is automating API security testing with StackHawk.
+
+https://sthwk.com/DataRobot-API-Security
+
+
+News
+=3D=3D=3D=3D
+
+A good post on the early decisions (in this case around data storage) that=
+ can lead to cost control discussions later. You can apply this to other s=
+ystems as well.
+
+https://medium.com/riskified-technology/over-pay-as-you-go-for-your-datast=
+ore-11a29ae49a8b
+
+
+Details on combining ttl.sh (which provides anonymous and ephemeral contai=
+ner registries) and Cosign to sign the images. A few interesting use cases=
+ for this sort of thing.
+
+https://blog.ediri.io/ttlsh-and-cosign-signing-an-anonymous-and-ephemeral-=
+docker-image-registry
+
+
+A critical review of the recently released Kubernetes security guidance fr=
+om the NSA=2C including some up-to-date recommendations.
+
+https://research.nccgroup.com/2021/09/09/nsa-cisa-kubernetes-security-guid=
+ance-a-critical-review/
+
+
+Authentication of the Docker socket is all or nothing=2C but you can alway=
+s use a reverse proxy for finer-grained control. A good example using Cadd=
+y.
+
+https://raesene.github.io/blog/2021/09/05/restricting-docker-access-with-a=
+-proxy/
+
+
+An interesting observation about the relationship between observability an=
+d the needs of auditors for compliance.
+
+https://vc-sree.medium.com/security-observability-compliance-501f308dcab1
+
+
+Whenever you=E2=80=99re building a new API=2C or consuming an API of anoth=
+er system=2C you quickly build up opinions about what a good API feels lik=
+e. This post has some good advice for both processes=2C practices and prin=
+ciples.
+
+https://slack.engineering/how-we-design-our-apis-at-slack/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+SLO Tracker is a dashboard application for displaying SLO and error budget=
+ information=2C based on integration to gather SLI data from Prometheus=2C=
+ Grafana=2C Datadog and other monitoring tools.
+
+https://github.com/roshan8/slo-tracker
+https://slotracker.com
+
+
+EKS Anywhere is an option to run AWS EKS (the AWS Kubernetes service) on y=
+our own infrastructure. The main use case is to standardise the management=
+ side of operating a service like this.
+
+https://github.com/aws/eks-anywhere
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
