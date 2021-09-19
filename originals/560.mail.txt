@@ -1,0 +1,101 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#560?=
+Date: Sun, 19 Sep 2021 09:15:57 +0000
+
+DEVOPS WEEKLY
+ISSUE #560 - 19th September 2021
+
+Lots of configuration management posts this week=2C on Terraform=2C gitops=
+ and SQL=2C plus lots of interesting new tools.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Want to see what's new with automated security tooling? Tune in on Septemb=
+er 30 to see how StackHawk and Semgrep are making it possible to embed sec=
+urity testing in CI/CD.
+
+https://sthwk.com/whats-new
+
+
+News
+=3D=3D=3D=3D
+
+An interesting post discussing some of the edges of Terraform if you use i=
+t for cloud=2C Kubernetes and other resources using the same state.
+
+https://hub.qovery.com/guides/engineering/terraform-not-the-golden-hammer
+
+
+A post positing using SQL as the interface for cloud infrastructure. Some=
+ interesting ideas about a familiar interface and existing tooling.
+
+https://dev.to/depombo/infrastructure-as-sql-81i
+
+
+A discussion of the role of SREs in enabling true self service platforms a=
+nd empowering developers.
+
+https://www.getambassador.io/developer-control-plane/dcp-insights-mario-lo=
+ria-from-cartax/
+
+
+The start of a series on API design=2C based around gRPC. The first post f=
+ocused specifically on using Protobuf FieldMask.
+
+https://netflixtechblog.com/practical-api-design-at-netflix-part-1-using-p=
+rotobuf-fieldmask-35cfdc606518
+
+
+Another post on configuration management=2C focused on applying gitops pra=
+ctices with some good examples up to applying this approach to a multi-clu=
+ster federated service mesh setup.
+
+https://www.solo.io/blog/configuration-as-data-gitops-and-controllers-its-=
+not-simple-for-multi-cluster/
+
+
+A deep dive into Kubernetes ingress=2C with helpful diagrams showing how t=
+hings work.
+
+https://inlaymansterms.io/blog/kubernetes-ingress
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kim=2C or Kubernetes Image Manager=2C provides the classic Docker build=2C=
+ pull=2C push interface with the build infrastructure deployed to Kubernet=
+es.
+
+
+https://github.com/rancher/kim
+
+
+Kubernetes is often described as a platform for building platforms. Kratix=
+ describes itself as a framework for delivering that platform=2C bring con=
+ventions and tools to something lots of organisations hand roll today.
+
+https://github.com/syntasso/kratix
+
+
+If you=E2=80=99ve been following this newsletter=2C you=E2=80=99ll know eB=
+PF is powerful=2C but we=E2=80=99re only just starting to see use cases. B=
+MC Cache is an in-kernel cache for memcached that claims to improve throug=
+hput by up to 18x.
+
+https://github.com/Orange-OpenSource/bmc-cache
+
+
+KinK is a CLI that helps you manage KinD clusters as Kubernetes pods. Desi=
+gned to ease standing up clusters for fast testing.
+
+https://github.com/Trendyol/kink
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
