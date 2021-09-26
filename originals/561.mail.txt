@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#561?=
+Date: Sun, 26 Sep 2021 08:39:25 +0000
+
+DEVOPS WEEKLY
+ISSUE #561 - 26th September 2021
+
+One of the interesting things about curating this newsletter for so long i=
+s the historical perspective. Two related posts this week=2C one on the up=
+dated research in the 2021 Accelerate State of DevOps report=2C the other=
+ a look at the evolution of distributed tracing over the last 5 years.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Semgrep and StackHawk are showing you what's new with automated security t=
+esting on September 30. Grab your spot!
+
+https://sthwk.com/whats-new
+
+
+News
+=3D=3D=3D=3D
+
+The 2021 Accelerate State of DevOps Report is out=2C with advice on softwa=
+re delivery metrics=2C cloud adoption=2C the importance of documentation a=
+nd more.
+
+https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-acc=
+elerate-state-of-devops-report
+
+
+An interesting interview covering client library and SDK strategy=2C the i=
+mportance of boring tools and adopting new technologies.
+
+https://www.opslevel.com/blog/opslevel-convos-paul-osman/
+
+
+A post on the evolution of distributed tracing over the past 5 years.
+
+https://ploffay.medium.com/five-years-evolution-of-open-source-distributed=
+-tracing-ec1c5a5dd1ac
+
+
+As with most things=2C the DORA metrics can be used poorly or misrepresent=
+ed. As the post states=2C when a measure becomes a target=2C it ceases to=
+ be a good measure.
+
+https://techbeacon.com/app-dev-testing/how-devops-teams-are-using-abusing-=
+dora-metrics
+
+
+Pull requests as an attack vector. A well explained example of a potential=
+ attack=2C and some specific advice for others to help avoid this soft of=
+ supply chain attack.
+
+https://goteleport.com/blog/hack-via-pull-request/
+
+
+A deep dive=2C multi-page=2C look at Linux Page Cache. If you=E2=80=99re a=
+dministering Linux machines then understanding this can help with debuggin=
+g various IO issues.
+
+https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/
+
+
+Kubernetes is a lot when it comes to operating a new system. This post is=
+ a good set of common beginner errors.
+
+https://medium.com/nerd-for-tech/common-kubernetes-errors-made-by-beginner=
+s-274b50e18a01
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The Data on Kubernetes community has an upcoming event on 12th October 202=
+1. Lots of interesting talks for anyone running databases or stateful work=
+loads on top of Kubernetes.
+
+https://dok.community/dok-day/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Jspolicy is another Kubernetes policy agent=2C this time focused on suppor=
+ting authoring policies in Javascript or Typescript.
+
+https://www.jspolicy.com/
+https://github.com/loft-sh/jspolicy
+
+
+GitOops is a tool to help attackers and defenders identify lateral movemen=
+t and privilege escalation paths in GitHub organizations by abusing CI/CD=
+ pipelines and GitHub access controls.
+
+https://github.com/ovotech/gitoops/
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
