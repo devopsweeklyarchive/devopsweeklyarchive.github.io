@@ -1,0 +1,110 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#562?=
+Date: Sun,  3 Oct 2021 11:24:47 +0000
+
+DEVOPS WEEKLY
+ISSUE #562 - 3rd October 2021
+
+Lots of new tools this week=2C along with several posts on Observability=
+=2C data center monitoring and SLOs. Quite a classic operations feel this=
+ issue.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Watch our latest video to see how StackHawk is changing the way applicatio=
+n security testing works for software delivery teams:
+
+https://sthwk.com/explainervideo
+
+
+News
+=3D=3D=3D=3D
+
+A solid argument for a more specific definition of observability=2C and wh=
+y the definition matters to solving the problems at hand.
+
+https://www.honeycomb.io/blog/observability-5-year-retrospective/
+
+
+A post on data-center scope monitoring=2C including the evolution from SNM=
+P-based systems to streaming telemetry.
+
+https://medium.com/geekculture/expanding-the-observable-universe-or-scalab=
+le-model-driven-telemetry-with-sr-linux-custom-agents-b31363abcc37
+
+
+A post on the concept of zero trust supply chain security=2C with a full w=
+orked example using cosign and sigstore.
+
+https://dlorenc.medium.com/zero-trust-supply-chain-security-e3fb8b6973b8
+
+
+A quick introduction to SLOs and SLIs and why you should care about them.=
+ Nice quick tips as well on where to start out.
+
+https://engineering.solarisbank.com/slos-and-why-you-should-care-136f80bf6=
+86e
+
+
+A post filled with hard one observations and recommendations for improving=
+ the operability of a legacy application.
+
+https://medium.com/@edwige.fiaclou/production-issues-the-owl-effect-8b7218=
+19dc40
+
+
+If you=E2=80=99re working with Kubernetes you=E2=80=99re likely to be fami=
+liar with the kubectl command line tool. kubectl supports a plugin mechani=
+sm=2C and there are quite a few handy plugins for administrators covered i=
+n this post.
+
+https://martinheinz.dev/blog/58
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Connaisseur is a Kubernetes admission controller that integrates container=
+ image signature verification and trust pinning into a cluster. Under the=
+ hood it supports Notary V1 and Sigstore for signing.
+
+https://github.com/sse-secure-systems/connaisseur
+
+
+Damon is a terminal user interface for Nomad. It provides functionality to=
+ observe and interact with Nomad resources such as Jobs=2C Deployments=2C=
+ or Allocations.
+
+https://github.com/hashicorp/damon
+
+
+Automated Cloud Advisor is a tool for facilitating cost optimization in AW=
+S=2C by collecting data for resources that are under utilized.
+
+https://disneystreaming.github.io/automated-cloud-advisor/
+https://github.com/disneystreaming/automated-cloud-advisor
+
+
+Tremors is an event processing system for unstructured data with rich supp=
+ort for structural pattern-matching=2C filtering and transformation with f=
+eatures like aggregation=2C rollups=2C an ETL language=2C and a built-in q=
+uery language.
+
+https://github.com/tremor-rs
+https://www.tremor.rs
+
+
+A new version of the Puppet Development Kit is in the works=2C providing a=
+ new set of tools for Puppet developers=2C starting out with Puppet Conten=
+t Templates.
+
+https://github.com/puppetlabs/pdkgo
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
