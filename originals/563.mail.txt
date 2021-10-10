@@ -1,0 +1,86 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#563?=
+Date: Sun, 10 Oct 2021 10:12:55 +0000
+
+DEVOPS WEEKLY
+ISSUE #563 - 10th October 2021
+
+A couple of posts this week looking at the recent Accelerate State of Devo=
+ps research=2C along with a few behind the scenes of Kubernetes (on dual s=
+tack networking and container attached storage) and other interesting post=
+s on supply chain security.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Did you know that one of the greatest application security risks is API se=
+curity? Learn what API security testing is=2C how it works=2C and how you=
+ can implement it in CI/CD in this guide.
+
+https://sthwk.com/API-security
+
+
+News
+=3D=3D=3D=3D
+
+Supply chain security is an increasingly important topic. This presentatio=
+n explains why it=E2=80=99s important=2C with well explained recent exampl=
+es and a breakdown of the SLSA framework for categorizing threats and rela=
+ted open source projects.
+
+https://docs.google.com/presentation/d/1moTIDDqTtqyD7ylaHxqtPSBa-a8XEZa6P-=
+03-YuVDA4/mobilepresent
+
+
+Slides with a great update on the state of devops in 2021=2C featuring rec=
+ent research and looking at SPACE=2C a framework for measuring productivit=
+y.
+
+https://www.slideshare.net/nicolefv/vmware2021-why-even-devop-nicolefv
+
+
+Anything that helps get away from credentials in CI pipelines is a good th=
+ing. This post looks at federated ID=2C and specifically OpenID Connect us=
+age in GitHub Actions.
+
+https://blog.alexellis.io/deploy-without-credentials-using-oidc-and-github=
+-actions/
+
+
+Kubernetes now has dual stack networking support=2C for IPv4 and IPv6. Thi=
+s post is a nice behind-the-scenes look at the hard work behind the scenes=
+ to implement such a large feature.
+
+https://containerjournal.com/features/dual-stack-networking-in-kubernetes/
+
+
+A look at the 2021 Accelerate State of Devops Report=2C with observations=
+ about the relationship between Devops and SRE=2C risk taking=2C multi-clo=
+ud and security.
+
+https://rootly.io/blog/google-s-state-of-devops-2021-report-what-sres-need=
+-to-know
+
+
+A post on the new OpenEBS release=2C which also acts as a good introductio=
+n to container attached storage in Kubernetes.
+
+https://blog.mayadata.io/why-openebs-3.0-for-kubernetes-and-storage
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+CloudGraph is a GraphQL powered search engine for your cloud infrastructur=
+e. Handy for a number of use cases. The docs have some nice query examples=
+ too.
+
+https://github.com/cloudgraphdev/cli
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
