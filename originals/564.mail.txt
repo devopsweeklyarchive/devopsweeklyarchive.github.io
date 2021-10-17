@@ -1,0 +1,120 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#564?=
+Date: Sun, 17 Oct 2021 09:27:05 +0000
+
+DEVOPS WEEKLY
+ISSUE #564 - 17th October 2021
+
+Seeing all of the tweets from KubeCon this week really made me miss seeing=
+ everyone in person. Devops to me has been all about the community=2C and=
+ while that still exists in virtual form=2C it=E2=80=99s always been one o=
+f my favourite things to meet up with=2C and talk to=2C people in this com=
+munity in real life..
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+If you are working with GraphQL APIs=2C how do you make sure they are secu=
+re? See how to keep your GraphQL app on lock in this guide:
+
+https://sthwk.com/graphql
+
+
+News
+=3D=3D=3D=3D
+
+A good post introducing custom validation in Terraform=2C and why failing=
+ early is so important with any cloud automation.
+
+https://scalefactory.com/blog/2021/10/13/failing-faster-with-terraform/
+
+
+Not everyone has found devops practices easy to adopt or scale=2C and ther=
+e are often tensions within operations teams. This post summarises some of=
+ those quite well=2C even if I don=E2=80=99t believe those issues are inev=
+itable.
+
+https://matduggan.com/operations-is-not-developer-it/
+
+
+An interesting thought experiment considering how various large scale inci=
+dents with the gigantic AWS us-east-1 region would be handled.
+
+https://www.tbray.org/ongoing/When/202x/2021/10/08/The-WOrst-Case
+
+
+A look under the hood of distribution software packaging=2C looking at the=
+ far reaching implications and challenges of upgrading OpenSSL to the late=
+st version. Good insight into the tension between centralised distribution=
+s and distributed development.
+
+https://ariadne.space/2021/09/16/the-long-term-consequences-of-maintainers=
+-actions/
+
+
+A solid argument that if you=E2=80=99re building a Terraform module you sh=
+ould strive to make it opinionated. Focus on use cases rather than on mono=
+lithic modules just around a particular piece of software.
+
+https://www.davehall.com.au/blog/2021/09/11/your-terraform-module-needs-an=
+-opinion/
+
+
+Another post on Terraform modules=2C this one focused on patterns you can=
+ adopt to build useful=2C maintainable modules.
+
+https://medium.com/@AaronKalair/terraform-module-patterns-4ba2996f0b96
+
+
+Observations from an updated study on container adoption within one (large=
+) ecosystem. Growing adopting of auto-scaling and stateful workloads=2C ad=
+option of containerd and fargate=2C popular images and more.
+
+https://www.datadoghq.com/container-report/
+
+
+An interesting interview with one of the founders of Kubernetes=2C coverin=
+g some of the original philosophy of the project and other observations ab=
+out software development.
+
+https://evrone.com/joe-beda-interview
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A very interesting new user interface for Kubernetes=2C Kui=2C mixes the b=
+est of CLI and GUI tools. It=E2=80=99s also a framework for building simil=
+ar tools=2C so it will be interesting to see if integrations emerge here.
+
+https://github.com/kubernetes-sigs/kui
+
+
+Panther is an event consolidation and management application that centrali=
+zes and manages events from IT systems=2C networks and applications in a s=
+ingle console.
+
+https://github.com/OpenAnswers/panther-core
+
+
+age is a simple=2C modern and secure file encryption tool=2C format=2C and=
+ Go library. It features small explicit keys=2C no config options=2C and U=
+NIX-style composability.
+
+https://github.com/FiloSottile/age
+
+
+Kdigger is a new context discovery tool for Kubernetes=2C intended for dis=
+covery when conducting a penetration test. Nice documentation explaining w=
+hat and why.
+
+https://github.com/quarkslab/kdigger
+https://blog.quarkslab.com/kdigger-a-context-discovery-tool-for-kubernetes=
+=2Ehtml
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
