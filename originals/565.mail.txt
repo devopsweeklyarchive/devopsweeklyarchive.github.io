@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#565?=
+Date: Sun, 24 Oct 2021 09:38:05 +0000
+
+DEVOPS WEEKLY
+ISSUE #565 - 24th October 2021
+
+Lots of good posts this week I feel across a wide range of topics. KubeCon=
+ wrap ups=2C detailed incident reports=2C production readiness reviews=2C=
+ scaling storage=2C threat modelling and deep internet networking knowledg=
+e to name a few.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Join Snyk and StackHawk on November 2 @ 10:30 AM ET to learn how to implem=
+ent automated security testing across your CI/CD pipeline. Register:
+
+https://sthwk.com/dev-centric-security
+
+
+News
+=3D=3D=3D=3D
+
+KubeCon finished up in LA a week and a bit ago=2C and we have several post=
+s this week recapping the event=2C with lots of links=2C observations and=
+ some opinions.
+
+https://blog.getambassador.io/kubecon-na-2021-key-takeaways-devx-security-=
+and-community-261aba3d5ae5
+https://loft.sh/blog/kubecon-2021-los-angeles-wrapup/
+https://torstenvolk.medium.com/kubecon-2021-top-3-announcements-apiclarity=
+-hashicorp-waypoint-and-dell-emc-csm-a46f39f54bd
+
+
+An insightful post on the sometimes hard-to-define distinction between app=
+lication and infrastructure. A static/dynamic linking analogy=2C how the K=
+ubernetes API and Crossplane fit in=2C and the potential for a new type of=
+ marketplace for applications.
+
+https://danielmangum.com/posts/infrastructure-in-your-software-packages/
+
+
+Game servers are a super interesting scaling challenge. This post=2C about=
+ recent outstages for a large game=2C goes into some great operational=2C=
+ data storage and architecture details.
+
+https://us.forums.blizzard.com/en/d2r/t/diablo-ii-resurrected-outages-an-e=
+xplanation-how-we=E2=80=99ve-been-working-on-it-and-how-we=E2=80=99re-movi=
+ng-forward/28164
+
+
+A look at how one team is evolving a large NFS file storage setup towards=
+ something that is easier to scale horizontally and automatically.
+
+https://techblog.wikimedia.org/2021/10/19/iterating-on-how-we-do-nfs-at-wi=
+kimedia-cloud-services/
+
+
+More deep internet networking insights=2C this time looking under the hood=
+ about what makes a valid hostname. It=E2=80=99s worse than you think.
+
+https://www.netmeister.org/blog/hostnames.html
+
+
+A good introduction to the extensibility benefits of Kubernetes=2C looking=
+ at the high-level API=2C custom resources and the operator pattern.
+
+https://iximiuz.com/en/posts/kubernetes-operator-pattern/
+
+
+A post on introducing a production readiness review process=2C in particul=
+ar in smaller teams.
+
+https://grafana.com/blog/2021/10/13/how-were-building-a-production-readine=
+ss-review-process-at-grafana-labs/?ck_subscriber_id=3D185276816
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+hcltm is a tool for describing a thread model in HCL=2C and then generatin=
+g various outputs from it including markdown documents and data flow diagr=
+ams.
+
+https://github.com/xntrik/hcltm
+
+
+Snowcat is a tool that gathers and analyzes the configuration of an Istio=
+ cluster and audits it for potential violations of security best practices=
+=2E
+
+https://www.praetorian.com/blog/introducing-snowcat/
+https://github.com/praetorian-inc/snowcat
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
