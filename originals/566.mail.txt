@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#566?=
+Date: Sun, 31 Oct 2021 10:33:32 +0000
+
+DEVOPS WEEKLY
+ISSUE #566 - 31st October 2021
+
+Service ownership=2C scripting languages=2C open source observability tool=
+ing=2C operations career progression=2C stored procedures=2C logging and m=
+ore this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Join Snyk and StackHawk on November 2 @ 10:30 AM ET to learn how to implem=
+ent automated security testing across your CI/CD pipeline. Register:
+
+https://sthwk.com/dev-centric-security
+
+
+News
+=3D=3D=3D=3D
+
+Some thoughts about the future of scripting languages=2C interesting given=
+ this is where much of the code operations teams write resides.
+
+https://www.jntrnr.com/scripting-languages-of-the-future/
+
+
+An interview with a good discussion about service ownership=2C service mat=
+urity=2C and service level indicators.
+
+https://www.opslevel.com/blog/opslevel-convos-seth-lochen-groupon/
+
+
+Stored procedures got a bad name for spreading business logic between appl=
+ication and database=2C and not all cloud databases support them. But they=
+ have some powerful use cases=2C as this post argues.
+
+https://blog.yugabyte.com/are-stored-procedures-and-triggers-anti-patterns=
+-in-the-cloud-native-world/
+
+
+A good post on rapidly scaling a data team. Observations on team structure=
+=2C rapidly onboarding new team members=2C technology choices and more.
+
+https://entrepreneurshandbook.co/a-behind-the-scenes-look-at-how-postmans-=
+data-team-works-fded0b8bfc64
+
+
+Patterns for Kubernetes logging=2C looking at the pros and cons of node-le=
+vel agents and sidecar approaches.
+
+https://codersociety.com/blog/articles/kubernetes-logging
+
+
+A quick look at open source tools and standards in the observability space=
+=2E
+
+https://horovits.medium.com/open-source-for-better-observability-8c65b5630=
+561
+
+
+A story of one systems administrator moving from maintaining legacy middle=
+ware applications to becoming an active part of the cloud native open sour=
+ce community. Good to share with anyone wondering how to advance their car=
+eer.
+
+https://medium.com/@divya.mohan0209/from-zero-to-wip-65ca95d8c52a
+
+
+Comprehensive release notes=2C observations and opinions for the latest Sa=
+lt release.
+
+https://salt.tips/new-features-in-salt-silicon/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Ottr is a serverless Public Key Infrastructure framework that handles end-=
+to-end certificate rotations without the use of an agent.
+
+https://medium.com/airbnb-engineering/meet-ottr-a-serverless-public-key-in=
+frastructure-framework-f6580010ae0c
+https://github.com/airbnb/ottr
+
+
+APIClarity allows for reconstructing OpenAPI specifications from real-time=
+ workload traffic=2C using traffic information from a service mesh like Is=
+tio.
+
+https://apiclarity.io/
+https://github.com/apiclarity/apiclarity
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
