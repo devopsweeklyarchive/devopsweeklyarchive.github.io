@@ -1,0 +1,90 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#567?=
+Date: Sun,  7 Nov 2021 11:19:42 +0000
+
+DEVOPS WEEKLY
+ISSUE #567 - 7th November 2021
+
+Two posts this week on large scale CI systems=2C and the interesting engin=
+eering around them. Also a great post on building trust in complex systems=
+=2C a new Lua-derived embeddable language and some good observability link=
+s too.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+All of our quality testing has been automated in CI/CD. So why hasn=E2=80=
+=99t security? Learn what keeps security from shifting left:
+
+https://sthwk.com/ci-pipeline
+
+
+News
+=3D=3D=3D=3D
+
+An excellent post on the subtleties of building trust in systems=2C includ=
+ing the technical systems and the people that make complex software work.
+
+https://medium.com/mercadona-tech/in-our-systems-we-trust-cb92cfb43417
+
+
+Another great post=2C this one on a long term effort to reduce the cost an=
+d improve the developer experience of a large=2C and growing=2C CI infrast=
+ructure.
+
+https://slack.engineering/infrastructure-observability-for-changing-the-sp=
+end-curve/
+
+
+A new programming language based on Lua! Luau is described as a fast=2C sm=
+all=2C safe=2C gradually typed embeddable scripting language. Lots of use=
+ cases for this=2C I hope it attracts an active community.
+
+https://luau-lang.org/2021/11/03/luau-goes-open-source.html
+https://github.com/Roblox/luau
+
+
+CI systems are so key to modern software development that some companies d=
+evelop their own custom solutions. Not something most folks should do=2C b=
+ut an interesting post from one team that took the custom approach.
+
+https://databricks.com/blog/2021/10/14/developing-databricks-runbot-ci-sol=
+ution.html
+
+
+A handy list of observability themed talks from the recent KubeCon event.=
+ Compiled by https://monitoring.love.
+
+https://www.youtube.com/playlist?list=3DPLGJrMkJUF3M1uLHaTpHdZgTzQUGl1CDdP
+
+
+Nginx was always one of my favourite bits of software to manage. This post=
+ looks into how to monitor it and provides an overview of various mainly S=
+aaS solutions that can help=2C written by one of those SaaS providers.
+
+https://sematext.com/blog/nginx-monitoring/
+
+
+A post introducing the monitoring golden signals (latency=2C traffic=2C er=
+rors and saturation) from first principles.
+
+https://dev.to/squadcast/golden-signals-monitoring-from-first-principles-k=
+pn
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A useful public GitHub template for bootstrapping an AWS EKS cluster using=
+ Terraform. Good accompanying blog post as well about the usefulness of su=
+ch boilerplate templates.
+
+https://maddevs.io/insights/blog/terraform-aws-eks/
+https://github.com/maddevsio/aws-eks-base
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
