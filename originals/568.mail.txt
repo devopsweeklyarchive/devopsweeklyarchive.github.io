@@ -1,0 +1,106 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#568?=
+Date: Sun, 14 Nov 2021 10:47:23 +0000
+
+DEVOPS WEEKLY
+ISSUE #568 - 14th November 2021
+
+Security=2C load testing=2C developer efficiency=2C automated releases=2C=
+ PostgreSQL and lots more this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk is the first dynamic application and API security testing tool t=
+o integrate with GitHub Code Scanning. Give it a go:
+
+https://sthwk.com/github-code-scanning
+
+
+News
+=3D=3D=3D=3D
+
+A discussion of measuring developer success=2C and the importance of optim=
+ising for onboarding time for engineers=2C especially in a rapidly growing=
+ team.
+
+https://backstage.spotify.com/blog/measuring-backstage-success-at-spotify/
+
+
+A nice post describing an automated release process=2C making clever use o=
+f GitHub Actions and generated changelogs.
+
+https://sudolabs.com/blog/how-we-automatized-our-release-process-into-just=
+-3-clicks
+
+
+An interesting slide deck on the relationship between complexity and secur=
+ity=2C with some good low level observations.
+
+https://docs.google.com/presentation/d/181WFEcKiOiIDiWygVk2WGActldWUkAPiPs=
+n5U4KKN_g/mobilepresent
+
+
+A good post on load testing=2C specifically looking at load testing an HTT=
+P API. How to deal with load testing=2C load testing scenarios=2C resource=
+ provisioning and more.
+
+https://ably.com/blog/how-we-load-tested-control-api
+
+
+A long list of lesser-known PostgreSQL features.
+
+https://hakibenita.com/postgresql-unknown-features
+
+
+A collection of recordings from the recent SupplyChainSecurityCon event=2C=
+ with panels and talks on SBOMs=2C regulated industries=2C signing and mor=
+e.
+
+https://cd.foundation/blog/2021/11/10/supplychainsecuritycon-talk-recordin=
+gs-now-available/
+
+
+AWS has a number of different services for running containers. This post h=
+as a handy flow chart for helping with selection.
+
+https://www.vladionescu.me/posts/flowchart-how-should-i-run-containers-on-=
+aws-2021/
+
+
+Kubernetes deprecated dockershim recently=2C and is surveying users ahead=
+ of removal. Change at this level of such a popular project is hard=2C and=
+ it=E2=80=99s good to see this sort of engagement.
+
+https://kubernetes.io/blog/2021/11/12/are-you-ready-for-dockershim-removal=
+/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+dstp looks like a handy networking tool. Point at a domain or IP and get p=
+ing=2C DNS=2C certificate information and more.
+
+https://github.com/ycd/dstp
+
+
+Python has another package manager=2C PDM. This strictly implements the va=
+rious PEPs in the space and works similar to npm.
+
+https://pdm.fming.dev/
+
+
+kubectl-slice is a tool that allows you to split a single multi-YAML Kuber=
+netes manifest into multiple subfiles using a naming convention you choose=
+=2E Put them back together using Go Templates.
+
+https://github.com/patrickdappollonio/kubectl-slice
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
