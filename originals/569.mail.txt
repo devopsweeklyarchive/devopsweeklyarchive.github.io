@@ -1,0 +1,88 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#569?=
+Date: Sun, 21 Nov 2021 10:28:34 +0000
+
+DEVOPS WEEKLY
+ISSUE #569 - 21st November 2021
+
+A real mix of content this week=2C on everything from incident reports and=
+ supply chain security to robust network systems and data governance.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Learn how to easily add three different types of application security test=
+ing to your GitHub pipeline in StackHawk=E2=80=99s hands-on workshop:
+
+https://sthwk.com/github-actions-workshop
+
+
+News
+=3D=3D=3D=3D
+
+Rapid growth poses lots of interesting operational and scaling challenges.=
+ This retrospective on a month of incidents is worth a read.
+
+https://www.honeycomb.io/blog/incident-resolution-september-retrospective/
+
+
+A nice collection of materials on software supply chain security. From whi=
+tepapers to academic research=2C tooling and conferences.
+
+https://github.com/chughes757/SecureSoftwareSupplyChain
+
+
+A post on patterns for building robust network systems=2C looking at timeo=
+uts=2C retries and backoff.
+
+https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-=
+jitter/
+
+
+A look at an Infrastructure as code anti-pattern=2C managing snowflake ser=
+vers as code.
+
+https://infrastructure-as-code.com/book/2021/11/19/snowflakes-as-code.html
+
+
+A topic anyone in a growing organisation will be familiar with=2C the prob=
+lem of data governance. Balancing central control and flexibility at the e=
+dge.
+
+https://towardsdatascience.com/data-governance-has-a-serious-branding-prob=
+lem-7925b909712b
+
+
+A how to on setting up structured logging for Python applications.
+
+https://dev.to/aaronbassett/structured-logging-in-python-52e4
+
+
+An argument against using code freezes=2C highlighting some of the resulti=
+ng problems however appealing it might be.
+
+https://firehydrant.io/blog/avoid-frostbite-stop-doing-code-freezes/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Cartographer is a new tool for describing Kubernetes-native software suppl=
+y chains in code=2C supporting a clear separation of duties.
+
+https://cartographer.sh/
+https://github.com/vmware-tanzu/cartographer
+
+
+A handy tool for getting x509 certificate information=2C handles chains=2C=
+ multiple files and TCP addresses.
+
+https://github.com/pete911/certinfo
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
