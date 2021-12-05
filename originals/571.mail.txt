@@ -1,0 +1,99 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#571?=
+Date: Sun,  5 Dec 2021 11:00:28 +0000
+
+DEVOPS WEEKLY
+ISSUE #571 - 5th December 2021
+
+Lots of tools this week=2C from Kubernetes autoscaling to kernels for low=
+ level compute=2C to high level domain specific deployment tools and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Join StackHawk on December 16 for a hands-on workshop covering how to auto=
+mate application security testing in CI/CD using GitHub Actions. Register:
+
+https://sthwk.com/github-workshop
+
+
+News
+=3D=3D=3D=3D
+
+An interesting post on the concept of sharding=2C why general purpose shar=
+ding is useful=2C and notes on a new project in this space.
+
+https://rakyll.org/shardz/
+
+
+Insider threat is something some teams and organisations need to carefully=
+ consider. This post provides a clear set of scenarios=2C along with real-=
+world examples.
+
+https://magoo.medium.com/malicious-insider-scenarios-cf7e37789e40
+
+
+Vulnerability data is often messier that you might realise. A few interest=
+ing posts analysing the central CVE database=2C looking at quality and gro=
+wth. Lots of research opportunities here.
+
+https://jerrygamblin.com/2021/07/23/tracking-cpe-data-quality-issues/
+https://jerrygamblin.com/2021/07/17/cve-prophet/
+
+
+Skip the title=2C this post provides a nice introduction to Nix=2C especia=
+lly if you have familiarity with Docker.
+
+https://blog.replit.com/nix-vs-docker
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kusk is a new Kubernetes ingress controller that routes requests based on=
+ an OpenAPI specification=2C reducing repetition.
+
+https://kubeshop.io/blog/configure-ingress-with-openapi
+https://github.com/kubeshop/kusk
+
+A new Kubernetes autoscaling service=2C Karpenter observes the aggregate r=
+esource requests of unscheduled pods and makes decisions to launch and ter=
+minate nodes to minimize scheduling latencies and infrastructure cost.
+
+https://karpenter.sh
+https://github.com/aws/karpenter
+
+
+Hubris is a lightweight=2C memory-protected=2C message-passing kernel for=
+ deeply embedded systems. An interesting vision for open source low level=
+ compute.
+
+https://oxide.computer/blog/hubris-and-humility
+https://github.com/oxidecomputer/hubris
+https://github.com/oxidecomputer/humility
+
+
+Acra is a database security suite. It provides a proxy with field-level en=
+cryption=2C search through encrypted data=2C SQL injections prevention=2C=
+ intrusion detection=2C honeypots and more for a variety of SQL and NoSQL=
+ databases.
+
+https://github.com/cossacklabs/acra
+https://www.cossacklabs.com/blog/acra-0-90-0
+
+
+I=E2=80=99m a big fan of higher level domain-specific tools that focus on=
+ specific ecosystems. Kuby is a new Kubernetes deployment tool that=E2=80=
+=99s highly optimised for Ruby on Rails.
+
+https://getkuby.io
+https://github.com/getkuby/kuby-core
+https://evilmartians.com/chronicles/kubing-rails-stressless-kubernetes-dep=
+loyments-with-kuby
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
