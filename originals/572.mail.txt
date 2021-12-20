@@ -1,0 +1,112 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#572?=
+Date: Sun, 19 Dec 2021 14:45:10 +0000
+
+DEVOPS WEEKLY
+ISSUE #572 - 12th December 2021
+
+(I wrote this last week=2C and only now realised I didn't sent it. In case=
+ you were wondering how Log4Shell scrabbled my brain last week.)
+
+A shout out to everyone working over this weekend on mitigating the impact=
+ of Log4Shell=2C especially to the Log4J maintainers.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Tune in on the 14th of December as StackHawk and Snyk show you how to leve=
+rage developer-friendly security tooling in your CI/CD pipeline. Register=
+ now:
+
+https://sthwk.com/aws-live-hack
+
+
+News
+=3D=3D=3D=3D
+
+We have another internet-breaking vulnerability. Log4Shell is a full remot=
+e code execution vulnerability in the popular Log4J logging package for Ja=
+va.
+
+https://snyk.io/blog/log4j-rce-log4shell-vulnerability-cve-2021-4428/
+
+
+Incidents happen to everyone. How well you learn from them though is a mar=
+k of a good team. This comprehensive guide should help you improve your pr=
+ocesses around everything post incident.
+
+https://www.jeli.io/howie-the-post-incident-guide
+
+
+Running any service at scale invariably means considering the storage=2C c=
+ompute and networking implications. A good post on scaling Kafka=2C taking=
+ into account how using cloud services changes things.
+
+https://www.honeycomb.io/blog/scaling-kafka-observability-pipelines/
+
+
+A nice walkthrough of setting up a monitoring stack with Prometheus=2C Gra=
+fana and Traefik using Docker Compose. Ideal for developers to learn more=
+ about monitoring.
+
+https://medium.com/@evgeniyfirstov/application-monitoring-with-traefik-pro=
+metheus-grafana-and-docker-compose-for-beginners-2fe25d1b60a8
+
+
+A wide-ranging interview=2C covering data architecture=2C team structure=
+=2C no/low code and more.
+
+https://www.opslevel.com/blog/opslevel-diederik-van-liere/
+
+
+Lots of folks are experimenting with moving workloads to ARM. This post sh=
+ows how to migrate a Docker-based application=2C using buildx to create mu=
+lti-architecture images.
+
+https://medium.com/@tomwillfixit/migrating-a-dockerized-gitlab-chat-bot-to=
+-arm-in-an-afternoon-9324dc43480d
+
+
+An introduction to a coming soon commercial services=2C but some interesti=
+ng arguments in this post about why SQL might be a good user interface for=
+ managing cloud infrastructure.
+
+https://blog.iasql.com/intro-iasql/
+
+
+Apache is a mainstay of the web server world=2C and still widely used in l=
+ots of places. This post covers in detail how to read the various log file=
+s Apache generates=2C and how to interpret the results.
+
+https://sematext.com/blog/apache-logs/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Soft Serve is an interesting project that provides a self-hosted Git serve=
+r=2C with a nice built-in terminal user interface.
+
+https://github.com/charmbracelet/soft-serve
+
+
+Querying cloud resources is a problem lots of folks are playing with solut=
+ions for at the moment. Cloud Wanderer allows for exposing AWS data in AWS=
+ Neptune and querying using the Gremlin graph query language.
+
+https://www.cloudwanderer.io/
+https://github.com/CloudWanderer-io/CloudWanderer
+
+
+Logpaste is a simple service you can run for those times when you want to=
+ easily share log file snippets or other text.
+
+https://github.com/mtlynch/logpaste
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
