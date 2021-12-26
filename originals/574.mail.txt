@@ -1,0 +1,123 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#574?=
+Date: Sun, 26 Dec 2021 10:58:56 +0000
+
+DEVOPS WEEKLY
+ISSUE #574 - 26th December 2021
+
+Merry Christmas to those celebrating=2C and thanks to everyone on-call ove=
+r this busy period for lots of services. Lots of content this week=2C on d=
+eployment decisions=2C SLOs=2C SBOMs=2C serverless management and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Seasons Tweetings from the StackHawk team! We wish you all a Happy Hawkida=
+ys and an egg-cellent New Year.
+
+
+News
+=3D=3D=3D=3D
+
+A post on Sysadvent=2C considering systems safety and deployment decisions=
+ under stressful circumstances.
+
+https://sysadvent.blogspot.com/2021/12/day-20-to-deploy-or-not-to-deploy-t=
+hat.html
+
+
+A post on making SLOs and SLIs more discoverable and managing them in code=
+=2C using a custom DSL. Not everyone will have the time to build such cust=
+om tooling but it=E2=80=99s an interesting insight to SLO management at sc=
+ale.
+
+https://engineering.fb.com/2021/12/13/production-engineering/slick/
+
+
+This was the thing that interested me in Kubernetes to begin with=2C the a=
+rgument for a standard API.
+
+https://joshgav.github.io/2021/12/16/kubernetes-isnt-about-containers.html
+
+
+A look at working with Terraform and Serverless Framework together to mana=
+ge AWS Lambda applications in a declarative manner.
+
+https://tsh.io/blog/aws-infrastructure-terraform-serverless/
+
+
+A post on what to look for when exploring software for managing SBOMs.
+
+https://advisory.kpmg.us/blog/2021/software-bills-materials.html
+
+
+An interesting post on the complexity of caching and the potential for cac=
+he poisoning attacks at scale.
+
+https://youst.in/posts/cache-poisoning-at-scale/
+
+
+Some observations and recommendations about the secure usage of third part=
+y APT repositories and risks with signing keys having broader scope than p=
+robably expected.
+
+https://blog.cloudflare.com/dont-use-apt-key/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Heap
+Named as a Glassdoor's #1 Best Place to Work! We're building the analytics=
+ engine that helps 6=2C000 companies make smarter decisions.
+
+If you're ENTHUSIASTIC about scaling Engineering Ops via Cloud Engineering=
+ Ops; COLLABORATIVE in selecting and incorporating the best DevOps tooling=
+ to support scale; and DRIVEN toward infrastructure-as-code and production=
+-release made easy; continue because there's more:
+
+If we've piqued your interest=2C find out more below and apply here: https=
+://heap.io/careers/jobs?gh_jid=3D3475999
+
+You can read a recent blog post on our Engineering Blog too https://heap.i=
+o/blog/virtual-events
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+PolicyGlass allows for combining multiple AWS IAM policies/statements into=
+ their =E2=80=98effective permissions=E2=80=99=2C deduplicating permission=
+s=2C and eliminating denied permissions along the way.
+
+https://policyglass.cloudwanderer.io/en/latest/
+https://sandbox.policyglass.cloudwanderer.io/
+
+
+Copybara looks an interesting source code management tool=2C useful for im=
+porting sections of code from a confidential repository to a public reposi=
+tory=2C importing code from a public repository to a confidential reposito=
+ry=2C importing a change from a non-authoritative repository into the auth=
+oritative repository and more.
+
+https://github.com/google/copybara
+
+
+A handy wrapper around go=E2=80=99s toolchain=2C to make it easier to inst=
+all and manage go binaries on your path.
+
+https://github.com/TekWizely/bingo
+
+
+Colima provides a simple way of provisioning a container runtime (either D=
+ocker or Containerd) on macOS.
+
+https://github.com/abiosoft/colima
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
