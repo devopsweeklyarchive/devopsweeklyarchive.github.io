@@ -1,0 +1,78 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#575?=
+Date: Sun,  2 Jan 2022 11:27:22 +0000
+
+DEVOPS WEEKLY
+ISSUE #575 - 2nd January 2022
+
+A short issue this week as we start the new year with cloud management too=
+ls=2C performance case studies=2C learning Azure and AWS services and a fe=
+w other posts.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Seasons Tweetings from the StackHawk team! We wish you all a Happy Hawkida=
+ys and an egg-cellent New Year.
+
+
+News
+=3D=3D=3D=3D
+
+A detailed post on making performance gains in a large Go microservice inf=
+rastructure by tuning the Go garbage collector.
+
+https://eng.uber.com/how-we-saved-70k-cores-across-30-mission-critical-ser=
+vices/
+
+
+A handy workshop for anyone learning Azure=2C from Azure DevOps to Azure P=
+ipelines=2C Terraform=2C Kubernetes and setting up application monitoring.
+
+https://thomasthornton.cloud/2021/12/26/a-devops-journey-using-azure-devop=
+s/
+
+
+A nice introduction to eBPF=2C starting from a hello world and moving on t=
+o storing state in BPF maps.
+
+https://sysadvent.blogspot.com/2021/12/day-23-what-is-ebpf.html
+
+
+An interesting post on using Kubernetes admission controllers to detect dr=
+ift in containers and evict the pods.
+
+https://kubernetes.io/blog/2021/12/21/admission-controllers-for-container-=
+drift/
+
+
+A walkthrough of using AWS Amplify=2C which provides a high-level applicat=
+ion development framework over other AWS services.
+
+https://codersociety.com/blog/articles/getting-started-with-aws-amplify
+
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Pleco is a tool for automatically deleting cloud resources based on TTL ta=
+gs. It can currently delete namespaces from Kubernetes and a wide range of=
+ AWS=2C DigitalOcean and Scaleways services.
+
+https://github.com/Qovery/pleco
+
+
+Portmaster is a handy local tool for seeing your network connections=2C in=
+cluding the ability to block traffic=2C reroute DNS over TLS and more.
+
+https://safing.io/portmaster/
+https://github.com/safing/portmaster/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
