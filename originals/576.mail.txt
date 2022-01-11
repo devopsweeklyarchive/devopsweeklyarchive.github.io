@@ -1,0 +1,92 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#576?=
+Date: Sun,  9 Jan 2022 11:14:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #576 - 9th January 2022
+
+Posts on everything from secure supply chain=2C performance testing and re=
+liable systems design to conversational architecture and team organisation=
+=2E A good range of technical and people topics this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Shifting security left has become a buzzword that is thrown around constan=
+tly. But what does it matter for your team? Find out:
+
+https://sthwk.com/why-shift-left
+
+
+News
+=3D=3D=3D=3D
+
+An interesting post looking at the architecture of the recently launched J=
+ames Webb space telescope. Discussion of testing=2C single points of failu=
+re and building reliable systems.
+
+https://flyingbarron.medium.com/the-james-webb-space-telescope-making-300-=
+points-of-failure-reliable-db669810a9d8
+
+
+A paper exploring a tricky challenge=2C creating an automated system for p=
+erformance testing able to run in CI systems.
+
+https://dl.acm.org/doi/pdf/10.1145/3395032.3395323
+
+
+A look at applying the approaches from the team topology book to machine l=
+earning teams.
+
+https://towardsdatascience.com/team-topology-for-machine-learning-45bddba6=
+26e3
+
+
+A short set of recommendations gleaned from the fallout of Log4Shell.
+
+https://www.jetstack.io/blog/log4shell-lessons-to-learn/
+
+
+Some thoughts on observability tooling consolidation and potential future=
+ tooling development.
+
+https://world.hey.com/minglei/observability-in-chaos-88d43d84
+
+
+Architecture is important=2C but often misunderstood (or misapplied as top=
+ down control). This article talks about why=2C and how to adopt a more co=
+nversational decentralised approach.
+
+https://martinfowler.com/articles/scaling-architecture-conversationally.ht=
+ml
+
+
+A post on building a more secure pipeline for an application=2C using GitH=
+ub Actions=2C Cosign and a range of other open source tools.
+
+https://www.cloudnative.quest/posts/security/2022/01/01/improve-supply-cha=
+in-security-with-github-actions-and-open-source-tools/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Sinker is a handy tool that syncs container images from one registry to an=
+other. This is useful in cases when you rely on images that exist in a pub=
+lic container registry=2C but need to pull from a private registry.
+
+https://github.com/plexsystems/sinker
+
+
+Shellfirm is a handy utility to help avoid running dangerous commands with=
+out an extra step of approval.
+
+https://github.com/kaplanelad/shellfirm
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
