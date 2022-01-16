@@ -1,0 +1,100 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#577?=
+Date: Sun, 16 Jan 2022 09:53:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #577 - 16th January 2022
+
+Lots of interesting posts this week=2C with a general theme of security. F=
+rom securing GitHub organisations=2C research on developer education=2C an=
+ SBOM primer and recent software supply chain issues. Plus posts on WHOIS=
+=2C service operations and team building to round things out.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk just made it even easier to get started with automated security=
+ testing with the new StackHawk CLI. Watch the technical demo and get star=
+ted with just a few commands from your terminal.
+
+https://sthwk.com/cli-demo
+
+
+News
+=3D=3D=3D=3D
+
+An interesting presentation with lots of collected research on helping dev=
+elopers adopt secure development practices.
+
+https://speakerdeck.com/auxesis/footguns-and-factorisation-how-to-make-use=
+rs-of-your-cryptographic-library-successful
+
+
+Building teams is a big part of operating complex systems. This post looks=
+ at the cost of attrition=2C focusing on the often hidden communication co=
+st.
+
+https://benjiweber.co.uk/blog/2022/01/12/cost-of-attrition/
+
+
+A quick take on the issue this last week with NPM around the malicious rel=
+ease of a popular package=2C with some recommendations relevant to other p=
+ackage ecosystems and those releasing software.
+
+https://research.swtch.com/npm-colors
+
+
+=E2=80=9CThe WHOIS protocol is one of the older internet protocols around.=
+ It's infuriatingly simple=2C by and large considered obsolete=2C and the=
+ data provided by it is unpredictable=2C unreliable=2C incomplete=2C and=
+=2C of course=2C still one of the cornerstones of internet operations.=E2=
+=80=9D
+
+https://www.netmeister.org/blog/whois.html
+
+
+A nice primer on SBOMs (Software Bill of Materials)=2C explaining why the=
+ recent interest and most interestingly looking at wider ecosystem integra=
+tions coming.
+
+https://blog.chainguard.dev/what-an-sbom-can-do-for-you/
+
+
+A handy post on securing a GitHub organisation=2C from configuring with co=
+de to permissions=2C authentication=2C external users=2C audit logs and mo=
+re.
+
+https://alsmola.medium.com/securing-github-organizations-9c33c850638
+
+
+CI pipelines are critical systems=2C but can be fragile without any form o=
+f testing in place. Here=E2=80=99s a handy post on testing and linting Git=
+Hub Actions to catch common mistakes.
+
+https://cipherstash.com/blog/2021-11-25-linting-your-github-actions
+
+
+A discussion of some of the pros and cons of centralised and decentralised=
+ responsibility for service operations.My experience is that what works ch=
+anges over time=2C so being explicit and conscious of the approach is the=
+ important part.
+
+https://medium.com/@crossbizz/let-service-teams-own-the-service-operations=
+-instead-of-the-sre-4ff7bcbd53e0
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A toolchain for keeping a set of container images for upstream software au=
+tomatically updated using GitHub Actions.
+
+https://github.com/cybersecsi/RAUDI
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
