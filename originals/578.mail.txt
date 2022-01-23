@@ -1,0 +1,108 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#578?=
+Date: Sun, 23 Jan 2022 09:46:45 +0000
+
+DEVOPS WEEKLY
+ISSUE #578 - 23rd January 2022
+
+A packed issue this week=2C with posts on supply chain security=2C AWS man=
+agement=2C software development metrics=2C OpenTelemetry and more. Plus se=
+veral interesting tools from a WebAssembly PaaS to a great JVM release too=
+l.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Looking to add security testing to your pipeline? Learn how StackHawk make=
+s it easy to automate application security with our new guide for testing=
+ in CI/CD.
+
+https://sthwk.com/running-in-cicd
+
+
+News
+=3D=3D=3D=3D
+
+A post on implementing the DORA metrics=2C with some discussion of suggest=
+ed improvements based on difficulty with measurement at scale.
+
+https://isthisit.nz/posts/2022/state-of-the-dora-devops-metrics/
+
+
+Software built processes have always posed a risk of attack=2C this post m=
+akes clear that this is happening in the real world with some examples.
+
+https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve=
+-compromised-ci-cd-pipelines/
+
+
+Another supply chain security post=2C this one looking at the part played=
+ by package manager lock files and how to use them.
+
+https://r2c.dev/blog/2022/the-best-free-open-source-supply-chain-tool-the-=
+lockfile/
+
+
+A detailed introduction looking at OpenTelemetry collectors and exporters.
+
+https://www.containiq.com/post/opentelemetry-collector-and-exporters
+
+
+Some tips for anyone wanting a more organised Git history.
+
+https://render.com/blog/git-organized-a-better-git-flow
+
+
+A primer on using Go for writing AWS CDK. Lots of examples and explanation=
+s of the programming model.
+
+https://poweruser.blog/aws-cdk-with-go-part1-4075eeeceaad
+
+
+Mining software development stats seems to be a hot topic at the moment. T=
+his post is looking at dealing with technical debt=2C using quotas and met=
+rics to drive continuous improvement.
+
+https://medium.com/flo-health/how-to-deal-with-tech-debt-at-the-scale-of-s=
+uper-app-90da136d576d
+
+
+A post for anyone using AWS DynamoDB=2C specifically looking at how to mig=
+rate large tables between separate AWS accounts.
+
+https://medium.com/riskified-technology/dynamodb-table-migration-between-a=
+ccounts-aabfa7ef748
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Hippo is a PaaS for webassembly applications. Experimental at this stage=
+=2C but providing a simple push-based deployment mechanism and good docume=
+ntation to get started.
+
+https://docs.hippofactory.dev
+https://github.com/deislabs/hippo
+
+
+Jreleaser makes packaging and releasing JVM applications easier. Good defa=
+ults and flexible configuration=2C easily generate GitHub releases=2C upda=
+te a homebrew tap and lots more.
+
+https://jreleaser.org/
+https://github.com/jreleaser/jreleaser
+
+
+Kwatch is a handy Kubernetes application that watches for crashes in the c=
+luster=2C and posts information about them to Slack=2C Discord=2C Pagerdut=
+y and more.
+
+https://github.com/abahmed/kwatch
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
