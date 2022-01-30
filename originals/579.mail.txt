@@ -1,0 +1,101 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#579?=
+Date: Sun, 30 Jan 2022 11:27:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #579 - 30th January 2022
+
+Lots of good ops posts this week=2C from linux systems administration to o=
+utage retrospective and creating actionable alerts to managing large Kuber=
+netes clusters and more besides.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Teams are adding different types of automated application security testing=
+ in their CI/CD pipelines. See how you can add different types of automate=
+d security testing to your pipeline quickly and ship better quality code.
+
+https://sthwk.com/appsec-to-your-pipeline
+
+
+News
+=3D=3D=3D=3D
+
+Is the art of maintaining linux servers a dying art? This post thinks mayb=
+e=2C and makes a case for reclaiming it.
+
+https://www.pietrorea.com/2022/01/28/reclaiming-the-lost-art-of-linux-serv=
+er-administration
+
+
+A detailed retrospective of a 73-hour outage. Lots of technical details=2C=
+ and it=E2=80=99s interesting to see this sort of openness from a consumer=
+ brand.
+
+https://blog.roblox.com/2022/01/roblox-return-to-service-10-28-10-31-2021/
+
+
+A look at redundancy as an approach to building resilient systems=2C using=
+ the James Webb space telescope as a case study.
+
+https://flyingbarron.medium.com/the-james-webb-space-telescope-success-thr=
+ough-redundancy-dfe3f57fb772
+
+
+An interesting post on using continuous testing to provide feedback to dev=
+elopment teams to aim in managing availability.
+
+https://engineering.salesforce.com/managing-availability-in-service-based-=
+deployments-with-continuous-testing-61be968da4a
+
+
+A post with lots of operational details about running a large Kubernetes i=
+nstallation=2C with over 4k nodes and 200k pods.
+
+https://medium.com/paypal-tech/scaling-kubernetes-to-over-4k-nodes-and-200=
+k-pods-29988fad6ed
+
+
+A useful set of tips for creating actionable alerts in your monitoring sys=
+tem.
+
+https://tech.devoted.com/making-alerts-actionable-3a65904c368e
+
+
+Indexes speed up database queries right? Well=2C like most things=2C it=E2=
+=80=99s more complicated than that. An interesting look at real world data=
+base performance.
+
+https://engineering.nanit.com/an-index-gone-rogue-2d58dd824b22
+
+
+An argument for using GraphQL for querying the state of cloud resources as=
+ the complexity and scale of the APIs provided by the public clouds contin=
+ues to increase.
+
+https://hackernoon.com/why-the-aws-azure-and-gcp-clis-need-to-die
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A standalone reverse-proxy to enforce Webauthn authentication. It can be i=
+nserted in front of sensitive services or even chained with other proxies=
+ (e.g. OAuth=2C MFA) to enable a layered security model
+
+https://github.com/Quiq/webauthn_proxy
+
+
+A fuzzer for RESTful APIs=2C useful for finding security and reliability i=
+ssues.
+
+https://github.com/microsoft/restler-fuzzer
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
