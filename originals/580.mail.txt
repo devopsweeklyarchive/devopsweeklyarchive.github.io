@@ -1,0 +1,99 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#580?=
+Date: Sun,  6 Feb 2022 10:56:02 +0000
+
+DEVOPS WEEKLY
+ISSUE #580 - 6th February 2022
+
+Lots of new tools this week=2C with several useful to help with surfacing=
+ information as part of normal developer workflows =2C as well as posts on=
+ incident management=2C testing microservices and Kubernetes.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+There are only 2 days left until ZAPCon! Don't miss the chance to join our=
+ free virtual conference and level-up your security automation skills. Sav=
+e your spot now:
+
+https://sthwk.com/zapcon-registration
+
+
+News
+=3D=3D=3D=3D
+
+Incident management is a team activity=2C but too often revolves around a=
+ single person coming to the rescue. This post looks at the perils of a si=
+ngle hero solving problems.
+
+https://incident.io/blog/no-capes
+
+
+A detailed series of posts on testing microservice-based applications=2C c=
+overing environment/request isolation=2C staging environment issues and mo=
+re.
+
+https://blog.getambassador.io/testing-microservices-youre-thinking-about-e=
+nvironment-isolation-all-wrong-84f22034a6ef
+https://blog.getambassador.io/testing-microservices-isolating-requests-not=
+-environments-with-telepresence-f22535789253
+https://blog.getambassador.io/testing-microservices-how-to-share-staging-e=
+nvironments-without-tripping-over-each-other-b07e393eb31c
+
+
+This guide provides a well documented=2C opinionated=2C step-by-step frame=
+work for successfully going to production on the public cloud. Lots of con=
+crete details and explicit steps rather than just the high level.
+
+https://docs.gruntwork.io/docs/guides/production-framework/
+
+
+Some thoughts about Kubernetes adoption in 2022=2C focused on more cluster=
+s vs bigger clusters.
+
+https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022/
+
+
+An experience report after using AWS EKS for a few years. Lots of useful o=
+perational observations around SSO integration=2C networking=2C storage an=
+d more.
+
+https://matduggan.com/aws-eks/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Infracost shows cloud cost estimates for Terraform in PR status checks. A=
+ handy way of surfacing cost as part of the development process.
+
+https://github.com/infracost/infracost
+
+
+Status Red Team is a handy toolset which allows for emulating offensive at=
+tack techniques against cloud infrastructure.
+
+https://github.com/DataDog/stratus-red-team
+https://stratus-red-team.cloud/
+
+
+Encites is an interesting tool for anyone looking to make Git activity mor=
+e visible. It provides an API and tools for rendering the data to Markdown=
+=2E Lots of things you could do with this in status checks or batch reports.
+
+https://github.com/cutenode/encites
+
+
+Pyrra is a tool for managing SLOs with Prometheus. Provides useful dashboa=
+rds and support for multi burn rates and alerts. The demo is a handy way o=
+f getting a feel for the tool.
+
+https://github.com/pyrra-dev/pyrra
+https://demo.pyrra.dev
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
