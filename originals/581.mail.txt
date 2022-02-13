@@ -1,0 +1,94 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#581?=
+Date: Sun, 13 Feb 2022 10:32:52 +0000
+
+DEVOPS WEEKLY
+ISSUE #581 - 13th February 2022
+
+Posts on reliable systems=2C software supply chain security=2C infrastruct=
+ure automation and more. Plus a quick correction.
+
+Last week=E2=80=99s issue mentioned that ZAPCon was only a few days away.=
+ In reality you have a little longer to sign up to the security automation=
+ event. ZAPCon will be on March 8th.
+
+https://sthwk.com/zapcon
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Automated security testing is critical for code quality. Find out how you=
+ can scale application security testing across your engineering org with o=
+pen source tools.
+
+https://sthwk.com/3HvxvUr
+
+
+News
+=3D=3D=3D=3D
+
+Some observations about where we stand today with platform as a service=2C=
+ and the impact on operations and role specialisation.
+
+https://mumble.org.uk/blog/2022/02/02/infrastructure-in-this-post-devops-w=
+orld/
+
+
+A reliability manifesto=2C containing lots of formal rules and good advice=
+ for building and running reliable systems.
+
+https://tech.deliveryhero.com/our-reliability-manifesto/
+
+
+A good primer on using Terraform to build immutable infrastructure on Goog=
+le Cloud Platform.
+
+https://codersociety.com/blog/articles/terraform-gcp
+
+
+A good description of an increasingly common threat vector=2C compromising=
+ a CI pipeline in order to execute some code=2C whether to access internal=
+ information or resources or manipulate the results of a build.
+
+https://medium.com/cider-sec/ppe-poisoned-pipeline-execution-34f4e8d0d4e9
+
+
+GitBom is another software supply chain project=2C tracking every source c=
+ode file incorporated into each built artifact and embedding a unique=2C c=
+ontent-addressable reference for that artifact tree into the artifact at b=
+uild time.
+
+https://gitbom.dev/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Witness is a new tool designed to prevent tampering of build materials. It=
+ verifies the integrity of the build process from source to target=2C prov=
+iding a plugable attestation system that can be integrated into CI pipelin=
+es.
+
+https://github.com/testifysec/witness
+
+
+A project working on building a new open protocol for resumable uploads ov=
+er HTTP=2C along with clients in lots of language.
+
+https://tus.io/
+https://github.com/tus
+
+
+ValidKube is a handy online tool for improving the quality of Kubernetes c=
+onfiguration files=2C wrapping other tools that provide validation=2C secu=
+rity guidance and more.
+
+https://validkube.com/
+https://github.com/komodorio/validkube
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
