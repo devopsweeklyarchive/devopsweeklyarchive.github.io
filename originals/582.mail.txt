@@ -1,0 +1,99 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#582?=
+Date: Sun, 20 Feb 2022 10:42:19 +0000
+
+DEVOPS WEEKLY
+ISSUE #582 - 20th February 2022
+
+No particular theme this issue=2C but posts on developer experience=2C con=
+figuration management=2C devops job titles=2C incident management=2C suppl=
+y chain security and some handy tools this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Ready to level-up your DevSecOps game? The schedule for ZAPCon is now live=
+! Check out the exclusive sessions we have in store and register so you do=
+n't miss out.
+
+https://sthwk.com/zapcon
+
+
+News
+=3D=3D=3D=3D
+
+Configuration is (still) a common challenge. The 12 factor approach advoca=
+tes environment variables=2C but how do you manage them. One approach is i=
+n a .env file=2C which has some problems=2C as this post discusses.
+
+https://blog.doppler.com/the-triumph-and-tragedy-of-env-files
+
+
+A solid argument for developer platforms and a focus on developer experien=
+ce in order to embed security earlier in the development process.
+
+https://redmonk.com/rstephens/2022/02/17/devex-is-security/
+
+
+A walkthrough of using GitHub Actions to auto-merge dependency upgrade PRs=
+ when tests pass. There are some definite pros and cons to this much autom=
+ation when it comes to supply chain attacks and undesirable side effects.
+
+https://dev.to/daniloab/using-github-actions-to-improve-your-developer-exp=
+erience-29n7
+
+
+The evolution of job titles is definitely one lens through which you can o=
+bserve devops influence. This post nicely visualises the current state of=
+ titles from development to operations.
+
+https://www.jedi.be/blog/2022/02/11/shades-of-devops-roles/
+
+
+The start of a blog post series documenting one person=E2=80=99s journey l=
+earning cloud native technologies. It=E2=80=99s a good reminder of the ass=
+umptions of more experienced folks=2C the posts starting with linux and te=
+xt editor basics.
+
+https://irishtechie.cloud/my-cloud-native-adventure-part-1
+https://irishtechie.cloud/my-cloud-native-adventure-part-2/
+
+
+With the adoption of devops practises=2C especially in smaller organisatio=
+ns=2C various operations and service management responsibilities have spre=
+ad out=2C but I think we=E2=80=99ll seen some swing back to more dedicated=
+ roles as the complexity continues to increase.
+
+https://medium.com/@margrig96/who-is-the-incident-manager-specialist-9322f=
+119c95a
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A handy online service which watches your SSL certificates and notifies yo=
+u well in advance of their expiration.
+
+https://www.haveibeenexpired.com/
+
+
+The Secure Software Factory is a prototype implementation of the CNCF's Se=
+cure Software Factory Reference Architecture which is based on the CNCF s=
+ Software Supply Chain Best Practises White Paper
+
+https://thesecuresoftwarefactory.github.io/ssf/
+
+
+Frawk is an AWK alternative implementation which adds some interesting new=
+ features=2C like CSV support=2C and provides faster performance.
+
+https://github.com/ezrosent/frawk
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
