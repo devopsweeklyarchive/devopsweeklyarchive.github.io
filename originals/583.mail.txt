@@ -1,0 +1,115 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#583?=
+Date: Sun, 27 Feb 2022 09:42:13 +0000
+
+DEVOPS WEEKLY
+ISSUE #583 - 27th February 2022
+
+My thoughts=2C like everyones=2C this weekend with the situation in Ukrain=
+e=2C and my colleagues and friends from the region. One of them shared htt=
+ps://savelife.in.ua/en/ with me and I=E2=80=99m sharing here if you think=
+ you can help.
+
+Posts on developer experience=2C priority/severity and continuous integrat=
+ion today as well=2C with quite a few posts on various Kubernetes goings o=
+n again this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Curious to learn about the impact of scaling DevSecOps across your org? Re=
+gister for free for ZAPCon 2022 for talks=2C workshops=2C and a community=
+ focused on automated security testing with open source tools:
+
+https://sthwk.com/zapcon-registration
+
+
+News
+=3D=3D=3D=3D
+
+People often conflate severity and priority I find. This post does a good=
+ job of explaining the difference=2C and why that difference is useful.
+
+https://firehydrant.io/blog/incident-severity-and-priority-101/
+
+
+Many readers of this newsletter will be familiar with the move to encoding=
+ everything from infrastructure to database migrations and CI pipelines to=
+ security policies. This post provides a wide overview=2C and asks some in=
+teresting questions about the overall movement.
+
+https://www.jedi.be/blog/2022/02/23/trends-and-inventory-of-50-as-code-con=
+cepts/
+
+
+We often talk about developer experience=2C but what do we really mean by=
+ that? This post provides a description=2C as well as collecting together=
+ several excellent pieces on the subject.
+
+https://redmonk.com/jgovernor/2022/02/21/what-is-developer-experience-a-ro=
+undup-of-links-and-goodness/
+
+
+An interesting and detailed post on the security surface for Grafana. Much=
+ of this is just as relevant to any data aggregation/data visualisation to=
+oling.
+
+https://grafana.com/blog/2022/02/22/how-secure-is-your-grafana-instance-wh=
+at-you-need-to-know/
+
+
+A quick introduction to using Carvel (kapp and ytt in this case) with Argo=
+CD for building a deployment pipeline for Kubernetes.
+
+https://carvel.dev/blog/argocd-carvel-plugin/
+
+
+Another ArgoCD post=2C this one looking at integrating Kyverno for policy=
+ enforcement in the pipeline.
+
+https://medium.com/@charled.breteche/using-kyverno-policies-with-argocd-1a=
+600c1b249
+
+
+The latest version of Helm brings to GA an interesting feature=2C support=
+ for publishing charts to=2C and consuming charts from=2C OCI registries.
+
+https://itnext.io/helm-3-8-0-oci-registry-support-b050ff218911
+
+
+An introduction to eBPF=2C which moves quickly on to hands on C examples o=
+f writing eBPF programmes.
+
+https://medium.com/@buraktahtacioglu/get-started-with-ebpf-cncf-roadmap-56=
+74d3859728
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kube Review is a handy utility which transforms a provided Kubernetes reso=
+urce into a Kubernetes AdmissionReview request. Useful for test web hooks=
+ or working with policy tools.
+
+https://github.com/anderseknert/kube-review
+
+
+Zarf is a tool to help build Kubernetes clusters in air-gapped environment=
+s. It provides a self-contained CLI that can pull=2C package=2C and instal=
+l all the things your clusters need to run.
+
+https://github.com/defenseunicorns/zarf
+
+
+Knox is a service for storing and rotation of secrets=2C keys=2C and passw=
+ords used by other services.
+
+https://github.com/pinterest/knox
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
