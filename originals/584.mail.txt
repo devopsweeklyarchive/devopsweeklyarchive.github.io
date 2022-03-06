@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#584?=
+Date: Sun,  6 Mar 2022 09:41:45 +0000
+
+DEVOPS WEEKLY
+ISSUE #584 - 6th March 2022
+
+Posts on networking=2C monitoring and kubernetes adoption=2C along with se=
+veral posts discussing build tools and patterns for container images.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+There are only 2 days left until ZAPCon! Don't miss the chance to join our=
+ free virtual conference and level-up your security automation skills. Sav=
+e your spot now:
+
+https://sthwk.com/zapcon-registration
+
+
+News
+=3D=3D=3D=3D
+
+A useful guide to basic networking troubleshooting. This sort of guidance=
+ is always useful=2C I think a basic understanding of how networking works=
+ will always prove useful.
+
+https://www.netmeister.org/blog/basic-network-troubleshooting.html
+
+
+A nice automation story=2C using information from test suites to then gene=
+rate pull requests to help upgrade to a new major release of Ruby.
+
+https://about.gitlab.com/blog/2021/02/03/how-we-automatically-fixed-hundre=
+ds-of-ruby-2-7-deprecation-warnings/
+
+
+A post on why using the latest tag for container images can be problematic=
+=2E The reality I think is a bit different=2C posts like this often ignore w=
+hy folks use latest and the different environments and levels of automatio=
+n people work within.
+
+https://platformers.dev/log/2022-03-02-latest-literally-kills-puppies/
+
+
+A post on building container images=2C focused mainly on JVM languages=2C=
+ looking at buildpacks=2C Jib and Dockerfile=2C with good examples of each=
+=2E
+
+https://cloud.google.com/blog/topics/developers-practitioners/comparing-co=
+ntainerization-methods-buildpacks-jib-and-dockerfile
+
+
+Some thoughts on the recently published CNCF Annual Survey report=2C mainl=
+y focused on the continued wide scale adoption of Kubernetes.
+
+https://newrelic.com/blog/nerdlog/cncf-report-22
+
+
+A handy guide to using a remote JSON document for prometheus metrics=2C us=
+ing prometheus-json-exporter.
+
+https://levelup.gitconnected.com/transforming-remote-json-into-prometheus-=
+metrics-334d772df38a
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+IRConf=2C the Incident Response Conference=2C is coming up on April 1st. A=
+ half day virtual conference with talks and discussions around on-call han=
+dling=2C the impact of bias on post-incident review=2C resilience engineer=
+ing and more.
+
+https://www.irconf.io/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+APKO is a new build tool for building distroless container images based on=
+ Alpine.
+
+https://blog.chainguard.dev/introducing-apko-bringing-distroless-nirvana-t=
+o-alpine-linux/
+https://github.com/chainguard-dev/apko
+
+
+CDK Notifier is a CLI tool to post AWS CDK diffs as comment to Github pull=
+ request=2C handy for building confidence in merging infrastructure change=
+s.
+
+https://medium.com/@karlderkaefer/improve-your-pull-request-experience-for=
+-aws-cdk-projects-1fd5adb08bb3
+https://github.com/karlderkaefer/cdk-notifier
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
