@@ -1,0 +1,94 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#585?=
+Date: Sun, 13 Mar 2022 09:34:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #585 - 13th March 2022
+
+Posts this week on incident management=2C debugging certification issues=
+=2C Kubernetes abstractions=2C cloud management tooling=2C network securit=
+y and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+With StackHawk's new GitHub Action=2C you can integrate AppSec testing dir=
+ectly into your GitHub CI/CD pipeline. See how:
+
+http://sthwk.com/github-actions
+
+
+News
+=3D=3D=3D=3D
+
+Managing incidents well often means clear incident leadership. This post l=
+ooks at the balance between dedicated roles and emergent roles=2C and when=
+ to hire an incident commander.
+
+https://firehydrant.io/blog/when-to-hire-an-incident-commander/
+
+
+A discussion of Kubernetes=2C focused on the maturing higher level abstrac=
+tions for developers.
+
+https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-s=
+hould-look-beyond-kubernetes-in-2022
+
+
+A handy trick=2C automatically building documentation on changes in versio=
+ns of CLI tools by scraping and storing the help output in Git.
+
+https://simonwillison.net/2022/Feb/2/help-scraping/
+
+
+A primer on debugging certificate errors=2C including incomplete chains=2C=
+ expired certs=2C IP address issues and more.
+
+https://www.netmeister.org/blog/debugging-certificate-errors.html
+
+
+A comprehensive up-to-date guide on all things network infrastructure secu=
+rity.
+
+https://media.defense.gov/2022/Mar/01/2002947139/-1/-1/0/CTR_NSA_NETWORK_I=
+NFRASTRUCTURE_SECURITY_GUIDANCE_20220301.PDF
+
+
+A post on monitoring haproxy=2C covering how to enable monitoring and whic=
+h are the key metrics to watch.
+
+https://sematext.com/blog/haproxy-monitoring/
+
+
+Generics are (finally) coming to Go in 1.18. With all the Go in the devops=
+ ecosystem=2C I think this is a quality of life improvement for lots of pr=
+ojects.
+
+https://dev.to/42atomys/how-will-go-generics-in-go-118-change-your-life-2e=
+5i
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Idem is a set of tools that can scan a cloud environment (or other API-dri=
+ven system) and generate a description of that state that can be modified=
+ and re-applied. Based on some of the underlying parts of Salt.
+
+https://www.idemproject.io
+https://gitlab.com/vmware/idem
+
+
+Healthcheck is a dedicated monitoring and alerting system for cron=2C with=
+ a nice looking dashboard and various alerting options.
+
+https://github.com/healthchecks/healthchecks
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
