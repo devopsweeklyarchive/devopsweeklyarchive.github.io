@@ -1,0 +1,73 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#586?=
+Date: Sun, 20 Mar 2022 09:34:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #586 - 20th March 2022
+
+Recent improvements to the venerable sudo as well as posts on retry 
+logic, monitoring monitoring systems GitOps and a few other interesting 
+topics this week.
+
+
+StackHawk sponsors Devops Weekly
+============================
+
+Want to add security testing to your pipeline? Learn how to easily add 
+three types of application security testing to your GitHub pipeline in 
+StackHawk’s hands-on workshop:
+
+https://sthwk.com/github-actions-workshop
+
+
+News
+====
+
+Some handy new features in sudo, in particular improvements to logging including JSON log output and built-in log aggregation.
+
+https://opensource.com/article/22/2/new-sudo-features-2022
+
+
+An in-depth look at retries, specifically looking at token buckets and circuit breakers.
+
+https://brooker.co.za/blog/2022/02/28/retries.html
+
+
+A look at using a dead-man's-switch to monitor other monitoring systems,
+ with code examples for implementing on AWS with Prometheus and 
+PagerDuty. 
+
+https://engineering.nanit.com/who-watches-the-watchers-1608d29ac3a8
+
+
+A post advocating for managing Kubernetes at scale using GitOps.
+
+https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/
+
+
+A post on solving common load testing problems at scale, using an 
+adaptive load testing framework that leverages BFP to capture traffic.
+
+https://eng.uber.com/introducing-ballast-an-adaptive-load-test-framework/
+
+
+A talk on GitOps, specifically looking at using Flux with Helm.
+
+https://www.youtube.com/watch?v=r_vKf5l1D1M
+
+
+Tools
+=====
+
+Probr is a dynamic application security testing (DAST) tool for cloud 
+resources, aimed at implementing a high level set of control for a cloud
+ environment.
+
+https://github.com/probr/probr-core
+
+
+Tiamat is a tool for building self-container Python applications, acting as a much simpler wrapper to PyInstaller.
+
+https://gitlab.com/saltstack/pop/tiamat
+
+
+If you received this email directly then you're already signed up, thanks! If however someone forwarded this email to you and you'd like to get it each week then you can subscribe at http://devopsweekly.com
