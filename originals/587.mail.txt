@@ -1,0 +1,89 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#587?=
+Date: Sun, 27 Mar 2022 09:22:55 +0000
+
+DEVOPS WEEKLY
+ISSUE #587 - 27th March 2022
+
+Several in-depth posts this week on crunch operations topics=2C including=
+ metrics for incident response=2C SLOs and SLIs and the idea that you buil=
+d it=2C you run it.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Leading teams are automating application security testing in their CI/CD p=
+ipelines. See how you can add automated security testing to your pipeline=
+ quickly and easily to ship better quality code.
+
+https://sthwk.com/appsec-to-your-pipeline
+
+
+News
+=3D=3D=3D=3D
+
+A post on using mean time to <something> to improve incident response. Goo=
+d discussion of choices about what metrics to use.
+
+https://www.infoq.com/articles/mtt-metrics-incident-response/
+
+
+A comprehensive post on setting SLOs and SLIs for complex distributed syst=
+ems.
+
+https://newrelic.com/blog/best-practices/best-practices-for-setting-slos-a=
+nd-slis-for-modern-complex-systems
+
+
+You build it=2C you run it. A familiar phrase=2C but the following playboo=
+k explores what that means and how to implement it to improve service oper=
+ations.
+
+https://www.equalexperts.com/wp-content/uploads/2022/03/YBIYRI_Playbook-4.=
+pdf
+
+
+There is a lot of interest in software bill of materials (SBOMs) at the mo=
+ment=2C but a lot of that has been focused on creating SBOMs. This post lo=
+oks an another aspect=2C storage and distribution.
+
+https://www.rkvst.com/sbom-distribution-manifesto/
+
+
+Down the rabbit hole of one team debugging a AWS EC2 networking issue rela=
+ted to sending large packets.
+
+https://medium.com/in-the-hudl/operation-jumbo-drop-how-sending-large-pack=
+ets-broke-our-aws-network-ff5041fc7a09
+
+
+Databases and applications are often still considered quite separately=2C=
+ separate specialists and sometimes teams. This post speculates about what=
+ vertical integration in that space might mean.
+
+https://redmonk.com/sogrady/2022/03/21/vertical-integration/
+
+
+A detailed look at detecting silent errors in large scale systems=2C combi=
+ning opportunistic and ripple testing to detect hard-to-find issues.
+
+https://engineering.fb.com/2022/03/17/production-engineering/silent-errors=
+/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+kube-opex-analytics is a cost optimization tool for Kubernetes. Collect da=
+ta=2C surface to Prometheus/Grafana=2C focused on capacity planning and co=
+st.
+
+https://github.com/rchakode/kube-opex-analytics
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
