@@ -1,0 +1,113 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#588?=
+Date: Sun,  3 Apr 2022 08:58:40 +0000
+
+DEVOPS WEEKLY
+ISSUE #588 - 3rd April 2022
+
+Doubling up on posts on both technology choice and backups this week=2C as=
+ well as lots of new and interesting tools covering everything from CI/CD=
+ and SSH servers to Kubernetes security.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk's dynamic application security testing is automated in CI/CD=2C=
+ and can be run on every PR. Find out how StackHawk can help you ship code=
+ faster without sacrificing quality.
+
+https://sthwk.com/running-in-cicd
+
+
+News
+=3D=3D=3D=3D
+
+Technology choice is an evergreen topic I feel. This post explores lots of=
+ good (and bad) reasons why organisations might not use specific tools or=
+ technologies=2C not all of which are obvious.
+
+https://www.brendangregg.com/blog/2022-03-19/why-dont-you-use.html
+
+
+A post on the need for managed backups=2C posted on World Backup Day last=
+ week (who knew?) Lots of AWS specific points and guidance=2C but generall=
+y applicable topic.
+
+https://scalefactory.com/blog/2022/03/31/the-case-for-managed-backups/
+
+
+Another post on backups. This one looking at the limitations of S3 as a ba=
+ckup solution=2C focused partly on the scope for error vs a more domain-sp=
+ecific solution.
+
+https://www.lastweekinaws.com/blog/s3-is-not-a-backup/
+
+
+A white paper on all things container base image security=2C advocating fo=
+r wider adoption of smaller images to reduce the security surface area.
+
+https://chainguard.dev/blog-static/chainguard-all-about-that-base-image.pd=
+f
+
+
+A second post this week on technology choice. This post focuses on decisio=
+ns when scaling startups and a look at data storage in particular.
+
+https://www.cockroachlabs.com/blog/selecting-startup-stack-for-scale/
+
+
+Inside details on building out a monitoring stack during a time of rapid g=
+rowth in a team. What to monitor? What to alert on? What=E2=80=99s working=
+ and what would the team have done differently?
+
+https://medium.com/miro-engineering/our-journey-to-data-engineering-monito=
+ring-c14d6ff20351
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Dagger has been officially launched. An open source project that provides=
+ a new way of describing CI/CD pipelines that can be run locally and on an=
+y CI/CD service. Early days=2C but powerful abstractions.
+
+https://dagger.io/
+https://dagger.io/blog/public-launch-announcement
+
+
+Caddy SSH is an SSH server intended to provide a much more secure implemen=
+tation and default configuration. Good accompanying blog post on the probl=
+em to solve.
+
+https://www.caffeinatedwonders.com/2022/03/28/new-ssh-server/
+https://github.com/mohammed90/caddy-ssh
+
+
+A new registry for sharing Open Policy Agent policies It comes with a CLI=
+ tool that recreates a Docker-like push/pull workflow. It=E2=80=99s based=
+ on OCI tech under the hood too=2C so you can sign policy bundles with cos=
+ign for instance.
+
+https://www.openpolicyregistry.io/
+
+
+Managing secrets with configuration is often still too hard. Helm Teller p=
+rovides a new approach specifically for Helm=2C aiming to be easy to integ=
+rate and able to pull secrets from multiple providers.
+
+https://github.com/SpectralOps/helm-teller
+
+
+StackRox is now open source. Acquired last year by Red Hat=2C StackRox is=
+ a Kubernetes runtime security tool that provides visibility=2C alerts and=
+ recommendations on hardening the environment.
+
+https://github.com/stackrox/stackrox
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
