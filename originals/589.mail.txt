@@ -1,0 +1,93 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#589?=
+Date: Sun, 10 Apr 2022 08:49:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #589 - 10th April 2022
+
+Three posts on building reliable (people and technical) systems at scale=
+=2C incident response processes and platform engineering this week that al=
+l feel like modern takes on classic systems operation.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk and Snyk have partnered up to provide a complete set of applicat=
+ion security testing tools for engineering and DevOps teams. Learn more:
+
+https://sthwk.com/snyk-partnership
+
+
+News
+=3D=3D=3D=3D
+
+A good post on reliability patterns=2C including assuming failure=2C measu=
+ring from the customer perspective=2C reducing blast radius=2C self-healin=
+g infrastructure and more.
+
+https://zendesk.engineering/zen-and-the-art-of-reliability-f42fa7e64849
+
+
+A post on the emergence of developer platform engineering as a way of scal=
+ing development team productivity.
+
+https://blog.getambassador.io/is-platform-engineering-the-new-devops-or-sr=
+e-472ed97a1885
+
+
+Lots of advice on building an incident management process=2C including run=
+ning drills=2C defining severity levels=2C service ownership=2C communicat=
+ion planning and more.
+
+https://firehydrant.io/blog/incident-management-best-practices-before-the-=
+incident/
+
+
+A deep post on global distributed systems=2C looking at debugging Consul a=
+nd also discussing which problems to solve and which to avoid with archite=
+ctural decisions.
+
+https://fly.io/blog/a-foolish-consistency/
+
+
+As you can probably guess from this newsletter=2C I like learning new thin=
+gs. This next post looks at things communities can do to make learning by=
+ lurking easier. A big plus-one on public discourse.
+
+https://www.netmeister.org/blog/learning-by-lurking.html
+
+
+WIth the ubiquity of Kubernetes clusters lots of compute jobs have moved t=
+o running in Kubernetes clusters=2C including the venerable cronjob. This=
+ post explains how to configure cronjob resources and looks at monitoring=
+ and logging too.
+
+https://www.containiq.com/post/kubernetes-cronjobs
+
+
+An up-to-date guide on running Java applications in Docker containers.
+
+https://sematext.com/blog/docker-java-tutorial/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kaar=2C like tar but for Kubernetes. Package up all the manifests and cont=
+ainer images into a single OCI archive.
+
+https://github.com/kris-nova/kaar
+
+
+Bubblewrap provides a container runtime tool aimed at providing unprivileg=
+ed sandboxes=2C unlike most existing approaches=2C this is intended for ru=
+nning untrusted code.
+
+https://github.com/containers/bubblewrap
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
