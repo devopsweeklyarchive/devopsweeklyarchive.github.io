@@ -11,7 +11,7 @@ Creator and maintainer of the archive: [Lajos Veres](https://lajosveres.com/).
 
 You can find the [original mails here](https://github.com/devopsweeklyarchive/devopsweeklyarchive.github.io/tree/master/originals).
 (Most of the headers and mailing list footers have been removed.)
-Some early pieces are missing. (1-220, 261, 266, 279)
+Some early pieces are missing. (1-206, 131, 266, 279)
 If you have any of them, please forward me them or open a Pull request.
 
 The archive is hosted on [Github](https://github.com/) in its
