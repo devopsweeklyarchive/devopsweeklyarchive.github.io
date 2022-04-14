@@ -1,0 +1,154 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#201?=
+Date: Sun, 9 Nov 2014 14:31:42 +0000
+
+DEVOPS WEEKLY
+ISSUE #201 - 9th November 2014
+
+I always like it went I have content for the newsletter that I could put u=
+nder the titles culture=2C automation=2C measurement and sharing and this=
+ issues is definitely one of them. Inclusivity in our community=2C windows=
+ packaging=2C sensu/graphite integration and case studies from enterprises=
+ using devops practices.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Chocolatey is the alternative windows package store. It=E2=80=99s basicall=
+y Yum for Windows=2C and is especially handy for installing developer tool=
+s and software. This Kickstarter is raising money for the open source effo=
+rt to make it even better.
+
+https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternati=
+ve-windows-store-like-yum
+
+
+There's lots of interest in new low level programming languages for system=
+s work at the moment=2C so this post might be of interest. It=E2=80=99s a=
+ brief comparison between Rust and Go=2C picking up on some of the nice fe=
+atures in both.
+
+https://medium.com/@adamhjk/rust-and-go-e18d511fbd95
+
+
+It=E2=80=99s really important in my view to keep making the growing devops=
+ community as inclusive as possible. This post=2C with observations of fro=
+m Devopsdays in Gent=2C should remind everyone that The first rule of devo=
+ps club is welcome to the club.
+
+http://bridgetkromhout.com/blog/2014/11/03/the-first-rule-of-devops-club/
+
+
+All the videos are now up from the Devops Enterprise Summit. Lots of great=
+ case studies and tips for anyone working in large environments.
+
+https://www.youtube.com/playlist?list=3DUUp73Sm1VraxgJZwiNrk8Efg
+
+
+As we increasingly rely on our build pipelines for feedback=2C the job of=
+ managing a large build system becomes harder and more interesting. Here=
+=E2=80=99s a good presentation about infrastructure as code for build engi=
+neering.
+
+http://www.slideshare.net/PeterLeschev/puppet-camp-melbourne-nov-2014-a-bu=
+ild-engineering-teams-journey-of-infrastructure-as-code
+
+
+Init systems are still trickier to use that they probably should be. Here=
+=E2=80=99s a useful tutorial on preventing detached processes with upstart=
+ and systemd.
+
+http://spootnik.org/entries/2014/11/09_pid-tracking-in-modern-init-systems=
+=2Ehtml
+
+
+Sensu is doing a good job of not reinventing the wheel when it comes to th=
+ings handled well by other software. Here=E2=80=99s a nice example of shar=
+ing event data between Sensu and Graphite.
+
+http://roobert.github.io/2014/11/08/Sensu-Events-and-Graphite-Graphs/
+
+
+Some interesting ideas about a reference architecture for treating your pl=
+atform as an application. There's probably value in formalising language a=
+round things like this=2C even just to make it easier to compare and have=
+ conversations.
+
+http://markosrendell.wordpress.com/2014/10/11/proposed-reference-architect=
+ure-of-a-platform-application-paaa/
+
+
+Jobs
+=3D=3D=3D=3D
+
+The Scale Factory=2C a small London-based consultancy=2C designs=2C builds=
+=2C operates and scales Linux infrastructure for clients of various sizes=
+=2C across a number of business sectors. They're looking for new team memb=
+ers to work on customer projects and internal systems=2C where there's lot=
+s of scope for automation=2C testing and bringing the benefits of a DevOps=
+ culture to new teams.
+
+http://www.scalefactory.com/team/careers
+
+
+FutureAdvisor is seeking an experienced DevOps engineer in San Francisco.=
+ We're an automated investment manager that manages and monitors more than=
+ $30 billion in assets for middle- and working-class families. If you enjo=
+y operations on a large-scale=2C mission-critical platform=2C if you know=
+ Linux=2C AWS=2C Chef and Capistrano=2C we want you. No remote=2C please.
+
+https://boards.greenhouse.io/futureadvisor/jobs/26313
+
+
+MediaMath is looking for an SRE to help build and manage our infrastructur=
+e and data centers across four continents. Our SREs are front-and-center i=
+n the effort to design=2C build=2C and keep our distributed services fast=
+ and reliable=2C 100% of the time. If the stability and performance of rea=
+l-time=2C global systems sounds like an exciting challenge=2C join our tea=
+m.
+
+https://careers-mediamath.icims.com/jobs/1538/site-reliability-engineer---=
+techops/job
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Tel Aviv is taking place on the 23rd and 24th of November=2C wi=
+th the usual mix of interesting talks and open spaces.
+
+http://www.devopsdays.org/events/2014-telaviv/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Walter is described as a tiny deployment pipeline. IT reminds me of the we=
+rcker build file=2C but can run locally as well as within a CI system. Use=
+ful for testing pipelines locally.
+
+http://ainoya.io/walter
+https://github.com/Walter-cd/Walter/
+
+
+Stager is a nifty looking tool to automatically build staging environments=
+ from GitHub pull requests.
+
+http://info.localytics.com/engineering-blog/stager-staging-environments-on=
+-autopilot
+https://github.com/localytics/stager-server
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

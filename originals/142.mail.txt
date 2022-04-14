@@ -1,0 +1,168 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#142?=
+Date: Sun, 22 Sep 2013 11:23:52 +0000
+
+DEVOPS WEEKLY
+ISSUE #142 - 22nd September 2013
+
+I=E2=80=99m just back from Berlin and the first Monitorama EU conference.=
+ First thanks to the organisers who put on a great event and second thanks=
+ to the speakers and workshop organisers for all the great content=2C some=
+ of which I=E2=80=99ve linked to below.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+Monitorama
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+This monitorama talk discussed the use of algorithms in monitoring and ano=
+maly detection=2C and points out why some of our statistical tools are all=
+ that useful given the data we collect.
+
+https://speakerdeck.com/astanway/mom-my-algorithms-suck
+
+
+I had the good fortune to speak at Monitorama this time around=2C about in=
+tegrating various security and penetration testing tools with a modern ope=
+n source monitoring system.
+
+https://speakerdeck.com/garethr/security-monitoring-penetration-testing-me=
+ets-monitoring
+
+
+Once you have lots of metrics you probably want to alert on certain states=
+=2E This next presentation covered the psychology of alert design with examp=
+les from other types of alert systems.
+
+https://speakerdeck.com/auxesis/the-psychology-of-alert-design
+
+
+One of the general themes of the conference was using monitoring tools for=
+ much more than measuring low level system metrics. This talk discusses al=
+l sorts of business information that is useful to measure and what tools (=
+if any) are used for that now.
+
+http://www.slideshare.net/JeffWeinstein1/monitorama-how-monitoring-can-imp=
+rove-the-rest-of-the-company
+
+
+Elasticsearch got lots of love at Monitorama with a bunch of talks and wor=
+kshops discussing it. This talk focused on it=E2=80=99s use for storing lo=
+gs=2C looking at a number of tools for getting information in and out and=
+ some common configuration issues.
+
+https://speakerdeck.com/reyjrar/elasticsearch-for-logging
+
+
+A talk about some of the limitations of common monitoring approaches=2C an=
+d some examples of a new clojure based toolset that aims to fix some of th=
+em. Includes a nice conceptual model of a modern monitoring setup.
+
+https://speakerd.s3.amazonaws.com/presentations/9ac7b2e004310131954556f7ac=
+4f018a/Eventoverse_Monitorama.pdf
+
+
+A nice writeup of the two days of the conference=2C mentioning a few of th=
+e talks and general themes that emerged over the course of the event.
+
+http://blog.endpoint.com/2013/09/monitorama-berlin-eu-day-1.html
+http://blog.endpoint.com/2013/09/monitorama-berlin-eu-day-2-and-final.html
+
+
+News
+=3D=3D=3D=3D
+
+Omnibus is a tool for building monolithic system packages=2C where you inc=
+lude everything including any dependencies. It=E2=80=99s a great way of di=
+stributing software with complex dependencies in a simple way. This presen=
+tation explains why and how.
+
+https://speakerdeck.com/lusis/the-magic-omnibus
+
+
+A good post about why=2C as an infrastructure engineer=2C you might also b=
+e well suited to running your own company or service given the high demand=
+ for infrastructure skills at the moment.
+
+http://boundary.com/blog/2013/09/16/the-infrastructure-engineers-guide-to-=
+entrepreneurship/
+
+
+An interesting discussion of why high availability isn=E2=80=99t always wo=
+rth the cost and additional complexity=2C and why many of the solutions to=
+ availability are centred around people and processes not technology.
+
+http://www.iheavy.com/2012/04/01/the-myth-of-five-nines-why-high-availabil=
+ity-is-overrated/
+
+
+A good introduction to getting started with Test Kitchen=2C an integration=
+ testing tool ideal for testing configuration management code across multi=
+ple local virtual machines.
+
+http://blog.nistu.de/2013/09/21/getting-started-with-test-kitchen
+
+
+A claim that releasing software (in this case Python packages=2C but it=E2=
+=80=99s a general point) is normal too hard. Shows examples of the OpenSta=
+ck toolchain which simplifies this=2C and lots of good comments with tools=
+ that can help.
+
+http://alexgaynor.net/2013/sep/17/doing-release-too-hard/
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Cassandra Summit Europe is an event covering training and presentations on=
+ the NoSQL database Cassandra. Held on 16th and 17th October in London=2C=
+ the conference will include presentations from Hailo=2C NetFlix and Spoti=
+fy on their use of Cassandra=2C as well as sessions on the recent launch o=
+f Cassandra 2.0 by apache Cassandra chair Jonathan Ellis. The first 15 peo=
+ple to use the code DevopsWeekly will get 15% off the ticket price.
+
+http://www.datastax.com/cassandraeurope2013
+
+
+Config Management Camp is going to be held on the 3rd and 4th of February=
+ next year in Gent=2C Belgium. Expect discussion and participation from Ch=
+ef=2C Puppet=2C Ansible=2C Salt=2C CFEngine and more. It is cunningly just=
+ after FOSDEM too so why not extend your stay for a few days?
+
+http://cfgmgmtcamp.eu/
+
+
+Tools
+=3D=3D=3D=3D
+
+I=E2=80=99m seeing lots of interest in simple roll-your-own Platform as a=
+ Service tools at the moment. AWSBox uses EC2 to make creating a node.js s=
+pecific PaaS simple=2C based on some of the open source nodejitsu tools.
+
+https://github.com/mozilla/awsbox
+
+
+Another interesting tool in the roll-your-own PaaS space is OSv. It basica=
+lly does away with the operating system layer=2C running a JVM directly on=
+ top of the underlying hypervisor. Currently supports Xen=2C KVM and EC2.
+
+http://osv.io/
+
+
+Mentioned in one of the Monitorama talks=2C es-utils provides a bunch of h=
+andy utility scripts for managing an elasticsearch cluster.
+
+https://github.com/reyjrar/es-utils
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

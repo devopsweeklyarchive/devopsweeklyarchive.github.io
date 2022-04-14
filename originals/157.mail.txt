@@ -1,0 +1,133 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#157?=
+Date: Sun, 5 Jan 2014 10:30:10 +0000
+
+DEVOPS WEEKLY
+ISSUE #157 - 5th January 2014
+
+Lots of content this week as everyone seems to have spent at least some of=
+ the time over the holidays hacking on tools or writing blog posts. Anyone=
+ thinking that the new year is a great excuse to get back to writing regul=
+arly is right.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Flapjack is basically a router for alerts and notifications from a monitor=
+ing system. It=E2=80=99s not trying to do everything but does one thing ve=
+ry well. This post explains where it fits and why you might want to give i=
+t a try.
+
+http://fractio.nl/2014/01/03/the-how-and-why-of-flapjack/
+
+
+A post all about the changing landscape of network hardware=2C as generic=
+ server hardware becomes much more capable of being used for switches and=
+ routers. This is interesting to me as it likely makes software defined ne=
+tworking easier=2C even with existing tools.
+
+http://etherealmind.com/server-performance-network-agents-software-routers=
+-and-networking/
+
+
+Automation is not enough without adopting infrastructure as code practices=
+=2C or so this post claims. A well reasoned argument that simply throwing=
+ automation=2C especially packaged products=2C at a problem will cause pro=
+blems without a software mindset.
+
+http://kief.com/infrastructure-as-code-versus-automation.html
+
+
+The core language parser in Puppet has been getting some serious love for=
+ a while now on the road towards Puppet 4=2C and this blog already has sev=
+eral detailed posts about the new Type system.
+
+http://puppet-on-the-edge.blogspot.co.uk/
+
+
+A sort of ode to the role of a modern operations engineer. A great descrip=
+tion of why the combination of typical operations activities and software=
+ development are fulfilling and attractive to people.
+
+http://www.opsbs.com/2013/09/why-i-infracode/
+
+
+A nice presentation about the changing role of testing in organisations th=
+at are shipping software very frequently.
+
+http://www.slideshare.net/AlexSchwartz1/dev-opsberlin-ignitehelpwehavenomo=
+retimefortestingslides
+
+
+A description of the research techniques behind the recent Puppet Labs Dev=
+ops survey=2C and some highlights from the findings of last years version.=
+ Definitely worth using when convincing people of the benefits of a devops=
+ approach.
+
+http://continuousdelivery.com/2013/12/the-science-behind-the-2013-puppet-l=
+abs-devops-survey-of-practice/
+
+
+I=E2=80=99ve been playing a bit with Serverspec for testing infrastructure=
+ components recently. This post=2C and accompanying repo=2C demonstrates t=
+esting Packer created images for AWS as part of a deployment pipeline.
+http://www.morethanseven.net/2014/01/01/testing-packer-created-images-with=
+-serverspec/
+
+
+An argument that continuous delivery is now mainstream. I=E2=80=99m not su=
+re silicon valley companies like Google=2C Facebook and Amazon are much li=
+ke your typical enterprise=2C but it=E2=80=99s a good collection of links=
+ and talks about shipping rapidly at scale.
+
+http://infiniteundo.com/post/71540519157/continuous-delivery-is-mainstream
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Early bird tickets are now on-sale for Craft in Budapest in April. Everyth=
+ing from development process=2C testing=2C continuous integration (I=E2=80=
+=99m speaking about continuous integration for infrastructure)=2C distribu=
+ted systems and scaling to name a few topics.
+
+http://craft-conf.com/2014/
+
+
+Tools
+=3D=3D=3D=3D
+
+A very nice tool that provides code coverage measurements for Chef Spec te=
+sts. The tooling around testing infrastructure code is becoming more and m=
+ore mature every month it seems.
+
+https://sethvargo.com/chef-recipe-code-coverage/
+
+
+Another nice looking graphite dashboard. This one provides some structure=
+ to metrics stored in graphites and allows querying via GEQL=2C Graph Expl=
+orer Query Language.
+
+http://vimeo.github.io/graph-explorer/
+
+
+Fig is like a combination of vagrant and docker=2C you define the services=
+ which comprise your application in a YAML file and then type fig up to bo=
+ot everything in docker containers.
+
+http://orchardup.github.io/fig/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

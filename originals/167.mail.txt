@@ -1,0 +1,124 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#167?=
+Date: Sun, 16 Mar 2014 12:24:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #167 - 16th March 2014
+
+Lots of pretty in-depth discussions about configuration management=2C or a=
+t least configuration management tooling=2C this week. Lots of differing o=
+pinions=2C solid theory=2C innovation in low level systems and more to mul=
+l over.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A fantastic two part blog post about bringing continuous deployment and co=
+nfiguration management together. Lots of theory=2C discussion of how conta=
+iners and microservices fit in and points about operators and developers p=
+rioritising seemingly different things.
+
+http://markburgess.org/blog_cd.html
+http://markburgess.org/blog_cd2.html
+
+
+Building software systems out of many small services is becoming increasin=
+gly common. This post delves into what a microservices architecture is=2C=
+ why it=E2=80=99s an important pattern and also what it might look like.
+
+http://martinfowler.com/articles/microservices.html
+
+
+Configuration Management isn't stupid=2C but it should be according to thi=
+s next post. Some tools introduce (rather than address) complexity=2C dete=
+rminism and reproducibility in systems and this post argues that better on=
+es are needed to fix the problem.
+
+http://blog.hatofmonkeys.com/blog/2014/03/15/configuration-management-isnt=
+-stupid/
+
+
+And another post riffing on why current configuration management tools are=
+n=E2=80=99t perfect=2C focusing on the Nix package management tool as a po=
+tential solution.
+
+https://www.domenkozar.com/2014/03/11/why-puppet-chef-ansible-arent-good-e=
+nough-and-we-can-do-better
+
+
+Introducing devops practices into an organisation needs some understanding=
+ of how to bring about change. This next slide deck is a nice introduction=
+ to being a change agent=2C with lots of tips about what to expect and how=
+ to get people on-board.
+
+http://www.slideshare.net/john.clapham/reluctant-change-agents-guide
+
+
+A description of the human moments experienced during a complex systems fa=
+ilure=2C and a case made for these being consistent between typical web op=
+erations work and other domains. The better we understand error=2C hopeful=
+ly the better we=E2=80=99ll be able to deal with it.
+
+http://www.kitchensoap.com/2014/03/13/high-tempo-high-consequence/
+
+
+Vagrant has a new release out with lots of new features. As well as Hyper-=
+V support and rsync for shared folders=2C Vagrant now has an inbuilt box h=
+osting service called Vagrant Cloud.
+
+http://www.vagrantup.com/blog/vagrant-1-5-and-vagrant-cloud.html
+https://vagrantcloud.com/
+
+
+A detailed look at why it=E2=80=99s difficult to get at memory usage detai=
+ls from within an LXC container=2C along with how this might be resolved i=
+n the future.
+
+http://fabiokung.com/2014/03/13/memory-inside-linux-containers/
+
+
+A nice example of analysing nginx logs with pandas and matplotlib. The ipy=
+thon notebook formats nicely shows off the results as it goes along=2C inc=
+luding nicely formatted graphs of the results.
+
+http://nbviewer.ipython.org/github/grokcode/ipython-notebooks/blob/master/=
+nginx-log-analysis.ipynb
+
+
+Events
+=3D=3D=3D=3D=3D
+
+A postmortem analysis=2C conducted in an open=2C blameless way=2C is the b=
+est way to learn from outages (and other failures and near-misses). April=
+ 15th at #ChefConf will feature a full-day workshop with Dave Zwieback=2C=
+ covering the theory and practice of conducting and participating in aweso=
+me postmortems.
+
+https://chefconf2014.busyconf.com/bookings/new
+
+
+Tools
+=3D=3D=3D=3D
+
+Gunnery is described as a remote execution frontend. It=E2=80=99s a web ba=
+sed interface for executing commands on groups of servers=2C and features=
+ nice integration with ant=2C phing=2C fabric=2C capistrano=2C make and pu=
+ppet out of the box.
+
+http://eyjafjallajokull.github.io/gunnery/
+https://github.com/Eyjafjallajokull/gunnery
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

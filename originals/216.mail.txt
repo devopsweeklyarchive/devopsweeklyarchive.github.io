@@ -1,0 +1,167 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#216?=
+Date: Sun, 22 Feb 2015 11:24:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #216 - 22nd February 2015
+
+A post this week=2C about managing a fleet of Mac desktops using Munki and=
+ Sal=2C reminded me I=E2=80=99d love to see some more posts about behind t=
+he scenes IT. I think devops is just as relevant to traditional IT work bu=
+t much of the focus has been in the web operations and infrastructure area=
+=2E If you write or find any good posts let me know.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Nutanix + Cumulus Linux: Deploying True Hyper Convergence with Open Networ=
+king
+Reap the benefits of this new design model=2C check out what Nutanix and C=
+umulus Networks have to offer your organization and business.
+Feb 25 - 10:30am PST
+
+http://go.cumulusnetworks.com/nutanix-devops
+
+
+News
+=3D=3D=3D=3D
+
+An impassioned plea for learning some SQL and making use of stored procedu=
+res in particular. Some good counter arguments against the prevailing wisd=
+om that business logic in your database is always bad.
+
+http://rob.conery.io/2015/02/21/its-time-to-get-over-that-stored-procedure=
+-aversion-you-have/
+
+
+A checklist to gauge the maturity of your software delivery processes. Lot=
+s of focus on practices and organisation structure and incentives.
+
+http://devopschecklist.com/
+
+
+One of the uses of docker is as a packaging format. These examples run wit=
+h that=2C and use containers to install and manage desktop software=2C fro=
+m command line tools to browsers and even Skype.
+
+https://blog.jessfraz.com/posts/docker-containers-on-the-desktop.html
+
+
+A good breakdown of where DSC fits in with existing configuration manageme=
+nt tools like Chef and Puppet. Interesting points about for whom DSC on Li=
+nux might prove useful.
+
+http://powershell.org/wp/2014/05/14/why-puppet-vs-dsc-isnt-even-a-thing/
+
+
+I=E2=80=99m super interested in how a renewed focus on automation and good=
+ tools is increasingly being used for desktop management and other interna=
+l IT functions. This post nicely covers a set of tools for managing a mac=
+ OS X fleet.
+
+http://tech.mindcandy.com/2015/02/managing-mac-os-x/
+
+
+A nice simple walkthrough of installing and managing a small HA Mesos clus=
+ter using Puppet. Also includes installing the Chronos and Marathon framew=
+orks.
+
+http://rogerignazio.com/blog/managing-mesos-with-puppet/
+
+
+If you=E2=80=99re tracking the development of future infrastructure this p=
+ost might be of interest=2C using CoreOS under the hood it demonstrates la=
+unching a Spark cluster on Docker=2C using Weave for the network layer.
+
+http://weaveblog.com/2015/02/19/networking-spark-cluster-on-docker-with-we=
+ave/
+
+
+Go is still a new language and development environment for many=2C so post=
+s like this that describe emerging practices for running Go in production=
+ are useful. Tips on dependency management=2C logging and project layout a=
+mongst others.
+
+http://peter.bourgon.org/go-in-production/
+
+
+A good part 1 of an introduction to Kanban for software development=2C foc=
+using on why the concept of done-done is problematic and what to do about=
+ it.
+
+http://leankit.com/blog/2015/02/3-reasons-ops-uses-lean-flow-kanban-devops=
+-part-1-3/
+
+
+A reminder that code that isn=E2=80=99t easy to build and run will get in=
+ the way of lots of practices that devops advocates=2C from continuous int=
+egration to easy experimentation.
+
+http://container-solutions.com/2015/02/prerequisite-culture-experimentatio=
+n/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Expensify is hiring Operations Engineers to develop and support our growin=
+g infrastructure. Help us keep our high-availability=2C distributed=2C tra=
+nsactional environment running smoothly and securely. At Expensify=2C we d=
+o our best every day to ensure your expense reports don't suck!
+
+http://we.are.expensify.com/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Paris is coming up on the 14th and 15th of April=2C and the cal=
+l for proposals is open now. The organisers are looking for longer talks a=
+s well as shorter ignite sessions=2C and want to encourage first time spea=
+kers to propose sessions too.
+
+http://www.devopsdays.org/events/2015-paris/propose/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A very good looking dashboard for managing a fleet of Apple computers usin=
+g Munki.
+
+https://github.com/salsoftware/sal
+
+
+Gogs is a self-hosted Git server. It=E2=80=99s aim is to be cross-platform=
+ (running on Windows=2C Mac and Linux)=2C light-weight and very easy to in=
+stall.
+
+http://gogs.io/
+
+
+Baci is a tools for building ACIs=2C the Rocket container format. It handi=
+ly reuses the Dockerfile format=2C but also speculates a little about a mo=
+re general container build language which sounds interesting.
+
+https://github.com/sgotti/baci
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,121 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#130?=
+Date: Sun, 30 Jun 2013 10:03:39 +0000
+
+DEVOPS WEEKLY
+ISSUE #130 - 30th June 2013
+
+A bit of a mix of new tools, old tools, tutorials, presentations and intro=
+ductions this week. Oh, and a new Linux based operating system with some i=
+deas I'd love to see adopted elsewhere.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Graphite is a pretty powerful tool, but it's not the easiest thing to get=
+ a good understanding of. This post covers tips for naming metrics as well=
+ as code examples of now to instrument a few Ruby classes. Useful whatever=
+ language you're using.
+
+http://matt.aimonetti.net/posts/2013/06/26/practical-guide-to-graphite-mon=
+itoring/
+
+
+All the sessions from devopsdays Santa Clara are already up, with full ses=
+sions and lightning talk videos available for your viewing pleasure.
+
+http://vimeo.com/album/2435220/page:1/sort:preset/format:thumbnail
+
+
+Using libraries from sites like ruby gems or npm is an interesting securit=
+y challenge. This post explains why, with a great social engineering examp=
+le and also shows how you can run your own gem server.
+
+https://www.honeybadger.io/blog/2013/06/25/stop-using-rubygemsorg-in-produ=
+ction
+
+
+Interesting analysis of the AWS EC2 API, focusing on the eventually consis=
+tent nature of some calls and the expected response times. Some good tips=
+ for writing or using EC2 clients, but also a nicely documented approach y=
+ou could apply to other similar APIs.
+
+http://blog.cloudfoundry.com/2013/06/18/dealing-with-eventual-consistency-=
+in-the-aws-ec2-api/
+
+
+NixOS is a new flavour of Linux, but what caught my eye was the package ma=
+nagement system Nix. It's based on functional programming which means that=
+ it can ensure that an upgrade to one package cannot break others, that yo=
+u can always roll back to previous versions and that multiple versions of=
+ a package can coexist on the same system. It also supports multiple users=
+ and a built-in configuration management tool.
+
+http://nixos.org/
+
+
+Systems are increasingly being built out of small services composed togeth=
+er. This post is a good introduction to why this approach has emerged and=
+ what some of the advantages and disadvantages are.
+
+http://yobriefca.se/blog/2013/04/29/micro-service-architecture/
+
+
+Nice presentation on the changing role of Quality Assurance and Testers wi=
+thin organisations taking a Devops approach. Lots of before and after exam=
+ples and an attempt to explain why things should change.
+
+http://www.slideshare.net/ingineeringit/continuous-quality-what-devops-mea=
+ns-for-qa
+
+
+Tools
+=3D=3D=3D=3D
+
+Packer is a standardised tool chain for creating base images for different=
+ platforms, including virtualbox, aws, vsphere, etc. It's ideal for automa=
+ting this sometimes tricky task. The 0.1 release doesn't support ever hype=
+rvisor or provider yet but the plugin architecture means it can do in the=
+ future.
+
+http://www.packer.io/
+https://github.com/mitchellh/packer
+
+
+Ever wanted to use a Chef cookbook but not wanted to alter maybe one line=
+ to make it work for your setup? Chef rewind will modify some properties o=
+f a resource, during the complile phase, before chef-client actually start=
+s the run phase.
+
+https://github.com/bryanwb/chef-rewind
+
+
+Flapjack is a distributed monitoring notification system I've mentioned pr=
+eviously. Getting up and running with all the bits however could prove tri=
+cky so here's a way of building omnibus packages for it. It's also a good=
+ example of using the omnibus tool.
+
+https://github.com/flpjck/omnibus-flapjack
+
+
+If you're looking for a simple provisioning tool in Ruby then Orca might b=
+e of interest. It's aimed at a space between deployment tools like Capistr=
+ano and configuration management tools like Chef and Puppet, and provides=
+ a small DSL which deals with simple cases.
+
+https://github.com/andykent/orca
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

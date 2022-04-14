@@ -1,0 +1,159 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#121?=
+Date: Sun, 28 Apr 2013 10:46:09 +0000
+
+DEVOPS WEEKLY
+ISSUE #121 - 28th April 2013
+
+ChefConf was last week so lots of good conference links this week. The key=
+note videos are already online too at http://www.youtube.com/user/Opscode.=
+ So no excuses for missing out on some of the content.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+ChefConf
+=3D=3D=3D=3D=3D=3D=3D
+
+Entertaining configuration management and Chef issues. Why are packages go=
+od? Why should I test anything? Why not just drop in that bash script and=
+ run it? Good examples and tips on how to avoid them.
+
+https://speakerdeck.com/sbates/doom-your-chef-in-3-easy-steps
+
+
+ChefConf notes in tweet form. Epic live tweeting of lots of the ChefConf s=
+essions, including lots of links and quotes from both days of talks.
+
+http://scribes.tweetscriber.com/RealGeneKim/126
+http://scribes.tweetscriber.com/RealGeneKim/127
+
+
+Good looking talk on managing Java applications with Chef. Good summary of=
+ some of the problems, as well as how to solve them. Covers everything fro=
+m Java packages to JMX, managing lots of XML, dealing with Java options an=
+d more.
+
+https://speakerdeck.com/bryanwb/managing-java-applications-with-chef
+
+
+Not sure if this was new but I saw it via some ChefConf discussions. If yo=
+u plan on using Chef you need to know at least a little Ruby. This page fr=
+om the Chef documentation tries to identify just enough Ruby to at least g=
+et you started.
+
+http://docs.opscode.com/just_enough_ruby_for_chef.html
+
+
+Presentation from ChefConf on managing resources and providers. It's a nic=
+e short walk though of the different approaches to cookbook design, steppi=
+ng through three generations of the same cookbook, showing the pitfalls al=
+ong the way.
+
+https://docs.google.com/a/digital.cabinet-office.gov.uk/presentation/d/1gQ=
+j_QNbzIecZQtbb4oVNMZKlPqiO1q6d08g5l8BqWOI/edit
+
+
+Jobs
+=3D=3D=3D=3D
+
+Want to manage large scale systems that serve millions of users? Spotify i=
+s hiring site reliability engineers in New York and Stockholm. Join the ba=
+nd!
+
+https://www.spotify.com/se/jobs/view/owcSWfwg/
+
+
+News
+=3D=3D=3D=3D
+
+The topic of ITIL occasionally raises it's head as devops gets more tracti=
+on in larger organisations. This post summaries a few recent discussions a=
+nd links to a number of posts on the subject. A good starting place if you=
+'re asking similar questions.
+
+http://www.infoq.com/news/2013/04/integrate-devops-itil
+
+
+As we build more and more tools, how we integrate them together becomes in=
+creasingly important. Stopping to actually design the API you plan to expo=
+se is something lots of projects would benefit from, this post covers a fe=
+w common pitfalls and has some tips for avoiding fragile APIs.
+
+http://mathieu.fenniak.net/stop-designing-fragile-web-apis/
+
+
+Good detailed post about the running of a single engineering team at Spoti=
+fy. Takes lots of devops ideas and applies them to management in an agile=
+ environment.
+
+http://www.infoq.com/articles/monthly-devops-03-spotify
+
+
+One of the many areas using a proper package manager helps with is securit=
+y. This post talks about some of the security benefits of using RPM, inclu=
+ding identifying CVE compliance from changelogs and a discussion of signed=
+ packages.
+
+http://developerblog.redhat.com/2013/04/25/the-security-benefits-of-rpm-pa=
+ckaging/
+
+
+Wikipedia has swapped a patched version of MySQL 5.1 for MariaDB 5.5 and t=
+his blog post covers some of the why and how. Lots of interesting detail a=
+bout performance testing and about making technology choices.
+
+https://blog.wikimedia.org/2013/04/22/wikipedia-adopts-mariadb/
+
+
+Presentation from Devopsdays Paris all about using the stream of events fr=
+om your systems and applications to measure the health of your business. T=
+alks briefly about growing complexity and the need for better tooling.
+
+https://speakerdeck.com/pyr/map-and-territory-a-story-of-visibility
+
+
+Razor, the bare metal provisioner tool, can be used to build Openstack wit=
+h Chef, as well as Puppet. This slide deck from OpenStack Spring 2013 Summ=
+it shows you how.
+
+http://www.slideshare.net/mattray/bare-metal-to-openstack-with-razor-and-c=
+hef
+
+
+Posts defining devops are still useful, especially as so many people have=
+ yet to come across the term at all. This one talks from recent experience=
+ working with IT organisations and has some nice examples and focuses on t=
+he mutual understanding needed to move quickly.
+
+http://www.activestate.com/blog/2013/04/elusiveness-devops
+
+
+Tools
+=3D=3D=3D=3D
+
+Using chat bots is becoming increasingly popular for organising or even ex=
+ecuting deployments. This bot from Etsy is all about organising a queue of=
+ activities, the example in the README does a good job of explaining how.
+
+https://github.com/etsy/PushBot
+
+
+Chef Zero is a simple, easy-run, fast-start in-memory Chef server for test=
+ing and solo purpose. The short talk from ChefConf describes the problem a=
+nd the approach taken, looks useful in a few cases including testing.
+
+http://johnkeiser.com/presentation/chef-zero/#/
+https://github.com/jkeiser/chef-zero
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

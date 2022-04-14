@@ -1,0 +1,127 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#160?=
+Date: Sun, 26 Jan 2014 12:32:16 +0000
+
+DEVOPS WEEKLY
+ISSUE #160 - 26th January 2014
+
+Another pretty mixed issue this week=2C with new trends in infrastructure=
+ to devops in large organisations to software defined networks. If anyone=
+ has topics they think are interesting and don=E2=80=99t get much coverage=
+ let me know. And see everyone in Belgium next week for FOSDEM and Config=
+ Management Camp.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+A lightning talk presentation about the current disruption happening aroun=
+d operating systems and hypervisors. Very briefly mentions ZeroVM=2C Docke=
+r and OSv and talks about the historical context.
+
+http://sho.io/hypervise
+
+
+A post on what hero culture can look like in operations teams and why it i=
+s both useful and dangerous in the long term. Introduced by a story that I=
+=E2=80=99m sure is familiar to a few people.
+
+http://www.activestate.com/blog/2014/01/devops-hero-culture
+
+
+A nice response to a post I featured last week about Enterprise IT needing=
+ different things from devops. The example given=2C challenging existing c=
+hange control processes using infrastructure as code=2C is a good one. We=
+ should document more of these patterns as a community.
+
+http://goatcan.wordpress.com/2014/01/20/youre-not-a-beautiful-and-unique-s=
+nowflake/
+
+
+Writing good Chef cookbooks involves lots of moving parts=2C and learning=
+ a few tools for unit or integration testing=2C linting=2C dependency mana=
+gement=2Cetc. This post covers using a new tool called Meez to make gettin=
+g started much easier.
+
+http://theagileadmin.com/2014/01/20/clean-up-your-cookbook-mess-with-meez/
+
+
+A detailed post about some of the changing patterns for infrastructure dep=
+loyment=2C particularly looking at using entire machine images as build ar=
+tefacts. It touches on some of the newly introduced complexity but more ac=
+tual examples would be useful.
+
+http://peter.gillardmoss.me.uk/blog/2013/12/20/machine-images-as-build-art=
+efacts/
+
+
+Nice short presentation going over some of the misconceptions that large o=
+rganisations can have about devops.
+
+http://www.slideshare.net/scriptrock/devops-vs-the-enterprise
+
+
+Given the short history of the term devops I=E2=80=99m not sure I buy the=
+ need for a sort-of eulogy just yet=2C but if you think devops is just sys=
+tems administration=2C or a name for a new set of tools=2C then you should=
+ read this post.
+
+http://dave.cheney.net/2014/01/23/what-did-devops-mean
+
+
+Events
+=3D=3D=3D=3D=3D
+
+QCon is coming back to London on the 5th to the 7th of March. The usual wi=
+de range of tracks=2C from scalable architectures=2C resilience and next g=
+eneration cloud to devops and a track dedicated to people skills. Use the=
+ discount code devopsweekly for =C2=A3100 off the conference price.
+
+http://qconlondon.com/
+
+
+The Call for Proposals is open for Pipeline=2C a conference dedicated to c=
+ontinuous delivery. The conference is scheduled for the 8th of April in Lo=
+ndon=2C with the CFP closing on the 21st of February.
+
+http://web.pipelineconf.info/proposals/
+
+
+Tools
+=3D=3D=3D=3D
+
+Pyretic is combining software defined networks (SDN) with Python=2C buildi=
+ng on top of Frenetic. It=E2=80=99s an academic project at the moment it s=
+eems to maybe of interest to anyone looking at the future of scripting lan=
+guages and networks.
+
+http://frenetic-lang.org/pyretic/
+
+
+Another SDN post. Here is a Vagrant setup for experimenting with OpenDayli=
+ght. Vagrant has made experiments like this much easier than finding the r=
+elevant documentation.
+
+http://fredhsu.wordpress.com/2013/11/04/vagrant-with-opendaylight/
+https://github.com/fredhsu/odl-vagrant
+
+
+Naxsi is a nice Nginx based web application firewall with a bunch of nice=
+ features. This tool lets you take the logs of XSS or other attempted atta=
+cks and stream them into ElasticSearch for easy visualisation.
+
+https://github.com/buixor/naxsi-elastic
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

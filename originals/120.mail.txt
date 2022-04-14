@@ -1,0 +1,121 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#120?=
+Date: Sun, 21 Apr 2013 10:18:13 +0000
+
+DEVOPS WEEKLY
+ISSUE #120 - 21st April 2013
+
+The march of Devopsdays through Europe continues with Paris this last week=
+ so several bits of related content. With Austin, Berlin, Mountain View an=
+d Amsterdam coming up in the next month or so expect lots of good quality=
+ new content from those too.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+I wasn't going to include this, as I wrote it, but a few people bugged me=
+ to do so. I work for the UK Government and as part of transforming how IT=
+ works we're writing a service design manual which now has a section on de=
+vops. If someone claims you're just making this devops think up then happi=
+ly point them to an official Government page on the subject.
+
+https://www.gov.uk/service-manual/operations/devops
+
+
+Devops is all about organisational culture, so it's great to see a short e=
+book released on this very subject. "Building a DevOps Culture" is free to=
+o if you provide your name and email address.
+
+http://programming.oreilly.com/2013/04/velocity-report-building-a-devops-c=
+ulture.html
+
+
+Epic set of notes on all of the sessions from Devopsdays Paris. Includes n=
+otes on some of the question and answer sessions too which you won't find=
+ in the slides.
+
+https://github.com/philandstuff/devopsdaysparis
+
+
+Great presentation about troubleshooting complex systems based on quite a=
+ bit of research about the Air France 447 disaster. Lots on communication,=
+ interface design, understanding responsibilities, blame, alerting strateg=
+ies and more. Good example of looking to other disciplines for things we c=
+an learn about web operations.
+
+http://www.slideshare.net/auxesis/escalating-complexity-devops-learnings-f=
+rom-air-france-447
+
+
+Slides from one of the ignite talks at Devopsdays Paris, from Patrick Debo=
+is, entitled "what if devops was invented by coca-cola".
+
+http://www.slideshare.net/devopsdays/what-if-devops-was-invented-by-coca-c=
+ola
+
+
+More slides from Devopsdays Paris. This deck is called How devops improved=
+ my dev, and is a developers viewpoint on why devops is important. Note th=
+e first two slides are intentionally blank, just keep going.
+
+https://speakerdeck.com/skade/how-devops-improved-my-dev
+
+
+If you're a RedHat or Centos user interested in OpenStack then RDO might b=
+e just the think. It provides tools to get started quickly, claiming 3 ste=
+ps and 15 minutes to get up and running. It's also a community forum for q=
+uestions specific to running things on RHEL.
+
+http://openstack.redhat.com/
+
+
+A new post in a series on organisational change. This one covers how to me=
+asure team success. It pulls together various bits of thinking on the subj=
+ect and asks some good questions about measuring business objectives rathe=
+r than more easily defined team ones.
+
+http://blog.devopsguys.com/2013/04/18/devops-how-do-you-measure-team-succe=
+ss/
+
+
+If you decide to go down the software as a service route for your monitori=
+ng tools then there are lots of choices. Here's a curated list of differen=
+t options available for logging, alerting, metrics and full stack monitori=
+ng options.
+
+http://www.canopsis.org/2013/02/monitoring-saas/
+
+
+Tools
+=3D=3D=3D=3D
+
+Fizzgig is a tool for writing fast unit tests for puppet. It uses the rspe=
+c matchers from rspec-puppet but takes the approach of on making catalogue=
+ compilation explicit. So rather than compiling the entire catalogue it ju=
+st compiles the unit you're interested in.
+
+https://github.com/philandstuff/fizzgig
+
+
+Puppet cleaner provides a number of utilities to clean up Puppet source co=
+de according to the Puppet language style guide. As well as transforming t=
+he source code it can also provide a diff of changes that it intends to ma=
+ke.
+
+https://github.com/santana/puppet-cleaner
+
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,136 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#169?=
+Date: Sun, 30 Mar 2014 11:29:14 +0000
+
+DEVOPS WEEKLY
+ISSUE #169 - 30th March 2014
+
+Lots of tools this week compared to the past few weeks=2C and two events t=
+hat nicely sum up the growth of the devops community. On one hand we have=
+ the international Velocity conference (the call for proposal closes tomor=
+row for New York) and on the other we have two smaller locally organised m=
+eetups in Leeds and Manchester in the UK. If you organise a small meetup d=
+o get in touch=2C especially with writeups from the events.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A nice writeup of 6 things you should know about scaling that otherwise yo=
+u=E2=80=99ll probably learn the hard way. Nice discussion of why load test=
+ing is hard and lots of problems with database.
+
+http://martin.kleppmann.com/2014/03/26/six-things-about-scaling.html
+
+
+A good argument for applying automation in the network space=2C followed b=
+y a great example of using Ansible to manage a Junos device.
+
+http://www.jedelman.com/1/post/2014/03/ansible-for-networking.html
+
+
+Lots of people are interested in so-called immutable infrastructure at the=
+ moment so this virtual panel discussion is timely. Three quite different=
+ opinions about the patterns and advantages of taking this approach.
+
+http://www.infoq.com/articles/virtual-panel-immutable-infrastructure
+
+
+I mentioned scale summit last week and a number of people have written up=
+ notes from the event=2C covering a good range of the sessions including h=
+ighlights from the last year=2C monitoring=2C micro-services and hiring an=
+d mentoring.
+
+http://tech.mattbostock.com/2014/03/23/scale-summit/
+http://www.cryptocracy.com/blog/2014/03/23/scale-summit-2014
+http://mudge.name/2014/03/22/a-summit-for-scaling.html
+http://words.volant.is/articles/notes-scale-summit/
+
+
+A post from some of my colleagues about migrating a reasonably large syste=
+m to new infrastructure. Lots of good points about planning=2C communicati=
+on=2C the importance of high level monitoring and improvements for next ti=
+me.
+
+https://gdstechnology.blog.gov.uk/2014/03/28/migrating-govuk-infrastructur=
+e/
+
+
+Events
+=3D=3D=3D=3D=3D
+
+The Velocity New York Call for Proposals closes tomorrow=2C the 31st of Ma=
+rch. The programme will include a wide range of topics across web performa=
+nce=2C mobile=2C operations and culture. They are looking for short talks=
+ as well as longer tutorials. You still have time to submit if you have a=
+ good idea.
+
+http://velocityconf.com/velocityny2014/public/cfp/314
+
+
+As well as the large events like Velocity=2C there are lots of small local=
+ community events for people interested in devops=2C including these two e=
+vents in Manchester and Leeds in the UK. The next Manchester event is on t=
+he 29th of April and still has tickets available. The next Leeds meetup is=
+ on the 15th of April=2C with only 5 tickets still available at the time o=
+f writing.
+
+http://www.leedsdevops.org.uk/
+http://www.devopsmanchester.co.uk/
+
+
+Tools
+=3D=3D=3D=3D
+
+Nearly everyone is a huge fan of nginx=2C  but that doesn=E2=80=99t mean t=
+here aren=E2=80=99t things you might like to see improved. Tengine is a 10=
+0% compatible fork of Nginx which adds dynamic module loading=2C additiona=
+l load balancing methods=2C syslog support and more.
+
+http://tengine.taobao.org/
+
+
+VERIS stands for Vocabulary for Event Recording and Incident Sharing and i=
+s a framework for collecting and sharing standardised security event data=
+=2C even between organisations. VERIS also comes with a public database of=
+ incidents that anyone can contribute to=2C great for research purposes if=
+ it catches on.
+
+http://veriscommunity.net/doku.php?id=3Dstart
+https://github.com/vz-risk/VCDB
+
+
+Grafana is a really impressive looking Graphite dashboard and graph editor=
+=2E The editor side of things is particularly impressive=2C exposing lots of=
+ options to craft beautiful and useful graphs.
+
+http://grafana.org/
+
+
+PSDash is a dashboard application which can show the status of processes r=
+unning across a number of machines. See the screenshots for an idea of it=
+=E2=80=99s features.
+
+https://github.com/Jahaja/psdash
+
+
+If you=E2=80=99re using MongoDB you might find this single page web applic=
+ation admin tool useful. It=E2=80=99s easy to install=2C with simple instr=
+uctions for running under Ruby or PHP and certainly looks very nice=2C inc=
+luding on a mobile screen.
+
+http://genghisapp.com/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,168 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#182?=
+Date: Sun, 29 Jun 2014 18:42:22 +0000
+
+DEVOPS WEEKLY
+ISSUE #182 - 29th June 2014
+
+I=E2=80=99m writing this quickly from San Jose airport before flying back=
+ to the UK=2C which is why most people will be receiving this issue 8 hour=
+s or so later that usual. Lots of content from Velocity and Devopsdays Sil=
+icon Valley this week (and probably next when I get more time to find some=
+ of the excellent presentations). It=E2=80=99s been great catching up with=
+ lots of folks=2C but a big shoutout to the organisers who put on two grea=
+t events.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Velocity and Devopsdays
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Definitely one of the highlights of Velocity for me=2C this talk aimed to=
+ cover everything you need to know to be good at operations. Ambitious=2C=
+ entertaining and hugely useful.
+
+http://adamhjk.github.io/good-at-ops/#/
+
+
+Probably a tie for my favourite presentation=2C this next deck covers what=
+ the presenter called minimal viable bureaucracy. Lots of personal stories=
+ mixed with some wider observations. Lots to learn about organisation desi=
+gn in here.
+
+https://speakerdeck.com/lauraxt/minimum-viable-bureaucracy-june-2014-editi=
+on
+
+
+Opsweekly is a tool from Etsy for On call alert classification and reporti=
+ng. The README could do with a screenshot but it=E2=80=99s a very interest=
+ing idea which brings together all the data from an on-call rota into one=
+ place for both personal tracking and bigger picture planning.
+
+https://github.com/etsy/opsweekly
+
+
+Another of the talks from Velocity I found interesting=2C what happens to=
+ the infrastructure when a large company buys a smaller one? In this case=
+ what and how did Instagrate migrate things over to Facebook?
+
+http://instagram-engineering.tumblr.com/post/89992572022/migrating-aws-fb
+
+
+One of the Velocity ignite talks providing a quickfire argument that you r=
+eally really should be caring about security in your development and opera=
+tions work.
+
+https://speakerdeck.com/barnbarn/velocity-conference-santa-clara-2014-igni=
+te
+
+
+A topic close to my heart cropped up a few times at Devopsdays Silicon Val=
+ley=2C that of government. This post summaries one of the open spaces and=
+ makes a few suggestions for the US federal government.
+
+http://www.mikemcgarr.com/blog/devops-in-the-federal-government.html
+
+
+The traditional Devopsdays State of the Union was presented at both Amster=
+dam and at Silicon Valley this week. Riffing on the recent devops survey r=
+esults=2C composability of systems and the move to software defined everyt=
+hing.
+
+http://www.slideshare.net/botchagalupe/devopsdays-state-of-the-union-amste=
+rdam-2014
+
+
+News
+=3D=3D=3D=3D
+
+This is a nice post from one of the organisers of Devopsdays Brisbane=2C e=
+xplaining to people who haven=E2=80=99t come across the event what it is.=
+ Doing outreach to a local community like this is a great idea. Also=2C th=
+ey have Sidney Dekker speaking!
+
+http://mattcallanan.blogspot.com/2014/06/what-is-devops-days-brisbane-2014=
+=2Ehtml
+
+
+Anomaly detection=2C and other applications of machine learning to monitor=
+ing=2C is a hot topic at the moment. This post is a good high level introd=
+uction=2C focusing on some of the tools you can try out right now.
+
+http://blog.bigpanda.io/a-practical-guide-to-anomaly-detection/
+
+
+A nice reminder that devops isn=E2=80=99t about killing off existing posit=
+ions but about specialists working together. This post brings up the spect=
+re of devops killing off the developer as we know it=2C and them debunks t=
+he idea.
+
+http://cfengine.com/company/blog-detail/devops-killing/
+
+
+Lots of large companies are getting interested in Devops and this next pos=
+t should be useful to anyone working in such an enterprise. It collects co=
+mmon objections together along with a counter argument.
+
+http://dev2ops.org/2014/06/adopting-devops-in-enterprise-operations/
+
+
+Ever considered debugging database queries by dropping down to inspecting=
+ tcp packets? This next post makes this sound no-crazy with some great exa=
+mples.
+
+https://vividcortex.com/blog/2014/06/23/discovering-query-bugs-by-tcp-insp=
+ection/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Having won a number of key customer accounts=2C Bashton are recruiting at=
+ both senior and junior levels to join our team of Linux operations expert=
+s. Based in the North West of the UK=2C we design=2C build and manage infr=
+astructure primarily on Amazon Web Services=2C providing ultra reliable so=
+lutions to customers in a range of sectors. We can offer the ability to wo=
+rk on large-scale web facing infrastructure without the internal politics=
+ of working for a large organisation.
+
+http://www.bashton.com/jobs/
+
+
+Tools
+=3D=3D=3D=3D
+
+Given our daily use of version control systems they contain an awful lot o=
+f data past just the source code. This tool allows for exporting a git rep=
+ository into the solr search engine for data mining.
+
+https://github.com/arafalov/git-to-solr
+
+
+I=E2=80=99ve mentioned OSv previous as an interesting take on the operatin=
+g system=2C but trying it out locally had required a lot of effort. Enter=
+ capstan=2C which provides a very nice command line interface to launch OS=
+v instances locally on your machine.
+
+https://github.com/cloudius-systems/capstan
+
+
+Cayley is an open source Graph database. It supports multiple storage back=
+ends=2C an HTTP based API as well as a REPL and a built-in query editor an=
+d visualiser.
+
+https://github.com/google/cayley
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

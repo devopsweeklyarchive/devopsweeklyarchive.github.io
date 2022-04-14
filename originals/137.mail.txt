@@ -1,0 +1,140 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#137?=
+Date: Sun, 18 Aug 2013 11:19:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #137 - 18th August 2013
+
+I'm in San Francisco this coming week for PuppetConf. If anyone is around=
+ and wants to meetup let me know at @garethr on Twitter. If I've got the t=
+iming right next weeks issue should be written from San Francisco airport=
+=2C if not it might be late Monday for the next instalment of Devops Weekl=
+y.
+
+A quick correction from last week. The email to get in touch with Paul if=
+ you=E2=80=99re interested in mentoring in New York should have been pnasr=
+at@gmail.com.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Good post about the benefits and technicalities of building a continuous d=
+elivery pipeline. Some useful diagrams about tooling=2C  I was particularl=
+y interesting in the automation of a confidence score for canary builds.
+
+http://techblog.netflix.com/2013/08/deploying-netflix-api.html
+
+
+A nice post entitled Production is all that matters. Goes into quite a bit=
+ of detail about why logging=2C statistics collection and and error handli=
+ng are important from a developers point of view.
+
+http://www.naildrivin5.com/blog/2013/06/16/production-is-all-that-matters.=
+html
+
+
+Ease of deployment is a nice property of any software=2C and this post exp=
+lains why Go makes building software without dependencies easy=2C and why=
+ that makes it perfect for systems administration and automation.
+
+http://blog.lusis.org/blog/2013/08/11/go-for-system-administrators/
+
+
+A tale of scaling log processing at Travis CI. Lots of thorny problems and=
+ how to solve them=2C focusing on the importance of ordering and database=
+ design.
+
+http://about.travis-ci.org/blog/2013-08-08-solving-the-puzzle-of-scalable-=
+log-processing/
+
+
+A nice collection of 14 short interviews from a range of people on the top=
+ic of how devops and application security fit together.
+
+http://trustedsoftwarealliance.com/resources-surveys-and-papers/devops-and=
+-application-security-infographic/
+
+
+I=E2=80=99ve seen quite a bit of interest recently about measuring communi=
+ty engagement. This post pulls lots of numbers from the Chef community=2C=
+ in particular showing the growth of the Chef community cookbooks site and=
+ mailing list and IRC chatter.
+
+http://ranjib.com/2013/03/05/community-cookbooks-at-a-glance/
+
+
+FuzzDB is an open source database of attack patterns=2C predictable resour=
+ce names=2C  regex patterns for identifying interesting server responses=
+=2C and documentation resources from Mozilla. Useful for anyone building s=
+ecurity tooling.
+
+https://blog.mozilla.org/security/2013/08/16/introducing-fuzzdb/
+https://code.google.com/p/fuzzdb/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devops days is coming to Atlanta on October 3rd and 4th at the Academy of=
+ Medicine at Georgia Tech. Tickets are already on sale and the programme s=
+hould be announced soon.
+
+http://devopsdays.org/events/2013-atlanta/
+
+
+Tools
+=3D=3D=3D=3D
+
+If you=E2=80=99re like me you often have several Vagrant managed boxes aro=
+und for different projects. The vagrant global status plugin might therefo=
+re be useful=2C it tracks all your vagrant machines state=2C making it eas=
+ier to track which boxes are currently running.
+
+https://github.com/fgrehm/vagrant-global-status
+
+
+Marelle is a new configuration management and systems administration frame=
+work written in Prolog. It=E2=80=99s not designed to be as large as Chef o=
+r Puppet=2C but the logic based programming approach is certainly interest=
+ing.
+
+http://larsyencken.github.io/marelle/
+
+
+Lots of tooling around docker at the moment. Maestro allows for describing=
+ multiple docker containers and their dependencies=2C and then managing th=
+em via a simple command line interface.
+
+https://github.com/toscanini/maestro
+
+
+Vegeta is a command line load testing tool written in Go. It allows you to=
+ specify a constant request rate=2C and can output results as text or SVG.=
+ The interface is certainly simpler than similar tools like ab or httperf.
+
+https://github.com/tsenart/vegeta
+
+
+Nginx is an incredibly useful and powerful piece of software=2C but I find=
+ you often want to roll your own packages to include one module or another=
+=2E This omnibus installer helps with automating building those packages=2C=
+ and already includes lots of nginx modules including the openresty distri=
+bution.
+
+https://github.com/bakins/omnibus-nginx
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

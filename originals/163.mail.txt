@@ -1,0 +1,141 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#163?=
+Date: Sun, 16 Feb 2014 12:27:39 +0000
+
+DEVOPS WEEKLY
+ISSUE #163 - 16th February 2014
+
+As an example of just how far the whole devops movement has come you need=
+ to look no further than the two job posts we have this week. One is for a=
+ US based startup you may have heard of=2C Chef. The other is for a UK bas=
+ed school taking a pretty innovative approach to internal IT.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Really good introduction to lots of devops practices from a Microsoft view=
+ point. Includes some examples of pretty neat IDE integration=2C Visual St=
+udio Online features and integration with open source tools like Chef=2C P=
+uppet and Jenkins. Even if you=E2=80=99re not a Microsoft shop you should=
+ have a look at this.
+
+http://www.slideshare.net/chanezon/devops-the-microsoft-way
+
+
+Everyone is still using Nagios=2C or so this talk claims=2C and we need to=
+ move to other tools in order to advance the state of monitoring. A well a=
+rgued presentation with lots of good examples of why Nagios is still popul=
+ar=2C why it shouldn=E2=80=99t be and what we can do about it.
+
+http://www.slideshare.net/superdupersheep/stop-using-nagios-so-it-can-die-=
+peacefully
+https://www.youtube.com/watch?v=3DQ9BagdHGopg
+
+
+Another follow up to a post I included a few weeks back on devops practice=
+s in traditional enterprise environments. Lots of good counter arguments h=
+ere about misunderstandings and more interestingly about the difficulty of=
+ changing culture.
+
+http://goatcan.wordpress.com/2014/02/12/what-if-everything-weve-been-doing=
+-is-wrong/
+
+
+More and more I=E2=80=99m seeing people really embrace the code part of in=
+frastructure as code. To me it=E2=80=99s always been about adopting progra=
+mming techniques. Here=E2=80=99s a good example=2C showing how to use stub=
+s and test doubles when testing Chef cookbooks with ChefSpec
+
+http://www.agilesysadmin.net/stubs-and-doubles-in-chefspec
+
+
+Good presentation and slides introducing Flapjack=2C the monitoring notifi=
+cation router=2C and in particular demoing some nice integration with Pupp=
+et via some new puppet types.
+
+http://fractio.nl/2014/02/12/data-driven-alerting-with-flapjack-puppet-hie=
+ra/
+
+
+Jobs
+=3D=3D=3D=3D
+
+New DevOps Role at Dr Challoner=E2=80=99s Grammar School=2C Amersham. We p=
+ride ourselves on ensuring that our students have the very best in technol=
+ogy to enhance their learning. Our innovative approach means that our tech=
+ environment is not that of a typical school. This new and exciting senior=
+ position within our Technology Support Team has been created to ensure th=
+at we can continue to innovate in this area and stay at the cutting edge.
+
+http://www.challoners.com/about/vacancies
+
+
+Chef is looking for a Senior Systems Administrator to join the Operations=
+ team. You'll be responsible for planning=2C coordinating=2C managing=2C a=
+nd troubleshooting Hosted Enterprise Chef's multi-tenant SaaS environment.=
+  Experience with Chef is a big plus but awesomeness trumps all other requ=
+irements.
+
+http://www.getchef.com/careers/ozniYfwW/
+
+
+Events
+=3D=3D=3D=3D=3D
+
+QCon is coming back to London on the 5th to the 7th of March. The usual wi=
+de range of tracks=2C from scalable architectures=2C resilience and next g=
+eneration cloud to devops and a track dedicated to people skills. Use the=
+ discount code devopsweekly for =C2=A3100 off the conference price.
+
+http://qconlondon.com/
+
+
+Scale Summit=2C in London on the 21st of March=2C is an unconference all a=
+bout operating at scale. Tickets are now on sale and they are on the looko=
+ut for a few more sponsors.
+
+http://www.scalesummit.org/
+
+
+Tools
+=3D=3D=3D=3D
+
+Aptly is a powerful Apt repository management tool. It makes mirroring rep=
+ositories=2C as well as keeping them up-to-date or backporting packages tr=
+ivial. Lots of documentation with lots of other interesting use-cases as w=
+ell.
+
+http://www.aptly.info/
+
+
+Testing applications under slow or flaky network conditions can be difficu=
+lt and time consuming. Blockade aims to make that easier. A config file de=
+fines a number of docker containers and a command line tool makes introduc=
+ing controlled network problems simple. Very interesting.
+
+https://github.com/dcm-oss/blockade
+
+
+If you=E2=80=99re like me you spend quite a lot of time interacting with G=
+it. Well Gitsh aims to make that interaction easier=2C providing a dedicat=
+ed shell for working with the version control system. Shorter commands=2C=
+ autocompletion=2C color based feedback and some clever defaults make this=
+ worth a look.
+
+http://robots.thoughtbot.com/announcing-gitsh
+https://github.com/thoughtbot/gitsh
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,169 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#217?=
+Date: Sun, 1 Mar 2015 12:41:08 +0000
+
+DEVOPS WEEKLY
+ISSUE #217 - 1st March 2015
+
+I don=E2=80=99t tend to include links into the intro very often=2C but thi=
+s one everyone should read.  http://itrevolution.com/karojisatsu/. Burnout=
+ is a serious issue that can have horrible consequences - thanks to John W=
+illis for so eloquently and personally putting this out there.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[Webinar] How to Release Apps at the Speed of Business
+
+McKesson Health Solutions=E2=80=99 IT team handles hundreds of releases pe=
+r year. Learn from their agile manager of development how they release app=
+s at the speed of business and how you can too.
+
+http://cpwr.it/JxACJ
+
+
+News
+=3D=3D=3D=3D
+
+It=E2=80=99s useful=2C when proposing new approaches to technology=2C to u=
+nderstand the economic and business drivers behind them. This post delves=
+ into the problems with investment in the private cloud in the medium term=
+=2C and why public cloud providers should win in most cases in the end.
+
+http://blog.gardeviance.org/2015/02/whats-wrong-with-my-private-cloud.html
+
+
+A good post (apart from the financial analogy) focused on the benefits of=
+ using microservices to localise technical debt in rapidly growing environ=
+ments.
+
+http://jimplush.com/talk/2015/02/28/microservices-allow-for-localized-tech=
+-debt/
+
+
+Docker has different uses=2C and different programming languages sometimes=
+ benefit from different ones. This presentation delves into what container=
+s bring to the table for Java developers.
+
+http://www.slideshare.net/IzzetMustafaiev/docker-does-it-matter-for-java-d=
+eveloper
+
+
+An interesting reading list for those interested in operations. Not a tech=
+nical book in sight=2C but lots of good books on lean=2C the organisation=
+ of an IT department=2C communication=2C business transformation and other=
+ culture topics.
+
+http://blogs.technet.com/b/devops/archive/2015/02/23/more-top-10-devops-bo=
+oks-for-operations-and-beyond.aspx
+
+
+A discussion of some of the differences between orchestration and configur=
+ation management. Some interesting points about resource usage for some au=
+diting tasks.
+
+https://www.afp548.com/2015/02/17/stop-remediating-while-you-audit/
+
+
+A call to arms for database admins to better work with developers=2C and f=
+or teams to better understand where specialist skills are required when it=
+ comes to data management.
+
+http://www.scarydba.com/2015/02/24/devops-dba-word-no/
+
+
+Very much from a management perspective=2C but a good list of traits to lo=
+ok for and build upon in a team.
+
+http://blogs.starcio.com/2015/02/ten-ways-improve-it-culture-agile-devops.=
+html
+
+
+Jobs
+=3D=3D=3D=3D
+
+This Ides of March=2C a new job has been foretold! Join Hired and get 5+ j=
+ob offers in one week. Remember=2C the soothsayer is always right=E2=80=A6=
+ Join today!
+
+http://hrd.cm/1BNg9Kk
+
+
+Expensify is hiring Operations Engineers to develop and support our growin=
+g infrastructure. Help us keep our high-availability=2C distributed=2C tra=
+nsactional environment running smoothly and securely. At Expensify=2C we d=
+o our best every day to ensure your expense reports don't suck!
+
+http://we.are.expensify.com/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Amsterdam is coming up on June 24th until the 26th=2C with a da=
+y of workshops followed by 2 days of talks and open spaces. The call for p=
+roposals is open now.
+
+http://www.devopsdays.org/events/2015-amsterdam/propose/
+
+
+The recently relaunched Devops Columbus (Ohio) has it=E2=80=99s second mee=
+ting on March 10th with talks on microservices and using Puppet to configu=
+re Jenkins.
+
+http://www.meetup.com/DevOps-Columbus/events/220677066/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+RancherOS is a minimal Linux distro designed to run Docker containers. It=
+ basically runs Docker as PID 1 a top the Linux kernel=2C meaning the imag=
+e itself is tiny compared to a normal distribution.
+
+http://rancher.com/rancher-os/
+
+
+Packetbeat is an open source application monitoring and packet tracing sys=
+tem. It works by sniffing the traffic between your application services=2C=
+ correlating them into transactions and using Elasticsearch for analysing=
+ them and for ad-hoc queries.
+
+https://github.com/packetbeat/packetbeat
+
+
+The data in AWS CloudTrail is essential for security and compliance in AWS=
+=2E Traildash grabs those files=2C stores them in ElasticSearch=2C and prese=
+nts a Kibana dashboard so you can analyze recent activity in your AWS acco=
+unt.
+
+https://github.com/AppliedTrust/traildash
+
+
+Burlesque is a message queue with a long polling HTTP API for easy integra=
+tion. The excellent documentation gives a rundown of how to use it and the=
+ various configuration options.
+
+https://github.com/KosyanMedia/burlesque
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

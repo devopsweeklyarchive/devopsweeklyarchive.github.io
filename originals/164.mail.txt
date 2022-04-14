@@ -1,0 +1,152 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#164?=
+Date: Sun, 23 Feb 2014 12:22:25 +0000
+
+DEVOPS WEEKLY
+ISSUE #164 - 23rd February 2014
+
+A shout out to all the folks organising and attending Scale 12x this weeke=
+nd in LA. I haven=E2=80=99t had chance to pick up any content from what so=
+unds like a great event. so if you=E2=80=99re there do send me links to to=
+ols or presentations or interesting conversations.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+The post I included about Nagios last week caused quite a good debate on t=
+he internet somewhere. Here=E2=80=99s a good response about why you might=
+ be best sticking with Nagios after all.
+
+https://laur.ie/blog/2014/02/why-ill-be-letting-nagios-live-on-a-bit-longe=
+r-thank-you-very-much/
+
+
+Lots of conversations around devops concern how to break down organisation=
+al silos. This post delves nicely into why they exist.
+
+http://goatcan.wordpress.com/2014/02/19/you-build-kingdoms-because-your-mo=
+ther-didnt-love-you/
+
+
+LXC=2C the Linux Containers project=2C has shipped a 1.0 release=2C which=
+ comes with 5 years of long term support and a slew of new features. From=
+ the maintainers point of which this is now considered stable for producti=
+on.
+
+http://linuxcontainers.org/news/
+
+
+Running your application inside a container is all the rage at the moment.=
+ But as this post points out=2C if you=E2=80=99re using docker you=E2=80=
+=99re doing a lot more than that - you=E2=80=99re running a minimal OS=2C=
+ but without various expected services like syslog=2C cron=2C ssh=2C etc.
+
+http://phusion.github.io/baseimage-docker/
+
+
+An interesting attempt to build an online knowledge base for software conf=
+iguration management=2C infrastructure orchestration and devops. The conte=
+nt is on GitHub so pull requested accepted.
+
+http://scm-knowledge-base.readthedocs.org/en/latest/
+
+
+A common pattern in organisations embracing devops is a move towards self-=
+service. This post brings up a bit of history and outlines some of the adv=
+antages of a self-service operating model.
+
+http://www.activestate.com/blog/2014/02/devops-self-service
+
+
+I wrote a post last week about the buy vs build quandary when it comes to=
+ monitoring systems. This was based on conversations at the recent London=
+ Devops meetup. I=E2=80=99d like to see more conversations around cost and=
+ business topics as they apply to development and operations.
+
+http://www.morethanseven.net/2014/02/16/buy-vs-build-your-monitoring-syste=
+m/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Workshare are looking for top notch Ops people to help us rule a hybrid sp=
+ace. You will get to design and build awesome infrastructure using Chef=2C=
+  Jenkins=2C AWS=2C Riak  and your awesome scripting ability. You will hav=
+e a natural flair for solving problems and given free reign to experiment=
+ with new technologies as you see fit.
+
+http://www.workshare.com/company/careers/emea/senior-devops-engineer
+
+
+DataSift is seeking a DevOps engineer with a passion for deploying and sca=
+ling distributed web applications. You will work on DataSift's growing ser=
+ver infrastructure=2C and be responsible for monitoring and optimising our=
+ platform across multiple servers=2C networks and databases. You will use=
+ modern operations tools=2C and will work closely with developers to achie=
+ve high levels of scalability.
+
+https://hire.jobvite.com/j?cj=3DoN4eYfwN&s=3DDevOpsWeekly
+
+
+Events
+=3D=3D=3D=3D=3D
+
+DataSift are having an open house event at their Reading office in the UK=
+ on the 5th March=2C 6pm until 8pm. Meet the team=2C learn about future pl=
+ans and listen to talks on vagrant and ansiblea as well as the DataSift pl=
+atform. The event is free and there will be plenty of snacks=2C drinks and=
+ games.
+
+https://march2014datasiftopenhouse.eventbrite.com
+
+
+QCon is coming back to London on the 5th to the 7th of March. The usual wi=
+de range of tracks=2C from scalable architectures=2C resilience and next g=
+eneration cloud to devops and a track dedicated to people skills. Use the=
+ discount code devopsweekly for =C2=A3100 off the conference price.
+
+http://qconlondon.com/
+
+
+Tools
+=3D=3D=3D=3D
+
+Graylog2=2C the data analytics and log processing app has a new version ou=
+t with a whole raft of new features. Powerful alerting=2C much simpler dep=
+loyment=2C comprehensive API=2C lovely looking interface. Lots of big scre=
+enshots on the site should give you an idea.
+
+http://graylog2.org/wow/such/0.20.0
+
+
+Two of my favourite things combined into one. This Vagrant plugin makes it=
+ trivial to add serverspec tests to provisioning runs. Hugely useful if yo=
+u=E2=80=99re sharing Vagrantfiles=2C you can now provide tests to check th=
+at everything works.
+
+https://github.com/jvoorhis/vagrant-serverspec
+
+
+Gulp is a streaming build system that combines a few nice features from ot=
+her software components into one. Setup tasks you can run from the command=
+ line=2C or which run automatically when files change. The provided sample=
+ config should give you the idea.
+
+https://github.com/gulpjs/gulp
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

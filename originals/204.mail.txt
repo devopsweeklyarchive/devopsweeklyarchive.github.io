@@ -1,0 +1,154 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#204?=
+Date: Sun, 30 Nov 2014 10:42:21 +0000
+
+DEVOPS WEEKLY
+ISSUE #204 - 30th November 2014
+
+I had huge fun at the New Directions in Operating Systems conference this=
+ week and have included a few related posts and presentations in this issu=
+e. Small=2C super-niche=2C community conferences like this=2C Monitorama a=
+nd Configuration Management Camp feel like great places to learn new thing=
+s - thanks to all the people who organise them.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Webinar: Accelerating SDN Applications with Open Source Network Overlays
+
+By defining the configuration of the network versus of a specific device=
+=2C OpenContrail + Cumulus Linux can simplify & automate network orchestra=
+tion. Register now to learn more.
+
+http://go.cumulusnetworks.com/opencontrail-devops
+
+
+News
+=3D=3D=3D=3D
+
+If you missed out on New Directions in Operating systems this week this ep=
+ic post of notes from all of the talks should be of interest. Lots of talk=
+ of rump kernels=2C unikernels=2C configuration management and more.
+
+http://www.syslog.cl.cam.ac.uk/2014/11/25/new-directions-in-operating-syst=
+ems/
+
+
+My talk at New Directions in Operating Systems=2C all about the history an=
+d possible future of configuration management as both a discipline and an=
+ evolving tool set.
+
+https://speakerdeck.com/garethr/configuration-management-for-future-operat=
+ing-systems
+
+
+One of the common threads at New Directions in Operating Systems was a mov=
+e towards a different mental model of the operating system. This talk did=
+ a good job of articulating some of the reasons why.
+
+http://www.slideshare.net/alexisrichardson/71-myths-of-the-new-os
+
+
+Details from a recent survey of the state of monitoring have started to be=
+ published=2C with some interesting results. So far you can have a look at=
+ the demographics of respondents=2C and see what tools people are using to=
+day.
+
+http://kartar.net/2014/11/monitoring-survey---demographics/
+http://kartar.net/2014/11/monitoring-survey---tools/
+
+
+A write-up of some observations from last weeks New Directions in Operatin=
+g Systems conference. Lots of links for further reading on a bunch of the=
+ subjects covered.
+
+http://markosrendell.wordpress.com/2014/11/29/new-directions-in-operating-=
+systems-designer-cows-and-intensive-farming/
+
+
+Kubernetes is powerful but developing quickly=2C so keeping up can be a ch=
+allenge. This post does a good job of explaining all of the main concepts=
+ along with examples in one place.
+
+http://www.infoq.com/articles/scaling-docker-with-kubernetes
+
+
+A multi-post tutorial covering building a docker based infrastructure usin=
+g Puppet=2C Foreman=2C Packer and Crane. The details about using the diffe=
+rent tools together makes for an interesting read.
+
+http://www.ivoverberk.nl/docker-tutorial-puppet-and-the-foreman/
+
+
+An interesting post about using littlechef in a non-centralised workflow f=
+or Chef. Examples of custom interfaces and integrating with Jenkins.
+
+http://riltsken.github.io/devops/workingwithteams/continuousdelivery/infra=
+structure/2014/11/21/team-workflow-using-littlechef-to-manage-infrastructu=
+re.html
+
+
+Some observations and lots of links to interesting tools=2C all from talks=
+ at the recent LISA conference.
+
+http://www.standalone-sysadmin.com/blog/2014/11/new-technologies-to-study-=
+from-lisa14/
+
+
+All the interest in operations and infrastructure management has resulted=
+ in an explosion of tools=2C and keeping up can be difficult. Enter this s=
+imple directory=2C maintained on GitHub.
+
+http://www.devopsbookmarks.com/
+https://github.com/devopsbookmarks/devopsbookmarks.com
+
+
+Jobs
+=3D=3D=3D=3D
+
+Sainsbury's Digital are looking for a DevOps Engineer in Farringdon=2C Cen=
+tral London. You'll maintain and enhance technical infrastructure=2C contr=
+ibute to the architecture of the software stack and automate testing=2C de=
+ployment and provisioning using tools like Python=2C PHP=2C RabbitMQ=2C Va=
+rnish=2C Ansible and Elasticsearch. This is an opportunity to ensure that=
+ DevOps is right at the heart of our development process.
+
+http://isw.changeworknow.co.uk/sainsburys/vms/e/store_support_centre/posit=
+ions/a4M0NG-MHkgBjy8LefNXOy
+
+
+Events
+=3D=3D=3D=3D=3D
+
+The Office of the CIO of the United States Patent and Trademark Office is=
+ hosting its first Devops meetup on January 14th. Experts from the private=
+ and public sectors will come together to talk about all things Devops and=
+ Government.
+
+http://www.eventbrite.com/e/uspto-devops-meetup-2015-tickets-13874680543
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Charted is a way of sharing graphs. I=E2=80=99m a big fan of using monitor=
+ing tools for business metrics=2C but exposing that data can be hard. Char=
+ted looks a great bridge to get other people interested in data.
+
+https://medium.com/data-lab/introducing-charted-15161b2cd71e
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

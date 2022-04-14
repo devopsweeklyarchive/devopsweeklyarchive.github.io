@@ -1,0 +1,192 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#124?=
+Date: Sun, 19 May 2013 09:54:49 +0000
+
+DEVOPS WEEKLY
+ISSUE #124 - 19th May 2013
+
+Another full week of pretty much all types of content. I'm putting the bla=
+me on conference season being in full swing, with lots of content from RIC=
+ON East and from DjangoCon Europe this week. If the qualilty of conference=
+s keeps up we'll be busy reading into October.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+RICON
+=3D=3D=3D=3D=3D
+
+The focus at RICON East, the conference organised by Basho who make Riak,=
+ was no distributed systems and the following presentation delves into les=
+sons learned and a bit on why we're now increasingly building complex syst=
+ems.
+
+https://speakerdeck.com/argv0/lessons-learned-and-questions-raised-from-bu=
+ilding-distributed-systems
+
+
+A super comprehensive write-up of lots of the talks from RICON East. Gets=
+ across the mix of academic and practical talks that seemed to be the focu=
+s of the event.
+
+http://www.jkemp.net/blog/review-ricon-east/
+
+
+How do you go about picking the programming language for a real world appl=
+ication? After covering a series of non-optimal (but familiar) answers the=
+ talk goes into a few strategies you can use to select emerging languages=
+ safely.
+
+https://speakerdeck.com/al3x/nobody-ever-got-fired-for-picking-java
+
+
+The start of a series of posts, following on from a RICON presentation, al=
+l about how different systems and databases handle network partitions when=
+ running in a cluster. Lots of good theory but combined with practical bit=
+s of software you're probably running at work.
+
+http://aphyr.com/posts/281-call-me-maybe-carly-rae-jepsen-and-the-perils-o=
+f-network-partitions
+http://aphyr.com/posts/282-call-me-maybe-postgres
+
+
+If that's not enough content from RICON then the folks at Basho are collec=
+ting all the links to slides, blog posts and online discussions on the fol=
+lowing Gist. You can even listen to the conference music playlist.
+
+https://gist.github.com/hectcastro/186e567830fe131a1ef1
+
+
+News
+=3D=3D=3D=3D
+
+The relationship between programming and the trade of systems administrati=
+on is interesting, and this post gives some great tips for moving from scr=
+ipting applications together and being a jack of all languages towards bei=
+ng a competent programmer.
+
+http://cuddletech.com/blog/?p=3D817
+
+
+Very interesting post placing devops in the context of a maturing IT envir=
+onment and an increase in critical thinking about what we do and how we st=
+ructure ourselves. Makes lots of interesting points about the presence of=
+ silos within organisations, and how this isn't just a negative thing.
+
+http://byronm.wordpress.com/2013/05/17/devops-its-about-critical-thinking-=
+the-evolutionary-why-of-silos/
+
+
+A good pulling together of information about Google's development process,=
+ focusing on the use of trunk based development and minimising branches. L=
+ots of details about the tooling and people processes that make this work=
+ well for them.
+
+http://architects.dzone.com/articles/googles-scaled-trunk-based
+
+
+The fourth and final piece in this series focusing on devops in a traditio=
+nal enterprise company. This post covers release management, what do you d=
+o when "continuous deployment merely appears as a small dot far away on th=
+e horizon, practised by whizkids and Einsteins living on a different plane=
+t."
+
+http://niek.bartholomeus.be/2013/05/14/implementing-a-release-management-s=
+olution-in-a-traditonal-enterprise/
+
+
+We're collecting ever more data for monitoring purposes and finding the si=
+gnal in all the noise can be tricky. Increasingly statistical techniques w=
+ill be the way to go, this post covers the basics of anomaly detection in=
+ particular whether your data is parametric or non-parametric.
+
+http://metaforsoftware.com/everything-you-should-know-about-anomaly-detect=
+ion-know-your-data-parametric-or-non-parametric/
+
+
+A light hearted take on going from a project with no automation up to a fu=
+lly automated and resilient infrastructure stack, with an idea of the diff=
+erent stages of advancement.
+
+https://speakerdeck.com/mpasternacki/adventurer-in-the-land-of-production-=
+environment
+
+
+An introduction to Devops for people on the business side, focusing on a f=
+ew personal stories of success, anti-patterns and the areas of culture, au=
+tomation, measurement and sharing.
+
+http://blog.geekmanager.co.uk/2013/05/16/devops-in-the-wild/
+
+
+A good example of the advantages of OS level init systems in general and s=
+ystemd in particular. In this case for managing a node.js application but=
+ much of the content is applicable to anything.
+
+http://savanne.be/articles/deploying-node-js-with-systemd/
+
+
+As someone who works a lot with Ruby based tools I know how much of a pain=
+ the Ruby ecosystem can be. So posts like this that introduce the various=
+ moving parts are essential, especially with both Puppet and Chef benefiti=
+ng from some Ruby knowledge.
+
+http://blog.brattyredhead.com/blog/2013/05/12/pieces-and-parts-managing-yo=
+ur-ruby-toolchain/
+
+
+Events
+=3D=3D=3D=3D
+
+RAMP is an international tech conference on Scalability, to be held in Bud=
+apest, Hungary on 11-12 July 2013. RAMP will feature stories from engineer=
+s and tech founders about the race against exploding traffic, architecture=
+s that didn=E2=80=99t cut it, and all that goes into scaling systems and e=
+ngineering teams when a product goes from 1 to 100m users. I'll be speakin=
+g too so if you're going to be there let me know or come say Hi.
+
+http://rampconf.com/
+
+
+Tools
+=3D=3D=3D=3D
+
+Vagrant is moving very quickly, and the move to a system package rather th=
+an a gem removed the ability to easily depend on different versions from w=
+ithin Ruby projects. Enter vagrant-wrapper.
+
+https://github.com/org-binbab/gem-vagrant-wrapper
+
+
+mcomaster is a web interface to the mcollective server orchestration tool.=
+ It provides the ability to run commands and see the results and to filter=
+ nodes by the available metadata.
+
+http://mcomaster.org/screenshots/
+
+
+Related to the Ruby toolchain post above, chruby is yet another way of man=
+aging versions of Ruby. chruby aims to do far less however than the existi=
+ng crop of tools, and might be of interest in some circumstances.
+
+https://github.com/postmodern/chruby
+
+
+Circus is an interesting looking Python application for managing processes=
+ and sockets. It removes the need for certain types of WSGI server and at=
+ the same time provides a great deal of stats and a very nice looking dash=
+board.
+
+http://circus.readthedocs.org/en/0.7/
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

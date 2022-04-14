@@ -1,0 +1,144 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#188?=
+Date: Sun, 10 Aug 2014 09:44:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #188 - 10th August 2014
+
+I think the reason I still look forward to putting together this newslette=
+r each week is the variety=2C I do hope everyone else feels the same. This=
+ week we have everything from IT Service Management and Auditing to intere=
+sting new tools or arguments that we=E2=80=99re doing system integration w=
+rong.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Sysdig is a pretty awesome tool for debugging pretty much anything. This p=
+ost covers a few new features=2C including the ability to tail any log fil=
+e on the system without needing to configure anything.
+
+http://draios.com/sysdig-plus-logs/
+
+
+Some important work is going on at the moment on the Devops Audit toolkit=
+=2C basically examples and guidance for doing useful audits in organisatio=
+ns using devops practices. This presentation is a good introduction to the=
+ work and to what an audit might involve.
+
+http://www.slideshare.net/realgenekim/keeping-the-auditor-away
+
+
+A pretty good argument that integrating systems via discrete APIs is an=
+ =E2=80=9Cunsalvageable anachronism=E2=80=9C when it comes to the complexi=
+ty of today's distributed systems. Worth reading for anyone building large=
+ systems.
+
+http://writings.quilt.org/2014/05/12/distributed-systems-and-the-end-of-th=
+e-api/
+
+
+A good post describing a simple but powerful continuous integration setup=
+ with Jenkins=2C Github and Docker. Just enough detail to recreate this fl=
+ow if you=E2=80=99re just getting started.
+
+https://zapier.com/engineering/continuous-integration-jenkins-docker-githu=
+b/
+
+
+This paper=2C entitled Security of OS-level virtualization technologies=2C=
+ goes into lots of detail about various virtualization approaches (includi=
+ng LXC containers) and the security characteristics of each.
+
+http://arxiv.org/abs/1407.4245
+
+
+A quick slide deck introducing some of the common patterns when combining=
+ microservices and cloud infrastructure. Discussion of availability=2C orc=
+hestration and scheduling amongst other topics.
+
+http://www.slideshare.net/lynxmanuk/microservices-and-the-cloud-devops-car=
+diff-meetup
+
+
+A simple example of using Puppet to manage Maven artefacts from a Nexus re=
+pository.
+
+http://blog.akquinet.de/2011/11/01/provisioning-maven-artifacts-with-puppe=
+t/
+
+
+Mesos is super interesting=2C but like many distributed systems getting st=
+arted locally can be tricky. This post covers using Chef and Vagrant to cr=
+eate a local mesos cluster.
+
+http://edcanhack.com/2014/07/a-virtual-mesos-cluster-with-vagrant-and-chef=
+/
+
+
+An interested and detailed look at more traditional IT service management=
+ and devops. I don=E2=80=99t agree with a bunch of points here (I don=E2=
+=80=99t think they are opposing forces) but the post makes a few good poin=
+ts.
+
+http://www.itnews.com.au/Feature/390611=2Cwhat-it-service-management-can-l=
+earn-from-devops.aspx/0
+
+
+I love the fact modern configuration management is spreading into the Wind=
+ows world. Here=E2=80=99s a very simple getting started guide for Puppet o=
+n Windows using the Chocolatey package manager.
+
+http://codebetter.com/robreynolds/2014/08/07/puppet-getting-started-on-win=
+dows/
+
+
+
+Tools
+=3D=3D=3D=3D
+
+Kibana-rack embeds the Kibana ElasticSearch interface into a Rack middlewa=
+re=2C making running it alongside existing ruby apps simpler. The example=
+ showing authentication integration with Devise shows why this might be a=
+ good idea for some.
+
+https://github.com/tabolario/kibana-rack
+
+
+An interesting curated set of Go libraries for common operations and autom=
+ation tasks. Everything from DNS and consensus protocols to load testing a=
+nd metrics collection.
+
+https://github.com/mindreframer/golang-devops-stuff
+
+
+This packer provisioner allows for running provisioning command on the hos=
+t rather than the new machine being built. I can imagine a few uses for th=
+is=2C from black box testing to recording the results of packer builds.
+
+https://github.com/shaunduncan/packer-provisioner-host-command
+
+
+Diplomat is an mechanism for integrating Ruby applications with the Consul=
+ service discovery tool. The blog post nicely covers some of the advantage=
+s of this approach.
+
+https://github.com/WeAreFarmGeek/diplomat
+http://johnhamelink.com/distributed-web-systems-with-consul-haproxy-and-en=
+voy.html
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,153 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#184?=
+Date: Sun, 13 Jul 2014 13:13:11 +0000
+
+DEVOPS WEEKLY
+ISSUE #184 - 13th July 2014
+
+One blog post and a few tools this week confirming something I=E2=80=99ve=
+ been seeing too; traditional networking is definitely becoming more inter=
+esting to the devops community.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Lots of short hands-on screencasts aiming to teach lots of systems adminis=
+tration basics. Everything from man pages=2C command line tools=2C LXC con=
+tainers and running postmortems.
+
+http://sysadmincasts.com/
+
+
+A good reflections on Devopsdays Silicon Valley post=2C focusing on a obse=
+rvation I=E2=80=99d made as well=2C an increase in interest in all things=
+ networking at Devops events.
+
+https://communities.cisco.com/community/developer/blog/2014/07/09/reflecti=
+ons-on-devops-days
+
+
+A nice devops in an enterprise presentation with a few nice ideas=2C espec=
+ially for communicating intent to colleagues from other areas of the organ=
+isation. I particularly liked the pace of change visualisation and discuss=
+ion.
+
+http://www.enterprisedevops.com/enterprise-devops-from-the-trenches-talk/
+
+
+A nice reminder that any topic of interest=2C and especially devops=2C is=
+ built on top of previous endeavours. Would devops exist without ITIL or t=
+he work of Deming? Learn from past work without being constrained by it.
+
+http://mindweather.com/2014/06/30/the-importance-of-attribution-in-nascent=
+-fields-and-communities/
+
+
+A good call for developers to involve operations folks in the early stages=
+ of a project. My experience here is that devops is introduced from differ=
+ent places in different orgs=2C so the problem isn=E2=80=99t universal - b=
+ut it=E2=80=99s still a good reminder.
+
+http://blog.mujtabahussain.net/2014/05/27/unilateral-direction-devops/
+
+
+A nicely documented example of building up a Jenkins continuous integratio=
+n setup using ansible=2C and using docker to isolate test runs. Lots of co=
+de examples.
+
+http://blog.sequenceiq.com/blog/2014/05/09/building-the-build-environment-=
+with-ansible-and-docker/
+
+
+A pretty detailed post about when and whether to use software as a service=
+ over something a little more self-hosted=2C in particular looking at vers=
+ion control systems in the light of the recent Code Spaces episode.
+
+https://www.simple-talk.com/cloud/software-as-a-service/version-control-as=
+-a-cloud-service/
+
+
+A nice short deck on the importance of investing in your Puppet developmen=
+t workflow=2C going through a number of tools and processes and different=
+ approaches. Some good ideas for useful tools here too.
+
+http://www.slideshare.net/bobtfish/steamlining-your-puppet-developmentpupp=
+etconfny2014
+
+
+Jobs
+=3D=3D=3D=3D
+
+In Springer=2C one of the world's leading scientific publishers=2C we are=
+ looking for Systems/Platform Engineers (and other roles) for London and B=
+erlin. We are building the foundations to support our growing microservice=
+s landscape using IaaS=2C PaaS and other cool stuff. Try out our assessmen=
+t! http://bit.ly/Tu5ft2
+
+http://joinit.springer.com/
+
+
+Uber is looking for a senior DevOps engineer to join the Realtime Platform=
+ team in San Francisco.  The Realtime team is a small group of engineers w=
+ho build=2C scale=2C and support the mission critical infrastructure runni=
+ng uber's entire logistics platform.  Ideal experience includes Python or=
+ Node.js=2C configuration management (like Puppet or Salt)=2C alerting fra=
+meworks (like Nagios)=2C NoSQL datastores (like Redis)=2C haproxy=2C distr=
+ibuted task queues (like Celery).
+
+https://www.uber.com/jobs/18542
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The final program for FlowCon went up this week=2C including talks from Ma=
+rty Cagan=2C Mary Poppendieck and Don Reinertsen=2C as well as talks on Go=
+ogle=E2=80=99s annual disaster recovery exercises=2C microservices and rel=
+ease engineering. Devops Weekly readers can get $50 off with the code DEVO=
+PS50 too.
+
+http://flowcon.org/flowcon-sanfran-2014/schedule/wednesday.jsp
+
+
+Tools
+=3D=3D=3D=3D
+
+Haka is described as an open source security oriented language which allow=
+s to apply security policies on (live) captured traffic. It=E2=80=99s base=
+d on Lua and looks to be a great way of writing certain kinds of network t=
+ools.
+
+http://haka-security.org/
+
+
+Another interesting networking stack=2C again using Lua (LuaJit in this ca=
+se). Snabb Switch is designed for high throughput=2C low latency network s=
+ytems suitable for use by ISPs. It speaks natively to ethernet hardware=2C=
+ hypervisors=2C and the linux kernel. Interesting times for networking.
+
+https://github.com/SnabbCo/snabbswitch
+
+
+An interesting approach to server authentication=2C swapping the Authorize=
+dKeysCommand for a custom application which checks keys published to GitHu=
+b rather than a local public key. The examples directory makes understandi=
+ng how it works nice and easy.
+
+https://github.com/davidpelaez/gh-keys
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

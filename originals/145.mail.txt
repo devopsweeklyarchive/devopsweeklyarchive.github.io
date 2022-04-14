@@ -1,0 +1,136 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#145?=
+Date: Sun, 13 Oct 2013 10:32:09 +0000
+
+DEVOPS WEEKLY
+ISSUE #145 - 13th October 2013
+
+Along with all the blog posts=2C talks and tools this issue we have lots o=
+f interesting Devops related jobs=2C from London to Nashville to anywhere=
+ in the world. Along with the interest in Devops has definitely come more=
+ visibility for operations jobs it seems.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+The call for proposals is open for Configuration Management Camp and FOSDE=
+M=2C both in Belgium at the start of February next year. If you=E2=80=99re=
+ part of a specific community or work with a specific tool you can propose=
+ an entire room too.
+
+http://cfgmgmtcamp.eu/#contributions
+
+
+Capistrano was one of the original opinionated deployment tools that reall=
+y caught on=2C especially in the new (at the time) Ruby on Rails community=
+=2E This post covers what=E2=80=99s new in version 3=2C which has been compl=
+etely re-written to be smaller=2C more flexible and extensible via plugins=
+=2E
+
+https://medium.com/p/ba896a142ac
+
+
+A good article about the perils of too much automation=2C and why designin=
+g systems to be operable is more important that designing software to not=
+ require operations.
+
+http://programming.oreilly.com/2013/10/making-systems-operable.html
+
+
+A conversation at PuppetConf earlier in the year has resulted in a new sit=
+e for the Puppet community=2C documenting the evolving best practices. Lot=
+s of useful posts collecting information from elsewhere=2C and a pull requ=
+est model for anyone who wants to contribute.
+
+http://www.puppetbestpractices.com/
+
+
+A detailed series of blog posts describing an end-to-end automated develop=
+ment approach. The example uses vagrant=2C fabric=2C django and ec2 but yo=
+u could replace those tools if you prefer. A nice starting point.
+
+http://armondadgar.com/post/7031565232/django-endtoend-part1
+http://armondadgar.com/post/7267697181/django-endtoend-part2
+http://armondadgar.com/post/7744212093/django-endtoend-part3
+
+
+Another week another amazing looking Devopsdays event. The videos from the=
+ recent Tokyo event are up=2C covering an introduction to Sensu and lots o=
+f talk about involving the entire business in operations.
+
+http://vimeo.com/album/2559722
+
+
+A nice write-up from the recent Devopsdays Atlanta event=2C covering a few=
+ of the talks and open spaces. Mainly this is a nice introduction to anyon=
+e wondering about the format of the events and how it all comes together.
+
+http://www.activestate.com/blog/2013/10/and-was-devops-days-atlanta
+
+
+An attempt to specify ten rules for collaboration between development and=
+ operations around the act of deployment. A nice idea=2C but a discussion=
+ about intent would probably be a good starting point.
+
+http://www.heystephenwood.com/2013/10/the-deployment-manifesto.html
+
+
+Jobs
+=3D=3D=3D=3D
+
+UK IaaS provider Brightbox are looking for a Linux Systems Administrator t=
+o join their team. If you have strong experience with GNU/Linux systems an=
+d are familiar with devops concepts you can find more details here:
+
+http://brightbox.com/blog/2013/10/07/linux-sysadmin-join-the-brightbox-tea=
+m/
+
+
+DevOps Engineer=2C Lonely Planet=2C Nashville=2C TN.
+Travel is in the DNA of everyone at Lonelyplanet.com. Call us crazy=2C but=
+ we live travel=2C breathe travel=2C heck we even dream about it sometimes=
+=2E It=E2=80=99s our mission to inspire=2C inform and connect travellers so=
+ we=E2=80=99re building the biggest and best travel site on the planet. Do=
+ you want to help drive the direction of Lonelyplanet.com as part of a tal=
+ented=2C passionate team? Are you raring to work somewhere fast-paced and=
+ fun? We want to hear from you.
+
+https://lonelyplanet.recruiterbox.com/jobs/25251
+
+
+Livestation is the global leader in live streaming TV news=2C and is about=
+ to undertake a major change in strategy. They are now on the look-out for=
+ a senior devop to join the team in London. They are also offering a =C2=
+=A3500 referral fee to any Devops Weekly reader who refers a friend who ge=
+ts hired (why aren't they reading already?!). You can get more details via=
+ emai from paul.robinson@livestation.com
+
+http://www.livestation.com/recruitment#seniordevops
+
+
+Tools
+=3D=3D=3D=3D
+
+dh-virtualenv is a tool that aims to combine Debian packaging with self-co=
+ntained virtualenv based Python deployments. It tries to combine the power=
+ and flexibility of Debian packages with the developer friendliness and fa=
+miliarity with python virtualenv.
+
+http://labs.spotify.com/2013/10/10/packaging-in-your-packaging-dh-virtuale=
+nv/
+https://github.com/spotify/dh-virtualenv
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,157 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#107?=
+Date: Sun, 20 Jan 2013 12:08:21 +0000
+
+DEVOPS WEEKLY
+ISSUE #107 - 20th January 2013
+
+The start of the year has certainly got people busy. Lots of interesting t=
+ools and events in particular this week, so lots of opportunities to meet=
+ up with like minded folks wherever you are. Only two weeks to go too befo=
+re the great Belgium devops roadtrip; PuppetCamp in Ghent, FOSDEM in Bruss=
+els and the monitoringlove hack day in Antwerp.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Every wondered about what to log? This post, the 10 commandments of loggin=
+g, should be sent to every developer or web operations professional and us=
+ed whenever the question comes up. Well worth reading.
+
+http://www.masterzen.fr/2013/01/13/the-10-commandments-of-logging/
+
+
+Nice write-up of going along to the recent Devopsdays New York Event. Focu=
+ses on the community rather than the topics. I'm hoping the London event w=
+ill have more of the big company and financial services folks mixed in wit=
+h the startup crowd.
+
+http://velohacker.com/2013/01/19/thoughts-on-devopsdays-nyc/
+
+
+Ever deployed your application to a PaaS without realising you have failin=
+g tests? Here's a simple pre-deployment hook approach using a new feature=
+ on Azure. The example is using node.js but the pattern should be applicab=
+le to anything.
+
+http://codebetter.com/glennblock/2013/01/19/teach-your-website-new-deploym=
+ent-tricks-with-azure-cli-1-of-xxx-running-mocha-tests/
+
+
+If you like the weekly email newsletter format and have an interest in the=
+ Hadoop ecosystem them the just launched Hadoop Weekly might be of interes=
+t. Good luck to the author with keeping it going.
+
+http://www.hadoopweekly.com/
+
+
+If you use any sort of log aggregation or searching tools then this survey=
+ is looking for your input. 5 minutes of questions on size, volume, backen=
+ds and usage patterns. I'll look out for the results when they are publish=
+ed too.
+
+https://docs.google.com/a/sematext.com/spreadsheet/viewform?formkey=3DdGNK=
+UGVlSEw1RkdsWWZReExaVFhCeUE6MQ
+
+
+Well put argument that configuration belongs to the environments and not t=
+he application. A good before and after developer experience report of goi=
+ng from using Powershell and a hand rolled configuration management setup=
+ to using Puppet on another project.
+
+http://uttamkini.wordpress.com/2013/01/14/configuration-belongs-to-the-env=
+ironment-and-not-to-the-application/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Datadog is looking for a senior DevOps engineer to join the team. Datadog=
+ is a monitoring service that ingests and processes O(10^10) metrics every=
+ day. If you enjoy operations on a large-scale, real-time platform, if you=
+ live and breathe AWS, Chef, Python, Cassandra and the likes, do apply.
+
+http://jobs.datadoghq.com/apply/qyGWBC/Senior-DevOps-Engineer.html
+
+
+Events
+=3D=3D=3D=3D=3D
+
+QCon is back in London from the 4th to the 8th of March. Tutorials and lot=
+s of tracks, including several that should be of interest to readers of th=
+is newsletter. If you're heading along you can use the code RUSH100 and sa=
+ve =C2=A3100 off the price.
+
+http://qconlondon.com/
+
+
+10Gen have lots of Mongo related events coming up around the world and are=
+ on the lookout for speakers. Here's a selection with more on the website:
+
+MongoDB London - April 9 - CFPs due Feb 22
+MongoSF - May 10 - CFPs due March 8
+MongoNYC - June 20 - CFPs due April 19
+
+http://www.10gen.com/events
+
+
+Devops Con is being held in Herzilya, in Israel, on the 28th of January. A=
+ good looking range of talks no continuous deployment, devops culture, con=
+figuration management, logging and some interesting looking case studies.
+
+http://www.devopscon.com/
+
+
+Tools
+=3D=3D=3D=3D
+
+Cubism.js is a javascript plugin for visualising time series data. It look=
+s ideal if you're building dashboards based on Graphite or Cube. The demo=
+ is very pretty and the focus on usefulness and usability is fantastic.
+
+http://square.github.com/cubism/
+
+
+Vaurien is a different take on the chaos monkey. It's a transparent TCP pr=
+oxy that can be installed wherever you're making connections. The magic co=
+mes in with behaviours, which can be triggered with code and do things lik=
+e introduce a delay or increase the latency of the connection.
+
+http://vaurien.readthedocs.org/
+
+
+Tatin is a light-weight in-memory HTTP state machine. It lets you store an=
+d retrieve volatile data using simple PUT and GET requests which might be=
+ useful for various orchestration tasks.
+
+https://github.com/netmelody/tatin
+
+
+Orc is described as a Model driven orchestration framework for continuous=
+ deployment. It combines a git based CMDB with mcollective to ensure appli=
+cations are at the correct version and active on the load balancers.
+
+https://github.com/youdevise/orc/
+
+
+A (paid for) application for iPhone and soon Android, PilotSSH looks an in=
+teresting way of doing remote administration for common tasks. The GitHub=
+ repository of scripts is a neat idea.
+
+http://pilotssh.com/
+https://github.com/Geal/PilotSSH-scripts/
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

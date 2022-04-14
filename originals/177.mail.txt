@@ -1,0 +1,137 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#177?=
+Date: Sun, 25 May 2014 11:45:59 +0000
+
+DEVOPS WEEKLY
+ISSUE #177 - 25th May 2014
+
+Some weeks I spot a definite topic that links many of the posts and tools=
+ together. This week=E2=80=99s content is all over the place; human comput=
+er interaction=2C enterprise adoption=2C complex systems=2C small teams st=
+arting out with automation=2C containers=2C security testing and more. I h=
+ope people enjoy the variety as much as I do.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+It=E2=80=99s only relatively recently I=E2=80=99ve seen anyone talking abo=
+ut actually designing the alerts we receive from our monitoring systems. T=
+his post is a nice introduction with a few good ideas too. The statement=
+ =E2=80=9CSometimes the alerts do little more than tell us that something=
+ went bump=E2=80=9D is definitely true.
+
+http://ryanfrantz.com/posts/alert-design/
+
+
+A great response to the post I included last week about the challenges of=
+ adopting devops practices in traditional enterprises. It=E2=80=99s still=
+ strange to see this playing out in the Wall Street Journal.
+
+http://blogs.wsj.com/cio/2014/05/22/enterprise-devops-adoption-isnt-mandat=
+ory-but-neither-is-survival/
+
+
+A nice presentation extolling the benefits of instrumentation combined wit=
+h documentation when operating complex systems.
+
+http://www.slideshare.net/BrianTroutwine1/instrumentation-as-a-living-docu=
+mentation-teaching-humans-about-complex-systems
+
+
+A presentation all about Google=E2=80=99s use of containers. So mind blowi=
+ng numbers (Google starts 2 billion containers every week). Also includes=
+ reference to some new tools and upcoming features of Google Compute Engin=
+e.
+
+https://speakerdeck.com/jbeda/containers-at-scale
+
+
+A good story of moving from a small team with mainly manual deployment pro=
+cesses to something more automated=2C and the advantages that brought.
+
+http://www.localytics.com/blog/2014/on-the-road-to-continuous-delivery-at-=
+localytics/
+
+
+An interesting insight into the state of graphite backends. A good descrip=
+tion of what an ideal backend might look light and some initial investigat=
+ions using influxdb.
+
+http://dieter.plaetinck.be/on-graphite-whisper-and-influxdb.html
+
+
+A solid definition of what microservices are; based on ownership of a simp=
+le domain=2C a separate data store=2C running in separate processes and co=
+mmunicating via defined interfaces.
+
+http://www.brunton-spall.co.uk/post/2014/05/21/what-is-a-microservice-and-=
+why-does-it-matter/
+
+
+A call to arms to ensure automated deployment pipelines do not ignore the=
+ manual process of code reviews. Some good arguments.
+
+http://infiniteundo.com/post/80206050879/do-you-do-code-review
+
+
+The second devops flavoured card game in a few weeks. Release! is a game l=
+ooking to raise funds on Kickstarter. It=E2=80=99s intended to be a light=
+ hearted take on release engineering and continuous delivery.
+
+https://www.kickstarter.com/projects/627324241/release-the-game
+
+
+
+Jobs
+=3D=3D=3D=3D
+
+Codility is looking for a System Administrator who will herd daemons and w=
+ard the Evil off our systems. It is a place for you if you want to join a=
+ growing and dynamic start-up=2C winner of Seedcamp competition=2C and con=
+tribute to our very active Dev Team that practices continuous delivery. We=
+ help companies test coders and we improve programming skills worldwide. H=
+elp us grow!
+
+https://codility.com/jobs/?gh_jid=3D12502&src=3Ddow
+
+
+
+Tools
+=3D=3D=3D=3D
+
+Container agent is a tool for launching a set of containers based on a sim=
+ple manifest file. Although designed for Google Compute Engine it appears=
+ like it should work anywhere. The documentation contains lots of good exa=
+mples.
+
+https://github.com/GoogleCloudPlatform/container-agent
+
+
+Radial is described as being intended to help understand=2C record=2C and=
+ put into practice the intersection between Twelve-Factor App best-practic=
+es and Docker features. It=E2=80=99s provides a defined language as well a=
+s examples of how to compose a set of containers.
+
+https://github.com/radial/docs
+
+
+An OWASP project=2C Mantra is a browser for use when auditing the security=
+ of web applications. Under the hood it=E2=80=99s Firefox with a large num=
+ber of very useful plugins=2C from traffic capture to XSS scanners.
+
+http://www.getmantra.com/index.html
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

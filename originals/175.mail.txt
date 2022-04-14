@@ -1,0 +1,184 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#175?=
+Date: Sun, 11 May 2014 14:02:08 +0000
+
+DEVOPS WEEKLY
+ISSUE #175 - 11th May 2014
+
+A pretty packed issue this week=2C mainly due to all the excellent content=
+ from the recent Monitorama conference in Portland. As well as lots of mon=
+itoring we=E2=80=99ve got the usual mix of tools=2C workflow=2C culture an=
+d stories.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A presentation that frames Devops as a banner for the creative disruption=
+ going on at the moment around IT. Lots of interesting stuff here=2C I=E2=
+=80=99m hoping that I can find a video of this talk.
+
+http://www.slideshare.net/littleidea/devopsdays-austin-no-true-devops
+
+
+Cron is one of those easy to use but potentially hard to manage tools. Thi=
+s presentation introduces Crontabber=2C a python tool intended to make dep=
+endency management=2C testing=2C visualisation and just writing cron jobs=
+ easier.
+
+http://www.chesnok.com/daily/2014/05/06/the-final-crontab-an-introduction-=
+to-crontabber/
+
+
+Starting out with a very clear description of the what and the why of cont=
+inuous delivery this presentation covers pipeline design focused on testin=
+g. Rather than talk about tools it focuses nicely on patterns and principl=
+es.
+
+http://www.slideshare.net/TomasRiha/continuous-delivery-testing-hi-q
+
+
+A very nice post about the importance of designing code for maintainabilit=
+y=2C specifically paying attention to what diffs of changes look like. The=
+ examples are in Chef but the theory is sound for anything that=E2=80=99s=
+ declarative.
+
+http://opsunit.com/blog/2013/09/03/obscure-languages-and-chef-resource-not=
+ifications/
+
+
+A good topic of conversation when it comes to growing teams and codebases=
+ is how to manage change. Pull requests are the default GitHub answer but=
+ this post makes some good points about the advantages of tools like Phabr=
+icator for different workflows.
+
+http://cramer.io/2014/05/03/on-pull-requests/
+
+
+A presentation introducing the Metrics 2.0 standardisation effort. Covers=
+ the problem (naming things is hard) and lays out the proposed solution an=
+d some of the tools already using this
+
+http://www.slideshare.net/Dieterbe/metrics20-34319840
+
+
+A good reminder that the complexity of combining all of the open source mo=
+nitoring tools isn=E2=80=99t practical or likely a good idea for lots of s=
+mall teams. A good example of a real world monitoring setup.
+
+http://www.slideshare.net/bridgetkromhout/from-zero-to-visibility
+
+
+A short talk on a nifty use of Serverspec=2C integrating it with Sensu for=
+ monitoring. The trick using the sensu socket and creating alerts on the f=
+ly is very nice.
+
+http://www.slideshare.net/m_richardson/serverspec-and-sensu-testing-and-mo=
+nitoring-collide
+
+
+Lots of monitoring tools and talks are starting to take advantage of all t=
+hat maths we learned at school. This talk is a nice primer=2C aimed at ope=
+rations teams=2C looking at signal processing and filters.
+
+https://speakerdeck.com/coderanger/is-there-an-echo-in-here-signal-analysi=
+s-for-ops-with-notes
+
+
+Lots of the above posts come via the recent Monitorama conference. This ne=
+xt post is part observation based on the conference conversation=2C but al=
+so a call to arms. Are we building tooling aimed at the problems applicati=
+on developers have? And more specifically can we stop making everything a=
+ strip chart?
+
+http://fractio.nl/2014/05/10/rethinking-monitoring/
+
+
+Cluster aware management tools appear to be of interest to lots of people=
+ at the moment. This post and presentation describe Skynet. It=E2=80=99s n=
+ot open source yet but nicely describes the thinking behind building a sim=
+ple tool to do this.
+
+http://engineering.slideshare.net/2014/04/skynet-project-monitor-scale-and=
+-auto-heal-a-system-in-the-cloud/
+
+
+
+Jobs
+=3D=3D=3D=3D
+
+Target is seeking a Sr. Release Engineer to join our team. Requires BA/BS=
+=2C 7-9 years of experience=2C and in-depth knowledge of state-of-the-art=
+ engineering technical approaches in design=2C build=2C testing=2C debuggi=
+ng problems as required by domain. Target offers a world of possibilities=
+ in an environment that will encourage you to innovate and contribute idea=
+s. Join a company that=E2=80=99s always moving forward to what=E2=80=99s n=
+ext.
+
+http://jobs.target.com/minneapolis/information-technology/jobid4978188-sr.=
+-release-engineer-jobs
+
+
+Odecee are Hiring! We=E2=80=99re looking for Lead and Senior Build/Ops/Dev=
+Ops Engineers to join our Melbourne and Sydney teams. Be an expert among e=
+xperts and consult to some of Australia largest enterprises and projects.=
+ Australian citizens/residents are encourage to apply. s457 business visa=
+ sponsorship may be considered for a Lead role but only where all selectio=
+n criteria are met.
+
+https://www.smartrecruiters.com/Odecee/
+
+
+
+Events
+=3D=3D=3D=3D=3D
+
+DevOpsDays Brisbane=2C Australia is on the 25th and 26th of July at the Br=
+isbane Convention & Exhibition Centre. Tickets are now on sale and a call=
+ for proposals is open until the 14th of June. Keynote speaker is Dr Sidne=
+y Dekker. Apparently July is the perfect time for a holiday at the close-b=
+y Great Barrier Reef!
+
+http://www.devopsdays.org/events/2014-brisbane
+
+
+
+Tools
+=3D=3D=3D=3D
+
+Packetbeat looks like a very nice new open source application monitoring a=
+nd packet tracing system. A lovely Kibana based interface and agents which=
+ can detect various types of traffic once installed make for a very simple=
+ getting started experience.
+
+http://packetbeat.com/
+
+
+A neat approach to managing users in a large GitHub organisation. Provides=
+ tools for auditing users=2C ensuring two factor authentication is enabled=
+ and providing reporting of issues.
+
+https://github.com/guardian/gu-who
+
+
+Managing multiple different git hooks across multiple repositories for sel=
+f-hosted git repos can be a pain. cpthook aims to make that easier=2C movi=
+ng the configuration into a simple YAML file and providing a command line=
+ to manage the hooks.
+
+http://cpthook.com/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

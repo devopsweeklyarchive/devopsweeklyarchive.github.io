@@ -1,0 +1,95 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#143?=
+Date: Sun, 29 Sep 2013 15:29:26 +0000
+
+DEVOPS WEEKLY
+ISSUE #143 - 29th September 2013
+
+A little late again today as I spent the morning travelling to Denmark for=
+ GOTO. If anyone is around for the next few days in the lovely town of Aar=
+hus do let me know.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+A good break down of the pros and cons of completely automating your deplo=
+yment pipeline. Sometimes it makes sense to remove people completely from=
+ deployment decisions and sometimes it doesn=E2=80=99t.
+
+http://mayerdan.com/programming/2013/08/04/thoughts-on-continuous-deployme=
+nt
+
+
+Not all packages need to be present in the distro package repositories. A=
+ well argued case for why adhering to upstream guidelines isn=E2=80=99t al=
+ways a good idea=2C and why monolithic packages that vendor everything are=
+ useful.
+
+http://blog.lusis.org/blog/2013/09/23/stop-fighting-distros-part-2/
+
+
+A code heavy introduction to ansible from the recent PyCon UK conference.=
+ Short=2C but shows the command line=2C YAML and Python sides to Ansible.
+
+http://www.insom.me.uk/post/pycon-talk.html
+
+
+Talk of software defined networks in the context of developers or operatio=
+ns folks is something I think we=E2=80=99ll see a lot more of. Here=E2=80=
+=99s a good discussion from the latest devops cafe podcast.
+
+http://devopscafe.org/show/2013/9/28/devops-cafe-episode-42.html
+
+
+Docker is moving towards supporting other operating systems. This post des=
+cribes experimental Fedora support=2C and walks though a few configuration=
+ tweaks as well as a basic introduction to docker.
+
+http://goldmann.pl/blog/2013/09/25/docker-and-fedora/
+
+
+Always good to see monitoring tools being discussed at developer conferenc=
+es. This talk=2C all about Sensu comes from the recent Drupal conference i=
+n Prague. Lots of good exampes=2C especially if you=E2=80=99re a PHP or Dr=
+upal developer.
+
+https://prague2013.drupal.org/session/agile-monitoring-sensu
+
+
+A nice list of 7 habits of developers and operations teams that help with=
+ adopting a devops approach. Common themes but very succinctly put.
+
+http://www.infoq.com/news/2013/09/7-devops-habits
+
+
+An older post=2C but relevant to my Monitorama talk last week. This post d=
+escribes using logstash and grok filters to provide a useful tool for inte=
+rpreting OSSEC logs.
+
+http://ddpbsd.blogspot.dk/2011/10/3woo-you-got-your-ossec-in-my-logstash_2=
+6.html
+
+
+Tools
+=3D=3D=3D=3D
+
+Structlog is an extension to the existing python logging infrastructure to=
+ provide more structure=2C in this case key/value pairs to log data=2C som=
+ething that was much discussed at Monitorama.
+
+http://www.structlog.org/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

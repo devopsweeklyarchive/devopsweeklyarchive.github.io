@@ -1,0 +1,139 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#110?=
+Date: Sun, 10 Feb 2013 11:13:27 +0000
+
+DEVOPS WEEKLY
+ISSUE #110 - 10th February 2013
+
+Logstash, one of the tools I've featured quite a few times in this newslet=
+ter has a book available, and a self published one at that. I'd love to se=
+e more self publishing around emerging tools and topics from the devops co=
+mmunity. Traditional publishing is hard in such a fast moving environment,=
+ but being able to read a book rather than a blog post can really help wit=
+h understanding a new tool or topic.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+The logstash book has been released! I read this coming back from FOSDEM a=
+nd it's well worth spending some time with. It covers why log management i=
+s important, how to get started with logstash and just as interestingly ho=
+w to scale up and how to make decisions about the different logstash compo=
+nents.
+
+http://www.logstashbook.com/
+
+
+Platform as a Service architectures are interesting (at least to me), and=
+ this post, the first in a series, starts to dissect the inner workings of=
+ CloudFoudry. This post covers how the application is run with lots of cod=
+e examples and by running one of the CloudFoundry components on it's own.
+
+http://starkandwayne.com/articles/2013/02/05/diy-paas-running-apps-with-a-=
+dea/
+
+
+Goo list of handy one-liners for knife, the chef command line tool. A mix=
+ of search tips and exec hacks, if you understand all of these you'll prob=
+ably be able to adapt them for lots of other uses too.
+
+http://dougireton.com/blog/2013/02/03/knife-tricks/
+
+
+An old post (from 2009) but worth reading amongst the recent spate of vuln=
+erabilities. This covers timing attacks, and is probably the clearest (and=
+ scariest) description I've read of what's quite an interesting attack vec=
+tor for certain systems.
+
+http://codahale.com/a-lesson-in-timing-attacks/
+
+
+Even the skeptics are coming round to the Devops ideas it seems. Good post=
+ on how ITIL and other more traditional approaches can be seen in terms of=
+ Devops. Looking forward to more details.
+
+http://www.itskeptic.org/content/unified-theory-itsm-reconciling-devops-an=
+d-itil
+
+
+Interesting presentation from the recent Monkigras conference, on what the=
+ big data and data science community can learn from the devops movement. T=
+he phrase "analysis as code" should hopefully stick in the same way as inf=
+rastructure as code has done.
+
+http://www.slideshare.net/dberkholz/data-science-devops-and-drinks-the-per=
+fect-combination
+
+
+Another survey, this one focusing on operations productivity. It's 25 ques=
+tions and the plan is to release the resultings in a month or so.
+
+https://www.surveymonkey.com/s/productivity-survey
+
+
+Some good tips on network tuning, nginx configuration and debugging perfor=
+mance issues around a simple but high throughput node.js application. Most=
+ of it should be relevant for anyone proxying to evented applications.
+
+https://engineering.gosquared.com/optimising-nginx-node-js-and-networking-=
+for-heavy-workloads
+
+
+Jobs
+=3D=3D=3D=3D
+
+Red Gate Software are looking for a DevOps Engineer to join their team. In=
+ the next year, Red Gate's infrastructure will undergo more change than in=
+ the previous five. They're committed to the cloud, to the blurring of the=
+ line between developer and sysadmin, to automation and the move towards i=
+nfrastructure as code, and to monitoring as the foundation of responsive i=
+nfrastructure. If you're some peripatetic hybrid of developer and sysadmin=
+, imbued with a depth of understanding of how this cool stuff can work for=
+ a mature company, then go and help them build it. Simply upload your CV a=
+nd cover letter to apply.
+
+http://www.red-gate.com/our-company/careers/current-opportunities/devops-e=
+ngineer
+
+
+Events
+=3D=3D=3D=3D=3D
+
+A Chef fundamentals training event is coming up on the 26th and 27th of Fe=
+bruary in Berlin. If you're interested you can get a 75 Euro discount usin=
+g the code CBCHEF-Q28.
+
+http://de.amiando.com/cheftraining.html
+
+
+Tools
+=3D=3D=3D=3D
+
+Interesting plugin for Vagrant. This uses the ZFS filesystem to make snaps=
+hots of virtual machines, and claims to drastically improve the first boot=
+ time.
+
+https://github.com/larstobi/vagrant-zfs
+
+
+Monigusto is an integrated suite of monitoring tools, packaged as a series=
+ of Chef recipes and a vagrant configuration. It looks a great starting po=
+int if you want to experiment with a pre-configured monitoring stack.
+
+https://github.com/monigusto
+
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

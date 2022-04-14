@@ -1,0 +1,127 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#135?=
+Date: Sun, 4 Aug 2013 08:44:28 +0000
+
+DEVOPS WEEKLY
+ISSUE #135 - 4th August 2013
+
+A bunch of interesting technology posts and tutorials this week along with=
+ a scattering of process and business content. In the tools section Minion=
+ (from Mozilla) and Wraith (from the BBC) are interesting new open source=
+ releases, it=E2=80=99s nice to see larger companies open sourcing quite s=
+ubstantial tools like these recently.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Nice setup which can launch the required project dependencies when you cd=
+ into a directory. The example uses docker, but the secret sauce is the ex=
+cellent Autoenv.
+
+http://livingintheshell.com/docker-autoenv-super-magic-automated-developme=
+nt-environment.html
+
+
+Good video discussion about enabling infrastructure optimisation and speed=
+ing up organisations. Focuses on the benefits of simplicity and the import=
+ance of applying that to organisations as well as IT systems.
+
+http://redmonk.com/jgovernor/2013/08/01/do-we-need-to-radically-simplify-i=
+nfrastructure-in-order-to-do-devops-goodness/
+
+
+A nice discussion of the composable vs contextual argument applied to proc=
+esses. Comparing Six-Sigma, ITIL, RUP, Scrum and the like as contextual vs=
+ composable patterns like version control, development environment automat=
+ion and standups.
+
+http://blog.ingineering.it/post/56439616564/are-your-it-practices-composab=
+le-or-contextual
+
+
+Nice writeup of how Etsy rollout infrastructure changes with Chef to about=
+ 1000 nodes. Focuses on a continuous delivery pipeline and discusses the s=
+pecific tools that make it safe for 30 or more people to make very frequen=
+t changes.
+
+http://codeascraft.com/2013/08/02/infrastructure-upgrades-with-chef/
+
+
+Where to start learning about systems administration and operations? This=
+ report card provides 32 questions you can ask to access the maturity of y=
+our organisation, along with an essay about each one.
+
+http://www.opsreportcard.com/
+
+
+An interesting interview about devops adoptions, focused on how things are=
+ changing in the largest traditional enterprises. It=E2=80=99s still incre=
+dibly interesting to me that the same thing is being discussed from startu=
+ps to oil companies.
+
+http://diginomica.com/2013/07/24/devops-cloud-pesky-it-business-gap/
+
+
+CoreOS is describing itself as a new way to think about servers, or as Lin=
+ux for the container world. Simply put it=E2=80=99s a very minimal locked=
+ down distro which integrates with docker and provides some useful distrib=
+uted primitives. Baking raft based consensus into the OS is probably the t=
+hing that got my attention the most.
+
+http://coreos.com/
+
+
+A pretty comprehensive step-by-step walkthrough of automatically adding mo=
+nitoring checks in Icinga to nodes managed by Puppet. Stored configs can b=
+e tricky so having a detailed tutorial could be handy.
+
+http://solderintheveins.co.uk/2013/07/automated-node-monitoring-with-puppe=
+t-and-icinga/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+If you=E2=80=99re interested in learning how to use Chef and you can get t=
+o Munich on the 12th and 13th of September, this Chef Fundamentals cource=
+ might be of interest. The folks behind it are offering a 100 euro discoun=
+t to Devops Weekly readers too.
+
+http://www.eventbrite.de/event/7310169915?discount=3DDEVOPSWEEKLY
+
+
+Tools
+=3D=3D=3D=3D
+
+Automating testing of CSS is hard and little done outside syntax checking.=
+ Which makes wraith particularly interesting. It automates before and afte=
+r screenshots, and creates a diff image which highlights changes. It=E2=80=
+=99s intended to make testing across many devices and resolutions much fas=
+ter.
+
+https://github.com/BBC-News/wraith
+http://responsivenews.co.uk/post/56884056177/wraith
+
+
+Minion is a newish security testing framework. It provides the glue which=
+ ties together a number of testing tools (currently skipfish, nmap and owa=
+sp zap) to try and make things more visible across a development team.
+
+https://github.com/mozilla/minion
+https://blog.mozilla.org/security/2013/07/30/introducing-minion/
+
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

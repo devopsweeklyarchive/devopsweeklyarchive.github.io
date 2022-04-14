@@ -1,0 +1,140 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#168?=
+Date: Sun, 23 Mar 2014 10:28:37 +0000
+
+DEVOPS WEEKLY
+ISSUE #168 - 23rd March 2014
+
+Lots of talk of testing and of organisation design at the moment in the de=
+vops community=2C at least based on posts I read this week. Also I=E2=80=
+=99m seeing more people talk about how we change to adopt devops practices=
+=2C rather than just what those practices are. Anyone with a good stories=
+ please write them up and send me the links.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+#ChefConf is less than a month away and the workshops are filling up fast=
+=2C get your ticket today! Save 10% with discount code DEVOPSWEEKLY
+
+http://chefconf.com
+
+
+News
+=3D=3D=3D=3D
+
+I=E2=80=99ve mentioned serverspec quite a lot recently and here=E2=80=99s=
+ another post with lots of good advanced tips and examples. The approach t=
+o listing hosts is a nice counter example to the default directory setup.
+
+http://vincent.bernat.im/en/blog/2014-serverspec-test-infrastructure.html
+
+
+For all statsd=E2=80=99s simplicity it=E2=80=99s quite a powerful little t=
+ool for collecting metrics. This post does a good job of explaining what i=
+t=E2=80=99s actually doing and includes a few common misunderstandings and=
+ gotchas.
+
+http://blog.librato.com/posts/statsd
+
+
+Lots of devops is about communication and sharing=2C and in most organisat=
+ions this is often driven by the structure of that organisation. This post=
+ makes a number of good points about organisation design and provides a nu=
+mber of examples of team composition.
+
+http://theagileadmin.com/2014/03/12/agile-organization-incorporating-vario=
+us-disciplines/
+
+
+Scale Summit was a one day unconference held in London last week=2C all ab=
+out operating and building systems at scale. Lots of topics were discussed=
+ and this post has detailed notes about some of them. Monitoring=2C mentor=
+ing=2C what happened in the last year and a run down of the lightning talk=
+ topics.
+
+https://gist.github.com/philandstuff/9684513
+
+
+Interesting observations from attending an ITIL event followed by a Devops=
+ event. The call for the devops community to focus more on how to change=
+=2C as well as what to change to=2C is a good one.
+
+http://www.serena.com/blog/2014/03/using-a-devops-compass-with-an-itil-map=
+/
+
+
+One of the advantages of continuous integration is having one shared place=
+ to do things - for this next post that=E2=80=99s to collect useful metric=
+s. Quite a lot of detail about the types quality metrics you can collect a=
+s part of a pipeline=2C including some examples of why it=E2=80=99s a usef=
+ul idea.
+
+http://apmblog.compuware.com/2014/03/13/software-quality-metrics-for-your-=
+continuous-delivery-pipeline-part-i/
+
+
+Adding performance testing to continuous integration pipelines can be tric=
+ky - deciding when to run them=2C for how long and determining what to ass=
+ert on isn=E2=80=99t as simple as lots of other types of testing. This pre=
+sentation shows an example from one organisation doing this successfully.
+
+http://prezi.com/ro1dcu09ng-y/performance-testing-in-continuous-integratio=
+n-environments/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Skyscape Cloud Services is recruiting a whole host of developer=2C DevOps=
+ and Platform-as-a-Service roles as it quickly expands its footprint in th=
+e UK Public Sector. It=E2=80=99s the place to be if you want to help build=
+=2C automate and scale a massive secure cloud platform or help introduce n=
+ew products based on Cloud Foundry.
+
+http://www.skyscapecloud.com/about/careers
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Flowcon=2C the continuous delivery conference=2C is in September in San Fr=
+ancisco. The call for proposals closes tonight at midnight PST and the org=
+anisers are looking for talks on using lean product development and adopti=
+ng continuous design=2C delivery=2C and devops.
+
+http://flowcon.org/flowcon-sanfran-2014/submit
+
+
+Tools
+=3D=3D=3D=3D
+
+A very handy tool for anyone using Nginx=2C ngxtop will give you a real ti=
+me view of traffic=2C popular URLs=2C status codes=2C requests per second=
+=2C popular source addresses and more. See the sample output for examples.
+
+https://github.com/lebinh/ngxtop
+
+
+Graphite-api is a minimalistic API server that replicates the behavior of=
+ the graphite web interface. Useful for building dashboards or other tooli=
+ng on top of=2C without having to run a database or larger web application=
+=2E
+
+https://github.com/brutasse/graphite-api
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

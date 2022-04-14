@@ -1,0 +1,132 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#127?=
+Date: Sun, 9 Jun 2013 10:06:16 +0000
+
+DEVOPS WEEKLY
+ISSUE #127 - 9th June 2013
+
+Much of the evidence we have at present for the benefits of Devops is pers=
+onal or anecdotal. So it's good to see more surveys and numbers from lots=
+ of projects about successes and failures. What I'd love to see however is=
+ real hard research - if anyone knows about any interesting ongoing resear=
+ch projects do let me know.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+If you're at all interested in designing or building distributed systems y=
+ou owe it to yourself to read this post. It covers lots of real world expe=
+riences in large systems an points to reports and academic papers to conti=
+nue reading.
+
+http://aphyr.com/posts/288-the-network-is-reliable
+
+
+A call to people who feel that Devops is a job title to define what it is=
+ that makes that role different, and not just another silo. As well as tha=
+t useful call to action, it's a good old rant that I happen to agree with.
+
+http://blog.lusis.org/blog/2013/06/04/devops-the-title-match
+
+
+I'm a little bit obsessed with both dashboards and with the raspberrypi co=
+mputer so this post caught my eye. It shows how to setup a raspberrypi as=
+ a wireless dashboard, using the dashing framework. Lots of good examples=
+ and the low level instructions. Ripe for someone to script all of this to=
+o.
+
+https://gocardless.com/blog/raspberry-pi-metric-dashboards/
+
+
+An interesting set of survey results, looking at time spent on various act=
+ivities within teams that self describe as taking a Devops approach and th=
+ose that don't. Some interesting conclusions and analysis.
+
+http://devops.com/2013/06/04/fresh-stats-comparing-traditional-it-and-devo=
+ps-oriented-productivity/
+
+
+A post counter to the argument that Devops as a role is always a bad think=
+=2E Personally I don't buy the argument. The claim that "Instead, the mandat=
+e should be to focus on people and goals" is to me what management is abou=
+t, not a need for a Devops team.
+
+http://www.activestate.com/blog/2013/06/devops-job-title-so-bad
+
+
+Vagrant now has a book all about it, called Vagrant: Up and Running from O=
+'Reilly and written by the author of Vagrant, Mitchell Hashimoto. Especial=
+ly if you're helping introduce Vagrant into a new team having an official=
+ publication should make this easier.
+
+http://shop.oreilly.com/product/0636920026358.do
+
+
+The topics around Devops seem to be much discussed in the world of Network=
+ Engineering at the moment, this post discussing how the traditional netwo=
+rk roles might change as more things are automated. I still think the Netw=
+ork arena is likely to see some really interesting technology come out in=
+ the next year or so.
+
+http://www.plexxi.com/2013/06/the-death-of-network-engineer-long-live-netw=
+ork-engineers/
+
+
+A nice argument for using configuration management tools to manage your ap=
+plication stack. The post then goes on to discuss different ways of using=
+ Chef, and is a good starting point for anyone starting to research the pr=
+oblem.
+
+https://www.bluebox.net/about/blog/2013/06/responsive-infrastructure-with-=
+opscode-chef-an-introduction/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Sky Betting & Gaming are looking for DevOps engineers for roles in Leeds.=
+  We have lots to do and need good people to come and join us.  We've got=
+ a very fast-moving environment and we're trying to automate and grow to m=
+eet the pace of change.  We have a mixture of sysadmins and developers in=
+ our team.  Take a look and see if it's for you:
+
+https://bskyb.taleo.net/careersection/corporate/jobdetail.ftl?lang=3Den&jo=
+b=3D11924
+
+
+Events
+=3D=3D=3D=3D=3D
+
+If you're in London and can make the Shorditch area then a new event, Devo=
+ps in the ditch, is due to kick off on Tuesday the 18th of June at Strongr=
+oom Bar and Kitchen. This event is mainly an informal meetup to find out w=
+hat topics people are interested in for future talk events.
+
+http://www.meetup.com/DevOps-in-the-ditch/
+
+
+Tools
+=3D=3D=3D=3D
+
+If you want to try out the latest version of CloudFoundry and are familiar=
+ with Vagrant then this project may be of interest. As well as installing=
+ all the individual components it provides several scripts to make getting=
+ started easier.
+
+https://github.com/Altoros/cf-vagrant-installer
+
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

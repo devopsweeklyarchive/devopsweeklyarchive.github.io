@@ -1,0 +1,158 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#129?=
+Date: Sun, 23 Jun 2013 10:38:15 +0000
+
+DEVOPS WEEKLY
+ISSUE #129 - 23rd June 2013
+
+Another bumper issue; lots of talks, news, discussion and tools to keep pe=
+ople busy this week. I'm on the lookout for content from Devopsdays Santa=
+ Clara which finished yesterday. If you made it along and have any good li=
+nks do let me know.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+One area of development that's often been quite separate from the devops m=
+ovement is front-end engineerings. This post proposes that increasingly th=
+ere is lots of work for a front-end operations engineer around build proce=
+sses, performance, measurement and automation.
+
+http://www.smashingmagazine.com/2013/06/11/front-end-ops/
+
+
+I mentioned the new Etsy anomaly detection stack Kale, Skyline and Oculus=
+ last issue. Here's the presentation which introduced it at Velocity. Lots=
+ of details about how it works under the hood and the performance challeng=
+es of all those metrics.
+
+https://speakerdeck.com/astanway/bring-the-noise-continuously-deploying-un=
+der-a-hailstorm-of-metrics
+
+
+Managing risk is an increasingly important thing to understand when buildi=
+ng complex systems. This talk, by Johan Bergstrum at the recent Velocity c=
+onference, covers What, Where And When Is Risk In System Design.
+
+http://www.youtube.com/watch?v=3DPb_zYs8G6Co
+
+
+Packaging software for inclusion in operating systems is often a thankless=
+ task, but this post does make some good points about the benefits of more=
+ monolithic packages including dependencies over the desire to split every=
+thing up.
+
+http://vagabond.github.io/2013/06/21/z_packagers-dont-know-best/
+
+
+If monolithic packages are of interest one way of building them is using t=
+he Omnibus tool from Opscope, which I've mentioned before. Here's a nice t=
+utorial on how to use it.
+
+http://blog.scoutapp.com/articles/2013/06/21/omnibus-tutorial-package-a-st=
+andalone-ruby-gem
+
+
+Atlassian have developers and operations engineers all around the world an=
+d this next link is an interesting recorded discussion about devops in dis=
+tributed teams. Lots of practical tips and challenges.
+
+http://blogs.atlassian.com/2013/06/devops-distributed-teams/
+
+
+Good presentation giving a great introduction to monitoring. Includes defi=
+nitions, what to monitor and how, common mistakes and shows how important=
+ monitoring high level business value is.
+
+http://www.slideshare.net/postwait/monitoring-and-observability-23201316
+
+
+A good writeup of the general pattern of immutable servers, launching new=
+ instances when changes are required rather than upgrading existing machin=
+es. A name might make discussing this idea easier too.
+
+http://martinfowler.com/bliki/ImmutableServer.html
+
+
+A nice and simple introduction to using Nginx aimed mainly at developers.=
+ Nginx configuration is amazingly powerful, and easy to pick up once you u=
+nderstand the basics.
+
+http://carrot.is/coding/nginx_introduction
+
+
+If you like diagrams and you like Chef then here's a stencil of the Chef p=
+rimitives (roles, nodes, data bags, etc.) for use with OmniGraffle.
+
+https://www.graffletopia.com/stencils/701
+
+
+Jobs
+=3D=3D=3D=3D
+
+TIM Group are looking for a Senior Linux Systems Administrator/Operations=
+ "DevOps" Engineer to join our team in London or Boston. The ideal candida=
+te would be passionate about refining and perfecting the way web applicati=
+ons are deployed and managed, and with the mixed sysadmin/development skil=
+ls to help us advance the state of the art. We offer a fun, challenging, a=
+nd rewarding working environment with the opportunity to build an awesome=
+ career... and up to =C2=A370k, extensive benefits, and assistance in relo=
+cation for this role.
+
+http://www.timgroup.com/careers/current-vacancies/senior-devops
+
+
+Tools
+=3D=3D=3D=3D
+
+Ever been interested in what changed visually on your site after a release=
+? dpxdt provides tools for taking screenshots, and providing a diff to sho=
+w only those screens that have changed.
+
+https://github.com/bslatkin/dpxdt
+https://dpxdt-test.appspot.com/
+
+Salmon is an interesting approach to a simple monitoring system that uses=
+ the Salt configuration management tool for much of the data.
+
+https://github.com/lincolnloop/salmon
+
+
+Testing against non-production environments with real traffic can be trick=
+y. Gor is a new tool that collects and then can replay traffic in real-tim=
+e against multiple environments, ideal for load testing.
+
+https://github.com/buger/gor
+http://leonsbox.com/blog/2013/06/04/improving-testing-by-using-real-traffi=
+c-from-production/
+
+
+Maintaining a large number of Jenkins jobs using the web based interface c=
+an get a little time consuming. This plugin provides a simple domain speci=
+fic language for defining jobs, making automation much easier.
+
+https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin
+
+
+If you already have a set of configured servers moving to using configurat=
+ion management tools like Puppet can seem a lot of work. Pysa is a new too=
+l that aims to generate Puppet code based on the existing configuration of=
+ a running server. Maybe a good way of seeing value quickly.
+
+http://www.madeiracloud.com/blog/introducing-pysa-reverse-your-servers-con=
+figurations
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,133 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#202?=
+Date: Sun, 16 Nov 2014 11:33:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #202 - 16th November 2014
+
+With all the renewed interest in Windows automation recently=2C I just wan=
+ted to say congratulations to Rob Reynolds on the success of the Chocolate=
+y Kickstarter. https://chocolatey.org/ is apt-get or yum for Windows and a=
+ great example of the open source community making Windows better.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+We=E2=80=99re a week away from the New Directions in Operating Systems con=
+ference=2C so this post is particularly relevant. It=E2=80=99s a good intr=
+oduction to unikernels and why we=E2=80=99ll likely see lots of change in=
+ the operating system space in the next year or so.
+
+https://medium.com/@darrenrush/after-docker-unikernels-and-immutable-infra=
+structure-93d5a91c849e
+
+
+A look under the hood of how Netflix get maximum performance from running=
+ on EC2. Lots of information and tips on everything from choosing instance=
+ types to kernel tuning and managing costs.
+
+http://www.slideshare.net/brendangregg/performance-tuning-ec2-instances
+
+
+A good post questioning whether you need a large framework for system test=
+ing. I=E2=80=99ve definitely seen the issues described here.
+
+http://codedetective.blogspot.co.uk/2014/09/do-you-really-need-test-framew=
+orks.html
+
+
+A video and slide deck telling the Instagram scaling story=2C from a singl=
+e server to AWS and then to Facebook. Nicely focuses on lots of human stor=
+ies as well as the organisation grew.
+
+https://opbeat.com/blog/posts/how-we-scaled-instagram-mike-krieger/
+
+
+A great looking presentation entitled =E2=80=9CThe Hidden Drivers of Devop=
+s and Continuous Delivery=E2=80=9D=2C lots of good points about culture=2C=
+ empathy=2C management and human error.
+
+http://slidr.io/roidrage/the-hidden-drivers-of-devops-and-continuous-deliv=
+ery#46
+
+
+A nice post relating culture=2C automation and measurement to the desire t=
+o operationalize our systems.
+
+https://devcentral.f5.com/articles/just-what-does-operationalize-mean-anyw=
+ay
+
+
+Increasing the frequency of deployments means getting over the fear of shi=
+pping code to production. This post describes one organisation's experienc=
+es with using architecture choices=2C monitoring and testing to get over t=
+hat fear.
+
+http://tech.ticketmaster.com/2014/11/14/fear-and-paranoia-in-a-devops-worl=
+d/
+
+
+We can all probably agree on the value of automated testing=2C but moving=
+ an existing product or team to new ways of working is difficult. So real=
+ world stories like the following are interesting.
+
+http://servicemanagement360.com/2014/11/13/building-culture-test-automatio=
+n-journey-devops/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Ooyala is hiring Network Engineers to help design and scale  the network i=
+nfrastructure in our private OpenStack and cloud (Azure and AWS) environme=
+nts.  Automate  our routing and switching (http://bit.ly/10jgk37) infrastr=
+ucture with Chef and other configuration management tooling to allow us to=
+ scale quickly.  The solutions and tooling you build will be used to power=
+ video on some of your favorite websites.
+
+https://hire.jobvite.com/j?aj=3Do0auZfwn&s=3DDevOps_Weekly.
+
+
+MediaMath is looking for an SRE to help build and manage our infrastructur=
+e and data centers across four continents. Our SREs are front-and-center i=
+n the effort to design=2C build=2C and keep our distributed services fast=
+ and reliable=2C 100% of the time. If the stability and performance of rea=
+l-time=2C global systems sounds like an exciting challenge=2C join our tea=
+m.
+
+https://careers-mediamath.icims.com/jobs/1538/site-reliability-engineer---=
+techops/job
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Bosun is an all-in-one monitoring system backed by OpenTSDB. It provides a=
+lerting=2C time series data collection and visualisation as well as metric=
+ collection. It also treats both Linux and Windows as first class citizens=
+=2E
+
+http://bosun.org/
+
+
+Octopush is another tool for using Jenkins for deployment automation. It p=
+rovides a dedicated user interface and API=2C as well as integration with=
+ GitHub for authentication.
+
+https://github.com/olx-inc/octopush
+http://olx-inc.github.io/octopush/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

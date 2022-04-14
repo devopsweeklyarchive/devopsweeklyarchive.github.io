@@ -1,0 +1,134 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#108?=
+Date: Sun, 27 Jan 2013 11:54:32 +0000
+
+DEVOPS WEEKLY
+ISSUE #108 - 27th January 2013
+
+I'm really looking forward to the Belgium roadtrip this week. Puppetcamp,=
+ FOSDEM and the monitoringlove hack day one after the other. If anyone is=
+ going to be around Ghent, Brussels or Antwerp and wants to meet up let me=
+ know. I'll try and get next weeks issue out when I can, but it will rely=
+ on me finding an internet connection so might be a little delayed.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Ever been putting together a custom dashboard and needed a handy javascrip=
+t library to help with the graphs, charts and other visualisations? This p=
+age collects a rather large number of tools together in one place, along w=
+ith a hand sample image. No excuses for dashboards not being pretty.
+
+http://selection.datavisualization.ch/
+
+
+Good in-depth walkthrough of building a Jenkins pipeline to build vagrant=
+ boxes with veewee and upload them to S3. Covers all the pitfalls and prov=
+ides simple instructions. A useful guide if you're doing something similar=
+=2E
+
+http://spilth.org/blog/2013/01/21/automated-vm-generation-with-veewee-jenk=
+ins-and-amazon-s3/
+
+
+Inspired by a recent devopsdays event someone put together a reading list=
+ of devops related books. Only one overly technical book too, with lots ab=
+out process and organisation change.
+
+http://www.goodreads.com/list/show/30720.DevOps_Reading_List
+
+
+Lots of good talk about the role of being on-call recently. This blog post=
+ describes how a small startup have evolved their on-call rota and how the=
+y are now involving operations, developers and soon designers in the respo=
+nse.
+
+http://blog.serverdensity.com/how-we-handle-on-call-schedules/
+
+
+Good talk from the recent devopsdays conference by Dave Zwieback all about=
+ hiring people into roles in a devops minded organisation.
+
+http://vimeo.com/57926877
+
+
+Interesting post about the difference between composable and contextual wa=
+ys of extending tools. Some good points for anyone writing tools with APIs=
+ or wanting their tools to be extended, and for anyone who hates Maven and=
+ wonders why.
+
+http://nealford.com/memeagora/2013/01/22/why_everyone_eventually_hates_mav=
+en.html
+
+
+Jobs
+=3D=3D=3D=3D
+
+Stripe is building next-generation infrastructure for online payments. We'=
+re hiring engineers with operations experience to take our systems to the=
+ next level of scalability and reliability. If you love building high thro=
+ughput, chaos monkey-proof systems; if you've built and maintained large s=
+oftware projects before; and if taking updates is a cathartic experience,=
+ then you should do-release-upgrade to Stripe. To apply, send an email to=
+ jobs+devops-weekly@stripe.com with a description of your experience, rele=
+vant online handles, and anything else that would be useful for us to know=
+=2E
+
+https://stripe.com/jobs#reliability_engineer
+
+
+Tools
+=3D=3D=3D=3D
+
+Ledbetter is a relatively simple nagios to graphite integration. It takes=
+ the state of various checks and servicegroups in nagios and exports that=
+ data to graphite with a script you can run on a cron.
+
+https://github.com/github/ledbetter
+
+
+I like open source projects that make it clear what license they are relea=
+sed under. But copying a file around into your repo is easy to forget to d=
+o. Lice solves that problem nicely with a command line tool that knows abo=
+ut lots of popular licenses.
+
+https://github.com/jcarbaugh/lice
+
+
+Ybot is a hubot inspired chat bot which aims to be a platform for exposing=
+ data and commands in a central manner. It's written in Erlang, but you ca=
+n extend it with scripts in various languages including ruby, python, shel=
+l and perl.
+
+https://github.com/0xAX/Ybot
+
+
+Ironfan is a Chef orchestration layer, providing lots of tools and knife e=
+xtensions for managing a fleet of machines. What caught my eye this week w=
+as the walkthrough tool, which allows for using the chef DSL to define a s=
+et of virtual machines.
+
+https://github.com/infochimps-labs/ironfan/wiki/walkthrough-web
+
+
+Shameless promotion of something I've been hacking on, very similar to the=
+ above ironfan example. A puppet module allowing for defining a set of vir=
+tual machines and load balancers from different cloud providers in the pup=
+pet DSL, and using an idempotent puppet run to ensure that they exist.
+
+https://github.com/garethr/garethr-iaas
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

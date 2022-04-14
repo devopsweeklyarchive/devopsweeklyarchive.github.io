@@ -1,0 +1,122 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#140?=
+Date: Sun, 8 Sep 2013 11:46:46 +0000
+
+DEVOPS WEEKLY
+ISSUE #140 - 8th September 2013
+
+The broad range of things under the Devops banner is becoming more and mor=
+e apparent to me as I read everything from articles in Wired to white pape=
+rs from enterprise consultancy firms to code on GitHub. The fact a genuine=
+ community still exists around things like Devops Days and small personal=
+ blogs is pretty impressive if you ask me. Thanks to everyone who makes th=
+at happen.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Devops is increasingly being mentioned in notable places away from it=E2=
+=80=99s humble beginnings. Here=E2=80=99s a good article in Wired no-less.=
+ Useful for those cases where someone suggests you=E2=80=99re just making=
+ all of this stuff up.
+
+http://www.wired.com/insights/2013/06/building-a-healthy-devops-culture/
+
+
+A nice overview of tools and dashboards that the team at Stack Exchange ha=
+ve developed. Of particular interest is that many of these are build for r=
+unning and managing Windows environments.
+
+http://blog.serverfault.com/2013/09/05/homegrown-devops-tools-at-stack-exc=
+hange/
+
+
+A good argument that for Devops approaches to succeed across large organis=
+ations we need to adjust how we consider certain aspects=2C in light of lo=
+oking at the difference between utility and value added services.
+
+http://niek.bartholomeus.be/2013/07/09/why-we-need-a-special-flavor-of-dev=
+ops-for-mature-it/
+
+
+Good write-up of instrumenting a new application using StatsD and Graphite=
+=2E Examples of dashboards=2C and how they changed over time=2C as well as s=
+ome more specific python and django hints and tips.
+
+http://blog.jupo.org/2013/08/29/devops-eye-for-the-coding-guy-metrics/
+
+
+With all the interest around building tools on top of Docker at the moment=
+ a new repository has been created to try and list all of them in once pla=
+ce. If you=E2=80=99re interested in Docker then take a look at the Dockerf=
+orge.
+
+https://github.com/dockerforge
+
+
+A good critique of the recent Facebook paper about how they deliver softwa=
+re to production. It=E2=80=99s opinionated in a few places but does a good=
+ job of highlighting some of the main areas of interest.
+
+http://swreflections.blogspot.co.uk/2013/09/this-is-how-facebook-develops-=
+and.html
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Another upcoming Devops Days events=2C this one in Portland on November 4t=
+h and 5th. Registration and a call for proposals are both open=2C with the=
+ CFP closing on October 1st.
+
+http://devopsdays.org/events/2013-portland/
+
+
+More of the community orientated PuppetCamp events coming up in Washington=
+=2C Berlin=2C London and Munich over the next few months. You can get all=
+ the details=2C and submit proposals for many of them at the moment.
+
+http://puppetlabs.com/blog/fall-puppet-camps-are-coming-and-were-looking-s=
+peakers
+
+
+Tools
+=3D=3D=3D=3D
+
+Sovereign is an integrated set of components for building your own self-ho=
+sted replacement for popular cloud services. So email=2C calendars=2C file=
+ storage=2C text hosting=2C vpn=2C irc=2C etc. It=E2=80=99s also a nice ex=
+ample of using Ansible which might be a good way of learning the tool.
+
+https://github.com/al3x/sovereign
+
+
+Sparkey is a simple constant key/value storage library=2C for read-heavy s=
+ystems with infrequent large bulk inserts. It=E2=80=99s basically a very f=
+ast low overhead disk-backed hashtable and has been developed at Spotify f=
+or some interesting usecases.
+
+https://github.com/spotify/sparkey
+
+
+Travis has become a really useful part of the open source ecosystem=2C but=
+ if you have a powerful local machine anyway it can be useful to run a ful=
+l matrix build locally before pushing your code. Enter wwtd=2C or what wou=
+ld travis do.
+
+https://github.com/grosser/wwtd
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

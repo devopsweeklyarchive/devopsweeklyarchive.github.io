@@ -1,0 +1,154 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#118?=
+Date: Sun, 7 Apr 2013 13:16:57 +0000
+
+DEVOPS WEEKLY
+ISSUE #118 - 7th April 2013
+
+A busy week. Lots of interesting posts, jobs, events and tools to read up=
+ on. The recent release of Vagrant 1.1 with the new plugin and provider mo=
+del appears to have had the desired effect, I'm seeing lots of interesting=
+ middleware and a few new providers which should make Vagrant even more of=
+ an essential tool. If you've not upgraded it's well worth doing so.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+The usages of the word devops are still evolving, and this post echoes lot=
+ of my opinions on the matter. What is devops consulting and why might it=
+ be the wrong description for various activities.
+
+http://blog.brattyredhead.com/blog/2013/04/05/devops-consulting-why-i-don-=
+slash-t/
+
+
+So much of devops is about communication between different disciplines. Th=
+is post covers the need for technical literacy in more traditional areas o=
+f a business. But much more than that it provides some concrete ways of go=
+ing about building that literacy and explains why it's a good idea for eve=
+ryone.
+
+https://medium.com/about-work/1b416524b519
+
+
+Ansible, the configuration management tool, sees a 1.1 release out this la=
+st week with lots of new modules and new features. It looks like a regular=
+ 2 month release cycle should see lots of quick fire improvements.
+
+http://blog.ansibleworks.com/2013/04/02/ansible-1-1-released/
+
+
+Large organisations can benefit from devops just as much, or even more so,=
+ than startups and small companies. But lots of enterprises have existing=
+ processes, often based around ITIL. This post outlines a simple set of st=
+eps to start having the devops conversation in an ITIL context.
+
+https://www.scriptrock.com/blog/introducing-devops-itil-rules-enterprise-2=
+/
+
+
+Video and slides from the recent Big Ruby conference, this talk covers tes=
+t driven development for chef cookbooks. It's a good starting point if you=
+'re new to testing Chef, or want to catch up with the latest tooling.
+
+http://confreaks.com/videos/2309-bigruby2013-testing-your-automation-ttd-f=
+or-chef-cookbooks
+https://speakerdeck.com/nathenharvey/testing-your-automation
+
+
+Puppetlabs have released the results from the state of devops survey. As w=
+ell as the infographics the full report is 10 pages of data and analysis.=
+ Makes for an interesting read if you're interested in how devops is seen=
+ and what benefits people are seeing.
+
+https://puppetlabs.com/2013-state-of-devops-infographic/
+
+
+A nice follow up to the monitorama conference last week, this post covers=
+ one of the focuses of the conference, what does a modern monitoring stack=
+ look like. This is part snippets from different talks, part personal expe=
+rience report and part notes about types of problems faced by Openstack an=
+d where different tools might fit in. Interesting read.
+
+http://www.sandywalsh.com/2013/04/the-monitoring-stack-state-of-art.html
+
+
+Jobs
+=3D=3D=3D=3D
+
+Passionate about continuous delivery, chaos monkeys and the mean time to g=
+raph? Podio is a collaborative work platform that helps you escape email o=
+verload and document chaos. We are looking for a passionate DevOps enginee=
+r to help us scale, make Podio faster and more resilient and the team happ=
+ier and more productive.
+
+https://company.podio.com/seniordevopsengineer
+
+
+We're big, we're growing and we're levelling up. We're looking for a Web I=
+nfrastructure Architect to work closely with our software architect to des=
+ign and build software and infrastructure that work as a single, seamless=
+ system. As we grow, you'll help shape our infrastructure and maintain our=
+ strong devops culture. If you're passionate about infrastructure and you'=
+re a nice person, you can find more details at:
+
+http://techjobs.envato.com/roles/web-infrastructure-architect.html
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+RICON | East is the upcoming conference in New York on May 13th and 14th o=
+n all things distributed systems. It's organised by the nice folks at Bash=
+o, who make Riak, and covers everything from academic research to hard won=
+ production experience of running all sorts of distributed systems. The or=
+ganisers have even been nice enough to provide a 25% discount to devopswee=
+kly readers, just register using the second link below.
+
+http://ricon.io/east.html
+https://ricon-east-2013.eventbrite.com/?discount=3Ddevopsweekly25
+
+
+Tools
+=3D=3D=3D=3D
+
+Simmetrica is a data colection and visualisation tool for time series data=
+=2E It's Python and Redis based, and provides an HTTP, command line and libr=
+ary based mechanism of entering data, along with and API and dashboard app=
+lication for getting it back out. The documentation covers all the feature=
+s nicely too.
+
+https://github.com/import/simmetrica
+
+
+Vagrant 1.1 shipped with the ability to have multiple providers, for insta=
+nce for different cloud providers. Brightbox, who sponsor this newsletter,=
+ have quickly shipped a provider for their IaaS platform. A few useful tri=
+cks here for anyone else building providers - like using rsync for the sha=
+red folder support, meaning the shell, puppet and chef provisioner's shoul=
+d just work.
+
+https://github.com/NeilW/vagrant-brightbox
+
+
+A very useful looking vagrant plugin for Chef users. This middleware ensur=
+es that Chef is installed at the specified version, particularly handy if=
+ using a provider and/or basebox that doesn't have Chef installed.
+
+https://github.com/schisamo/vagrant-omnibus
+
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

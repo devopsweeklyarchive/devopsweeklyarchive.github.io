@@ -1,0 +1,150 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#171?=
+Date: Sun, 13 Apr 2014 10:28:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #171 - 13th April 2014
+
+This issue of Devops Weekly is dedicated to everyone who spent a good port=
+ion of their week resolving issues arising from the Heartbleed OpenSSL bug=
+=2E I=E2=80=99m guessing that=E2=80=99s quite a few of you.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Lots of readers of this newsletter will hopefully be having a well earned=
+ rest this weekend after the announcement on Monday of a serious bug in Op=
+enSSL that has incredibly widespread implications. The bug=2C named Heartb=
+leed=2C affects everyone. If you=E2=80=99re not already on top of this her=
+e=E2=80=99s a few useful posts.
+
+http://heartbleed.com/
+http://www.craigkerstiens.com/2014/04/08/What-you-need-to-know-about-april=
+-7-and-the-web/
+http://theagileadmin.com/2014/04/08/gauntlt-test-for-heartbleed/
+
+
+A great presentation deck about what continuous delivery means to the peop=
+le involved. Focuses on the difficulty of changing medium sized teams and=
+ what happens to the developer=2C tester and systems administrator roles.
+
+http://www.slideshare.net/TomasRiha/continuous-delivery-its-not-about-the-=
+technology-its-about-the-people-pipelineconf
+
+
+A solid argument that release testing=2C as a separate activity at least=
+=2C is a bad idea when looking to take advantage of continuous delivery. L=
+ots of good references too if you=E2=80=99re making this case at work.
+
+http://www.alwaysagileconsulting.com/organisation-antipattern-release-test=
+ing/
+
+
+CoreOS is starting to get very interesting=2C with the addition of higher=
+ levels tools like fleet which give you an idea about the ambition of the=
+ project. This presentation does a good job of introducing some of the new=
+ functionality.
+
+http://www.slideshare.net/geekle/coreos-control-your-fleet
+
+
+A good run through of some of the disadvantages or at least challenges whe=
+n building out a system based on many small service. The demand for=2C and=
+ interest in=2C operations experience definitely feels like it goes hand-i=
+n-hand with this pattern.
+
+http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.ht=
+ml
+
+
+Short of events to go along to this year that have a devops flavour? Here=
+=E2=80=99s a good round-up of events from local devopsdays to the larger V=
+elocity and LISA.
+
+http://www.slideshare.net/dlutzy/2014-dev-ops-conferences
+
+
+What is high availability and how do you achieve it? This is always fiddly=
+ in my experience=2C at least for software that=E2=80=99s not distributed=
+ by default. This presentation from the recent LOADays conference has some=
+ good examples.
+
+http://www.slideshare.net/roidelapluie/loadays-linuxha
+
+
+Jobs
+=3D=3D=3D=3D
+
+Kickstarter is looking for an Operations Engineer to work on our infrastru=
+cture's reliability=2C resiliency=2C and performance. You're comfortable w=
+ith EC2 with Chef=2C RDS with MySQL=2C and Ruby on Rails=2C and handy in R=
+edis=2C Elasticsearch=2C Redshift=2C and CloudFront. If you have experienc=
+e running production web applications=2C an interest in creative projects=
+=2C and get excited about working on internal tools that accelerate develo=
+pment=2C simplify operations=2C and enable all employees to contribute to=
+ the product=2C we'd love to talk.
+
+https://www.kickstarter.com/jobs/ops-engineer
+
+
+Events
+=3D=3D=3D=3D=3D
+
+The 28th LISA conference is looking for talk submissions in the areas of m=
+onitoring=2C systems engineering=2C culture=2C security=2C and devops. We'=
+ve got an audience that spans industries=2C and we'd like to make the conf=
+erence even better with your submission. Talk submissions are being accept=
+ed until Friday=2C 18 April 2014. For those interested=2C we are also acce=
+pting posters and papers too.
+
+www.usenix.org/lisa14
+
+
+Devopsdays Silicon Valley is scheduled for the 27th and 28th of June and c=
+urrently has a call for proposals open until the 2nd of May. The page belo=
+w has a good list of suggested topics to get you thinking.
+
+http://www.devopsdays.org/events/2014-siliconvalley/propose/
+
+
+Tools
+=3D=3D=3D=3D
+
+I=E2=80=99ve often used software testing tools for monitoring purposes=2C=
+ but one of the challenges is extracting the relevant information from a t=
+est run. This post and set of tools does a nice job of that for Python=2C=
+ as well as providing a good dashboard for raising the visibility of test=
+ runs.
+
+http://open.blogs.nytimes.com/2014/04/08/improving-the-user-experience-of-=
+automated-integration-testing/
+http://developers.nytimes.com/opensource/sneeze/
+
+
+An interesting tool that connects MySQL with statsd=2C simply write SQL qu=
+eries and provide a metrics name and the script will do the rest.
+
+https://github.com/banyek/Mambo-collector
+
+
+Envirius is described as a universal virtual environments manager. Like vi=
+rtualenv in python=2C rvm in ruby=2C nvm for node=2C etc. but without need=
+ing a separate tool for every language or framework.
+
+https://github.com/ekalinin/envirius
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

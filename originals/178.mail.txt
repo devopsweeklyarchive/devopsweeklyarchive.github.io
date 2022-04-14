@@ -1,0 +1,152 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#178?=
+Date: Sun, 1 Jun 2014 12:58:27 +0000
+
+DEVOPS WEEKLY
+ISSUE #178 - 1st June 2014
+
+I occasionally get emails asking how to get something featured in Devops W=
+eekly. It comes down to two things=2C either I find useful content or tool=
+s while I=E2=80=99m reading the internet that week=2C or people send me li=
+nks that I think are interesting. So if you come across something or write=
+ something that you think is interesting do send me an email or drop me a=
+ line at @garethr on twitter.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A good overview of the various tools used for service discover=2C from the=
+ original Google Chubby paper=2C via Zookeeper and etcd to consul and vari=
+ous supporting tools. A good starting point if you=E2=80=99re looking tool=
+s in this area.
+
+http://www.activestate.com/blog/2014/05/service-discovery-solutions
+
+
+A well written post-mortem from a recent outage at Joyent. Hats off as alw=
+ays for anyone publishing open post-mortems like this. Lots for anyone to=
+ learn from I would guess=2C including input validation for tools and the=
+ use of =E2=80=9Cfull power=E2=80=9D tools for routine tasks.
+
+http://www.joyent.com/blog/postmortem-for-outage-of-us-east-1-may-27-2014
+
+
+A good post comparing and contrasting ITIL with aspects of devops. It focu=
+ses on the transition phase and discusses this in light of continuous deli=
+very. The post also nicely packages this up in a design that tries to comb=
+ine the best of both worlds. A good reminder ITIL is a framework too.
+
+http://changeandrelease.com/2014/04/05/devops-and-itil-continuous-delivery=
+-doesnt-stop-at-software/
+
+
+Some interesting research on on-call and sleep patterns=2C done not in a l=
+ab but based on the habits and actual alerts at Etsy. The opsweekly idea m=
+entioned also sounds a good way to optimise alerts and especially which on=
+e=E2=80=99s really need to page someone out-of-hours.
+
+http://www.ryanfrantz.com/posts/sleep-driven-development/
+
+
+The new version of Nginx has added support for syslog=2C which makes integ=
+ration with various streaming log analysis tools easier. Here=E2=80=99s th=
+e very simple setup instructions for using it with graylog2.
+
+http://blog.graylog2.org/easily-manage-your-nginx-access-logs-with-graylog=
+2/
+
+
+If whenever you write a bash script it quickly descends into a big ball of=
+ mud then this post is for you. Lots of useful tips including variable sco=
+ping=2C writing functions=2C debugging=2C formatting and more.
+
+http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming/
+
+
+Another response to questions about devops suitability for larger=2C more=
+ traditional=2C organisations. Some interesting points and references to e=
+xamples. The more high level examples like this the easier it is to have c=
+onversations about devops practices in my experience.
+
+http://www.informationweek.com/software/enterprise-applications/how-devops=
+-benefits-large-enterprises/a/d-id/1268924
+
+
+A talk with lots of examples of combining Chef with Docker. The deck also=
+ discusses some other integrations=2C for example with OpenStack Heat and=
+ Ansible.
+
+http://www.slideshare.net/ewindisch/deploying-docker-provisioning-w-docker=
+-chefpuppet-devopsdays-pgh
+
+
+Jobs
+=3D=3D=3D=3D
+
+Net-A-Porter Group=2C the world's premier online luxury fashion retailer i=
+s hiring. We are looking for pro DevOps Engineers with excellent Linux Adm=
+inistration skills to work with our delivery teams=2C designing and realis=
+ing the infrastructure for new services=2C and developing the tools the te=
+ams need to develop=2C deploy and support their own applications. Experien=
+ce of building and operating large scale web platforms is essential plus k=
+nowledge of several of the following technologies (or similar): Puppet=2C=
+ Openstack=2C AWS=2C MySQL=2C Postgres=2C Apache=2C Nginx=2C Tomcat as wel=
+l as scripting in Bash=2C Python=2C Perl or Ruby=2C good Hardware support=
+ and Networking knowledge.
+
+http://isw.changeworknow.co.uk/net-a-porter/vms/e/net_a_porter/positions/b=
+wkjzaXfDjh4QWLbKFebxD
+
+
+Events
+=3D=3D=3D=3D=3D
+
+DevOpsDays Silicon Valley is at the end of the month=2C on the 27 and  28=
+ of June. If you=E2=80=99re in town for Velocity=2C or just live in the ar=
+ea=2C you should be coming along. If the already announced program doesn=
+=E2=80=99t have you registering=2C try the code WEEK for a 20% discount.
+
+http://devopsdays.org/events/2014-siliconvalley/
+
+
+Tools
+=3D=3D=3D=3D
+
+Changelog is a tool designed to answer the question =E2=80=9CWhat changed=
+ in the last twenty minutes?=E2=80=9D. It provides a simple HTTP api and a=
+ web interface and is intended for tracking everything from deployments=2C=
+ dns changes=2C reboots=2C creation of servers=2C etc.
+
+http://engineering.prezi.com/blog/2014/05/28/changelog-a-tool-designed-to-=
+help-you-recover-faster/
+https://github.com/prezi/changelog
+
+
+Openduty is an open source Alerting and incident escalation tool. It suppo=
+rts alerting with XMPP=2C email=2C SMS=2C Phone and Push notifications=2C=
+ and supports the Pagerduty API for triggering alerts.
+
+https://github.com/ustream/openduty
+
+
+Checkzilla is simple tool for letting you know about out-of-date software=
+ versions. It currently supports Rubygems and NPM=2C but it=E2=80=99s exte=
+nsible for other package types. Being able to manage this in one place fee=
+ls like a good thing.
+
+https://github.com/mickey/checkzilla
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

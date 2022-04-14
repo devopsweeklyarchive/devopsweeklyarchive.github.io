@@ -1,0 +1,132 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#261?=
+Date: Sun, 3 Jan 2016 14:03:15 +0000
+
+DEVOPS WEEKLY
+ISSUE #261 - 3rd January 2015
+
+The first issue of 2016 sees a range of posts from new tools to new argume=
+nts for working more closely together. It being January also means we=E2=
+=80=99re only weeks away from FOSDEM and Configuration Management Camp too=
+=2E
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+
+http://brightbox.com/devopsweekly
+
+
+Sponsored
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+DevOps: Hidden Risks and How to Achieve Results
+Get industry insights and practical tips from DevOps experts including Gen=
+e Kim=2C co-author of The Phoenix Project=2C and the Dynatrace Center of E=
+xcellence=C2=A9.
+
+http://ow.ly/U3KhD
+
+
+News
+=3D=3D=3D=3D
+
+A good collection of reading material focusing on the culture and process=
+ side of devops=2C in particular looking at the development of agile pract=
+ices.
+
+https://medium.com/@millard3/2015-devops-holiday-reading-list-30c36ee260d3=
+#.gdiunvd2j
+
+
+A quick summary of the new features in the upcoming Postgres 9.5 release.=
+ Upsert and the new JSONB output look handy.
+
+http://www.craigkerstiens.com/2015/12/27/postgres-9-5-feature-rundown/
+
+
+It feels like systems programming is becoming more interesting to a wider=
+ range of developers=2C so intermezzos looks interesting. It=E2=80=99s a t=
+eaching OS focused on introducing systems programming concepts to experien=
+ced developers from other areas of programming.
+
+http://intermezzos.github.io/
+
+
+A well argued post that distributed systems=2C far from just a backend con=
+cern=2C are a user experience problem as well. Collaboration and empathy f=
+or different specialisms=2C as well as usersm is required to solve such pr=
+oblems.
+
+http://bravenewgeek.com/distributed-systems-are-a-ux-problem/
+
+
+A nicely documented set of experiments to demonstrate how kubernetes works=
+=2E Demo=E2=80=99s of scheduling under different resource constraints=2C nod=
+e and container failures and autoscaling.
+
+https://speakerdeck.com/hasbro17/kubernetes-a-profile-and-evaluation-study
+
+
+A presentation on architecting for failure in distributed systems such tha=
+n you present graceful degradation and not unavailability. Focuses on the=
+ need to embrace asynchrony everywhere.
+
+https://speakerdeck.com/niteshkant/crossroads-of-asynchrony-and-graceful-d=
+egradation-at-qcon-sf-2015
+
+
+Working with infrastructure software tends to mean a lot of time spend wit=
+h the command line. For beginners this can be a barrier to entry. Which ma=
+kes the art of the command line a handy reference.
+
+https://github.com/jlevy/the-art-of-command-line
+
+
+An argument for splitting your definition of immutable infrastructure into=
+ layers=2C and embracing schedulers as a way of using runtime information=
+ to ensure acceptable utilisation.
+
+http://www.infoq.com/articles/immutable-layers
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Caddy is a new web server with out-of-the-box support for HTTP/2=2C IPv6 a=
+nd WebSockets. It also has nifty built-in support for Let=E2=80=99s Encryp=
+t to provide HTTPS by default.
+
+https://caddyserver.com/
+https://github.com/mholt/caddy
+
+
+A nice idea for providing minimal help documentation focused on typical ex=
+amples for common unix tools. A bit like a community contributed and strip=
+ped down man.
+
+http://tldr-pages.github.io/
+
+
+Pash is an Open Source reimplementation of Windows PowerShell=2C for Mono.
+
+https://github.com/Pash-Project/Pash
+
+
+Devops Weekly is sponsored by Brightbox Cloud: the multi-zone cloud platfo=
+rm built for High Availability.
+
+Try an SSD cloud server in 30 seconds with your =C2=A320 free credit=E2=80=
+=A6
+http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

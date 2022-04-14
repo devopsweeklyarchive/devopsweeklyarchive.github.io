@@ -1,0 +1,189 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#179?=
+Date: Sun, 8 Jun 2014 11:44:08 +0000
+
+DEVOPS WEEKLY
+ISSUE #179 - 8th June 2014
+
+A couple of Devopsdays related posts this week made me head over to the De=
+vopsdays site to see just how many events are happening. The map currently=
+ has 11=2C from Brisbane to Walsaw=2C via Chicago and Belgium. Ghent in Oc=
+tober is going to be some 5 year celebration.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A conversation about burnout has happened at more than one devopsdays even=
+t=2C and while it might not be exclusive to IT roles it certainly feels co=
+mmon enough that doing something and talking about it is useful. This new=
+ site is a great starting place.
+
+http://burnout.io/
+
+
+A nice writeup from the recent Devopsdays Pittsburgh event=2C focusing on=
+ how well the organisers and attendees did at being approachable. This is=
+ my experience of devopsdays events too=2C a great gathering of people wan=
+ting to learn from each other.
+
+https://grubernaut.github.io/the-effects-of-a-devops-community/
+
+
+The results of the 2014 Devops report have been published by Puppetlabs. B=
+ased on a survey of nearly 10=2C000 people it contains lots of good observ=
+ations=2C especially useful if you=E2=80=99re convincing senior colleagues=
+ of the benefits.
+
+http://puppetlabs.com/2014-devops-report
+
+
+An interesting opinion piece about the above mentioned report=2C and where=
+ some of the conversation about devops might be moving to. I think we=E2=
+=80=99re already seeing some of the this happening in business journals an=
+d similar publications.
+
+http://www.standalone-sysadmin.com/blog/2014/06/sick-of-hearing-about-devo=
+ps-it-hasnt-even-started/
+
+
+Whether you=E2=80=99re working with web applications or behind the scenes=
+ services=2C you=E2=80=99ll probably be using HTTP somewhere. So it=E2=80=
+=99s worth noting that the HTTP/1.1 RFC has just been replaced=2C by a ser=
+ies of clearer and less ambiguous documents. Worth reading.
+
+https://www.mnot.net/blog/2014/06/07/rfc2616_is_dead
+
+
+Ansible attempts to be very data centric=2C with the playbook files being=
+ described in YAML. This makes testing a little different from unit testin=
+g the Chef or Puppet DSL. This post shows one approach for testing Ansible=
+ roles using Travis.
+
+https://servercheck.in/blog/testing-ansible-roles-travis-ci-github
+
+
+A nice set of strong cipher settings for Apache=2C Nginx and Lighttpd. Des=
+igned to be copy and pasted by people who know what they are doing=2C but=
+ a good example to study if you=E2=80=99re just looking at SSL.
+
+https://cipherli.st/
+
+
+Detailed instructions for getting a development environment setup for infr=
+astructure work=2C in this case using Chef=2C AWS=2C Vagrant=2C Test Kitch=
+en and Serverspec on OSX. The comments on workflow are particularly intere=
+sting.
+
+https://medium.com/@pereiragoncalo/setting-up-for-infrastructure-developme=
+nt-1ab67b721ff9
+
+
+Another good writeup of a Chef development process. Some similarities to t=
+he above post. The diagram in particular makes the intention nice and clea=
+r.
+
+http://devopslove.blogspot.co.uk/2014/04/cookbook-development-process.html
+
+
+A nice walkthrough of some of the advantages of using containers for manag=
+ing a service based architecture. From rollbacks and canary releases to st=
+andardisation and speed. Hopefully future parts in the series will contain=
+ the technical implementation details.
+
+http://contino.co.uk/use-docker-continuously-deliver-microservices-part-1/
+
+
+Devops is most certainly not all about the tools=2C but our tools definite=
+ly play a part. This post breaks down the choices in a few different commo=
+n areas; configuration management=2C deployment=2C monitoring=2C version c=
+ontrol and build systems. It=E2=80=99s a nice introduction to things to co=
+nsider.
+
+http://blog.newrelic.com/2014/06/02/devops-tools/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Companies compete for DevOps engineers on Hired! Apply once & receive 5 to=
+ 15 job offers in 1 week from 900+ of the best tech companies in SF=2C NYC=
+=2C & LA. From funded startups like Lyft & AdRoll to large=2C public compa=
+nies like PayPal & Amex=2C you=E2=80=99ll see salary and equity numbers up=
+front and you can choose the offers that best fit your preferences=2C desi=
+res=2C and goals. Apply today and get Hired!
+
+http://hired.com/devopsweekly
+
+
+EyeEm=2C the photo app and marketplace for a new generation of photographe=
+rs=2C is hiring engineers in Berlin. With 40 employees and growing=2C the=
+ company is especially on the hunt for infrastructure engineers and backen=
+d developers to help the team scale and enhance the product to new heights=
+=2E EyeEm has a dedicated and fun team and works with technologies like Elas=
+ticsearch=2C PHP=2C puppet and MySQL in the AWS cloud. The studio loft is=
+ located in Kreuzberg.
+
+http://www.eyeem.com/careers
+
+
+Friday is looking to hire an experienced DevOps engineer. We create comple=
+x N-tier web applications. The technologies vary from application to appli=
+cation including both proprietary and open-source software. As part of the=
+ DevOps team=2C you'll be responsible for ensuring the delivery and ongoin=
+g operational effectiveness of our infrastructure. The candidate must be a=
+ble to demonstrate past experience of building infrastructure as code.
+
+http://www.wearefriday.com/join#!devops-engineer-permanent
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Devopsdays Amsterdam is fast approaching on the 19th to 21st of June. The=
+ programme has a day of workshops=2C lots of talks and the popular open sp=
+aces. There's a 20% discount code waiting for Devops Weekly subscribers to=
+o: DOD_LOVES_DEVOPSWEEKLY.
+
+http://www.devopsdays.org/events/2014-amsterdam/registration/
+
+
+All your Base is that interesting thing=2C a database conference aimed at=
+ developers and operations folk. Being held on the 17th of  October in Oxf=
+ord in the UK. The speakers lineup is online and tickets are available now=
+=2E
+
+http://allyourbaseconf.com/2014/
+
+
+Tools
+=3D=3D=3D=3D
+
+Following on from a recent blog post about alert design=2C Nagios Herald i=
+s a notification application designed to help add context to monitoring al=
+erts. The included examples should give you lots of ideas.
+
+http://codeascraft.com/2014/06/06/introducing-nagios-herald/
+https://github.com/etsy/nagios-herald
+
+
+Logstash has always been very much about the plugins. This project aims to=
+ make writing those plugins much easier. Still early days but it looks to=
+ automate some of the common tasks.
+
+https://github.com/coolacid/logstash-pluginbase
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

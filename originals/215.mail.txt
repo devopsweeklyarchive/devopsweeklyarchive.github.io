@@ -1,0 +1,148 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#215?=
+Date: Sun, 15 Feb 2015 10:27:54 +0000
+
+DEVOPS WEEKLY
+ISSUE #215 - 15th February 2015
+
+The first post this week about operating microservices reminds me that it=
+=E2=80=99s easier to find content about technical solutions than about ope=
+rating models or how to plan and organise operations. If anyone is looking=
+ for a good topic to write on=2C how new technology is changing operations=
+ would be a good choice.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Nutanix + Cumulus Linux: Deploying True Hyper Convergence with Open Networ=
+king
+Reap the benefits of this new design model=2C check out what Nutanix and C=
+umulus Networks have to offer your organization and business.
+Feb 25 - 10:30am PST
+
+http://go.cumulusnetworks.com/nutanix-devops
+
+
+News
+=3D=3D=3D=3D
+
+A reminder that microservices trade code complexity for operational comple=
+xity=2C and that means changing operating models from monolithic to servic=
+e based in order to manage that complexity.
+
+http://blog.ingineering.it/post/110741562854/microservices-have-you-met-de=
+vops
+
+
+The subject of managing secrets in configuration management software is a=
+ thorny one. This quick blog post runs down the problems with common appro=
+aches nicely=2C as well as showing a demo of conjur.
+
+http://blog.conjur.net/infrastructure-as-code-dont-let-security-slow-you-d=
+own
+
+
+The growing importance of schedulers leads to some overlap and potentially=
+ to a new set of utilisation problems. This post demonstrates integrating=
+ two common tools (Mesos for general workloads and YARN for Hadoop jobs) t=
+ogether using Myriad.
+
+http://radar.oreilly.com/2015/02/a-tale-of-two-clusters-mesos-and-yarn.htm=
+l
+
+
+If you=E2=80=99re selecting a cloud provider and performance is a specific=
+ concern=2C then this benchmarking suite might be useful. It focuses on de=
+fault configurations and uses a number of existing benchmarking tools unde=
+r the hood.
+
+https://github.com/GoogleCloudPlatform/PerfKitBenchmarker
+
+
+A solid argument that the state of monitoring is actually better than we t=
+hink=2C and that means expanding the definition to include areas to improv=
+e=2C including signal detection=2C contextualizing alerts and event correl=
+ation.
+
+http://ryanfrantz.com/posts/solving-monitoring/
+
+
+A nice post on using Docker to run Jenkins=2C including showing how to ext=
+end the official image with your own plugins and how to backup data.
+
+http://www.catosplace.net/blog/2015/02/11/running-jenkins-in-docker-contai=
+ners/
+
+
+A post looking at Docker from the point of view of Java and the JVM. A few=
+ interesting observations about memory allocation and JVM profiling inside=
+ a container as well as a rundown of what Docker is and isn=E2=80=99t.
+
+http://blog.takipi.com/ignore-the-hype-5-docker-misconceptions-java-develo=
+pers-should-consider/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Get more power in your job search. Join Hired & let 2=2C000+ companies app=
+ly to you! No risk. All reward. Join today!
+
+http://hrd.cm/1BNg21o
+
+
+Weaveworks is hiring software developers in London. The purpose of Weave i=
+s to enable all developers=2C no matter what their background=2C to take a=
+dvantage of container technologies such as Docker and build better softwar=
+e applications.
+
+http://weave.works/jobs/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Project Jellyfish is a broker system. It allows admins to create a product=
+ catalog of any type of service (SaaS=2C IaaS=2C PaaS=2C etc.) and allows=
+ them to be assigned a cost=2C and then users can create projects and add=
+ those services to a project.
+
+http://www.projectjellyfish.org/
+https://github.com/projectjellyfish/api
+
+
+Cram is a testing framework for command line applications. Cram tests look=
+ like snippets of interactive shell sessions which makes writing tests nic=
+e and easy.
+
+https://bitheap.org/cram/
+
+
+Building system packages always required a fairly good understanding of th=
+e packaging tool chain=2C and building packages for different operating sy=
+stems required even more work. This project uses Docker under the hood to=
+ create reproducible RPM build environments nicely.
+
+https://github.com/alanfranz/docker-rpm-builder
+
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

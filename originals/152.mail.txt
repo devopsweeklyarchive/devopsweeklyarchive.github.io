@@ -1,0 +1,101 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#152?=
+Date: Sun, 1 Dec 2013 11:01:42 +0000
+
+DEVOPS WEEKLY
+ISSUE #152 - 1st December 2013
+
+With it being Thanksgiving in the US lots of readers should hopefully be h=
+aving a relaxing weekend (unless you work in online retail I guess). A nic=
+e idea I saw this week was to say what you=E2=80=99re thankful for in the=
+ devops community with the tag #devopsthanksgiving.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+It=E2=80=99s that time of year again=2C the first of December marking the=
+ start of sysadvent. Expect an interesting blog post every day from a rang=
+e of different authors. The first one talks about APIs for infrastructure.
+
+http://sysadvent.blogspot.co.uk/
+
+
+A great security talk from the recent Devops Days London aimed at an audie=
+nce of developers and systems administrators. Lots of good examples and di=
+scussions of phishing=2C attack simulations
+
+http://www.slideshare.net/beehooze/devopsday-london-ben-hughes-security
+
+
+I=E2=80=99m seeing more posts about how docker fits in with configuration=
+ management recently and the following post is worth reading=2C including=
+ some of the comments. I=E2=80=99d like to see more code examples and work=
+ing demos in this area.
+
+http://www.krisbuytaert.be/blog/docker-vs-reality-0-1
+
+
+Something I=E2=80=99ve been seeing more this year I think is applying stat=
+istics to common monitoring problems. Here=E2=80=99s a good post about the=
+ problem of outliers and why detecting shifts in probability density funct=
+ions is more useful.
+
+http://abe.is/outliers-vs-probability-density-function-shifts/
+
+
+Nice presentation from the folks behind League of Legends about different=
+ approaches to infrastructure in AWS using Chef. Discusses the role of gol=
+den images=2C chef-solo vs chef-server and more.
+
+http://www.slideshare.net/AmazonWebServices/arc205-28615575
+
+
+Lots of interesting videos from the recent FutureStack conference - includ=
+ing insights into New Relics own infrastructure deployment=2C monitoring=
+=2C web performance=2C security=2C the importance of latency and continuou=
+s delivery.
+
+http://futurestack.io/videos
+
+
+A nice list of 7 habits for adopting devops=2C taken from a Forrester repo=
+rt. Probably a good list to start management colleagues with=2C especially=
+ as only one or two of the points are to do with technology.
+
+http://www.infoq.com/news/2013/09/7-devops-habits
+
+
+Tools
+=3D=3D=3D=3D
+
+Prodder is a little tool I=E2=80=99ve been working on recently. It=E2=80=
+=99s a set of opinionated tests for common web application security featur=
+es=2C starting with tests for SSL configuration=2C open ports and common H=
+TTP security headers.
+
+https://github.com/garethr/prodder
+
+
+Sky is an open source=2C behavioral analytics database. It is designed to=
+ make querying large volumes of clickstreams data=2C logs or information f=
+rom sensors fast and simple. I=E2=80=99d love to see an example applied to=
+ system monitoring.
+
+https://github.com/skydb/sky
+http://skydb.io/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

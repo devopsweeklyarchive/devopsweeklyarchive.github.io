@@ -1,0 +1,148 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#189?=
+Date: Sun, 17 Aug 2014 11:10:34 +0000
+
+DEVOPS WEEKLY
+ISSUE #189 - 17th August 2014
+
+Seeing the speakers being announced for the The DevOps Enterprise Summit m=
+akes me realise just how much interest there is in the approaches=2C philo=
+sophy and tooling that have emerged in the last few years under the Devops=
+ banner. With the 5 year Devopsdays event in Belgium in October=2C I=E2=80=
+=99m wondering what the next 5 years will look like.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Velocity conf is coming
+Save 10% with discount code DEVOPSWEEKLY
+
+The Velocity conference is coming up on September 15th to 17th in New York=
+ and November 17th to 19th in Barcelona. Velocity has become a who=E2=80=
+=99s who for thought leaders in Devops=2C mobile=2C performance and operat=
+ions. Join your peers=2C reserve your seat before Velocity sells out.
+
+http://oreil.ly/DEVOPSWEEKLY
+
+
+News
+=3D=3D=3D=3D
+
+A great blog post going over the evolution of the postmortem process for a=
+ growing startup. Some good tips to help get started collecting data and h=
+olding postmortems for your outages=2C however much firefighting you=E2=80=
+=99re doing.
+
+http://tech.blog.box.com/2014/08/a-tale-of-postmortems/
+
+
+A post giving some useful information for anyone shifting into engineering=
+ management for the first time. Lots of nice tips and observations.
+
+http://blog.d3in.org/post/74917727213/learnings-from-six-months-as-a-first=
+-time-engineering
+
+
+It feels like there is a growing interest in networks amongst people who h=
+ave adopted infrastructure as code approaches. This post introduces a new=
+ Chef cookbook for Cumulus Linux=2C along with some examples.
+
+http://engineering.ooyala.com/blog/network-management-and-automation-chef
+
+
+A good post on why culture change is difficult=2C especially in a large en=
+terprise=2C and what relation the tools have with that culture. I particul=
+ar like the phrase Culture Is A Compass.
+
+http://www.activestate.com/blog/2014/08/devops-tools-vs-culture
+
+
+A paper from Amazon on the Use of Formal Methods at Amazon Web Services. C=
+overs using formal methods=2C in this case with TLA+ to specify the design=
+ of the low level distributed systems that underpin AWS. Some interesting=
+ points about testing such systems in there as well.
+
+http://research.microsoft.com/en-us/um/people/lamport/tla/formal-methods-a=
+mazon.pdf
+
+
+Having a single place where commands can be run against an infrastructure=
+ is handy for visibility and auditing=2C but access control becomes an iss=
+ue. Here=E2=80=99s how one team solved that problem with Rundeck.
+
+http://www.ixis.co.uk/blog/restricted-operations-using-rundeck
+
+
+Ever wondered what it=E2=80=99s like attending a Devopsdays event? Well th=
+e folks behind Deevopsdays Minneapolis conducted a survey of attendees and=
+ gathered some great data. I=E2=80=99d love to see this from more events=
+=2C we definitely should have done something similar in London.
+
+http://devopsdaysmsp.org/blog/2014/08/15/survey-results/
+
+
+A nice observation about the differences in API design between a local API=
+=2C where many calls are fine=2C and something crossing a network boundary=
+=2C when you probably want fewer coarse-grained calls.
+
+http://martinfowler.com/articles/distributed-objects-microservices.html
+
+
+Jobs
+=3D=3D=3D=3D
+
+How much do companies pay for DevOps engineers? Find out in a Hired auctio=
+n where 1=2C000+ companies in SF=2C NYC=2C LA=2C & SEA send you offers wit=
+h salary & equity up front. Join today!
+
+http://be.hired.com/devopsweekly2
+
+
+Events
+=3D=3D=3D=3D=3D
+
+The DevOps Enterprise Summit is assembling enterprise success stories of D=
+evOps=2C showing horses that it=E2=80=99s not just for unicorns.  Announce=
+d speakers include organisations such as GE Energy=2C Macy=E2=80=99s=2C Di=
+sney=2C Blackboard=2C Ticketmaster/LiveNation=2C Barclays Capital=2C US De=
+partment of Homeland Security=2C Nordstrom=2C Capital One=2C Raytheon and=
+ more.
+
+For the next week=2C DevOps Weekly subscribers can get a 20% discount off=
+ of registration=2C just use promotional code DOC20.
+
+http://devopsenterprise.io/speakers/
+
+
+Devopsdays Berlin is coming up on the 23rd and 24th of October with the us=
+ual mix of talks and open spaces. The call for proposals is open until the=
+ 1st of September so get submitting if you=E2=80=99re going to be in the a=
+rea.
+
+http://devopsdays.org/events/2014-berlin/propose/
+
+
+Tools
+=3D=3D=3D=3D
+
+Cloud Foundry is a pretty complex distributed system=2C and running the en=
+tire thing locally when all you want to do is develop apps to run on it is=
+n=E2=80=99t ideal. Enter Cloud Focker=2C which combines Docker with Cloud=
+ Foundry buildpacks under a nice command line interface.
+
+https://github.com/CloudCredo/cloudfocker
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

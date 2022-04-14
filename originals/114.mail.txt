@@ -1,0 +1,163 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#114?=
+Date: Sun, 10 Mar 2013 13:39:36 +0000
+
+DEVOPS WEEKLY
+ISSUE #114 - 10th March 2013
+
+Fewer tools but an awful lot to read this week, including a few short book=
+s available for free online. If you skip everything else or just skim the=
+ outlines I'd definitely read the first article in full. Then read it agai=
+n and think about how it applies to our domain of fast moving technology,=
+ and more importantly how we avoid the need for too much devops archaeolog=
+y in the future.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+This first article doesn't appear to have anything to do with devops. It's=
+ about institutional memory, engineering archaeology, documentation and do=
+cument management. It's about a chemical engineering plant. But I bet most=
+ people can read this and see it either in their past or future when it co=
+mes to the computer system we build.
+
+http://wrttn.in/04af1a
+
+
+A Platform as a Service is generally made up of quite a few interesting mo=
+ving parts. This free book (available online or to download) covers some o=
+f the dotcloud details, but much of the software discussed is open source.=
+ Some good low level resource management and file system stuff.
+
+https://www.dotcloud.com/ebook_download_now.html
+
+
+Nice write-up of continuous deployment from an individual developers persp=
+ective. I particularly liked the like "The real secret to the success of c=
+ontinuous deployment is that code is pushed before it=E2=80=99s done".
+
+http://rc3.org/2013/03/03/dont-get-stuck/
+
+
+Anyone running real life systems will get reports of errors from users or=
+ the code itself at some point, and not all error reports are useful (to p=
+ut it politely). This post covers a manifesto for error reporting, with se=
+veral good tips worth considering next time you write error handling code.
+
+http://www.drmaciver.com/2013/03/a-rewritten-manifesto-for-error-reporting=
+/
+
+
+Chef 11 has some awesome new features, but unless you've been following al=
+ong closely you might have some work to do to resolve some breaking change=
+s. Here's a good walk though of a few of the gotchas that should see you o=
+n Chef 11 in no time.
+
+http://www.ducea.com/2013/03/05/howto-migrate-to-chef-11/
+
+
+Understanding the potential security risks of browser based applications c=
+an be quite a challenge, their are quite a few odd attack vectors and thin=
+gs people place too much trust in (third party javascript anyone?). This e=
+xcellent on-line book has a wealth of information about all things browser=
+ and security. Well worth a read. I just wish I could find a good ebook ve=
+rsion.
+
+https://code.google.com/p/browsersec/wiki/Main
+
+
+Logging is a source of lots of interesting and useful information, but get=
+ting the right setup for you can take time. Here's five simple steps to ma=
+ke your application logging better.
+
+http://www.miyagijournal.com/articles/five-steps-application-logging/
+
+
+Armatures is a new community project from Puppetlabs which aims to provide=
+ a way for people to suggest proposals to enhance or add features to Puppe=
+t or something in the Puppet ecosystem. It's just a GitHub repo and the fi=
+rst armature documents the process to follow to make proposals. Interestin=
+g idea.
+
+https://github.com/puppetlabs/armatures
+
+
+A few videos from the recent San Francisco Metrics meetup featuring a Sens=
+u talk by Nick Stielau (Pantheon) and Jeremy Carroll (Pinterest) and an Op=
+enTSDB talk by Benoit Sigoure (Arista Networks) & Jonathan Creasy (Box).
+
+http://blog.librato.com/2013/02/january-sf-metrics-meetup-presentations.ht=
+ml
+
+
+
+Jobs
+=3D=3D=3D=3D
+
+Sphonic is looking for a passionate and skilled UK based, Operations Engin=
+eer. We are fast growing startup and are planning significant global growt=
+h over the next year. We are commited to delivering scalable solutions in=
+ the cloud over a SAAS model. You should be on the  line between developer=
+ and sysadmin, delivering infrastructure through automation, and monitorin=
+g as the foundation of responsive infrastructure. If you=E2=80=99re a hybr=
+id of sysadmin and a developer, with a depth of understanding of how the l=
+atest technology can deliver at scale, and can help shape a startup compan=
+y, then go and help them build it. Simply send your CV and cover letter to=
+ apply.
+
+http://bit.ly/15Y0lX2
+
+
+State are looking for a Lead DevOps Architect to join a young but fast-mov=
+ing startup in west London. Think about the goal of connecting the world's=
+ opinions and you'll get some idea of the scale of the ambition, and take=
+ a look at some of the people involved at https://state.com/about/people.=
+ If you're an advocate of code-as-configuration, automation, continuous de=
+livery, expert with AWS and Puppet or Chef and have managed rapidly scalin=
+g consumer web environments please get in touch.
+
+http://jobs.state.com/apply/fVSxzW/Lead-DevOps-Architect.html
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Puppetconf is back, this time in San Francisco on August 22nd and 23rd. Ea=
+rly bird tickets, call for proposals and sponsorship opportunities all ava=
+ilable now.=E2=80=89
+
+http://puppetconf.com/
+
+
+Tools
+=3D=3D=3D=3D
+
+As vagrant becomes more and more useful and powerful you can spend too lon=
+g typing in those commands. Fear not, here is a much improved set of scrip=
+ts for bash completion for vagrant.
+
+https://github.com/rjw1/vagrant-bash-completion
+
+
+Slaughter is a configuration management system written in Perl, with a pre=
+tty comprehensive set of documentation. it was inspired by CFEngine, with=
+ the supplied primitives being very similar, but with the client-server mo=
+del replaced by a more flexible system of transports.
+
+http://www.steve.org.uk/Software/slaughter/guide/
+
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

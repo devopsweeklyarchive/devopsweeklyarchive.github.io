@@ -1,0 +1,110 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#122?=
+Date: Sun, 5 May 2013 11:28:59 +0000
+
+DEVOPS WEEKLY
+ISSUE #122 - 5th April 2013
+
+Welcome to the nearly 500 new subscribers who have signed up in the last t=
+wo weeks for Devops Weekly. It still amazes me how this community has grow=
+n over the last few years, hopefully with all these new people finding dev=
+ops we'll see even more great content, examples and tools. Do email me wit=
+h anything you find that's interesting.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Good writeup from the recent devopsdays Austin, focusing on why culture is=
+ important, but just as importantly why it's hard to talk about and addres=
+s. I particularly liked the observation that effective culture can be very=
+ different between different groups of people.
+
+http://www.opsbs.com/2013/05/devopsdays-2013-we-are-avoiding-culture/
+
+
+Slidedeck going through a series of interviews with people from the devops=
+ community. Covers topics such as where we are now, favourite ideas and to=
+ols and where devops goes next.
+
+http://www.slideshare.net/mobile/jclouds/devops-state-of-the-union
+
+
+Interesting take on the Bay area bubble when it comes to the overlap of de=
+vops and cloud infrastructures. My experience in the UK at work and at dev=
+opsdays is similar, lots of software and infrastructure that runs real com=
+panies would be seen as legacy by your average startup.
+
+http://redmonk.com/dberkholz/2013/05/03/devops-and-cloud-a-view-from-outsi=
+de-the-bay-area-bubble/
+
+
+A nice presentation (with the new Opscode branding) introducing the power=
+ of automation. It's a nice short case study of a real world problems bein=
+g solved by automating hard or slow parts of a problematic process.
+
+https://speakerdeck.com/nathenharvey/the-addictive-nature-of-automation
+
+
+A great success story for Cloudfoundry solving a gnarly technical problem.=
+ What if a 50 minute outage could result in you losing half of your yearly=
+ income? Good example of playing to the strengths of Platform as a Service=
+=2E
+
+http://blog.cloudfoundry.com/2013/04/30/uk-charity-raises-record-donations=
+-powered-by-cloud-foundry/
+
+
+Where is devops heading in the future? A short entertaining take on some o=
+f the core bits of devops (culture, automation, measurement and sharing) a=
+nd how they might spread.
+
+http://www.slideshare.net/jedi4ever/future-ofdevopsv2
+
+
+Jobs
+=3D=3D=3D=3D
+
+Mutual Mobile is looking for a DevOps Engineer. The DevOps team at Mutual=
+ Mobile coordinates between engineering, IT, and QA automation, to provide=
+ tools, automate systems, and integrate solutions that empower our team to=
+ be successful engineers. Be prepared to: automate repeatable solutions /=
+ throw together quick hacks / know everything about Puppet, Jenkins, SVN.=
+ Bonus points if you have a mastery of Python.
+
+Interested? Apply here: http://www.mutualmobile.com/company/careers/people=
+-operations
+
+
+Tools
+=3D=3D=3D=3D
+
+Heka is a tool from Mozilla for collecting and collating data from a numbe=
+r of different sources, performing "in-flight" processing of collected dat=
+a, and delivering the results to any number of destinations for further an=
+alysis. It's written in Go but you can extend it with Lua too.
+
+https://blog.mozilla.org/services/2013/04/30/introducing-heka/
+https://github.com/mozilla-services/heka/
+
+
+Overmind is a complete server provisioning and configuration management ap=
+plication. It provides unified front-end to public and private clouds, cus=
+tom server providers and dedicated hardware via exposing a RESTful API ove=
+r libcloud.
+
+https://github.com/tobami/overmind
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

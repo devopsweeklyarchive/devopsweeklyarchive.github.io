@@ -1,0 +1,133 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#159?=
+Date: Sun, 19 Jan 2014 13:32:37 +0000
+
+DEVOPS WEEKLY
+ISSUE #159 - 19th January 2014
+
+It=E2=80=99s only a few weeks to go before FOSDEM=2C one of my favourite e=
+vents of the year. Several days in Brussels=2C a huge range of talks on di=
+fferent subjects and lots of interesting folks to catch up with. If you=E2=
+=80=99re in Europe you should definitely try and make it along.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Nice article about scaling a common problem=2C counting actions across a s=
+ystem. This post talks though moving from a relational database to Redis=
+=2C using OpenResty and Nging.
+
+http://tech.ftbpro.com/post/73212710968/count-von-count-a-real-time-counti=
+ng-database
+https://github.com/FTBpro/count-von-count
+
+
+I=E2=80=99m a big fan of the food fight show=2C the regular devops podcast=
+=2E This post is from one of the hosts=2C encouraging everyone to get in on=
+ the community publishing act. I think it=E2=80=99s a pretty good sign tha=
+t much of the devops content is community driven.
+
+http://devopsanywhere.blogspot.co.uk/2014/01/you-should-start-technical-po=
+dcast.html
+
+
+I=E2=80=99m a big Test Kitchen (an integration testing framework for infra=
+structure code) fan but up until now it=E2=80=99s mainly been a tool for t=
+he Chef community. With the addition of a basic shell provisioner however=
+ it=E2=80=99s now possible to use Test Kitchen everywhere. Here=E2=80=99s=
+ a simple hello world example I got running last week.
+
+http://www.morethanseven.net/2014/01/12/shell-provisioner-for-test-kitchen=
+/
+
+
+Cryto and TLS are often complex subjects=2C so it=E2=80=99s good to see po=
+sts like this one. Talking specifically about backwards compatibility and=
+ how long to support various ciphers for and a bunch of other tests on a w=
+ide range of sites.
+
+https://jve.linuxwall.info/blog/index.php?post%2FTLS_Survey=3D
+
+
+Ignoring the attempt to create a new buzzword at the end of the post this=
+ piece neatly summarises some of the challenges faced in large enterprises=
+ when adopting Devops approaches=2C I disagree with small parts but especi=
+ally if your experience is in small environments it=E2=80=99s worth a read=
+=2E
+
+http://blogs.ca.com/innovation/2014/01/15/big-enterprises-need-big-devops/
+
+
+A nice walkthrough of using Bento to build base boxes for vagrant. The pro=
+vided templates in Bento make this incredibly easy to get started with as=
+ shown in the tutorial.
+
+http://acairns.co.uk/2014/01/building-a-vagrant-base-box-with-bento/
+
+
+Recruiters and buzzwords can be a dangerous mix=2C so I like the idea behi=
+nd this presentation - which aims to be a quick introduction to Devops for=
+ recruitment folks. Hopefully a few people take note.
+
+http://www.slideshare.net/devopsguys/dev-opsguys-devops-101-for-recruiters
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Scale12x is the 12th annual southern california Linux expo and this year t=
+he first day is taken over by Devops Day LA. The event runs from the 21st=
+ of February until the 23rd=2C and if you use the code DEVOP you=E2=80=99l=
+l get a 50% discount on the full ticket.
+
+https://www.socallinuxexpo.org/scale12x
+www.socallinuxexpo.org/scale12x/devops-day-la
+
+
+FLOSS UK=2C the  Free and Libre Open Source Software organisation in the U=
+K has it=E2=80=99s Spring conference on the 18th until the 20th of March.=
+ Lots of good systems administration content=2C with this years event bein=
+g held in Brighton.
+
+http://www.flossuk.org/Events/Spring2014
+
+
+Tools
+=3D=3D=3D=3D
+
+FPM makes building operating system packages easy=2C but you then need a r=
+epository to take full advantage of them. PRM aims to make building Debian=
+ or RPM repos just as easy=2C and provides a simple S3 compatible sync fac=
+ility.
+
+https://github.com/dnbert/prm
+
+
+Nugget is a simple HTTP and TCP integration testing tool. Provide it with=
+ a configuration file and it will constantly check the given endpoints=2C=
+ recording the results in Graphihte via the backstop interface.
+
+https://github.com/joewilliams/nugget
+
+
+Gollector is a nifty looking stats collection daemon which outputs it=E2=
+=80=99s collected metrics as JSON. The docs demonstrate integrating this w=
+ith Circonus and with a bundled command line app=2C but given the simple J=
+SON format you could do anything.
+
+https://github.com/erikh/gollector
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

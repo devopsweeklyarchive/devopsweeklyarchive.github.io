@@ -1,0 +1,125 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#153?=
+Date: Sun, 8 Dec 2013 11:47:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #153 - 8th December 2013
+
+I always write this introduction after writing the rest of the newsletter=
+ and often find it interesting if themes emerge in the included links. Thi=
+s week it seems to be tools for continuous integration/delivery and maturi=
+ng tools for infrastructure testing. Whether that says more about what I w=
+as looking into this week I=E2=80=99m not sure.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+A new Devops podcast has launched. ArrestedDevops is aimed at people new t=
+o lots of the concepts and techniques around Devops=2C including talking t=
+o product owners and specialists outside systems engineers and administrat=
+ors. Hopefully worth keeping an eye on.
+
+http://arresteddevops.com/
+
+
+A nice writeup of using different continuous integration systems for deplo=
+yment. Describes some of the differences and requirements for a good deplo=
+yment setup=2C then shows examples with Go=2C Bamboo=2C Jenkins and TeamCi=
+ty.
+
+http://www.vishalbiyani.com/ci-continuous-delivery/
+
+
+Not everyone likes maintaining build scripts. One approach to making this=
+ easier and more visible is storing build scripts alongside the code. This=
+ post covers taking that one step further=2C describing your build in a li=
+terate style in your README in markdown. Interesting approach.
+
+http://developer.cloudbees.com/bin/view/DEV/LiterateBuilds
+
+
+Rspec-puppet is pretty much the de facto tool for testing puppet code=2C s=
+o the 1.0.0 release this week should be of interest to any Puppet users. S=
+ome nice new matchers and native support for hiera data in tests.
+
+http://bombasticmonkey.com/2013/12/05/rspec-puppet-1.0.0/
+
+
+Orchestration is often discussed when talking about managing service orien=
+tated services. This post points out we might be thinking about it incorre=
+ctly=2C and that choreography is a better analogy for what we should be do=
+ing.
+
+http://nic.ferrier.me.uk/blog/2013_12/what-is-service-choreography
+
+
+A nice simple approach to dealing with downtime of remote repositories=2C=
+ in this case focusing on recent issues with the node.js NPM repo. Uses a=
+ local caching proxy built from a very simple Nginx configuration.
+
+http://eng.yammer.com/a-private-npm-cache/
+
+
+An interesting presentation about how a pretty traditional organisation=2C=
+ in this case an investment fund=2C adopted a modern release management ap=
+proach. Lots of discussion about problems common to big organisations=2C f=
+rom security concerns to scheduling to a legacy technology base.
+
+http://www.slideshare.net/serenasoftware/dev-ops-drive-in-eaton-vance-2860=
+7358/1
+
+
+A description (more than a discussion) of the pattern of installing softwa=
+re by downloading shell scripts and piping then to sh. Even with the poten=
+tial issues=2C this pattern does highlight the problems people still have=
+ with portable software installation.
+
+http://output.chrissnell.com/post/69023793377/stop-piping-curl-1-to-sh-1
+
+
+Tools
+=3D=3D=3D=3D
+
+Test Kitchen 1.0 has been released along with a nice new documentation web=
+site. Test Kitchen is intended for test driven development of infrastructu=
+re (mainly using Chef)=2C currently it supports a wide range of cloud prov=
+iders and allows testing using Bats=2C shUnit2=2C RSpec or Serverspec.
+
+http://kitchen.ci/
+
+
+Lots of interesting things going on in the world of operating systems at t=
+he moment it seems. Boot2Docker claims to be the simplest operating system=
+ that can run docker=2C based on Tiny Core Linux.
+
+https://github.com/steeve/boot2docker
+
+
+A useful looking integration between the new Capistrano release and EC2=2C=
+ using EC2 metadata to specify roles. Useful for a dynamic infrastructure=
+ where keeping deployment scripts up-to-date isn=E2=80=99t really practica=
+l.
+
+https://github.com/forward3d/cap-ec2
+
+
+A nice looking Yum package server=2C designed for dynamic environments. Pr=
+ovides a nice HTTP API which allows for the creation of new repos.
+
+https://github.com/ImmobilienScout24/yum-repo-server
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

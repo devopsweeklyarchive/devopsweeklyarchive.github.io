@@ -1,0 +1,124 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#208?=
+Date: Sun, 28 Dec 2014 13:56:19 +0000
+
+DEVOPS WEEKLY
+ISSUE #208 - 28th December 2014
+
+A short holiday version of the newsletter this week. A big thanks to all t=
+he people who have spent the last week or so on-call keeping the internet=
+ running in some capacity.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Making the Switch to Bare Metal and Open Networking
+
+By decoupling the hardware and software and disaggregating the networking=
+ solution value chain=2C switch hardware vendors have the ability to separ=
+ately compete and innovate in hardware and software solutions. Meaning=2C=
+ the network is no longer restricted by legacy solutions or cross-vendor c=
+ompatibility.
+
+http://go.cumulusnetworks.com/bare-metal-dov
+
+
+News
+=3D=3D=3D=3D
+
+A nice introduction to unikernels as alternatives to general purpose opera=
+ting systems=2C where they might fit in and what makes them interesting fo=
+r the future.
+
+http://www.techrepublic.com/article/unikernels-offer-a-stripped-down-alter=
+native-to-linux/
+
+
+A nice 10 myths of devops post=2C covering misconceptions from devops team=
+s=2C to certification to conference attendees to cloud computing.
+
+https://sethvargo.com/the-ten-myths-of-devops/
+
+
+An interesting interview with a VP from IBM about adopting agile and devop=
+s practices in a very large organisation. Some great numbers showing impro=
+vements over two years in build times=2C planning=2C deployment=2C time sp=
+ent maintaining=2C etc.
+
+http://www.sonatype.org/nexus/2014/12/11/dibbe-edwards-devops-and-open-sou=
+rce-at-ibm/
+
+
+It feels like we=E2=80=99re seeing a lot more interest in the Windows worl=
+d at the moment=2C so this post felt useful. It covers some of the cultura=
+l and philosophical differences between the Linux and Windows development=
+ with a nice focus on infrastructure automation.
+
+http://www.hurryupandwait.io/blog/from-full-microsoft-stack-to-cross-platf=
+orm-development
+
+
+An interesting post placing the interest in Docker and systemd (and CoreOS=
+=2C Rocket=2C Atomic=2C etc.) in the context of a fight for what is runnin=
+g as PID 1.
+
+http://thenewstack.io/why-docker-containers-and-systemd-drive-a-wedge-thro=
+ugh-the-concept-of-linux-distributions/
+
+
+An interesting look at some of the under-the-hood security features of doc=
+ker related to image security=2C with a number of recommendations for impr=
+ovements.
+
+https://titanous.com/posts/docker-insecurity
+
+
+When learning the large number of topics required to build highly scalable=
+ applications it can be difficult to know where to begin. This post provid=
+es lots of links that aim to make getting started easier.
+
+http://leandromoreira.com.br/2014/11/20/how-to-start-to-learn-high-scalabi=
+lity/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Derby in the UK is coming up on the 7th and 8th of February and=
+ they still have a few speaking slots available. Submit your talks by   Ja=
+nuary 11th.
+
+http://www.devopsdays.org/events/2015-derby/propose/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Socketplane have released a technology preview of their container networki=
+ng technology. The preview features things like ZeroConf multi-host networ=
+king for Docker=2C support for multiple networks and distributed IP Addres=
+s Management (IPAM).
+
+https://github.com/socketplane/socketplane
+
+
+vCloud Air now has a nice looking open source command line interface. This=
+ post and repo cover the basic functionality.
+
+http://blog.pacogomez.com/vcloud-air-command-line-interface/
+https://github.com/vmware/vca-cli
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

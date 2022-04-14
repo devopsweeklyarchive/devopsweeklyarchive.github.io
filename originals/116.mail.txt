@@ -1,0 +1,123 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#116?=
+Date: Sun, 24 Mar 2013 10:05:33 +0000
+
+DEVOPS WEEKLY
+ISSUE #116 - 24th March 2013
+
+Next weeks devopsweekly might be a little late. It might also be jam-packe=
+d with monitoring content. I'm heading over to Boston for the amazing look=
+ing Monitorama for most of next week, but for most of Sunday I'll be on a=
+ plane. If you're going to be in Boston too then come say Hi.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+The concept of building up a monitoring stack from many individual compone=
+nts and a pipeline isn't new, but this is the best explanation for why thi=
+s is probably the best approach to take. Explains the pros and cons in a c=
+lear way, along with good diagrams explaining the how.
+
+http://holmwood.id.au/~lindsay/2013/03/22/monitoring-pipelines/
+
+
+Recent scares around RubyGems have increased awareness of a little used fe=
+ature, signed gems. Bundler, the popular ruby gem dependency manager has a=
+dded a feature to make using signed gems easier, and this post explains ho=
+w to use it. The state of signing on ruby gems isn't great, but it might b=
+e something to bug people upstream about.
+
+http://blog.meldium.com/home/2013/3/3/signed-rubygems-part
+
+
+One of the talks that got lots of people talking at Devopsdays London was=
+ "Devops in the hell of a thousand different platforms". It's part case st=
+udy about software development in a large, fragmented organisation and par=
+t hints and tips for making it better. In particular the presentation talk=
+s about the power of message queues to power interoperability and standard=
+isation.
+
+https://speakerdeck.com/sameaton/devops-in-the-hell-of-a-thousand-differen=
+t-platforms
+
+
+Open space sessions are a great place to have important conversations, and=
+ this session on Women in DevOps from Devopsdays London was definitely one=
+ of those. These notes touch on some of the points discussed, and have a f=
+ew suggestions for future Devopsdays (and other) events.
+
+https://gist.github.com/tomduckering/5185986
+
+
+Two more blog posts covering Devopsdays London, featuring notes from the o=
+pen spaces and general thoughts and opinions.
+
+http://matstace.me.uk/blog/2013/03/devopsdayslondonmarch2013/
+http://technicaltally.wordpress.com/2013/03/18/devopsdays-london-2013/
+
+
+A detailed getting started with Chef post, taking you from first install t=
+o running a wordpress instance powered by Chef. A good starting point, or=
+ a good way of catching up if you haven't looked at Chef for a while.
+
+http://gettingstartedwithchef.com/
+
+
+Interesting article about some of the resistance to automation ad devops i=
+n some organisations. Covers a few possible issues and talks about how it=
+ really is all about getting the culture right.
+
+http://newtoniannuggets.com/2013/03/14/3-reasons-why-devops-isnt-changing-=
+it-faster/
+
+
+Nice write-up of getting started with Ansible, the Python based configurat=
+ion management tool. A good first use experience is important and it looks=
+ like Ansible makes getting started fast and simple.
+
+http://kafecho.blogspot.co.uk/2013/03/using-ansible-for-configuration.html
+
+
+Events
+=3D=3D=3D=3D
+
+If you're in London on April 9th then you might be interested in MongoDB L=
+ondon. The schedule is already available and includes 5 tracks of introduc=
+tory and advanced talks. The London Sharded Pub Crawl is back from last ye=
+ar too.
+
+http://www.10gen.com/events/mongodb-london-2013
+
+
+Tools
+=3D=3D=3D=3D
+
+Riak Cloud Storage is an object storage system built on top of Riak with a=
+n S3-compatible interface. If you've been looking for a way to run your ow=
+n object store this might be something worth looking into.
+
+http://basho.com/riak-cs-is-now-open-source/
+https://github.com/basho/riak_cs
+
+
+Lots of people are using Vagrant and configuration management tools now to=
+ power development environments, and Opskeleton aims to be an opinionated=
+ packaging of some of these tools (vagrant, puppet, librarian-puppet, git)=
+ into an off-the-shelf development environment.
+
+https://github.com/narkisr/opskeleton
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

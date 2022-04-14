@@ -1,0 +1,219 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#126?=
+Date: Sun, 2 Jun 2013 11:38:12 +0000
+
+DEVOPS WEEKLY
+ISSUE #126 - 2nd June 2013
+
+I think this might be one of the most packed issues of Devops Weekly for a=
+ while. I've been on holiday for most of the week but still found myself f=
+alling over excellent content when I got back. Discussions of risk, useful=
+ tools I want to start using if I can find the time, upcoming events not t=
+o be missed, the opportunity to be a TV presenter for the amazing Opschool=
+ and a few interesting jobs for anyone on the lookout in London. Enjoy.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+The excellent opsschool folk are starting to create video content, and are=
+ on the lookout for more topics and presenters. The next filming slot is g=
+oing to be during Velocity, at the Santa Clara Hyatt, from Monday June 17t=
+h 2013 to Friday June 21st 2013. If you're around and have an idea get in=
+ touch with them.
+
+http://www.opsschool.org/en/latest/introduction.html#ops-school-videos
+
+
+If you've ever thought of devops as a "throughput-optimizing, process-acce=
+lerating, agility-creating, workflow-throttling threat to your very bureau=
+cratic existence" then this next post is for you. A useful (and suprisingl=
+y funny) reminder than some people will need convincing about the benefits=
+ of devops.
+
+http://devopsangle.com/2013/05/29/fear-the-cloud-helpful-tips-for-stifling=
+-devops-progress-in-your-enterprise-humor/
+
+
+The nice folks at 10gen are are running a survey about how you collect, st=
+ore and use your data. The information collected should be more useful the=
+ more people complete it, I'll keep an eye out for the results being publi=
+shed too.
+
+https://www.surveymonkey.com/s/VW73QC3
+
+
+A good example of someone using the Dashing dashboard framework. Includes=
+ some code samples for getting information from Icinga, Twitter and Drupal=
+ but it's also just a good example of what's possible.
+
+http://www.ixis.co.uk/blog/dashing-open-source-dashboard
+
+
+Knowing how to debug a problem with a running server is important, in orde=
+r to fix the problem and also so software you build is easier to debug. Th=
+is post covers a good list of things to check from a beginners point of vi=
+ew, looking at tools like history, free, dmesg, netstat, vmstat, pstree an=
+d lots more. A handy refresher or a good starting point.
+
+http://devo.ps/blog/2013/03/06/troubleshooting-5minutes-on-a-yet-unknown-b=
+ox.html
+
+
+Nice presentation all about the Etsy DevTools team. Goes into what they do=
+ and why they exist and runs through some of the tools they have developed=
+ to help Etsy ship code.
+
+https://speakerdeck.com/mrtazz/devtools-at-etsy
+
+
+The topic of web operations moving from a craft to a science crops up regu=
+larly, and this post covers the science. Looking at the maths around mean-=
+time-to-recovery and mean-time-between-failure and defining risk in IT sys=
+tems. Ends asking people to share numbers like this to further research, a=
+lthough I'd be interested in traditional enterprises as well as the new te=
+chnology titans.
+
+http://www.somic.org/2013/04/02/risk-in-it-systems/
+
+
+Another post about managing risk, this one discussing "what is the risk th=
+at amazon will goo down". Some interesting points, and if you're intereste=
+d in risk and human factors the references section contains some great rea=
+ding material.
+
+http://programming.oreilly.com/2013/05/what-is-the-risk-that-amazon-will-g=
+o-down-again.html
+
+
+Good presentation on using the fire hose of logs and monitoring data for s=
+ecurity and compliance purposes. The examples are from Etsy who use Splunk=
+ but lots of good ideas for most environments with payments, user accounts=
+ or a dynamic web application.
+
+http://www.slideshare.net/nickgsuperstar/data-driven-security
+
+
+The Heroku Platform API is now available in beta. This is a nice HTTP API=
+ to controlling all the innards of Heroku. Everything from reading and wri=
+ting configuration variables, creating new applications, adding or changin=
+g addons. Expect lots of interesting things to be built on this.
+
+https://blog.heroku.com/archives/2013/5/30/heroku-platform-api-beta
+
+
+A video presentation about using Docker (the rather nice LXC container wra=
+pper) to build your own Platform as a Service. It's a very simple toy exam=
+ple but shows how little code is required to do something quite powerful w=
+ith docker.
+
+http://vimeo.com/67284401
+https://github.com/progrium/buildstep
+
+
+Scaling non-trivial applications across multiple data centres can be diffi=
+cult, this post aims to document some of the main things to consider. If y=
+ou're looking to do this in the future this post might be a good starting=
+ point.
+
+http://blog.serverdensity.com/multi-data-center-redundancy-application-con=
+siderations/
+
+
+I've featured a few of these talks previously, but all of the excellent mo=
+nitorama talks are now available in one place, both slides and videos. Thi=
+s was one of the most information packed two day events I've been to and I=
+'m already looking forward to Monitarama.eu in Berlin later this year.
+
+https://speakerdeck.com/monitorama
+http://vimeo.com/monitorama/videos
+
+
+One persons experience getting started with Chef and Vagrant. Good notes a=
+nd observations about what this particular team found useful and what they=
+ found difficult or frustrating. Worth reading if you're new to the tools=
+ or if you're writing tools for developers.
+
+http://workstuff.tumblr.com/post/50911984233/some-tips-on-getting-started-=
+with-vagrant-and-chef
+
+
+Jobs
+=3D=3D=3D=3D
+
+Shazam Entertainment is looking for an energetic technical manager with a=
+ viewpoint to lead its Service Engineering team. If you're looking for a c=
+hallenge to lead the team charged with building, managing and scaling the=
+ world's number one audio recognition service we're looking for you. We ar=
+e on a phenomenal growth path adding over 2M users per week with an instal=
+led base of over 300M. We are focused heavily on BDD, automation, monitor=
+ (most) everything, and continuous deployment methodologies. We run a mixe=
+d technology stack using Java, Play, PHP, and C along with a dynamic mix o=
+f Amazon and hosted services. And we love our graphite graphs, the more th=
+e merrier! The position is based in London (Hammersmith), UK. If you're no=
+t based here, but want to be, we're willing to listen! If interested send=
+ a note to recruiting@shazamteam.com and pop devops in the subject.
+
+
+The UK Government Digital Service (where I work) is on the lookout for Tec=
+hnical Architects (closing 11th June) and Web Operations folk (closing 17t=
+h June). Both of these roles will involve you playing an important part in=
+ building and running a new breed of Government services, as well as helpi=
+ng to scale agile and devops practices across a huge organisation. Lots of=
+ interesting technical, people, process and security challenges await the=
+ successful candidates, along with lots of nice new colleagues in our cent=
+ral London offices. More details about the roles can be found at:
+
+http://digital.cabinetoffice.gov.uk/jobs/
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Monitorama EU, the conference for monitoring artisans, has a date confirme=
+d, 19th and 20th of September in Berlin. Registration doesn't open until t=
+omorrow but the call for proposals is open now until July 1st.
+
+http://monitorama.eu/
+
+
+Tools
+=3D=3D=3D=3D
+
+Graph Explorer is an alternative dashboard for Graphite. It provides some=
+ nice tool to create interactive and real time graphs, group related metri=
+cs and compose graphs using regex, tags or other queries. Lots of screensh=
+ots and a video should give you an idea of what it's capable of.
+
+http://vimeo.github.io/graph-explorer/
+
+
+Omnibus packages help isolate applications from underlying dependencies. T=
+his project builds a package for Puppet, using the Omnibus installer from=
+ Opscode. The projects comes with a Vagranfile which makes building packag=
+es for different operating systems easy too.
+
+https://github.com/fnichol/omnibus-puppet
+
+
+If you're using Vagrant you're probably downloading package data over and=
+ over as you happily start and destroy boxes. Vagrant Cachier looks like a=
+ neat solution to speed this up, creating a cache of packages on your host=
+ machine which can be used by the guests. It supports multiple package man=
+agers too.
+
+https://github.com/fgrehm/vagrant-cachier
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

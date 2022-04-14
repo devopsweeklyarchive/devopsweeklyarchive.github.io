@@ -1,0 +1,136 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#134?=
+Date: Sun, 28 Jul 2013 10:47:35 +0000
+
+DEVOPS WEEKLY
+ISSUE #134 - 28th July 2013
+
+A few good talks about deployment this week, as well as a scattering of se=
+curity discussion, a deep dive into some hardware and more details about P=
+uppetConf. Speaking of PuppetConf, I=E2=80=99m going to be in San Francisc=
+o for the week of the conference (from 20th August) if any readers want to=
+ meet-up or suggest things I should go along to.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Really good presentation deck about how to get deployment right. Focuses o=
+n the evolution of an automated development capability and the supporting=
+ processes rather than specific tools. Essential reading.
+
+https://speakerdeck.com/lauraxt/practicing-deployment
+
+
+Even with the widespread adoption of public cloud services some people sti=
+ll need to delve into the hardware. He=E2=80=99s a great post about Cloudf=
+lares approach to designing servers to meet their specific needs.
+
+http://blog.cloudflare.com/a-tour-inside-cloudflares-latest-generation-ser=
+vers
+
+
+A repository containing some pretty handy security reading. Start with the=
+ Principles.md document and try apply them to your systems and designs. Fo=
+r further reading check out the collected papers.
+
+https://github.com/OWASP/Security-Principles
+
+
+A video from QCon New York about how Etsy deploy software, focusing on how=
+ they run A/B experiments in the midst of continual code change.
+
+http://www.infoq.com/presentations/etsy-deploy
+
+
+A nice guide to using pkgr, a nifty too which packages up a Ruby on Rails=
+ application as a deb package. A good example of a high level opinionated=
+ tool.
+
+https://discuss.gemnasium.com/t/pkgr-make-a-package-out-of-a-rails-app-in-=
+5-minutes/59
+
+
+Blog post, along with lots of code examples, of how to automate immutable=
+ servers using Packer. Uses puppet as provisioning tool rather than to man=
+age/audit configuration drift but some interesting ideas.
+
+http://blog.james-carr.org/2013/07/24/immutable-servers-with-packer-and-pu=
+ppet/
+
+
+A nice introduction to the Infrastructure as Code concept. Takes a very fi=
+rst principles approach, explaining privatives and idempotency and only th=
+en introducing some of the better known tools.
+
+http://jenssegers.be/blog/44/infrastructure-as-code
+
+
+If you=E2=80=99re using many small open source projects hopefully you=E2=
+=80=99re often contributing small patches back upstream. That probably mea=
+ns using Git and remembering how to keep your branch up-to-date. Here=E2=
+=80=99s the clearest walkthrough I=E2=80=99ve seen.
+
+http://blogs.atlassian.com/2013/07/git-upstreams-forks/
+
+
+Nifty vagrant powered example of getting a single CloudFoundry node up and=
+ running on AWS. Detailed instructions and a few simple demo=E2=80=99s bun=
+dled with the provided scripts.
+
+http://www.activestate.com/blog/2013/07/how-deploy-cloud-foundry-v2-aws-va=
+grant
+
+
+Jobs
+=3D=3D=3D=3D
+
+Mandiant has multiple openings for Mid to Senior Operations Engineers to s=
+upport the development and deployment of a next generation security analyt=
+ics platform. The ideal candidate would be a Linux/Python generalist with=
+ experience building, scaling, and monitoring data-intensive AWS-based app=
+lications. Candidates must have extensive automation and configuration man=
+agement experience with a preferred specialization in either MongoDB, MySQ=
+L, Sphinx, Node.js or a continuous build system such as Jenkins. Operation=
+s and Engineering teams are distributed across the US, so candidates may b=
+e remote or work from a Mandiant office in the US.
+
+https://www.mandiant.com/company/careers/us#operations-engineer
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+PuppetConf 2013 is just a month away and takes place at the Fairmont San F=
+rancisco Hotel, August 22-23. The two-day event features a great lineup of=
+ speakers including Gene Kim, Jez Humble, James Fryman from GitHub, Mitche=
+ll Hashimoto from Vagrant, Jordan Sissel from Logstash, and many more. The=
+ full schedule is now available and an additional $50 discount is availabl=
+e on-top of the existing discounted rate.
+
+http://puppetconf.com/schedule/
+http://puppetconf2013.eventbrite.com/?discount=3DDevOpsWeekly
+
+
+Tools
+=3D=3D=3D=3D
+
+If you=E2=80=99re interested in getting to know PostgreSQL but unsure wher=
+e to start this Vagrant powered snadbox might be useful. Nice documentatio=
+n to get you started, and includes a simple node.js example.
+
+http://www.pgdevbox.com/
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,115 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#206?=
+Date: Sun, 14 Dec 2014 15:37:05 +0000
+
+DEVOPS WEEKLY
+ISSUE #206 - 14th December 2014
+
+A short issue this week as I=E2=80=99ve mainly been offline or travelling=
+ since last Sunday. As luck would have it between Sysadvent and AWS Advent=
+ you should have lots to read.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Sysadvent keeps putting out great content. This week we have articles on c=
+ryptocurrency=2C a move into management=2C development and operations coll=
+aboration=2C setting up a Chef server and more.
+
+http://sysadvent.blogspot.co.uk/
+
+
+AWS Advent is another December blogging extravaganza=2C focused on Amazon=
+ Web Services. So far we=E2=80=99ve seen posts on high availability setups=
+=2C active directory=2C IAM=2C DynamoDB and more.
+
+http://awsadvent.tumblr.com/
+
+
+A mentioned New Directions in Operating systems quite a bit the last few w=
+eeks=2C and here are the videos from all of the talks at the conference. E=
+verything from user space networking to unikernels to configuration manage=
+ment.
+
+https://www.youtube.com/playlist?list=3DPLmRrx948XMnEUlzKOCYn3AzT8OAInP_5M
+
+
+An excellent introduction to Kubernetes and Mesos=2C placing them both in=
+ the context of Docker and managing a high-utilization cluster.
+
+http://www.slideshare.net/timothysc/apache-coneu
+
+
+A good intro to some of the pressures driving the move towards more cloud-=
+based infrastructure. In particular looks at ways of optimizing costs that=
+ are available in more dynamic and pay-as-you-go infrastructures.
+
+http://www.slideshare.net/adriancockcroft/cost-optimization-ucc
+
+
+Sysadmin Casts provides a wide range of screencasts for those learning asp=
+ects of systems administration. From LXC=2C cgroups and docker to ZFS=2C p=
+roject management and SQL injection. All told it=E2=80=99s now up to 41 ep=
+isodes.
+
+https://sysadmincasts.com/
+
+
+A nice introduction to using Consul alongside long-lived virtual machines=
+ and Puppet. Makes the point that new tools can be layered on-top of exist=
+ing infrastructure without needing the big rewrite.
+
+http://txt.fliglio.com/2014/10/consul-with-puppet/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Systems Engineer at SeatGeek
+You'll be in charge of designing and implementing the strategies and tools=
+ we use to automate our infrastructure and deploy our software. When you'r=
+e not thinking about infrastructure=2C you'll be acting as a force multipl=
+ier for the developers at SeatGeek=2C writing code to enhance their develo=
+pment experience.
+
+http://grnh.se/mdwic6
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Everyone is using Markdown it seems for writing documentation=2C but one t=
+hing it doesn=E2=80=99t provide is diagram support. Enter mermaid - genera=
+te diagrams and flowcharts from text in a similar manner as markdown.
+
+https://github.com/knsv/mermaid
+
+
+Lambda launched at the recent AWS Re:Invent conference to lots of interest=
+=2C but it takes a bit of getting started. Kappa aims to provide a workflo=
+w tool to make creating and managing Lambda functions easier.
+
+https://github.com/garnaat/kappa
+
+
+Atlas is another tool from Netflix for managing time-series data for opera=
+tions. It=E2=80=99s main focus is managing huge volumes (By 2014=2C Netfli=
+x had 1.2 billion metrics) and allowing fast queries of that huge data set=
+=2E
+
+https://github.com/Netflix/atlas
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

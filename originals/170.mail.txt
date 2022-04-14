@@ -1,0 +1,174 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#170?=
+Date: Sun, 6 Apr 2014 12:25:52 +0000
+
+DEVOPS WEEKLY
+ISSUE #170 - 6th April 2014
+
+Definitely the first issue of devops weekly where the first three news ite=
+ms are Windows related. At the recent Build conference it looks like Micro=
+soft is making a genuine attempt to catch up with the last few years of In=
+frastructure as code - and in particular integrating with existing popular=
+ tools like Chef=2C Puppet=2C Vagrant and Chocolatey. This can only be a g=
+ood thing in my view.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Microsoft have released Windows Management Framework V5 preview=2C with th=
+e oddly named OneGet. This is a simple package manager for PowerShell whic=
+h can install packages from the community Chocolatey repository. Intriguin=
+gly =E2=80=9CSupport of additional repositories will come in subsequent ve=
+rsions=E2=80=9D.
+
+http://blogs.technet.com/b/windowsserver/archive/2014/04/03/windows-manage=
+ment-framework-v5-preview.aspx
+
+
+Microsoft have also released an official Windows vagrant box=2C of  Window=
+s Server 2012 R2 Datacenter. This appears to be a trial=2C with the downlo=
+ad available for 90 days and the box working for 180 days.
+
+http://vagrantbox.msopentech.com/
+
+
+More news for Windows users. At the recent Build conference both Puppetlab=
+s and Chef announced much improved Windows and Azure support. Combined wit=
+h the above Vagrant box it feels like Windows might be starting to catch u=
+p on the automation front.
+
+http://puppetlabs.com/blog/new-integrations-windows-azure-and-visual-studi=
+o
+http://www.getchef.com/blog/2014/04/03/chef-delivers-devops-automation-for=
+-windows-and-microsoft-azure/
+
+
+My talk at Puppetcamp London this week=2C all about test driven developmen=
+t with Puppet. It=E2=80=99s mainly aimed at being an introduction to softw=
+are testing=2C test driven development and then to the tools available for=
+ Puppet - including the new Beaker acceptance testing framework.
+
+https://speakerdeck.com/garethr/test-driven-development-for-puppet
+
+
+Another of the talks from Puppetcamp London=2C this one all about building=
+=2C testing and using AMI images on EC2. Lots of practical tips from using=
+ Jenkins pipelines to =E2=80=98immutable=E2=80=99 servers.
+
+http://www.slideshare.net/bobtfish/chasing-ami-puppetcamplondonapr2014
+
+
+The service management framework ITIL has many fans=2C and this is a reall=
+y nice writeup of how it may change based on devops experiences
+
+http://noelbruton.wordpress.com/2014/04/04/how-to-modify-itil-to-accommoda=
+te-devops/
+
+
+A post all about why Vagrant is such an important tool when adopting a dev=
+ops mentality. By having a tool that everyone uses you can cut across silo=
+s and ultimately build empathy.
+
+http://blog.ingineering.it/post/81406512594/why-vagrant-is-the-best-devops=
+-tool-ever
+
+
+A good set of recommendations around branching strategies=2C including fea=
+ture branching in code rather than using your source control system. Lots=
+ of folks still resist doing everything in master.
+
+https://secure.phabricator.com/book/phabflavor/article/recommendations_on_=
+branching/
+
+
+A good post comparing a deployment specific tool (in this case Octopus) wi=
+th a configuration management tool for deployment. Some good observations=
+ about similarities and differences. The comments also add to the debate a=
+bout whether one or two tools is best.
+
+http://octopusdeploy.com/blog/octopus-vs-puppet-chef
+
+
+Nginx is one of my favourite bits of software=2C but historically you=E2=
+=80=99ve had to spend at least some time learning the basics from a variet=
+y of different source. The new official admin guide is therefore pretty ha=
+ndy for those that haven=E2=80=99t used Nginx yet.
+
+http://nginx.com/admin-guide/
+
+
+Jobs
+=3D=3D=3D=3D
+
+deviantART is looking for a DevOps engineer=2C remote or local to Los Ange=
+les=2C to help run our infrastructure that serves over 2 billion pageviews=
+ per month. We use puppet=2C graphite=2C python=2C and phabricator to auto=
+mate=2C monitor=2C virtualize=2C and scale everything. If you would like t=
+o join our small but talented team=2C apply at:
+
+http://deviantart.theresumator.com/apply/IxsAW8/DevOps-Engineer.html?sourc=
+e=3Ddevopsweekly
+
+
+Eventbrite is the world=E2=80=99s fastest-growing online ticketing and reg=
+istration platform. We=E2=80=99re looking for a Sr. Systems Engineer to jo=
+in our small team using Puppet=2C Django and other automation tools to man=
+age and scale our site as our company continues to grow. We're constantly=
+ experimenting with new ways to monitor and maximize site performance. Sou=
+nd up your alley?
+
+https://www.eventbrite.com/jobs/?nl=3D1&jvi=3Do1myXfwC=2CJob&jvs=3Ddow
+
+
+Adobe=E2=80=99s Digital Publishing Services team is looking for a top notc=
+h Sr. Site Reliability engineer to work within our development team to cre=
+ate and operate our mission critical systems.  Our rich multi-platform sol=
+ution is widely used by the world=E2=80=99s largest publishers and is seei=
+ng strong growth within enterprises.
+
+https://adobe.taleo.net/careersection/2/jobdetail.ftl?lang=3Den&job=3D2768=
+5
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Promise 2014 is the CFEngine user conference=2C being held in San Francisc=
+o from September 17th to 19th. Early bird tickets are available now and a=
+ call for proposals for talks is also open.
+
+http://promise14.com/
+
+
+Tools
+=3D=3D=3D=3D
+
+Sysdig is a new Linux system troubleshooting tool=2C described as a combin=
+ation of strace=2C tcpdump and lsof. The examples are pretty impressive an=
+d you can imagine lots of tools you could build on top of this.
+
+http://draios.com/announcing-sysdig/
+http://www.sysdig.org/
+
+
+Mentioned at Puppetcamp London=2C Gonzo is a dashboard for Puppet focused=
+ on assessing the impact of changes made by Puppet. A clever way of bridgi=
+ng a traditional operations model with infrastructure as code.
+
+https://github.com/croomes/gonzo
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

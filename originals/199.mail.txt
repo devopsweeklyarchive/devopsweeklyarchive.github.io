@@ -1,0 +1,153 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#199?=
+Date: Sun, 26 Oct 2014 08:56:55 +0000
+
+DEVOPS WEEKLY
+ISSUE #199 - 26th October 2014
+
+I=E2=80=99m writing this on from the train=2C on the way to Belgium for th=
+e 5th Anniversary of Devopsdays. Hopefully I=E2=80=99ll see lots of you th=
+ere. For anyone who can=E2=80=99t make it I=E2=80=99ll try and gather as m=
+uch material as possible from talks and open spaces for next weeks 200th i=
+ssue.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A great reminder that behind any large improvement (like a devops transfor=
+mation) probably lies an awful lot of hard work and iteration.
+
+http://goatcan.wordpress.com/2014/10/21/wax-on-wax-off/
+
+
+I=E2=80=99ll hopefully find a bunch more content from the recent Devops En=
+terprise conference over the next few weeks=2C but these brief notes give=
+ you an idea of some of the hot topics; agile adoption=2C auditing=2C tool=
+s and user acceptance testing.
+
+http://byronm.wordpress.com/2014/10/24/does14-conference-notes/
+
+
+A great starting point for anyone interested in the state of automation on=
+ Windows=2C especially if you=E2=80=99re coming from a lInux environment.=
+ Lots of snippets to get started with powershell=2C Chocolatey packages an=
+d winrm.
+
+http://www.infoq.com/articles/cloud-automation-windows
+
+
+A survey all about the how mature our real world monitoring practices are.=
+ James Turnbull (of recent books on Logstash and Docker fame) is collectin=
+g the data for a talk next year.
+
+https://www.surveymonkey.com/s/monitorings
+
+
+With the 5th anniversary Devopsdays event about to happen it=E2=80=99s the=
+ perfect time to have a retrospective about where we are as a community. I=
+f you=E2=80=99re on twitter start suggesting ideas on #devopsstart=2C #dev=
+opsstop and #devopscontinue.
+
+http://mindweather.com/2014/10/23/global-retrospective-devops-the-first-5-=
+years/
+
+
+Some simple examples comparing a traditional IT operations approach to dev=
+ops=2C focusing on efficiency and effectiveness.
+
+http://www.slideshare.net/AlexSchwartz1/devops-means-effectiveness-first
+
+
+Some good advice on designing a security programme that both augments and=
+ supports devops practices.
+
+http://www.conjur.net/blog/2014/10/22/future-part-iii-securing-devops-infr=
+astructure/
+
+
+A good write-up of an open spaces session at Devopsdays Berlin about the s=
+implest ways of getting started with devops practices. Some good tips for=
+ anyone thinking about starting something.
+
+http://codecraft.vaamo.de/2014/10/24/minimum-devops-at-devopsdays-berlin.h=
+tml
+
+
+A nice post introducing a number of the practices required for continuous=
+ delivery. Mention of branching=2C feature toggles=2C monitoring=2C testin=
+g all in the context of speeding up deployment.
+
+http://www.airpair.com/continuous-deployment/posts/continuous-deployment-f=
+or-practical-people
+
+
+Jobs
+=3D=3D=3D=3D
+
+MediaMath is looking for an SRE to help build and manage our infrastructur=
+e and data centers across four continents. Our SREs are front-and-center i=
+n the effort to design=2C build=2C and keep our distributed services fast=
+ and reliable=2C 100% of the time. If the stability and performance of rea=
+l-time=2C global systems sounds like an exciting challenge=2C join our tea=
+m.
+
+https://careers-mediamath.icims.com/jobs/1538/site-reliability-engineer---=
+techops/job
+
+
+STYLIGHT is looking for a talented Automation Engineer who understands the=
+ importance of continuous integration and delivery. STYLIGHT features the=
+ hottest selection of items from the best fashion stores of the web. If wo=
+rking together with developers and operations engineers to build and deplo=
+y the latest Docker containers is your thing=2C come check us out!
+
+http://www.stylight.de/Jobs/Details/Automation-Engineer-Permanent-or-Freel=
+ance-oWQKYfwe/
+
+
+STYLIGHT wants an Operations Engineer who makes sure we=E2=80=99re happily=
+ serving pages no matter how much traffic we have. STYLIGHT features the h=
+ottest selection of items from the best fashion stores of the web. If you=
+ use Salt or Puppet to manage your servers and deploy Docker containers on=
+ load-balanced AWS instances on a daily basis=2C come check us out!
+
+http://www.stylight.de/Jobs/Details/Operations-Engineer-Permanent-or-Freel=
+ance-oMGlZfww/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The programme is out for New Directions in Operating Systems next month in=
+ London=2C with talks on networking=2C configuration management=2C rump ke=
+rnels and file systems. You can get a discount with the code DEVOPSWEEKLY=
+=2C only a small number of tickets are left.
+
+https://www.eventbrite.co.uk/e/new-directions-in-operating-systems-tickets=
+-3372953595?discount=3DDEVOPSWEEKLY
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Stocker is an interesting approach to securely managing environment variab=
+les for use by applications=2C in particular containers. It=E2=80=99s curr=
+ently Redis backed though could support multiple backends in the future.
+
+https://github.com/buth/stocker
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

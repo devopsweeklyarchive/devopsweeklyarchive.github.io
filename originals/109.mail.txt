@@ -1,0 +1,139 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#109?=
+Date: Sun, 3 Feb 2013 12:55:23 +0000
+
+DEVOPS WEEKLY
+ISSUE #109 - 3rd February 2013
+
+This issue is coming live from FOSDEM in Brussels, which makes gathering i=
+nteresting content from the past week quite easy. The sheer number of talk=
+s and new open source tools being discussed or released means I'm bound to=
+ have missed something though. Special mention to the folks behind both th=
+e Configuration Management and the Testing and Automation rooms yesterday=
+ for lots of good content.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+FOSDEM
+=3D=3D=3D=3D=3D=3D=3D
+
+One of the talks from the Configuration Management room delved into how we=
+ learn to automate. Taking examples from training materials and community=
+ efforts and summing up with some support projects can provide to help peo=
+ple adopt them.
+
+https://speakerdeck.com/nathenharvey/learning-to-automate
+
+
+Another talk from the Configuration Management room, this one focusing on=
+ integration testing for Infrastructure. It introduces the new Test Kitche=
+n framework, which aims to be a tool agnostic way of building repeatable t=
+ests for infrastructure and configuration management code. Lots of good id=
+eas in here that should probably exist.
+
+https://speakerdeck.com/bryanwb/dont-shrug-integration-testing-for-infrast=
+ructure-with-ruby-frameworks
+
+
+This talk was from the Testing and Automation dev room. It covers building=
+ a continuous integration pipeline for building system packages and introd=
+uces a number of small tools that can be composed together for the intende=
+d purpose. The Gist contains notes and links to all the tools mentioned.
+
+https://speakerdeck.com/mpasternacki/a-continuous-packaging-pipeline
+https://gist.github.com/3831086
+
+
+Jobs
+=3D=3D=3D=3D
+
+Oracle are looking for people to join their Cloud Operations team to help=
+ run Oracle RightNow CX, a complex  LAMP-based SaaS platform running on th=
+ousands of globally distributes nodes. We do DevOps, we do continuous inte=
+gration, we do configuration management and we do big data. We don't do bo=
+ring!
+
+http://bit.ly/12jScvL
+
+
+Thomsons Online Benefits (Victoria, London, UK) are recruiting a DevOps Bu=
+ild Engineer. DevOps is a new team in Thomsons with a focus on supporting=
+ faster, more frequent and more robust deployments of our product: Darwin.=
+ This team has in-roads to Development, QA and IT Operations and owns the=
+ Release Management function. We need someone who can help us push automat=
+ion for test and deployment as well as help us manage our builds and relea=
+ses. We're run Windows, MSSQL and IIS and code in C++ and ASP.Net using TF=
+S, Jenkins and Powershell to automate.
+
+The perfect candidate would have been exposed to the SDLC, Agile practices=
+ and cloud infrastructure. Previous automation experience is a must. If yo=
+u enjoy a challenge and want to help define what DevOps means to Thomsons=
+ then this might be the perfect job for you. Give us a shout at recruitmen=
+t@thomsons.com and mention DevOps in the subject line. You can find more a=
+bout us at www.thomsons.com
+
+
+News
+=3D=3D=3D=3D
+
+A great, long and detailed writeup of why the recent Ruby on Rails vulnera=
+bilities matter to you whether you're a Ruby/Rails shop or not. Lots of go=
+od, scary examples and lots of advice, especially if you're not up on secu=
+rity exploits.
+
+http://www.kalzumeus.com/2013/01/31/what-the-rails-security-issue-means-fo=
+r-your-startup/
+
+
+Good talk on GitHub culture. The main take away surrounds how company stru=
+cture is strongly linked with the prevailing culture of the organisation.
+
+https://speakerdeck.com/tnm/scaling-happiness
+
+
+Puppetcamp Ghent happened just before FOSDEM and this talk quickly demonst=
+rates how to manage puppet with mcollective. Enabling and disabling runs,=
+ ad-hoc puppet runs and managing deployments are all covered. It's also a=
+ good short introduction to using mcollective.
+
+http://www.slideshare.net/PuppetLabs/presentation-16281121
+
+
+It's a good week for epic blog posts. This one is a fantastic case study a=
+ll about introducing a devops culture into a traditional enterprise. Lots=
+ to admire and lots more to learn from, whether you work in an enterprise=
+ environment or not.
+
+http://niek.bartholomeus.be/2013/01/28/introducing-a-devops-culture-in-a-t=
+raditional-enterprise/
+
+
+Extending Nginx using Lua appears to be incredibly powerful, and real worl=
+d tutorials like this one make a good case for investigating it for certai=
+n use cases.
+
+http://3scale.github.com/2013/01/09/augment-your-api-without-touching-it/
+
+
+Tools
+=3D=3D=3D=3D
+
+I ended up speaking to the author of OWASP Zed Attack Proxy on Friday at F=
+OSDEM. It looks to be a great penetration and vulnerability testing tool,=
+ and one that lends itself to being used as part of a continuous integrati=
+on setup. Version 2.0.0 has just been released.
+
+https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

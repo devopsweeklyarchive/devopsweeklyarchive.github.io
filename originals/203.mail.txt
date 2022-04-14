@@ -1,0 +1,153 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#203?=
+Date: Sun, 23 Nov 2014 13:01:51 +0000
+
+DEVOPS WEEKLY
+ISSUE #203 - 23rd November 2014
+
+I=E2=80=99m really looking forward to the New Directions in Operating Syst=
+ems conference this week in London. If you=E2=80=99re going to be along le=
+t me know=2C I=E2=80=99d love to say Hi and talk future infrastructure stu=
+ff.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A good comparison of docker and build packs as the unit of application for=
+ platform as a service. Does a good job of comparing operational propertie=
+s and the user interface.
+
+http://www.activestate.com/blog/2014/11/docker-right-abstraction-paas
+
+
+A good case study of a docker production deployment. Lots of good tips on=
+ subjects like logging=2C hostnames=2C container styles and more.
+
+http://www.shopify.com/technology/15934308-docker-at-shopify-how-we-built-=
+containers-that-power-over-100-000-online-shops
+
+
+Some interesting observations from a series of conversations with companie=
+s about devops. Discussion of hiring=2C monitoring=2C agile adoption=2C ta=
+king full advantage of cloud infrastructure and more.
+
+http://contino.co.uk/devops-learnings/
+
+
+An excerpt from the excellent The Practice of Cloud System Administration=
+ book=2C this post covers a method of organising an operations team=2C tak=
+ing into account the competing pressures.
+
+http://www.druva.com/blog/organizing-strategy-operational-teams/
+
+
+If you=E2=80=99re working in operations=2C then getting involved with the=
+ development of new applications early can help everyone involved. This de=
+ck presents lots of good ideas for design reviews ahead of launching new a=
+pplications.
+
+http://www.slideshare.net/lnxchk/design-reviews-for-operations-velocity-eu=
+rope-2014
+
+
+A good step-by-step example of using a service discovery tool for a common=
+ problem=2C in this case using consul to manage the configuration of a web=
+ application proxy.
+
+http://agiletesting.blogspot.co.uk/2014/11/service-discovery-with-consul-a=
+nd.html
+
+
+A writeup of how Twitter built a search service which deals with roughly h=
+alf a trillion documents and serves queries with an average latency of und=
+er 100ms.
+
+https://blog.twitter.com/2014/building-a-complete-tweet-index
+
+
+If you=E2=80=99re running Graphite then Stresser might be of interest. Thi=
+s blog post demonstrates using the tool to understand how Graphite perform=
+s under load=2C generating a range of metrics to analyse.
+
+http://www.franklinangulo.com/blog/2014/5/25/graphite-series-5-stress-test=
+ing-carbon-caches
+
+
+A quick recap of the last 5 years of the devops story; focusing on culture=
+=2C automation=2C measurement and sharing.
+
+http://www.slideshare.net/cm6051/london-devops-31-5-years-of-devops
+
+
+Jobs
+=3D=3D=3D=3D
+
+KAYAK Software Company is looking for goal oriented Automation and Operati=
+ons Engineers who love removing bottlenecks in the SDLC and being the hero=
+s of the company. KAYAK is a tech company focusing on making travel search=
+ better. If you love coding in puppet=2C ruby=2C Java=2C managing Linux sy=
+stems=2C Apache and MySQL databases and bringing smiles to the QA team=2C=
+ we want to talk to you.
+
+http://www.kayak.com/careers
+
+
+One iota help some of the UK=E2=80=99s biggest high street retailers delig=
+ht their customers on the web=2C on their mobile devices=2C and in-store.=
+ We process over =C2=A35=2C000=2C000 in orders every month=2C with much mo=
+re to come. We=E2=80=99re looking for a talented operations engineer to su=
+pport and empower our developers to move fast without breaking things. If=
+ you=E2=80=99re well-versed in cloud infrastructure=2C preferably AWS=2C a=
+nd have a burning desire to AUTOMATE ALL THE THINGS=2C we=E2=80=99d love t=
+o hear from you.
+
+Our offices are in Rossendale=2C Lancashire (near Manchester=2C but nicer)=
+ and Pembroke Dock=2C Pembrokeshire (like Cornwall=2C but with fewer touri=
+sts).
+
+bit.ly/oneiotaops
+
+
+MediaMath is looking for an SRE to help build and manage our infrastructur=
+e and data centers across four continents. Our SREs are front-and-center i=
+n the effort to design=2C build=2C and keep our distributed services fast=
+ and reliable=2C 100% of the time. If the stability and performance of rea=
+l-time=2C global systems sounds like an exciting challenge=2C join our tea=
+m.
+
+https://careers-mediamath.icims.com/jobs/1538/site-reliability-engineer---=
+techops/job
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Rancher is an attempt to bring AWS-like functions=2C such as EBS=2C VPC=2C=
+ ELB and Security Groups=2C and make them available across any servers=2C=
+ using docker under the hood.
+
+http://www.rancher.io/
+https://github.com/rancherio/rancher
+
+
+VclFiddle is an online tool for experimenting with the Varnish Cache HTTP=
+ reverse-proxy in a sandboxed environment. The hosted version gives you a=
+ really easy way of debugging Varnish configuration.
+
+https://github.com/vclfiddle/vclfiddle
+http://www.vclfiddle.net/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

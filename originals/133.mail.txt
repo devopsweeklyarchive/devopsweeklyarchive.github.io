@@ -1,0 +1,139 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#133?=
+Date: Sun, 21 Jul 2013 11:21:42 +0000
+
+DEVOPS WEEKLY
+ISSUE #133 - 21st July 2013
+
+It's interesting to see ecosystems emerge around certain tools. Both Chef=
+ and Puppet have had an active community for a while not just using the co=
+re tool but building it into other products. And lately it feels like Vagr=
+ant is now seeing the same thing. More than just plugins we're seeing Vagr=
+ant as something to build on - two more examples in the tools section of t=
+his issue.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+The excellent Monitorama conference is back in Berlin in September 19th an=
+d 20th, and the speakers have just been announced. Including the Director=
+ for Engineering for Obama for America, the Heroku CTO, the creator of col=
+lectd and lots more. $200 for a ticket is a steal. See anyone lucky enough=
+ to be going along in Berlin.
+
+http://monitorama.eu/#speakers
+
+
+A good set of problems that organisations often have with rolling out agil=
+e working patterns. The post makes the argument that exactly the same issu=
+es will occur when trying to bring a devops mindset to an organisation. Fo=
+rewarned is forearmed it would seem.
+
+http://www.virtualizationpractice.com/why-agile-initiatives-fail-and-why-d=
+evops-initiatives-should-worry-22365/
+
+
+A nice writeup comparing ITIL and Devops approaches via a nice analogy. Th=
+e comparison table in particular could be handy if you=E2=80=99re starting=
+ to have this sort of conversation inside an existing ITIL aware organisat=
+ion.
+
+http://blog.devopsguys.com/2013/07/17/devops-antifragility-and-the-borg-co=
+llective/
+
+
+An interesting discussion of how risk management and operations management=
+ in terms of devops can be seen to work together. Some nice observations a=
+bout what devops is as well that I completely agree with.
+
+http://www.allymiller.info/blog/risk/2013/07/281/
+
+
+Nice presentation about the evolution of Chef usage at Prezi as they have=
+ grown. Some nice numbers in their, currently 50 internal contributors to=
+ the Chef repository out of 60 engineers. Also explains the Chef data mode=
+l pretty clearly too.
+
+http://prezi.com/urjjss5dn2_b/chef-at-prezi/
+
+
+If you=E2=80=99re in a large organisation then getting managers and collea=
+gues to buy-in to devops can be tricky. This excellent presentation from t=
+he recent Devopsdays event provides lots of examples and lots of organisat=
+ion design patterns to help with the culture shift.
+
+http://vimeo.com/album/2435220/video/69079272
+
+
+If you=E2=80=99re using or building IaaS products you should real this pos=
+t, about the dangers of innovation within silos and the need for standards=
+ over a single dominant player in the open source market.
+
+http://ibuildthecloud.tumblr.com/post/55632704038/the-honest-dangers-of-op=
+enstack-winning
+
+
+A series of 10 blog posts, taking you through the creation and automating=
+ of a local development environment through to managing remote cloud serve=
+rs with Chef. Pretty comprehensive learning resource, especially if you=E2=
+=80=99re mainly interested in Chef, Rails and Rackspace.
+
+http://chrislaco.com/devops-toolbox/introduction/
+
+
+Jobs
+=3D=3D=3D=3D
+
+We help Change the world every day. It=E2=80=99s really that simple. There=
+ aren=E2=80=99t a lot of technology jobs out there where your work will ma=
+ke it possible for a 5 year old hear or change the Boy Scouts' policy on L=
+GBT teens.
+
+We're looking for systems and tools engineers to help scale and create the=
+ platform powering that change. Work on continuous deployment, developer i=
+nfrastructure, and scaling a platform with over 40 Million members using C=
+hef, Ruby on Rails, Node.js, Dropwizard, Redis, and Mysql.
+
+If this sounds like you let's talk.
+
+http://www.change.org/hiring/178
+http://www.change.org/hiring/21
+
+
+
+Tools
+=3D=3D=3D=3D
+
+A really interesting online tool for PHP developers and a great idea for e=
+veryone else. PuPHPet is a generator for Vagrantfiles, allowing you to tic=
+k boxes or specifiy packages or databases in the online form, download a g=
+enerated Vagrantfile and get up and running with a pretty comprehensive PH=
+P development stack quickly.
+
+https://puphpet.com/
+
+
+Vagrant is growing a really nice ecosystem of tools. Vundler is a Vagrant=
+ plugin which makes managing Vagrant plugins easier. It=E2=80=99s modelled=
+ on Bundler from Ruby, so you specify the list of plugin dependencies in a=
+ text file and use vundler to keep them up to date. Handy for sharing plug=
+ins across a team.
+
+https://github.com/fgrehm/vundler
+http://fabiorehm.com/blog/2013/07/15/vundler-dead-easy-plugin-management-f=
+or-vagrant/
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

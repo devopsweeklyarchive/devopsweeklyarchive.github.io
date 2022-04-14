@@ -1,0 +1,127 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#144?=
+Date: Sun, 6 Oct 2013 19:06:33 +0000
+
+DEVOPS WEEKLY
+ISSUE #144 - 6th October 2013
+
+I only included one tool link last week=2C but I=E2=80=99ve found five thi=
+s week from handy utilities to entire applications or core infrastructure.=
+ One thing I still like about the whole devops community is a good balance=
+ between tool making and culture/organisation change - hopefully people fi=
+nd this newsletter gets the balance about right.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Great presentation about the software and infrastructure behind a large on=
+line game. Lots of graphs=2C discussions of architecture trade-offs and ta=
+les of what works and what=E2=80=99s still hard.
+
+http://gdcvault.com/play/1016640/Guild-Wars-2-Programming-the
+
+
+Nice write up about developing a real time log stream processing pipeline=
+ for DNS data. Interesting choices around real time vs batch and lots of d=
+etails.
+
+http://labs.umbrella.com/2013/10/04/zeromq-helping-us-block-malicious-doma=
+ins/
+
+
+A tale of starting out with a job title with the word devops and why the a=
+uthor changed it. Saying devops isn=E2=80=99t a job title isn=E2=80=99t en=
+ough=2C this is a great reason why.
+
+http://blog.petecheslock.com/2013/05/03/devops-in-your-job-title-is-doing-=
+you-harm/
+
+
+There are a bunch of HTTP headers which have useful security implications=
+=2C especially in modern browsers. This site lists them=2C provides backgr=
+ound details and lets you check how you=E2=80=99re doing.
+
+https://securityheaders.com/index.php
+
+
+A few people (myself included) spoke at PuppetConf about wanting private c=
+lasses in Puppet. This post explains a trick which gets you some of the wa=
+y there now.
+
+http://www.unixdaemon.net/tools/puppet/protect-internal-puppet-classes.htm=
+l
+
+
+A good list of milestones and checklists for evolving processes based on t=
+he three ways model of devops. Good structured ways of looking at improvin=
+g your organisation.
+
+http://everythingsysadmin.com/2013/09/devops-lookfors.html
+
+
+A nice tale of profiling=2C and using data to argue against common myths=
+=2C in this case it=E2=80=99s always the database that=E2=80=99s the perfo=
+rmance bottleneck.
+
+http://blog.iconfinder.com/when-the-database-is-fast-enough/
+
+
+Devopsdays Atlanta was only a few days ago but the videos from the talks a=
+re already up=2C including talks on ITIL=2C SadOps=2C devops in large ente=
+rprises and more.
+
+http://vimeo.com/album/2555095
+
+
+Tools
+=3D=3D=3D=3D
+
+lmctfy is the open source version of Google=E2=80=99s container stack=2C w=
+hich provides Linux application containers. The main focus appears to be a=
+ high-level user-centric API.
+
+https://github.com/google/lmctfy
+
+
+Ansible provides a powerful but simple orchestration engine. Ansible shell=
+ builds upon that to provide an interactive shell for running commands=2C=
+ including handy things like tab completion.
+
+https://github.com/dominis/ansible-shell
+
+
+Kochiku is an entire continuous integrate platform=2C designed for long ru=
+nning test suites and for distribution across many nodes. I=E2=80=99d love=
+ to see a Puppet/Chef and Vagrant setup for trying this out as it looks ex=
+cellent.
+
+http://corner.squareup.com/2013/09/kochiku.html
+https://github.com/square/kochiku
+
+
+The concept of feature flags or toggles is increasingly used for rolling o=
+ut application features. Why not apply this to configuration management co=
+de too? Enter chef-whitelist.
+
+https://github.com/etsy/chef-whitelist
+
+
+A set of utility scripts for managing ssh configuration for EC2=2C aimed m=
+ainly at people who make use of more than one EC2 account.
+
+https://github.com/astrostl/aws
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,146 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#190?=
+Date: Sun, 24 Aug 2014 12:36:45 +0000
+
+DEVOPS WEEKLY
+ISSUE #190 - 24th August 2014
+
+I=E2=80=99ve been on holiday this week so it=E2=80=99s a relatively short=
+ issue=2C but lots of interesting bits and pieces to read. Next Sunday is=
+ another attempt to write the newsletter from an airport=2C so if you don=
+=E2=80=99t get it around the usual time then it should arrive sometime Mon=
+day when I get to Portland=2C Oregon.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A very indepth look at kernel debugging with ftrace. Ftrace is likely alre=
+ady built-in and enabled if your using Linux but not something I=E2=80=99v=
+e seen used by many people.
+
+http://lwn.net/Articles/608497/
+
+
+A good case for people to stop sub-labelling devops=2C for instance as ent=
+erprise devops or similar. Ultimately we=E2=80=99re better learning from a=
+s wide a group of experiences as possible it seems to me.
+
+http://goatcan.wordpress.com/2014/08/19/labeling-devops-hurts-the-movement=
+/
+
+
+Microservices are definitely hip=2C but not enough people are talking abou=
+t the challenges in my experience. This post does a good job of pointing o=
+ut complexity still exists=2C you=E2=80=99re just moving it elsewhere. Tha=
+t elsewhere is often why stronger operations skills are in such demand.
+
+http://www.codingthearchitecture.com/2014/07/06/distributed_big_balls_of_m=
+ud.html
+
+
+A nice collection of presentations from the Papers we Love meetup group. L=
+ots of talks by different people in different cities=2C but a good start i=
+f you=E2=80=99re starting to look at academic literature.
+
+https://speakerdeck.com/paperswelove
+https://github.com/papers-we-love/papers-we-love
+
+
+Having a tool to help guide your programming style is incredibly useful=2C=
+ both when learning a language and when aiming for consistency between dif=
+ferent projects. Puppet Lint is just that tool for the Puppet language and=
+ it=E2=80=99s just hit a 1.0.0 release=2C with the addition of a pluggable=
+ rules and the ability to automatically fix some issues.
+
+http://bombasticmonkey.com/2014/08/19/puppet-lint-1.0.0/
+
+
+Another deep-dive into AWS performance=2C this time looking at Route 53 DN=
+S and in particular the new geolocation routing policy vs a latency based=
+ policy.
+
+http://www.takipiblog.com/2014/08/20/aws-route-53-benchmarking-the-new-ama=
+zon-geolocation-policy/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Say Media (digital publishing and technology company based in SF) is looki=
+ng for a seasoned Operations Engineer to help us manage=2C maintain=2C and=
+ deploy key infrastructure. As a member of the Ops team=2C you'll be respo=
+nsible for maintaining=2C improving=2C and optimizing a global environment=
+=2E  Please check out the job description at:
+
+http://www.saymedia.com/jobs?jvi=3DootlZfwV
+
+
+Digitas LBi is a digital rebranding agency in the Truman Brewery=2C Brick=
+ Lane. We=E2=80=99ve recently merged with Digitas and the Publicis group a=
+nd our technology function is undergoing an exciting stage of growth and c=
+hange. We're looking for a DevOps evangelist to join the brand new DevOps=
+ function to set up processes and revolutionize the way we work across Man=
+aged services and Technology. You=E2=80=99ll be a pro with Puppet=2C Chef=
+=2C vagrant=2C AWS and live and breathe TDD.
+
+https://careers-digitaslbi.icims.com/jobs/2195/senior-devops-engineer/job
+Contact Kirsty Nelson for more details: kirsty.nelson@digitaslbi.com
+
+
+Events
+=3D=3D=3D=3D=3D
+
+The London Devops meetup is back=2C with a few short talks ands lots of ti=
+me for conversations. The first event will be on September 9th at 7pm at t=
+he Just Eat offices with the second event already in the works for October=
+=2E
+
+http://www.meetup.com/London-DevOps/events/201621392/
+
+
+Tools
+=3D=3D=3D=3D
+
+Mentioned in the ftrace blog post above this set of scripts is a great res=
+ource if you=E2=80=99re doing any low-level performance tuning on Linux.
+
+https://github.com/brendangregg/perf-tools
+
+
+Vessel is another tool for automating the setup and use of docker based de=
+velopment environments. It integrates Vagrant=2C CoreOS=2C Consul=2C docke=
+r and Atom into a slick opinionated package. The user interface looks part=
+icularly impressive from the screenshots.
+
+http://awvessel.github.io/
+
+
+Ganger is a tool for running short-lived network services inside Docker co=
+ntainers=2C and then proxying client connections to them. It=E2=80=99s des=
+igned mainly for data processing batch jobs that require a fresh environme=
+nt each time=2C but could have other interesting uses.
+
+https://github.com/andytinycat/ganger
+
+
+Chef-runner is a tool for executing chef recipes on remote machines=2C ove=
+r SSH. It features vagrant integration and is built to be much faster than=
+ the in-built provisioning for this use-case.
+
+https://github.com/mlafeldt/chef-runner
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

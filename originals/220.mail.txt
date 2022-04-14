@@ -1,0 +1,156 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#220?=
+Date: Sun, 22 Mar 2015 09:53:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #220 - 22nd March 2015
+
+Doing the newsletter every week means that themes definitely emerge for so=
+me issues depending on what I=E2=80=99ve been reading that week. This week=
+ that means lots of interesting security content - from the very basics of=
+ setting up servers to advanced future container security ideas.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored book
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+[eBook] 3 expert tips to enable a DevOps transformation & more
+
+Companies utilizing DevOps practices are 2.5x more likely to exceed profit=
+ability=2C market share=2C and productivity goals. Get expert tips to enab=
+le a high performance DevOps transformation from guru Gene Kim=2C co-autho=
+r of The Phoenix Project=2C and other experts.
+
+http://cpwr.it/KigTf
+
+
+News
+=3D=3D=3D=3D
+
+A solid update on where container (and Docker) security is heading. Discus=
+sion of user namespaces to better isolate individual containers and seccom=
+p to reduce the syscall surface area.
+
+http://opensource.com/business/15/3/docker-security-future
+
+
+A nice tutorial on basic server security measures=2C including SSh keys=2C=
+ firewalls=2C VPN all the way up to a private PKI. A good introduction to=
+ the why rather than the how=2C
+
+https://www.digitalocean.com/community/tutorials/7-security-measures-to-pr=
+otect-your-servers
+
+
+A solid business argument for all the agile and devops discussions=2C focu=
+sing first on the growing need to adapt quickly=2C and then on the resulti=
+ng need to reduce the cost of change.
+
+http://blog.christianposta.com/microservices/microservices-and-reducing-th=
+e-cost-of-change/
+
+
+A nice discussion of how to evolve team structures towards a devops mindse=
+t=2C including the idea of introducing a tools team to get things moving.
+
+https://www.rallydev.com/community/engineering/you-dont-need-devops-team-y=
+ou-need-tools-team
+
+
+An excellent talk entitled AppSec is eating Security. Covers lots of mater=
+ial=2C from the importance of browser security to passwords and the move a=
+way from trusted networks and hardware devices.
+
+https://www.youtube.com/watch?v=3D-1kZMn1RueI
+
+
+Some good points about why adopting devops practices can be difficult. Alo=
+t of it comes down to the fact change is simply difficult but some good po=
+ints about the differences in focus between operators and developers.
+
+https://theagilecoder.wordpress.com/2015/02/24/why-is-devops-so-hard/
+
+
+A description of different ways of combining virtualisation and containers=
+ and the reasons why you may choose to do so.
+
+http://mainframedebate.com/2015/03/20/virtualization-vs-containerization/
+
+
+The concept of an automated deployment is still relatively new for some fo=
+lks. This short presentation introduces the pipeline from the point of vie=
+w of systems administration.
+
+http://www.slideshare.net/ProfFalken/pipelines-for-sysadmins
+
+
+Jobs
+=3D=3D=3D=3D
+
+Do you like solving problems? Do you like solving really big problems? Do=
+ you like the idea of wrangling 600+ servers spread over 2 virtual and 2 p=
+hysical data centres that handle appx. 1000 requests p/second sized proble=
+ms? If so=2C then you might like Qubit. We are a $26m funded personalisati=
+ons and analytics startup=2C searching for a DevOps Engineer in Soho=2C Ce=
+ntral London and as mentioned=2C we want a problem solver.
+
+https://qubit.workable.com/jobs/6747
+
+
+Coupa is looking for a Senior DevOps Engineer to join our team in the Bay=
+ Area. Coupa makes companies more profitable by amplifying their spend pow=
+er=2C all with one simple platform that people actually enjoy. We use AWS=
+=2C Chef=2C Ruby on Rails=2C and similar technologies. You would be workin=
+g on a large scale web operation that supports millions of critical busine=
+ss processes for multinationals around the world=2C and would help us find=
+ innovative & creative ways to scale our platform.
+
+http://hire.jobvite.com/CompanyJobs/Careers.aspx?nl=3D1&k=3DJob&j=3DoaPJZf=
+wr&s=3DNewsletter%3a_DevOps_Weekly
+
+
+Cloudsoft (cloudsoft.io) need smart cutting-edge developers to help grow o=
+pen source tools for application blueprinting and automation: Apache Brook=
+lyn (brooklyn.io) and clocker.io. You'll be working with a wide range of s=
+ystems=2C from analytics and nosql to networking and paas=2C to codify dep=
+loyment and policies for management=2C and to extend the YAML blueprinting=
+ language. Java=2C JS=2C networking=2C bash and/or chef/salt/etc expertise=
+ advantageous. Remote and flexible working an option.
+
+http://www.cloudsoftcorp.com/company/#careers
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A nice and simple way of getting metrics from elasticsearch to graphite. N=
+ice screenshots to show you what you=E2=80=99re getting too.
+
+https://github.com/jamiealquiza/es-stats
+
+
+A minimal githook application configured using a json file. You can set co=
+mmands to run based on the repository changing and sent output to stdout a=
+nd to slack.
+
+https://github.com/octplane/small-deployer
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

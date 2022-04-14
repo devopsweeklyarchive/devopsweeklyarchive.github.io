@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#181?=
+Date: Sun, 22 Jun 2014 09:59:36 +0000
+
+DEVOPS WEEKLY
+ISSUE #181 - 22nd June 2014
+
+A relatively short issue this week as I=E2=80=99m writing this in the airp=
+ort before flying out to Santa Clara for Velocity and Devopsdays. Which sh=
+ould mean lots of content for next issue to make up for it. Any readers go=
+ing along to the above conferences do come and say hello.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A good post extolling the benefits of post-mortems for incidents=2C and in=
+ particular focusing on the need to make them blameless - and the knock on=
+ effect that has on an organisation=E2=80=99s culture.
+
+http://www.paperplanes.de/2014/6/20/what-blameless-postmortem-taught-me.ht=
+ml
+
+
+An excellent technical walkthrough of building a risking engine to detect=
+ fraud using machine learning techniques.
+
+http://nerds.airbnb.com/architecting-machine-learning-system-risk/
+
+
+And another post about using machine learning to process data sets=2C this=
+ site in pursuit of better recommendations. It feels like open source tool=
+s exist for the low level parts here=2C but not the higher level framework=
+s.
+
+http://codeascraft.com/2014/06/18/conjecture-scalable-machine-learning-in-=
+hadoop-with-scalding/
+
+
+Not all of the excitement around docker comes from people who understand w=
+hat docker is so I liked this post that aims to clear up a number of commo=
+nly seen misconceptions.
+
+https://devopsu.com/blog/docker-misconceptions/
+
+
+A blog post making that case that those that operate systems are users too=
+=2E A good detailed example is talked through about why it=E2=80=99s importa=
+nt to have real users=2C in this case systems administrators=2C on the pro=
+duct team.
+
+http://blog.jaywayco.co.uk/sysops-are-end-users-too/
+
+
+A nice practical look at a few areas that many people would associate with=
+ devops;. collaboration=2C automation=2C continuous integration=2C continu=
+ous testing=2C continuous delivery and continuous monitoring.
+
+http://blog.newrelic.com/2014/06/12/divingintodevops/
+
+
+With the growth of monitoring and other times of time series data these re=
+quirements for a good time series database make for an interesting read.
+
+http://www.xaprb.com/blog/2014/06/08/time-series-database-requirements/
+
+
+Organising work is an interesting topic=2C and the last few years has seen=
+ lots of interest in Kanban for engineering and operations tasks. I enjoye=
+d this next post mainly as it shows someones actual board. It would be int=
+eresting to compare lots of these.
+
+http://matschaffer.com/2014/06/rethinking-kanban/
+
+
+A long list of projects that should be of interest to any systems administ=
+rators out there. Lots you=E2=80=99ll probably be familiar with but I bet=
+ most people will find a few things they didn=E2=80=99t know about.
+
+https://github.com/kahun/awesome-sysadmin
+
+
+Tools
+=3D=3D=3D=3D
+
+If you=E2=80=99ve ever looked into ways of securing traffic between intern=
+al services you=E2=80=99ll have found lots of options=2C most of them lots=
+ of work. Certified is an internal CA that=E2=80=99s designed to be easy t=
+o use
+
+https://github.com/rcrowley/certified
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

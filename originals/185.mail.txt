@@ -1,0 +1,138 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#185?=
+Date: Sun, 20 Jul 2014 11:17:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #185 - 20th July 2014
+
+Some big personal news from me this week. After 3 years working for the UK=
+ government I=E2=80=99m leaving to work for Puppet Labs out of London from=
+ September. With regards Devops Weekly=2C nothing will change=2C the newsl=
+etter remains a fun hobby rather than part of my new job. A shoutout to al=
+l the nice Puppet Labs folks reading this newsletter=2C I=E2=80=99ll see l=
+ots of you in Portland in September.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Last week saw the first Devopsdays Minneapolis and from the rest of this n=
+ewsletter you=E2=80=99ll see it looked like a great event. This blog post=
+ from one of the organisers talks nicely about how to arrange one yourself=
+=2E
+
+http://bridgetkromhout.com/blog/2014/07/20/all-that-sparkles-is-not-magic/
+
+
+A great presentation entitled =E2=80=9Chow to debug anything=E2=80=9D. Lot=
+s of examples stepping through issues mainly using strace.
+
+http://www.slideshare.net/jamesgolick/how-to-debug-anything
+
+
+We see lots of discussion of devops from the point of view of engineers=2C=
+ and often from the point of view of the organisation=2C but this next pos=
+t covers what it means for the role of product owner. I=E2=80=99ve played=
+ this role a few times and lots of this post matches my own experience.
+
+https://blog.codecentric.de/en/2014/07/devops-product-ownership/
+
+
+One of the presentation from Devopsdays Minneapolis=2C placing devops on t=
+he hype cycle. Lots of examples placed on the peak of inflated expectation=
+s through the trough of disillusionment and out the other side.
+
+https://speakerdeck.com/kdaniels/devops-is-dead-1
+
+
+Another of the presentation from Devopsdays Minneapolis on devops as a the=
+ory and on what Conway=E2=80=99s law means for devops.
+
+http://www.slideshare.net/danslimmon/conways-law-the-skeleton-of-devops
+
+
+A tongue-in-cheek presentation about =E2=80=9Chow to hire your first devop=
+=E2=80=9D. A few good points and a few jokes in there=2C probably not one=
+ to share if you=E2=80=99re just working out what this movement is about.
+
+http://www.slideshare.net/mattstratton/dodmspignitestratton
+
+
+A nice set of principles for of metric driven development=2C talking about=
+ Instrumentation-as-Code=2C Single Source of Truth=2C Developers Curate Vi=
+sualizations and Alerts=2C Alert onwhat you see=2C show me the Graph and D=
+on=E2=80=99t Measure Everything.
+
+http://blog.librato.com/posts/2014/7/16/metrics-driven-development
+
+
+The increasing hype around microservices is interesting=2C and I think one=
+ thing that leads to a focus on operations as some of the complexity is mo=
+ved around. So this post is interesting=2C comparing the evolution of obje=
+ct orientated programming and interfaces to some of the challenges of micr=
+oservices.
+
+http://blog.osgi.org/2014/07/the-big-ball-of-mud.html
+
+
+A nice insight into how Etsy does security. I think the main takeaway here=
+ is that it=E2=80=99s not (only) about web application attacks=2C side cha=
+nnels=2C lateral movement and your laptop are increasingly the a big attac=
+k vector.
+
+https://speakerdeck.com/barnbarn/handmade-security-at-etsy
+
+
+
+Jobs
+=3D=3D=3D=3D
+
+Box is currently seeking a highly motivated=2C self-driven=2C experienced=
+ Build and Release Engineer. This position will be located in Los Altos=2C=
+ California. The candidate will architect and orchestrate the underlying i=
+nfrastructure which powers our continuous integration (CI) and continuous=
+ delivery (CD) pipeline for desktop products. This is a unique opportunity=
+ to work in a pre-IPO company with the chance to 10x innovation by solving=
+ some difficult challenges with cross platform CI and CD.
+
+https://jobs.lever.co/box/65c77e62-b2ff-4110-810c-506fd187de0c
+
+
+Tools
+=3D=3D=3D=3D
+
+MaestroNG is an orchestration tool for multi-host docker environments. The=
+ examples in the README give the best idea=2C showing YAML files describin=
+g the entire environment.
+
+https://github.com/signalfuse/maestro-ng
+
+
+Anode is a utility for analyzing graphite metrics. It=E2=80=99s currently=
+ quite experimental=2C containing a single three sigma analyzer that takes=
+ a time series from graphite and creates new metrics alongside.
+
+https://github.com/mattrco/anode.exp
+
+
+Log File Navigator is an advanced log file viewer for the small-scale. It=
+=E2=80=99s only really useful for a single host but provides some impressi=
+ve command line visualisation tools as well as a powerful SQL query engine=
+=2E
+
+http://lnav.org/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

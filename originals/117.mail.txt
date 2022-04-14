@@ -1,0 +1,183 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#117?=
+Date: Sun, 31 Mar 2013 21:19:19 +0000
+
+DEVOPS WEEKLY
+ISSUE #117 - 31st March 2013
+
+Monitorama in Boston was amazing. Huge thanks to Jason Dixon and everyone=
+ else involved who organised, attended or sponsored the event. If you're n=
+ot interested in monitoring I'd probably recommend skipping this entire is=
+sue, if not the links, presentations and new tools should keep you buys. E=
+ven the jobs are with folks who were at monitorama. See everyone in Berlin=
+=2E
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+Monitorama
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+If the huge amount of content from monitorama in this issue makes you wish=
+ you had made it along then you might be in luck. Monitorama is coming to=
+ Europe, Berlin, later this year. Sign up for more information.
+
+http://monitorama.eu/
+
+
+A talk in the style of an essay, this one on Monitoring for humans. A good=
+ account of the status quo, lot of improvements to the technology and tool=
+s, but not as much discussion of what makes a good check or what makes a w=
+orthwhile alert.
+
+http://www.paperplanes.de/2013/3/28/monitoring-for-humans.html
+
+
+Slides from one of the workshops held on the second day. These are from th=
+e statsd workshop, providing a quick introduction, showing examples, talki=
+ng a little about writing backends and suggesting a few nice future enhanc=
+ements.
+
+https://speakerdeck.com/mrtazz/statsd-workshop-monitorama-2013
+
+
+An entertaining run through the state of monitoring, focusing on a few are=
+as where we could be doing a lot better or thinking about a lot more; for=
+ instance security, data retention, alert fatigue, visualisation patterns=
+ and more.
+
+https://speakerdeck.com/lusis/monitorama-2013
+
+
+More slides from monitorama, these ones from Dr Neil Gunther. Features a g=
+reat history of monitoring and lots of science and statistics which we sho=
+uld be applying to our tools and approaches.
+
+http://perfdynamics.blogspot.ca/2013/03/monitorama-2013-conference.html
+
+
+News
+=3D=3D=3D=3D
+
+The videos from Devopsdays London are all up now. Lots of good talks worth=
+ watching, in particular if you're interested or working in a large organi=
+sation as that turned out to be something of a theme.
+
+http://vimeo.com/album/2312414
+
+
+Good list of things to consider when writing configuration management code=
+, aimed at preventing a proliferation of very similar modules and improvin=
+g prospects for sharing code.
+
+https://github.com/jedi4ever/stop-the-fork
+
+
+If you're into podcasts then here's another one to add to the growing webo=
+ps/devops shows. We love monitoring is a podcast dedicated to all things m=
+onitoring. The organisers are looking for people to go on the show too.
+
+http://www.welovemonitoring.com/
+
+
+Article positing that we need to see much better ways of testing performan=
+ce and scalability in a world of continuous deployment. The comments are i=
+nteresting too, mainly highlighting resistance to the idea within large en=
+terprises.
+
+http://www.infoworld.com/d/application-development/make-performance-and-sc=
+alability-testing-continuous-or-else-212804
+
+
+A follow up to a previous article, about problems that occur if you take a=
+ pipeline approach to monitoring. Specifically, the case with checks that=
+ are based on collected metrics, and the different failure modes.
+
+http://holmwood.id.au/~lindsay/2013/03/25/data-failures-compartments-pipel=
+ines/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Help build the platform that powers a better, fairer banking experience at=
+ Simple. Join a talented team that chooses its own tools (and open sources=
+ new ones); works across web, Android, iOS, and Ruby/Scala/Clojure backend=
+ apps; and develops a secure and scalable banking service on AWS.
+
+http://careers.simple.com/apply/LKW4tQ/Operations-Engineer.html
+
+
+MIT Lincoln Laboratory is currently looking for a student enrolled in coll=
+ege to do a paid internship/co-op in our Advanced Technologies division. T=
+his is a great opportunity to get your feet wet in a role that encourages=
+ creative approaches to operations work. You should already be pretty comf=
+ortable with Linux environments for this internship, and be familiar with=
+ the configuration management platforms such as Puppet. Knowing a language=
+ (like PERL, Ruby, Python, PHP) is also useful, as we've got a variety of=
+ user-facing and internal tools that could use some improvement. Unfortuna=
+tely, due to the nature of Lincoln's work, this internship requires US Cit=
+izenship.
+
+http://tinyurl.com/llr4207
+
+
+Tools
+=3D=3D=3D=3D
+
+One of the talks at Monitorama, from Jesse Newland from GitHub, talked qui=
+te a bit about their new pagerduty integration with their hubot chat bot,=
+ and how it helped with being on call. The code for that plugin is now ope=
+n source.
+
+https://github.com/github/hubot-scripts/pull/858
+
+
+Norman is a dashboard for puppet reports, based on information sent to log=
+stash and stored in elasticsearch. If you're already using Forman, but onl=
+y for the report dashboard this might be for you.
+
+https://github.com/youdevise/norman
+
+
+Another of the monitorama hackday projects was a way to build resilience i=
+nto statsd using a proxy with a consistent hashing ring. Described as a pr=
+oof of concept at the moment but we saw this working on the day.
+
+https://github.com/etsy/statsd/pull/284
+
+
+Dashing is a new dashboard framework from Shopify. It's written in Ruby an=
+d Coffeescript, already has impressive looking documentation and a good de=
+mo, and looks a great way of quickly building attractive dashboards.
+
+http://shopify.github.com/dashing/
+
+
+Ever wanted to update your TV screen dashboards using your chat bot? Crims=
+on Twins is used by Mozilla to do just that, allowing you to easily change=
+ what's been shown on your dashboards based on what is relevant to the iss=
+ues at hand.
+
+https://github.com/mythmon/crimsontwins
+
+
+Mixing business metrics with operational data is a great way of fostering=
+ collaboration and helps with prioritising the right things. Anthracite is=
+ a simple dashboard tool for submitting and showing those events, with nic=
+e graphite integration so you can mix this data into your existing metrics=
+=2E
+
+https://github.com/Dieterbe/anthracite
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+
