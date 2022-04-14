@@ -1,0 +1,129 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#136?=
+Date: Sun, 11 Aug 2013 10:58:16 +0000
+
+DEVOPS WEEKLY
+ISSUE #136 - 11th August 2013
+
+Lots of content relevant to people working in large organisations this wee=
+k. From risk management theatre to how to work devops into an ITIL minded=
+ organisation. Most interestingly of all is an entire journal of devops fl=
+avoured content from PWC. The rate which devops discussions have spread fr=
+om the agile infrastructure days into mainstream organisations never cease=
+s to amaze me.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Shameless plug for something I wrote this week, about some why platform as=
+ a service products need to expose an interface to the underlying network=
+ infrastructure.
+
+https://medium.com/p/817849715f0a
+
+
+/mentoring is a distributed mentoring movement that looks like a great ide=
+a for anyone looking to learn from others. Paul Nasrat, who works as a Sit=
+e Reliability Engineer in New York, is looking for anyone interested in a=
+ potential mentoring relation. More details below or email contactpnasrat@=
+gmail.com for an initial chat.
+
+http://pauln.truemesh.com/mentoring
+http://mentoring.is/
+
+
+The latest PWC technology forecast journal is all about devops. 65 pages o=
+r so of interviews, articles and explanations useful for everyone but in p=
+articular your boss.
+
+http://www.pwc.com/us/en/technology-forecast/2013/issue2/assets/techforeca=
+st-2013-issue-2.pdf
+
+
+Using Spot Price instances on AWS takes careful planning or a specific kin=
+d of workload. This posts explains how to use the API and Sensu to autosca=
+le instances using spot prices, saving a good chunk of change in the proce=
+ss.
+
+http://metabroadcast.com/blog/aws-auto-scaling-your-savings
+
+
+Any discussion of changing processes within an organisation is bound to to=
+uch on risk management. Unfortunately in some companies that means risk ma=
+nagement theatre. This post explains what that looks like and what alterna=
+tive approaches might look like.
+
+http://continuousdelivery.com/2013/08/risk-management-theatre/
+
+
+If you work in a large company it=E2=80=99s quite likely you=E2=80=99ve co=
+me across ITIL or other process frameworks. If so, this free ebook should=
+ hopefully be of interest, aiming to provide a bridge between devops and I=
+TIL.
+
+https://www.scriptrock.com/blog/itil-guide-to-devops/
+
+
+Ever wondered whether openresty is faster for single requests than go? Or=
+ whether finangle or nodejs are faster for writes? How does all of that di=
+ffer if you=E2=80=99re running on AWS? These benchmarks cover 74 web frame=
+works and runtimes and might be of interest if you=E2=80=99re comparing lo=
+ts of technologies.
+
+http://www.techempower.com/benchmarks/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Registration and the call for proposals for devopsdays NYC are now open, w=
+ith the event taking place on the 17th and 18th of October. Instead of pri=
+nting yet another batch of conference t-shirts, devopsdays NYC is donating=
+ the cost of the t-shirts to the non-profit Lotus Outreach which is provid=
+ing clean drinking water to rural villages in Cambodia. No excuses not to=
+ sign up if you=E2=80=99re in the area.
+
+http://devopsdays.org/events/2013-newyork/
+
+
+Tools
+=3D=3D=3D=3D
+
+NFT looks like an interesting tool for writing tests againts network serve=
+rs. It provides tools for testing against DNS, HTTP and low level sockets,=
+ as well as tools for running tests continuously and for storing and visua=
+lising results over time.
+
+http://code.shutterstock.com/ntf/
+
+
+Rockstack is an interesting approach to packaging up modern language runti=
+mes around a consistent command line interface. So rather than remembering=
+ differences between say running tests on Perl or Ruby or Python you can j=
+ust run rock test.
+
+http://www.rockstack.org/
+
+
+Treating Infrastructure as code means taking testing configuration managem=
+ent code seriously. Searchef is another piece of the puzzle if you=E2=80=
+=99re using Chef, it allows for stubbing out calls to the Chef search serv=
+er in your test code.
+
+https://github.com/fnichol/searchef
+
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

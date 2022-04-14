@@ -1,0 +1,180 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#205?=
+Date: Sun, 7 Dec 2014 13:42:40 +0000
+
+DEVOPS WEEKLY
+ISSUE #205 - 7th December 2014
+
+Quite a bit of variety this week=2C from some sad news to something purely=
+ comedic. Plus lots of talk of monitoring=2C documentation=2C on-call prac=
+tices and academic literature=2C events and more.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Ezra Zygmuntowicz passed away this last week. Not everyone will know of hi=
+m=2C but lots of you will have been influenced by his work. This is a love=
+ly reminder of some of that work=2C and a call to support others in our co=
+mmunity striving to build things.
+
+https://medium.com/@adamhjk/remembering-ezra-zygmuntowicz-a9864a2229d3
+
+
+I don=E2=80=99t normally feature things purely because they=E2=80=99re fun=
+ny=2C but the combination of the Puppet documentation=2C the works of H.P.=
+ Lovecraft and a Markov generator made me laugh quite a lot this week.
+
+http://thedoomthatcametopuppet.tumblr.com/
+
+
+It=E2=80=99s the first week of December which means at least one thing=2C=
+ it=E2=80=99s time for SysAdvent again. A great community affair=2C so far=
+ we=E2=80=99ve had posts on Docker; Sysdig=2C osquery and facter; Debugger=
+s=2C Kafka and more.
+
+http://sysadvent.blogspot.co.uk/
+
+
+Whatever the project=2C providing good quality documentation is essential.=
+ This new section of Write the docs is a great starting point for anyone w=
+anting to improve project documentation.
+
+http://docs.writethedocs.org/
+
+
+An interesting presentation investigating using Riemann=2C InfluxDB and Gr=
+afana in place of Graphite for time series monitoring.
+
+http://www.slideshare.net/nickchappell/pdx-devops-graphite-replacement
+
+
+One of the problems you quickly run into if you try and run more than one=
+ process in a container is that the main init system is unlikely to work a=
+s expected. This post is a good introduction to one solution using the S6=
+ init system.
+
+http://blog.tutum.co/2014/12/02/docker-and-s6-my-new-favorite-process-supe=
+rvisor/
+
+
+Some interesting and useful data from a recent survey relating to being on=
+-call. Details about the impact of monitoring and automation tools=2C aver=
+age rotation times=2C communication during incidents and more.
+
+http://victorops.com/knowledge-drop/reports/state-of-on-call-2014/
+
+
+When talking about the latest tools is easy to forget that lots of people=
+ are just getting started. Especially if you work for a small company gett=
+ing over early hurdles can be pretty painful. This next post is a nice int=
+roduction to the basics of deployment.
+
+http://24ways.org/2014/developing-robust-deployment-procedures/
+
+
+One of the things that came up a few times at the recent New Directions in=
+ Operating Systems conference was the Rump Kernel. This post does a nice j=
+ob of introducing the basics and providing a few links for more informatio=
+n.
+
+http://samthursfield.wordpress.com/2014/11/25/the-hypercall-api-of-the-rum=
+p-kernel-project/
+
+
+Another post from the New Directions in Operating Systems conference=2C th=
+is time delving into one of the other recurring themes; the end of the gen=
+eral purpose OS. Includes some details of the DIOS research project.
+
+http://blog.acolyer.org/2014/12/02/the-case-for-distributed-operating-syst=
+ems-in-the-data-center/
+
+
+And a final related bit of content from the New Directions conference=2C t=
+his paper=2C entitled Unikernels: Rise of the Virtual Library Operating Sy=
+stem=2C covers what Unikernels are and why they might solve some of our pr=
+oblems around light-weight operating systems and large attack surfaces.
+
+http://queue.acm.org/detail.cfm?id=3D2566628
+
+
+Jobs
+=3D=3D=3D=3D
+
+RSA Insurance Plc is hiring a DevOps Engineer to help us get our new cloud=
+ infrastructure right and get our legacy environments in shape. It's a gre=
+at opportunity to bring DevOps culture and technology to a FTSE 100 financ=
+ial services company=2C especially if you already love Django=2C SaltStack=
+ and AWS.
+
+http://www.rsagroup.com/rsagroup/en/ukvacancies/all-vacancies?jobref=3D535
+
+
+DataSift is a streaming and real-time data processing platform=2C dealing=
+ with over 1 Billion tweets=2C posts and news articles a day. We're lookin=
+g for Operations Engineers with a passion for using automation=2C monitori=
+ng and modern operations tools to solve big data problems.  Our key princi=
+ples are good automation and monitoring=2C and we use Chef=2C Graphite and=
+ Riemann at scale to help us with this. We offer competitive salaries=2C g=
+reat benefits and awesome perks!
+
+https://hire.jobvite.com/j?cj=3DoN4eYfwN&s=3DDevOpsWeekly
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Monitorama has announced their next event taking place June 15-17 2015 in=
+ Portland=2C OR. As usual you can expect a ton of fantastic talks about mo=
+nitoring=2C alerting and related DevOps topics. This is a single-track eve=
+nt that you won't want to miss. Devops Weekly readers can use the code 'DE=
+VOPSWEEKLY' through December 31=2C 2014 for a $50 discount off general adm=
+ission.
+
+https://ti.to/monitorama/pdx2015?discount_code=3DDEVOPSWEEKLY
+
+
+Scale Summit is a one-day unconference event in London on Friday 27th Marc=
+h 2015=2C bringing together professionals from the operations and software=
+ development communities who have a particular interest in scalable=2C hig=
+h performance systems.
+
+http://www.scalesummit.org/signup/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Conn Check is a new tool for verifying software deployments=2C things like=
+ can  a service talk to a database or another service=2C or is authenticat=
+ion setup correctly. It can also auto-generate tests for some types of app=
+lications.
+
+http://1stvamp.org/verifying-post-deploy-connections-with-conn-check
+
+
+Dockerana is a packaged version of Graphite and Grafana=2C specifically ta=
+rgeted at metrics from Docker.
+
+http://dockerana.com/
+
+
+Seagull is another monitoring tool aimed at Docker environments. It provid=
+es a dashboard containing information about the images and containers=2C a=
+nd allows simple actions like deleting an image or stopping a container.
+
+https://github.com/tobegit3hub/seagull
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

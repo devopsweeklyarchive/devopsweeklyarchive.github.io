@@ -1,0 +1,154 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#155?=
+Date: Sun, 22 Dec 2013 11:35:18 +0000
+
+DEVOPS WEEKLY
+ISSUE #155 - 22nd December 2013
+
+For those of you on holiday this week here=E2=80=99s a bumper set of blog=
+ posts=2C tools and presentations to keep you busy in-between the festivit=
+ies. A big shout-out to anyone who is on-call over Christmas as well=2C he=
+re=E2=80=99s hoping nothing happens.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+A great detailed post about logs. What they are=2C why they are important=
+ and how best to use them at scale. Lots in here=2C from distributed syste=
+ms design=2C to data warehousing and ETL=2C to a good list of papers to re=
+ad.
+
+http://engineering.linkedin.com/distributed-systems/log-what-every-softwar=
+e-engineer-should-know-about-real-time-datas-unifying
+
+
+A presentation attempting to model devops=2C using lots of existing visual=
+isations of what devops means and also looking at patterns that emerge fro=
+m those models. Great stuff.
+
+http://www.slideshare.net/jedi4ever/modelling-devops
+
+
+This weeks survey is the yearly Devops survey from PuppetLabs=2C Gene Kim=
+ and Jez Humble. 10 minutes of interesting questions (and a few prizes) an=
+d then a wait for the results.
+
+http://www.surveygizmo.com/s3/1483785/DevOps-Survey-2013
+
+
+Devops in large organisations always comes with interesting challenges. Th=
+is post=2C with lots of concrete examples=2C talks through a devops journe=
+y inside a large bank. Focuses on the need for shared configuration manage=
+ment=2C and includes some mockups of automated change management tooling.
+
+http://www.infoq.com/articles/devops-04-large-bank
+
+
+A 2 part series about using Docker as part of a Jenkins based build pipeli=
+ne. The posts cover how and why to use containers in this way=2C and prese=
+nt some tools and code examples.
+
+http://blog.howareyou.com/post/62157486858/continuous-delivery-with-docker=
+-and-jenkins-part-i
+http://blog.howareyou.com/post/62157486858/continuous-delivery-with-docker=
+-and-jenkins-part-i
+
+
+The slides and videos from the recent Flowcon are now available. Some grea=
+t content on Lean=2C continuous delivery and in particular culture and how=
+ to change it.
+
+http://www.youtube.com/channel/UCMk1sRo1hnTLMA3kpn6BVKg
+http://flowcon.org/flowcon-sanfran-2013/schedule/index.jsp
+
+
+Ignoring the silly name part way through this is a good post about designe=
+rs and how they fit into a more integrated=2C collaborative team. Includes=
+ data from GitHub to back up the point which is interesting.
+
+http://redmonk.com/dberkholz/2013/12/16/the-year-developers-and-designers-=
+collided/
+
+
+A good list of ten non-functional requirements for development teams=2C fo=
+cusing on good operations. While I think this is good I think the topic is=
+ much broader=2C maybe top 100 next time?
+
+http://blog.devopsguys.com/2013/12/19/the-top-ten-devops-operational-requi=
+rements/
+
+
+I always go round in circles when choosing a new language to learn so it=
+=E2=80=99s always good when people write-up their decision and thinking. H=
+ere=E2=80=99s a pretty solid argument why learning Java makes lots of sens=
+e for systems people.
+
+http://devopsanywhere.blogspot.co.uk/2013/11/why-im-learning-java.html
+
+
+Jobs
+=3D=3D=3D=3D
+
+We have built an operations and build/release tools team and are looking f=
+or fellow "devops" enthusiasts to join our ranks. Our team is the backbone=
+ of Product Development at Blackboard=2C enabling continuous integration/d=
+elivery=2C automated deployments and infrastructure as code. Our emphasis=
+ on monitoring and metrics helps shape our team's actions as well as busin=
+ess decisions. We believe strongly in open source technology and contribut=
+e back as much as possible=2C especially as a result of our hackdays and h=
+ackathons.
+
+http://ch.tbe.taleo.net/CH07/ats/careers/requisition.jsp?org=3DBLACKBOARD&=
+cws=3D8&rid=3D8262
+
+
+Events
+=3D=3D=3D=3D=3D
+
+The next Monitorama conference is going to be in Portland on May 5th to th=
+e 7th and a call for proposals is open now until the end of February. If y=
+ou have tales of interesting failures and successes you've encountered in=
+ production then get submitting.
+
+http://monitorama.com/#cfp
+
+
+Tools
+=3D=3D=3D=3D
+
+A very handy new Chef library=2C Chef Sugar provides a number of useful he=
+lpers all in one place to simplify your Chef recipes. So things like windo=
+ws? and ubuntu_before_lucid? and installed_at_version? to name a few.
+
+https://sethvargo.com/spice-up-your-recipes-with-chef-sugar/
+
+
+Vector is a predictive scaling tool for Amazon=E2=80=99s auto-scaling grou=
+ps. What that means is it looks at historical data to guess whether you=E2=
+=80=99re autoscaling group will trigger soon and triggers it early to avoi=
+d the rush. Read the full example in the README to get a clearer picture.
+
+https://github.com/instructure/vector
+
+
+MIDAS is a Python framework for developing a Mac Intrusion Detection Analy=
+sis System. It provides a small library=2C along with tools for writing ch=
+ecks and doing local analysis. Early days but interesting to see more auto=
+mation in this domain.
+
+https://github.com/etsy/MIDAS
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

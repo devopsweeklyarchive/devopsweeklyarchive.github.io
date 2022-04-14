@@ -1,0 +1,149 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#211?=
+Date: Sun, 18 Jan 2015 13:38:36 +0000
+
+DEVOPS WEEKLY
+ISSUE #211 - 18th January 2015
+
+The topic of whether devops needs a manifesto arose again this week. In my=
+ view devops has always just been a word under which lots of conversations=
+ can happen. It=E2=80=99s pure and simple marketing (in a good way)=2C whe=
+re the product is the conversation and the community.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Unlock Your Cloud Potential with Mirantis OpenStack & Cumulus Linux
+Are you building a new private cloud or moving your workloads to a hybrid=
+ cloud in 2015? Or=2C are you just interested in exploring what OpenStack=
+ has to offer but don't have all the resources and toolsets to understand=
+ the gaps.
+January 28th=2C 2015
+
+http://bit.ly/1w6lKGX
+
+
+News
+=3D=3D=3D=3D
+
+As mentioned above=2C the topic of whether devops needs a manifesto or off=
+icial definition arose again this week. Here are two posts on opposite sid=
+es to the debate.
+
+http://radar.oreilly.com/2015/01/the-devops-identity-crisis.html
+http://goatcan.do/2015/01/16/we-dont-need-no-manifesto/
+
+
+An excellent essay on the current state of Software Defined Networking. Di=
+scussing the differences in the network engineering and software engineeri=
+ng view of the world=2C and what part containers might play in networking.
+
+http://markburgess.org/blog_broadcast.html
+
+
+Applying metrics to development and operations is a core tenet of devops p=
+ractices. This detailed post delves into what metrics might be a good idea=
+ for measuring information security work.
+
+https://danielmiessler.com/study/information-security-metrics/
+
+
+A good reminder that for lots of people and organisations devops is still=
+ very new=2C and knowing where to get started (and that it=E2=80=99s possi=
+ble) is very important.
+
+http://askhurram.com/?p=3D146
+
+
+It=E2=80=99s not possible to run ASP.NET applications on Linux and OSX=2C=
+ which opens up the opportunity to run them inside docker containers. This=
+ tutorial shows you how.
+
+http://blogs.msdn.com/b/webdev/archive/2015/01/14/running-asp-net-5-applic=
+ations-in-linux-containers-with-docker.aspx
+
+
+Shameless self promotion. A presentation I gave about using Puppet to desc=
+ribe your AWS infrastructure and launch instances and manage security grou=
+ps and load balancers. Also shows how to use Puppet=E2=80=99s unit testing=
+ tools to test your infrastructure before you launch it.
+
+https://speakerdeck.com/garethr/cloud-infrastructure-from-code
+
+
+Rust is an interesting language well suited to system tools with it=E2=80=
+=99s focus on type safety=2C memory safety=2C concurrency and performance.=
+ With the 1.0 release approaching here are a few good tutorials.
+
+https://speakerdeck.com/mitsuhiko/rust-from-python-and-ruby
+http://rustbyexample.com/
+https://gist.github.com/oakes/4af1023b6c5162c6f8f0
+
+
+This post is a nice introduction to FreeBSD from the point of view of thos=
+e coming from Linux. It does a good job of explaining the differences in d=
+esign and approach=2C and is followed up by more detailed how-to posts.
+
+https://www.digitalocean.com/community/tutorials/a-comparative-introductio=
+n-to-freebsd-for-linux-users
+
+
+A nice business focused view of devops=2C picking specifically on cross or=
+ganisation communication and standardisation.
+
+http://www.enterprisecioforum.com/en/blogs/terencengai/3-practical-steps-r=
+eigning-costs-cloud-a
+
+
+Jobs
+=3D=3D=3D=3D
+
+Expensify is hiring Operations Engineers to develop and support our growin=
+g infrastructure. Help us keep our high-availability=2C distributed=2C tra=
+nsactional environment running smoothly and securely. At Expensify=2C we d=
+o our best every day to ensure your expense reports don't suck!
+
+http://we.are.expensify.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A comprehensive set of Puppet and Chef code for hardening servers. Include=
+s code for base operating systems=2C ssh=2C mysql=2C postgresql=2C apache=
+ and nginx and supports Ubuntu=2C RedHat=2C Debian=2C Centos and Oracle.
+
+https://telekomlabs.github.io/
+
+
+Jetpack is a work-in-progress implementation of the Application Container=
+ Specification using FreeBSD Jail and ZFS.
+
+https://github.com/3ofcoins/jetpack
+
+
+Dashiell is a nice frontend to osquery and facter=2C allowing you to query=
+ the state of a cluster of servers very quickly.
+
+https://github.com/maclennann/dashiell
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

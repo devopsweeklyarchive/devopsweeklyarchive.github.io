@@ -1,0 +1,147 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#141?=
+Date: Sun, 15 Sep 2013 11:22:13 +0000
+
+DEVOPS WEEKLY
+ISSUE #141 - 15th September 2013
+
+It=E2=80=99s the second Monitorama conference this coming week so hopefull=
+y lots of monitoring related content next weekend. If the last one in Bost=
+on was anything to go it should be a pretty special event. If you=E2=80=99=
+re going to be in Berlin let me know on twitter @garethr=2C I=E2=80=99m ar=
+riving Tuesday.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+A presentation from Surge all about engineering management. Loads of good=
+ content in here about organisational structures which tend to put softwar=
+e developer off your company=2C as well as discussion of incentive and job=
+ titles.
+
+http://www.slideshare.net/bcantrill/surge2013
+
+
+A great story of optimising a web stack. Stepping through an existing arch=
+itecture=2C load testing to find bottlenecks and then the changes that wor=
+ked and didn=E2=80=99t.
+
+http://making.fiftythree.com/load-testing-an-unexpected-journey/
+
+
+Good video of a talk all about notable devops culture traits. Good example=
+s from specific companies=2C including Netflix and IBM=2C as well as a qui=
+ck introduction to Deming.
+
+http://dev2ops.org/2013/09/john-willis-notes-notable-devops-culture-traits=
+/
+
+
+Blog post about integrating a bunch of monitoring tools together=2C in thi=
+s case statsd=2C graphite=2C nagios and sentry. A good tale of increasing=
+ the visibility of a system=2C making finding and fixing issues quicker an=
+d easier.
+
+https://github.com/attachmentsme/developer-blog/blob/master/quantified-sit=
+e.md
+
+
+Managing secrets when using configuration management tools is important=2C=
+ and this detailed walk through of using chef-vault is a great starting po=
+int for any Chef users. Lots of code examples and demonstrations of using=
+ the knife plugin.
+
+http://jtimberman.housepub.org/blog/2013/09/10/managing-secrets-with-chef-=
+vault/
+
+
+A quick survey of the state of package management tools and how people are=
+ using them. I=E2=80=99ll hopefully post a link to the results too once th=
+ey are published.
+
+https://medium.com/p/650ca4810c32
+
+
+If you have an interest in distributed systems then you=E2=80=99ve probabl=
+y found yourself reading an academic paper or two. This curated list looks=
+ like an excellent starting point for a deep dive.
+
+http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-i=
+n-distributed-systems.html
+
+
+An interesting approach to internal service communications using AMQP=2C a=
+nd specifically RabbitMQ. The post describes a Ruby implementation and sho=
+ws some examples=2C but the conventions could be adopted by any language o=
+r framework.
+
+https://gocardless.com/blog/hutch-inter-service-communication-with-rabbitm=
+q/
+
+
+A useful diagram highlighting that different parts of the stack=2C from ha=
+rdware and OS up to application code and configuration=2C change at differ=
+ent rates. I=E2=80=99d love to see actual real world data on this to back=
+ up the hypothesis.
+
+http://blogs.urbancode.com/uncategorized/the-many-layers-of-devops-2/
+
+
+Nice writeup of the advantages of adding testing to configuration manageme=
+nt code=2C in this case focusing on the evolution of the Riak chef cookboo=
+k and the testing tools used.
+
+http://basho.com/the-evolution-of-bashos-chef-cookbook/
+
+
+Jobs
+=3D=3D=3D=3D
+
+London based DevOps consultancy The Scale Factory are looking to expand th=
+eir team.  If you'd like to work on challenging infrastructure problems ac=
+ross a range of different businesses=2C you can find more details at http:=
+//www.scalefactory.com/team/careers or you can find @jtopper on Twitter or=
+ ##infra-talk"
+
+
+Tools
+=3D=3D=3D=3D
+
+Ventriloquist is a new tool which combines vagrant and docker to make buil=
+ding development environments with dependencies easier. It=E2=80=99s imple=
+mented as a vagrant provisioner which can make use of a bunch of pre-build=
+ docker images t provide common services.
+
+http://fabiorehm.com/blog/2013/09/11/announcing-ventriloquist/
+https://github.com/fgrehm/ventriloquist
+
+
+Batou looks like an interesting tool for service deployment. It aims to mi=
+x the simplicity of tools like Fabric with a more model driven idempotent=
+ system like Puppet or Chef.
+
+http://batou.readthedocs.org/en/latest/
+http://www.slideshare.net/theuni/batou-multicomponenthostenvironment-deplo=
+yment
+
+
+Collectd3 is a tool which takes information from collectd and visualises i=
+t using the D3 library=2C providing some nice graphics as well as a bird-e=
+ye view of multy-server system.
+
+https://github.com/StackStorm/collectd3
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

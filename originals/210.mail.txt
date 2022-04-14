@@ -1,0 +1,158 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#210?=
+Date: Sun, 11 Jan 2015 11:21:58 +0000
+
+DEVOPS WEEKLY
+ISSUE #210 - 11th January 2015
+
+A big shout out this week to Brightbox Cloud who have been supporting and=
+ sponsoring this newsletter for 3 years this week=2C back when no-one had=
+ heard of devops and Devops Weekly went to just over 2000 subscribers. htt=
+p://brightbox.com/devopsweekly
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Unlock Your Cloud Potential with Mirantis OpenStack & Cumulus Linux
+Are you building a new private cloud or moving your workloads to a hybrid=
+ cloud in 2015? Or=2C are you just interested in exploring what OpenStack=
+ has to offer but don't have all the resources and toolsets to understand=
+ the gaps.
+January 28th=2C 2015
+
+http://bit.ly/1w6lKGX
+
+
+News
+=3D=3D=3D=3D
+
+An excellent presentation covering lots of security pitfalls common in fas=
+t moving devops environments and how to address them. Everythig from Git a=
+nd GitHub tips to Jenkins=2C AWS=2C Vagrant and more.
+
+http://www.slideshare.net/chrisgates/lascon-2014-devooops
+
+
+Riemann has been around for a while but it=E2=80=99s power is sometimes di=
+fficult to take advantage of. These two posts cover installation and fault=
+ detection and are a great place to start.
+
+http://kartar.net/2015/01/riemann-streams/
+http://kartar.net/2014/12/an-introduction-to-riemann/
+
+
+An indepth look at Facebook=E2=80=99s container platform called Tupperware=
+=2E Explains some of the workflows used in such a large environment.
+
+http://www.slideshare.net/Docker/aravindnarayanan-facebook140613153626phpa=
+pp02-37588997
+
+
+A good reminder that devops practices are mainly about the day to day work=
+=2C rather than some big-bang change.
+
+http://radar.oreilly.com/2015/01/chop-wood-carry-water.html
+
+
+If you=E2=80=99ve worked with AWS you=E2=80=99ll have realised just how bi=
+g it is. This post provides lots of tips that the author wished they=E2=80=
+=99d known when they started out.
+
+https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/
+
+
+Another set of tips for using AWS=2C this time specifically addressing sec=
+urity.
+
+http://blog.botmetric.com/post/107293248044/top-5-security-tips-for-protec=
+ting-aws-cloud
+
+
+A post suggesting 6 changes to ITIL to better accommodate devops practices=
+=2E Good tips for anyone using ITIL or other service management frameworks t=
+oo.
+
+https://noelbruton.wordpress.com/2014/04/04/how-to-modify-itil-to-accommod=
+ate-devops/
+
+
+A good post about discovering operations from a developers point of view.=
+ =E2=80=9CIf you don't know much about what happens to your code after you=
+ write it=2C your code is probably not as good as it could be.=E2=80=9D
+
+http://www.mariopaolucci.com/puppet-thats-an-ops-thing-right/
+
+
+A good call to action for the systems administration community to adopt mo=
+re data science practices. If you=E2=80=99re not starting to apply statist=
+ics and machine learning to monitoring data you=E2=80=99re likely missing=
+ out on actionable intelligence.
+
+http://redmonk.com/dberkholz/2015/01/06/time-for-sysadmins-to-learn-data-s=
+cience/
+
+
+If you=E2=80=99re wondering what use data science tools might be=2C then t=
+his post about anomaly detection using R should give you a good idea.
+
+https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-det=
+ection-in-a-time-series
+
+
+If you=E2=80=99re using SSH and interested in hardening your configuration=
+ this next post covers lots of details and tips.
+
+https://stribika.github.io/2015/01/04/secure-secure-shell.html
+
+
+Jobs
+=3D=3D=3D=3D
+
+Start the year off with a new job! Experienced DevOps engineers get 5+ job=
+ offers in 1 week. Join today!
+
+http://hrd.cm/1BNfVCZ
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Novm is an interesting take on a hypervisor=2C mixing some of the benefits=
+ of virtualisation with some of the advantages of containers. The README d=
+oes a good job of explaining the rationale.
+
+https://github.com/google/novm
+
+
+An attempt to write a Chef client in PowerShell. Adds new Chef resources a=
+nd Knife commands which use PowerShell and DSC on the backend.
+
+https://github.com/POSHChef/POSHChef
+
+
+Cachet is an open source status page system that aims to be simple to use=
+ and easy to manage. A good starting point if you=E2=80=99d prefer to run=
+ your own status page.
+
+https://cachethq.io/
+
+
+A simple application which generates a Vagrantfile suitable for common Rub=
+y on Rails development tasks.
+
+https://railsbox.io/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

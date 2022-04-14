@@ -1,0 +1,182 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#214?=
+Date: Sun, 8 Feb 2015 11:34:47 +0000
+
+DEVOPS WEEKLY
+ISSUE #214 - 8th February 2015
+
+Config Management Camp is definitely one of my favourite events of the yea=
+r. If nothing else the number of links in this weeks newsletter should rev=
+eal that. Thanks again to all the organisers and speakers.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+FOSDEM and Config Management Camp
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+My talk from #cfgmgmtcamp=2C entitled The future of configuration manageme=
+nt and how to stop it. Looks at what configuration we=E2=80=99ll be provid=
+ing to our infrastructure in the future - with the rise of autonomous syst=
+ems=2C SDN=2C containers=2C unikernels and more.
+
+https://speakerdeck.com/garethr/the-future-of-configuration-management-and=
+-how-to-stop-it
+
+
+Another #cfgmgmtcamp=2C succinctly bringing together Lean and Devops=2C sh=
+owing the drivers for different parts of an organisation along with lots o=
+f numbers from high performance organisations like Amazon and Google.
+
+http://www.slideshare.net/jezhumble/lean-configuration-management
+
+
+A good call to action for the ITSM and Devops communities to talk and shar=
+e more around configuration management. As a discipline and toolset it=E2=
+=80=99s something both groups of people care about.
+
+http://evolvingitsm.com/2015/02/02/thoughts-on-cfgmgmgtcamp-and-why-itsm-s=
+hould-take-note-of-devops-trends/
+
+
+A nice write-up from #cfgmgmtcamp=2C including lots of links to presentati=
+ons or tools mentioned in various talks. I like the large todo list.
+
+http://f5n.org/blog/2015/fosdem-cfgmgmtcamp-2015/
+
+
+A good call for monitoring to be presented as much more of a service to ot=
+hers within your organisation. Some tips for building a modern monitoring=
+ stack in order to get there too.
+
+http://www.slideshare.net/jamtur01/maas-44123084
+
+
+Notes from a talk at FOSDEM about what=E2=80=99s new in SystemD. Lots of p=
+ointers to interesting things from the last year and new upcoming features=
+=2E Don=E2=80=99t read the comments.
+
+http://ma.ttias.be/whats-new-systemd-2015-edition/
+
+
+An interesting talk on the workflow requirements of having multiple projec=
+ts but one source code repository (CFEngine in this case). The insight int=
+o the command line interface is interesting.
+
+https://speakerdeck.com/brontolinux/many-projects-one-code
+
+
+An interesting look at a new Configuration Management tool called Impera t=
+hat takes a slightly more abstract approach.
+
+http://www.slideshare.net/bartvanbrabant/cfgmgmtcamp2015-v2
+
+
+Jobs
+=3D=3D=3D=3D
+
+Expensify is hiring Operations Engineers to develop and support our growin=
+g infrastructure. Help us keep our high-availability=2C distributed=2C tra=
+nsactional environment running smoothly and securely. At Expensify=2C we d=
+o our best every day to ensure your expense reports don't suck!
+
+http://we.are.expensify.com/
+
+
+News
+=3D=3D=3D=3D
+
+A nice balanced comparison of the open source search engines Solr and Elas=
+ticSearch. Takes in a few technical details as well as community metrics=
+=2C especially useful if you=E2=80=99re just starting to look at search en=
+gines.
+
+http://blog.sematext.com/2015/01/30/solr-elasticsearch-comparison/
+
+
+A detailed look at what it means for internal IT teams to move further tow=
+ards being service organisations for internal stakeholders. The strong ter=
+minology and diagrams help make for a good argument.
+
+http://crunchtools.com/core-builds-service/
+
+
+An interesting approach to solving some of the problems with monitoring=2C=
+ looking at a gossip-enabled monitoring service which aims to avoid a sing=
+le point of failure.
+
+http://voormedia.com/blog/2014/12/distributed-server-monitoring-using-goss=
+iping
+
+
+A good presentation (PDF) delving into security automation from the point=
+ of view of the security community. A good insight into the types of probl=
+ems that would be good to solve.
+
+http://www.rationalsurvivability.com/presentations/DuelingBanjos.pdf
+
+
+A collected set of key papers=2C blog posts and other reading material aro=
+und service engineering=2C with a focus on cloud infrastructure services.
+
+https://github.com/mmcgrana/services-engineering
+
+
+Riemann is a very interesting addition to a monitoring setup=2C but it can=
+ be difficult to work out what problem to solve with it. This effort to co=
+llect sample configurations should help.
+
+http://kartar.net/2015/02/riemann-sample-configurations/
+
+
+A nice write-up of using the recently released Prometheus monitoring tool=
+ to monitor Docker containers. Some good tips for anyone else trying it ou=
+t.
+
+https://5pi.de/2015/01/26/monitor-docker-containers-with-prometheus/
+
+
+If you=E2=80=99re having trouble explaining to colleagues how a multi-disc=
+iplinary team that trusts each others judgement and instincts might work t=
+hen maybe Star Trek has the answer.
+
+https://medium.com/@jpaulreed/trouble-with-devops-try-trekops-fb69f7e554fd
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Container Days is an un-conference style gathering meant to discuss the re=
+volution of Docker=2C CoreOS and other lightweight virtualization technolo=
+gies and their applications. March 27th and 28th in Austin.
+
+http://containerdaysaustin.com/2015/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Debops is a collection of ansible playbooks and supporting scripts intende=
+d to make administering debian easier.
+
+http://debops.org/
+https://github.com/debops/debops
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

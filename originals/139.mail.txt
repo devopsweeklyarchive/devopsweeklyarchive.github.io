@@ -1,0 +1,117 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#139?=
+Date: Sun, 1 Sep 2013 11:45:10 +0000
+
+DEVOPS WEEKLY
+ISSUE #139 - 1st September 2013
+
+If you=E2=80=99re going to be in London in November then you should be pla=
+nning for a week of devops events. Devops Days (11th and 12th)=2C followed=
+ by Velocity (13th to 15th) and last but not least PuppetConf on the 18th.=
+ If you=E2=80=99re not in London you still have time to work out how to ge=
+t here for November.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+A fantastic presentation entitled attack driven defence=2C about why curre=
+nt approaches to application security and penetration testing are not suff=
+icient. Lots of hints=2C tips and practical advice for both web applicatio=
+ns and importantly internal IT systems that could be a vector for attack.
+
+http://www.slideshare.net/zanelackey/attackdriven-defense
+
+
+A good discussion of how frameworks like ITIL fit in with devops approache=
+s. Some interesting points about how devops is simply an implementation de=
+tail on the road to a more service based model of operations.
+
+http://blog.ingineering.it/post/59414765140/itil-vs-devops-slugfest-or-lov=
+efest
+
+
+Interesting interview with a number of GitHubbers about how they manage an=
+d scale elasticsearch. Lots of advice and collected wisdom about operation=
+al issues if you=E2=80=99re running a large search cluster.
+
+http://exploringelasticsearch.com/book/elasticsearch-at-scale-interviews/i=
+nterview-with-the-github-elasticsearch-team.html
+
+
+There's quite a lot of interest at the moment in containers in general and=
+ docker in particular. This post covers some of the security concerns=2C m=
+ainly around what the change in model actually means if you=E2=80=99re use=
+d to virtual machines.
+
+http://blog.docker.io/2013/08/containers-docker-how-secure-are-they/
+
+
+A detailed writeup of a talk from Velocity London last year=2C all about t=
+he business transformation at Etsy. Worth reading alongside the slides.
+
+http://itrevolution.com/one-of-the-best-devops-talks-on-it-transformation-=
+continuously-deploying-culture-by-rembetsy-and-mcdonnell-velocity-london-2=
+012/
+
+
+A good article on the background and reasons behind the CoreOS project. A=
+ discussion of read-only file systems=2C where etcd fits in=2C automatic u=
+pdates to the core operating system and more.
+
+http://www.activestate.com/blog/2013/08/alex-polvi-explains-coreos
+
+
+A description of the steps required to build a virtual appliance=2C useful=
+ for those times when you have a complex application to provide to end use=
+rs and where the best approach is a fully working virtual machine=2C rathe=
+r than code and configuration scripts.
+
+http://spin.atomicobject.com/2013/06/04/virtual-appliance-repeatably/#.UiL=
+lXpTNtcw.twitter
+
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devops Days is back in London=2C November 11th and 12th just before Veloci=
+ty. So if you=E2=80=99re based in the UK=2C or just visiting for the large=
+r Velocity conference=2C you have no excuses not to come along. Registrati=
+on and a call for talk proposals are both open.
+
+http://devopsdays.org/events/2013-london/registration/
+
+
+Tools
+=3D=3D=3D=3D
+
+Blueflood is a new multi-tenant distributed metric processing system build=
+ for use in Rackspaces monitoring system. It appears to be backed by Cassa=
+ndra and (optionally) Zookeeper=2C and currently ships with an HTTP interf=
+ace.
+
+http://blueflood.io/
+https://github.com/rackerlabs/blueflood
+
+
+Teleport is a new tool which aims to make dropping network connections (wh=
+ether inside your datacentre or for things like ssh) less of a problem. In=
+ essence it trades errors for time for TCP connections.
+
+http://blog.gocircuit.org/teleport-tool
+https://github.com/petar/GoTeleport
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

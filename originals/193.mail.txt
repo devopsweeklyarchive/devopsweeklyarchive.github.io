@@ -1,0 +1,158 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#193?=
+Date: Sun, 14 Sep 2014 13:33:17 +0000
+
+DEVOPS WEEKLY
+ISSUE #193 - 14th September 2014
+
+Back in the UK this week after two weeks in Portland=2C and heading to SF=
+ next weekend. Expect lots of good content from upcoming events in the nex=
+t weeks - with Velocity NYC=2C PuppetConf and Surge to name a few.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+Lots of good tips for speeding up your usage of Vagrant. Includes a few us=
+eful plugins and configuration settings and some workflow tips.
+
+http://christinemdraper.wordpress.com/2014/09/13/spend-less-time-waiting-m=
+ore-time-cheffing/
+
+
+The discussion of ZFS on Linux comes up occasionally and this recent blog=
+ post appears to be a great introduction to the state of the art. Lots of=
+ links to further info too.
+
+https://clusterhq.com/blog/state-zfs-on-linux/
+
+
+A good reminder that when choosing software=2C starting by looking at SaaS=
+ is probably the way to go. A good discussion of the different costs in Sa=
+aS=2C PaaS and IaaS as well.
+
+http://theagileadmin.com/2014/08/29/the-cloud-procurement-pecking-order/
+
+
+A nice reminder that there are multiple approaches to what we often refer=
+ to devops=2C and that so much of it is about the benefits of working with=
+ people with different skills.
+
+http://www.indecorous.com/ops/
+
+
+A look into the differences between LXC and Docker. Some good observations=
+=2C but parts are based on docker defaults rather than all the possibiliti=
+es.
+
+http://www.flockport.com/lxc-vs-docker/
+
+
+A nice introduction to service discovery and consul in particular. Some go=
+od tips for setting up clusters and understanding the number of servers an=
+d agents for best results.
+
+https://devroot.org/2014/09/07/looking-at-consul-part-1/
+
+
+A detailed writeup of setting up a very modern infrastructure=2C using Cor=
+eOS and Kubernetes on top of OpenStack using Heat. The discussion of the n=
+etwork setup is particularly interesting.
+
+https://developer.rackspace.com/blog/running-coreos-and-kubernetes/
+
+
+The Devopsdays Gent (5th birthday special) program was released this week=
+ and I=E2=80=99m really looking forward to all the announced sessions.
+
+http://devopsdays.org/events/2014-belgium/program/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Chartbeat is hiring a Web Operations Engineer to help continue building ou=
+t our growing infrastructure. Chartbeat is most well known for providing r=
+eal-time engagement analytics that measure and monetize attention on the w=
+eb to  everyone from The New York Times to Al Jazeera. We love AWS=2C Pyth=
+on=2C Puppet=2C and puppies at work. The position is located with the rest=
+ of our development team in our Union Square NYC office.
+
+https://chartbeat.com/jobs/#woe
+
+
+The Workday team are looking for software developers and/or very strong sy=
+sadmins who can code for a variety of roles working on our backend technol=
+ogy stack=2C deployment solution & monitoring systems. We want friendly=2C=
+ passionate technologists with a Unix/Linux background=2C particularly fol=
+ks who have systems development experience. We write predominantly in ruby=
+ and we work with a large variety of systems
+including chef=2C hadoop & openstack to name but a few. We=C2=B9re a frien=
+dly bunch=2C so reach out and say hi if you=C2=B9d be interested in talkin=
+g to us! - philip.reynolds@workday.com
+
+Dublin=2C Ireland http://www.workday.com/company/careers/job_description.p=
+hp?id=3DJR06401
+San Francisco=2C CA www.workday.com/company/careers/job_description.php?id=
+=3DJR04452
+
+
+Apply Once & Get 5-15 DevOps Job Offers from 1=2C000+ of the best tech com=
+panies in SF=2C NYC=2C LA=2C & SEA. You'll see salary & equity up front an=
+d you'll decide who you want to talk to. Join today.
+
+http://be.hired.com/devopsweekly4
+
+
+DataSift is seeking operations engineers with a passion and flair for depl=
+oying and scaling distributed web applications. You will work on DataSift'=
+s growing server infrastructure=2C and be responsible for monitoring and o=
+ptimising our platform across multiple servers=2C networks and databases.=
+ You will use modern operations tools=2C and will work closely with develo=
+pers to achieve high levels of scalability.
+
+http://jobvite.com/m?3ouPDgw5
+
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly readers are invited to the launch party for the new Devops b=
+ook "The Practice of Cloud System Administration: Designing and Operating=
+ Large Distributed Systems"; at the NYC office of Stack Exchange (StackOve=
+rflow.com) on September 17th in New York.
+
+http://everythingsysadmin.com/2014/09/nyc-launch-party-tpocsa.html
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Lots of interest at the moment in how to run containers across multiple ho=
+sts=2C and part of that is the network layer. Weave is a router that runs=
+ in a container=2C designed for connecting together docker containers.
+
+https://github.com/zettio/weave
+
+
+Knowing what versions of which Puppet modules people are using is hard to=
+ track=2C enter Puppet Analytics. A simple client and a basic web based da=
+shboard=2C I=E2=80=99ll be interested to see if this takes off.
+
+http://puppet-analytics.org/
+https://github.com/nibalizer/puppet-analytics
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,133 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#128?=
+Date: Sun, 16 Jun 2013 14:29:27 +0000
+
+DEVOPS WEEKLY
+ISSUE #128 - 16th June 2013
+
+Velocity kicks off in just a few days. For all those heading to Santa Clar=
+a first off have a great time. Second, please email or tweet @garethr with=
+ any stories from the best presentations and links to interesting new tool=
+s.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Great presentation talking about the relationship between developers and o=
+perations in terms of trust. Good examples and a few tips on how to build=
+ trust in people and organisations.
+
+https://speakerdeck.com/sameaton/trust-in-devops
+
+
+Ansible 1.2 has been released, adding a concept of roles to the configurat=
+ion management tool as well as more modules and better variable support. T=
+he new documentation sites also looks much better and should make getting=
+ started easier.
+
+http://blog.ansibleworks.com/2013/06/10/ansible-1-2-released-and-ansible-1=
+-3-begins/
+http://ansibleworks.com/docs/
+
+
+Ever wanted to know when new versions of artifacts are released on Maven C=
+entral? If so then Artifact Listener is for you. Tell it which artifacts y=
+ou're interested in and it will email you when new versions are shipped.
+
+https://www.artifact-listener.org/
+
+
+Versioning software is one of those things that helps hugely when done wel=
+l or can be completely meaningless or even misleading if done badly. So th=
+is document on Chef cookbook versioning is both a good idea and nicely don=
+e.
+
+http://chef-community.github.io/cvp/
+
+
+Interesting article on the pit falls in convergent configuration managemen=
+t systems, picking on Puppet's exported resource approach and showcasing a=
+n alternative solution.
+
+https://devblog.timgroup.com/2013/06/14/exported-resources-considered-harm=
+ful/
+
+
+It's easy to build applications and systems that will be difficult to scal=
+e when the times comes. Here's a simple list of 10 things you should avoid=
+ that will cause problems later.
+
+http://highscalability.com/blog/2013/6/10/the-10-deadly-sins-against-scala=
+bility.html
+
+
+Jobs
+=3D=3D=3D=3D
+
+Atlassian is looking for a senior Hosted Operations Engineer.  If you drea=
+m about Linux, can write Python or Ruby in your sleep, and have an obsessi=
+ve-compulsive attention to reliability, we've been looking for you!  If yo=
+u want to work in a casual environment with like minds, let us know who yo=
+u are.
+
+http://www.atlassian.com/company/careers/jobs/listing?org=3DATLASSIAN&cws=
+=3D1&rid=3D655
+
+
+Enstratius is hiring sysadmins and developers with experience in distribut=
+ed systems, cloud computing, and/or infrastructure automation. We have fro=
+ntend (Javascript, Groovy), backend (Java, Python), customer/installation=
+ facing (Python, Chef, MySQL, Riak), and QA positions. Remote is a possibi=
+lity. If you are looking for exciting work in a fast growing field, send a=
+n email with resume to: careers@enstratius.com
+
+
+Tools
+=3D=3D=3D=3D
+
+One area of monitoring that is occasionally discussed but that few people=
+ have implemented is anomaly detection. The nice folk at Etsy have just re=
+leased Kale which might change all that. It can consume data from Graphite=
+ and provides both anomaly detection (skyline) and can discover correlatio=
+ns between an anomaly and other metrics (oculus).
+
+http://codeascraft.com/2013/06/11/introducing-kale/
+https://github.com/etsy/skyline
+https://github.com/etsy/oculus
+
+
+More vagrant providers keep emerging, this one allows you to manage SmartO=
+S zones, including memory and disk limits and the networking configuration=
+=2E
+
+https://github.com/joshado/vagrant-smartos
+
+
+Even more vagrant tools; Vagrant Multiprovider Snap provides a single comm=
+and line interface to taking snapshots and rolling back to a previous stat=
+e. It currently supports both Virtualbox and VMWare Fusion providers.
+
+https://github.com/scalefactory/vagrant-multiprovider-snap
+
+
+Log2Viz is an interesting looking project from Heroku which gives you some=
+ simple tools to treat log files as data streams. Nice simple implementati=
+on of using the Sinatra streaming API and server sent events.
+
+https://blog.heroku.com/archives/2013/3/19/log2viz
+https://github.com/heroku/log2viz
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,161 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#191?=
+Date: Sun, 31 Aug 2014 10:00:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #191 - 31st August 2014
+
+Just a reminder that I=E2=80=99ll be in Portland for next weeks issue=2C s=
+o the newsletter will be arriving about 8 hours later that usual. Don=E2=
+=80=99t panic. Also if you=E2=80=99re out in Portland do drop me an email=
+ to say Hi.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A nice list of 8 organisation characteristics that enable a devops way of=
+ working. Nicely illustrated with examples from a real large organisation.
+
+http://seroter.wordpress.com/2014/08/28/8-characteristics-of-our-devops-or=
+ganization-2/
+
+
+A good post looking at a study into alarm fatigue in a hospital and what c=
+an be learned and applied to alert fatigue in monitoring. A call to action=
+s too for companies to publish studies analysing different alert managemen=
+t techniques.
+
+http://fractio.nl/2014/08/26/cardiac-alarms-and-ops/
+
+
+Most developers or operations people will be familiar with an annoying num=
+ber of similar but different package management tools. This post tries to=
+ outline the fundamental problem=2C and highlights a few common approaches=
+=2E
+
+http://blog.ezyang.com/2014/08/the-fundamental-problem-of-programming-lang=
+uage-package-management/
+
+
+An interesting insight into the costs of bandwidth around the world. A goo=
+d overview of how the internet works at the network level too.
+
+http://blog.cloudflare.com/the-relative-cost-of-bandwidth-around-the-world
+
+
+Some good points about the real benefit of microservices being in how orga=
+nisations and teams work. Also a good reminder that if you=E2=80=99re buil=
+ding for the web you=E2=80=99re already being distributed systems whether=
+ you like it or not.
+
+http://boundary.com/blog/2014/08/27/microservices-conways-law/
+
+
+An interesting perspective on the different ways to reach a devops culture=
+=2E I=E2=80=99m not sure I agree completely=2C for instance event attendees=
+ vary wildly from event to event or between geographies=2C but some good o=
+bservations.
+
+http://www.activestate.com/blog/2014/08/road-devops
+
+
+A new infrastructure focused podcast=2C Software Defined Talk. Quite an in=
+dustry focus=2C with observations about identity and access management and=
+ VMware=E2=80=99s cloud moves.
+
+http://softwaredefinedtalk.com/
+
+
+Jobs
+=3D=3D=3D=3D
+
+We thought the process of finding a new DevOps job needed to be shaken up.=
+ So we built Hired=2C the first true marketplace for engineers. Join a Hir=
+ed one-week auction and let 1=2C000+ companies compete for you.
+
+http://be.hired.com/devopsweekly3
+
+
+DataSift is seeking operations engineers with a passion and flair for depl=
+oying and scaling distributed web applications. You will work on DataSift'=
+s growing server infrastructure=2C and be responsible for monitoring and o=
+ptimising our platform across multiple servers=2C networks and databases.=
+ You will use modern operations tools=2C and will work closely with develo=
+pers to achieve high levels of scalability.
+
+http://jobvite.com/m?3ouPDgw5
+
+
+FreshBooks=2C the cloud accounting solution for small businesses=2C is loo=
+king for experienced Ops Engineers to join their team in Toronto. You'll k=
+eep FreshBooks available=2C fast and secure for our customers=2C and colla=
+borate with the development team to improve our deployment=2C provisioning=
+ and testing infrastructure and processes. If this sounds like you and you=
+'ve done this before=2C we'd love to talk to you!
+
+http://www.freshbooks.com/jobs/job.php?jobid=3Do3DjZfwI&jr=3Ddw
+
+
+Events
+=3D=3D=3D=3D=3D
+
+New Directions in Operating Systems is a one day event taking place in Lon=
+don on the 25th of November. Currently looking for talk proposals and spon=
+sors.
+
+http://operatingsystems.io/
+
+
+Tools
+=3D=3D=3D=3D
+
+If you=E2=80=99re using Test Kitchen then you might find the kitchen-sync=
+ plugin useful. It provides alternative file sync strategies which should=
+ be faster than the defaults for certain setups.
+
+https://github.com/coderanger/kitchen-sync
+
+
+An interesting DNS server which connects to the AWS API and returns DNS re=
+cords based on instance names or roles.
+
+https://github.com/ConradIrwin/aws-name-server
+
+
+Scumblr is an interesting tool for keeping an eye on potential exploits or=
+ discussions of your company/application elsewhere on the internet. All so=
+rts of potential monitoring applications for this.
+
+https://github.com/netflix/scumblr
+http://techblog.netflix.com/2014/08/announcing-scumblr-and-sketchy-search.=
+html
+
+
+Dockersh is a user shell for isolated=2C containerized environments and is=
+ designed to be used as a login shell on machines with multiple interactiv=
+e users.
+
+http://engineeringblog.yelp.com/2014/08/hack209-dockersh.html
+https://github.com/Yelp/dockersh
+
+
+Helios is another docker orchestration platform designed for managing cont=
+ainers across a large fleet. Instructive documentation=2C debian packages=
+ and a vagrant setup for trying it out are all plus points.
+
+https://github.com/spotify/helios
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

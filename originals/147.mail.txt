@@ -1,0 +1,125 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#147?=
+Date: Sun, 27 Oct 2013 12:28:43 +0000
+
+DEVOPS WEEKLY
+ISSUE #147 - 27th October 2013
+
+Several posts this week touching on service discovery in distributed syste=
+ms. It feels like with easier to use tools like Serf=2C and lower level sy=
+stems like etcd we=E2=80=99re approaching a point where this will become=
+=2C if not easy=2C then at least available to everyone. I=E2=80=99m pretty=
+ interested in how that changes the overall systems we design and build fo=
+r do send me links about that if you come across any.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+A excellent piece about team structures that support a devops approach. Go=
+od examples of why different structures work=2C and examples of others tha=
+t don=E2=80=99t.
+
+http://blog.matthewskelton.net/2013/10/22/what-team-structure-is-right-for=
+-devops-to-flourish/
+
+
+Knight Capital managed to lose $460m due to a software problem last year=
+=2C and the administrative proceedings from the SEC litigation have been p=
+ublished. Anyone interested in how systems fail should read the full repor=
+t=2C but the blog post highlights a few interesting parts.
+
+http://pythonsweetness.tumblr.com/post/64740079543/how-to-lose-172-222-a-s=
+econd-for-45-minutes
+http://www.sec.gov/litigation/admin/2013/34-70694.pdf
+
+
+Powershell has a number of nice features and with the release of Powershel=
+l 4 it has introduced Desired State Configuration (DSC). This works in a v=
+ery similar way to Puppet or Chef=2C with the ability to regularly check a=
+ central source for configuration information.
+
+http://redmondmag.com/blogs/it-decision-maker/2013/06/desired-state-config=
+uration.aspx
+
+
+Good slides explaining some of the advantages of a micro-services architec=
+ture=2C as well as discussing why functional programming works well in thi=
+s context.
+
+http://www.slideshare.net/michaelneale/microservices-and-functional-progra=
+mming
+
+
+A good list of practices and problems to overcome when adopting devops in=
+ an organisation=2C focusing on some of the challenges found in a larger=
+=2C more traditional=2C company.
+
+http://www.infoq.com/articles/pivot-beyond-pockets
+
+
+Interesting use of DNS for service discovery. Discusses implementing a cus=
+tom DNS server which uses SRV records to announce services and a simple JS=
+ON post to the DNS server to announce availability and update TTL on the D=
+NS record.
+
+http://blog.gopheracademy.com/skydns
+
+
+A blog post about evolving a deployment and code merging strategy=2C speci=
+fically using CircleCI. Includes code examples and a good explanation of h=
+ow the team incorporate deployment in their workflow.
+
+http://blog.mightyhive.com/post/64729152708/faster-than-you-read-this-simp=
+le-deployments-with
+
+
+Jobs
+=3D=3D=3D=3D
+
+FreeAgent are looking for a talented Operations Engineer to work on the Fr=
+eeAgent app=2C internal services and supporting infrastructure. You'll be=
+ working alongside our (remote) Ops team squashing single points of failur=
+e=2C fixing bottlenecks=2C profiling load and solving interesting scaling=
+ and automation problems.
+
+http://www.freeagent.com/company/jobs/operations-engineer
+
+
+Tools
+=3D=3D=3D=3D
+
+Serf is described as decentralized solution for service discovery and orch=
+estration that is lightweight=2C highly available=2C and fault tolerant. L=
+ots of use cases from datastore clustering=2C load balancing web servers o=
+r triggering events across a dynamic cluster.
+
+http://www.serfdom.io/
+
+
+confd is a lightweight configuration management tool focused on keeping lo=
+cal configuration files up-to-date by polling etcd and processing template=
+ resources and reloading applications to pick up new config file changes.
+
+https://github.com/kelseyhightower/confd
+
+
+The latest release of Collectd now supports collecting metrics via the Sta=
+tsD protocol. If you=E2=80=99re running both statsd and collectd you may b=
+e able to run only the latter.
+
+https://collectd.org/wiki/index.php/Plugin:StatsD
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

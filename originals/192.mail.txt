@@ -1,0 +1,147 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#192?=
+Date: Sun, 7 Sep 2014 19:07:59 +0000
+
+DEVOPS WEEKLY
+ISSUE #192 - 7th September 2014
+
+As mentioned last week=2C this issue is going out a little later than usua=
+l as I=E2=80=99m currently in Portland=2C Oregon. It should be back to nor=
+mal time next week=2C but the week after I=E2=80=99ll be back in the US fo=
+r PuppetConf. Phew
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+The basics of a Linux distribution are similar across most of the current=
+ distros. This post=2C from the folks behind systemd=2C proposes a radical=
+ future. Some good observations but lots to prod and question.
+
+http://0pointer.net/blog/revisiting-how-we-put-together-linux-systems.html
+
+
+Testing distributed systems is hard and approaches to this are still evolv=
+ing. This post covers a library called pact and works through a complete e=
+xample.
+
+http://dius.com.au/2014/05/19/simplifying-micro-service-testing-with-pacts=
+/
+
+
+Text as the interchange format between unix command line tools is powerful=
+=2C but relies on some quite cryptic tools to use well. The next post look=
+s briefly at an alternative=2C although it doesn=E2=80=99t mention PowerSh=
+ell which does a similar thing.
+
+http://paulhammant.com/2014/08/07/text-streams-should-be-the-fallback-inte=
+rface-in-unix/
+
+
+A really good post on the occasional clash between database administrators=
+ and software developers=2C and why it doesn=E2=80=99t have to be that way=
+=2E Good analogies with sales and marketing=2C and the point that communicat=
+ion really is everybody's responsibility=2C
+
+https://www.simple-talk.com/opinion/opinion-pieces/dbas-vs-developers-a-sa=
+d-tale-of-unnecessary-conflict/
+
+
+Doing non-trivial load and performance testing of web applications is a bi=
+t of a dark art it sometimes feels like. This post does a great job of del=
+ving into how Twitter test for large spikes. A whole bunch of good lessons=
+ learned at scale.
+
+https://blog.twitter.com/2014/push-our-limits-reliability-testing-at-twitt=
+er
+
+
+A tools like Puppet get more mature=2C the question of workflow comes up m=
+ore and more. This post covers the new directory environments and how to u=
+se them with dependency tools like R10k.
+
+http://garylarizza.com/blog/2014/08/31/r10k-plus-directory-environments/
+
+
+Jobs
+=3D=3D=3D=3D
+
+The Cloud Foundry engineering team is looking for a few great engineers to=
+ join us in building an open source platform that transforms how the world=
+ deploys and scales software. As part of the London team=2C you=E2=80=99ll=
+ be immersed in all the latest database technologies =E2=80=93 Cassandra=
+=2C Neo4j=2C Redis=2C MongoDB=2C Memcached=2C Elasticsearch=2C and more. W=
+e're looking for engineers who judge their success by the success of your=
+ team=2C and are interested in learning about distributed systems.
+
+http://hire.jobvite.com/j/?aj=3Dot5bZfws&s=3DDev_Ops_UK
+
+
+DataSift is seeking operations engineers with a passion and flair for depl=
+oying and scaling distributed web applications. You will work on DataSift'=
+s growing server infrastructure=2C and be responsible for monitoring and o=
+ptimising our platform across multiple servers=2C networks and databases.=
+ You will use modern operations tools=2C and will work closely with develo=
+pers to achieve high levels of scalability.
+
+http://jobvite.com/m?3ouPDgw5
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+If you=E2=80=99re doing any real PowerShell work in the console that PSRea=
+dLine is for you. It provides a much nicer command line interface with com=
+pletion=2C history=2C syntax highlighting=2C multiline support and lots mo=
+re.
+
+https://github.com/lzybkr/PSReadLine
+http://rkeithhill.wordpress.com/2013/10/18/psreadline-a-better-line-editin=
+g-experience-for-the-powershell-console/
+
+
+The concept of a single source of truth for everything pertaining to your=
+ infrastructure isn=E2=80=99t a new idea=2C but Collins looks like a more=
+ modern take on the CMDB. A documented API and client libraries=2C along w=
+ith support for physical servers=2C switches=2C racks and higher level sof=
+tware properties.
+
+http://tumblr.github.io/collins/
+
+
+Portainer is an interesting combination of mesos and docker=2C aimed at bu=
+ilding containers rather than running them. Worth investigating is you=E2=
+=80=99re finding yourself building lots of containers and managing dedicat=
+ed machines to do so.
+
+https://github.com/duedil-ltd/portainer
+
+
+Oh My Vagrant is an opinionated development environment suitable for docke=
+r=2C puppet and more development activities. Based around Vagrant=2C Fedor=
+a=2C libvert and more.
+
+http://ttboj.wordpress.com/2014/09/03/introducing-oh-my-vagrant/
+
+
+If you=E2=80=99ve found yourself writing small scripts in bash=2C and then=
+ re-implementing those same scripts for Windows as batch files then Batsh=
+ might be for you. A small scripting language that compiles to batch and b=
+ash. The online demo is pretty nifty.
+
+https://github.com/BYVoid/Batsh
+http://batsh.org/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

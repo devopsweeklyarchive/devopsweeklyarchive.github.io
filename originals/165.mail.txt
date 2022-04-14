@@ -1,0 +1,164 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#165?=
+Date: Sun, 2 Mar 2014 11:57:55 +0000
+
+DEVOPS WEEKLY
+ISSUE #165 - 2nd March 2014
+
+Devops weekly now has more than 10=2C000 subscribers. Given that when I st=
+arted this newsletter 3 years ago probably only hundreds of people had eve=
+n heard the word that=E2=80=99s pretty amazing to me. Thankyou to everyone=
+ who has written anything I=E2=80=99ve featured=2C that keeps me intereste=
+d enough to keep curating this newsletter.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+An excellent post about building a testing culture in an organisation=2C i=
+n this case Airbnb. Honesty about problems and lots of good advice for add=
+ressing them.
+
+http://nerds.airbnb.com/testing-at-airbnb/
+
+
+CloudFormation templates can become unwieldy quickly so the testing workfl=
+ow this post suggests should be useful. It combines guard and a cloudforma=
+tion validator into a new guard plugin.
+
+http://www.unixdaemon.net/tools/automatic-cloudformation-template-validati=
+on-with-guard-cloudformation.html
+
+
+The Go continuous delivery platform is going to be released as open source=
+=2E It=E2=80=99s available free now=2C with the source code available shortl=
+y. Go is similar to popular continuous integration tools but with a strong=
+ focus on building pipelines. Will be interesting to see if this spurs wid=
+er adoption.
+
+http://www.thoughtworks.com/news/go-continuous-delivery-now-available-as-f=
+ree-open-source
+
+
+Working out ways of writing more testable code is a big part of adopting a=
+n infrastructure as code approach in my view. This post is a good example=
+=2C demonstrating how to test custom facts in puppet=2C but the approach t=
+aken is general to anything you want to test.
+
+http://unethicalblogger.com/2014/03/01/testing-custom-facts-with-rspec.htm=
+l
+
+
+A new Google+ community for people to talk about auditing in the context o=
+f organisations adopting devops practices. If you=E2=80=99re working in a=
+ regulated environment this might be of interest.
+
+https://plus.google.com/communities/103372669680429508474
+
+
+Sorry about the ads on this next post but it=E2=80=99s an interesting read=
+=2E It boldly proclaims devops as being the biggest change in IT since outso=
+urcing. It=E2=80=99s interesting to read opinion pieces aimed more at ente=
+rprise CIOs and viewing devops through the perspective of organisational c=
+hange.
+
+http://www.informationweek.com/interop/devops-the-new-outsourcing/d/d-id/1=
+113977
+
+
+Another similar example=2C with a short case study of GE moving in parts a=
+way from specialists towards more full stack engineers. For people in very=
+ large organisations cases studies like this should help with convincing t=
+he boss.
+
+http://www.cio.com/article/748250/So_Long_IT_Specialist_Hello_Full_Stack_E=
+ngineer
+
+
+Jobs
+=3D=3D=3D=3D
+
+BrightBytes is a fast-growing=2C mission-driven=2C start-up in San Francis=
+co. We are building a data analytics platform to improve learning for mill=
+ions of students around the world. We have an opportunity to build an awes=
+ome infrastructure and team.
+
+https://www.smartrecruiters.com/BrightBytes/75251805-devops-engineer
+
+
+IPC Media are looking for an Infrastructure Developer to help evolve our w=
+eb hosting platform to the next level. If automated deployments and infras=
+tructure as code is your thing=2C then we can offer you a good working env=
+ironment and space to innovate. Email elliot_moore@ipcmedia.com or talk to=
+ @ells on ##infra-talk
+
+http://files.ipcdigital.co.uk/InfrastructureDeveloperWanted.pdf
+
+
+Red Gate is looking for a Senior Systems Administrator to join their IS te=
+am to help deliver top quality IT services to Red Gate users. We're lookin=
+g for someone who is technically capable of looking after a predominantly=
+ Microsoft-based environment=2C and is keen to develop skills across a ran=
+ge of technologies. You should have a good understanding of cloud services=
+ and you've probably built a service or two on Amazon/Azure to prove it!
+
+http://rd.gt/1ey0dUH
+
+
+Events
+=3D=3D=3D=3D=3D
+
+The second edition of dotScale=2C a one-day conference on Cloud=2C Big Dat=
+a & DevOps will take place on the 19th of May in Paris. Early Bird Tickets=
+ and sponsorship opportunities all available now. And for the lucky devops=
+weekly readers here=E2=80=99s a 15% discount code off the ticket price:=
+ =E2=80=98DEVOPSWEEKLY=E2=80=99
+
+http://www.dotscale.eu/
+
+
+Devopsdays is coming to Amsterdam on the 19th=2C 20th and 21st of June thi=
+s year. The call for proposals is open now and closes on April 21st. I=E2=
+=80=99m sure they will be looking for sponsors too.
+
+http://devopsdays.org/events/2014-amsterdam/propose/
+
+
+Tools
+=3D=3D=3D=3D
+
+Chef Metal is adding machines as resources to Chef=2C currently supporting=
+ Vagrant and EC2. We=E2=80=99ve got lots of good host level infrastructure=
+ as code tools=2C but very few cluster level tools that work as nicely.
+
+https://github.com/opscode/chef-metal
+
+
+Metrilyx is a web based dashboard engine for OpenTSDB=2C a time series dat=
+abase used to store large amounts of data. It allows for analyzing=2C cros=
+s cutting and viewing of time series data in a simple manner. The screensh=
+ots in the README give you a good idea.
+
+https://github.com/Ticketmaster/metrilyx-2.0
+
+
+Saboteur is a network fault injection tool that aims to simplify resilienc=
+e and stability testing. Its core component is an agent that accepts comma=
+nds over HTTP and configures its host's network stack for various common f=
+ault scenarios including delays=2C packet loss and partitions.
+
+https://github.com/tomakehurst/saboteur
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

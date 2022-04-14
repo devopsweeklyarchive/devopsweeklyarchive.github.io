@@ -1,0 +1,164 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#154?=
+Date: Sun, 15 Dec 2013 11:00:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #154 - 15th December 2013
+
+You would think people would be starting to wind down for the holidays but=
+ the last few weeks have seen loads of interesting content. Lots of infras=
+tructure testing tools and posts=2C case studies and examples of deploymen=
+t automation=2C what network engineers should be learning next year and a=
+ survey you should all fill in about security in the development process.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Here=E2=80=99s a good post about why writing tests against your infrastruc=
+ture is a good idea=2C along with a pretty interesting approach to testing=
+ load balancers using the honeyd honeypot network daemon.
+
+http://mauveweb.co.uk/posts/2013/12/load-balancer-testing-with-honeyd.html
+
+
+A survey for developers=2C operations engineers and security folk all abou=
+t who is responsible for different  aspects of security within your develo=
+pment team. Please fill this in as the results should be interesting when=
+ they=E2=80=99re available.
+
+https://www.surveymonkey.com/s/Developers_and_AppSec
+
+
+Really interesting look at what adoption of Devops approaches in a typical=
+ enterprise organisation might look like. Makes lots of good points about=
+ why this is different=2C and makes some comparisons with agile adoption.
+
+http://www.slideshare.net/ewolff/continuous-delivery-and-devops-in-the-ent=
+erprise
+
+
+Writing tests makes your code more maintainable=2C but testing command lin=
+e tools can be tricky and not everyone bothers. This post shows a neat app=
+roach for making testing the effects of command line tools easier=2C even=
+ when they make both local and remote changes.
+
+http://holmwood.id.au/~lindsay/2013/12/06/cli-testing-with-rspec-and-cucum=
+ber-less-aruba/
+
+
+A write-up of different approaches to service discovery=2C and an introduc=
+tion to the new SmartStack framework. A good description of the ideal syst=
+em=2C along with why approaches based on DNS=2C central load balancing=2C=
+ and in-app registration don=E2=80=99t always work.
+
+http://nerds.airbnb.com/smartstack-service-discovery-cloud/
+https://github.com/airbnb/synapse
+https://github.com/airbnb/nerve
+
+
+The changes in networking as more things are virtualised are interesting=
+=2C and this presentation does into the skills needed in the future. So fr=
+om CLIs and closed source to APIs=2C open source and software defined netw=
+orking.
+
+http://www.slideshare.net/mestery/next-gennetworkengineerskills
+
+
+Blog post=2C with lots of screenshots=2C of how Yammer deploy software. Lo=
+ts of nice ideas and a focus on self service deployments.
+
+http://eng.yammer.com/deployments-at-yammer/
+
+
+Similar to the Yammer post=2C here=E2=80=99s the story of moving to automa=
+ted deployments at The Trainline. Some tips for using Thoughtworks Studio=
+=E2=80=99s Go pipelines but also good points about business value and cult=
+ure.
+
+http://engineering.thetrainline.com/2013/12/02/moving-to-multiple-deployme=
+nts-per-week-at-thetrainline-com/
+
+
+An interesting discussion about the common params.pp approach for managing=
+ data in Puppet modules=2C along with a proposal and working implementatio=
+n of an alternative approach using hiera data.
+
+http://www.devco.net/archives/2013/12/08/better-puppet-modules-using-hiera=
+-data.php
+http://www.devco.net/archives/2013/12/09/the-problem-with-params-pp.php
+
+
+
+Jobs
+=3D=3D=3D=3D
+
+RethinkDB is an open-source distributed database built to store JSON docum=
+ents at scale. Our software is a complex system that allows execution of c=
+ustom code on arbitrary datasets and your job=2C as a reliability engineer=
+=2C is to ensure RethinkDB clusters are always fast and stable=2C regardle=
+ss of what the user throws at them. Your primary responsibilities will fin=
+ding=2C fixing=2C and preventing performance bottlenecks in RethinkDB and=
+ building testing automation infrastructure.
+
+http://rethinkdb.com/jobs/reliability/
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Scale Summit is an unconference event=2C bringing together professionals f=
+rom the operations and software development communities who have a particu=
+lar interest in scalable=2C high performance systems. It=E2=80=99s going t=
+o be in London early next year and you can sign up now to find out when mo=
+re information is available.
+
+http://www.scalesummit.org/
+
+
+Tools
+=3D=3D=3D=3D
+
+Bosh=2C the release engineering toolkit from CloudFoundry=2C can be used f=
+or all sorts of management tasks=2C but it=E2=80=99s not the easiest tool=
+ to learn. This project provides a nice example of standing up a Chef mana=
+ged stack using Bosh which aims to be easier to follow that standing up an=
+ entire CloudFoundry instance.
+
+https://github.com/hatofmonkeys/bosh-chef
+
+
+Chef browser is a nice web interface for information in your Chef server.=
+ If you use knife search and knife show a lot this might be of interest.
+
+http://3ofcoins.net/2013/12/11/we-released-chef-browser-today/
+https://github.com/3ofcoins/chef-browser
+
+
+Multi-Mechanize is an open source framework for performance and load testi=
+ng. It runs concurrent Python scripts to generate load against a remote si=
+te or service. The nice part is it=E2=80=99s very much based around a unit=
+ testing assertion approach.
+
+http://testutils.org/multi-mechanize/
+
+
+If you=E2=80=99re wanting to test outgoing port firewall rules you need so=
+mething to make a request of that is listening on that port. Enter portqui=
+z. Combining this with Serverspec would be great.
+
+http://portquiz.net/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

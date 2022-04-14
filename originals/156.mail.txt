@@ -1,0 +1,119 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#156?=
+Date: Sun, 29 Dec 2013 12:26:35 +0000
+
+DEVOPS WEEKLY
+ISSUE #156 - 29th December 2013
+
+A short issue this week I=E2=80=99m afraid=2C but still a few interesting=
+ posts and tools to investigate in-between preparing for new year. If anyo=
+ne writes up their thoughts about technology=2C systems administration or=
+ devops in 2013 do send me the links.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Lots of interest and experiments in different ways of managing infrastruct=
+ure at the moment. This example uses Docker and Mesos and provides a nice=
+ diagram of how everything links together.
+
+http://tech.riywo.com/blog/2013/12/20/fluentd-on-mesos-plus-docker-plus-ma=
+rathon/
+
+
+Whether you=E2=80=99re using docker on top or just using LXC it=E2=80=99s=
+ worth understanding how the networking works. This blog post goes into lo=
+ts of details=2C with code examples and tests taking you through most of t=
+he options.
+
+http://containerops.org/2013/11/19/lxc-networking/
+
+
+A pretty detailed blog post walking through implementing a Puppet provider=
+=2C mainly focused on explaining what all the moving parts are in cases wh=
+ere the official documentation isn=E2=80=99t great.
+
+http://garylarizza.com/blog/2013/12/15/seriously-what-is-this-provider-doi=
+ng/
+
+
+When discussing databases you often hear people talking about consistency.=
+ It=E2=80=99s both the C in CAP and the C in ACID after all. This post poi=
+nts out though that consistency in these two cases is actually a different=
+ thing. Worth considering next time you=E2=80=99re arguing about databases=
+=2E
+
+http://thinkrelevance.com/blog/2013/12/23/beware-inconsistent-definitions-=
+of-consistency
+
+
+Good Chef case study with a few interesting points. Talks about the advant=
+ages of adopting a single language (Ruby) for all operations tasks and a b=
+unch of other team behaviours that helped.
+
+http://www.slideshare.net/ulfmansson/chefrecordedfuture-29063408
+
+
+Jobs
+=3D=3D=3D=3D
+
+The UK Government Digital Service is looking for web operations engineers.=
+ With a strong systems background=2C you will ideally have a passion for d=
+eveloping the right tooling to create and evolve a resilient and secure pl=
+atform on top of Infrastructure as a Service and enthusiasm for working in=
+ a cross-disciplinary devops environment. You will have excellent troubles=
+hooting and research skills with a positive and proactive approach to cust=
+omer service and getting things done.
+
+https://gdstechnology.blog.gov.uk/2013/12/27/jobs-web-operations-engineer/
+
+
+Tools
+=3D=3D=3D=3D
+
+I=E2=80=99ve been experimenting with Serf recently but wanted a simple=2C=
+ testable way of writing easily distributed event handlers. Serf Master is=
+ a small python framework that aims to make Serf easier to manage.
+
+https://github.com/garethr/serf-master
+
+
+Anomaly detection was definitely one of the themes of lots of monitoring c=
+onversations this year. So crucible should be handy for people working in=
+ this area. It=E2=80=99s a small tool for testing detection algorithms=2C=
+ taking a time series data set=2C any algorithms you want to test and prod=
+ucing a simple visual output.
+
+https://github.com/astanway/crucible
+
+
+Docket is another tool intended for use with Docker=2C looking to move con=
+figuration and the docker images into version control with Git. Docket int=
+roduces a simple config file and has good getting started documentation an=
+d examples.
+
+https://github.com/polydawn/docket
+
+
+I=E2=80=99m quite a fan of code analysis tools but linking lots of them to=
+gether and then using the output can be time consuming. Prospector looks i=
+nteresting for Python folks=2C aiming to integrate pep8=2C pylint=2C pyfla=
+kes and complexity scores with an understanding of common frameworks like=
+ Django.
+
+https://github.com/landscapeio/prospector
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

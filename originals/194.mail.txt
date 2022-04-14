@@ -1,0 +1,156 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#194?=
+Date: Sun, 21 Sep 2014 17:12:57 +0000
+
+DEVOPS WEEKLY
+ISSUE #194 - 21st September 2014
+
+I=E2=80=99m out in San Francisco this week for PuppetConf=2C if anyone hap=
+pens to be around do let me know. Because of all the travel this was going=
+ to be a short issue but I found too much good content.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+DevOps Master Class in San Francisco on Friday=2C Sept. 26th
+
+Talks will be delivered by Instagram co-founder=2C Mike Krieger=2C in addi=
+tion to ex-Spotify CTO & Wrapp co-founder=2C Andreas Ehn=2C and Heroku Pro=
+duct Manager=2C Michael Friis. Hosted by Opbeat=2C an integrated ops platf=
+orm for developers=2C this DevOps meetup has limited seats=2C so make sure=
+ to RSVP. The talks will be followed by Opbeat's official launch out of be=
+ta and attendees are invited to happy hour and an open bar after-party at=
+ The Alchemist. Come network with entrepreneurs=2C developers and fellow d=
+evops peers!
+
+http://opbeatlaunch.eventbrite.com
+
+
+News
+=3D=3D=3D=3D
+
+A great post on the importance of management=2C in particular picking up t=
+he over-emphasis on technical skills in technical environments at the expe=
+nse of understanding the importance of management.
+
+http://fractio.nl/2014/09/19/not-a-promotion-a-career-change/
+
+
+A good exposition of things you need in place to take advantage of a micro=
+services style architecture. Lots of focus on operations here=2C including=
+ provisioning=2C monitoring=2C deployment and product centric teams.
+
+http://martinfowler.com/bliki/MicroservicePrerequisites.html
+
+
+A useful post on the concept of technical debt=2C applied to infrastructur=
+e and operations. Lots of good observations about how to spot debt and wha=
+t to do about it.
+
+http://www.slideshare.net/kka7/operational-costs-of-technical-debt
+
+
+8 laws to help you build better dashboards=2C including solid advice to no=
+t build dashboards just because you can.
+
+http://attackwithnumbers.com/the-laws-of-shitty-dashboard
+
+
+Last week was Velocity New York=2C from which a view of the posts this wee=
+k are taken from. Lots of the keynote videos are already up too=2C with ta=
+lks on team organisation to monitoring and data storage to low level netwo=
+rk optimisation.
+
+https://www.youtube.com/playlist?list=3DPL055Epbe6d5YDU6sikjqcd_YM9XT4OehD
+
+
+A nice detailed look at the HTTP Vary header. Explains why Vary is so powe=
+rful and how to avoid common configuration problems.
+
+http://www.fastly.com/blog/best-practices-for-using-the-vary-header/
+
+
+A nice short post on application architecture=2C a reminder that it=E2=80=
+=99s as much an organisation design problem as about software=2C and that=
+ different size teams might need to make different trade-offs.
+
+http://bitmonkey.net/2014/09/16/answers-about-web-app-architecture/
+
+
+Jobs
+=3D=3D=3D=3D
+
+We're looking for a seasoned DevOps / SRE engineer to manage our technical=
+ infrastructure. Built to foster collaboration and iteration=2C InVision h=
+elps our clients design=2C review and user-test a product before writing a=
+ single line of code=2C with tools for design prototyping=2C feedback=2C t=
+ask management and version control. We=E2=80=99re well-funded and venture-=
+backed by prominent investors including FirstMark Capital and Tiger Global=
+ Management.
+
+http://invision.workable.com/jobs/15795
+
+
+Cloudreach=E2=80=99s Systems Engineers work with challenging technical sol=
+utions for industry leading clients. We love all things cloud related and=
+ believe passionately in the innovation it can drive.We=E2=80=99re Europe=
+=E2=80=99s only top-tier partner for both Amazon Web Services and Google -=
+ two giants of the cloud computing industry.  We are looking for Windows o=
+r Linux engineers who are capable of delivering awesomeness on cloud engin=
+eering projects. Not if. When will you join the best Cloud engineering tea=
+m in the industry?
+
+https://cloudreach.recruiterbox.com/jobs/fk0fd6
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Blender is a modular remote command execution framework. It provides a few=
+ basic primitives to automate cross server workflows=2C with those workflo=
+ws expressed in a ruby DSL and executed using the provided command line to=
+ols.
+
+https://github.com/PagerDuty/blender
+
+
+Mcrouter is a tool for those running large memcached clusters. It=E2=80=99=
+s a memcached protocol router designed to shard data across a cluster of m=
+emcached instances=2C with uses for load balancing=2C cache distribution a=
+nd a number of other failure cases.
+
+https://github.com/facebook/mcrouter
+https://code.facebook.com/posts/296442737213493/introducing-mcrouter-a-mem=
+cached-protocol-router-for-scaling-memcached-deployments/
+
+
+Vitess is a project to provide servers and tools which facilitate scaling=
+ of MySQL databases for large scale web services. Comprehensive user docum=
+entation is provided if you want to try it out.
+
+https://github.com/youtube/vitess
+
+
+Urknall is an interesting looking remote execution framework written in Go=
+=2E Much of the functions make use of standard shell commands=2C which makes=
+ getting started very simple.
+
+http://urknall.dynport.de/
+https://github.com/dynport/urknall
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

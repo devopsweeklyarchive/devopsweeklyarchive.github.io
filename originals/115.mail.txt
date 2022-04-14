@@ -1,0 +1,174 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#115?=
+Date: Sun, 17 Mar 2013 14:17:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #115 - 17th March 2013
+
+I've spent the last two days helping to organise the excellent Devopsdays=
+ conference in London. From the feedback I've seen so far everyone had as=
+ good a time as me, thanks again to all the sponsors, speakers and attende=
+es who made the event awesome. If you're part of this community you should=
+ think about getting along to a near-by event, or even getting together wi=
+th a few people to organise something. Putting lots of smart, passionate p=
+eople together in one place really is a great way of learning.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+Devopsdays London
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Nice write-up of all the sessions, along with some thoughts about the form=
+at of the two days. Lots of links to slides, books and other resources men=
+tioned in the talks and open space sessions.
+
+http://www.gep13.co.uk/blog/review-of-devopsdays-london-2013/
+
+
+One of the open space sessions I attended was all about community resource=
+s for learning about Devops. These notes from the person who ran the sessi=
+on are a great resource on their own, with links to events, podcasts, blog=
+s, books and even this newsletter.
+
+http://annaken.blogspot.co.uk/2013/03/devops-community-resources.html
+
+
+Slides from one of the Devopsdays London talks, this one from Niek Barthol=
+omeus all about Devops for Dinosaurs. The topic is all about bringing devo=
+ps culture and modern tooling to a large enterprise environment, based on=
+ a great in-depth case study.
+
+https://speakerdeck.com/niekbartho/devops-for-dinosaurs
+
+
+Another of the Devopsdays London presentation that I've found, this one fr=
+om Gene Kim all about how best to sell your boss or your organisation on a=
+dopting devops. Mapping business failings to developer failings looks a gr=
+eat way to get different people to understand the problem from their own p=
+oint of view.
+
+http://www.slideshare.net/realgenekim/how-can-we-better-sell-devops
+
+
+More notes from Devopsdays London, this time covering all the talks and ig=
+nites. The notes are drawn from tweets made during the talks, but you can=
+ follow along with the topics surprisingly well.
+
+http://scribes.tweetscriber.com/RealGeneKim/114
+
+
+One of the ignite talks, entitled What if configuration management was cre=
+ated by game designers. Lots of interesting ideas, from rewards, high scor=
+es, virtual currency, cheats, health and more.
+
+http://www.slideshare.net/jedi4ever/what-ifconfigmgtwasdesignedbygamers
+
+
+News
+=3D=3D=3D=3D
+
+A few people might remember Flapjack, which aimed to be a next generation=
+ monitoring tool. Due to various reasons it has been superceded by tools l=
+ike Sensu which have a similar focus. Well now Flapjack has been rebooted,=
+ aimed at being the part of the monitoring puzzle that deals with alerts,=
+ roll-ups and notifications. Well worth talking a look at.
+
+http://holmwood.id.au/~lindsay/2013/03/15/rebooting-flapjack/
+
+
+Docker is the soon to be open sourced container runtime from the folks at=
+ dotcloud. It's aim is to be a building block for building isolated runtim=
+e environments, using LXC under the hood to isolate everything and hopeful=
+ly provide a general approach to specific tools like virtualenv, rvm gemse=
+ts, etc.
+
+http://dotcloud.github.com/docker/
+
+
+I'm finding quite a few presentations and videos about practical scaling t=
+ips for small companies, most of them quite rightly focusing as much on no=
+t doing some things and what to do. This talk from Ruby Australia focuses=
+ on Rails, but nearly all the advice should be applicable to any startup o=
+r small company.
+
+http://vimeo.com/61342269
+
+
+Interesting presentation from the development team at SoundCloud about how=
+ they are migrating away from monolithic Rails applications to a running s=
+mall services on the JVM as they grow. Lots of good tips and experience, i=
+n particular about making the cost of experimenting low - they are current=
+ly using JRuby, Scala and Clojure to find which fits best.
+
+http://www.slideshare.net/pcalcado/from-a-monolithic-ruby-on-rails-app-to-=
+the-jvm
+
+
+Some interesting survey results about barriers to adopting a continuous de=
+livery model. Findings include organisational culture, lack of integrated=
+ development and operations, technical hurdles and a general lack of under=
+standing. Worth reading some of the conclusions.
+
+http://blog.devopsguys.com/2013/03/13/continuous-delivery-adoption-barrier=
+s/
+
+
+Jobs
+=3D=3D=3D=3D
+
+HotelTonight offers last-minute deals at top-rated hotels screened by the=
+ HT team and lets you book a room in seconds flat.  In less than 2 years,=
+ we grew from 3 cities in the US to over 90 destinations in 10 countries.=
+ We are named one of the most disruptive services of the year by Apple in=
+ 2012 and named Top Developer on Google Play. We are looking for a talente=
+d DevOps engineer in San Francisco to build out a new stack on AWS using C=
+hef and scale the system as we offer the service to more people in more pl=
+aces. Ideally, you can help us open source as much of this as possible.
+
+http://hire.jobvite.com/j/?cj=3Dod9aXfwd&s=3Dmorethanseven
+
+
+Neo Technology, the people who make Neo4j, the world=E2=80=99s leading gra=
+ph database, are looking for engineers to join the team. You are enquiring=
+ and thoughtful and have great Puppet and Ruby skills. If you roll with Py=
+thon or Chef and have an open mind, we=E2=80=99ll take a look at your cook=
+books and your indenting. You will help build and support Neo4j in the Clo=
+ud as part of a global team and work with leading-edge technologies: Puppe=
+t, AWS, Ruby, New Relic, and other tools from the DevOps community. You=E2=
+=80=99ll get to help shape our global operation and discover the delights=
+ of Swedish Kaffebr=C3=B6d.
+
+http://www.neotechnology.com/2013/03/neo-technology-is-hiring-cloud-devops=
+-engineer/
+
+
+Tools
+=3D=3D=3D=3D
+
+One of the tools mentioned in a talk at Devopsdays London was Deploykit, f=
+rom Future publishing. The talk went into more detail but this was an atte=
+mpt to make a generic deployment tool that uses message queues for much of=
+ the internal communication.
+
+https://github.com/FuturePublishing/future-deploykit
+
+
+Vagabond is an alternative take on the Vagrant tool, but one based on LXC=
+ rather than virtual machines after the realisation that VMs can be quite=
+ slow. Maybe worth a look if you run Linux and find lots of performance or=
+ stability issues with virtual machines.
+
+https://github.com/chrisroberts/vagabond
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

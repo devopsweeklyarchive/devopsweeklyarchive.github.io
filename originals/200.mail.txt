@@ -1,0 +1,134 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#200?=
+Date: Sun, 2 Nov 2014 12:51:37 +0000
+
+DEVOPS WEEKLY
+ISSUE #200 - 2nd November 2014
+
+So=2C 200 issues. Rather fittingly this issue is filled with content from=
+ last weeks 5th anniversary Devopsdays event #thankyoupatrick
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Devopsdays Gent
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Quite meta this one. It=E2=80=99s an ignite talk I gave at Devopsdays all=
+ about the first 200 issues of Devops Weekly. Some interesting facts and f=
+igures for the long time reader.
+
+https://speakerdeck.com/garethr/devops-weekly-the-first-200-issues
+
+
+Probably my favourite ignite talk from Devopsdays=2C seeing if you can spo=
+t real statements made about devops from those generated using a Markov ch=
+ain text generator.
+
+https://speakerdeck.com/xamebax/the-ultimate-devops-test
+
+
+If you=E2=80=99re just getting to grips with monitoring it can be difficul=
+t to know where to start. This presentation gives you a quick overview of=
+ the last 5 years. Lots of ideas for things to improve.
+
+https://speakerdeck.com/auxesis/5-years-of-metrics-and-monitoring
+
+
+Another entertaining ignite talk=2C entitled Devops is the Macguffin. As a=
+ community we sometimes disagree on the meaning of the term Devops=2C but=
+ how much does that matter if we improve at what we=E2=80=99re doing? I co=
+uldn=E2=80=99t agree more.
+
+https://speakerdeck.com/stevepereira/devops-is-the-macguffin
+
+
+Another of the culture focused talks=2C this one focused on understanding=
+ empathy from a scientific perspective.
+
+http://www.slideshare.net/dmangot/the-cognitve-neuroscience-of-empathy-you=
+re-a-devops-natural
+
+
+A good write-up of the two days=2C with lots of links to things mentioned=
+ in the various talks and discussions.
+
+http://www.infoq.com/news/2014/10/devops-days-belgium-1
+http://www.infoq.com/news/2014/10/devops-days-belgium-2
+
+
+A nice writeup of some of the talks and conversations at the recent Devops=
+days event in Gent.
+
+http://markcrossfield.co.uk/2014-10-29-devopsdays-belgium-ghent-write-up.h=
+tml
+
+
+News
+=3D=3D=3D=3D
+
+An interesting discussion about the use of digital signatures (specificall=
+y in relation to the signing added to Docker) and why trust is hard and ke=
+y management even harder.
+
+http://guardtime.com/blog/in-docker-we-trust-containerization-security-and=
+-trust-models
+
+
+A good step by step guide to running a game day=2C along with a writeup of=
+ a recent event. This is a great way of testing real world resilience in a=
+ controlled by realistic manner.
+
+https://stripe.com/blog/game-day-exercises-at-stripe
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+ScaleConf has a call for proposals out. The event=2C all about scalability=
+ and high availability=2C will take place in Cape Town=2C South Africa in=
+ March next year. The CFP closes 12th of January.
+
+http://scaleconf.org/speak/
+
+
+Lots of Mongo events coming up in the next month or so=2C with MongoDB Lon=
+don on November 6th=2C Munich on November 12th=2C Paris on November 18th a=
+nd San Francisco on December 3rd.
+
+http://www.mongodb.com/events
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+osquery exposes information about your operating system via a SQL interfac=
+e=2C allowing for some pretty powerful tooling. Also supports querying acr=
+oss multiple hosts.
+
+https://code.facebook.com/posts/844436395567983/introducing-osquery/
+https://github.com/facebook/osquery
+
+
+Dwight Conrad is an OpenResty based HTTP routing component=2C backed by Re=
+dis. It supports a number of features useful for feature toggling and cana=
+ry releases.
+
+https://github.com/3scale/dwight-conrad
+
+
+Cluppet is a tool to maintain a part of your AWS infrastructure in code=2C=
+ specifically as a clojure based DSL.
+
+https://github.com/mixradio/cluppet
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

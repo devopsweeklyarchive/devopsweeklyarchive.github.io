@@ -1,0 +1,148 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#196?=
+Date: Sun, 5 Oct 2014 12:27:39 +0000
+
+DEVOPS WEEKLY
+ISSUE #196 - 5th October 2014
+
+I talked at PupppetConf about how I think we=E2=80=99re still edging slowl=
+y towards infrastructure as code. A few of the links before point in that=
+ direction=2C with automated test suites for black box services=2C interac=
+tive ways of exploring infrastructure and tools for learning to code. More=
+ of the same please.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A good write-up from my old colleagues about how they approached writing a=
+cceptance tests for a Content Distribution Network. Black box testing like=
+ this feels useful for a bunch of different services or devices.
+
+https://gdstechnology.blog.gov.uk/2014/10/01/cdn-acceptance-testing/
+
+
+Devops owes lots to the discussion of agile that came before it=2C one of=
+ those discussions being around the importance of cross functional teams.=
+ This post stresses why having a real team is so important.
+
+http://www.leadingagile.com/2014/10/teams-101/
+
+
+This next post talks about the importance to code review=2C and about maki=
+ng that easier with pre-checks like static analysis. The reason I like it=
+ is because it shows how simple this can be in trivial cases. Easy to forg=
+et when moving to describing infrastructure as code.
+
+http://infiniteundo.com/post/22292945729/one-line-of-code
+
+
+If you=E2=80=99ve managed a reasonable sized AWS infrastructure you=E2=80=
+=99ll probably have spent at least some time looking for an instance based=
+ on incomplete data. Skew sounds an interesting solution=2C I=E2=80=99m pa=
+rticularly interested in seeing the IPython Notebook integration.
+
+http://lexical.scopely.com/2014/09/29/skew/
+
+
+It=E2=80=99s been a week or since PuppetConf 2014 now so most of the slide=
+s are now available online. That=E2=80=99s nearly 100 presentations to kee=
+p you busy.
+
+http://www.slideshare.net/PuppetLabs/tag/puppetconf-2014
+
+
+Quite a few nice points in this interview with RedHat CEO putting the busi=
+ness spin on devops. Interesting following the CEO/CIO discussions around=
+ something that is so community driven.
+
+http://www.networkworld.com/article/2688724/opensource-subnet/red-hat-ceo-=
+whitehurst-on-devops-apps-and-infrastructure.html
+
+
+A follow up to a post I included a few weeks back=2C all about why leading=
+ people and management could be for you. Managers play a big part in how c=
+ulture changes in most organisations and it=E2=80=99s often ignored by tec=
+hnology driven employees.
+
+http://fractio.nl/2014/10/03/why-do-you-want-to-lead-people/
+
+
+Jobs
+=3D=3D=3D=3D
+
+DEVELOPER COMMITS CODE WITHOUT TESTS. YOU WILL NEVER GUESS WHAT HAPPENS NE=
+XT!
+
+https://www.spotify.com/se/jobs/view/omi2Yfwo/
+
+
+Akvo.org is a non-profit operating from Amsterdam. We work on increasing v=
+isibility for charities and their work=2C and provide survey and monitorin=
+g software in developing countries=2C especially in Africa and India. We'r=
+e searching for an infrastructure engineer ideally versed in Puppet=2C but=
+ in general what we want is someone who knows how to automate provisioning=
+ and build continuous delivery pipelines. Experience with Python or Java/C=
+lojure is a plus. The main office is in Amsterdam=2C but the developers mo=
+stly work remotely; we'd prefer someone to be in one of our hubs (Amsterda=
+m=2C Stockholm or Helsinki) but remote =C2=B12 hours of CEST can work too.
+
+carl@akvo.org
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Join us in Seattle=2C WA=2C November 9-14=2C 2014=2C for LISA14.
+
+The LISA conference has long served as the annual vendor-neutral meeting p=
+lace for the wider system administration community. Recognizing the overla=
+p and differences between traditional and modern IT operations and enginee=
+ring=2C the highly-curated 6-day program offers training=2C workshops=2C i=
+nvited talks=2C panels=2C paper presentations=2C and networking opportunit=
+ies around 5 key topics: Systems Engineering=2C Security=2C Culture=2C Dev=
+Ops=2C and Monitoring/Metrics. Don't miss the chance to be a part of this=
+ unique career-building journey.
+
+Register by October 20 and save: https://www.usenix.org/lisa14/dow
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Chef Guard looks like a useful tool=2C specifically it protects your Chef=
+ server from untested and uncommitted cookbooks. Several useful features=
+=2C including emailing of configuration change diffs and validation of cha=
+nges.
+
+http://xanzy.io/projects/chef-guard/introduction/overview.html
+
+
+Learning new tools and languages is always hard so anything that makes it=
+ easier it a good idea. Chef Koans takes inspiration from other similar pr=
+ojects and applies it to Chef=2C a good starting point if you=E2=80=99ve d=
+one similar learning exercises before.
+
+https://github.com/leftathome/chef-koans
+
+
+Zonify is a set of command line tools for managing Route53 DNS for an AWS=
+ infrastructure. It intelligently uses tags and other metadata to automati=
+cally create the associated DNS records.
+
+https://github.com/airbnb/zonify
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,142 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#197?=
+Date: Sun, 12 Oct 2014 11:42:22 +0000
+
+DEVOPS WEEKLY
+ISSUE #197 - 12th October 2014
+
+Some great posts this week on teams=2C both structuring development and op=
+erations teams=2C communications and working together. It=E2=80=99s also o=
+nly 2 weeks until the 5th anniversary Devopsdays event=2C hopefully see lo=
+ts of you there.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A great practical post on team organisation=2C bridging both development a=
+nd operations work=2C as well as planned and ad-hoc tasks. Lots of good po=
+ints and observations=2C if you=E2=80=99re organising or working on a team=
+ you should read this.
+
+http://theagileadmin.com/2014/09/30/scrum-for-operations-just-add-devops/
+
+
+A Gartner piece entitled Seven Steps to Start Your DevOps Initiative. Lots=
+ of good observations in here=2C and the key challenges picked out are int=
+eresting if you=E2=80=99re talking with your CIO or similar level execs.
+
+http://www.gartner.com/technology/reprints.do?ct=3D140925&id=3D1-22AAXZR&s=
+t=3Dsb
+
+
+An interesting talk from the recent Devopsdays Chicago=2C entitled Rules o=
+f DevOops=2C all about making mistakes. Lots of observations about how tea=
+ms work and communicate=2C and why abstractions can hurt team work.
+
+https://www.youtube.com/watch?v=3Deq1v_3dQC00
+
+
+A nice quick example of writing a test to confirm you=E2=80=99ve really fi=
+xed a bug=2C this test checks for a recent bash vulnerability using Server=
+Spec.
+
+https://shk.io/2014/10/09/security-verifications-serverspec/
+
+
+Lots of people are building microservice based systems at the moment so th=
+is post=2C with a number of techniques that worked and a few that didn=E2=
+=80=99t=2C should be useful for anyone getting started.
+
+http://techblog.realestate.com.au/a-microservices-implementation-retrospec=
+tive/
+
+
+A quick presentation with 4 strategies for avoiding scheduled maintenance.=
+ Good tips if you=E2=80=99re regularly taking evenings to deploy your serv=
+ices.
+
+https://speakerdeck.com/dougbarth/living-without-scheduled-maintenance
+
+
+A great looking presentation all about how to ship software faster. Lots o=
+f good examples and code samples on a/b testing=2C giving feedback=2C coll=
+ecting metrics=2C code ownership and more.
+
+http://zachholman.com/talk/move-fast-break-nothing/
+
+
+CoreOS takes a number of different approaches to common system management=
+ tasks and=2C as such=2C how to design a product cluster compared to a tra=
+ditional OS changes. This guide covers common cluster architectures for di=
+fferent size installs.
+
+https://coreos.com/docs/cluster-management/setup/cluster-architectures/
+
+
+A comprehensive write-up of the recent PuppetConf event=2C with detailed n=
+otes about the various keynotes and some of the track sessions=2C and link=
+s to all the videos from each day.
+
+http://tech.opentable.co.uk/blog/2014/10/06/puppetconf-2014-part-1/
+http://tech.opentable.co.uk/blog/2014/10/06/puppetconf-2014-part-2/
+http://tech.opentable.co.uk/blog/2014/10/06/puppetconf-2014-part-3/
+
+
+A great slide deck about the evolution of Chef within an infrastructure. T=
+alks about growing the node count over time=2C as well as showing various=
+ workflow tools and monitoring integration.
+
+http://www.slideshare.net/jonlives/chef-at-etsy
+
+
+Jobs
+=3D=3D=3D=3D
+
+Apply Once & Get 5-15 DevOps Job Offers from 1=2C000+ of the best tech com=
+panies in SF=2C NYC=2C LA=2C & SEA. You'll see salary & equity up front an=
+d you'll decide who you want to talk to. Join today.
+
+http://be.hired.com/devopsweekly1
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Berlin is coming up on the 23rd and 24th of October (just befor=
+e the 5th anniversary event in Belgium) and has a pretty impressive lookin=
+g line-up of talks on community=2C security and what devops means for the=
+ traditional sysadmin.
+
+http://devopsdays.org/events/2014-berlin/program/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Taste tester is another workflow tool for Chef=2C it launches a Chef-Zero=
+ instance locally and then checks what changes would happen to a remote ma=
+chine with your local changes.
+
+https://github.com/facebook/taste-tester
+
+
+A set of scripts useful for hardening a typical Linux system. Partly usefu=
+l for learning about a good practices=2C I=E2=80=99d also love to see this=
+ converted into various config management code flavours.
+
+https://github.com/marshyski/quick-secure
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

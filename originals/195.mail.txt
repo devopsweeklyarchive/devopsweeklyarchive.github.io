@@ -1,0 +1,153 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#195?=
+Date: Sun, 28 Sep 2014 15:07:18 +0000
+
+DEVOPS WEEKLY
+ISSUE #195 - 28th September 2014
+
+So=2C with newly released major security vulnerabilities in bash=2C AWS re=
+booting and lots of people at Puppet Conf=2C Icinga Camp and Surge it=E2=
+=80=99s been a quite week.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+O'Reilly Velocity is coming on 17-19 November in Barcelona. You can enter=
+ to win a free conference pass by tweeting an answer to any of the followi=
+ng questions and using the hashtag #velocitytrivia=2C or by emailing garet=
+h@morethanseven.net.
+
+Q. Name the keynote talk whose speaker works at a subsidiary of the Financ=
+ial Times in London.
+Q. Which Velocity Event gives you 5 mins. to get on stage and talk your la=
+test passion=2C idea or hack?
+Q. What session can I attend to learn if TLS is fast yet?
+
+http://velocityconf.com/
+
+The deadline for entry is Wednesday 1st October 2014 at 1am GMT. One winne=
+r will be chosen at random.
+
+
+News
+=3D=3D=3D=3D
+
+If you ever attend=2C or plan to attend=2C an industry event you should re=
+ad this post. Heck=2C if you plan to leave your house your should read it.=
+ Our amazing community has a problem with diversity and anything you can d=
+o to make it more welcoming has to be a good thing.
+
+http://bridgetkromhout.com/blog/2014/09/22/four-interactions-that-could-ha=
+ve-gone-better/
+
+
+By now everyone will probably be aware=2C but just in case=2C Bash has a s=
+erious vulnerability that probably affects you. This is the best write-up=
+ I=E2=80=99ve found which quickly explains how this works and how it could=
+ be exploited.
+
+http://www.troyhunt.com/2014/09/everything-you-need-to-know-about.html
+
+
+My talk from the recent Puppet Conf (disclaimer: I=E2=80=99m now a Puppet=
+ Labs employee)=2C all about high level infrastructure testing. Includes a=
+ few experiments writing tests against infrastructure APIs and talks a bit=
+ about policy driven development.
+
+https://speakerdeck.com/garethr/continuously-testing-infrastructure
+
+
+A full chapter on infrastructure automation from the Practicing Ruby book=
+=2C stepping through the why alongside step-by-step examples of Chef recip=
+es.
+
+https://practicingruby.com/articles/infrastructure-automation
+
+
+I=E2=80=99ve made this point before but not so eloquently. If you=E2=80=99=
+re writing Puppet=2C Chef or similar DSL based tool then you=E2=80=99re a=
+ programmer.
+
+http://cwebber.net/blog/2014/09/26/i-am-not-a-coder/
+
+
+Syslog is great=2C except when the standard isn=E2=80=99t actually adhered=
+ to. This next post shows how to deal with this situation using logstash a=
+nd grok filters.
+
+http://kartar.net/2014/09/when-logstash-and-syslog-go-wrong/
+
+
+At a previous job I a bit of desktop work=2C so this article about applyin=
+g modern automation and devops approaches to large scale desktop systems w=
+as interesting. Lots of good points and ideas.
+
+http://www.brianmadden.com/blogs/guestbloggers/archive/2014/09/16/is-it-ti=
+me-for-enterprise-it-to-use-devops-for-smart-automation-of-virtual-desktop=
+-delivery.aspx
+
+
+A good talk and slide deck which quickly explains the state of networking=
+ for docker containers.
+
+http://blog.thestateofme.com/2014/09/12/docker-networking/
+
+
+It=E2=80=99s difficult to get people to work effectively together if they=
+ have never met=2C so for distributed organisations organising an internal=
+ conference is a nice idea. This post covers a few gotchas and an experien=
+ce report from a recent effort.
+
+http://betsandbits.com/2014/09/23/doccon1-organising-a-conference/
+
+
+Jobs
+=3D=3D=3D=3D
+
+How much do companies pay for DevOps engineers? Find out in a Hired auctio=
+n where 1=2C000+ companies in SF=2C NYC=2C LA=2C & SEA send you offers wit=
+h salary & equity up front. Join today!
+
+http://be.hired.com/devopsweekly5
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+The new puppet server was released at Puppet Conf. Puppet server is a drop=
+-in replacement for the current puppet master with some pretty big perform=
+ance and scalability improvements.
+
+https://github.com/puppetlabs/puppet-server
+
+
+If you=E2=80=99re using Route53 DNS then Roadworker should be of interest.=
+ It=E2=80=99s a Ruby based DSL for creating zones and records. Good exampl=
+es too.
+
+https://github.com/winebarrel/roadworker
+
+
+If like me you=E2=80=99re maintaining a number of puppet modules you proba=
+bly have an occasional day when you try and remember to update lots of sta=
+tic files (Rakefile=2C .travis.yml=2C Gemfile=2C etc.) across all of them.=
+ Modulesync looks a nice solution to that issue.
+
+https://github.com/puppetlabs/modulesync
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

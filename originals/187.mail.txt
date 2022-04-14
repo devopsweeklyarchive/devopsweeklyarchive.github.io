@@ -1,0 +1,154 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#187?=
+Date: Sun, 3 Aug 2014 18:46:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #187 - 3rd August 2014
+
+Today=E2=80=99s issue is a little later than usual as I=E2=80=99ve been on=
+ holiday for a few days. Lots to catch up on=2C with lots of detailed post=
+s about peoples individual workflows this week.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A good delve into scaling graphite=2C in this case looking at minimizing t=
+he lag for certain metrics being queryable with Kernel-level I/O tuning an=
+d other tricks.
+
+http://grey-boundary.com/minimizing-datapoint-lag-in-graphite/
+
+
+A great intro to various aspects of systems thinking with regards complex=
+ web based systems=2C with tips for embracing complexity=2C designing for=
+ resilience and testing in production.
+
+http://www.slideshare.net/jurquhart/gluecon-keynote
+
+
+A good post on the issue of security and linux containers (and docker in p=
+articular). Clearly explains the current differences between containers an=
+d virtualisation based on kernel subsystems and namespaces.
+
+http://opensource.com/business/14/7/docker-security-selinux
+
+
+A nice walkthrough of a particular infrastructure workflow based on Packer=
+=2C Chef and CloudFormation. Lots of reasoned detail around moving from de=
+velopment to production.
+
+https://medium.com/@pereiragoncalo/continuos-integration-and-delivery-with=
+-packer-chef-aws-d29453d93382
+
+
+If you=E2=80=99re using AWS you=E2=80=99ll probably have made decisions ab=
+out which regions and zones to use for different workloads. This post delv=
+es into some simple benchmarks for upload speeds with some interesting fin=
+dings.
+
+http://www.takipiblog.com/2014/07/30/aws-speed-test-what-are-the-fastest-e=
+c2-and-s3-regions/
+
+
+A nice piece pondering on the relationship between infrastructure acceptan=
+ce testing and monitoring. I still think there are lots of good patterns t=
+o discover here.
+
+https://devblog.timgroup.com/2014/07/30/mdi-monitoring-driven-infrastructu=
+re/
+
+
+A good reminder=2C with lots of code examples=2C that Vagrantfiles are sim=
+ply Ruby. A few tips for tidying up multi-node configuration and using che=
+f-zero with Vagrant.
+
+http://christinemdraper.wordpress.com/2014/07/23/multi-node-topologies-usi=
+ng-vagrant-and-chef-zero/
+
+
+A very detailed step-by-step guide to setting up a continuous integration=
+ pipeline with Jenkins. Touches on the intended workflow for people using=
+ the pipeline as well.
+
+http://devops.judes.co.il/post/92622747539/continuous-integration-pipeline=
+-an-example
+
+
+Jobs
+=3D=3D=3D=3D
+
+We thought the process of finding a new DevOps job needed to be shaken up.=
+ So we built Hired=2C the first true marketplace for engineers. Join a Hir=
+ed one-week auction and let 1=2C000+ companies compete for you.
+
+http://hired.com/?utm_source=3Dnewsletters&utm_medium=3Ddevopsweekly&utm_c=
+ampaign=3Daug3_14-devopsweekly
+
+
+Evernote is hiring! Our goal is to be an ever-innovating=2C globally-inspi=
+red=2C benefit-obsessed company for the next 100 years. This requires a si=
+ngular focus on making the absolute best and smartest product possible. Th=
+at means=2C we need talented individuals=2C like yourself=2C to help us.
+
+Build and Release Engineer: http://evernote.com/careers/job/?id=3D18526&gh=
+_jid=3D18526
+Senior Operations Engineer: http://evernote.com/careers/job/?id=3D15532&gh=
+_jid=3D15532
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DevopsDays Toronto is coming up on the 12th and 13th of September. The cal=
+l for proposals has just closed so expect the programme shortly. Still roo=
+m for sponsors too.
+
+http://devopsdays.org/events/2014-toronto/
+
+
+Another DevopsDays event=2C this one in Chicago. The call for proposals is=
+ still open until August 15th with the event scheduled for October 7th and=
+ 8th.
+
+http://devopsdays.org/events/2014-chicago/propose/
+
+
+Tools
+=3D=3D=3D=3D
+
+Managing local machines with Vagrantfiles has lots of advantages=2C but wh=
+en recreating that environment in production you might turn to something l=
+ike libcloud. Duplicate no more=2C with with vagrant driver for libcloud.
+
+https://github.com/carletes/libcloud-vagrant
+
+
+Terraform is a tool aimed at giving you a single view of your entire infra=
+structure in code. Describe instances and supporting services (like DNS) v=
+ia a domain specific language and use the command line tool to launch acro=
+ss multiple infrastructure providers.
+
+http://www.terraform.io/
+
+
+Consul is an orchestration mechanism with fault-tolerance based on the gos=
+sip protocol and a key/value store that is eventually consistent. Hiera-co=
+nsul will allow hiera to write to the k/v store for metadata centralisatio=
+n and harmonisation.
+
+https://github.com/lynxman/hiera-consul
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

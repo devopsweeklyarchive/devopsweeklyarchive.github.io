@@ -1,0 +1,165 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#174?=
+Date: Sun, 4 May 2014 11:50:42 +0000
+
+DEVOPS WEEKLY
+ISSUE #174 - 4th May 2014
+
+The sheer variety of interesting content under the devops banner is still=
+ what keeps me putting together this email every week. Case in point=2C th=
+is week I found a devops themed card game. All that=E2=80=99s missing is a=
+ Devops Weekly card.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+The link title says it all. Devops against humanity. If you=E2=80=99re alr=
+eady familiar with the card game you=E2=80=99ll know what this is already.=
+ I can see this getting an open space slot at the next Devopsdays event.
+
+https://github.com/bridgetkromhout/devops-against-humanity
+
+
+Hopefully just in time for more people to get involved with this. ReadOps=
+ is an online book group all about technical operations. The first book to=
+ read for May is In Search of Certainty=2C with a the first discussion gro=
+up set for the 10th of May.
+
+http://readops.com/
+
+
+The next post stresses the importance of environment portability and scala=
+bility=2C from development to production and everything in between. Some n=
+ice diagrams and ideas around a (Groovy) DSL for describing environment ch=
+aracteristics.
+
+http://continuous-delivery-and-more.blogspot.co.uk/2014/04/environment-por=
+tability.html
+
+
+If you=E2=80=99re using Jenkins but configuring it via the web interface t=
+hen Jenkins Job Builder is for you. But once you start you want to automat=
+e everything=2C which means writing Jenkins Job Builder plugins. This post=
+ covers how.
+
+http://larrycaiyu.com/blog/2014/01/14/extend-jenkins-job-builder/
+
+
+A nice talk introducing monitoring with metrics and Graphite=2C talking ab=
+out what to monitor=2C what to ignore=2C the importance of percentiles=2C=
+ tips for scaling and lots of useful links.
+
+http://markcrossfield.co.uk/2014-05-01-devops-manchester-monitoring-graphi=
+te-and-friends.html
+
+
+Site Reliability Engineering is a good description of some technical opera=
+tions roles and the following site is the unofficial blog for Google Site=
+ Reliability Engineering. It=E2=80=99s just getting started=2C with a deta=
+iled interview about what being an SRE is all about.
+
+http://www.site-reliability-engineering.info/
+
+
+A nice post with the view that while devops is of interest to both startup=
+ and large enterprises=2C what it looks like might well be different becau=
+se the challenges are different. Obvious when you think about it but worth=
+ stating anyway.
+
+http://blogs.technet.com/b/devops/archive/2014/04/18/the-three-musketeers-=
+of-devops.aspx
+
+
+Jobs
+=3D=3D=3D=3D
+
+Squirro is hiring a Senior DevOps Engineer to join the team in Zurich or L=
+ondon. At Squirro we build a service that helps our clients to understand=
+ and analyze vast amounts of unstructured data. We've already built a grea=
+t foundation using AWS=2C Puppet=2C elasticsearch=2C Kafka=2C Redis and mo=
+re. Are you the champion to take our technical operations to the next leve=
+l?
+
+http://go.squirro.com/devops
+
+
+FTBpro is the largest user-generated media site in world football. We are=
+ growing fast and looking for a top notch lead ruby developer to join our=
+ team. If you are passionate about code quality=2C testing=2C open-source=
+ and cutting edge technologies then your place is with us. Working here is=
+ fun and challenging - you are more than welcome to pay our offices in Tel=
+-Aviv a visit and see for yourself ;)
+
+http://bit.ly/1mTCMZP
+
+
+Flipboard in Palo Alto=2C CA is looking for a site reliability engineer to=
+ help us manage=2C maintain and monitor all aspects of the Flipboard produ=
+ction environment.  Our environment is a modern combination of application=
+ stacks and data stores including HBase=2C ElasticSearch=2C and MySQL all=
+ within Amazon Web Services.  You=E2=80=99ll be challenged dealing with th=
+e growth of a highly trafficked mobile application with concurrency in the=
+ millions coupled with services that consume the world of content and soci=
+al signals constantly.  Remote employees welcome.
+
+http://jobvite.com/m?3CIRngwj
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Devopsdays Silicon Valley is next month=2C on the 27th and  28th of June a=
+t the Computer Museum in Mountain View. Tickets are now on sale and a call=
+ for proposals is open until the 16th of May. All being well I=E2=80=99m g=
+oing to be at this one too.
+
+http://devopsdays.org/events/2014-siliconvalley/
+
+
+Before then=2C on the 29th and 30th of May=2C is Devopsdays Pittsburgh at=
+ the University of Pittsburgh. The programme is already announced with som=
+e super interesting looking talks and the usual open spaces=2C but tickets=
+ are still abailable to attend.
+
+http://devopsdays.org/events/2014-pittsburgh/
+
+
+Tools
+=3D=3D=3D=3D
+
+I=E2=80=99ve been starting to think about more dynamic load balancing rece=
+ntly and projects like Vulcand are very interesting. It combining a custom=
+ HTTP Proxy with configuration stored in Etcd=2C with the configuration up=
+dating automatically as the config changes.
+
+https://github.com/mailgun/vulcand
+
+
+A very simple but powerful deployment user interface based around Git and=
+ a simple YAML configuration file.
+
+https://github.com/gengo/goship
+
+
+Kamon is a nice=2C opinionated=2C distribution of tools designed to make c=
+ollecting metrics from scala applications easier. It uses Graphite or New=
+ Relic as the backend and provides modules for monitoring actors=2C tracin=
+g application requests and logging.
+
+http://kamon.io/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

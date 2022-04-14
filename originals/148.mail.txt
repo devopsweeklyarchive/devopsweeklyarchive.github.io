@@ -1,0 +1,135 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#148?=
+Date: Sun, 3 Nov 2013 09:31:11 +0000
+
+DEVOPS WEEKLY
+ISSUE #148 - 3rd November 2013
+
+Lots of content for larger and more traditional organisations this week. F=
+rom an open letter to an enterprise software vendor to talk of involving s=
+ecurity colleagues and rearchitecting away from a monolithic application.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Debugging distributed systems is hard=2C and requires a few new tools in y=
+our toolbox. This presentation deck from the recent Strata conference demo=
+nstrates a few approaches and some interesting looking new tools like SysS=
+QL.
+
+https://speakerdeck.com/philz/debugging-distributed-systems-strata-ny-2013
+
+
+Good post describing a view of devops from the point of view of a large en=
+terprise organisation. Describes some of the similarities and some of the=
+ differences from the typical startup or technology company and focuses on=
+ things that large organisations can learn.
+
+http://www.javacodegeeks.com/2013/10/making-devops-work-outside-of-webops.=
+html
+
+
+A nice=2C detailed=2C post about how Groupon rebuilt their web application=
+ from scratch to get away from a monolithic architecture originally grown=
+ by buying companies. Lots of good tips and a host of nice diagrams explai=
+ning the approach taken.
+
+https://engineering.groupon.com/2013/misc/i-tier-dismantling-the-monoliths=
+/
+
+
+A good call to arms for security specialists to get involved with devops.=
+ A few myths called out as well as pitching devops as a way for security p=
+ractitioners to get involved in the development process earlier.
+
+http://www.wired.com/insights/2013/10/mythbusting-devops-and-security/
+
+
+I included the Knight Capital findings from the SEC last week=2C this post=
+ covers the same document but points out fundamental differences between i=
+t and what is required in a post-mortem focused on explaining what happene=
+d and preventing future occurences.
+
+http://www.kitchensoap.com/2013/10/29/counterfactuals-knight-capital/
+
+
+A nice post about designing your monitoring checks=2C focusing on context=
+ and what is important to your organisation=2C rather than collecting all=
+ the metrics available.
+
+http://blog.dataloop.io/2013/10/29/what-do-i-need-to-know/
+
+
+A good introduction to why companies can benefit from taking a devops appr=
+oach=2C with 3 practices to get you started; shared environments that look=
+ like production=2C involving the entire team in on-call activities and au=
+tomating application deployment.
+
+http://www.feld.com/wp/archives/2013/07/why-every-company-needs-a-devops-t=
+eam-now.html
+
+
+An interesting open letter to the SAP community about how it can make it=
+=E2=80=99s popular tools more compatible with more web-native tools. Inter=
+esting to see pressure like this on traditional enterprise software vendor=
+s.
+
+http://scn.sap.com/community/netweaver/blog/2013/10/28/an-open-letter-to-s=
+ap-regarding-devops-and-infrastructure-as-code
+
+
+Jobs
+=3D=3D=3D=3D
+
+Cambridge=2C UK=2C based startup Neurence is looking to fill a devops role=
+ to lead the operation of our server side architecture supporting our inno=
+vative mobile based technology.  More details can be found at http://www.n=
+eurence.com/jobs or by contacting us at hireme@neurence.com
+
+
+Triggit a San Francisco based start-up is looking for two operations engin=
+eers to join our small team. We really want to talk to you if you can spea=
+k C or Golang or can explain techniques to work around the Dining Philosop=
+hers problem.
+
+http://triggit.com/careers
+
+
+Tools
+=3D=3D=3D=3D
+
+Curdling is a new package management tool for Python with a few interestin=
+g features. It=E2=80=99s designed mainly to be much faster than Pip=2C by=
+ using a distributed binary cache and by doing many operations in parallel=
+=2E
+
+http://clarete.github.io/curdling/
+
+
+Docopt describes itself as a command-line interface description language.=
+ It provides a DSL for describing a command line tool which can then be us=
+ed in Ruby=2C Python=2C Javascript=2C Bash and more.
+
+http://docopt.org/
+
+
+Lots of interesting improvements coming in the new Graylog2 release=2C inc=
+luding the ability to create field extractors from the UI=2C better metric=
+ browsing=2C node connection status information and more.
+
+http://blog.torch.sh/graylog2-v0-20-0-preview-5-has-been-released/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

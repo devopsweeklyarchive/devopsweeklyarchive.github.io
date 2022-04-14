@@ -1,0 +1,146 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#213?=
+Date: Sun, 1 Feb 2015 10:17:44 +0000
+
+DEVOPS WEEKLY
+ISSUE #213 - 1st February 2015
+
+Just a quick thank you to all the people who have emailed me links for the=
+ newsletter over the years. If anyone writes any content or comes across a=
+nything that you think would interest everyone please do drop me an email.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Technical Deep Dive: Prescriptive Topology Manager (PTM)
+Simplify Your Data Center Operations and Workflow
+
+Make sure your actual=2C physical cabling within a network matches a prede=
+fined plan. This technical deep dive will allow you the opportunity to fol=
+low along and learn. Think of it is a mini-introductory-talk-workshop kind=
+ of event.
+
+http://go.cumulusnetworks.com/devops-ptm
+
+
+News
+=3D=3D=3D=3D
+
+Lot of projects are growing up around Docker=2C which means the need for s=
+olid extensions points has been a hot topic recently. Powerstrip is an int=
+eresting approach that allows for prototyping extensions today=2C the foll=
+owing posts demonstrate using two docker-related projects together.
+
+https://clusterhq.com/blog/powerstrip-prototype-docker-extensions-today/
+http://weaveblog.com/2015/01/29/powerstrip-weave-a-docker-networking-exten=
+sion/
+
+
+A useful blog post for anyone starting to investigate containers=2C focusi=
+ng on the organisational barriers to entry=2C including the need to think=
+ about: Storage=2C Failover=2C Delivery model=2C Release strategy=2C Owner=
+ship=2C Patching=2C Support and Licensing.
+
+http://blog.xebialabs.com/2014/12/31/8-questions-need-ask-microservices-co=
+ntainers-docker-2015/
+
+
+Prometheus is a new open source monitoring system=2C designed for a modern=
+ microservices architecture. This post explains the problems with current=
+ tools and demonstrates the power of the integrated query language for all=
+ data collected.
+
+https://developers.soundcloud.com/blog/prometheus-monitoring-at-soundcloud
+http://prometheus.io/
+
+
+A nice run down of the existing common frameworks being used for service d=
+iscovery=2C including a summary of zookeeper=2C etcd=2C consul and eureka=
+ from Netflix.
+
+http://www.simplicityitself.com/learning/getting-started-microservices/ser=
+vice-discovery-overview/
+
+
+An interesting view on the changing role of QA folks in agile development=
+ teams. Focuses on social pressures that can lead to relationships that do=
+n=E2=80=99t function as well as they could - just being on the same team i=
+sn=E2=80=99t enough.
+
+http://blog.anandvishwanath.in/2015/01/painful-truth-about-agile-qa-in.htm=
+l
+
+
+Jobs
+=3D=3D=3D=3D
+
+Expensify is hiring Operations Engineers to develop and support our growin=
+g infrastructure. Help us keep our high-availability=2C distributed=2C tra=
+nsactional environment running smoothly and securely. At Expensify=2C we d=
+o our best every day to ensure your expense reports don't suck!
+
+http://we.are.expensify.com/
+
+
+This February=2C fall in love with a new job. Top DevOps engineers are in-=
+demand & get multiple job offers in one week on Hired. Join today!
+
+http://hrd.cm/1BNfZ5Y
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+It's that time of year again and SCALE and DevOps Day LA are coming up at=
+ the LAX Hilton in February. SCALE is also co-hosting Devops Day LA as wel=
+l as a Puppet Camp this year.
+
+SCALE Feb 18th to 22nd
+Puppet Camp Feb 19th
+Devops Day LA  Feb 20th
+
+The organisers have kindly provided a discount code that will will reduce=
+ the price for the full registration by a huge 50%. Use the code DEVWK whe=
+n registering.
+
+http://www.socallinuxexpo.org/scale/13x/devops-day-la-0
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Comcast is a tool designed to simulate common network problems like latenc=
+y=2C bandwidth restrictions=2C and dropped/reordered/corrupted packets. Ve=
+ry handy for testing distributed systems under non-ideal network condition=
+s.
+
+https://github.com/tylertreat/Comcast
+
+
+Toxiproxy is another tool for simulating network errors for testing purpos=
+es. It provides a proxy with an API=2C which allows for altering the netwo=
+rk conditions cleanly. The example gives you a great idea of what=E2=80=99=
+s possible.
+
+https://github.com/Shopify/toxiproxy
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

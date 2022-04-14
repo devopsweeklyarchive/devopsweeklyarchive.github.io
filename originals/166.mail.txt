@@ -1,0 +1,142 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#166?=
+Date: Sun, 9 Mar 2014 11:13:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #166 - 9th March 2014
+
+Lots of real world stories this week=2C including details of money and peo=
+ple and organisational structure. The devops community suddenly feels like=
+ it=E2=80=99s more focused on culture and sharing at the moment rather tha=
+n automation=2C which in my view is a good thing.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+An impassioned call for ITSM and Devops people to get along and learn from=
+ each other. A good introduction to Devops for anyone coming to it from an=
+ ITSM or ITIL background.
+
+http://www.theitsmreview.com/2014/03/trust-devops-movement-fits-perfectly-=
+itsm/
+
+
+An excellent piece about the practicalities and hurdles around adopting de=
+vops practices. Lots of honest points about how hard building teams and ch=
+anging organisations is.
+
+http://developerblog.redhat.com/2014/03/05/rh-devops-journey-harder/
+
+
+A great security talk=2C focused on how to communicate between developers=
+ and security groups. Lots of recognisable situations and good approaches=
+ to making everyone happy (and the system as a whole more secure).
+
+http://www.slideshare.net/FrankBreedijk/qcon-london-help-my-security-offic=
+er-is-allergic-to-devops
+
+
+Along with cloud automation comes the ability to spend money very quickly=
+=2C especially around things like automated testing jobs. This post covers=
+ a number of ways of reducing this cost based on a sizable project at Mozi=
+lla.
+
+http://taras.glek.net/blog/2014/02/06/cost-efficient-continious-integratio=
+n/
+
+
+Some good points about balancing automation and collaboration=2C and in pa=
+rticular looking at the complexity of automation tools and suggesting that=
+ is likely to have a negative impact on collaboration. Some good warning s=
+igns to look out for.
+
+https://www.scriptrock.com/blog/zero-sum-devops-automation-collaboration-k=
+iller/
+
+
+A nice short talk about practical features that make Postgres such a usefu=
+l database. Covers tips for schemamigration=2C examples of using the nativ=
+e json storage=2C getting Javascript in your SQL and more.
+
+http://russ.garrett.co.uk/talks/postgres-gds
+
+
+A good talk on complex systems and and how to make them less fragile. Disc=
+ussion of postmortems=2C real world examples and the 49=2C000 core system=
+ at Weta Digital=2C the visual effects company.
+
+https://www.usenix.org/conference/lisa13/drifting-fragility
+
+
+Mesos=2C the fault-tolerant cluster manage=2C is pretty interesting but I=
+=E2=80=99ve spoken to lots of people who haven=E2=80=99t seen it yet and o=
+nly a handful who have actually had a closer look. This short post is a gr=
+eat introduction.
+
+http://iankent.co.uk/2014/02/26/a-quick-introduction-to-apache-mesos/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Guardian News and Media are looking for a Senior Systems Integrator. Hopef=
+ully you've been following our NSA/GCHQ revelations and if you want to hel=
+p ensure we continue to have the best platform to deliver and report such=
+ news then have a look here:
+
+http://jobs.theguardian.com/job/4791673/senior-systems-integrator/
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Monitorama is having their next event from May 5th through the 7th in Port=
+land=2C Oregon. As usual you can expect a ton of fantastic speakers and De=
+vOps practitioners from all over the world. This is a single-track event y=
+ou won't want to miss. Devops Weekly readers can use the discount code DEV=
+OPSWEEKLY for a 25% discount.
+
+http://monitorama.com/
+
+
+Next weekend=2C on the 15th of March=2C is the first Devopsdays event in A=
+frica=2C in Nairobi. They are looking for speakers=2C sponsors and attende=
+es. If you=E2=80=99re anywhere near the area you should try and make it al=
+ong.
+
+http://devopsdays.org/events/2014-nairobi/
+
+
+Tools
+=3D=3D=3D=3D
+
+Pleaserun describes itself as =E2=80=9Can attempt to abstract this init sc=
+ript madness.=E2=80=9D I=E2=80=99m guessing just from the description you=
+ can guess what it does? It currently supports launchd=2C upstart=2C syste=
+md=2C runit and sysv init.
+
+https://github.com/jordansissel/pleaserun
+
+
+JMeter is a pretty powerful load and performance testing tool but configur=
+ation can have a very steep learning curve. This project provides a very n=
+ice Ruby based DSL for writing tests both for a local JMeter install or fo=
+r use with the Flood.io hosted service.
+
+http://flood-io.github.io/ruby-jmeter/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

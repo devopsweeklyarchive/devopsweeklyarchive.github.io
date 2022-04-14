@@ -1,0 +1,138 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#176?=
+Date: Sun, 18 May 2014 11:10:49 +0000
+
+DEVOPS WEEKLY
+ISSUE #176 - 18th May 2014
+
+Scaling continuous integration infrastructure=2C the release engineering d=
+isciple and challenges and solutions for devops adoption in the Enterprise=
+=2E Lots of good content for those working in large organisations this week.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+The videos from the recent Gophercon have started coming out=2C and this t=
+alk is probably very relevant to this audience=2C all about the language G=
+o from a systems administrator perspective.
+
+http://confreaks.com/videos/3424-gophercon2014-go-for-sysadmins
+
+
+An article about why Devops isn=E2=80=99t ready for the Enterprise quite y=
+et. Past the title the post is excellent=2C laying out the challenges to o=
+vercome organisational inertia in large organisations.
+
+http://blogs.wsj.com/cio/2014/05/13/devops-is-great-for-startups-but-for-e=
+nterprises-it-wont-work-yet/
+
+
+This next slide deck makes the case for autonomy as the mechanism to speed=
+ up software releasing in large organisations. The second link it a writeu=
+p of the same talk.
+
+https://speakerdeck.com/niekbartho/orchestration-in-meatspace
+http://www.infoq.com/news/2014/05/replacing-orchestration-delivery
+
+
+A number of the tools and posts I=E2=80=99ve included over the last few ye=
+ars deal with service dicovery. This post is a great summary and jumping o=
+ff point to the topic=2C covering all the tools I was aware of and a few m=
+ore.
+
+http://jasonwilder.com/blog/2014/02/04/service-discovery-in-the-cloud/
+
+
+Videos and slides from the 2nd international workshop on release engineeri=
+ng held at Google. Lots of good material=2C on business value=2C release d=
+ecision making and continuous delivery and more.
+
+http://releng.polymtl.ca/RELENG2014/html/program.html
+
+
+Jenkins is used by lots of people who how many of them manage the Jenkins=
+ configuration in code? Historically this hasn=E2=80=99t been that easy=2C=
+ but the following post combines the Chef cookbook and the Groovy API to m=
+ake this possible.
+
+http://erichelgeson.github.io/blog/2014/05/10/automating-your-automation-f=
+ederated-jenkins-with-chef/
+
+
+If you ever need to know about Java deployment=2C monitoring=2C management=
+=2C profiling and benchmarking then this post is for you. Nearly everyone=
+ has to run JVM applications at some point so it=E2=80=99s worth knowing t=
+he basics.
+
+http://blog.paralleluniverse.co/2014/05/08/modern-java-pt2/
+
+
+A detailed blog post=2C part of a series=2C about using Mesos to scale a v=
+ery large Jenkins cluster. This post covers docker integration and has lot=
+s of screenshots if you want to get something like this up and running.
+
+http://www.ebaytechblog.com/2014/05/12/delivering-ebays-ci-solution-with-a=
+pache-mesos-part-ii
+
+
+A good presentation on the Kamon monitoring tool I featured recently. The=
+ talk discusses the challenges of monitoring reactive applications and pro=
+vides examples of the power of tracing
+
+http://kamon.io/presentations/javacro14
+
+
+Jobs
+=3D=3D=3D=3D
+
+Cond=C3=A9 Nast is the home of sites like Wired=2C The New Yorker=2C Vanit=
+y Fair and many more. We are looking for a Site Reliability Engineer to he=
+lp work on our next generation publishing platform.  You will work with de=
+velopers on building infrastructure=2C monitoring=2C and deployment tools.=
+ Our team is passionate=2C smart=2C and willing to go the extra mile to tr=
+y and change the way we view content. Let us know if you feel the same way=
+ and come join!
+
+More details: http://condenast.avature.net/careers/JobDetail/New-York-Site=
+-Reliability-Engineer/3745
+For further information or to apply: alan_karamehmedovic@condenast.com
+
+
+Help build the platform that powers a better=2C fairer banking experience=
+ at Simple. Be part of a team that chooses its own tools (and open sources=
+ new ones); works across web=2C Android=2C iOS=2C and Ruby/Scala/Clojure b=
+ackend apps; and develops a secure and scalable banking service on AWS.
+
+https://www.simple.com/careers/
+
+
+Tools
+=3D=3D=3D=3D
+
+Post Git is a PowerShell environment for Git. It provides tab completion=
+=2C prompts and a bunch of useful handlers.
+
+http://dahlbyk.github.io/posh-git/
+https://github.com/dahlbyk/posh-git
+
+
+An interesting approach to instrumentation and application monitoring=2C M=
+onitor is a package for the Go programming language. The example shows how=
+ to easily expose application metrics over HTTP.
+
+http://godoc.org/github.com/spacemonkeygo/monitor
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

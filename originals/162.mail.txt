@@ -1,0 +1,132 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#162?=
+Date: Sun, 9 Feb 2014 15:12:55 +0000
+
+DEVOPS WEEKLY
+ISSUE #162 - 9th February 2014
+
+Lots of configuration management content this week=2C much of it from the=
+ first Configuration Management Camp in Gent last week. I managed to go al=
+ong and met lots of people from all the major open source config managemen=
+t communities. Getting everyone together was a great idea=2C hopefully it=
+ will happen again next year.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A nice presentation entitled application configuration & deployment in the=
+ containerized new world. A high level look at some of the issues of manag=
+ing distributed applications.
+
+http://skottler.fedorapeople.org/presentations/infrastructurenext.html#/
+
+
+A good infrastructure continuous deployment case study=2C showing lots of=
+ tools required to make this work around Chef and Jenkins.
+
+http://www.slideshare.net/gmiranda23/cfg-mgmtcamp-cdwithchef
+
+
+A good introduction to Test Driven Development with Chef. This isn=E2=80=
+=99t just a look at the tools=2C but more a look at the process of TDD and=
+ how it applies to the various moving parts in Chef.
+
+https://speakerdeck.com/nathenharvey/tdd-with-chef
+
+
+Various folks have integrated monitoring tools with chat rooms=2C but this=
+ is the first post I=E2=80=99ve seen showing a full production issue end-t=
+o-end with chat dialogue=2C including graphs and alerts from various monit=
+oring tools.
+
+http://blog.librato.com/posts/confessions-of-a-chatbot
+
+
+An occasionally surreal presentation about breaking down silos in organisa=
+tions=2C and what that can mean to overall organisation structure in large=
+r groups.
+
+http://www.slideshare.net/MichaelDucy/the-goat-and-silo
+
+
+Here=E2=80=99s another infrastructure testing post=2C this one focusing on=
+ serverspec for acceptance testing. I=E2=80=99ve been really liking server=
+spec recently for those that haven=E2=80=99t had chance to use it yet.
+
+https://micgo.net/serverspec-guard-and-test-kitchen-testing-servers-like-a=
+-boss/
+
+
+A nice description of a common pattern when provisioning machines=2C in th=
+is case using Chef and AWS. In order to speed up provisioning times do a t=
+wo step configuration management run=2C the first one creating a base imag=
+e from which you can build on.
+
+http://tech.gamechanger.io/blog/2014/2/6/speeding-up-provisioning.html
+
+
+A nice description of the difference between tool building and automation.=
+ Put simply tool building aids the existing task=2C while automation remov=
+es or fundamentally changes the job.
+
+http://everythingsysadmin.com/2014/02/tool-building-versus-automatio.html
+
+
+A good argument that it=E2=80=99s not about The Thing (in this case ITIL)=
+ but about how we embed and adopt the habits of The Thing. Certainly true=
+ of any move towards devops too.
+
+http://www.itskeptic.org/content/fix-change-not-itil
+
+
+The OWASP (Open Web Application Security Project) project is hopefully wel=
+l known for lots of tools and good content. This page in particular is wor=
+th bookmarking=2C it contains links to all the cheat sheets=2C from authen=
+tication and passwords to TLS and SQL Injection tips.
+
+https://www.owasp.org/index.php/Cheat_Sheets
+
+
+Events
+=3D=3D=3D=3D=3D
+
+QCon is coming back to London on the 5th to the 7th of March. The usual wi=
+de range of tracks=2C from scalable architectures=2C resilience and next g=
+eneration cloud to devops and a track dedicated to people skills. Use the=
+ discount code devopsweekly for =C2=A3100 off the conference price.
+
+http://qconlondon.com/
+
+
+Tools
+=3D=3D=3D=3D
+
+Drone is a new open source continuous integration server built around a ni=
+ce modern user interface and using lxc containers (powered by docker) unde=
+r the hood. It promises to be simple to install and integrates nicely with=
+ GitHub and Bitbucket.
+
+http://blog.drone.io/2014/2/5/open-source-ci-docker.html
+https://github.com/drone/drone
+
+
+Trousseau is an interesting approach to a common problem=2C that of secure=
+ly passing secrets around an infrastructure. It uses GPG signed files unde=
+r the hood and nicely integrates with both version control systems and S3.
+
+https://github.com/oleiade/trousseau
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

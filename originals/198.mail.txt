@@ -1,0 +1,122 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#198?=
+Date: Sun, 19 Oct 2014 10:12:50 +0000
+
+DEVOPS WEEKLY
+ISSUE #198 - 19th October 2014
+
+I normally read the weeks links and pick out a theme=2C maybe something th=
+at a number of the posts or presentations discuss. This week the topics ar=
+e all over the place=2C another example of how broad the devops banner is=
+ at this point.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A great post putting all things containers  in a historical context. Not j=
+ust where they came from=2C but what=E2=80=99s happening to drive innovati=
+on in cgroups and namespaces=2C and why containers on virtual machines mig=
+ht be the future for most.
+
+http://thenewstack.io/containers-whats-new-what-isnt-what-matters/
+
+
+A nice run through of various ways of having nodes in a cluster share info=
+rmation. Compares Chef search with PuppetDB and demonstrates confd and etc=
+d.
+
+http://www.slideshare.net/m_richardson/node-collaboration-sharing-informat=
+ion-between-your-systems
+
+
+A thorough example of managing Windows with Chef and DSC=2C and then testi=
+ng with Pester (a Powershell test framework) and Test Kitchen.
+
+http://www.hurryupandwait.io/blog/configure-and-test-windows-infrastructur=
+e-using-powershell-technologies-dsc-and-pester-running-from-chef-and-test-=
+kitchen
+
+
+A good post on the ongoing enterprise devops debate=2C making the point th=
+at talking about application and practices that work is a good thing=2C an=
+d doing so with empathy for all involved is important.
+
+http://blog.ingineering.it/post/100180001529/we-get-the-enterprise-devops-=
+we-deserve
+
+
+If you=E2=80=99re running Kafka then this next post=2C about load testing=
+ Kafka on AWS=2C will definitely be essential reading. Even if you=E2=80=
+=99re not the details and approach to load testing are interesting.
+
+http://grey-boundary.com/load-testing-apache-kafka-on-aws/
+
+
+Wiring well behaved unix command line tools doesn=E2=80=99t take lots of w=
+ork=2C but you do need to know the basics. This presentation demonstrates=
+ catching signals=2C dealing with stdin and stdout and more using Ruby.
+
+http://www.slideshare.net/bigfishdesign/well-behaved-unix
+
+A good set of notes from this weeks Chef Community Summit in London=2C hig=
+hlighting some of the topics discussed including config management and con=
+tainers=2C orchestration and versioning resources.
+
+http://www.flexiant.com/2014/10/16/flexiant-notes-from-chef-community-summ=
+it-london/
+
+
+A story explaining why small incremental releases make for a safer approac=
+h to releasing web based software.
+
+http://blog.opbeat.com/posts/staying-sane-with-small-incremental-releases/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Config Management Camp is happening again next year on the 2nd and 3rd of=
+ February in Gent=2C just after FOSDEM. The call for proposals is open now=
+ and will close on the 1st of December.
+
+http://cfgmgmtcamp.eu/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Boxstarter is a tool for bootstrapping a new Windows machine. It makes hea=
+vy use of Choclately packages and provides a number of very simple ways of=
+ getting started. Great documentation too.
+
+http://boxstarter.org/
+
+
+Carbonate is a set of command line tools for managing a Graphite cluster.=
+ It packages tools for listing and finding metrics=2C synchronizing metric=
+s between nodes=2C backfilling whisper data from other files and more.
+
+https://github.com/jssjr/carbonate
+
+
+If you=E2=80=99re building software on GitHub and want an easy way of mana=
+ging GitHub releases then look no further than this simple command line to=
+ol. The main features are around setting release metadata and uploading bi=
+nary files as part of the release.
+
+https://github.com/aktau/github-release
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

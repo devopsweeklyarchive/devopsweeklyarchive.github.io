@@ -1,0 +1,136 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#119?=
+Date: Sun, 14 Apr 2013 10:22:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #119 - 14th April 2013
+
+Devops has always been about more than collaboration between developers an=
+d web operations and it's great to see articles like the first one in this=
+ issue, in this case from deep within the network engineering community ta=
+lking about the need to learn programming. At devops flavoured events talk=
+ often turns to how to get more people from networking or quality assuranc=
+e or security backgrounds to join the community, it feels like that might=
+ be starting to happen.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+A fantastic article, from a network engineers point of view on a network e=
+ngineer site, about why network folk should learn programming. It doesn't=
+ mention devops once. I still think one of the areas we'll see interesting=
+ tools and conversations about in the next year or so will be networking.
+
+http://packetpushers.net/programming-101-for-network-engineers-why-bother/
+
+
+It's very common for web applications to be moving towards a continuous re=
+lease process, rather than say releasing a numbered version every 6 months=
+=2E This blog post talks about this in terms of openstack (and is relevant t=
+o other infrastructure software too I'd wager). Would you happily update y=
+our IaaS software every day?
+
+http://fnords.wordpress.com/2013/04/11/the-need-for-releases/
+
+
+Interesting summary of the recent Heroku performance issues. This is mainl=
+y interesting because it raises issues about who owns what when running un=
+der a PaaS, and more importantly how you instrument an application when yo=
+u don't own much of the stack.
+
+http://www.virtualizationpractice.com/who-is-responsible-for-paas-cloud-ap=
+plication-performance-21213/
+
+
+As more and more folks implement deployment pipelines we're discovering us=
+eful patterns. This post covers why just moving artefacts around between n=
+amed repositories might not be the best approach, and why metadata is impo=
+rtant too.
+
+http://www.stephen-smith.co.uk/pipeline-antipattern-mutable-binary-locatio=
+n/
+
+
+Assume you didn't already have any preconceptions about PHP and you heard=
+ about a cool new language built for the web. PHP The Right Way is a actua=
+lly quite impressive looking site aiming to improve the state of PHP docum=
+entation, and starts with things like xdebug, dependency management tools,=
+ built in web servers, vagrant and more.
+
+http://www.phptherightway.com/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Workshare in London are looking for a DevOps engineer to join their team.=
+ This will be their first full-time DevOps hire in an established and prof=
+itable business, with fresh VC investment and led by a CEO who did 3 IPOs=
+ before. The DevOps will be tasked with building out brand new infrastruct=
+ure to support a PaaS product offering. You will be heavily involved in de=
+fining architecture, tooling and process for the organisation.
+
+http://www.workshare.com/company/careers/sysadmindevops-engineer-london
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+dotScale is an affordable upcoming conference in Paris, on June 7th with w=
+orkshops on the June 8th. Som interesting folks down to speak, on everythi=
+ng from Hadoop and ElasticSearch to dotCloud and Heroku. The organisers ha=
+ve nicely offered a 15% discount to devops weekly readers too.
+
+http://www.dotscale.eu/
+http://dotscale2013.eventbrite.com/?discount=3DDEVOPSWEEKLY
+
+
+Tools
+=3D=3D=3D=3D
+
+I mentioned the vagrant-omnibus tool last week for Chef and immediately wa=
+nted to the same thing for Puppet. The first step is a single installer, a=
+nd puppet-omnibus is just that. It uses the tools from Opscode to make a s=
+ingle monolithic package.
+
+https://github.com/andytinycat/puppet-omnibus
+
+
+Internal applications often have either no or bad authentication and autho=
+risation schemes. Google Auth Proxy is a reverse proxy which authenticates=
+ all requests via Google OAuth provider. Fast and simple, at least if you'=
+re already using an OAuth provider like Google Apps.
+
+http://word.bitly.com/post/47548678256/google-auth-proxy
+https://github.com/bitly/google_auth_proxy
+
+
+More Vagrant providers, this one covers the Joyent cloud. Nicely it also c=
+omes with a sample Vagrantfile in a hello world style project (including a=
+ Chef bootstrap trick) which should get you started quickly.
+
+https://github.com/someara/vagrant-joyent
+https://github.com/someara/vagrant-joyent-hello_world-repo
+
+
+Chronos is an interesting cron replacement, with a distributed, fault tole=
+rant model based on Mesos. You can specify jobs in iso8601, interact with=
+ a web interface or API and deal with failures gracefully. If you're runni=
+ng a full Hadoop stack the dependencies shouldn't be too scary.
+
+http://airbnb.github.io/chronos/
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

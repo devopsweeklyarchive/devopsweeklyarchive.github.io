@@ -1,0 +1,164 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#158?=
+Date: Sun, 12 Jan 2014 13:13:48 +0000
+
+DEVOPS WEEKLY
+ISSUE #158 - 12th January 2014
+
+Lots of everything this week; several tools=2C upcoming events=2C new jobs=
+=2C blog posts and entire series of posts should keep everyone busy. If yo=
+u would like to see any type of content that=E2=80=99s not often featured=
+ in Devops Weekly do let me know.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+Sponsored Event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+#ChefConf is coming in April.
+Save 10% with discount code DEVOPSWEEKLY
+
+http://chefconf.com
+
+
+News
+=3D=3D=3D=3D
+
+A nice 4 part series on testing infrastructure as code. The latest post co=
+vers adding ServerSpec tests which I=E2=80=99ve been using recently. The e=
+xample integration with TestKitchen and Guard is nice too.
+
+https://micgo.net/serverspec-guard-and-test-kitchen-testing-servers-like-a=
+-boss/
+
+
+A nice presentation introducing the flapjack monitoring router=2C includin=
+g lots of diagrams of how it fits into an existing monitoring stack. I=E2=
+=80=99d love to see someone pick up the simple execution engine part of th=
+e stack to use with this.
+
+https://speakerdeck.com/auxesis/finding-signal-in-the-monitoring-noise-wit=
+h-flapjack
+
+
+Another blog post series=2C this one up to 6 posts so far covering everyth=
+ing that=E2=80=99s going into LXC 1.0. A good getting started guide=2C plu=
+s more advanced usage.
+
+https://www.stgraber.org/2013/12/20/lxc-1-0-blog-post-series/
+
+
+An interesting post about the seemingly parallel worlds of devops events a=
+nd cloud events. I=E2=80=99m not sure I agree completely=2C as someone who=
+ doesn=E2=80=99t self identify with being ops or dev and who was at some o=
+f the mentioned events I think the breaking down of barriers makes it hard=
+ to tell. Worth reading.
+
+http://redmonk.com/dberkholz/2014/01/08/the-parallel-universes-of-devops-a=
+nd-cloud-developers/
+
+
+One area where Docker appears to be really useful is disposable test envir=
+onments=2C for instance as part of a continuous integration build. This po=
+st shows a fairly involved example running a long-running ruby test suite=
+=2C including how to configure Jenkins.
+
+http://www.activestate.com/blog/2014/01/using-docker-run-ruby-rspec-ci-jen=
+kins
+
+
+We see lots of talk about how Devops is about increasing collaboration=2C=
+ but less about how that can be done or what it means for people who are a=
+sked to collaborate. This post picks out one important part of that journe=
+y=2C empathy=2C both for those you=E2=80=99re collaborating with and ultim=
+ately for end users of services.
+
+http://blog.ingineering.it/post/72964480807/empathy-the-essence-of-devops
+
+
+In my experience most people are using Git for source control=2C partly dr=
+iven by the ubiquity of GitHub I=E2=80=99d bet. Facebook chose to use Merc=
+urial=2C mainly to work around problems at the huge scale they operate at.=
+ This post explains some of the why=2C and also some of the improvements t=
+hey made to deal with a huge repository.
+
+https://code.facebook.com/posts/218678814984400/scaling-mercurial-at-faceb=
+ook/
+
+
+A nice post about one approach to setting up connectivity between data two=
+ centres=2C in this case using OpenVPN and Vyatta.
+
+http://blog.tempo-db.com/post/50442490065/architectural-primitives-inter-d=
+atacenter-tunnels
+
+
+Events
+=3D=3D=3D=3D=3D
+
+#ChefConf is coming up on April 15th to 17th in San Francisco. The call fo=
+r proposals is currently open until the 17th of January so you have less t=
+han a week to get your talk proposals in.
+
+https://chefconf2014.busyconf.com/proposals/new
+
+
+Jobs
+=3D=3D=3D=3D
+
+GoCardless=2C one of London's fastest-growing startups=2C is looking for a=
+ web operations engineer to help design=2C build=2C and maintain their inf=
+rastructure. If you automate by default=2C appreciate the need for metrics=
+=2C and protest the idea that developers don't need to understand infrastr=
+ucture=2C you'd be a great fit for GoCardless.
+
+To apply=2C email harry@gocardless.com More details are available at gocar=
+dless.com/jobs.
+
+
+Operative Media is looking for a DevOps Engineer/Infrastructure Developer.=
+ We are a SaaS company based in NYC=2C you can learn more about us at oper=
+ative.com. We are looking for someone strong in Linux=2C Chef=2C AWS=2C My=
+SQL=2C monitoring tools=2C as well as Java or Ruby coding skills. Open to=
+ remote candidates who can travel to NYC occasionally. Please apply at htt=
+p://ch.tbe.taleo.net/CH09/ats/careers/requisition.jsp?org=3DOPERATIVE&cws=
+=3D1&rid=3D155 If you don't like long forms=2C please send your resume and=
+ a summary of your experience to opsresumes@operative.com
+
+
+Tools
+=3D=3D=3D=3D
+
+Cabot is a new open source monitoring system. Written in Python it aims to=
+ provide checks of Graphite=2C basic HTTP statuses and Jenkins jobs=2C as=
+ well as sending SMS via Twilio. The docs make setting up easy too.
+
+https://github.com/arachnys/cabot
+
+
+A very nice looking cross browser testing tool. Dalek.js launches browsers=
+=2C takes screenshots=2C runs automated tests and more. Would be interesti=
+ng to integrate into a continuous integration pipeline.
+
+http://dalekjs.com/
+
+
+An interesting way of exposing a web API based on a directory of scripts.=
+ PyJoJo turns a collection of bash scripts into commands that can be calle=
+d with a simple HTTP POST and which automatically return JSON=2C including=
+ stdout=2C stderr and the return code.
+
+https://github.com/atarola/pyjojo
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

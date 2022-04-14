@@ -1,0 +1,186 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#138?=
+Date: Mon, 26 Aug 2013 15:09:32 +0000
+
+DEVOPS WEEKLY
+ISSUE #138 - 26th August 2013
+
+Apologies for the delay in sending this weeks Devops Weekly. I spent most=
+ of Sunday on a flight back from PuppetConf and decided to leave the newsl=
+etter until I got back. That does mean lots of content from PuppetConf for=
+ this issue=2C but below that the usual collection of articles=2C events a=
+nd tools to keep everyone busy.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+PuppetConf
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+The Puppet language hasn=E2=80=99t always evolved quickly. This talk cover=
+s why=2C and more interestingly talks about how to opt-in to experimental=
+ new features and what some of the new Puppet language features (like loop=
+s) look like.
+
+http://www.slideshare.net/PuppetLabs/loops-and-unicorns-the-future-of-the-=
+puppet-language-puppet
+
+
+I had the fortune of being one of the speakers at PuppetConf=2C talking ab=
+out module reusability. A discussion of the problem=2C a bunch of tools an=
+d patterns that make life easier and some things I=E2=80=99d like to see f=
+rom the future versions of Puppet and the supporting tools.
+
+https://speakerdeck.com/garethr/puppet-module-reusability
+
+
+Not all of the talks at PuppetConf focused on Puppet. This talk covered wh=
+y hiring and new teams probably isn=E2=80=99t the right approach when tryi=
+ng to adopt devops approaches. Lots of good culture content.
+
+http://www.slideshare.net/jezhumble/stop-hiring-devops-experts-and-start-g=
+rowing-them
+
+
+Good introduction to Logstash=2C everyones favourite log processing applic=
+ation. Some notable announcements about the next release due next week. Pe=
+rformance improvements of around 3.5 times the previous version=2C bundlin=
+g the lovely looking Kibana 3 plus conditional statements in outputs.
+
+http://logstash.objects.dreamhost.com/presentations/logstash-puppetconf-20=
+13/index.html
+
+
+Excellent talk about how GitHub use Puppet. Contains lots of information a=
+bout code structure=2C rolling your own tools=2C deployment and having a w=
+ide range of people contributing to your Puppet code base.
+
+https://speakerdeck.com/wfarr/puppet-at-github-puppetconf-2013
+
+
+Puppet code is code=2C and using approaches like refactoring is important=
+ as your code grows. This presentation introduces the concept and highligh=
+ts a few code smells common to Puppet code.
+
+https://speakerdeck.com/jfryman/refactoring-puppet
+
+
+Not a great deal of monitoring discussion at PuppetConf but this talk cove=
+rs much of the ground for what a monitoring stack powered by a configurati=
+on management tool requires.
+
+http://www.slideshare.net/KrisBuytaert/monitoring-in-an-infrastructure-asc=
+odeage
+
+
+Most of the presentations have been posted here=2C that=E2=80=99s 82 in to=
+tal. Apparently we can expect the videos to be made available soon too. So=
+ much good content.
+
+http://www.slideshare.net/PuppetLabs/tag/puppetconf
+
+
+News
+=3D=3D=3D=3D
+
+Lots of interest in docker at the moment. These two blog posts look at how=
+ docker is working under the hood. They are also a great introduction to i=
+nvestigating a new tool in a methodical manner using strace=2C ps and more=
+=2E
+
+http://pnasrat.github.io/2013/08/25/inside-docker-i/
+http://pnasrat.github.io/2013/08/25/inside-docker-ii/
+
+
+A good piece on the trade offs of different software release strategies=2C=
+ and how they apply to a specific project; Fabric. The break down into spe=
+ed=2C stability and maintenance effort is a nice generalisable approach.
+
+http://bitprophet.org/blog/2013/08/22/software-releases/
+
+
+In Search of Certainty - The science of our information infrastructure is=
+ a new book from Mark Burgess that is bound to be regarded a classic of ou=
+r operations discipline. I started reading this on the plane last week and=
+ it=E2=80=99s an impressive piece of work.
+
+http://markburgess.org/certainty.html
+
+
+An interesting discussion of security threats to software build processes=
+ and a look at why a deterministic build process is an important part of t=
+he answer.
+
+https://blog.torproject.org/blog/deterministic-builds-part-one-cyberwar-an=
+d-global-compromise
+
+
+Interesting paper from Facebook entitled Development and Deployment at Fac=
+ebook. Click the Download File button to download a PDF copy. Lots of inte=
+resting continuous delivery content.
+
+https://www.facebook.com/publications/514128035341603
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Flowcon=2C the one day conference on November 1st in San Francisco all abo=
+ut Continuous Delivery=2C have kindly offered a discount code. If you=E2=
+=80=99ve been thinking about going along then maybe 10% will convince you=
+ to get round to registering.
+
+https://secure.trifork.com/flowcon-sanfran-2013/registration/registration.=
+jsp?promotionCode=3Ddevopsweekly
+
+
+The spread of Devops Days around the world continues=2C with Devops Days V=
+ancouver happening on the 25th and 26th of October. The call for proposals=
+ is open so if you have a good story to tell and are in the area why not a=
+pply?
+
+http://www.devopsdays.org/events/2013-vancouver/
+
+
+Tools
+=3D=3D=3D=3D
+
+A new minor version of Graphite has been released with a few interesting f=
+eatures. Most notable however are security fixes for XSS and remote execut=
+ion vulnerabilities so everyone is recommended to upgrade.
+
+http://graphite.readthedocs.org/en/0.9.11/releases/0_9_11.html
+
+
+ZMap is an open-source network scanner which can perform Internet-wide net=
+work studies. With a single machine and a well provisioned network uplink=
+=2C ZMap is capable of performing a complete scan of the IPv4 address spac=
+e in under 45 minutes. Some interesting monitoring applications.
+
+https://zmap.io/
+
+
+Rouster is a an interesting programmatic model for working with Vagrant. I=
+t was written to underpin integration testing tools but might provides a g=
+eneral purpose interface to vagrant the provisioned virtual machines.
+
+https://github.com/chorankates/rouster
+
+
+Chocolatey is a package format and manager much like apt=2C but for Window=
+s. Using configuration management tools on Window without a solid package=
+ resource makes this much more complicated so this could be very useful.
+
+http://chocolatey.org/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

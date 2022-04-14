@@ -1,0 +1,140 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#207?=
+Date: Sun, 21 Dec 2014 13:34:58 +0000
+
+DEVOPS WEEKLY
+ISSUE #207 - 21st December 2014
+
+A bumper issue this week to see you through the holidays. Also lookout for=
+ a great discount on the excellent Lean Enterprise book. Oh and hopefully=
+ you=E2=80=99re still have a few Sysadvent articles to read http://sysadve=
+nt.blogspot.co.uk/.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A good detailed walk-through of using Postgres as a full-text search engin=
+e. A good reminder as well that the answer isn=E2=80=99t always a new piec=
+e of technology.
+
+http://blog.lostpropertyhq.com/postgres-full-text-search-is-good-enough/
+
+
+With the recent NTP vulnerabilities this post makes an argument for replac=
+ing it rather than upgrading. Specifically it details tlsdate which takes=
+ a pretty different approach to the problem.
+
+https://blog.hboeck.de/archives/863-Dont-update-NTP-stop-using-it.html
+
+
+The question of code freezes to protect production environments often come=
+s up in discussion=2C this post does a good job of explaining why this app=
+roach doesn=E2=80=99t worth as well as people think
+
+http://www.xaprb.com/blog/2014/11/29/code-freezes-dont-prevent-outages/
+
+
+The word NoOps appears to mainly have disappeared but just in case it does=
+ try and crop up again this post explains why it=E2=80=99s a bad idea.
+
+http://www.itskeptic.org/content/there-no-such-thing-noops-it-awful-word
+
+
+The recent announcement of Rocket and the App Container specification caus=
+ed lots of comments not all of them useful. This post breaks down a few mi=
+sconceptions and picks apart what=E2=80=99s interesting.
+
+http://containerops.org/2014/12/19/docker-vs-rocket-gimme-a-break/
+
+
+A good post all about the design and user experience of command line appli=
+cations. Worth reading whether you=E2=80=99re developing command line tool=
+s or you=E2=80=99re a designer wondering why people use text based inputs.
+
+https://medium.com/re-form/ux-for-wizards-e6ffaad577b4
+
+
+A nice example of what Devops is and isn=E2=80=99t with a focus on what th=
+at means in Government environments.
+
+http://davila.io/2014/10/14/devops-in-federal-government-a-high-level-appr=
+oach/
+
+
+The Rubinius ruby runtime is now exposing some interesting metrics and eve=
+n has built-in support for exporting metrics via statsd. This post covers=
+ getting those metrics into influxDB.
+
+http://rubini.us/2014/12/10/rubinius-metrics-meets-influxdb/
+
+
+Configuring SSL correctly is somewhat time consuming and fiddly=2C this po=
+st does a good job of stepping through a good configuration with Nginx tha=
+t scores A+ on the Qualys SSL tester.
+
+https://sethvargo.com/getting-an-a-plus-on-qualys-ssl-labs-tester/
+
+
+The growing interest in new languages is throwing up some interesting inte=
+gration opportunities. Here=E2=80=99s a surprisingly simple way of integra=
+ting Rust with Ruby.
+
+http://blog.skylight.io/bending-the-curve-writing-safe-fast-native-gems-wi=
+th-rust/
+
+
+Short tutorials are great for quickly learning something=2C so sometimes y=
+ou want a fully working example. This post covers building a small but hig=
+hly-available web infrastructure using Ansible on local virtual machines=
+=2C Digital Ocean and on AWS.
+
+https://servercheck.in/blog/highly-available-infrastructure-provisioning-a=
+nsible
+
+
+Special offer
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+This week we have a free excerpt including 4 chapters from the new book Le=
+an Enterprise. Lots of great devops case studies from interesting large or=
+ganisations. If you like what you see you can use the discount code AUTHD=
+ to get 50% off the ebook or 40% off the dead tree version.
+
+https://s3-us-west-1.amazonaws.com/leanenterprise/lean_enterprise_excerpt.=
+pdf
+http://shop.oreilly.com/product/0636920030355.do
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DevopsWorks is a new event happening January 28th and 29th in Amsterdam. I=
+t=E2=80=99s squarely focused on high quality tutorials rather than talks=
+=2C which should make for a good way of learning about new topics.
+
+http://www.devopsworks.io/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Spigio is an interesting tool for modelling gossip based communications in=
+ large networks. The output to both GraphML and graphJSON make visualising=
+ results easy.
+
+https://github.com/adrianco/spigo
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

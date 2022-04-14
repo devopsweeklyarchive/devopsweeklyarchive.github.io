@@ -1,0 +1,176 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#150?=
+Date: Sun, 17 Nov 2013 14:34:27 +0000
+
+DEVOPS WEEKLY
+ISSUE #150 - 17th November 2013
+
+I=E2=80=99ve spent the last week organising=2C talking at and mainly just=
+ attending both Devops Days and Velocity in London. Both events have been=
+ great=2C with lots of interesting talks and hallway conversations. Lots o=
+f the following content comes from one of the those talks=2C workshops or=
+ chats so thank you everyone who made the events so good.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+Velocity
+=3D=3D=3D=3D=3D=3D
+
+One of the workshops I attended at Velocity covered using the Gauntlt tool=
+ to test for various security vulnerabilities. The slides cover both why t=
+his is important and provide links to some good exercises to get started w=
+ith.
+
+http://www.slideshare.net/wickett/gauntlt-velocity-eu2013
+
+
+Another of the workshops=2C this one covering the Kale anomaly detection s=
+tack and how to deal with a large volume of metrics and extract value from=
+ them.
+
+http://www.slideshare.net/jonlives/bring-the-noise
+
+
+A great presentation about how Etsy went about integrating multiple CDNs=
+=2C including some of the challenges with how CDNs often work and demonstr=
+ating some of the tools they built.
+
+http://www.slideshare.net/marcusbarczak/integrating-multiple-cdn-providers=
+-at-etsy
+
+
+Mentioned at Velocity=2C Sitespeed.io is a very nice looking performance t=
+esting tool=2C ideally suited for use in a continuous integration pipeline=
+=2E It produces extensive reports across multiple pages=2C as well as taking=
+ screenshots of tested pages if required.
+
+http://www.sitespeed.io/
+
+
+Another tool from Velocity=2C this WebPageTest script is a wrapper around=
+ WebPageTest (a performance testing tool) which provides the ability to ea=
+sily generate tests and graph results in Graphite.
+
+https://github.com/etsy/wpt-script
+
+
+CDN Control is the tooling from the integrating CDNs talk at Velocity ment=
+ioned above. The two projects provide both a command line tool and web int=
+erface to manage how you=E2=80=99re CDNs are currently being balanced.
+
+https://github.com/etsy/cdncontrol
+https://github.com/etsy/cdncontrol_ui
+
+
+
+News
+=3D=3D=3D=3D
+
+One of the open spaces and later an ignite talk at Devops Days kicked off=
+ a much broader conversation about burnout in the IT industry. This post i=
+n particularly summed up why I think the talk=2C and the resulting convers=
+ations=2C are so important.
+
+http://www.threedrunkensysadsonthe.net/2013/11/burnout-recovery-and-honest=
+y/
+
+
+Devops Days London was only at the start of the week but the videos are al=
+ready up for all the talks and ignites. Everything from the scientific the=
+ory behind configuration management to why security is important to what=
+=E2=80=99s happening in the world of Software Defined Networks.
+
+http://vimeo.com/album/2594031
+
+
+A nice presentation from the recent Flowcon all about auditing. Lots of de=
+tail about what auditing is and why it=E2=80=99s useful=2C as well as tips=
+ for anyone interested in devops in a regulated industry.
+
+http://flowcon.org/dl/flowcon-sanfran-2013/slides/JamesDeLuccia_Successful=
+lyEstablishingAndRepresentingDevOpsInAnAudit.pdf
+
+
+Project Sputnik=2C the Dell project which made the XPS13 developer edition=
+ machine possible=2C is working on some software tools and looking for inp=
+ut/feedback. The profile tool aims to make getting setup and running with=
+ software projects=2C and their dependencies easier.
+
+http://bartongeorge.net/2013/11/12/project-sputnik-profile-tool-dell-commi=
+ts-engineering-resources-docker-joins-the-cause-and-we-want-your-input/
+https://github.com/sputnik/profile_tool
+
+
+tcpdump is one of those incredible powerful tools that you could spend an=
+ entire career learning to use. This post covers why it=E2=80=99s useful a=
+nd why to prefer it=E2=80=99s low level power and flexibility over higher=
+ level tools.
+
+http://www.danielmiessler.com/study/tcpdump/
+
+
+For most people learning systems administration it=E2=80=99s a matter or e=
+xperience rather than formal education. This book=2C and the course that i=
+t=E2=80=99s intended to be part of=2C is one of the first attempts to brin=
+g learning systems administration into a university setting.
+
+http://www.netmeister.org/book/
+
+
+One of the ignites from Devops Days London covering packaging tools=2C and=
+ some of the high level tools that have cropped up recently like omnibus=
+=2C fpm  and in particular pkgr.
+
+https://speakerdeck.com/crohr/does-packaging-really-suck
+
+
+A couple of nice writeups for Devops Days London=2C covering the talks=2C=
+ ignites and open spaces. Lots more links to books or tools or blog posts=
+ mentioned throughout the two days.
+
+http://markosrendell.wordpress.com/2013/11/13/at-what-point-will-the-human=
+-race-depend-on-devops/
+http://dingops.org/2013/11/12/devops-days-london/
+
+
+Events
+=3D=3D=3D=3D=3D
+
+ScaleConf will take place on the 10th and 11th of April=2C in Cape Town=2C=
+ South Africa. It is a 300-person=2C single-track conference=2C focusing o=
+n scalability and high availability. The conference is also currently look=
+ing for speakers.
+
+http://scaleconf.org/speak
+
+
+Tools
+=3D=3D=3D=3D
+
+Leibniz is another take on infrastructure testing=2C using Cucumber to sta=
+nd up virtual machines using Vagrant against which tests can be run. It=E2=
+=80=99s currently Chef specific but could in theory be expanded to other t=
+ools.
+
+http://leibniz.cc/
+
+
+For anyone interested in the Statsd model of data collection but not wandi=
+ng to run node or anything else=2C Statsite might be of interest. It=E2=80=
+=99s implemented in C and as well as being fast it also has a number of in=
+teresting extension hooks.
+
+https://github.com/armon/statsite
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

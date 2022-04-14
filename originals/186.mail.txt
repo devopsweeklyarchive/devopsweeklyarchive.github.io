@@ -1,0 +1,162 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#186?=
+Date: Sun, 27 Jul 2014 11:21:09 +0000
+
+DEVOPS WEEKLY
+ISSUE #186 - 27th July 2014
+
+Lots of tools this week=2C from infrastructure testing and development env=
+ironments to log file parsing and monitoring dashboards. I=E2=80=99ve also=
+ included an academic paper (on TLS security) for the first time I think -=
+ if anyone has good publicly available papers on relevant topics do send m=
+e links.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+All Your Base is a curated database conference for DevOps and system archi=
+tects=2C taking place in Oxford this October. Speakers include MySQL creat=
+or Monty Widenius and more. Early Bird tickets end this Friday!
+
+http://allyourbaseconf.com/2014/?source=3Ddevops
+
+
+News
+=3D=3D=3D=3D
+
+Understanding how audits and auditors work is surprisingly useful knowledg=
+e if you work in a large organisation. This post covers tips for scoping a=
+udits so they have the most impact and what that means for collaboration a=
+nd automation.
+
+http://itrevolution.com/audit-101-for-devops-resource-guide-for-the-phoeni=
+x-project-part-3-correctly-scoping-it-using-gait-and-gait-r/
+
+
+A good talk (slides=2C video and a transcript) all about the inevitability=
+ of failure and why and how you should design your organisations and teams=
+ to deal with it.
+
+http://www.indecorous.com/fallible_humans/
+
+
+With the potential cost of even a minor outage in some organisations being=
+ so high=2C the fallout afterwards could result in someone losing their jo=
+b. Is this ever reasonable? And what other effects does that have on a tea=
+m trying to build a learning culture?
+
+http://asheepapart.blogspot.co.uk/2014/07/hey-dont-fire-that-guy.html
+
+
+Lots of opinions and recommendations exist for securing TLS configurations=
+ but this paper from Cornell is both bang up-to-date and goes into all the=
+ details. I=E2=80=99d like to include more papers=2C so if anyone comes ac=
+ross good ones let me know.
+
+http://arxiv.org/abs/1407.2168
+
+
+A good story of evolving an infrastructure=2C in this case mixing Chef wit=
+h AWS CloudFormation and a new tool called Cloudbank. Some interesting cod=
+e samples and ideas.
+
+https://www.simple.com/engineering/infrastructure-as-code
+
+
+A good slide deck on the evolution of a devops culture at Target. Lots of=
+ good numbers=2C along with tips for getting through the required change.=
+ Another of the great talks from Devopsdays Minneapolis.
+
+https://speakerdeck.com/hmmickman/devops-at-tgt
+
+
+One area that differs between Windows and Unix like environments is remote=
+ management. This Powershell module contains most of what you need to mana=
+ge systems over SSH from within Powershell=2C lots of cross platform manag=
+ement options here.
+
+http://www.powershellmagazine.com/2014/07/03/posh-ssh-open-source-ssh-powe=
+rshell-module/
+
+
+A good walkthrough of taking a fairly verbose Puppet manifest and using R1=
+0K to manage external dependencies and Hiera to better model the resulting=
+ infrastructure as data rather tha code.
+
+http://rnelson0.com/2014/07/21/hiera-r10k-and-the-end-of-manifests-as-we-k=
+now-them/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Clever is looking for a distributed systems engineer.  Clever is a 30-pers=
+on San Francisco startup that is building the data platform needed to get=
+ great software into the classroom.  We=E2=80=99re in 1 in 6 schools in Am=
+erica=2C and we sync data for 8 million students every day.  If you=E2=80=
+=99re passionate about improving education and excited to build on and con=
+tribute to bleeding-edge tools like Docker=2C Packer=2C Deis=2C Synapse=2C=
+ Heka=2C kubernetes=2C and Drone=2C we=E2=80=99d love to hear from you.
+
+https://clever.com/about/jobs#distributed-systems-engineer
+
+
+Tools
+=3D=3D=3D=3D
+
+Devstep is described as a development environment builder powered by Docke=
+r and buildpacks. The getting started docs give you a flavour of the workf=
+low and a list of the current buildpacks.
+
+https://github.com/fgrehm/devstep
+http://fgrehm.viewdocs.io/devstep
+
+
+Infrataster is another tool for writing unit tests for infrastructure. It=
+=E2=80=99s designed to complement serverspec=2C by focusing on running tes=
+ts from outside the virtual machine to test external interfaces like HTTP=
+ or SSH.
+
+https://speakerdeck.com/ryotarai/infrataster-infra-behavior-testing-framew=
+ork-number-oedo04
+http://infrataster.net/
+
+
+Uchiwa looks like a great addition to the Sensu monitoring framework. The=
+ screenshots give you an idea about it=E2=80=99s capabilities. It=E2=80=99=
+s also packaged as a docker container which I think is something we=E2=80=
+=99ll see more and more of.
+
+https://github.com/sensu/uchiwa
+
+
+Goiardi is a Chef server written in Go with the ability to run entirely in=
+ memory=2C with optional persistence saving the in-memory data to disk or=
+ using MySQL or Postgres. I=E2=80=99m not sure of the why in this case=2C=
+ but having open integration test suites make this an interesting possibil=
+ity.
+
+https://github.com/ctdk/goiardi
+
+
+Another log parsing tool=2C Petit has a number of impressive features from=
+ hashing=2C graphing and discovering important repeated items in log files=
+=2E
+
+http://crunchtools.com/software/petit/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

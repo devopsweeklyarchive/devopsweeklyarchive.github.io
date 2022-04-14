@@ -1,0 +1,135 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#212?=
+Date: Sun, 25 Jan 2015 11:54:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #212 - 25th January 2015
+
+Next week it=E2=80=99s FOSDEM in Brussels=2C and then on to Configuration=
+ Management Camp in Ghent. Hopefully I=E2=80=99ll see a few readers there.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+Sponsored event
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Technical Deep Dive: Prescriptive Topology Manager (PTM)
+Simplify Your Data Center Operations and Workflow
+
+Make sure your actual=2C physical cabling within a network matches a prede=
+fined plan. This technical deep dive will allow you the opportunity to fol=
+low along and learn. Think of it is a mini-introductory-talk-workshop kind=
+ of event.
+
+http://go.cumulusnetworks.com/devops-ptm
+
+
+News
+=3D=3D=3D=3D
+
+A nice experience report of using Logstash=2C ElasticSearch and Kibana. In=
+cludes details of scaling hardware as well as how the team became more dat=
+a driven. A nice example of how investment in logging can pay off.
+
+http://engineering.laterooms.com/elks-in-laterooms/
+
+
+I=E2=80=99ve also found luck with talking about devops in terms of risk=2C=
+ this next post makes the nice point that =E2=80=9Cthe essence behind the=
+ DevOps movements comes from the constant battle of balancing risk with pr=
+ocess=E2=80=9D.
+
+http://russell.ballestrini.net/risk-process-and-balance/
+
+
+The idea behind the recent App Container specification was for multiple co=
+mpatible runtimes. Jetpack is an attempt to build a FreeBSD based version=
+ using ZFS and Jails. This presentation explains why=2C how and the state=
+ of the project so far.
+
+https://speakerdeck.com/mpasternacki/jetpack-container-runtime-for-freebsd
+
+
+A light hearted retelling of the typical development vs operations story=
+=2C along with an introduction to devops and specific hints ideas to try f=
+or people working in large organisations.
+
+http://www.slideshare.net/aestasit/enterprise-flight-into-devops-space-for=
+-rigadevday-2015
+
+
+SQL always feels like something everyone knows and few people know well. T=
+his presentation shows the gains that can be had using database views and=
+ how to integrate them with your code.
+
+https://speakerdeck.com/robb1e/whos-afraid-of-database-views
+
+
+A nice detailed presentation about the performance of distributed systems=
+ in general and elasticsearch in particular. Lots of tips for anyone build=
+ing/running on the JVM in particular.
+
+https://speakerdeck.com/elasticsearch/maintaining-performance-in-distribut=
+ed-systems
+
+
+Expanding the conversation around devops to other disciplines has been a t=
+heme for a few years. This post makes some comparisons with the designers=
+ in your organisation and how some of the central devops tenets of culture=
+ and communication can lead to better design.
+
+http://www.wired.com/2015/01/is-devops-driving-the-future-of-ux-design/
+
+
+A nice step-by-step introduction to using Socketplane as a virtual network=
+ between containers. Shows both installation and some tricks when you=E2=
+=80=99re up and running.
+
+http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketpla=
+ne-io/
+
+
+A nice example of using Etcd to build a high availability system=2C in thi=
+s case PostgreSQL. It would be nice to see code examples=2C but the design=
+ approach is well explained.
+
+https://blog.compose.io/high-availability-for-postgresql-batteries-not-inc=
+luded/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+huptime is a clever utility to enable zero-downtime reloading of processes=
+=2C without modifying the application. It supports running under init syst=
+ems like upstart too.
+
+https://github.com/amscanne/huptime
+
+
+If you=E2=80=99re on Windows and prefer a bundled software over installing=
+ and managing lots of small pieces then Bills Kitchen might be for you. It=
+ provides Vagrant=2C Chef and a Ruby developent environment along with var=
+ious Vagrant plugins=2C the Putty SSH client=2C the SublimeText editor and=
+ more.
+
+https://github.com/tknerr/bills-kitchen
+
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

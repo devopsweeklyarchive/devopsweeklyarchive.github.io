@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#209?=
+Date: Sun, 4 Jan 2015 10:51:55 +0000
+
+DEVOPS WEEKLY
+ISSUE #209 - 4th January 2015
+
+The first issue of 2015 means we=E2=80=99re only a month away from FOSDEM=
+ and Configuration Management Camp in Belgium. If you=E2=80=99re going to=
+ be at either let me know.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A quick introduction and example of using boxstarter and chocolatey to aut=
+omate the setup of a Windows development environment.
+
+http://www.morethanseven.net/2015/01/02/automating-windows-development-env=
+ironments/
+
+
+One of my favourite topics=2C how to integrate security into modern operat=
+ions. This post covers four topics and presents a few areas for you to thi=
+nk about including rapid deployment and access to production systems.
+
+http://blog.threatstack.com/4-steps-to-effectively-integrate-devops-workfl=
+ows-with-cloud-security-practices
+
+
+A good set of awkward questions to ask as you build out a microservices ar=
+chitecture. Some great questions about enforcing conventions=2C monitoring=
+=2C reuse=2C API changes=2C etc.
+
+http://blog.oshineye.com/2015/01/awkward-microservices-questions.html
+
+
+An interesting writeup from a meetup in London all about the unified log.=
+ Some good pointers to software including Kafka=2C Samza and Luwak which c=
+an be used for data processing.
+
+http://www.flax.co.uk/blog/2014/12/05/searching-monitoring-the-unified-log=
+/
+
+
+It=E2=80=99s sometimes useful to understand exactly what you=E2=80=99re Li=
+nux machine is doing at a low level=2C enter systems calls. This post prov=
+ides a simple introduction=2C some code examples and a description of impo=
+rtant calls.
+
+http://sysdigcloud.com/fascinating-world-linux-system-calls/
+
+
+A good distributed systems primer covering how we got here=2C fallacies of=
+ distributed systems and some of the important concepts.
+
+http://www.bravenewgeek.com/from-mainframe-to-microservice-an-introduction=
+-to-distributed-systems/
+
+
+I=E2=80=99m a big fan of the nginx web server and proxy and this collectio=
+n of links covers lots of beginner and more advanced material for learning=
+ more about it.
+
+https://github.com/fcambus/nginx-resources
+
+
+A nice walk-though of using Test Kitchen to test Puppet code using the Tes=
+t Kitchen Docker support.
+
+http://blog.grubernaut.com/kitchen-magic/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+DeployDB is a tool for storing the state of deployments=2C and is designed=
+ to integrate with existing tools like Jenkins and RunDeck and actually do=
+ the deployment.
+
+http://hackers.lookout.com/deploydb/
+https://github.com/lookout/deploydb
+
+
+RFC Reader does exactly what you expect=2C it provides a nice web interfac=
+e for reading individual RFCs.
+
+http://www.rfcreader.com/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

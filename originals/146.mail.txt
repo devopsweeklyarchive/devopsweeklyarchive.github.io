@@ -1,0 +1,125 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#146?=
+Date: Sun, 20 Oct 2013 08:45:45 +0000
+
+DEVOPS WEEKLY
+ISSUE #146 - 20th October 2013
+
+Devops weekly now has over 8000 subscribers=2C with more signing up each w=
+eek and with more and more mainstream articles=2C whitepapers or conferenc=
+es talking about devops. But most of the best conversations are still at s=
+mall events=2C on personal blog posts or freely given away by engineers in=
+ large companies. I just want to say thank-you to that community of people=
+ publishing high quality content.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+A good story about one organisations problem to provision a new virtual ma=
+chine in less than 6 weeks. A common problem in some organisations=2C the=
+ post also has some realistic suggestions for how to fix problems like thi=
+s.
+
+http://kief.com/change-management-fail.html
+
+
+Setting up SSL=2C and importantly getting the configuration just right=2C=
+ can be tricky. This guide from Mozilla contains specific confirmation rec=
+ommendations and information about the different features and the risks th=
+ey mitigate.
+
+https://wiki.mozilla.org/Security/Server_Side_TLS
+
+
+An interesting addition to the branch by abstraction and feature toggle ap=
+proach to adding new functionality to a code base. Suggests an internal ve=
+rification process to check both paths work as expected.
+
+http://www.stephen-smith.co.uk/application-pattern-verify-branch-by-abstra=
+ction/
+
+
+Interesting presentation about how Rackspace are using Ansible to standard=
+ise various existing ad-hoc automation efforts and replace various existin=
+g shell script based solutions.
+
+http://www.slideshare.net/JesseKeating/ansiblefest-rax
+
+
+A good introduction to devops slide deck which focuses on the story of one=
+ particular project. The focus on sharing=2C interaction and culture looks=
+ great - I=E2=80=99ll look out for the video when it=E2=80=99s released.
+
+http://www.slideshare.net/thekua/devops-from-the-ground-up
+
+
+A solid reading list of books=2C blogs=2C videos=2C podcasts and conferenc=
+es on the subject of technical operations. A good starting point if you=E2=
+=80=99re just getting into the discipline.
+
+http://kovyrin.net/2013/09/23/techops-resources/
+
+
+An article about implementing continuous delivery. Makes good points about=
+ going from zero to a complete pipeline can seem daunting=2C but the indiv=
+idual small steps can add value quickly.
+
+http://www.drdobbs.com/architecture-and-design/continuous-delivery-the-fir=
+st-steps/240161356
+
+
+A nice technical comparison of the different approaches taken by Facebook=
+ and Twitter for building their internal analytics platforms. Good compari=
+son of a logging vs event driven approach.
+
+http://natishalom.typepad.com/nati_shaloms_blog/2013/10/facebooks-vs-twitt=
+ers-approach-to-real-time-analytics.html
+
+
+Tools
+=3D=3D=3D=3D
+
+PKGR had some nice updates last week that in my view make this potentially=
+ hugely useful. PKGR combines Heroku buildpacks and system packages to pro=
+vide a very nice interface for building system packages of your applicatio=
+ns.
+
+https://github.com/crohr/pkgr
+
+
+Ansible has a number of modules built-in which allow you to use it for man=
+aging virtual machines from various cloud providers. This project demonstr=
+ates a simple integration with Digital Ocean=2C creating an entire infrast=
+ructure from a simple YAML file.
+
+https://github.com/garethr/ansible-provisioner
+
+
+DNSYO is a little tool built to help keep track of DNS propagation. In sho=
+rt=2C it's nslookup=2C if nslookup queried over 1500 servers and collated=
+ their results.
+
+http://samarudge.github.io/dnsyo/
+
+
+Megaphone looks like an interesting little monitoring tool. It=E2=80=99s d=
+esigned to be run locally on all your machines=2C and provides a HTTP and=
+ JSON based interface to checks=2C which should make integration with othe=
+r tools easy.
+
+https://github.com/looprock/Megaphone
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

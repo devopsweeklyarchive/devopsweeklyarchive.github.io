@@ -1,0 +1,112 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#113?=
+Date: Sun, 3 Mar 2013 10:47:57 +0000
+
+DEVOPS WEEKLY
+ISSUE #113 - 3rd March 2013
+
+Conference season appears to have started in earnest again, which makes fi=
+nding good content that little bit easier. Quite a few presentations this=
+ week, and with lots more events coming up (see the excellent list compile=
+d by the folks from Melbourne in this issue) we can hopefully expect many=
+ more. If you see any good presentations be sure to let me know.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+The nice folks from Melbourne's devops meetup, infrastructure coders, have=
+ created a list of interesting devops events from all around the world. Th=
+ey are looking for pull requests to keep it up to date too.
+
+http://infrastructurecoders.com/events.html
+
+
+Presentation from the recent Scale conference all about logstash from the=
+ projects creator. Mainly a good introduction, but includes a great case s=
+tudy from Dreamhost about improving customer support using the power of lo=
+gs an dgood tooling.
+
+http://semicomplete.com/presentations/logstash-scale11x/
+
+
+Another Scale presentation, this one all about low level tools you can use=
+ to analyse the performance of linux. A rapid fire introduction to top, ht=
+op, iostat, free, ping, dstat, sar, strace, tcpdump, SystemTap, DTrace and=
+ many more. Available as both the slides and the video too.
+
+http://joyent.com/blog/linux-performance-analysis-and-tools-brendan-gregg-=
+s-talk-at-scale-11x
+
+
+Interesting article from Yahoo about how they are working on the processin=
+g of large datasets, and how in many cases mapreduce/hadoop/batch processi=
+ng don't cut it. Some interesting dicussion of using Strom for stream proc=
+essing alongside data in HDFS/HBase.
+
+http://developer.yahoo.com/blogs/ydn/posts/2013/02/storm-and-hadoop-conver=
+gence-of-big-data-and-low-latency-processing/
+
+
+Good post from Forrester about the problems with some private cloud roll-o=
+uts in large organisations. The points about putting users first make me h=
+appy.
+
+http://blogs.forrester.com/james_staten/13-02-25-why_your_enterprise_priva=
+te_cloud_is_failing
+
+
+Logging is important, but can involve more moving parts than it first appe=
+ars. This post covers quite a specific question, but the answer includes a=
+ wide range of handy information about file handles, pipes, log rotation a=
+nd more. Worth reading.
+
+http://nic.ferrier.me.uk/blog/2013_02/dear-nic-says-jim
+
+
+A presentation from last year all about infrastructure in startups, or rea=
+lly about any infrastructure in young projects in any organisation.
+
+http://www.paulhammond.org/2012/startup-infrastructure/slides/
+
+
+Tools
+=3D=3D=3D=3D
+
+Buildpacks are a fantastic way of extending Heroku (and soon Cloudfoundry)=
+=2E This one gives you your own personal ruby gems server, which might be of=
+ interest if you have private gems or you like that little bit of control.
+
+https://github.com/hashicorp/heroku-buildpack-rubygem-server
+
+
+Deliver looks an interesting (and very colourful) deployment tool based pu=
+rely around Git and bash. Not needing Ruby or Python or another programmin=
+g language appears to be it's main selling point but it's simplicity might=
+ be great for smaller projects or teams using different technologies.
+
+https://github.com/gerhard/deliver
+
+
+mcollective is incredibly powerful, but the different moving parts can mak=
+e trying it out tricky. This vagrant based demo is therefore hugely welcom=
+e. By default it fires up a 6 node cluster, all configured to use mcollect=
+ive and a range of plugins. The README then takes you through the differen=
+t capabilities.
+
+https://github.com/ripienaar/mcollective-vagrant
+
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

@@ -1,0 +1,167 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#123?=
+Date: Sun, 12 May 2013 12:28:10 +0000
+
+DEVOPS WEEKLY
+ISSUE #123 - 12th May 2013
+
+A glut of tools this week covering testing utilities, security configurati=
+ons, monitoring dashboards and cloud management tools. Also a special ment=
+ion for Test Kitchen which features in a few articles this week. With the=
+ merging of the 1.0 branch this is worth looking at now if you're a Chef u=
+ser or a particularly enthusiastic Puppet user with Puppet support coming=
+ soon. It's a great example of open source in action.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Devops State of the Union 2013 presentation from Devopsdays Austin. Digs i=
+nto the different tribes around company culture, with lots of examples and=
+ some good books to add to your reading list.
+
+http://www.slideshare.net/botchagalupe/sotu-austin2013-20335541
+
+
+Devops is often talked about in terms of bringing development best practic=
+e to infrastructure. This screencast covers using Chef, Berkshelf, Vagrant=
+ and Test Kitchen to do test driven development for a simple chef cookbook=
+=2E
+
+http://starkandwayne.com/articles/2013/05/07/tdd-your-devops-with-test-kit=
+chen/
+
+
+Assuming the above article has sold you on using Test Kitchen you might be=
+ thinking about another good development practice - continuous integration=
+=2E This next post covers setting Test Kitchen up with Jenkins to run your t=
+ests after each commit.
+
+http://jtimberman.housepub.org/blog/2013/05/08/test-kitchen-and-jenkins/
+
+
+Interesting article on the move towards distributed application design as=
+ more and more apps move to IaaS or PaaS platforms. Provides a set of good=
+ questions to ask yourself as well as a worked example of a image resizing=
+ service.
+
+http://queue.acm.org/detail.cfm?id=3D2482856
+
+
+O'Reilly continue with releasing free short ebooks (you just need to provi=
+de name and email address), this one is on The Human Side of Postmortems -=
+ Managing Stress and Cognitive Biases. Looks excellent.
+
+http://oreilly.com/radarreports/the-human-side-of-postmortems.csp
+
+
+Good detailed writeup of moving a development environment to one using Vag=
+rant. Some practical discussion of issues and trade-offs like whether to b=
+uild custom boxes and how to manage many services during development.
+
+http://blog.serverdensity.com/many-projects-with-vagrant-and-puppet/
+
+
+Especially in the Ruby world it's becoming quite common to bundle the runt=
+ime with the application. This post covers how to do that with JRuby and B=
+undler using jruby-complete. This makes even more sense when shipping to J=
+ava environments that are used to Jar and War based deployments.
+
+http://spin.atomicobject.com/2013/04/24/bundler-jruby-complete/
+
+
+I don't think I've included a "what is devops" post for a while and I do l=
+ike finding new ones. I think it's interesting seeing how people come to d=
+evops and how the attempts to define things change over time.
+
+http://www.glennposton.com/posts/what_is_devops
+
+
+Jobs
+=3D=3D=3D=3D
+
+7digital Ltd. is a leading digital media delivery company based in Shoredi=
+tch, London and operating globally. We=E2=80=99re small, fast, innovative=
+ and bursting at the seams with people passionate about music and technolo=
+gy. Half the organisation is made up of tech people (Devs, DBA, Systems et=
+c) and our CEO is a geek. We=E2=80=99ve got good at delivering our product=
+s and services at a fast pace in an iterative manner, but the faster we mo=
+ve the more apparent it is we need to be able to change our infrastructure=
+ just as quickly and reliably. We need a super-talented and enthusiastic W=
+eb Ops Engineer / Sys Admin who is keen to work in a highly collaborative=
+ manner to build a more robust, reliable and more highly automated platfor=
+m which can cope with scaling up to meet the ever increasing demand.
+
+http://about.7digital.com/jobs/
+
+
+At Songkick, every day we come to work excited to help music fans see thei=
+r favorite artists on tour. We=E2=80=99re looking for a systems engineer t=
+o add to our expertise in systems infrastructure and operational excellenc=
+e. You'd be joining our talented engineering team located in London, UK an=
+d enjoying perks such as stock options, a fridge full of food and a team o=
+f intelligent, witty colleagues.
+
+http://blog.songkick.com/job/systems-engineer/
+
+
+Tools
+=3D=3D=3D=3D
+
+If you're using Puppet and Red Hat then you need this module. It implement=
+s the Center for Internet Security (CIS) Security Configuration Benchmark.=
+ This makes lots of low level config changes which should improve the secu=
+rity of a base image.
+
+https://github.com/arildjensen/cis-puppet
+
+
+Performance testing web applications often ignores the impact of the clien=
+t, or at least doesn't involve this in automated testing. wbench aims to f=
+ix that, providing a command line tool that interacts with Chrome and prov=
+ides nice and useful output regarding browser performance.
+
+https://github.com/desktoppr/wbench
+
+
+Test Kitchen is fast becoming an essential tool for testing configuration=
+ management code. Guard Kitchen integrates Test Kitchen with Guard, which=
+ will automatically run your tests when things change.
+
+https://github.com/opscode/guard-kitchen
+
+
+If you're building Ruby applications you have to work quite hard to build=
+ good logging into applications. Logging4hackers is a project to improve t=
+hat, the README has lots of good patterns and sensible complaints about cu=
+rrent approaches.
+
+https://github.com/botanicus/logging4hackers
+
+
+Dusk is another dashboard for Graphite. This one is based on the cubism.js=
+ library and aims to highlight hotspots across a cluster.
+
+https://github.com/obfuscurity/dusk
+
+
+Overmind is an attempt to build a unified interface to various cloud provi=
+ders. It exposes a RESTful API built on top of libcloud and currently supp=
+orts EC2 and Rackspace.
+
+https://github.com/tobami/overmind
+
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

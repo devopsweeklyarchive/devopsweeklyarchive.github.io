@@ -1,0 +1,157 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#172?=
+Date: Sun, 20 Apr 2014 10:59:26 +0000
+
+DEVOPS WEEKLY
+ISSUE #172 - 20th April 2014
+
+Lots of content from this ChefConf this week=2C along with a nice run of p=
+osts about why having developers focus on customers is probably a good ide=
+a=2C even if it takes us away from just writing code all the time. If any=
+ readers are going to be at Craft in Budapest this week do say hello while=
+ I=E2=80=99m there.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+ChefConf
+=3D=3D=3D=3D=3D=3D=3D
+
+A presentation from ChefConf last week all about Berkshelf=2C and in parti=
+cular about why strongly opinionated workflow software is probably a good=
+ thing.
+
+http://www.slideshare.net/resetexistence/chef-conf2014
+
+
+Another presentation=2C this one focusing on general tips for testing dyna=
+mic systems. Presents 7 stages of testing from high level integration test=
+ing to unit testing configuration management code and resource starvation.
+
+https://speakerdeck.com/ranjibd/how-to-mock-a-mocking-bird-testing-dynamic=
+-infrastructure
+
+
+I=E2=80=99m a huge fan of Test Kitchen=2C especially with the new provisio=
+ners making it useful whatever tools you=E2=80=99re using. This presentati=
+on is both a good introduction and a look at new and upcoming features.
+
+https://speakerdeck.com/fnichol/chefconf-2014-test-kitchen-one-year-later-=
+and-the-future
+
+
+One more ChefConf presentation. This one shows how to extend the Chef code=
+ to add useful features that are likely specific to your infrastructure. E=
+xception handling=2C publish/subscribe systems and ohai plugins are all co=
+vered.
+
+http://www.slideshare.net/jonlives/chefconf-2014
+
+
+News
+=3D=3D=3D=3D
+
+An interesting post rather cheekily entitled How 'DevOps' is Killing the D=
+eveloper. It=E2=80=99s an interesting point but feel it misses the point.=
+ A bunch of the comments do a good job of explaining the misunderstanding
+http://jeffknupp.com/blog/2014/04/15/how-devops-is-killing-the-developer/
+
+
+The above post triggered a couple of worthwhile responses. This next post=
+ claims the opposite=2C a shift to thinking about operations is a move tow=
+ards thinking about customers rather than just thinking about code - which=
+ should be a good thing in nearly every case.
+
+http://www.paperplanes.de/2014/4/17/the-developer-is-dead.html
+
+
+Not exactly a direct follow up to the above post=2C but it highlights the=
+ issue that devops really isn=E2=80=99t all about startups as some people=
+ appear to think. Great advice for anyone looking to change a large organi=
+sation from the inside.
+
+http://major.io/2014/04/17/devops-and-enterprise-inertia/
+
+
+A presentation all about Conway=E2=80=99s Law and continuous delivery. If=
+ you=E2=80=99re only aware of Conway=E2=80=99s Law in passing this is a go=
+od introduction=2C and mapping it to the organisational change required fo=
+r continuous delivery to work is a nice idea.
+
+http://www.slideshare.net/allankellynet/conways-law-continuous-delivery
+
+
+More and more of the technical challenges larger organisations are facing=
+ are routed in distributed systems=2C so it=E2=80=99s worthwhile being fam=
+iliar with the background=2C terminology and past work. This online book a=
+ims to be an approachable introduction to the subject.
+
+http://book.mixu.net/distsys/
+
+
+Jobs
+=3D=3D=3D=3D
+
+Monetate is hiring a Sr Site Reliability Engineer and a Sr Software Engine=
+er - Development Tools to join the team. At Monetate=2C we write software=
+ that helps marketers identify and delight individual customers at scale.=
+ We drive tens of billions of experiences each month crafted to treat each=
+ person as an individual. We've built a great foundation=2C and we're only=
+ getting started.
+
+http://monetate.com/jobs/open-positions/
+
+
+Events
+=3D=3D=3D=3D=3D
+
+The first Cardiff Devops meetup is to be held on wednesday May 7th from 6:=
+30 PM at FounderHub. A chance to talk Continuous Delivery=2C Infrastructur=
+e Automation and Business Culture Change. More small local meetups are cro=
+pping up it seems.
+
+http://www.meetup.com/DevOps-Cardiff/events/177283472/
+
+
+Tools
+=3D=3D=3D=3D
+
+Microsoft continue a good run of form by shipping a Vagrant provider for A=
+zure. This could be the simplest way of testing on Windows from a non-Wind=
+ows host.
+
+https://github.com/MSOpenTech/vagrant-azure
+
+
+The Chef Development Kit was announced at ChefConf and provides a nice opi=
+nionated development environment for Chef. This should lower the barrier t=
+o entry=2C especially for those new to Chef and especially to Ruby.
+
+http://www.getchef.com/blog/2014/04/15/chef-development-kit/
+
+
+An interesting project announced at the recent RedHat Summit=2C Atomic is=
+ a stripped down Linux distribution designed to provide a solid base for r=
+unning Linux containers on top of. Lots of interest at the moment in diffe=
+rent models for the operating system.
+
+http://www.projectatomic.io/
+
+
+An interesting looking command line tool for managing virtual machines fro=
+m different providers. Currently only supports DigitalOcean but Linode and=
+ EC2 are on the way.
+
+https://github.com/andrewchilds/overcast
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

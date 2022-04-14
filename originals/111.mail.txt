@@ -1,0 +1,130 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#111?=
+Date: Sun, 17 Feb 2013 10:18:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #111 - 17th February 2013
+
+This community grew partly out of the first devopsdays event in Ghent. Loo=
+king at http://devopsdays.org/ now you'll see 14 events this year organise=
+d already, from Europe and the US all the way to Brazil, India, Tokyo and=
+ New Zealand. That's pretty impressive. Thanks to all the people involved=
+ in organising those events, hopefully their is a good cross over between=
+ attendees and readers of this newsletter.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Ever wanted to use the Vagrant workflow with something other than VirtualB=
+ox? Work has been ongoing to support multiple providers for a while, and c=
+ode and demos can be found with Vagrant working with VMWare Fusion. But th=
+is post, a demo of the upcoming 1.1 release, shows Vagrant working with EC=
+2. Ideal for those times when your local machine can't run all those virtu=
+al machines.
+
+http://www.hashicorp.com/blog/preview-vagrant-aws.html
+
+
+An article explaining why devops is needed, and predicting big inroads in=
+ traditional enterprises in 2013. The $440 million loss made by Knight Cap=
+ital because of using the incorrect version of network softare might just=
+ be the best example of why good configuration management matters.
+
+http://www.cmcrossroads.com/article/behaviorally-speaking-2013-predictions=
+-devops-and-it-operations
+
+
+If you ever wanted a handy review of lots of the current crop of NoSQL dat=
+abases then this post should come in useful. Good examples of common useca=
+ses as well as details of license, language, protocol and inner workings.
+
+http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+
+
+Good reminder that rapid application development needs to consider it's ap=
+proach to security, because doing it after the fact is probably too late.=
+ I particularly liked the point that with iterative development and modern=
+ technology "you risk generating a considerable amount of insecure code ve=
+ry quickly".
+
+http://www.wireharbor.com/2013/02/13/swift-development-cycles-dont-necessa=
+rily-mean-shoddy-security-outcomes/
+
+
+Good talk on the link between continuous integration and deploying code to=
+ production. Lots of good tips about build time, release frequency and bui=
+lding feedback into the build pipeline.
+
+http://www.infoq.com/presentations/Continuous-Integration-Songkick
+
+
+Chef is pretty flexible about how you accomplish your goals, which does me=
+an it's possible to do things in ways that might come back to bite you lat=
+er. This post covers a few of those anti-patterns, including forking commu=
+nity cookbooks and misuse of roles.
+
+http://dougireton.com/blog/2013/02/16/chef-cookbook-anti-patterns/
+
+
+Kafka, the distributed publish/subscribe middleware is getting a Intra-clu=
+ster Replication capability in the upcoming release. This post describes t=
+he details, but it's also a good read if you have an interest in the desig=
+n and trade-offs involved with building distributed, fault tolerant system=
+s.
+
+http://engineering.linkedin.com/kafka/intra-cluster-replication-apache-kaf=
+ka
+
+
+Another good read on distributed systems, this post covers a wealth of pra=
+ctical hard won wisdom aimed at people new to designing and developing dis=
+tributed systems. Well worth reading all the way through.
+
+http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-fo=
+r-young-bloods/
+
+
+Events
+=3D=3D=3D=3D=3D
+
+Lots more devopsdays events coming up around the world, leaving even fewer=
+ excuses to go along and meet interesting people. With Paris on 18th and 1=
+9th April, Berlin 27th and 28th of May and Sydney on July 12th and 13th. A=
+ll are open for registration and are looking for sponsors and talk proposa=
+ls.
+
+http://devopsdays.org/events/2013-berlin/
+http://devopsdays.org/events/2013-downunder/
+http://devopsdays.org/events/2013-paris/
+
+
+Tools
+=3D=3D=3D=3D
+
+GitHub have open sourced Boxen, the puppet based tool chain they use to ma=
+nage OSX based development machines. Lots of examples, insights into devel=
+opment at GitHub and good documentation to get started with.
+
+https://github.com/blog/1345-introducing-boxen
+
+
+Fatcache says it's memcached for SSDs. Memcached stores things in memory,=
+ which is great up until you have a huge amount of data and can't afford t=
+he RAM. Fatcache uses a similar approach but stores things on SSDs.
+
+https://github.com/twitter/fatcache
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

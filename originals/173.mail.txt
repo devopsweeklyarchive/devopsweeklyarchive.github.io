@@ -1,0 +1,135 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#173?=
+Date: Sun, 27 Apr 2014 09:19:01 +0000
+
+DEVOPS WEEKLY
+ISSUE #173 - 27th April 2014
+
+I=E2=80=99ve spent the last week on holiday in the lovely city of Budapest=
+ and at the Craft conference on software craftsmanship. Once the videos st=
+art coming out I=E2=80=99ll hopefully link to them as there was lots of gr=
+eat talks=2C and it was interesting to be at an event with very few operat=
+ions people for a change.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+A pretty complete walk through of lots of the moving parts in CoreOS=2C in=
+cluding using etcd and confd for configuration and using bringing up a clu=
+ster on EC2 using CloudFormation.
+
+http://marceldegraaf.net/2014/04/24/experimenting-with-coreos-confd-etcd-f=
+leet-and-cloudformation.html
+
+
+One of my favourite talks at the recent Craft conference was this one on S=
+oftware Craftsmanship. Lots worth taking to heart=2C from the importance o=
+f API design to learning from research in our area.
+
+https://speakerdeck.com/postwait/the-paradox-of-software-craftsmanship
+
+
+My own talk from Craft=2C on continuous integration for infrastructure. A=
+ set of patterns and tips for testing virtual machine images=2C automating=
+ load testing and writing acceptance tests for provisioning systems.
+
+https://speakerdeck.com/garethr/continuous-integration-for-infrastructure
+
+
+Lots of systems are now distributed=2C with lots of parts joined together=
+ by a network. This post does a good job of explaining why this is differe=
+nt to an application running on a single machine. Lots of hard won tips ai=
+med at people just getting started=2C but probably useful for everyone.
+
+http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-fo=
+r-young-bloods/
+
+
+An interesting idea to formalise a schema for metrics. The site contains a=
+ little of the how=2C along with a formal specification and links to a few=
+ existing tools.
+
+http://metrics20.org/
+
+
+Every wanted to learn SELinux but thought it looked complex? Well this nex=
+t link is for you. It=E2=80=99s  a colouring book which explains how SELin=
+ux works. Yes=2C really.
+
+https://github.com/mairin/selinux-coloring-book
+
+
+A nice simple example of making monitoring more usable by linking alerts t=
+o entries in a runbook. Usability tips and tricks like this are really use=
+ful.
+
+http://riltsken.github.io/devops/infrastructure/monitoring/2014/04/19/maki=
+ng-runbooks-more-useful-by-exposing-them-through-monitoring.html
+
+
+A call to stop using Jenkins and similar for continuous deployment pipelin=
+es. Although I agree with the sentiment I=E2=80=99ve yet to see anything m=
+assively better=2C at least in the open source space.
+
+http://www.cloudsidekick.com/blog/stretch-armstrong.html
+
+
+If you=E2=80=99re convincing Windows administrators and developers of the=
+ benefits of infrastructure tooling (or anything) it=E2=80=99s often usefu=
+l to have something from Microsoft to point to. This new site links to lot=
+s of Windows specific tutorials and software releases under the devops ban=
+ner.
+
+http://msopentech.com/blog/project-categories/devops/
+
+
+Here=E2=80=99s a nice example of using Ansible to orchestrate a zero-downt=
+ime deployment. Specifically we=E2=80=99re taking instances out of a load=
+ balancer=2C deploying our application=2C re-adding to the load balancer a=
+nd then moving on to the next one.
+
+http://developer.rackspace.com/blog/rolling-deployments-with-ansible-and-c=
+loud-load-balancers.html
+
+
+Events
+=3D=3D=3D=3D=3D
+
+If you=E2=80=99re interested in devops adoption in very large organisation=
+s you will likely find the Devops Enterprise Summit pretty interesting. Oc=
+tober 21st to 23rd in the San Francisco Bay area.
+
+http://www.devopsenterprisesummit.com/
+
+
+Tools
+=3D=3D=3D=3D
+
+There are a few tools cropping up recently that aim to make configuration=
+ of load balancers more dynamic. Frontrunner works with Marathon and Mesos=
+ only=2C but it=E2=80=99s an interesting way of configuring haproxy.
+
+https://github.com/Wizcorp/frontrunner
+
+
+As mentioned a few weeks ago the Go continuous delivery tool is now freely=
+ available=2C and as of this last week the source code is now open source.=
+ Will be interested to see if a community builds around this.
+
+https://github.com/gocd/gocd
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+

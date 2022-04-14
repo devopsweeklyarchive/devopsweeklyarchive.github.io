@@ -1,0 +1,138 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#125?=
+Date: Sun, 26 May 2013 07:25:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #125 - 26th May 2013
+
+A devops as a concept gets more widespread I'm coming across and increasin=
+g number of posts about company structure. These posts might be about look=
+ing at existing roles in a new light or talking about whole new ways of wo=
+rking. The devops community is certainly not short of ambition it seems.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+Last years QCon in San Francisco had a Continuous Delivery track which I w=
+as lucky enough to spend some time in. All the videos are now up and this=
+ post puts them al in one place. The talks are excellent, as the post says=
+ they "get out into public the secret sauce of high performing organizatio=
+ns" including Etsy, Google and Facebook.
+
+http://continuousdelivery.com/2013/05/videos-from-the-continuous-delivery-=
+track-at-qcon-sf-2012/
+
+
+I've acted as the product owner on a few projects at different times and i=
+t's a critical, difficult and alas sometimes missing role within teams. Th=
+is post is a great introduction to what being a product owner is all about=
+ and introduces it from the perspective of a devops minded organisation.
+
+http://nic.ferrier.me.uk/blog/2013_05/the-product-owner
+
+
+A video of a talk I gave at the last QCon conference in London, all about=
+ challenges to portability between different cloud environments and why do=
+ing this for complex systems is still hard.
+
+http://www.infoq.com/presentations/cloud-government-portability
+
+
+I'm not sure about the title of this post but the content is spot on. A go=
+od description of why a separate Devops team is just another silo and why=
+ that's probably a bad idea.
+
+http://diversity.net.nz/operations-is-dead-but-please-dont-replace-it-with=
+-devops/2013/05/15/
+
+
+A small free ebook (available in PDF, epub, mobi and on the web) all about=
+ the Riak datastore. It's very much focused on the basics but it looks lik=
+e a great place to get started with investigating Riak.
+
+http://littleriakbook.com/
+
+
+A good tale of statsd, netcat and some low level TCP debugging. If you're=
+ making use of the statsd management port this is definitely of interest b=
+ut for anyone else it's a good tale of investigating a problem and learnin=
+g about a tool in the process.
+
+http://www.philandstuff.com/2013/05/17/statsd-netcat.html
+
+
+A good walk through of using logstash to ship metrics to graphite. Goes fr=
+om first principals starting with stdin and stdout and works through using=
+ grok filters and getting information from proc and eventually outputting=
+ to graphite.
+
+http://devops.rackspace.com/using-logstash-to-push-metrics-to-graphite.htm=
+l#.UaGziUBDskc
+
+
+Jobs
+=3D=3D=3D=3D
+
+Shazam Entertainment is looking to fill a number of Service Engineering ro=
+les in our London HQ and Palo Alto office. We're looking for passionate in=
+dividuals who enjoy building and operating highly reliable services by wor=
+king closely with development to design and implement strong systems archi=
+tectures, CI methodologies, and insane amounts of monitoring. We also have=
+ a number of positions in our Infrastructure Operations team for those les=
+s interested in development and more interested in network engineering, bu=
+ilding and operating private clouds, and focusing on third party software.
+
+For more details or to apply send on your CV/Resume or LinkedIn profile to=
+ devops@shazamteam.com
+
+
+Events
+=3D=3D=3D=3D
+
+Cloudbau, as an official partner of Opscode, is delivering Chef Introducto=
+ry Workshop in Berlin on May 29th right after devopsdays Berlin. It's a on=
+e-day hands-on introduction to infrastructure automation with Chef.
+Readers of this newsletter can get a 20% discount by using the following l=
+ink:
+
+http://chef-berlin.eventbrite.de/?discount=3DDEVOPSWEEKLY
+
+
+FlowCon is all about continuous delivery, continuous design, and lean prod=
+uct development. It's being held in San Francisco on the 1st of November a=
+nd along with some excellent already announced speakers the conference has=
+ a call for proposals out until 23rd June.
+
+http://flowcon.org/flowcon-sanfran-2013/submit
+
+
+Tools
+=3D=3D=3D=3D
+
+A masterless puppet orchestration tool based around capistrano. Provides c=
+ommands for running in noop mode, checking syntax and applying manifests t=
+o nodes in different environments.
+
+https://github.com/pitluga/supply_drop
+
+
+An interesting looking tool to visualise deployments across different host=
+s, environments and time slots, in this case using the Puppi tool. The abo=
+ut page covers what's going on and how you can create your own dashboard.
+
+http://puppi-deployments.meteor.com/#browser
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

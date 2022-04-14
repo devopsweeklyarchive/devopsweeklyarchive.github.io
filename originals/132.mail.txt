@@ -1,0 +1,115 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#132?=
+Date: Sun, 14 Jul 2013 12:26:41 +0000
+
+DEVOPS WEEKLY
+ISSUE #132 - 14th July 2013
+
+Back from a busy few days at RAMP in Budapest talking about all things sca=
+ling and just in time to catch up with everything from Devops Down Under.=
+ Conference season in full swing it seems so expect lots of presentations=
+ for the next several issues. If you're at a great conference do let me kn=
+ow.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - launch cloud servers in mu=
+ltiple UK datacentres in seconds...
+
+http://brightbox.com
+
+
+News
+=3D=3D=3D=3D
+
+The keynote presentation from the recent RAMP conference in Budapest, Open=
+ source and the destruction of jurisdiction make scalability possible. A g=
+reat story of how and why we build scalable systems today and how that has=
+ changed in the last 10-15 years.
+
+http://prezi.com/s4rlp0rhus14/ramp-keynote/
+
+
+A presentation from last weeks Devops Down Under, entitled There is no Tal=
+ent Shortage. Lots to take in about organisational learning, high performa=
+nce teams and company culture.
+
+http://www.slideshare.net/littleidea/there-is-no-talent-shortage-devopsday=
+s-down-under-2013
+
+
+Another Devops Down Under presentation, this one all about cognitive biase=
+s. A great primer on this area of phycology as it pertains to operations c=
+ulture.
+
+https://speakerdeck.com/auxesis/the-devops-field-guide-to-cognitive-biases
+
+
+Nice blog post covering SSL configuration tips, including perfect forward=
+ security, content security policy and strict transport security.
+
+https://blog.serverdensity.com/how-to-secure-your-webapp/
+
+
+Another excellent chapter from the Architect of Open Source Applications b=
+ook, this one on the release engineering setup for the Firefox browser. Lo=
+ts of insights, and diagrams, of managing, testing and releasing source co=
+de.
+
+http://www.aosabook.org/en/ffreleng.html
+
+
+Tools like Graphite and Statsd have made collecting time series data incre=
+dibly easy. But getting useful information from individual metrics is ofte=
+n meaningless. This post explains why and how to take a more structured, q=
+uestion driven approach to using metrics.
+
+https://vividcortex.com/blog/2013/07/10/time-series-charts-considered-mean=
+ingless/
+
+
+Learning how to operate on the command line is a never ending journey of d=
+iscovery. This freely downloadable 537 page ebook should have something fo=
+r everyone.
+
+http://linuxcommand.org/tlcl.php
+
+
+Jobs
+=3D=3D=3D=3D
+
+Abcam is looking for a Web Operations Engineer to join our growing team to=
+ help build, maintain and automate our global ecommerce web infrastructure=
+=2E  The ideal candidate will have commercial experience working with web in=
+frastructure environments, puppet and powershell scripting in Windows Serv=
+er. In addition to competitive salaries, we offer an attractive flexible b=
+enefits package which includes share options. Apply to join our Cambridge=
+ Web Operations team today
+
+http://hire.jobvite.com/j/?cj=3DocfCXfwK&s=3DDevops_newsletter
+
+ps. table football and table tennis skills useful but not essential=E2=80=
+=A6
+
+
+Tools
+=3D=3D=3D=3D
+
+Amazon Cloud Formation is powerful but can result in some huge and unwield=
+y template files. Cumulus is a tool intended to make managing them easier,=
+ by introducing a layer above the raw Cloud Formation templates.
+
+https://github.com/cotdsa/cumulus
+
+
+Storm looks a nice way of managing SSH connection details. It basically gi=
+ves you a nice command line interface to managing your ssh config.
+
+http://emre.github.io/storm/
+
+
+If you received this email directly then you're already signed up, thanks!=
+ If however someone forwarded this email to you and you'd like to get it e=
+ach week then you can subscribe at http://devopsweekly.com
+

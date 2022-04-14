@@ -1,0 +1,149 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#183?=
+Date: Sun, 6 Jul 2014 13:05:13 +0000
+
+DEVOPS WEEKLY
+ISSUE #183 - 6th July 2014
+
+Two of the featured tools this week (Puppet Explorer and Tesera) reminded=
+ me just how far we=E2=80=99ve come in only a few years with really nice l=
+ooking user interfaces for operations tools. The long running thread on th=
+e Jenkins mailing list about user interfaces improvements also suggests we=
+=E2=80=99re starting to demand tools that prioritise design and user exper=
+ience as well as functionality.
+
+
+Sponsor
+=3D=3D=3D=3D=3D=3D
+
+Devops Weekly is sponsored by Brightbox Cloud - serious UK-based cloud inf=
+rastructure from only 1.5p per hour (=C2=A310.95/month)
+
+Start your =C2=A320 free trial now: http://brightbox.com/devopsweekly
+
+
+News
+=3D=3D=3D=3D
+
+One of my favourite talks at Devopsdays Silicon Valley=2C entitled How I L=
+earned to Stop Worrying and Love DevOps. A personal journey from being a (=
+self described) curmudgeonly sysadmin and BOFH to working in a developer c=
+entric startup.
+
+http://bridgetkromhout.com/speaking/2014/devopsdays-siliconvalley/
+
+
+Puppet=2C like most tools=2C is it=E2=80=99s own reference implementation=
+=2C which makes certain kinds of interoperability or tooling difficult to=
+ maintain. So this attempt to formalise the puppet language via a specific=
+ation is interesting for a number of reasons.
+
+https://github.com/puppetlabs/puppet-specifications
+
+
+A post from Chef all about the wider Chef open source community and how th=
+at intertwines with the company behind Chef. If you have an interest in op=
+en source governance or are using Chef definitely worth reading in full.
+
+http://www.getchef.com/blog/2014/07/03/chef-as-a-community/
+
+
+Results from the 2014 State of Devops survey in slide deck form. This pull=
+s out some of the most interesting findings=2C especially around high perf=
+ormance=2C and provides a bit of background to the methodology.
+
+http://www.slideshare.net/realgenekim/2014-state-of-devops-findings-veloci=
+ty-conference
+
+
+A nice collection of 10 common mistakes you can make when establishing an=
+ operations team. Incident management processes=2C monitoring=2C PaaS=2C l=
+ocal development environments=2C testing and more.
+
+http://blog.pagerduty.com/2014/06/10-common-ops-mistakes/
+
+
+A nice description of using in-memory hashes and zookeeper watches to impl=
+ement feature flags in a system. Includes a good discussion of the tradeof=
+fs from a redis based setup.
+
+http://yellerapp.com/posts/2014-05-14-zookeeper-feature-flags.html
+
+
+Netflix have released another member of the simian army=2C called Security=
+ Monkey. This one checks various attributes of IAM policies=2C S3 access p=
+olicies=2C security groups and more=2C as well as tracking how they change=
+ and evolve over time. The list of future additions is also a good startin=
+g point for ideas.
+
+http://techblog.netflix.com/2014/06/announcing-security-monkey-aws-securit=
+y.html
+
+
+A nice potted history of the Monitorama conference (although it misses out=
+ mentioning the event in Berlin). Particularly useful for lots of links to=
+ slides and other material mentioned at the last event in Portland.
+
+http://www.lowlevelmanager.com/2014/07/monitorama-conference.html
+
+
+Entertaining ignite talk entitled Deming to Devops=2C putting Devops in th=
+e context of scientific endeavour starting with Darwin. Touches on lean=2C=
+ theory of constraints and the photoelectric effect.
+
+http://www.youtube.com/watch?v=3DQcRWQIL5qus
+
+
+
+Jobs
+=3D=3D=3D=3D
+
+Lynda.com is seeking a Build & Release Engineer. This position can be loca=
+ted in Calabasas=2C San Francisco=2C or Seattle. The ideal candidate has e=
+xperience scripting automated processes for AWS=2C Linux and IIS. Take a l=
+ook at this exciting opportunity with a leader in online education.
+
+http://www.lynda.com/aboutus/careers/description/oQS6Yfww
+
+
+Equal Experts is a niche software consultancy based in London that deliver=
+s complex software  solutions to blue chip clients. We are recruiting the=
+ best and the brightest in the IT industry=2C technologists who want to wo=
+rk together to deliver the next generation of business applications. We cu=
+rrently have openings for both permanent and contract roles =E2=80=93 for=
+ Web Operations Consultants & Engineers who are passionate about working w=
+ith DevOps practices & principles.
+
+To apply http://tinyurl.com/k4cdolk or email ndavies@equalexperts.com for=
+ more information.
+
+
+Tools
+=3D=3D=3D=3D
+
+Tesera is yet another graphite frontend with a nifty way of separating the=
+ query from the visualisation=2C leading to some nice features. It looks g=
+orgeous too with multiple colour themes available.
+
+http://urbanairship.com/blog/2014/06/30/introducing-tessera-a-graphite-fro=
+ntend
+https://github.com/urbanairship/tessera
+
+
+Another lovely looking dashboard=2C Puppet Explorer is a frontend for Pupp=
+etDB. It=E2=80=99s intended to exploring Puppet resource and node informat=
+ion with nice visualisations and the powerful PuppetDB query language.
+
+https://github.com/spotify/puppetexplorer
+
+
+Toaster is another tool designed for testing infrastructure stacks. It mak=
+es use of LXC under the hood to provide isolated test environments and com=
+es bundled with a web interface to observe and manage test runs.
+
+https://github.com/whummer/toaster
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
