@@ -1,0 +1,92 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#590?=
+Date: Sun, 17 Apr 2022 08:26:53 +0000
+
+DEVOPS WEEKLY
+ISSUE #590 - 17th April 2022
+
+Several security themed posts this week=2C from OpenID Connect enabled CD=
+ pipelines to security architecture and vulnerability disclosure to WAF. P=
+lus good systems admin posts on networking and incidents.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Breathe Life deals with sensitive (and highly regulated) data every day=E2=
+=80=94 that's why they rely on StackHawk and Snyk to notify developers abo=
+ut security issues in proprietary code and open source dependencies. Learn=
+ how:
+
+https://sthwk.com/breathe-life
+
+
+News
+=3D=3D=3D=3D
+
+A walkthrough of a Terraform pipeline setup. Most interesting for the use=
+ of OpenID Connect to remove the need for persistent credentials for AWS.
+
+https://blog.symops.com/2022/04/14/terraform-pipeline-with-github-actions-=
+and-github-oidc-for-aws/
+
+
+Well written incident reports are always interesting. This one wanders thr=
+ough Kubernetes=2C gRPC=2C AWS networking and (of course) DNS.
+
+https://www.datadoghq.com/blog/engineering/grpc-dns-and-load-balancing-inc=
+ident/
+
+
+A look at scaling interconnectivity between a cloud environment and a loca=
+l data centre. Lots of good diagrams.
+
+https://postmarkapp.com/blog/increasing-postmarks-capacity-a-parable-of-pi=
+pes
+
+
+Proactively maintaining Prometheus=2C especially the underlying time serie=
+s database=2C is critical to performance at scale. This post covers how to=
+ drop and delete unneeded metrics.
+
+https://tanmay-bhat.medium.com/how-to-drop-and-delete-metrics-in-prometheu=
+s-7f5e6911fb33
+
+
+A detailed walkthrough of a recently disclosed (and fixed) vulnerability i=
+n AWS RDS. The general point here=2C about extensions and the trade off be=
+tween surface area and security is interesting more generally too.
+
+https://blog.lightspin.io/aws-rds-critical-security-vulnerability
+
+
+A post on scaling test infrastructure for a growing end-to-end test suite.
+
+https://lumigo.io/blog/build-cypress-tests-infrastructure-serverless-appli=
+cations/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Organization Formation is an infrastructure as code tool for AWS Organizat=
+ions=2C providing an abstraction and easier starting point than the low le=
+vel AWS APIs.
+
+https://bahr.dev/2022/02/07/org-formation/
+https://github.com/org-formation/org-formation-cli
+
+
+Curiefense is a web traffic security tool for Kubernetes. Providing a web=
+ application security layer=2C integrated with Envoy and Nginx.
+
+https://www.curiefense.io/
+https://github.com/curiefense/curiefense
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
