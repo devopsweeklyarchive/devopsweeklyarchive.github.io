@@ -1,0 +1,101 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#591?=
+Date: Sun, 24 Apr 2022 07:51:09 +0000
+
+DEVOPS WEEKLY
+ISSUE #591 - 24th April 2022
+
+Observability=2C DORA metrics=2C automating SLO management=2C setting poli=
+cies for Git repos and more. We=E2=80=99re also starting to see the return=
+ of events=2C with WTF is SRE back this coming week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Confused by the different types of security testing you can put in your pi=
+peline? You're not alone. Watch StackHawk Co-Founder Scott Gerlach break d=
+own the different types of tools you can use to automate API and Applicati=
+on Security testing.
+
+https://sthwk.com/moving-to-continuous-appsec
+
+
+News
+=3D=3D=3D=3D
+
+A super interesting post on SLO management at scale=2C using a Git reposit=
+ory as a system of record=2C defining an internal schema and then building=
+ tooling and a developer-friendly workflow around the results.
+
+https://engineering.salesforce.com/onboarding-slos-for-salesforce-services=
+-299b6cf2d8e8
+
+
+A discussion of using the DORA metrics to aid decision making in a large s=
+oftware organisation. Love seeing examples of the application of this work=
+ in the real world.
+
+https://jobs.libertymutualgroup.com/video-transcript-tomorrow-talks-episod=
+e-2/
+
+
+Need to instrument a JVM application? This post covers how to add observab=
+ility to a wide range of different languages and frameworks.
+
+https://openvalue.blog/posts/2022/03/17/observability_4_jvm_frameworks_wit=
+h_grafana_java_kotlin/
+
+
+I=E2=80=99d skip most of the meta naming conversation=2C but considering s=
+ecurity and security teams is an important part of adopting devops practic=
+es=2C and this post has lots of tips and observations about why that=E2=80=
+=99s so important.
+
+https://tanzu.vmware.com/content/blog/devops-vs-devsecops
+
+
+Another post in this interesting series=2C looking at systems reliability=
+ and what we can learn from space technology.
+
+https://flyingbarron.medium.com/gyros-and-gimbals-oh-my-the-james-webb-spa=
+ce-telescope-9741480266a
+
+
+When administering any software=2C it=E2=80=99s useful to have an interact=
+ive tool to help understand what=E2=80=99s happening. Nats-top is (unsurpr=
+isingly) top for Nats and this post shows why it=E2=80=99s useful for real=
+-time monitoring.
+
+https://dev.to/karanpratapsingh/real-time-monitoring-with-nats-top-2oph
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Container Solutions' WTF is SRE virtual conference is back next Thursday 2=
+8th April. The line-up is on fire with 40 speakers discussing everything D=
+evSecOps=2C Observability and Reliability. Among them: Charity Majors=2C A=
+lex Hidalgo=2C Holly Cummins=2C Andrew Martin=2C Jasmine Hex. Register for=
+ free today:
+
+https://bit.ly/3xNbVbT
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+I=E2=80=99m a big fan of Open Policy Agent=2C mainly because of the wide r=
+ange of use cases it can be applied to. Reposaur is a useful tool for writ=
+ing policy against GitHub repository metadata=2C with some handy built-in=
+ functions.
+
+https://github.com/reposaur/reposaur
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
