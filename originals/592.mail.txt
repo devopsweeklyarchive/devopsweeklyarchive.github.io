@@ -1,0 +1,97 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#592?=
+Date: Sun,  1 May 2022 08:47:59 +0000
+
+DEVOPS WEEKLY
+ISSUE #592 - 1st May 2022
+
+A few posts this week on aspects of building modern operations teams=2C on=
+e focused on observability teams=2C and the other on building an SRE team=
+ in a hypergrowth organisation. Plus posts on scaling dashboards=2C featur=
+e flag standards=2C development environments and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk's new Snyk Code integration is now live! Sign up for the webinar=
+ to see how you can use these tools to find=2C correlate=2C and fix applic=
+ation and API security issues quickly. Save your spot here:
+
+https://sthwk.com/Stackhawk-snyk-in-action
+
+
+News
+=3D=3D=3D=3D
+
+Observability is critical to scaling the larger and larger systems we=E2=
+=80=99re building=2C and dedicated teams are increasingly common in larger=
+ companies. This post covers why and the roles within those specialised te=
+ams.
+
+https://ericmustin.substack.com/p/notes-on-an-observability-team
+
+
+OpenFeature is a new effort to build an open standard for feature flag man=
+agement.
+
+https://openfeature.dev/
+
+
+A good post on the growth of an SRE team=2C from 5 people to a much larger=
+ organisation many years later=2C through some hard won lessons that will=
+ be familiar to anyone who=E2=80=99s been through similar growth.
+
+https://lethain.com/founding-uber-sre/
+
+
+A nice detailed post on evolving development environments=2C from local se=
+tups with Vagrant=2C then Docker=2C then Kubernetes to building a remote d=
+evelopment environment on top of Kubernetes.
+
+https://medium.com/pipedrive-engineering/say-hello-to-devboxes-fab125cd793=
+a
+
+
+Self-service dashboards are great=2C but you can end up with a long tail o=
+f unused dashboards over time. A discussion of managing dashboard sprawl u=
+sing GitOps.
+
+https://medium.com/riskified-technology/consistent-monitoring-the-gitops-w=
+ay-1d481e9965c9
+
+
+Described as =E2=80=9Cnmap but for pids=E2=80=9D=2C xpid is a handy system=
+s administration tool that can be useful for finding hidden pids and obser=
+ving eBPF operations.
+
+https://dev.to/kcdchennai/hunting-hidden-pids-ebpf-and-much-more-using-xpi=
+d-c0o
+
+
+A look at Kafka monitoring=2C focused on the importance of keeping an eye=
+ on consumer lag.
+
+https://sematext.com/blog/kafka-consumer-lag-offsets-monitoring/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+ssh no ports provides a way to ssh to a remote linux host/device without t=
+hat device having any open ports (not even 22) on external interfaces.
+
+https://github.com/atsign-foundation/sshnoports
+
+
+Fleet is a new Rust build tool. Nicely integrating several ecosystem tools=
+ to provide up to a 5x performance boost.
+
+https://github.com/dimensionhq/fleet
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
