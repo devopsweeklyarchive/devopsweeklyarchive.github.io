@@ -1,0 +1,101 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#593?=
+Date: Sun,  8 May 2022 07:38:39 +0000
+
+DEVOPS WEEKLY
+ISSUE #593 - 8th May 2022
+
+The rise of very public=2C in-depth=2C high-profile incident reports in th=
+e last few years is definitely of benefit to the art of systems administra=
+tion. Atlassian=E2=80=99s post is a great example=2C covering the recent m=
+ulti-week outage. Plus posts on organisation design=2C least privilege and=
+ some interesting tools for testing and Kubernetes management.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+ICYMI: The StackHawk & Snyk in Action webinar is up on YouTube. Follow alo=
+ng to see how your team can automate security testing in CI/CD using these=
+ integrated tools. Watch now:
+
+https://sthwk.com/snyk-in-action-yt
+
+
+News
+=3D=3D=3D=3D
+
+Atlassian had a large global outage last month. This in-depth indecent rep=
+ort goes into lots of interesting operational detail about the timeline=2C=
+ what happened and lessons learned.
+
+https://www.atlassian.com/engineering/post-incident-review-april-2022-outa=
+ge
+
+
+A great post on organisational design=2C and in particular dependencies am=
+ongst teams adopting more product-centric funding models.
+
+https://betterprogramming.pub/untangling-organizational-dependencies-c52c8=
+43bfaf1
+
+
+An interesting post on using monitoring of a local environment to inform i=
+mplementing least privilege AWS access control.
+
+https://blog.symops.com/2022/05/06/least-privilege-policies-from-aws-logs/
+
+
+Open source software is a large part of most systems administration effort=
+s today. This site recounts 30 years experience of maintaining a critical=
+ open source tool=2C Curl.
+
+https://un.curl.dev
+
+
+Some thoughts on software architecture=2C advocating for more local-first=
+ experiences=2C using the cloud mainly for storage=2C synchronising and bu=
+rst compute.
+
+https://docs.google.com/presentation/d/1YoM54KRkMptZV3K5Wg91C_H2RUrIGUhslx=
+F8iWRlWso/edit
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+SLOConf kicks off tomorrow=2C running from the 9th of May to the 12th. A f=
+ree=2C online event with a wide range of talks=2C from those focused on ge=
+tting started to more advanced topics.
+
+https://www.sloconf.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Korb is a handy tool for working with Kubernetes storage=2C specifically m=
+oving data from PVCs between StorageClasses or renaming them.
+
+https://github.com/BeryJu/korb
+
+
+Tracetest is a tool for writing end-to-end tests for microservice-based ap=
+plications=2C using OpenTelementry traces to speed up the test authoring.
+
+https://github.com/kubeshop/tracetest
+
+
+Otomi is a platform as a service layer built atop Kubernetes. The focus lo=
+oks to be on providing a visual management experience and it comes integra=
+ted out-of-the-box with Argo=2C Vault=2C Prometheus and lots more.
+
+https://github.com/redkubes/otomi-core
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
