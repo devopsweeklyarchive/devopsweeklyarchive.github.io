@@ -1,0 +1,109 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#594?=
+Date: Sun, 15 May 2022 09:55:50 +0000
+
+DEVOPS WEEKLY
+ISSUE #594 - 15th May 2022
+
+Observability and user-friendly git signing tools=2C plus useful principle=
+s for data migrations=2C configuration management and more this week. Enjo=
+y KubeCon EU everyone who=E2=80=99s going to be in Valencia this coming we=
+ek.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Want to make application and API security part of software delivery? Check=
+ out the StackHawk Daily Demo every weekday at 9 am PST! No sales=2C no sl=
+ides=2C just a technical demo.
+
+https://sthwk.com/DevOps-Daily-Demo
+
+
+News
+=3D=3D=3D=3D
+
+Data migration and schema changes in relational systems have a long histor=
+y=2C but the velocity of modern development makes historical approaches un=
+workable. This post has a nice set of principles to consider.
+
+https://planetscale.com/blog/the-operational-relational-schema-paradigm
+
+
+A case study of adopting team topologies and domain modelling approaches t=
+o move from component-based teams to product teams.
+
+https://www.infoq.com/articles/reduce-cognitive-load-devops-teams/
+
+
+Pulumi just added support for YAML as a first-class interface=2C which ope=
+ns up interesting opportunities for using anything that can generate JSON=
+=2C for instance HCL=2C CUE or=2C er=2C Perl or Fortran.
+
+https://leebriggs.co.uk/blog/2022/05/04/deploying-kubernetes-clusters-in-a=
+bsurd-languages
+
+It=E2=80=99s KubeCon EU this coming week. An interesting dashboard showing=
+ what=E2=80=99s being discussed.
+
+https://exploratory.io/dashboard/PQd2wHB2BZ/KubeCon-Dashboard-EMA-HZd4OIw8=
+yu
+
+
+Another YAML post=2C this one looking at evolving YAML management tooling=
+ for Kubernetes.
+
+https://matduggan.com/tips-for-making-kubernetes-yaml-less-annoying/
+
+
+The first of a series of posts looking at a big data architecture running=
+ on Kubernetes=2C with Trino=2C Superset and Ranger.
+
+https://medium.com/geekculture/trino-superset-and-ranger-on-kubernetes-wha=
+t-why-how-c963935fd402
+
+
+A good introduction to the problems solved by observability and distribute=
+d tracing.
+
+https://blog.techlanika.com/distributed-tracing-the-why-what-and-how-ab9ca=
+9e40081
+
+
+Jobs
+=3D=3D=3D=3D
+
+Close is building the sales communication platform of the future and we're=
+ looking for a Site Reliability Engineer to help us accomplish that goal.=
+ If you have a passion for databases (both SQL and NoSQL)=2C significant e=
+xperience building=2C managing=2C and monitoring infrastructure=2C databas=
+es=2C and backend services at scale and want to work with a rag-tag team o=
+f hardworking=2C but humble humans=2C then come check us out!
+
+https://bit.ly/close-sre
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Gitsign is a new tool that aims to make signing git commits easier=2C usin=
+g keyless signing powered by sigstore.
+
+https://github.com/sigstore/gitsign
+
+
+The o11y toolkit is a project to provide utilities for managing observabil=
+ity stacks. Oy-scrape-jitter is the first of these tools. It queries Prome=
+theus servers to find the jitter in scrape timestamp alignment.
+
+https://o11y.eu/blog/announcing-o11y-toolkit/
+https://github.com/o11ydev/oy-toolkit
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
