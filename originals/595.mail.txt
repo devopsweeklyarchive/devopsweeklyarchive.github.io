@@ -1,0 +1,115 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#595?=
+Date: Sun, 22 May 2022 11:09:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #595 - 22nd May 2022
+
+Something for everyone this week=2C with risk management=2C security matur=
+ity models and incident management posts on the business side=2C plus GitO=
+ps=2C GitBOM and grepping JSON on the technical side.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk raises $20.7 million in a Series B round! See how we plan to use=
+ this funding to ramp up product delivery and grow the StackHawk team.
+
+https://sthwk.com/Series-B-Announcement
+
+
+News
+=3D=3D=3D=3D
+
+A very interesting post on risk management=2C cyber security and how typic=
+al startup engineering org structures and incentives make this a thorny pr=
+oblem needing long term solutions.
+
+https://magoo.medium.com/lessons-learned-in-risk-measurement-c33b4de0f72e
+
+
+AWS has published a security maturity model. Covering 6 areas like Identit=
+y and Access=2C Response and Recovery and 4 levels of maturity.
+
+https://maturitymodel.security.aws.dev/en/model/
+
+
+A lighting talk from KubeCon all about GitBOM=2C which is a super interest=
+ing project =E2=80=8B=E2=80=8Bthat uses Git's DAG for Supply Chain Artifac=
+t Resolution.
+
+https://www.youtube.com/watch?v=3D2SSkNLWL4UM
+
+
+Application logs are still useful for lots of use cases. This post contain=
+s lots of good practices for adding logging to your application=2C from lo=
+g levels to avoiding sensitive data to verbosity.
+
+https://medium.com/@avithalker/application-logs-your-eyes-in-production-81=
+dd119d2a86
+
+
+Incident management is sometimes a bit of an afterthought=2C left as a tec=
+hnical implementation detail. This post makes the argument that good incid=
+ent management is increasingly a business advantage.
+
+https://firehydrant.com/blog/positive-business-outcomes-of-great-incident-=
+management/
+
+
+How does Kubernetes evolve? This KubeCon presentation looks at developer e=
+xperience=2C developer platforms and a control plane.
+
+https://www.slideshare.net/dbryant_uk/kubecon-eu-2022-from-kubernetes-to-p=
+aas-to-err-whats-next
+
+
+An argument that GitOps has to include drift detection.
+
+https://www.weave.works/blog/you-aren-t-doing-gitops-without-drift-detecti=
+on
+
+
+Jobs
+=3D=3D=3D=3D
+
+Close is building the sales communication platform of the future and we're=
+ looking for a Site Reliability Engineer to help us accomplish that goal.=
+ If you have a passion for databases (both SQL and NoSQL)=2C significant e=
+xperience building=2C managing=2C and monitoring infrastructure=2C databas=
+es=2C and backend services at scale and want to work with a rag-tag team o=
+f hardworking=2C but humble humans=2C then come check us out!
+
+https://bit.ly/close-sre
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Tetragon is a new open source eBPF-based security observability and runtim=
+e enforcement platform. The blog post nicely covers why eBBP opens up oppo=
+rtunities here vs other more traditional approaches.
+
+https://isovalent.com/blog/post/2022-05-16-tetragon
+https://github.com/cilium/tetragon
+
+
+atmos is both a library and a command-line tool for provisioning=2C managi=
+ng and orchestrating workflows across various toolchains. It=E2=80=99s in=
+ essence a high level UI for Terraform=2C Helm=2C kubectl=2C istio=2C AWS=
+ CDK and more=2C with lots of examples to help get started.
+
+https://github.com/cloudposse/atmos
+
+
+gron is a CLI tool that transforms JSON into discrete assignments to make=
+ it easier to grep for what you want and see the absolute 'path' to it.
+
+https://github.com/tomnomnom/gron
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
