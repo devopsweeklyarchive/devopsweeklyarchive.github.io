@@ -1,0 +1,94 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#596?=
+Date: Sun, 29 May 2022 10:40:52 +0000
+
+DEVOPS WEEKLY
+ISSUE #596 - 29th May 2022
+
+Incident management=2C several posts on kubernetes technology choices=2C w=
+riting Rego and KubeCon this week=2C plus the launch of the latest Acceler=
+ate State of Devops survey.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Find and fix security issues before production with developer-centric DAST=
+ and SAST testing that works together to identify high-priority=2C exploit=
+able vulnerabilities in your code.
+
+https://sthwk.com/snyk-integration
+
+
+News
+=3D=3D=3D=3D
+
+KubeCon EU wrapped up last week=2C and this post covers a selection of the=
+ talks=2C keynote sessions and breakouts=2C plus some of the wider issues=
+ around large scale tech events.
+
+https://loft.sh/blog/kubecon-valencia-2022-wrapup/
+
+
+The 2022 Accelerate State of DevOps survey is open now=2C with a focus thi=
+s year on security. It=E2=80=99s open until July 22nd if you have time to=
+ complete it.
+
+https://cloud.google.com/blog/products/devops-sre/take-the-2022-state-of-d=
+evops-survey
+
+
+Good incident management requires a team mentality. This post talks about=
+ how individuals can sometimes end up as too critical a piece=2C and how t=
+o fix hero culture.
+
+https://firehydrant.com/blog/time-for-sre-hero-to-pass-the-ball-and-how-to=
+-get-there/
+
+
+A handy style guide for anyone writing Rego=2C the language used by Open P=
+olicy Agent.
+
+https://github.com/StyraInc/rego-style-guide
+
+
+A short course=2C comprising 7 lessons=2C on practical observability. Look=
+s like a good introduction to the subject.
+
+https://academy.o11y.io/courses/practical-observability
+
+
+An overview of some of the options for monitoring Kubernetes.
+
+https://speedscale.com/2022/02/28/the-best-kubernetes-monitoring-tools/
+
+
+Ingress is a key part of Kubernetes. This post looks at several criteria f=
+or choosing the best ingress controller for your use case.
+
+https://traefik.io/blog/13-key-considerations-when-selecting-an-ingress-co=
+ntroller-for-kubernetes-d3e5d98ed8b7
+
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Immudb is an immutable key-value database with a SQL interface=2C tamperpr=
+oof data storage and data change history.
+
+https://github.com/codenotary/immudb
+
+
+kpt is a package-centric toolchain that enables a WYSIWYG configuration au=
+thoring=2C automation=2C and delivery experience=2C which simplifies manag=
+ing Kubernetes platforms. Interesting to see the focus on improved GUI too=
+ls=2C which are great for certain audiences.
+
+https://kpt.dev/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
