@@ -1,0 +1,80 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#597?=
+Date: Sun,  5 Jun 2022 09:22:27 +0000
+
+DEVOPS WEEKLY
+ISSUE #597 - 5th June 2022
+
+A short issue this week=2C with posts on Incident response=2C learning ope=
+rations=2C managing configuration=2C evolving altering systems and a few i=
+nteresting tools.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+The StackHawk team will be at CdCon in Austin this week! Stop by our booth=
+ (S4) to get some free StackHawk swag and see how our product automates se=
+curity testing in CI/CD.
+
+
+News
+=3D=3D=3D=3D
+
+Human error is often an easy solution to reach for when investigating an i=
+ncident. Too easy. This post encourages folks to discount human error as a=
+ forcing function for better post-incident conversations.
+
+https://surfingcomplexity.blog/2022/05/30/imagine-theres-no-human-error/
+
+
+One part of a growing team and a move towards service-based architecture i=
+s managing alerts. This post highlights some of the challenges and lessons=
+ learned.
+
+https://cherkaskyb.medium.com/my-big-fat-monolithic-alert-498f21c1bb8a
+
+
+Grafana now has first-class support for managing configuration in Git. Thi=
+s post explains why that=E2=80=99s useful and how to use it.
+
+https://dev.to/aws-builders/a-gitops-way-to-manage-grafana-data-sources-at=
+-scale-59la
+
+
+How do you get started operating a new service? That might be as a new mem=
+ber to a team=2C or some other situation that brings with it new operation=
+al responsibilities. This deck has some suggestions.
+
+https://speakerdeck.com/hgsgtk/a-guide-to-joining-operational-work-in-your=
+-new-devops-team
+
+
+A detailed post looking at Kubernetes liveness probes and how to implement=
+ health checks for your applications.
+
+https://www.containiq.com/post/kubernetes-liveness-probe
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Trdl is a way of providing a secure channel for delivering updates from th=
+e Git repository to the end user. It uses TUF (The Update Framework) under=
+ the hood.
+
+https://github.com/werf/trdl
+
+
+caddy-nats is a caddy module that allows the caddy server to interact with=
+ a NATS server. This extension supports multiple patterns: publish/subscri=
+be=2C fan in/out=2C and request reply.
+
+https://github.com/codegangsta/caddy-nats
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
