@@ -1,0 +1,92 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#598?=
+Date: Sun, 12 Jun 2022 10:29:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #598 - 12th June 2022
+
+Supply chain security=2C infrastructure automation=2C local vs remote deve=
+lopment environments and several new Kubernetes networking tools in this w=
+eeks issue.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Are you and your team thinking about making application security testing p=
+art of your pipeline? Join StackHawk's Scott Gerlach as he provides tactic=
+al guidance for how to help developers go faster=2C safer on June 22 at 10=
+ AM PT.
+
+https://sthwk.com/go-faster-safer
+
+
+News
+=3D=3D=3D=3D
+
+A detailed case study of adopting the SLSA framework for securing the soft=
+ware supply chain for a complex ecosystem. A good introduction to the doma=
+in and SLSA=2C plus implementation details.
+
+https://documentation.suse.com/sbp/server-linux/html/SBP-SLSA4/index.html
+
+
+There have been lots of improvements to remote development environments in=
+ the last few years=2C and this post advocates for taking the leap and mov=
+ing away from local development.
+
+https://dx.tips/the-end-of-localhost
+
+
+A post on fully automating the set up of Kafka clusters using Cruise Contr=
+ol=2C Kafka Manager=2C Chef=2C and Terraform.
+
+https://slack.engineering/building-self-driving-kafka-clusters-using-open-=
+source-components/
+
+
+An updated talk=2C and accompanying code=2C from the recent DockerCon prov=
+iding up-to-date in-depth details on building container images for Node.js=
+ projects.
+
+https://github.com/BretFisher/nodejs-rocks-in-docker
+
+
+A collection of talks from the recent KubeCon conference focused on monito=
+ring=2C including the new kubectl events command.
+
+https://grafana.com/blog/2022/06/03/whats-next-in-kubernetes-monitoring-pr=
+ometheus-histograms-observability-and-more-kubecon-eu-2022-in-review/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kilo is a multi-cloud network overlay built on WireGuard and designed for=
+ Kubernetes.
+
+https://github.com/squat/kilo
+
+
+Submariner provides cross-cluster L3 connectivity for Kubernetes. It allow=
+s for running component services on different clusters=2C with direct netw=
+orking between pods.
+
+https://submariner.io/
+https://github.com/submariner-io/
+
+
+DNS is endlessly more powerful (for good and bad) than people expect. DNS=
+ Toys is a great example of this=2C exposing IP=2C time=2C the weather=2C=
+ currency conversation and more over DNS.
+
+https://www.dns.toys/
+
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
