@@ -1,0 +1,86 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#599?=
+Date: Sun, 19 Jun 2022 10:00:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #599 - 19th June 2022
+
+Lots of tools this week=2C from Linux distributions specifically for Kuber=
+netes to tools for deploying in air-gapped environments. Plus posts on rel=
+iability engineering=2C enterprise cloud strategy and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Want to enable developers to find and fix security issues on their own? Tu=
+ne in on Wednesday=2C June 22 at 10 AM PT for tips on how to help develope=
+rs go faster=2C safer.
+
+https://sthwk.com/go-faster-safer
+
+
+News
+=3D=3D=3D=3D
+
+A post on designing for reliability=2C unknown unknowns and learning from=
+ the James Webb space telescope.
+
+https://flyingbarron.medium.com/known-unknowns-webb-struck-by-meteoroid-fd=
+e752dec87a
+
+
+More of a management post=2C from the CIO of a large enterprise discussing=
+ their evolving cloud strategy and open source adoption.
+
+https://www.protocol.com/enterprise/target-cio-mike-mcnamara-multicloud
+
+
+A talk from the recent GOTO Copenhagen conference on diagramming software=
+ architecture in code.
+
+https://www.youtube.com/watch?v=3DZa1-v4Zkq5E
+
+
+A timely post on debugging tools for containerd=2C as it becomes the defau=
+lt container runtime for Kubernetes.
+
+https://zendesk.engineering/debugging-containerd-a20f28a2a8bf
+
+
+A detailed breakdown of configuring and managing logs for RabbitMQ.
+
+https://sematext.com/blog/rabbitmq-logs/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Hoppr is a tool to help install applications in air-gapped environments=2C=
+ using an SBOM of components and some packaging tooling.
+
+https://lmco.gitlab.io/hoppr/hoppr/
+
+
+Network Service Mesh is a hybrid/multi-cloud IP service mesh that supports=
+ implementing zero trust L3 networks in Kubernetes.
+
+https://networkservicemesh.io/
+
+
+Takos is a Linux operating system specifically for Kubernetes. It=E2=80=99=
+s designed to be secure=2C immutable=2C and minimal.
+
+https://www.talos.dev/
+
+
+Robusta describes itself as Zapier/IFTTT for systems automation on Kuberne=
+tes=2C with a focus on a library of pre-built components.
+
+https://github.com/robusta-dev/robusta
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
