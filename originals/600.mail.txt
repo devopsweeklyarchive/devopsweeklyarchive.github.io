@@ -1,0 +1,92 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#600?=
+Date: Sun, 26 Jun 2022 11:03:35 +0000
+
+DEVOPS WEEKLY
+ISSUE #600 - 26th June 2022
+
+Welcome to the 600th issue of this newsletter! That=E2=80=99s certainly a=
+ strange thing to write=2C nearly 12 years of sharing posts and tools on t=
+he evolving world of operations and devops.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Calling all GraphQL enthusiasts! Join StackHawk Senior DevOps Engineer Zac=
+h Conger at HasuraCon on June 29 for a technical workshop on automating Gr=
+aphQL APIs from security issues with automated testing. Registration is fr=
+ee!
+
+https://sthwk.com/graphQL-security-testing
+
+
+News
+=3D=3D=3D=3D
+
+A new report on Devops and Cloud trends. Observations on eBPF and WASM=2C=
+ software supply chain security=2C low code=2C serverless and more.
+
+https://www.infoq.com/articles/devops-and-cloud-trends-2022/
+
+
+A post with tips for building out a devops team=2C considering skills=2C b=
+udgeting=2C organisational buy-in and more.
+
+https://devops.com/untapping-the-potential-of-devops-part-4-tips-for-launc=
+hing-a-devops-team/
+
+
+An argument that devops (or at least certain approaches to improving colla=
+boration between operations and developers) has failed.
+
+https://leebriggs.co.uk/blog/2022/06/21/devops-is-a-failure
+
+
+A post detailing the handy kubectl scale command line=2C which can be used=
+ to change the number of Kubernetes pod replicas.
+
+https://www.containiq.com/post/kubectl-scale
+
+
+A look at a Python DSL for drawing systems architecture diagrams=2C with b=
+uilt-in primitives for AWS=2C Azure=2C GCP=2C Kubernetes and more.
+
+https://diagrams.mingrammer.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+GitGat is a tool to help secure your GitHub configuration=2C using a set o=
+f Open Policy Agent policies that can make assertions against GitHub permi=
+ssions.
+
+https://github.com/scribe-public/gitgat
+https://scribesecurity.com/blog/evaluate-your-source-control-security-post=
+ure-with-gitgat
+
+Spin is an open source framework for building and running fast=2C secure=
+=2C and composable cloud microservices with WebAssembly
+https://github.com/fermyon/spin
+https://spin.fermyon.dev/
+
+
+Ratchet looks like a handy tool for improving the security of CI/CD workfl=
+ows by automating the process of pinning and unpinning upstream versions.=
+ It's like Bundler=2C Cargo=2C Go modules=2C NPM=2C Pip=2C or Yarn=2C but=
+ for CI/CD workflows.
+
+https://github.com/sethvargo/ratchet
+
+
+Keploy is an API testing platform that automatically generates test-cases=
+ and data-mocks from API calls.
+
+https://github.com/keploy/keploy
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
