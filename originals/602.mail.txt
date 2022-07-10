@@ -1,0 +1,103 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#602?=
+Date: Sun, 10 Jul 2022 09:41:01 +0000
+
+DEVOPS WEEKLY
+ISSUE #602 - 10th July 2022
+
+A bit of a theme this week of developer experience=2C with posts=2C talks=
+ and tools focused on developers as users=2C including for internal tools=
+ common in operations.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Want to add security testing to your pipeline? Attend the StackHawk Daily=
+ Demo every weekday at 9 am PT for a technical walk-through of the platfor=
+m and a live Q&A session.
+
+https://sthwk.com/DevOps-Daily-Demo
+
+
+News
+=3D=3D=3D=3D
+
+An inside look at one organisation=E2=80=99s move to a remote development=
+ environment. Some interesting observations and data on changing developer=
+ behaviour.
+
+https://slack.engineering/remote-development-at-slack/
+
+
+When building developer tools=2C whether as a software vendor=2C open sour=
+ce project or for internal teams=2C building trust in those tools and your=
+ ability to deliver is equality important. A great post on the subject.
+
+https://janairis.medium.com/are-you-building-developer-trust-87d428dd4a0d
+
+
+A talk on the importance of building developer platforms for the people wh=
+o will need to use them=2C rather than being led by the collection of tool=
+s that comprise the platform.
+
+https://www.youtube.com/watch?v=3DlDSMDJXmOps
+
+
+A reminder and introduction to the fallacies of distributed systems=2C whi=
+ch are increasingly important in popular modern architectures.
+
+https://architecturenotes.co/fallacies-of-distributed-systems/
+
+
+A post on information gathered from publicly exposed Kubernetes clusters=
+=2C and some tips on better securing clusters.
+
+https://raesene.github.io/blog/2022/07/03/lets-talk-about-kubernetes-on-th=
+e-internet/
+
+
+Good tips for mistakes to avoid in the very first stages of dealing with a=
+n incident.
+
+https://firehydrant.com/blog/3-mistakes-ive-made-at-the-beginning-of-an-in=
+cident-and-how-not-to-make-them/
+
+
+A look at approaches to minimising ransomware attack surface when using Am=
+azon S3.
+
+https://blog.symops.com/2022/07/07/prevent-ransomware-s3-object-lock
+
+
+A good introduction ebpf=2C with quick examples to help learn how it works=
+ to capture traffic.
+
+https://www.seekret.io/blog/a-practical-guide-to-capturing-production-traf=
+fic-with-ebpf/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Choria Application Builder looks an interesting tool for ops teams buried=
+ in ad hoc shell scripts and automation. It provides a way of building con=
+sistent user interfaces and abstractions over ever-changing tooling.
+
+https://choria-io.github.io/appbuilder/
+https://www.youtube.com/watch?v=3D-IUwoXEJK0c
+
+
+Bun is a new JavaScript runtime designed to be much faster than existing o=
+ptions. It also includes a built-in bundler=2C transpiler and package mana=
+ger.
+
+https://bun.sh/
+https://github.com/Jarred-Sumner/bun
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
