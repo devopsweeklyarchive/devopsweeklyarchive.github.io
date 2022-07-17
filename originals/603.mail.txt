@@ -1,0 +1,111 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#603?=
+Date: Sun, 17 Jul 2022 12:03:34 +0000
+
+DEVOPS WEEKLY
+ISSUE #602 - 17th July 2022
+
+A classic week where I wonder if there were enough interesting posts=2C be=
+fore diving into a wealth of interesting content. Operations=2C explaining=
+ SRE to management=2C high-level architecture for observability=2C infrast=
+ructure self-service and abstractions=2C databases and more this week. Enj=
+oy.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk=E2=80=99s new GitHub CodeQL integration helps teams deliver secu=
+re software faster by correlating DAST scans with CodeQL SAST findings and=
+ directing developers to the line of code where the issue lives. Learn mor=
+e here:
+
+https://sthwk.com/github-codeql
+
+
+News
+=3D=3D=3D=3D
+
+Still loving this series of posts on what we can learn about operations fr=
+om the James Webb space telescope. The latest post covering day 2 operatio=
+ns.
+
+https://flyingbarron.medium.com/day-2-operations-with-the-james-webb-space=
+-telescope-is-about-to-begin-44049577d382
+
+
+Whether it=E2=80=99s relevant to the CEO will depend on the organisation=
+=2C but a useful post on making the economic argument to managers for adop=
+ting SRE practices.
+
+https://www.nobl9.com/resources/how-to-explain-sre-to-your-ceo
+
+
+A look under the hood of one company's observability platform. Details of=
+ the original design goals and high level architecture.
+
+https://medium.com/workday-engineering/pharos-the-observability-platform-a=
+t-workday-a2c0355a9427
+
+
+Infrastructure self-service is often a question of the abstractions (or no=
+t) that you choose to provide to consumers. This post looks at an example=
+ of using Crossplane to implement such a system.
+
+https://www.innoq.com/en/articles/2022/07/infrastructure-self-service-with=
+-crossplane/
+
+
+In-person events are making a comeback=2C and it=E2=80=99s nice to see pos=
+ts like this covering some of the highlights. This post covers the recent=
+ Monitorama event=2C great to see it make a come back.
+
+https://observe-check-react.medium.com/monitorama-2022-what-an-amazing-exp=
+erience-9e58e84a91b3
+
+
+Some thoughts on moving beyond Git for version control. It definitely feel=
+s like a local maxima with Git. The consistency has had lots of benefits=
+=2C but it still feels like a space with untapped opportunities. Also=2C i=
+t mentioned DARCS which I loved.
+
+https://dev.to/yonkeltron/is-it-time-to-look-past-git-ah4
+
+
+Often understanding the basics of how something works=2C makes it easier t=
+o use. This handy post explains database indexes in just enough detail. Ex=
+amples for MySQL=2C but much more widely applicable.
+
+https://planetscale.com/blog/how-do-database-indexes-work
+
+
+A post covering everything to do with PostgreSQL logs. How to find them=2C=
+ what information they contain=2C types of logs and more.
+
+https://sematext.com/blog/postgresql-logs
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+OpenSLO is a specification for defining SLOs=2C intended to enable a commo=
+n=2C vendor=E2=80=93agnostic approach to tracking and interfacing with SLO=
+s. Interesting to see the Kubernetes API influence.
+
+https://github.com/OpenSLO/OpenSLO
+
+
+Salus is a new tool for generating an SBOM (software bill of materials). S=
+pecifically it supports SPDX 2.2 and has some interesting file hash capabi=
+lities. We=E2=80=99re seeing an explosion of tools like this recently.
+
+https://github.com/microsoft/sbom-tool
+https://devblogs.microsoft.com/engineering-at-microsoft/microsoft-open-sou=
+rces-salus-software-bill-of-materials-sbom-generation-tool/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
