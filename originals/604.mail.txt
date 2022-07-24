@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#604?=
+Date: Sun, 24 Jul 2022 12:55:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #604 - 24th July 2022
+
+Lots of topics this week=2C from technology learning materials to DNS=2C a=
+nd formal methods to alert design=2C plus several azure infrastructure man=
+agement tools.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk=E2=80=99s new GitHub CodeQL integration is live! Register for th=
+e webinar on August 16 to see how DAST & SAST work together.
+
+https://sthwk.com/github-codeql-webinar
+
+
+News
+=3D=3D=3D=3D
+
+High quality learning material is hugely useful given the large number of=
+ technologies relevant to modern software development and operations. This=
+ set of crash course posts on Docker=2C Kubernetes=2C AWS and Terraform lo=
+ok super useful for anyone just getting started.
+
+https://blog.gruntwork.io/the-docker-kubernetes-terraform-and-aws-crash-co=
+urse-series-dca343ba1274
+
+
+What=E2=80=99s the maximum size of a DNS response? If you thought the answ=
+er would be straightforward you=E2=80=99ve not dealt with DNS enough.
+
+https://www.netmeister.org/blog/dns-size.html
+
+
+Synchronisation in real-world distributed systems is a surprisingly comple=
+x problem. This post looks at an example=2C and how lightweight formal met=
+hods can be used to ensure correctness.
+
+https://jakub-m.github.io/2022/07/17/laport-clocks-formal.html
+
+
+An in-depth look at AzOps=2C a highly integrated approach to managing Azur=
+e infrastructure with out-of-the-box pipelines and tooling built-in. Inclu=
+des a good list pros and cons.
+
+https://www.singlestoneconsulting.com/blog/a-look-at-azops-for-azure-infra=
+structure-management/
+
+
+Designing good alerts is tricky=2C but important if you=E2=80=99re to make=
+ them useful and avoid alert fatigue. This post has some tips and discussi=
+on about improving alerts.
+
+https://medium.com/@tophatengblog/alerts-what-are-they-good-for-fe085e9ab4=
+db
+
+
+A post about the utility of checklists in software development teams.
+
+https://www.etsy.com/codeascraft/a-checklist-manifetsy
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A handy tool for bootstrapping the use of Terraform for an existing Azure=
+ environment. It generates Terraform code directly from existing Azure res=
+ources.
+
+https://github.com/Azure/aztfy
+
+
+KDL is a new document language with some interesting ideas. It=E2=80=99s i=
+ntended to be suitable as a serialisation format and as a configuration la=
+nguage.
+
+https://kdl.dev/
+
+
+Kubefire is a new tool for creating and managing Kubernetes clusters based=
+ on FireCracker microVMs.
+
+https://github.com/innobead/kubefire
+
+
+Carbon is an experimental successor language to C++. Basically designed fo=
+r anyone who can=E2=80=99t just move to Rust or other languages. Carbon is=
+ to C++ what TypeScript is to JavaScript.
+
+https://github.com/carbon-language/carbon-lang
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
