@@ -1,0 +1,95 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#605?=
+Date: Sun, 31 Jul 2022 08:11:45 +0000
+
+DEVOPS WEEKLY
+ISSUE #605 - 31st July 2022
+
+Debugging complexity=2C databases (both large and small)=2C keeping AWS ti=
+dy=2C Git at scale and more in-the-weeds posts this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Already working in GitHub? Check out a sneak preview of the StackHawk and=
+ GitHub CodeQL integration to see how your team can add automated security=
+ testing to their development workflow.
+
+https://sthwk.com/github-codeql-overview
+
+
+News
+=3D=3D=3D=3D
+
+A post on why SQLite is so great. Some notes on features in the latest rel=
+ease=2C along with lists of extensions and other distributions.
+
+https://i-programmer.info/news/84-database/15609-in-praise-of-sqlite.html
+
+
+Has debugging production systems become harder? This post says yes=2C and=
+ points to the increased architecture complexity.
+
+https://www.honeycomb.io/blog/why-intuitive-troubleshooting-stopped-workin=
+g/
+
+
+Libyear is an interesting idea for tracking dependency freshness. It=E2=80=
+=99s a single number that can be aggregated in different ways to make comp=
+arison easier.
+
+https://libyear.com/
+
+
+Git is the de facto choice for version control=2C and it=E2=80=99s used by=
+ everything from small projects with a single maintainer up to huge projec=
+ts like Kubernetes. This post looks at some of the challenges at Kubernete=
+s scale.
+
+https://matt-rickard.com/how-kubernetes-broke-git/
+
+
+Discussion of using stacked pull requests in Git. Keeping individual PRs s=
+mall=2C but chaining them with dependencies on each other. The post doesn=
+=E2=80=99t discuss this pattern in slower moving or more async environment=
+s though.
+
+https://benjamincongdon.me/blog/2022/07/17/In-Praise-of-Stacked-PRs/
+
+
+A post on the typical evolution of a startup=E2=80=99s architecture as it=
+ scales=2C with a focus on the database architecture as you deploy across=
+ multiple regions.
+
+https://www.cockroachlabs.com/blog/startup-reference-architecture/
+
+
+A brief introduction to some useful maths for understanding and making the=
+ most of monitoring systems.
+
+https://dejanualexandru.medium.com/the-mathematics-behind-monitoring-ddbd9=
+403c32c
+
+
+A project tracking the (incredibly rare) breaking changes in the AWS API.=
+ Most of these are deprecation and then removal of features=2C rather than=
+ just breaking the APIs=2C which is credit to AWS=E2=80=99s approach here.
+
+https://github.com/SummitRoute/aws_breaking_changes
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A handy utility to automatically cleanup an AWS environment based on time-=
+to-live and local configuration.
+
+https://github.com/servian/aws-auto-cleanup
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
