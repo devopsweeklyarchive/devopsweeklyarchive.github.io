@@ -1,0 +1,91 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#606?=
+Date: Sun,  7 Aug 2022 11:36:49 +0000
+
+DEVOPS WEEKLY
+ISSUE #606 - 7th August 2022
+
+Incident management=2C Kubernetes developer tools=2C organising developmen=
+t teams=2C multi-cloud adoption and more this week. A good mix of technica=
+l and wider topics too. Enjoy.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Already working in GitHub? Check out a sneak preview of the StackHawk and=
+ GitHub CodeQL integration to see how your team can add automated security=
+ testing to their development workflow.
+
+https://sthwk.com/github-codeql-overview
+
+
+News
+=3D=3D=3D=3D
+
+A nice write up of a development team reorganising based on adopting team=
+ topologies approaches.
+
+https://www.docker.com/blog/building-stronger-happier-engineering-teams-wi=
+th-team-topologies/
+
+
+An argument for not getting carried away with incident categorisation.
+
+https://jonstevenshall.medium.com/dont-overcategorise-incidents-e5f2751540=
+90
+
+
+A useful post on adopting sigstore incrementally for artifact signing if y=
+ou=E2=80=99re already signing your packages.
+
+https://blog.sigstore.dev/adopting-sigstore-incrementally-1b56a69b8c15
+
+
+A post on using Java for Lambda applications=2C correcting a few misconcep=
+tions and discussing throughout vs cold start.
+
+https://blog.symphonia.io/posts/2022-08-02_java_lambda_frenemies
+
+
+It=E2=80=99s easy with the adoption of cloud to forget about the physical=
+ machines under the hood=2C but those computers are a lot more powerful th=
+an 15 years ago. This post talks about when you should consider the underl=
+ying hardware=2C and discusses some of the perils of distributed systems.
+
+https://specbranch.com/posts/one-big-server/
+
+
+Hashicorps state of the cloud research contains lots of real-world data on=
+ cloud adoption=2C in particular on the reality of multi-cloud and cloud a=
+utomation.
+
+https://www.hashicorp.com/state-of-the-cloud
+
+
+Organisations have become much more confident with running databases on Ku=
+bernetes. This post walks through how to deploy PostgreSQL.
+
+https://www.containiq.com/post/deploy-postgres-on-kubernetes
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Acorn is a new application development framework for Kubernetes. It=E2=80=
+=99s focused on the packaging of applications=2C with a UX inspired by Doc=
+ker.
+
+https://acorn.io/
+
+
+Karmem is a fast binary serialization format that=E2=80=99s designed for w=
+eb assembly use cases=2C but useful elsewhere too.
+
+https://github.com/inkeliz/karmem
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
