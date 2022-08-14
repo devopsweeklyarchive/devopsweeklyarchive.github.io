@@ -1,0 +1,106 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#607?=
+Date: Sun, 14 Aug 2022 08:27:17 +0000
+
+DEVOPS WEEKLY
+ISSUE #607 - 14th August 2022
+
+Several long reads this week=2C and several posts with a bit of historical=
+ context; on Java=2C devops and CI services. Some excellent posts too on p=
+ractical operations topics; incident management with chat=2C delivery lead=
+ time metrics and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+The new StackHawk and GitHub CodeQL integration helps developers easily fi=
+nd=2C prioritize=2C and fix vulnerabilities every time they check in code!=
+ Tune into the webinar to see how it's done Tuesday=2C 16th August @ 10am=
+ PT.
+
+https://sthwk.com/github-codeql-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A post on using a delivery lead time metric in practice. Lots of theory ar=
+ound this topic=2C so very useful to see more practical content on how it=
+=E2=80=99s being implemented.
+
+https://isthisit.nz/posts/2022/delivery-lead-time-in-practice/
+
+
+A question I see lots of teams answer differently. Who should write Terraf=
+orm? Fundamentally this turns into a question of whether to centralise or=
+ distribute=2C via a quick devops history.
+
+https://zwischenzugs.com/2022/08/08/who-should-write-the-terraform/
+
+
+An excellent post=2C breaking down an incident related to Kubernetes healt=
+h checks=2C with some good takeaways.
+
+https://doordash.engineering/2022/08/09/how-to-handle-kubernetes-health-ch=
+ecks/
+
+
+How do you approach incident management when you have a highly distributed=
+ architecture and many teams? Many organisations I see reach for chat bots=
+ to facilitate collaboration=2C this post provides some nice details about=
+ one organisation's implementation.
+
+https://medium.com/airbnb-engineering/incident-management-ae863dc5d47f
+
+
+A look at Bun=2C a new JavaScript runtime aimed at replacing Node and with=
+ some impressive performance improvements.
+
+https://semaphoreci.com/blog/javascript-bun
+
+
+A useful overview of the history of continuous integration providers=2C pa=
+rt of a discussion about the cost of DIY.
+
+https://blog.symops.com/2022/08/10/pay-for-continuous-integration/
+
+
+Java is a hugely popular programming language and ecosystem=2C but why? Th=
+is post provides a great history as well as a look at some of the work goi=
+ng on to make Java better for even more use cases like native apps=2C micr=
+oservices and edge computing.
+
+https://github.com/readme/featured/java-programming-language
+
+
+A look at a modified version of Make that uses recent Kernel sandboxing ca=
+pabilities to implement strict dependency checking.
+
+https://justine.lol/make/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Tracetest is a trace-based testing tool that leverages the data captured b=
+y your existing Open Telemetry distributed traces to produce easy to creat=
+e=2C yet super powerful integration tests.
+
+https://github.com/kubeshop/tracetest
+https://tracetest.kubeshop.io/
+
+
+Another testing tool=2C Filibuster is a Service-level Fault Injection Test=
+ing tool. This is a technique for identifying resilience issues in microse=
+rvice-based applications in development=2C before code ships to production=
+=2E
+
+https://filibuster.cloud/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
