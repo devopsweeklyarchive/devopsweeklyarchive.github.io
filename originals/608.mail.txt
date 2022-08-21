@@ -1,0 +1,101 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#608?=
+Date: Sun, 21 Aug 2022 09:05:27 +0000
+
+DEVOPS WEEKLY
+ISSUE #608 - 21st August 2022
+
+Dashboards=2C performance analysis=2C circuit breakers=2C Kubernetes=2C Te=
+rraform and more this week=2C plus several tools from dependency managemen=
+t to security testing tools.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+August 22-24: StackHawk is teaming up with Snyk for a Live Hack Series on=
+ AWS! Watch the experts exploit real issues to learn how you can protect y=
+our applications from common vulnerabilities. Registration is free!
+
+https://sthwk.com/snyk-live-hack-series
+
+
+News
+=3D=3D=3D=3D
+
+A nice argument that the point of management dashboards is to act as a pro=
+of point that you really have data being gathered and processed.
+
+https://shkspr.mobi/blog/2022/08/the-point-of-a-dashboard-isnt-to-use-a-da=
+shboard/
+
+
+A strong proponent of large bare metal servers for many use cases coming t=
+o the conclusion that if you really do need a cluster of machines then Kub=
+ernetes is a good option.
+
+https://freeman.vc/notes/falling-for-kubernetes
+
+
+Cascading failures due to increasing scale are a tricky problem to solve.=
+ Fix one problem and you=E2=80=99ll probably find another right behind it.=
+ This post explores how circuit breakers can help.
+
+https://slack.engineering/circuit-breakers/
+
+
+An in-depth performance analysis post=2C on optimizing TCP for high WAN th=
+roughput while preserving low latency.
+
+https://blog.cloudflare.com/optimizing-tcp-for-high-throughput-and-low-lat=
+ency/
+
+
+Some good practical tips for making use of Kuberetes readiness and livenes=
+s probes.
+
+https://datree.io/resources/kubernetes-readiness-and-liveness-probes-best-=
+practices
+
+
+A good developer-focused introduction to Terraform.
+
+https://semaphoreci.com/blog/terraform
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Threatest is a Go framework for testing threat detection end-to-end. It al=
+lows you to easily define test scenarios where you detonate an attack tech=
+nique then expect an alert to have been created on an external platform.
+
+https://securitylabs.datadoghq.com/articles/threatest-end-to-end-testing-t=
+hreat-detection/
+https://github.com/DataDog/threatest
+
+
+A .NET Core global tool to display and update outdated NuGet packages in a=
+ project
+
+https://github.com/dotnet-outdated/dotnet-outdated
+
+
+Virt is a neat little project=2C providing a small Linux VM for macOS on A=
+RM=2C with podman installed for running containers.
+
+https://github.com/apinske/virt
+
+
+gProfiler is a system-wide profiler=2C combining multiple sampling profile=
+rs to produce unified visualization of what your CPU is spending time on.
+
+https://gprofiler.io
+https://github.com/Granulate/gprofiler
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
