@@ -1,0 +1,97 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#609?=
+Date: Sun, 28 Aug 2022 06:44:26 +0000
+
+DEVOPS WEEKLY
+ISSUE #609 - 28th August 2022
+
+Several interesting posts on Installation and packaging of software this w=
+eek. Building tools for installation and packaging is a common activity fo=
+r operations and platform teams everywhere I feel.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+ICYMI: The StackHawk & GitHub CodeQL Integration webinar is available on-d=
+emand! See how you can add automated security testing to your pipeline wit=
+hout throwing a wrench in your roadmap. Watch it here:
+
+https://sthwk.com/github-codeql-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A good discussion of scaling installers for complex software=2C in this ca=
+se moving from Helm to a custom installer written in Go.
+
+https://www.gitpod.io/blog/gitpod-installer
+
+
+Packagers play a hugely important but often hidden role. Here=E2=80=99s a=
+ nice behind the scenes look at building reproducible packages for Go soft=
+ware in Arch Linux.
+
+https://shibumi.dev/posts/day-in-the-life-of-a-package-maintainer-reproduc=
+ible-go-packages/
+
+
+A nice two part detailed series on cost optimisation for cloud infrastruct=
+ure. Everything from spot instances and processor choice to cloud provider=
+ tooling and more.
+
+https://automation.baldacchino.net/?p=3D1429
+https://automation.baldacchino.net/?p=3D1483
+
+
+More and more organisations are starting to use ML=2C which often comes wi=
+th a decent infrastructure footprint. This post covers how one organisatio=
+n ensure good observability for that ML infrastructure.
+
+https://www.etsy.com/codeascraft/towards-machine-learning-observability-at=
+-etsy
+
+
+A good post on the theory behind building a platform team and providing op=
+inionated platforms to scale development teams.
+
+https://www.syntasso.io/post/paving-golden-paths-on-multi-cluster-kubernet=
+es-part-1-the-theory
+
+
+A detailed set of posts on configuring AWS services=2C in this case how to=
+ create service credentials without exposing them to users.
+
+https://medium.com/cloud-security/creating-automation-credentials-without-=
+exposing-them-to-users-420fecd4856
+
+
+Still an occasional topic as SRE and Devops reaches a wider audience=2C is=
+ SRE just traditional operations with a new name (and does it matter?).
+
+https://metrist.io/blog/is-sre-just-ops-with-a-new-name/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+BindPlane OP is a new open source observability pipeline that gives you th=
+e ability to collect=2C refine=2C and ship metrics=2C logs=2C and traces t=
+o any destination.
+
+https://github.com/observIQ/bindplane-op
+
+
+One of the best things about Kubernetes is the ability to extend it via cu=
+stom resources. This repo collects together over 100 custom resources and=
+ there schemas.
+
+https://github.com/datreeio/CRDs-catalog
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
