@@ -1,0 +1,98 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#610?=
+Date: Sun,  4 Sep 2022 09:39:22 +0000
+
+DEVOPS WEEKLY
+ISSUE #610 - 4th September 2022
+
+A good mix of content this week on architecture=2C container build tools=
+=2C incident management and AWS Lambda this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Adding security testing to the development lifecycle means deploying to pr=
+oduction the right way the first time. Watch a StackHawk demo to see how y=
+ou can use automated testing to avoid roadmap disruptions and slowdowns.
+
+https://sthwk.com/watch-a-demo
+
+
+News
+=3D=3D=3D=3D
+
+A detailed post looking at applying Domain Driven Design principles to a r=
+eal-world Serverless architecture.
+
+https://leejamesgilmore.medium.com/serverless-domain-driven-design-6da44e1=
+51cfa
+
+
+Containers as more of an implementation detail is definitely how I think t=
+hings should work in many cases=2C so it=E2=80=99s nice to see first-class=
+ support for building and publishing container images for .NET application=
+s in the .NET SDK.
+
+https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support=
+-for-the-dotnet-sdk/
+
+
+An introduction to AWS Lambda function versions=2C with a simple example o=
+f publishing a stable and latest version of the function.
+
+https://nodogmablog.bryanhogan.net/2022/08/working-with-lambda-function-ve=
+rsions/
+
+
+SPF (Sender Policy Frameworks) helps with fighting email spam=2C but how d=
+oes it work? Or how is it meant to work and how is it actually implemented=
+?
+
+https://www.netmeister.org/blog/spf.html
+
+
+Most teams try to minimise the number of formal incidents. But this post l=
+ooks at the benefits of more lower severity incidents to a health incident=
+ management culture.
+
+https://thenewstack.io/running-more-low-severity-incidents-is-improving-ou=
+r-culture/
+
+
+In a cloud native environment the overlap between infrastructure=2C archit=
+ecture and code is an interesting one. This post looks at that overlap=2C=
+ with examples from AWS and CDK in particular.
+
+https://build.diligent.com/infrastructure-is-architecture-with-cdk-3678073=
+238d5
+
+
+A nic demo showing how to use the sigstore policy (admission) controller t=
+o verify keyless sigstore signatures.
+
+https://github.com/lukehinds/policy-controller-demo
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+An interactive debugger for Dockerfile=2C stepping through layer-by-layer=
+=2C along with integration with popular IDEs.
+
+https://github.com/ktock/buildg
+
+
+GitGat is a handy tool for ensuring your GitHub organisation is set up sec=
+urely=2C testing the things like key expiration=2C multi-factor authentica=
+tion and commit signing and enforcing secure configuration using Open Poli=
+cy Agent.
+
+https://github.com/scribe-public/gitgat
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
