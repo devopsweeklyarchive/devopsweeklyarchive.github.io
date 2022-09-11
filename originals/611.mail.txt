@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#611?=
+Date: Sun, 11 Sep 2022 08:50:34 +0000
+
+DEVOPS WEEKLY
+ISSUE #611 - 11th September 2022
+
+Distributed systems design=2C new programming languages=2C software supply=
+ chain maturity models=2C eBPF=2C on-call compensation. A range of differe=
+nt topics this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Upcoming Webinar: Deeper API Security Test Coverage. Learn how to configur=
+e API security testing using existing resources like Postman Collections=
+=2C Cypress Test Scripts=2C and other DevTools to test your API endpoints.=
+ No API specs required!
+
+https://sthwk.com/Deeper-API-Security-Testing
+
+
+News
+=3D=3D=3D=3D
+
+The Open Source Software (OSS) Secure Supply Chain (SSC) Framework provide=
+s a useful maturity model for consuming open source software securely.
+
+https://github.com/microsoft/oss-ssc-framework/blob/main/specification/fra=
+mework.md
+
+
+Designing distributed systems involves lots of aspects. This handy mindmap=
+ of system design concerns could be handy.
+
+https://medium.com/vedcraft/system-design-mind-map-for-building-distribute=
+d-systems-b20a4f6943d0
+
+
+A good example of the complexities inherent in modern software supply chai=
+ns. A small number of packages built with a dangerous compiler flag cause=
+ a potentially huge impact downstream.
+
+https://moyix.blogspot.com/2022/09/someones-been-messing-with-my-subnormal=
+s.html
+
+
+A post on establishing a culture of performance=2C by implementing continu=
+ous load testing. Good discussion of tools and people challenges=2C as wel=
+l as the safety concerns of automating load testing.
+
+https://slack.engineering/continuous-load-testing/
+
+
+eBPF is starting to power more and more interesting technologies. This pos=
+t is a a quick eBPF primer and set of links to learn more.
+
+https://redmonk.com/rstephens/2022/09/08/ebpf/
+
+
+A look at connecting Hashicorp Vault and Google CloudSQL using a custom Va=
+ult plugin.
+
+https://expel.com/blog/connect-hashicorp-vault-and-googles-cloudsql-databa=
+ses-new-plugin/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+CloudNativeCon US is coming up in Detroit in October=2C and this year ther=
+e will be a dedicated Cloud Native Policy Day for all things Open Policy A=
+gent. October 25th. Expect talks from end users and core maintainers.
+
+https://www.styra.com/cloud-native-policy-day-with-opa-2022/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Unison is a new programming language=2C with what looks like some interest=
+ing ideas.
+
+https://www.unison-lang.org/
+
+
+Another language=2C Malloy=2C this time intended as a modern replacement f=
+or SQL=2C introducing a semantic modelling layer atop the data. It also co=
+mpiles to SQL to make early adoption easier.
+
+https://carlineng.com/?postid=3Dmalloy-intro
+https://github.com/looker-open-source/malloy
+
+
+A handy free tool to help better surface on-call compensation information.=
+ Integrates with Pagerduty and Slack.
+
+https://incident.io/on-call/
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
