@@ -1,0 +1,86 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#612?=
+Date: Sun, 18 Sep 2022 10:06:40 +0000
+
+DEVOPS WEEKLY
+ISSUE #612 - 18th September 2022
+
+A short issue this week=2C but with some detailed case studies on workflow=
+ management with Argo=2C securing software pipelines with IaC and policy a=
+nd a modern monitoring stack amongst the posts.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Upcoming Webinar: Deeper API Security Test Coverage. Learn how to configur=
+e API security testing using existing resources like Postman Collections=
+=2C Cypress Test Scripts=2C and other DevTools to test your API endpoints.=
+ No API specs required!
+
+https://sthwk.com/Deeper-API-Security-Testing
+
+
+News
+=3D=3D=3D=3D
+
+A very interesting set of posts=2C looking at common questions around risk=
+ management security=2C viewed from the perspective of different audiences=
+ (CEOs/boards=2C CIO/CTOs=2C security teams and regulators).
+
+https://www.philvenables.com/post/crucial-questions-from-ceos-and-boards
+https://www.philvenables.com/post/crucial-questions-from-cios-and-ctos
+https://www.philvenables.com/post/crucial-questions-from-cisos-and-securit=
+y-teams
+https://www.philvenables.com/post/crucial-questions-from-governments-and-r=
+egulators
+
+
+A nice case study of solving a workflow management problem (backfilling da=
+ta) using Argo Workflows.
+
+https://medium.com/riskified-technology/k8s-workflow-management-for-softwa=
+re-developers-using-argo-workflows-1e5247d2c4a6
+
+
+A post looking at one advantage of infrastructure as code and standard com=
+ponents (in this case CI/CD and Tekton)=2C using Kyverno to apply policy t=
+o help secure the pipeline.
+
+https://nirmata.com/2022/08/25/protect-the-pipe-secure-ci-cd-pipelines-wit=
+h-a-policy-based-approach-using-tekton-and-kyverno/
+
+
+A look at one organisations monitoring stack=2C based around Prometheus=2C=
+ Thanos and Grafana.
+
+https://medium.com/ninjavan-tech/ninja-vans-monitoring-stack-3cba0139bf32
+
+
+A reminder that managing software dependencies is difficult=2C with some i=
+nformation on public jquery exposure
+
+https://public-exposure.inform.social/post/software-dependency/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+cachegrand is an open-source fast=2C scalable and modular key-value store=
+ designed from the ground up to take advantage of modern hardware.
+
+https://github.com/danielealbano/cachegrand
+
+
+jgrapht is a Java library (with Python bindings) which supports graph theo=
+ry data structures and algorithms.
+
+https://jgrapht.org/
+https://github.com/jgrapht/jgrapht
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
