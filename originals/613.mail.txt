@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#613?=
+Date: Sun, 25 Sep 2022 09:46:54 +0000
+
+DEVOPS WEEKLY
+ISSUE #613 - 25th September 2022
+
+Several posts on the topic of supply chain security this week=2C from crit=
+iques of published guidance=2C dependency security and interesting new too=
+ling to help with container supply chain concerns.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Adding security testing to the development lifecycle means deploying to pr=
+oduction the right way the first time. Watch a StackHawk demo to see how y=
+ou can use automated testing to avoid roadmap disruptions and slowdowns.
+
+https://sthwk.com/watch-a-demo
+
+
+News
+=3D=3D=3D=3D
+
+I=E2=80=99m a big fan of counter arguments. This post takes an opposing vi=
+ew of GitOps=2C but more generally explores a classic operations argument=
+ of push vs pull.
+
+https://thenewstack.io/does-the-gitops-emperor-have-no-clothes/
+
+
+Lots of talk of software supply chain security at the moment (and in this=
+ week=E2=80=99s newsletter)=2C but this post discusses where the supply ch=
+ain metaphor breaks down for open source software.
+
+https://iliana.fyi/blog/software-supply-chain/
+
+
+EC2 was one of the first AWS services=2C and there are now quite a few dif=
+ferent ways of managing access to an EC2 instance=2C as covered in this po=
+st.
+
+https://blog.symops.com/2022/09/22/ec2-access/
+
+
+A good look at dependency security challenges with GitHub Actions.
+
+https://devopsjournal.io/blog/2022/09/18/Analysing-the-GitHub-marketplace
+
+
+A large scale migration to a platform like Kubernetes is just the start. T=
+his post explores what came next for one large organisation=2C and some of=
+ the challenges
+
+https://medium.com/blablacar/be-lean-go-far-leveraging-kubernetes-for-an-e=
+lastic-right-sized-platform-bc1179c4c784
+
+
+A critique of a recent US Government publication on Securing the Software=
+ Supply Chain=2C aimed at developers. Security is important=2C but it=E2=
+=80=99s not the only important thing=2C and tensions between government an=
+d commercial interests are likely be become more of a theme I expect.
+
+https://swagitda.com/blog/posts/securing-the-supply-chain-of-nothing/
+
+
+A good reminder of the power of open source and community development=2C e=
+specially when it comes to low level infrastructure components like this e=
+xample.
+
+https://blog.gregor.com/adding-one-library-and-one-line-and-so-much-other-=
+work-140cdd9efaf4
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+WTF is Next for Developer Experience? Join this free virtual panel with Cr=
+ystal Hirschorn=2C Hannah Paine and Suhail Patel on Tue 27 Sept=2C 14:00 C=
+EST. And don't forget to bring your questions!
+
+https://bit.ly/3Sr99QX
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Wolfi is a new lightweight GNU software distribution=2C a Linux (un)distri=
+bution intended to solve supply chain security problems in container envir=
+onments.
+
+https://github.com/chainguard-dev/wolfi-os
+https://www.chainguard.dev/unchained/introducing-wolfi-the-first-linux-un-=
+distro
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
