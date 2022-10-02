@@ -1,0 +1,90 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#614?=
+Date: Sun,  2 Oct 2022 08:13:58 +0000
+
+DEVOPS WEEKLY
+ISSUE #614 - 2nd October 2022
+
+Logging formats=2C operations culture=2C private cloud and the latest Acce=
+lerate State of Devops report=2C plus tools for supply chain management=2C=
+ managing Git hooks and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Heading to Houston for DevOpsDays this week? Stop by the StackHawk booth t=
+o grab some legendary swag and enter the raffle for a pair of Apple AirPod=
+s Max!
+
+
+News
+=3D=3D=3D=3D
+
+Are logs for humans or machines? Or both? A post on creating human and mac=
+hine friendly log=2C with a proposed JSON-based log format.
+
+https://medium.com/@JaouherK/creating-a-human-and-machine-freindly-logging=
+-format-bb6d4bb01dca
+
+
+A post on distroless container images=2C what they are and why they are us=
+eful. I see lots of folks get surprised by this=2C so it=E2=80=99s useful=
+ to have a detailed blog post to reference.
+
+https://iximiuz.com/en/posts/containers-distroless-images/
+
+
+A discussion of the need for more people-centric operations=2C with some o=
+bservations from a recent survey and some concrete suggestions.
+
+https://medium.com/pareture/people-centric-software-operations-culture-933=
+059481af1
+
+
+There are all sorts of difficulties in building a private cloud. This post=
+ discusses some of the reasons you might need to=2C and problems you=E2=80=
+=99ll need to consider.
+
+https://adambenshmuel.medium.com/what-is-private-cloud-really-supposed-to-=
+look-like-148810a63c8e
+
+
+Some interesting findings from the 2022 Accelerate State of DevOps Report=
+=2C in particular around the adoption of security practices.
+
+https://cloud.google.com/blog/products/devops-sre/dora-2022-accelerate-sta=
+te-of-devops-report-now-out
+
+
+A look at building an ebpf based profiler=2C for static and dynamic langua=
+ges. Details on performance overhead. Start of an interesting series.
+
+https://www.containiq.com/post/building-an-ebpf-based-profiler
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Hookz is a handy tool for managing client-side git hooks using a configura=
+tion file.
+
+https://github.com/devops-kung-fu/hookz
+
+
+A Kubernetes operator that automatically tracks software packages in the c=
+ontainer images running in the cluster=2C and saves it to a variety of tar=
+gets=2C including DependencyTrack=2C Git and OCI registries.
+
+https://github.com/ckotzbauer/sbom-operator
+
+
+A very new low level container build tool focused on ubuntu packages.
+
+https://github.com/canonical/chisel
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
