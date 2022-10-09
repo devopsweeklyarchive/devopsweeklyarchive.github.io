@@ -1,0 +1,97 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#615?=
+Date: Sun,  9 Oct 2022 08:54:39 +0000
+
+DEVOPS WEEKLY
+ISSUE #615 - 9th October 2022
+
+A post on the emergence of platform engineering=2C which is also handily t=
+he topic of the latest State of Devops survey which opens this week. Plus=
+ a few monitoring posts this week=2C from large scale eBPF usage to open s=
+ource APM and observability tools.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk is hosting Office Hours this Tuesday=2C Oct. 11 at 10 AM PT. Joi=
+n in to see how teams can use existing devtools like Postman Collections a=
+nd Cypress Test Suites to start scanning without openAPI specs.
+
+https://sthwk.com/Deeper-API-Office-Hours
+
+
+News
+=3D=3D=3D=3D
+
+Large organisations are starting to realise some of the potential in eBPF=
+=2C with this detailed writeup of a powerful infrastructure observability=
+ system a good example.
+
+https://engineering.linkedin.com/blog/2022/skyfall--ebpf-agent-for-infrast=
+ructure-observability
+
+
+A post on the evolution of systems operations=2C and the emergence of plat=
+form engineering as distinct. Some thoughts on the differences between dif=
+ferent roles and models=2C and were we might be heading next.
+
+https://www.honeycomb.io/blog/future-ops-platform-engineering
+
+
+Some research into AWS security. Some good insights into the risks inheren=
+t with the complexity of IAM and the built-in metadata service.
+
+https://www.datadoghq.com/state-of-aws-security/
+
+
+Usage of open source software has been a key part of most devops teams=2C=
+ but contributing back is often harder. This post explains some of the ten=
+sion=2C and how one organisation approaches it.
+
+https://engineering.atspotify.com/2022/10/open-source-work-is-work/
+
+
+The 2022 State of Devops survey is open=2C and this year the focus is on p=
+latform engineering. Please take time to complete=2C and look out for the=
+ results.
+
+https://puppet.com/blog/take-the-2022-state-of-devops-survey-platform-engi=
+neering-edition
+
+
+An interview (audio and transcript) about the perils of estimates=2C and a=
+lternative approaches=2C and some thoughts on agile and the software indus=
+try as a whole.
+
+https://semaphoreci.com/blog/allen-holub-no-estimates
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Coroot is an interesting looking monitoring and troubleshooting tool for m=
+icroservice architectures. Some interesting usage of cloud metadata=2C ser=
+vice mapping=2C monitoring stack integration and more.
+
+https://github.com/coroot/coroot
+
+
+SigNoz is an open-source APM (Application Performance Monitoring) tool whi=
+ch supports metrics=2C traces and logs.
+
+https://github.com/signoz/signoz
+
+
+Kubernetes operators can require high level access to the cluster. Badrobo=
+t therefore looks like a handy tool. It statically analyses manifests for=
+ high risk configurations such as lack of security restrictions on the dep=
+loyed controller and the permissions of an associated clusterole.
+
+https://github.com/controlplaneio/badrobot
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
