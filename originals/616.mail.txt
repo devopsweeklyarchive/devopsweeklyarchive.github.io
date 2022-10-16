@@ -1,0 +1,108 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#616?=
+Date: Sun, 16 Oct 2022 09:16:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #616 - 16th October 2022
+
+Several posts on software supply chain security this week=2C from differen=
+t points of view. Plus some interesting new API tooling=2C the upcoming Ku=
+beCon event and discussion of proactive monitoring of highly distributed s=
+ystems.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Adding security testing to the development lifecycle means deploying to pr=
+oduction the right way the first time. Watch a StackHawk demo to see how y=
+ou can use automated testing to avoid roadmap disruptions and slowdowns.
+
+https://sthwk.com/watch-a-demo
+
+
+News
+=3D=3D=3D=3D
+
+A useful general audience summary of the software supply chain security ch=
+allenge.
+
+https://www.scmagazine.com/feature/devops/even-with-all-eyes-on-software-s=
+upply-chain-security-open-source-remains-a-neglected-target
+
+
+A nice short case study of adopting more proactive monitoring approaches=
+=2C in this case in a highly distributed system supporting many physical l=
+ocations.
+
+https://medium.com/mcdonalds-technical-blog/proactive-monitoring-the-why-w=
+hat-and-how-c280b117a835
+
+
+Conversations about operations=2C SRE or devops often come to discussions=
+ of centralised vs decentralised teams=2C of balancing experts vs generali=
+sts. This post has an excellent discussion on this topic with Don Reinerts=
+en.
+
+https://www.forrester.com/blogs/expertise-and-the-shared-services-problem-=
+a-conversation-with-don-reinertsen/
+
+
+A detailed paper on the tragedy of the digital commons; discussing the rel=
+iance on open source software=2C and the struggle to maintain hidden criti=
+cal infrastructure.
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3D4245266
+
+
+A podcast episode that raises an interesting point about the threat landsc=
+ape in software today vs 15 years ago and the nuance around the definition=
+ of a vulnerability.
+
+https://opensourcesecurity.io/2022/10/09/episode-344-python-tarfile-2022-i=
+s-nothing-like-2007/
+
+
+Devops means different things to different folks=2C but I think everyone w=
+ants to improve on the craft of operations. This post discusses the need t=
+o build a culture of candor. Getting a =E2=80=9Ctrue and honest signal whe=
+n things are going wrong=E2=80=9D applies to the software and people that=
+ make up complex systems.
+
+https://www.jasonacox.com/wordpress/archives/1331
+
+
+KubeCon is back=2C kicking off October 24th in Detroit. To whet your appet=
+ite=2C this dashboard highlights some of the most popular topics being dis=
+cussed ahead of the event. Will be interesting to see this grow over the n=
+ext few weeks.
+
+https://exploratory.io/dashboard/PQd2wHB2BZ/KubeCon-2022-Dashboard-by-EMA-=
+Research-Kry3NRI4nL
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kiota is a command line tool for generating an API client to call any Open=
+API described API you are interested in. The goal is to eliminate the need=
+ to take a dependency on a different API SDK for every API that you need t=
+o call
+
+https://microsoft.github.io/kiota
+https://github.com/microsoft/kiota
+
+
+Metlo is an open source API security platform. Endpoint discovery=2C detec=
+ting common HTTP issues (HSTS headers=2C PII in urls=2C etc.) and set up t=
+o run in CI if needed.
+
+https://github.com/metlo-labs/metlo
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
