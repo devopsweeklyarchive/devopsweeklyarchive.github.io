@@ -1,0 +1,104 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#617?=
+Date: Sun, 23 Oct 2022 08:21:12 +0000
+
+DEVOPS WEEKLY
+ISSUE #617 - 23rd October 2022
+
+API security=2C CI observability=2C auditing production access=2C kubernet=
+es logging=2C runtime analysis. Quite the range of topics this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Heading to Detroit for KubeCon this week? Stop by the StackHawk booth and=
+ enter the raffle for a pair of Apple AirPods Max!
+
+
+News
+=3D=3D=3D=3D
+
+A comprehensive post on API security=2C covering secure domain modelling=
+=2C signing and encrypting responses=2C validation=2C rate limiting=2C tra=
+nsport security=2C error handling=2C audit logs and more.
+
+https://medium.com/@trgoodwill/api-bites-securing-sensitive-api-s-bac6d51f=
+e233
+
+
+A nice case study of implementing policy-based continuous governance for I=
+nfrastructure as Code=2C using Open Policy Agent.
+
+https://thenewstack.io/how-doordash-governs-its-infrastructure-with-open-p=
+olicy-agent/
+
+
+A good post on CI pipeline observability=2C with 3 metrics to optimise whe=
+n trying to improve CI pipeline performance.
+
+https://www.runforesight.com/blog/3-metrics-to-optimize-continuous-integra=
+tion-pipelines
+
+
+A good introduction to using AWS Systems Manager Parameter Store with Terr=
+aform=2C allowing configuration to be shared with other tools easily and s=
+ecurely.
+
+https://www.davehall.com.au/blog/2022/10/19/tracking-infrastructure-with-s=
+sm-and-terraform/
+
+
+Who has access to production? Who should have access to production? This p=
+ost provides some advice on a method for doing a risk assessment. Some of=
+ this is specific to AWS and IAM=2C but much is applicable to any setup.
+
+https://blog.symops.com/2022/10/20/risk-assessment-aws-iam/
+
+
+The CFP is open for Monitorama 2023. The CFP deadline is February 3rd=2C s=
+o lots of time to think of talk ideas around the suggested topics includin=
+g benchmarking=2C monitoring maths=2C adoptability=2C underappreciated too=
+ling and more.
+
+https://blog.monitorama.com/cfp-open-for-pdx-2023-9bc1f73f51c4
+
+
+Kubernetes has lots of moving parts=2C and as a result lots of logs. This=
+ post is a nice primer on how to access those=2C looking at the kubectl lo=
+gs command=2C events=2C cluster logs and more.
+
+https://sematext.com/blog/tail-kubernetes-logs/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+AppMap is an open source runtime code analysis tool with support for Ruby=
+=2C Java=2C Python=2C Javascript. IDE integrations and some interesting re=
+cording=2C visualisation and organisation tooling.
+
+https://github.com/getappmap
+https://appmap.io/docs/appmap-overview.html
+
+
+Alpaquita Linux is a new Linux distribution that=E2=80=99s optimised for J=
+ava applications. It=E2=80=99s using the Alpine userspace=2C with various=
+ kernel and JVM optimisations.
+
+https://bell-sw.com/blog/bellsoft-introduces-alpaquita-linux/
+https://bell-sw.com/alpaquita-linux/
+
+
+Not a new project=2C but very cool nonetheless. Get granular AWS pricing i=
+nto your Google Sheets automatically=2C with spreadsheet functions to pull=
+ live pricing data.
+
+https://github.com/mheffner/aws-pricing
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
