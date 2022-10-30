@@ -1,0 +1,108 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#618?=
+Date: Sun, 30 Oct 2022 11:07:32 +0000
+
+DEVOPS WEEKLY
+ISSUE #618 - 30th October 2022
+
+Lots of tools this week=2C from performance caching to a whole new develop=
+er collaboration UX. Plus posts on incident management=2C Unix time=2C API=
+ security and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Adding security testing to the development lifecycle means deploying to pr=
+oduction the right way the first time. Watch a StackHawk demo to see how y=
+ou can use automated testing to avoid roadmap disruptions and slowdowns.
+
+https://sthwk.com/watch-a-demo
+
+
+News
+=3D=3D=3D=3D
+
+Everyone thinks time is relatively simple=2C until they have to deal with=
+ a computer. This post explores the Unix epoch=2C and the various implicat=
+ions of design decisions and implementation details.
+
+https://www.netmeister.org/blog/epoch.html
+
+
+A good technical post on a new=2C low level capability in Open POlicy Agen=
+t. An intermediate representation format that would allow for different pa=
+rallel implementations and likely some interesting tooling to be built.
+
+https://blog.openpolicyagent.org/i-have-a-plan-exploring-the-opa-intermedi=
+ate-representation-ir-format-7319cd94b37d
+
+
+Discussion of customer-reported incidents=2C trying to remove the stigma t=
+hat this is a failure=2C and the importance of building trusted customer r=
+elationships with good incident management practices.
+
+https://thenewstack.io/there-is-no-shame-in-customer-reported-incidents/
+
+
+A presentation from KubeCon all about providing virtual kubernetes cluster=
+s using vcluster. Discusses various interesting use cases.
+
+https://speakerdeck.com/richburroughs/virtual-kubernetes-clusters-tips-and=
+-tricks-rejekts
+
+
+A presentation that presents a good introduction to API security=2C with s=
+ome useful models and grouping of attack types.
+
+https://www.slideshare.net/mtesauro/black-and-blue-apis-attackers-and-defe=
+nders-view-of-api-vulnerabilities
+
+
+A post that touches on short and long term planning=2C incident management=
+ and the importance of psychological safety.
+
+https://medium.com/@ElizAyer/nobody-could-have-known-inclusive-behaviors-t=
+o-counter-a-culture-of-short-termism-cf662e1bab26
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Sturdy is billed as a version control platform that allows you to interact=
+ with your code at a higher abstraction level. It sits atop Git=2C but pro=
+vides a very different UX without all the pushing and pulling.
+
+https://github.com/sturdy-dev/sturdy
+
+
+cachegrand is a key-value store designed to take advantage of modern hardw=
+are=2C providing high performance and with compatibility with Redis as a d=
+rop-in replacement.
+
+https://thenewstack.io/cachegrand-a-fast-scalable-keystore-for-data-orient=
+ed-development/
+https://github.com/danielealbano/cachegrand
+
+
+Paralus is an all-in-one Kubernetes access manager. User-level credentials=
+=2C RBAC=2C SSO=2C audit logs. It enables controlled=2C audited access to=
+ Kubernetes infrastructure for your users=2C user groups=2C and services.
+
+https://github.com/paralus/paralus
+
+
+Murre is an on-demand=2C scaleable source of container resource metrics fo=
+r Kubernetes. It fetches CPU & memory resource metrics directly from the k=
+ubelet and enriches the resources with the relevant Kubernetes requests an=
+d limits from each PodSpec.
+
+https://www.groundcover.com/blog/murre
+https://github.com/groundcover-com/murre
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
