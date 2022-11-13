@@ -1,0 +1,111 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#619?=
+Date: Sun,  6 Nov 2022 08:43:11 +0000
+
+DEVOPS WEEKLY
+ISSUE #619 - 6th November 2022
+
+Several infrastructure as code posts and new tools this week=2C plus sever=
+al posts on this last week=E2=80=99s OpenSSL vulnerability disclosure and=
+ more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Upcoming Webinar: Security Testing in GitHub PR Workflows. Learn how to ad=
+d automated security testing to existing developer workflows as a standard=
+ pull request check=2C enabling teams to ship secure software faster.
+
+https://sthwk.com/GitHub-PR-Checks-Webinar
+
+
+News
+=3D=3D=3D=3D
+
+A post calling on people to =E2=80=9Cstop testing infrastructure as code=
+=E2=80=9D. The details are a bit more nuanced. It=E2=80=99s less about tes=
+ting the code itself=2C and more about conflating testing with other activ=
+ities around drift and application of IaC.
+
+https://medium.com/devoops-discourse/stop-testing-infrastructure-as-code-a=
+d0171c35b6f
+
+
+A post on maturing use of infrastructure as code=2C discussing how to stag=
+ger rollout across a Kafka cluster.
+
+https://medium.com/riskified-technology/how-to-roll-your-kafka-cluster-wit=
+h-zero-downtime-and-no-data-loss-770fd0a35971
+
+
+Persistent credentials for production access pose a risk=2C one that can b=
+e mitigated by just-in-time access provisioning.
+
+https://blog.symops.com/2022/10/28/just-in-time-access-least-privilege-clo=
+ud/
+
+
+A useful summary of last week=E2=80=99s OpenSSL vulnerability disclosure.=
+ Originally considered critical=2C this was downgraded at the time of rele=
+ase=2C but it=E2=80=99s still important to update if you=E2=80=99re using=
+ OpenSSL 3.x.
+
+https://www.darkreading.com/risk/disclosed-openssl-bugs-serious-not-critic=
+al
+
+
+Another post on the OpenSSL vulnerability=2C this one focused on how it oc=
+curred=2C and how to go about safe cryptography engineering.
+
+https://words.filippo.io/dispatches/openssl-punycode/
+
+
+Running haproxy? This post covers everything you wanted to know about conf=
+iguring and using haproxy logs.
+
+https://sematext.com/blog/haproxy-logs/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The WTF Team at Container Solutions are proud to present another free WTFi=
+nar: join internationally recognised product leader=2C author=2C and consu=
+ltant Matt LeMay to get world-class=2C pragmatic insights that will galvan=
+ise any product strategy you=E2=80=99re developing.
+Wednesday 16th November=2C 1pm GMT. Register here:
+
+https://bit.ly/3UmXtzB
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A couple of new open source tools=2C cnquery and cnspec. The first provide=
+ a query tool atop cloud infrastructure=2C handy for asset inventory. The=
+ second provides testing and policy based tools on top of that inventory.
+
+https://blog.mondoo.com/cnquery-cnspec
+https://github.com/mondoohq/cnquery
+https://github.com/mondoohq/cnspec
+
+
+Devtron is an integrated Kubernetes distribution which bundles Argo=2C Gra=
+fana=2C Helm=2C Keda=2C Prometheus and more=2C saving you the effort of in=
+tegrating yourself.
+
+https://github.com/devtron-labs/devtron
+
+
+A CLI utility for working with SBOM documents. An early project=2C with th=
+e initial set of tools mainly focused on extracting and using licence info=
+rmation from SBOM components=2C but with some more general plans ahead.
+
+https://github.com/IBM/sbom-utility
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
