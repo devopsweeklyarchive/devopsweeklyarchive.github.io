@@ -1,0 +1,97 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#620?=
+Date: Sun, 13 Nov 2022 09:06:37 +0000
+
+DEVOPS WEEKLY
+ISSUE #620 - 13th November 2022
+
+Building SRE teams=2C software transparency=2C Kubernetes and application=
+ portability=2C WASM=2C monitoring=2C graph databases and more. No real th=
+eme this week=2C just a wide range of interesting technical content.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+ICYMI: Security Testing in GitHub Workflows is available on-demand! Watch=
+ the recording to see how your team can add security testing to standard p=
+ull request workflows to keep product delivery on track and ship secure so=
+ftware faster!
+
+https://sthwk.com/GitHub-PRChecks-Webinar
+
+
+News
+=3D=3D=3D=3D
+
+A nice case study of building an SRE team. Notes on people and process as=
+ well as the usual SLOs and SLIs.
+
+https://engineering.reputation.com/building-a-resilient-sre-process-42e659=
+714743
+
+
+13 years and 437 devopsdays events later=2C is devopsdays still relevant?=
+ I=E2=80=99m biassed=2C but I don=E2=80=99t think there is anything quite=
+ like devopsdays=2C and the organisers do an amazing job.
+
+https://devopsdays.org/blog/2022/10/10/is-devopsdays-still-relevant/
+
+
+KubeCon was a few weeks ago=2C with lots of Kubernetes and Cloud Native se=
+ssions. This writeup summarises some of those nicely for anyone who couldn=
+=E2=80=99t make it.
+
+https://loft.sh/blog/kubecon-detroit-wrapup/
+
+
+Does Kubernetes allow for application portability? This detailed post incl=
+udes some examples that=2C within certain constraints=2C suggests not.
+
+https://medium.com/digital-mckinsey/does-kubernetes-really-give-you-multic=
+loud-portability-476270a0acc7
+
+
+A post coining the term software dark matter to describe software that=E2=
+=80=99s there=2C but unseen. Improving=2C and choosing to use=2C software=
+ toolchains that avoid this will be an important part of improving softwar=
+e transparency.
+
+https://www.chainguard.dev/unchained/software-dark-matter-is-the-enemy-of-=
+software-transparency
+
+
+More of an industry report than I generally include=2C but some interestin=
+g observations and stats in this research on the evolution of devops tools=
+/platforms.
+
+https://research.contrary.com/reports/evolution-of-devops
+
+
+Lots going on with Docker to lower the barrier to entry for WASM. This rep=
+o collects together lots of useful links for getting started.
+
+https://github.com/collabnix/wasm-docker-better-together
+
+
+A post on monitoring MongoDB. What metrics should you be monitoring? Plus=
+ how to get at that.
+
+https://sematext.com/blog/mongodb-monitoring/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Cozo is a general-purpose=2C transactional=2C relational database that use=
+s Datalog and focuses on graph data and algorithms. Simple to run=2C and w=
+ith bindings for Python=2C Java=2C Node=2C Rust and C.
+
+https://github.com/cozodb/cozo
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
