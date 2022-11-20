@@ -1,0 +1,83 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#621?=
+Date: Sun, 20 Nov 2022 09:53:55 +0000
+
+DEVOPS WEEKLY
+ISSUE #621 - 20th November 2022
+
+KubeCon=2C reproducible builds=2C internet infrastructure=2C low-level VM=
+ performance research and Kubernetes security posts this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Attending re:Invent? Join StackHawk and Snyk at the Code Faster. Safer. Ha=
+ppy Hour for a night of great food=2C conversation=2C limited edition swag=
+=2C and tasty Hawktails. Nov. 9=2C 6 PM-9 PM. Add yourself to the list!
+
+https://sthwk.com/reinvent-happy-hour
+
+
+News
+=3D=3D=3D=3D
+
+An in-depth summary of the recent KubeCon event in Detroit=2C with lots of=
+ links to topics discussed and presentations given.
+
+https://blog.getambassador.io/kubecon-na-2022-summary-maintainers-open-sta=
+ndards-and-the-rumoured-demise-of-devops-e4f12486263c
+
+More interesting posts on the infrastructure of the internet=2C this time=
+ looking at the diversity of authoritative NS records in gTLDs.
+
+https://www.netmeister.org/blog/nsauth-diversity.html
+
+
+Some observations from a survey on the state of Kubernetes open source sec=
+urity tooling and integration costs=2C with a full report downloadable too=
+=2E
+
+https://landing.armosec.io/state-of-kubernetes-open-source-security-2022
+
+
+Some OCAML specifics=2C but a good post on reproducible software tooling a=
+nd why it=E2=80=99s important for certain use cases.
+
+https://blog.osau.re/articles/reproducible.html
+
+
+A good overview of the state of performance research around VM warmup=2C w=
+ith good references and a review of recent research in the space.
+
+https://tratt.net/laurie/blog/2022/more_evidence_for_problems_in_vm_warmup=
+=2Ehtml
+
+
+One of the challenges with the size of AWS=2C especially for older service=
+s=2C is the optionality. One example is how best to manage access to RDS=
+=2C which this handy blog post covers in detail.
+
+https://blog.symops.com/2022/11/17/rds-access/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Katana is a new crawling and spidering framework with a handy CLI tool. Us=
+eful for all sorts of things.
+
+https://github.com/projectdiscovery/katana
+
+
+MergeStat enables SQL queries for data in git repositories (and related so=
+urces=2C such as the GitHub API). It allows you to ask questions about the=
+ history and contents of your source code.
+
+https://github.com/mergestat/mergestat
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
