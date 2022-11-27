@@ -1,0 +1,98 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#622?=
+Date: Sun, 27 Nov 2022 10:05:06 +0000
+
+DEVOPS WEEKLY
+ISSUE #622 - 27th November 2022
+
+WASM use cases=2C low level performance debugging=2C supply chain security=
+ concepts and several posts and tools for container development this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Come party with StackHawk and Snyk at re:Invent! RSVP for the Code Faster.=
+ Safer. Happy Hour or stop by booth #131 to learn how these speedy securit=
+y tools keep product delivery on track and the whole team happy
+
+https://sthwk.com/reinvent-happy-hour
+
+
+News
+=3D=3D=3D=3D
+
+Moving a CPU heavy service to a larger instance should result in better pe=
+rformance. How would you debug things if it didn=E2=80=99t? A good technic=
+al low-level blog post.
+
+https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-=
+threefold-performance-increase-2721924a2822
+
+
+A good use case post on WASM=2C highlighting two particular real world use=
+s of web assembly=2C for client/server consistency and multi-language plug=
+in architectures.
+
+https://blog.fiberplane.com/how-we-use-webassembly-at-fiberplane/
+
+
+A good introduction to the concept of VEX=2C an accompaniment to a softwar=
+e bill of materials that describes vulnerability exploitability.
+
+https://www.chainguard.dev/unchained/reflections-on-trusting-vex-or-when-h=
+umans-can-improve-sboms
+
+
+A good talk and full transcript of a talk on deterministic software releas=
+es=2C with a focus on serverless environments and Java applications and to=
+oling.
+
+https://www.infoq.com/presentations/releases-serverless/
+
+
+A four part series on getting started with open telemetry with Python. Cov=
+ers manual usage=2C auto-instrumentation and metrics collection.
+
+https://dev.to/ashokan/getting-started-with-opentelemetry-for-python-4882
+
+
+A nice architecture post on implementing a content ranking service and the=
+n developing that into a platform for wider usage.
+
+https://www.reddit.com/r/RedditEng/comments/z137m3/from_service_to_platfor=
+m_a_ranking_system_in_go/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Wazuh is an open source tool used for threat prevention=2C detection=2C an=
+d response. It is capable of protecting workloads across on-premises=2C vi=
+rtualized=2C containerized=2C and cloud-based environments.
+
+https://github.com/wazuh/wazuh
+
+
+Finch is a new container development tool=2C specifically it=E2=80=99s an=
+ integrated distribution of lower-level tools including containerd=2C nerd=
+ctl=2C BuildKit and Lima.
+
+https://aws.amazon.com/blogs/opensource/introducing-finch-an-open-source-c=
+lient-for-container-development/
+https://github.com/runfinch/finch
+
+
+cdebug looks like a handy tool for debugging running containers. Support f=
+or several container runtimes=2C and tools for running a shell=2C exportin=
+g filesystems and forwarding ports to localhost.
+
+https://iximiuz.ck.page/posts/container-tools-tips-and-tricks-issue-2
+https://github.com/iximiuz/cdebug
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
