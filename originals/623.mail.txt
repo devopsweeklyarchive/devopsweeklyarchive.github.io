@@ -1,0 +1,91 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#623?=
+Date: Sun,  4 Dec 2022 10:14:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #623 - 4th December 2022
+
+Several posts this week on platform engineering=2C which is certainly seei=
+ng a lot of interest at the moment with roles=2C new companies and changes=
+ to how we try and scale operations and developer experience.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Try automated security testing in CI/CD without connecting your own app or=
+ configuring an environment. Test a sample app in CI using GitHub Actions=
+ and follow guidance to triage and fix findings. Go on and give it a try!
+
+https://sthwk.com/tutorial
+
+
+News
+=3D=3D=3D=3D
+
+Good notes from the recent PlatformCon=2C with talks on definitions=2C pla=
+tform as a product=2C moving cognitive load around=2C levels of abstractio=
+n and more.
+
+https://thenewstack.io/what-we-learned-at-platformcon/
+
+
+A deep dive into supply chain security challenges with source code managem=
+ent systems=2C articulating many of the attack surface risks and what you=
+ can do to protect against them.
+
+https://medium.com/boostsecurity/slsa-dip-source-of-the-problem-a1dac46a97=
+6
+
+
+At the heart of several software challenges=2C whether configuration manag=
+ement or software supply chain security=2C is naming software components.=
+ This talk discusses this central problem.
+
+https://www.youtube.com/watch?v=3DBkKcnebUIPk
+
+
+Shifting culture and changing processes is hard and takes time=2C and devo=
+ps has always been about that movement. This halloween-flavoured post look=
+s at some particular challenges with vampires=2C ghosts and zombies.
+
+https://www.ergonautic.ly/blog/devops_de_los_muertos/
+
+
+Another discussion of the growth of platform teams and platform engineerin=
+g and what makes a great experience. Talk of customers=2C onboarding=2C sa=
+les and marketing=2C but applied to those internal developers you want to=
+ use your platform.
+
+https://www.youtube.com/watch?v=3Dg7j9JDOQoVk
+
+
+This last week was AWS re:Invent=2C AWS=E2=80=99s yearly announcement extr=
+avaganza. Lots of announcements=2C for existing and new services. Here=E2=
+=80=99s a long list of the top announcements.
+
+https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2022/
+
+
+A post on the data modernization aspect of digital transformation=2C and h=
+ow devops practices play an important role.
+
+https://www.red-gate.com/blog/database-devops/enabling-digital-transformat=
+ion-and-data-modernization-with-devops
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+One of the oft-quoted use cases for WebAssembly is plugins. Extism is a fr=
+amework for implementing a plugin system in your apps=2C making this much=
+ easier to do. Very interesting.
+
+https://github.com/extism/extism
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
