@@ -1,0 +1,89 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#624?=
+Date: Sun, 11 Dec 2022 09:39:33 +0000
+
+DEVOPS WEEKLY
+ISSUE #624 - 11th December 2022
+
+Devops metrics=2C observability in Kubernetes=2C SBOM politics=2C good old=
+ log management and secrets. Lots of variety this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Working with GraphQL APIs? Try StackHawk's Deeper GraphQL Security testing=
+ to build and release secure=2C reliable APIs without slowing down product=
+ delivery. Learn how it works:
+
+https://sthwk.com/Custom-Test-Data-GraphQL
+
+
+News
+=3D=3D=3D=3D
+
+A good set of common mistakes when determining useful metrics to use as pa=
+rt of continuous improvement. Information overload=2C activity bias=2C foc=
+using too much on tools and more good tips.
+
+https://octopus.com/blog/common-mistakes-devops-metrics
+
+
+A post on the evolution of devops practices=2C looking at platforms=2C the=
+ importance of business metrics=2C security and the continuing importance=
+ of culture.
+
+https://about.gitlab.com/blog/2022/10/31/a-snapshot-of-modern-devops-pract=
+ices-today/
+
+
+A look at the work done to bring observability to Kubernetes. Not only is=
+ this useful for those running Kubernetes clusters=2C it=E2=80=99s a good=
+ example of instrumenting a large complex project with OpenTelemetry.
+
+https://kubernetes.io/blog/2022/12/01/runtime-observability-opentelemetry/
+
+
+More of an industry news post. SBOMs standards are a low level piece of th=
+e software supply chain security=2C but tooling is still evolving and high=
+er level standards are still likely needed. A classic chicken and egg prob=
+lem.
+
+https://www.securityweek.com/big-tech-vendors-object-us-gov-sbom-mandate
+
+
+Probably more useful to those working on large enterprise transformation e=
+fforts=2C an open source maturity model from FINOS (a financial services g=
+roup).
+
+https://survey.osmm.finos.org/551476
+
+
+Managing Ubuntu? This post covers everything you wanted to know about ubun=
+tu logs. Different types of logs=2C where they are stored on disk=2C log r=
+otation=2C tools for viewing and more.
+
+https://sematext.com/blog/ubuntu-logs/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Conceal is a new tool that aims to provide a secure way of using passwords=
+ from password managers with local CLI tools.
+
+https://github.com/mostafahussein/conceal
+https://mostafahussein.github.io/projects/conceal/
+
+
+Cdxgen is another tool for building a software bill of materials=2C in thi=
+s case in CycloneDX format and with support for a variety of ecosystems an=
+d package managers.
+
+https://github.com/AppThreat/cdxgen
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
