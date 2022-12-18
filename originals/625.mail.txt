@@ -1,0 +1,83 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#625?=
+Date: Sun, 18 Dec 2022 09:16:02 +0000
+
+DEVOPS WEEKLY
+ISSUE #625 - 18th December 2022
+
+Incident management=2C cloud complexity=2C open telemetry adoption as well=
+ as a few handy utilities this week. For those starting a holiday this wee=
+k=2C I hope your on-call shifts are quiet.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Wanna build secure=2C reliable GraphQL APIs without slowing down product d=
+elivery? StackHawk's Deeper GraphQL Security Testing has got you covered!=
+ Get the inside scoop and learn how to cut through complexities- fast. Reg=
+ister for the webinar:
+
+https://sthwk.com/Custom-Test-Data-GraphQL
+
+
+News
+=3D=3D=3D=3D
+
+A new report analysing 50=2C000 anonymised incidents=2C with interesting a=
+ggregate data and observations around the use of service catalogues and de=
+fined incident roles on recovery time.
+
+https://firehydrant.com/reports/incident-benchmarks/
+
+
+Do you secure internal traffic with certificates from let=E2=80=99s encryp=
+t or a public CA? This post discusses why that=E2=80=99s not a great idea=
+=2C and what you can do instead.
+
+https://smallstep.com/blog/reasons-not-to-use-public-certificate-authoriti=
+es/
+
+
+A good case study on the adoption of open telemetry at scale.
+
+https://tech.ebayinc.com/engineering/why-and-how-ebay-pivoted-to-opentelem=
+etry/
+
+
+Some thoughts on recent cloud outage trends=2C and the relationship betwee=
+n those and the complexity of real-world hybrid cloud environments.
+
+https://www.infoworld.com/article/3663680/complexity-leads-to-cloud-outage=
+s-heres-the-proof.html
+
+
+A series of posts on the low level details of the linux shell=2C looking a=
+t file descriptors=2C pipelines=2C process groups and more. Useful when yo=
+u need to debug something at this level.
+
+https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about=
+-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-s=
+essions-process-groups-and-daemons/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Fx is a handy tool for exploring JSON documents=2C for instance from API r=
+esponses. It=E2=80=99s an interactive command line explorer=2C with the ab=
+ility to write reducers in JavaScript=2C Ruby or Python.
+
+https://github.com/antonmedv/fx
+
+
+Hurl is a neat HTTP testing tool. A simple DSL for writing assertions agai=
+nst web responses=2C including APIs=2C and testing those assertions.
+
+https://github.com/Orange-OpenSource/hurl
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
