@@ -1,0 +1,78 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#626?=
+Date: Sun, 25 Dec 2022 11:19:54 +0000
+
+DEVOPS WEEKLY
+ISSUE #626 - 25th December 2022
+
+Merry Christmast to those celebrating today. Just a few posts today=2C loo=
+king at architecture diagrams=2C kubectl plugins=2C avoiding merge conflic=
+ts in configuration files and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Try automated security testing in CI/CD without connecting your own app or=
+ configuring an environment. Test a sample app in CI using GitHub Actions=
+ and follow guidance to triage and fix findings. Go on and give it a try!
+
+https://sthwk.com/tutorial
+
+
+News
+=3D=3D=3D=3D
+
+A look at the security state of Azure DevOps pipeline extensions from the=
+ Azure Marketplace. Several concrete recommendations for publishers and co=
+nsumers.
+
+https://jessehouwing.net/security-state-of-the-azure-devops-marketplace/
+
+
+The C4 model is a diagramming tool for describing software architecture. T=
+his post is a nice hand-on introduction with some useful examples to help=
+ get started.
+
+https://medium.com/pragmatic-programmers/using-the-c4-model-to-design-appl=
+ications-c2e0944018ad
+
+
+A nice list of handy kubectl plugins with usage details.
+
+https://home.robusta.dev/blog/top-kubectl-plugin-list
+
+
+A series of posts on the evolution of a platform=2C moving to the cloud=2C=
+ adopting site reliability engineering practices and modern observability.
+
+https://medium.com/@chussenot/making-a-technical-platform-aeb9338f47ad
+https://medium.com/@chussenot/making-a-technical-platform-84933794feef
+
+
+Some tips on avoiding merge conflicts with CloudFormation and OpenAPI spec=
+ifications. Partly AWS specific=2C but some generally applicable advice to=
+o.
+
+https://aws.amazon.com/blogs/devops/organize-your-aws-serverless-code-to-p=
+revent-merge-conflicts/
+
+
+A quick tip for setting flags as environment variables for Terraform=2C in=
+cluding for specific commands. A nice pattern for others to adopt.
+
+https://surajincloud.com/terraform-cli-args-define-once-use-again-and-agai=
+n-90356d1de787
+
+
+A nice tutorial for a local Lambda development environment for Python=2C u=
+sing SAM.
+
+https://dev.to/skabba/mastering-local-aws-lambda-development-18mg
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
