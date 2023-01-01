@@ -1,0 +1,117 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#627?=
+Date: Sun,  1 Jan 2023 09:51:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #627 - 1st January 2023
+
+Happy new year to all the subscribers=2C new and old. A bit of a different=
+ issue this week. I thought I=E2=80=99d take a look back at some of the mo=
+st interesting posts from the last 3 months of 2022. Some interesting cont=
+ent on incident management=2C build engineering=2C the discipline of opera=
+tions and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+ICYMI: The Deeper GraphQL Security Testing webinar is available on demand!=
+ Watch the recording to learn how your team can protect their GraphQL APIs=
+ from tricky business logic vulnerabilities with custom test data!
+
+https://sthwk.com/Deeper-GraphQL-OnDemand
+
+
+News
+=3D=3D=3D=3D
+
+A new report analysing 50=2C000 anonymised incidents=2C with interesting a=
+ggregate data and observations around the use of service catalogues and de=
+fined incident roles on recovery time.
+
+https://firehydrant.com/reports/incident-benchmarks/
+
+
+Some OCAML specifics=2C but a good post on reproducible software tooling a=
+nd why it=E2=80=99s important for certain use cases.
+
+https://blog.osau.re/articles/reproducible.html
+
+
+A nice case study of building an SRE team. Notes on people and process as=
+ well as the usual SLOs and SLIs.
+
+https://engineering.reputation.com/building-a-resilient-sre-process-42e659=
+714743
+
+
+Everyone thinks time is relatively simple=2C until they have to deal with=
+ a computer. This post explores the Unix epoch=2C and the various implicat=
+ions of design decisions and implementation details.
+
+https://www.netmeister.org/blog/epoch.html
+
+
+Who has access to production? Who should have access to production? This p=
+ost provides some advice on a method for doing a risk assessment. Some of=
+ this is specific to AWS and IAM=2C but much is applicable to any setup.
+
+https://blog.symops.com/2022/10/20/risk-assessment-aws-iam/
+
+
+Devops means different things to different folks=2C but I think everyone w=
+ants to improve on the craft of operations. This post discusses the need t=
+o build a culture of candour. Getting a =E2=80=9Ctrue and honest signal wh=
+en things are going wrong=E2=80=9D applies to the software and people that=
+ make up complex systems.
+
+https://www.jasonacox.com/wordpress/archives/1331
+
+
+A post on the evolution of systems operations=2C and the emergence of plat=
+form engineering as distinct. Some thoughts on the differences between dif=
+ferent roles and models=2C and were we might be heading next.
+
+https://www.honeycomb.io/blog/future-ops-platform-engineering
+
+
+A discussion of the need for more people-centric operations=2C with some o=
+bservations from a recent survey and some concrete suggestions.
+
+https://medium.com/pareture/people-centric-software-operations-culture-933=
+059481af1
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+One of the oft-quoted use cases for WebAssembly is plugins. Extism is a fr=
+amework for implementing a plugin system in your apps=2C making this much=
+ easier to do. Very interesting.
+
+https://github.com/extism/extism
+
+
+A couple of new open source tools=2C cnquery and cnspec. The first provide=
+ a query tool atop cloud infrastructure=2C handy for asset inventory. The=
+ second provides testing and policy based tools on top of that inventory.
+
+https://blog.mondoo.com/cnquery-cnspec
+https://github.com/mondoohq/cnquery
+https://github.com/mondoohq/cnspec
+
+
+Wolfi is a new lightweight GNU software distribution=2C a Linux (un)distri=
+bution intended to solve supply chain security problems in container envir=
+onments.
+
+https://github.com/chainguard-dev/wolfi-os
+https://www.chainguard.dev/unchained/introducing-wolfi-the-first-linux-un-=
+distro
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
