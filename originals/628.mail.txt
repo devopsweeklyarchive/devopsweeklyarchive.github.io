@@ -1,0 +1,92 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#628?=
+Date: Sun,  8 Jan 2023 13:37:41 +0000
+
+DEVOPS WEEKLY
+ISSUE #628 - 8th January 2023
+
+Platform teams=2C CI/CD=2C supply chain security=2C Terraform hints and mo=
+re this week. Hoping everyone is having a good start to 2023.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk CSO and Co-Founder shared with Swapnil Bhartiya in a TFiR interv=
+iew how the right tools can eliminate inefficient feedback loops among dev=
+ and security teams. Watch the chat:
+
+https://sthwk.com/TFiR
+
+
+News
+=3D=3D=3D=3D
+
+A great set of 12 blog posts=2C exploring a wide range of challenges teams=
+ face as they try and build an internal development platform. From budget=
+ and team size=2C to cognitive load and user flexibility to multi-cloud. L=
+ots to keep you busy.
+
+https://www.syntasso.io/post/the-12-platform-challenges-recap
+
+
+A look at the prevalence of AWS credentials in packages published on PyPi.=
+ Some observations about why this happens too.
+
+https://tomforb.es/i-scanned-every-package-on-pypi-and-found-57-live-aws-k=
+eys/
+
+
+If you have a moment=2C please do complete the 2023 Open Standards Survey.=
+ An interesting topic=2C and the more data gathered the more interesting t=
+he final report should be.
+
+https://www.research.net/r/Q7LRJ67
+
+
+One of the challenges with metaphors is they can break down around the edg=
+es. Describing how we consume software as a supply chain is useful in part=
+s=2C but thinking of open source contributors as suppliers isn=E2=80=99t=
+=2C as argued in this post.
+
+https://www.softwaremaxims.com/blog/not-a-supplier
+
+
+A nice walkthrough how one team increased the observability of their CI an=
+d CD pipelines=2C laying out different options considered and diving into=
+ the implementation details of the chosen solution.
+
+https://medium.com/bondora-engineering-and-data/how-to-increase-deployment=
+-observability-and-simplify-deployment-pipelines-3b271e57ff3f
+
+
+An interesting set of posts analysing booth messaging from AWS re:Invent a=
+nd Kubecon last year. It=E2=80=99s certainly a novel way of looking at how=
+ vendors see the space at a moment in time.
+
+https://www.uptime.build/post/i-analyzed-290-booths-at-kubecon-here-are-th=
+e-devops-trends-for-2023
+https://www.uptime.build/post/reinvent-booth-analysis
+
+
+GitHub has a lot of interesting data to explore=2C which can be useful to=
+ spelunk through when trying to understand usage of a library or adoption=
+ of a technology. This post explores using ClickHouse Playground  and the=
+ GitHub Archive for quick adhoc queries.
+
+https://til.simonwillison.net/clickhouse/github-explorer
+
+
+A nice deep-dive post on HCL=2C the language used by Terraform. In this ca=
+se looking at patterns for flexible loops=2C using the =E2=80=9Cany=E2=80=
+=9D type and a nice worked example.
+
+https://awstip.com/terraform-the-awesome-value-type-any-and-loops-a6be039b=
+1ce5
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
