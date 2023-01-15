@@ -1,0 +1,91 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#629?=
+Date: Sun, 15 Jan 2023 10:17:30 +0000
+
+DEVOPS WEEKLY
+ISSUE #629 - 15th January 2023
+
+Good posts this week on platform engineering=2C cost effective architectur=
+es=2C supply chain security and moving from heuristic to ML models amongst=
+ others posts and new tools.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+ICYMI: The Deeper GraphQL Security Testing webinar is available on demand!=
+ Watch the recording to learn how your team can protect their GraphQL APIs=
+ from tricky business logic vulnerabilities with custom test data!
+
+https://sthwk.com/Deeper-GraphQL-OnDemand
+
+
+News
+=3D=3D=3D=3D
+
+An interesting article looking at a platform engineering team as a startup=
+=2C more specifically at the entrepreneurial mindset needed to succeed wit=
+h scarce resources and shifting priorities.
+
+https://blog.symops.com/2023/01/05/platform-engineering-as-a-startup/
+
+
+A playlist of all of the sessions from DevOpsDays Tel Aviv. Lighting talks=
+=2C longer talks on SLOs=2C service mesh=2C out of hours on-call and more.
+
+https://www.youtube.com/playlist?list=3DPL8tivQAdoavNHBVaiDiadxLiVtdH7xPJH
+
+
+A post with some good advice on cost optimisation for cloud environments a=
+nd designing cost effective architectures.
+
+https://automation.baldacchino.net/part-3-architectural-cost-optimisation-=
+practical-design-steps-for-architects-and-developers/
+
+
+A good example and explanation of moving from a heuristic approach to usin=
+g machine learning to solve a real world problem.
+
+https://doordash.engineering/2023/01/10/how-doordash-upgraded-a-heuristic-=
+with-ml-to-save-thousands-of-canceled-orders/
+
+
+A good reminder that any public package list will probably come under atta=
+ck. This post looks at the VSCode extensions marketplace=2C including typo=
+squatting and other problems.
+
+https://blog.aquasec.com/can-you-trust-your-vscode-extensions
+
+
+A nice reminder of why management of dependencies is hard=2C showing how t=
+ransitive dependencies and packaging formats lead to more dependencies tha=
+n you think. I=E2=80=99m not sure about referring to this as drift=2C as I=
+ tend to think about that over time=2C but the core point is sound.
+
+https://thenewstack.io/fast-and-furious-doubling-down-on-sbom-drift/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Cocacetic is a brand new tool that can patch a running container quickly w=
+ithout going upstream for a full rebuild. It takes input from vulnerabilit=
+y scanners to inform what needs updating.
+
+https://github.com/project-copacetic/copacetic
+
+
+Klotho looks an interesting=2C and powerful=2C tool for taking an applicat=
+ion and running it using native AWS services. Simply annotate a standard H=
+TTP service and it will automatically generate the code to configure the r=
+elevant AWS services for serving and data persistence.
+
+https://github.com/klothoplatform/klotho
+https://klo.dev/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
