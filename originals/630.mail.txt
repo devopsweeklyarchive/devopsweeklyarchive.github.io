@@ -1,0 +1,97 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#630?=
+Date: Sun, 22 Jan 2023 09:17:04 +0000
+
+DEVOPS WEEKLY
+ISSUE #630 - 22nd January 2023
+
+Thinking of all the folks at Microsoft=2C Google and other companies laid=
+ off over the last week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Experience automated security testing without the hassle of connecting you=
+r own app or configuring an environment! Follow the Tutorial to try out St=
+ackHawk and explore a world where security becomes an accelerator=2C not a=
+ blocker.
+
+https://sthwk.com/tutorial
+
+
+News
+=3D=3D=3D=3D
+
+An excellent short post on complex systems failure=2C in particular lookin=
+g at the impact of small mistakes and the unsatisfactory nature of blaming=
+ them for large failures.
+
+https://surfingcomplexity.blog/2023/01/15/a-small-mistake-does-not-a-compl=
+ex-systems-failure-make/
+
+
+A look at the various ways of accessing AWS ECS=2C and importantly how to=
+ secure them.
+
+https://blog.symops.com/2023/01/18/ecs-access/
+
+
+A great question=2C what=E2=80=99s the right user experience for an expire=
+d certificate? A good reminder about the importance of automated renewals.
+
+https://emilymstark.com/2023/01/16/whats-the-right-ux-for-an-expired-certi=
+ficate.html
+
+
+An interesting post from AWS on fairness in multi-tenant systems=2C in par=
+ticular looking at rate limiting evolution.
+
+https://aws.amazon.com/builders-library/fairness-in-multi-tenant-systems/
+
+
+How do you get started with developing in Java? This post provides a nice=
+ opinionated introduction to the large Java ecosystem.
+
+https://www.morling.dev/blog/getting-started-with-java-development-2023/
+
+
+A walkthrough of how to build a container image to run on AWS Lambda using=
+ AWS CDK.
+
+https://www.ranthebuilder.cloud/post/build-aws-lambda-container-image-with=
+-aws-cdk
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+PlatformCon is back=2C a 2 day virtual conference coming up on the 8th and=
+ 9th of June. A call for proposals is open now=2C looking for talks on cul=
+ture=2C tech=2C impact and stories.
+
+https://sessionize.com/platformcon-2023/
+https://platformcon.com/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+PolarStreams is a lightweight=2C elastic=2C Kubernetes-native event stream=
+ing system. It acts as a persistent buffer between services providing at-l=
+east-once delivery guarantees.
+
+https://github.com/polarstreams/polar
+
+
+Open Threat Model (OTM) defines a schema for defining the threat model of=
+ any system. Would be interesting to see tools built around this.
+
+https://github.com/iriusrisk/OpenThreatModel
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
