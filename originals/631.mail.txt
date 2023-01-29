@@ -1,0 +1,97 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#631?=
+Date: Sun, 29 Jan 2023 09:45:30 +0000
+
+DEVOPS WEEKLY
+ISSUE #631 - 29th January 2023
+
+A few posts this week (on data teams=2C structured logs=2C core web vitals=
+ and more) but lots of new tools to look at too.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Heading to Seattle for CloudNativeSecurityCon this week? Stop by the Stack=
+Hawk booth and use the secret password "KaaKaww" for a surprise
+
+https://events.linuxfoundation.org/cloudnativesecuritycon-north-america/
+
+
+News
+=3D=3D=3D=3D
+
+Lots of data teams are increasingly adopting software development practice=
+s to improve quality and reliability. This post looks at building staging=
+ environments for data.
+
+https://medium.com/riskified-technology/building-a-staging-environment-for=
+-data-teams-855700fa390f
+
+
+A discussion of technical debt=2C both what it is=2C how it comes about=2C=
+ and looking at setting aside time on a recurring basis to continually pay=
+ it down.
+
+https://blog.alexewerlof.com/p/tech-debt-day
+
+
+A deep dive into the inner workings of Kubernetes=2C specifically looking=
+ at the life of a DNS query in Kubernetes.
+
+https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes/
+
+
+An introduction to the benefits of structured logs. Not a new idea=2C but=
+ it=E2=80=99s useful to have introductory posts like this to reference.
+
+https://medium.com/@func25/why-you-should-use-structured-logging-format-47=
+a388711316
+
+
+A good starting point for understanding and monitoring Core Web Vitals=2C=
+ for improving web performance..
+
+https://sematext.com/blog/core-web-vitals/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Jbom is another SBOM generation tool=2C specifically focused on Java appli=
+cations. It can generate an SBOM from a running Java process.
+
+https://github.com/eclipse/jbom
+
+
+Another SBOM tool=2C SBOM Scorecard analyses an SBOM and provides some use=
+ful quality metrics.
+
+https://github.com/eBay/sbom-scorecard
+
+
+A new cloud infrastructure testing tool=2C precloud compares resources in=
+ CDK diffs and Terraform Plans against the state of your cloud account.
+
+https://github.com/tinystacks/precloud
+
+
+Smithy is a protocol-agnostic interface definition language and set of too=
+ls for generating clients=2C servers=2C and documentation for any programm=
+ing language.
+
+https://github.com/awslabs/smithy
+https://smithy.io/2.0/index.html
+
+
+Caretta uses eBPF to create a visual network map in Grafana of the service=
+s running in a Kubernetes cluster.
+
+https://github.com/groundcover-com/caretta
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
