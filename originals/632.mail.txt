@@ -1,0 +1,106 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#632?=
+Date: Sun,  5 Feb 2023 09:49:56 +0000
+
+DEVOPS WEEKLY
+ISSUE #632 - 5th January 2023
+
+A mix of posts=2C tools and events this week. Covering monitoring=2C infra=
+structure management=2C vulnerability management=2C data engineering and m=
+ore.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+AppSec is full of nuances (and acronyms). Let's start by drawing the line=
+ between API security testing and monitoring. Learn more here:
+
+https://sthwk.com/api-testing-vs-monitoring
+
+
+News
+=3D=3D=3D=3D
+
+Collecting data is just the start of a good monitoring effort=2C and it=E2=
+=80=99s easy to skimp on designing useful dashboards. This post has some g=
+ood tips on effective dashboard design.
+
+https://horovits.medium.com/unreadable-metrics-why-you-cant-find-anything-=
+in-your-monitoring-dashboards-12fcc23d34c8
+
+
+A post on AWS architecture=2C in particular looking at performance profile=
+ EC2 instances in order to determine the best fit for your needs. Fun fact=
+=2C EC2 now supports over 400 different instance types!
+
+https://blog.symops.com/2023/01/27/aws-performance-testing/
+
+
+Infrastructure as Code and Terraform may not be new to many readers of thi=
+s newsletter=2C but lots of teams are still getting started. This post is=
+ a nice introduction.
+
+https://www.aviator.co/blog/getting-started-with-terraform-in-devops/
+
+
+A big part of devops practices is building a culture of sharing and collab=
+oration=2C and some teams adopt a formal writing style to do that. This po=
+st covers an internal tool called Hermes build to facilitate a large team=
+ collaborating on RFC style documents.
+
+https://www.hashicorp.com/blog/introducing-hermes-an-open-source-document-=
+management-system
+https://github.com/hashicorp-forge/hermes
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+SCaLE is back=2C March 9th to 12th=2C including several parallel events. I=
+t=E2=80=99s the largest community-run open-source and free software confer=
+ence in North America. The code DEVWK will get you a 50% discount at regis=
+tration. .
+
+SCaLE
+March 9-12=2C 2023
+www.socallinuxexpo.org
+
+KCD LA
+March 9-10=2C 2023
+https://community.cncf.io/events/details/cncf-kcd-los-angeles-presents-kcd=
+-los-angeles-at-scale-20x/
+
+DevOps Day LA
+March 10=2C 2023
+https://www.devopsdays.org/events/2022-los-angeles/welcome/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+OpenVex is a new project comprising a specification and accompanying tools=
+ for managing VEX documents=2C which are used alongside SBOMs to indicate=
+ whether vulnerabilities are exploitable in a given project.
+
+https://github.com/openvex
+
+
+Dolt is an interesting new MySQL-compatible database=2C which also support=
+s a Git-like interface. You can fork=2C diff=2C merge and commit database=
+ instructions.
+
+https://github.com/dolthub/dolt
+
+
+Another interesting new data tool=2C Directus builds an instant REST and G=
+raphQL API and no-code data collaboration app for any SQL database.
+
+https://github.com/directus/directus
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
