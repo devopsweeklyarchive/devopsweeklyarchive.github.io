@@ -1,0 +1,94 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#633?=
+Date: Sun, 12 Feb 2023 07:26:24 +0000
+
+DEVOPS WEEKLY
+ISSUE #633 - 12th January 2023
+
+Developer platforms=2C YAML!=2C personal development=2C SBOMs=2C serverles=
+s operations and more. No real theme this week=2C but several good posts o=
+n a range of technical and people topics.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Bridging the gap between security and engineering involves giving teams re=
+sponsible for writing and deploying code a way to include security testing=
+ in their standard workflow. Check out Omdia's POV on StackHawk in their O=
+n the Radar Report.
+
+https://sthwk.com/on-the-radar
+
+
+News
+=3D=3D=3D=3D
+
+Is focusing on developer platforms a trap? This post argues that the platf=
+orm is far less important than the goal of developer enablement that teams=
+ should be focused on.
+
+https://samnewman.io/blog/2023/02/08/dont-call-it-a-platform/
+
+
+Next time someone suggests YAML as a user friendly format=2C please refere=
+nce this post if you can=E2=80=99t get someone to read the YAML spec. A us=
+eful rant with great examples.
+
+https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell
+
+
+Folks often have polarised opinions on certifications. This post takes a p=
+ragmatic look at why they can be useful=2C but also considers the downside=
+s. It also provides some tips for making a personal certification plan if=
+ you want to go down this route.
+
+https://abstraction.blog/2023/01/10/certification-plan
+
+
+A nice introduction and update to the work going on to bring sigstore sign=
+ing to Maven.
+
+https://blog.sigstore.dev/towards-easier-more-secure-signature-technology-=
+for-the-java-ecosystem-with-sigstore-60d6a02490a8/
+
+
+A talk from the FOSDEM SBOM devroom on the key properties in a useful SBOM=
+=2E Useful to see practices emerging.
+
+https://fosdem.org/2023/schedule/event/sbom_key_ingredients/
+
+
+The interaction between policy (which is local) with the transnational ope=
+n source community is always a challenge. This post looks at the cyber res=
+ilience act and why it=E2=80=99s important for open source.
+
+https://blog.opensource.org/what-is-the-cyber-resilience-act-and-why-its-i=
+mportant-for-open-source/
+
+
+A good reminder that serverless doesn=E2=80=99t mean no operations=2C just=
+ a change in the nature of the work. Not a new idea=2C but some good examp=
+les.
+
+https://thenewstack.io/serverless-doesnt-mean-devopsless-or-noops/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Cadl is a language for describing cloud service APIs and generating other=
+ API description languages=2C client and service code=2C documentation=2C=
+ and other assets. Cadl provides highly extensible core language primitive=
+s that can describe API shapes common among REST=2C GraphQL=2C gRPC=2C and=
+ other protocols.
+
+https://microsoft.github.io/cadl/
+https://github.com/microsoft/cadl
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
