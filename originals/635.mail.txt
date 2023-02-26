@@ -1,0 +1,93 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#635?=
+Date: Sun, 26 Feb 2023 09:22:07 +0000
+
+DEVOPS WEEKLY
+ISSUE #635 - 26th January 2023
+
+A range of posts this week on cloud strategy=2C AWS=2C Node.js tools=2C su=
+pply chain security and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+gRPC is the popular choice for building microservices and distributed syst=
+ems. Ensuring these APIs are secure and protected against vulnerabilities=
+ is essential. StackHawk is rolling out a private beta for gRPC API securi=
+ty testing. Register here:
+
+https://sthwk.com/gRPC-beta
+
+
+News
+=3D=3D=3D=3D
+
+A post on cloud strategy=2C using a useful model of technology=2C capabili=
+ty=2C innovation and business to discuss progression through four stages o=
+f adoption.
+
+https://blog.container-solutions.com/biggest-cloud-native-strategy-mistake
+
+
+This next post looks at a useful categorisation of software supply chain a=
+ttack initiators=2C and why categorising is useful when considering preven=
+tion and reaction.
+
+https://stevelasker.blog/2023/01/31/initiators-of-supply-chain-incidents/
+
+
+A new AWS feature which means you can now pass an IAM role to every EC2 in=
+stance in your account using AWS Systems Manager. Interesting new threat v=
+ector as well.
+
+https://awsteele.com/blog/2023/02/20/a-role-for-all-your-ec2-instances.htm=
+l
+
+
+Good reminder that building on top of highly reliable services doesn=E2=80=
+=99t make your service reliable.
+
+https://metrist.io/blog/the-overlooked-culprit-behind-70-of-saas-outages/
+
+
+A post on the importance of testing in production=2C and why other forms o=
+f testing are necessary but not sufficient.
+
+https://nagaraj-tantri.medium.com/test-in-production-the-ideal-monitoring-=
+587b23a541f9
+
+
+A quick preview of upcoming features in the upcoming 1.5 release of the so=
+ftware bill of materials format CycloneDX.
+
+https://www.youtube.com/watch?v=3D8U3yH4TG3js
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+An overview of a set of tools (mapcidr=2C proxify=2C simplehttpserver=2C u=
+ncover=2C notify and cloudlist) intended for offensive security or testing=
+=2C but more generally useful too=2C for expanding IP ranges=2C simple pro=
+xies and more..
+
+https://blog.projectdiscovery.io/projectdiscovery-best-kept-secrets/
+
+
+The new release of Node.js (v19.7.0) comes with the ability to natively bu=
+ild single executables. Interesting.
+
+https://nodejs.org/api/single-executable-applications.html
+
+
+No is a simple container build tool for Node.js=2C inspired by Ko for Go.
+
+https://github.com/thesayyn/no
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
