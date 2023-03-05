@@ -1,0 +1,105 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#636?=
+Date: Sun,  5 Mar 2023 10:58:21 +0000
+
+DEVOPS WEEKLY
+ISSUE #636 - 5th March 2023
+
+A mix of posts (on incident management=2C platform engineering=2C token ex=
+posure and more) and tools (including for working with APIs=2C building co=
+mplex service-based applications=2C artifact verification) this week. Plus=
+ lookout for SCALE and Devopsdays Los Angeles this coming week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+If you're attending DevOps Days LA and have questions about security testi=
+ng in build pipelines=2C come find us! We will be giving away Lego sets to=
+o!
+
+https://www.socallinuxexpo.org/scale/20x/events/devops-day-la
+
+
+News
+=3D=3D=3D=3D
+
+A good talk from LFI Conf 23=2C on incident management and the importance=
+ of involving stakeholders from across teams and beyond engineering in inc=
+ident reviews.
+
+https://www.youtube.com/watch?v=3DCbSiKAtO7Fk
+
+
+A discussion of platforming the developer experience. How can central team=
+s scale internal application systems to provide a good developer experienc=
+e for a diverse set of development teams?
+
+https://devops.com/platforming-the-developer-experience/
+
+
+Another post on platform engineering. This one looking at the misconceptio=
+n that platform engineering goals are achieved just through a new dashboar=
+d.
+
+https://thenewstack.io/platform-engineering-is-not-about-building-fancy-ui=
+s/
+
+
+A good reminder about the importance and impact of token exposure in secur=
+ity incidents.
+
+https://decodebytes.substack.com/p/software-supply-chains-achilles-heel
+
+
+A good technical post on the development of a proxy framework=2C extracted=
+ from other components. Nice post on evolutionary architecture.
+
+https://blog.cloudflare.com/introducing-oxy/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays Los Angeles is coming up this week=2C on March 10th=2C at the P=
+asadena Convention Center as part of SCALE. Sessions on breaking down silo=
+s=2C the role of operators=2C case studies and more.
+
+https://devopsdays.org/events/2023-los-angeles/welcome/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Service Weaver is a Go programming framework for writing and deploying clo=
+ud applications. Components can be run in a single process=2C or split acr=
+oss services=2C without changing the code.
+
+https://opensource.googleblog.com/2023/03/introducing-service-weaver-frame=
+work-for-writing-distributed-applications.html
+https://serviceweaver.dev/
+
+
+Ratify is a verification engine which enables verification of artifact sec=
+urity metadata. It comes integrated with Gatekeeper on Kubernetes.
+
+https://github.com/deislabs/ratify
+
+
+Bruno looks like an interesting project. It=E2=80=99s an IDE for working f=
+or APIs=2C saving collections to disk meaning they can be checked into Git=
+=2E
+
+https://github.com/usebruno/bruno
+
+
+A handy utility to dump AWS Fargate's ECS containers environment variables=
+ locally.
+
+https://github.com/dineshgowda24/ecsnv
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
