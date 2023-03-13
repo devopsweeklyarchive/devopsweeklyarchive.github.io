@@ -1,0 +1,101 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#637?=
+Date: Sun, 12 Mar 2023 09:20:56 +0000
+
+DEVOPS WEEKLY
+ISSUE #637 - 12th March 2023
+
+>From the business of engineering to the more technical posts. Cloud spend=
+=2C platform engineering=2C service-mesh adoption=2C the problem with secr=
+ets=2C SBOM workflows and a few other interesting posts this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Bridging the gap between security and engineering involves giving teams re=
+sponsible for writing and deploying code a way to include security testing=
+ in their standard workflow. Check out Omdia's POV on StackHawk in their O=
+n the Radar Report.
+
+https://sthwk.com/on-the-radar
+
+
+News
+=3D=3D=3D=3D
+
+COGS (or cost of goods sold) is relevant in lots of business contexts=2C b=
+ut in a technology company=2C a large component is likely to be Cloud spen=
+d. A good post=2C covering both an introduction and concrete topics to con=
+sider when looking to reduce COGS.
+
+https://www.linkedin.com/pulse/cogs-problem-michael-stahnke/
+
+
+A post introducing and discussing Platform Engineering. Some good observat=
+ions about the proximity and differences to traditional infrastructure eng=
+ineering.
+
+https://www.maxcountryman.com/articles/delivering-value-with-platform-engi=
+neering
+
+
+Another post on Platform Engineering=2C this one looking to identify commo=
+n journeys (like ticket driven workflows=2C exposing a Kubernetes API=2C e=
+xposing a Cloud API=2C etc.) and problems and solutions arising from those=
+ starting points.
+
+https://www.syntasso.io/platform-journeys/
+
+
+A nice update for the beta of IaSQL=2C which basically exposes an AWS acco=
+unt as a PostgreSQL database. Some interesting new features=2C like transa=
+ctions for infrastructure updates.
+
+https://iasql.com/blog/beta/
+
+
+The State of Secrets Sprawl report looks at the problem of secrets leakage=
+=2C highlighting related incidents=2C some of the ecosystem challenges and=
+ data from the last year.
+
+https://www.gitguardian.com/files/the-state-of-secrets-sprawl-report-2023
+
+
+A couple of posts=2C looking at one team=E2=80=99s adoption of the Linkerd=
+ service mesh and some of the dashboards used to monitor usage and perform=
+ance.
+
+https://tech.loveholidays.com/linkerd-at-loveholidays-monitoring-our-apps-=
+using-linkerd-metrics-fa44c13bee49
+https://tech.loveholidays.com/linkerd-at-loveholidays-our-journey-to-a-pro=
+duction-service-mesh-9a6cd478d395
+
+
+A look at an SBOM workflow=2C using various tools to build an SBOM and upl=
+oad it to DependencyTrack=2C orchestrated by Dracon pipelines.
+
+https://ocurity.com/blog/sboms-with-dracon/
+
+
+Running with an analogy can be fun. This post compares maintaining a compl=
+ex software project over time to playing the game of Jenga.
+
+https://www.bobbytables.io/p/your-codebase-is-a-jenga-tower
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Ruff is a linter for Python=2C that aims to be much faster than existing t=
+ools. I think this will be a pattern=2C re-implementing certain ecosystem=
+ tools in Rust for improved performance.
+
+https://github.com/charliermarsh/ruff
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
