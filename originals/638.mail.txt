@@ -1,0 +1,98 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#638?=
+Date: Sun, 19 Mar 2023 09:09:48 +0000
+
+DEVOPS WEEKLY
+ISSUE #638 - 19th March 2023
+
+>From 40 year old technology in MX records to brand new technology in GPT-3=
+=2C and lots in between this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Scan each microservice and improve engineering best practices with support=
+ for scanning gRPC services. StackHawk is actively recruiting organization=
+s to participate in a private beta for gRPC security testing. Sign up here=
+:
+
+https://sthwk.com/gRPC-beta
+
+
+News
+=3D=3D=3D=3D
+
+It=E2=80=99s often useful to know more about how the internet works that y=
+ou think you need when it comes to investigating problems. This post delve=
+s into MX records in lots of detail.
+
+https://www.netmeister.org/blog/mx-diversity.html
+
+
+Large language models combined with chat interfaces provide a hugely power=
+ful assistance capability. This post explores a few use cases related to s=
+ystems management=2C from writing small utility scripts to answering confi=
+guration questions. Some tips for getting started too.
+
+https://blog.devgenius.io/using-chatgpt-for-devops-7daa7c1783e9
+
+
+A comprehensive list of best practices for using Terraform=2C covering mod=
+ules=2C workspaces=2C tagging=2C variable usage and lots more.
+
+https://spacelift.io/blog/terraform-best-practices
+
+
+A nice walkthrough of adding metrics to prometheus=2C in this case for any=
+ xDSL modems.
+
+https://grafana.com/blog/2023/03/17/how-to-monitor-an-xdsl-modem-using-a-p=
+rometheus-exporter-plugin-and-grafana-agent-on-grafana-cloud-with-grafana-=
+oncall/
+https://github.com/Dentrax/xdsl-exporter
+
+
+How best to manage access to a DynamoDB database? It turns out there are q=
+uite a lot more options that you probably expect=2C but this post walks yo=
+u through them.
+
+https://blog.symops.com/2023/03/10/access-dynamodb/
+
+
+An argument against infrastructure as code=2C at least for all use cases.
+
+https://lukeshaughnessy.medium.com/infrastructure-as-code-is-not-the-answe=
+r-cfaf4882dcba
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Chainloop is an open source software supply chain control plane=2C a singl=
+e source of truth for artifacts plus a declarative attestation process. Ta=
+king a lot of the lower-level work on standards and frameworks=2C and lowe=
+ring the barrier to adoption.
+
+https://github.com/chainloop-dev/chainloop
+
+
+A nice plugin for VSCode that generates a graphviz visualisation live alon=
+gside the HCL code.
+
+https://github.com/adamiBs/vscode-terraform-live-graph
+
+
+A small tool that grabs some aggregate information about GitHub Actions us=
+age=2C including the number of workflows and average and total building ti=
+me.
+
+https://github.com/self-actuated/actions-usage
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
