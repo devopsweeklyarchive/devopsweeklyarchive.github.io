@@ -1,0 +1,107 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#639?=
+Date: Sun, 26 Mar 2023 10:26:39 +0000
+
+DEVOPS WEEKLY
+ISSUE #639 - 26th March 2023
+
+Several incident management posts and tools this week=2C long with discuss=
+ion of platform engineering teams=2C a good sociotechnical systems reading=
+ list and technical posts on Kubernetes and Elasticsearch operations.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Teams that utilize AWS Cloud can now purchase StackHawk directly through t=
+heir AWS account! Leverage your pre-existing AWS Cloud budget to cover app=
+lication security costs=2C consolidate billing=2C and speed up the path to=
+ procurement. Learn more here:
+
+https://sthwk.com/3JGSIgs
+
+
+News
+=3D=3D=3D=3D
+
+A nice high level introduction to incident management=2C centred around so=
+me real world improvements within one organisation.
+
+https://medium.com/govtech-edu/how-we-keep-our-government-apps-running-wit=
+h-high-reliability-a-peek-at-our-incident-management-fe1386d0fa43
+
+
+Another good incident management post. This one a video and transcript of=
+ a talk on the cost of coordination during incidents.
+
+https://www.infoq.com/presentations/incident-command-system/
+
+
+Audio and transcript of an interesting discussion about the responsibiliti=
+es of a platform team=2C and emerging patterns and anti-patterns.
+
+https://blog.container-solutions.com/paula-kennedy-on-platform-team-respon=
+sibilities-patterns-and-anti-patterns
+
+
+In discussions about software supply chain security you=E2=80=99ll hear fo=
+lks talking about attestations. This post explains what these are=2C why t=
+hey are important and demonstrates some tools for working with them.
+
+https://docs.chainloop.dev/blog/software-supply-chain-attestation-easy-way
+
+
+A look at rightsizing Kubernetes workloads=2C including details of how pod=
+ limits work=2C the Kubernetes scheduler and the vertical pod autoscaler.
+
+https://www.datadoghq.com/blog/rightsize-kubernetes-workloads/
+
+
+A collected set of reading material on Open Systems Theory and Sociotechni=
+cal Systems design. A good set of papers and books if you want to go deep=
+ on the subject.
+
+https://www.linkedin.com/pulse/core-ost-sts-sources-trond-hjorteland/
+
+
+Database tools often store data on disk=2C and when things go wrong how th=
+at works might be important. This post looks at how to debug disk-related=
+ Elasticsearch issues.
+
+https://sematext.com/blog/elastic-dev-command-to-know-about-disk/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Monitorama is coming up on June 26th to 28th=2C in Portland=2C Oregon. The=
+ schedule is available now=2C with a great range of talks on everything fr=
+om the maths underpinning monitoring=2C scaling observability while being=
+ cognizant of cost=2C managing stress in operations roles and a host of ot=
+her great talks.
+
+https://monitorama.com/2023/pdx.html
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Autometrics is a set of open source metrics libraries=2C making use of Ope=
+nTelemetry and Prometheus easier. Currently supporting Rust=2C TypeScript=
+=2C Go and Python=2C with more languages coming.
+
+https://github.com/autometrics-dev
+
+
+Untitled Goose Tool is a tool designed for threat assessment and incident=
+ response for Azure Active Directory (AzureAD)=2C Azure=2C and Microsoft 3=
+65 environments.
+
+https://github.com/cisagov/untitledgoosetool
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
