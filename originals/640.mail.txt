@@ -1,0 +1,111 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#640?=
+Date: Sun,  2 Apr 2023 07:43:33 +0000
+
+DEVOPS WEEKLY
+ISSUE #640 - 2nd April 2023
+
+Incident reports=2C cloud spending=2C buy vs build=2C reducing error rates=
+=2C as well as new tools=2C events and more this week. Just the usual week=
+ for busy operations and development teams.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Experience automated security testing without the hassle of connecting you=
+r own app or configuring an environment! Follow the Tutorial to try out St=
+ackHawk and explore a world where security becomes an accelerator=2C not a=
+ blocker
+
+https://sthwk.com/tutorial
+
+
+News
+=3D=3D=3D=3D
+
+How do you write incident reports that people want to read? This post sugg=
+ests more long form narrative=2C and less template based form filling. Som=
+e good examples included too.
+
+https://blog.container-solutions.com/incident-write-ups-they-want-to-read
+
+
+Some interesting analysis on cloud spend priorities=2C showing differences=
+ at the top and bottom=2C a focus on consolidation and licence optimisatio=
+n and more.
+
+https://batteryventures.substack.com/p/breaking-down-the-latest-battery
+
+
+Reasoning about buy vs build is always interesting for infrastructure serv=
+ices. This post breaks down the rationale for buying and building in this=
+ particular case when it comes to monitoring and metrics tooling.
+
+https://blog.searce.com/scaling-observability-reliably-and-frugally-at-mag=
+icpin-1b7349718348
+
+
+A post on reducing error rates=2C by reading all of the error messages. Th=
+e argument is this helps improve the quality of errors=2C incentivise fixi=
+ng problems and remove things that don=E2=80=99t need to be in error logs.
+
+https://www.pulumi.com/blog/reducing-our-error-rate/
+
+
+Another interesting use of web assembly=2C in this case removing a large l=
+egacy C++ codebase for a compiler bootstrap.
+
+https://ziglang.org/news/goodbye-cpp/
+
+
+A good post on the difference between a capability model and a maturity mo=
+del=2C and why the former is more relevant when considering devops practic=
+es.
+
+https://octopus.com/blog/devops-uses-capability-not-maturity
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+WTF is SRE? is a highly-rated=2C ridiculously-fun=2C wildly-insightful two=
+-day conference designed to improve the world of Site Reliability Engineer=
+ing and DevOps. It will take place in London on 4-5 May 2023 and it'll fea=
+ture speakers such as Charity Majors=2C Nathen Harvey=2C Liz Rice=2C Cryst=
+al Hirschorn and Ana=C3=AFs Urlichs! Get your ticket with a special Devops=
+ Weekly discount.
+
+https://rb.gy/5dhy
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Want to use CSK=2C but prefer a declarative interface? This project suppor=
+ts using a JSON format=2C and can generate a schema for validation.
+
+https://github.com/cdklabs/decdk
+
+
+AI comes to infrastructure as code. You=E2=80=99ll need an OpenAI key to u=
+se=2C but it looks to generate configuration files=2C Terraform code=2C CI=
+/CD pipeline configurations and more.
+
+https://aiac.dev/
+https://github.com/gofireflyio/aiac
+
+
+SBOM composition is important when considering how we build higher level s=
+ervices from components and micro services. SPDXMerge does what you=E2=80=
+=99d expect=2C merging SPDX documents=2C either creating a single document=
+ or doing so by reference. Initial release=2C so not packaged up yet.
+
+https://github.com/philips-software/SPDXMerge
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
