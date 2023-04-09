@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#641?=
+Date: Sun,  9 Apr 2023 06:53:20 +0000
+
+DEVOPS WEEKLY
+ISSUE #641 - 9th April 2023
+
+Lots of tools this week=2C along with a few (inevitable) posts on GPT-4 fo=
+r devops related use cases.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Headed to AtlassianTeam23? We=E2=80=99re excited to join the Snyk team to=
+ sponsor a =E2=80=9CDine Around=E2=80=9D event at CHICA . Relax=2C unwind=
+=2C and meet us for delicious food=2C tasty drinks=2C and even better comp=
+any. Register here:
+
+https://snyk.co/ufzny
+
+
+News
+=3D=3D=3D=3D
+
+A good post on understanding the costs of high availability=2C and why aim=
+ing for too many 9s might be the wrong thing=2C especially for smaller tea=
+ms.
+
+https://world.hey.com/itzy/uptime-guarantees-a-pragmatic-perspective-736d7=
+ea4
+
+
+A discussion of RAVE metrics (resilience=2C adoption=2C velocity and error=
+s) as a methodology for improving security posture.
+
+https://itrevolution.com/articles/measuring-software-value-and-trust-lets-=
+rave/
+
+
+An interesting new online community=2C focused on developer experience. A=
+ once-a-month off-the-record hangout sounds particularly interesting for f=
+olks to share internal stories and examples.
+
+https://dx.community/
+
+
+An interesting use case for GPT-4=2C using it for investigating API design=
+=2E Useful to see example prompts for common use cases like this.
+
+https://til.simonwillison.net/gpt3/gpt4-api-design
+
+
+Another GPT post=2C this one observing some problems with using it for sec=
+urity advice. One challenge here as well I think is prompt design=2C which=
+ is a completely new activity which everyone is learning as we go along.
+
+https://decodebytes.substack.com/p/please-dont-use-gpt-for-security
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Jitsu is an open-source Segment alternative. A fully-scriptable data inges=
+tion engine that can stream the data to various data warehouse backends.
+
+https://jitsu.com/
+https://github.com/jitsucom/jitsu
+
+
+Timoni is a package manager for Kubernetes=2C similar to Helm=2C but using=
+ CUE rather than Go templates.
+
+https://github.com/stefanprodan/timoni
+
+
+Wing is an interesting new programming language that combines application=
+ logic and cloud provisioning=2C along with built-in local simulation tool=
+ing.
+
+https://www.winglang.io/
+https://github.com/winglang/wing
+
+
+One of the key tenets of Devops is measurement=2C which makes posthog an i=
+nteresting project to look at. It combines event based analytics=2C data v=
+isualisation=2C feature flags=2C A/B testing and more.
+
+https://github.com/PostHog/posthog
+
+
+Tart is a virtualisation toolset to build=2C run and manage macOS and Linu=
+x virtual machines (VMs) on Apple Silicon. Note it=E2=80=99s Fair Source l=
+icensed=2C rather than open source.
+
+https://github.com/cirruslabs/tart
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
