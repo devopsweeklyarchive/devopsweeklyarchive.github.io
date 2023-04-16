@@ -1,0 +1,97 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#642?=
+Date: Sun, 16 Apr 2023 09:23:26 +0000
+
+DEVOPS WEEKLY
+ISSUE #642 - 16th April 2023
+
+Several new build tools this week=2C along with posts on prompt injection=
+ attacks on LLMs=2C load balancing and a CFP for the upcoming devopsdays N=
+ew York event.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Headed to AtlassianTeam23? We=E2=80=99re excited to join the Snyk team to=
+ sponsor a =E2=80=9CDine Around=E2=80=9D event at CHICA . Relax=2C unwind=
+=2C and meet us for delicious food=2C tasty drinks=2C and even better comp=
+any. Register here:
+
+http://snyk.co/ufzny
+
+
+News
+=3D=3D=3D=3D
+
+The rapid growth of the use of LLMs and chat interfaces is raising the sec=
+urity problem of prompt injection. This post has some examples and concern=
+s around why using more AI won=E2=80=99t solve the problem.
+
+https://simonwillison.net/2022/Sep/17/prompt-injection-more-ai/
+
+
+A nice walkthrough of using the new Buck2 build system for a Rust project.
+
+https://steveklabnik.com/writing/using-buck-to-build-rust-projects
+
+
+A post on the importance of focusing on delivering value=2C mapping out va=
+lue streams and reducing friction in deployment.
+
+https://isthisit.nz/posts/2023/delivery-driven-development/
+
+
+A good introduction to load balancing=2C with lots of useful animations to=
+ explain different load balancing algorithms.
+
+https://samwho.dev/load-balancing/
+
+
+A post listing commercial and open source monitoring tools for use with Ub=
+untu operating systems.
+
+https://sematext.com/blog/ubuntu-monitoring-tools/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays New York is coming up on June 6th and 7th=2C and the call for p=
+roposals for sessions is open for another week=2C until the 24th of April.=
+ The organisers are looking for 5 minute ignite talks and 30 minute presen=
+tations.
+
+https://sessionize.com/devopsdays-new-york-city-2023
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Buck2 is a new large-scale build system. A rewrite of the original Buck bu=
+ild system=2C with performance improvements=2C fully hermetic builds and r=
+ules written in Starlark.
+
+https://github.com/facebook/buck2
+https://buck2.build/
+
+
+Meson is another modern build system=2C supporting C=2C C++=2C D=2C Fortra=
+n=2C Java and Rust.
+
+https://mesonbuild.com/
+https://github.com/mesonbuild/meson/
+
+
+Timoni is a package manager for Kubernetes=2C powered by CUE and inspired=
+ by Helm.
+
+https://github.com/stefanprodan/timoni
+https://timoni.sh/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
