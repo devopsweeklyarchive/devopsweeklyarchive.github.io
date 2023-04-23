@@ -1,0 +1,110 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#643?=
+Date: Sun, 23 Apr 2023 07:53:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #643 - 23rd April 2023
+
+A mix of content this week=2C from some good posts on managing monitoring=
+ infrastructure to tools for maintaining health test suites=2C provisionin=
+g Kubernetes clusters for development and lots more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+gRPC security scanning is in open beta. Scan each microservice and improve=
+ engineering best practices with StackHawk's support for scanning gRPC ser=
+vices. Sign up to join the first gRPC security testing beta available in t=
+he market!
+
+https://sthwk.com/gRPC
+
+
+News
+=3D=3D=3D=3D
+
+If you run your own monitoring infrastructure at scale=2C you=E2=80=99ll i=
+nvariably be surprised by the cost of storage. This post looks at one team=
+'s work to reduce the storage cost by a third for their Prometheus infrast=
+ructure.
+
+https://medium.com/criteo-engineering/how-we-reduced-our-prometheus-infras=
+tructure-footprint-by-a-third-8bf8171e46b1
+
+
+Another monitoring post. This one on the design of a Prometheus=2C Grafana=
+=2C Alert Manager setup and considering the tradeoffs around various topol=
+ogies.
+
+https://medium.com/riskified-technology/how-we-improved-our-monitoring-sta=
+ck-with-only-a-few-small-changes-66c5a489fd67
+
+
+A look at TypeAPI=2C a new alternative to OpenAPI for describing an API th=
+at is more optimised for automatically generating client tools.
+
+https://chriskapp.medium.com/typeapi-an-alternative-to-openapi-e666eefe8a7=
+6
+https://typeapi.org/
+
+
+A nice introduction to AWS Vault=2C which aims to solve the problem of AWS=
+ credentials ending up in plain text all over the place.
+
+https://blog.symops.com/2023/04/20/aws-vault/
+
+
+A nice overview of Kubernetes evolution to a system that=E2=80=99s well su=
+ited to large batch processing workloads as well as lots of microservices.
+
+https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-pr=
+ocessing-powerhouse/
+
+
+If you=E2=80=99re managing an ElasticSearch cluster then keeping a track o=
+n unassigned shards is important for monitoring search stability. This pos=
+t explains why as well as looking at what to measure.
+
+https://sematext.com/blog/elasticsearch-unassigned-shards/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Captain is a CLI tool that can detect and quarantine flaky tests=2C automa=
+tically retry failed tests=2C partition files for parallel execution and g=
+enerate comprehensive test failure summaries. It works with your existing=
+ test runners.
+
+https://www.rwx.com/captain
+https://github.com/rwx-research/captain/
+
+
+An interesting use of GPT=2C in this case it consumes event information fr=
+om Falco and then generates recommendations for actions that are shared in=
+ Slack.
+
+https://github.com/Dentrax/falco-gpt/
+
+
+Provisioning a Kubernetes cluster for development isn=E2=80=99t always sim=
+ple. Kubelift aims to provide a great experience for anyone wanting a sing=
+le node Kubernetes setup on Azure=2C with an UI inspired by Vagrant.
+
+https://kubelift.com/
+https://github.com/polverio/kubelift-cli
+
+
+A handy tool for visualising a toolchain=2C document which tools you=E2=80=
+=99re using and where they are in their adoption.
+
+https://github.com/Wivik/devops-solutions-map
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
