@@ -1,0 +1,86 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#644?=
+Date: Sun, 30 Apr 2023 07:59:31 +0000
+
+DEVOPS WEEKLY
+ISSUE #644 - 30th April 2023
+
+KubeCon EU a couple of weeks ago means there are several Kubermnetes relat=
+es posts this week=2C along with posts on developer platforms=2C devops at=
+tack surface=2C SBOMs and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+gRPC security scanning is in open beta. Scan each microservice and improve=
+ engineering best practices with StackHawk's support for scanning gRPC ser=
+vices. Sign up to join the first gRPC security testing beta available in t=
+he market!
+
+https://sthwk.com/gRPC
+
+
+News
+=3D=3D=3D=3D
+
+KubeCon EU wrapped last week=2C and the following post has a nice summary=
+ of the keynotes=2C community events and some of the track talks.
+
+https://loft.sh/blog/kubecon-amsterdam-wrapup/
+
+
+Lots of talk of internal developer platforms recently=2C so the following=
+ site looks useful. It=E2=80=99s curating links and content=2C including o=
+rganising the component parts of developer platforms.
+
+https://internaldeveloperplatform.org/
+
+
+A devops threat matrix=2C looking at risks across access control=2C data p=
+ersistence=2C credentials=2C exfiltration and more. A useful tool for disc=
+ussing the attack surface of a modern application stack.
+
+https://www.microsoft.com/en-us/security/blog/2023/04/06/devops-threat-mat=
+rix/
+
+
+A look at the perils of comparing system diagrams=2C showing how complexit=
+y can hide in the level of detail=2C especially between different architec=
+ture approaches.
+
+https://theburningmonk.com/2020/11/even-simple-serverless-applications-hav=
+e-complex-architecture-diagrams-so-what/
+
+
+A post on alternatives to Dockerfile for container builds. While it talks=
+ about some of the disadvantages=2C it doesn=E2=80=99t address the advanta=
+ges of Dockerfiles and why they are (still) so popular.
+
+https://www.chainguard.dev/unchained/move-over-dockerfiles-the-new-way-to-=
+craft-containers
+
+
+A nice=2C short=2C primer on software bill of materials covering the most=
+ common formats and some current growing pains of the ecosystem.
+
+https://anonymoushash.vmbrasseur.com/2023/04/24/software-bill-of-materials=
+-sbom
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Sync Linear is a tool to synchronize Linear tickets and GitHub issues. Han=
+dy if you=E2=80=99re using Linear internally but have open source projects=
+ on GitHub.
+
+https://synclinear.com/
+https://github.com/calcom/synclinear.com
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
