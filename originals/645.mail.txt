@@ -1,0 +1,84 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#645?=
+Date: Sun,  7 May 2023 08:32:27 +0000
+
+DEVOPS WEEKLY
+ISSUE #645 - 7th May 2023
+
+
+A sad note to start with this week. Carolyn Van Slyck passed away last wee=
+k. She was a huge part of the Kubernetes community=2C building interesting=
+ software and improving the whole project through involvement and leadersh=
+ip of various working groups focused on contributors. She=E2=80=99ll be mi=
+ssed.
+
+https://github.com/cncf/memorials/blob/main/carolyn-van-slyck.md
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+gRPC security scanning is in open beta. Scan each microservice and improve=
+ engineering best practices with StackHawk's support for scanning gRPC ser=
+vices. Sign up to join the first gRPC security testing beta available in t=
+he market!
+
+https://sthwk.com/gRPC
+
+
+News
+=3D=3D=3D=3D
+
+A good primer on how in-toto relates to SLSA. If you=E2=80=99re interested=
+ in software supply chain security this is worth a read.
+
+https://slsa.dev/blog/2023/05/in-toto-and-slsa
+
+
+An experience report of porting a project to use Dagger for CI/CD. Dagger=
+ provides a provider-agnostic framework that turns CI/CD config into a rea=
+l program.
+
+https://robertu94.github.io/2023/04/24/refactoring-ci/cd-for-a-moderately-=
+large-c-code-base.html
+
+
+A post on incident response processes=2C discussing how best to plan to st=
+art responding to a new incident.
+
+https://firehydrant.com/blog/assembly-time-is-where-you-have-the-most-cont=
+rol-of-an-incident/
+
+
+A look at using ephemeral containers in Kubernetes to aid debugging.
+
+https://www.pagerduty.com/blog/debugging-kubernetes-with-ephemeral-contain=
+ers/
+
+
+Considering which service mesh to use? This post breaks down a large numbe=
+r of different options and presents a landscape along with an interesting=
+ timeline of development in the space.
+
+https://layer5.io/service-mesh-landscape
+
+
+SQLite has always seen use for interesting use cases=2C this post looks at=
+ why it=E2=80=99s particularly useful for edge applications=2C and describ=
+es a new open source fork aimed at building a contributor community.
+
+https://blog.chiselstrike.com/why-sqlite-is-so-great-for-the-edge-ee00a3a9=
+a55f
+
+
+More of an analyst piece=2C looking at the challenge to mainstream cloud p=
+roviders from providers offering modern application platforms.
+
+https://www.insightpartners.com/ideas/new-generation-of-cloud-providers-wh=
+y-some-programmers-are-moving-away-from-megaclouds/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
