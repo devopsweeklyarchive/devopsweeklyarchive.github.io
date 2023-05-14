@@ -1,0 +1,109 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#646?=
+Date: Sun, 14 May 2023 08:18:18 +0000
+
+DEVOPS WEEKLY
+ISSUE #646 - 14th May 2023
+
+With a few weeks since KubeCon=2C folks have had time to write up takeaway=
+s=2C so we have a quote a few KubeCon and Kubernetes posts this week. Plus=
+ posts on AI-assisted software development=2C policy tools=2C search engin=
+es and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Upcoming webinar: Scaling Security Across a Herd of Apps. Learn how to sca=
+le application security across multiple applications while maintaining a c=
+onsistent and easy-to-manage setup. Register here:
+
+https://sthwk.com/scaling-security-across-a-herd-apps
+
+
+News
+=3D=3D=3D=3D
+
+Generative AI is suddenly a very powerful programming tool=2C but one that=
+ we=E2=80=99re all discovering how to use effectively. This article talks=
+ about LLM prompting for software development.
+
+https://martinfowler.com/articles/2023-chatgpt-xu-hao.html
+
+
+A summary post from the recent KubeCon event in Amsterdam. Observations ar=
+ound portals=2C the Kubernetes API=2C OCI=2C observability and more.
+
+https://blog.joshgav.com//posts/kubecon-amsterdam
+
+
+A good post on architectural evolution=2C and why one size doesn=E2=80=99t=
+ fit all.
+
+https://adrianco.medium.com/so-many-bad-takes-what-is-there-to-learn-from-=
+the-prime-video-microservices-to-monolith-story-4bd0970423d4
+
+
+An interesting post on balancing reliability with other systems constraint=
+s=2C using Voyager 2 (launched in 1977) as the example.
+
+https://flyingbarron.medium.com/is-there-such-a-thing-as-a-system-thats-to=
+o-reliable-9a367ba850ac
+
+
+A playlist of talks from the recent Observability Day Europe=2C part of th=
+e recent KubeCon/CloudNativeCon event. Case studies and project deep dives=
+=2E
+
+https://www.youtube.com/playlist?list=3DPLj6h78yzYM2ORxwcjTn4RLAOQOYjvQ2A3
+
+
+Another KubeCon review post=2C this one focused on open telemetry. Covers=
+ some details on adoption=2C cost=2C telemetry and more.
+
+https://faun.pub/opentelemetry-the-star-of-kubecon-2023-c1e2b504850d
+
+
+An introductory post on microservices design=2C including 5 high level pri=
+nciples for anyone designing and building microservice-based systems.
+
+https://redis.com/blog/implementing-designing-microservices/
+
+
+A look at Kyverno=2C a policy engine. The post looks at integrating with K=
+ubernetes=2C and a new CLI tool for testing policies locally.
+
+https://thenewstack.io/using-the-kyverno-cli-to-write-policy-test-cases/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Cedar is a new open source policy language and evaluation engine. Cedar en=
+ables developers to express fine-grained permissions as easy-to-understand=
+ policies enforced in their applications=2C and decouple access control fr=
+om application logic.
+
+https://www.cedarpolicy.com/
+https://github.com/cedar-policy
+
+
+Related to the above=2C an HTTP agent for setting and applying Cedar polic=
+ies.
+
+https://github.com/permitio/cedar-agent
+
+
+Quickwit is a new search engine optimised for cloud storage and subsecond=
+ queries=2C with schema and schemaless indexing=2C open telemetry built-in=
+ and multiple data sources.
+
+https://github.com/quickwit-oss/quickwit
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
