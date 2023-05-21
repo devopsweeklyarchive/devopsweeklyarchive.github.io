@@ -1,0 +1,124 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#647?=
+Date: Sun, 21 May 2023 07:12:31 +0000
+
+DEVOPS WEEKLY
+ISSUE #647 - 21st May 2023
+
+A good mix of posts=2C events and tools this week=2C with datacenter posts=
+ and CLI tools for AI=2C shrinking SaaS budgets for devops tools and some=
+ excellent upcoming free events.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+gRPC security scanning is in open beta. Scan each microservice and improve=
+ engineering best practices with StackHawk's support for scanning gRPC ser=
+vices. Sign up to join the first gRPC security testing beta available in t=
+he market!
+
+https://sthwk.com/gRPC
+
+
+News
+=3D=3D=3D=3D
+
+SaaS budgets are suddenly a hot item in lots of organisations. This post d=
+iscusses the explosion of tools and costs during the last few years=2C and=
+ pressures now to reduce tools and costs.
+
+https://www.linkedin.com/pulse/devops-hangover-pete-cheslock/
+
+
+What does large scale AI usage mean for data centres? This post looks at w=
+hat Meta are doing=2C with highly integrated designs from the chips=2C com=
+pute=2C network=2C storage and software.
+
+https://ai.facebook.com/blog/meta-ai-infrastructure-overview/
+
+
+A new curated list of links to articles=2C papers=2C conference talks=2C a=
+nd tooling related to load management in software services: loadshedding=
+=2C circuit breaking=2C quota management and throttling.
+
+https://github.com/StanzaSystems/awesome-load-management
+
+
+Another post on the infrastructure of the internet=2C in this case details=
+ of certificate authorities and CAA records.
+
+https://www.netmeister.org/blog/caa-diversity.html
+
+
+A nice roundup of 3 major outages from the past several years=2C and what=
+ we can learn from them.
+
+https://medium.com/@babaknia/lessons-from-outages-f5a124e24f0f
+
+
+Cilium is predominantly used with Kubernetes=2C but this post looks in det=
+ail at how it can be used to manage the network policies when running Noma=
+d too.
+
+https://cosmonic.com/blog/engineering/netreap-a-practical-guide-to-running=
+-cilium-in-nomad
+
+
+Is Postgres suitable for analytics event data? This post says yes=2C showi=
+ng sample schemas and presenting some performance numbers for 50 million e=
+vents per day.
+
+https://www.crunchydata.com/blog/building-customer-facing-real-time-dashbo=
+ards-with-postgres
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+PlatformCon 2023 is coming up on 8th and 9th June. A free online event=2C=
+ with tracks on case studies=2C technology=2C culture and more across two=
+ full days.
+
+https://platformcon.com/
+
+
+DevopsHeroes is back=2C in Palma=2C Italy on October 21st. Attendance is f=
+ree=2C and the CFT is open now=2C closing August 1st=2C and looking for ta=
+lks on methodologies=2C technology and experience reports.
+
+https://sessionize.com/devopsheroes-2023/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+We=E2=80=99ve seen a lot of interest in chat interfaces to LLMs=2C so it=
+=E2=80=99s nice to see CLI tools start to emerge as well. A nice general e=
+xample=2C though I think we=E2=80=99ll see capabilities build in to lots o=
+f tools directly too.
+
+https://simonwillison.net/2023/May/18/cli-tools-for-llms/
+https://github.com/simonw/llm
+
+
+Task is a general task runner=2C using a YAML Taskfile to describe tasks t=
+o run. Intended to replace some Make use cases.
+
+https://taskfile.dev/
+https://github.com/go-task/task
+
+
+Janus is basically a distribution of the Backstage developer platform from=
+ Red Hat. It comes with a set of opinionated plugins out of the box=2C inc=
+luding for integration with Kubernetes=2C container registries=2C Tekton a=
+nd more.
+
+https://janus-idp.io/
+https://github.com/orgs/janus-idp/repositories
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
