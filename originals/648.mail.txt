@@ -1,0 +1,91 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#648?=
+Date: Sun, 28 May 2023 09:31:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #648 - 28th May 2023
+
+Fitting into the overall zeitgeist=2C several AI posts this week. From obs=
+ervations about the challenges with building LLM-backed features=2C to sec=
+urity considerations when adopting AI. Plus classic topics like packaging=
+=2C infrastructure as code tools and DNS.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Is your AppSec team copy and pasting lines of YAML every time a new app is=
+ ready for security testing? Try this instead: utilize environment variabl=
+es and modularize configurations to share common elements across different=
+ applications.
+
+https://sthwk.com/scaling-best-practices-strategies
+
+
+News
+=3D=3D=3D=3D
+
+Lots of folks are going to be building features backed by LLMs. This post=
+ covers some of the questions you=E2=80=99ll need to answer=2C based on an=
+ observability use case too.
+
+https://www.honeycomb.io/blog/hard-stuff-nobody-talks-about-llm
+
+
+Attacking AI systems is a whole new risk as the adoption of AI tools picks=
+ up. This post looks at building up an AI attack surface map that might be=
+ useful to anyone thinking about this problem.
+
+https://danielmiessler.com/blog/the-ai-attack-surface-map-v1-0/
+
+
+An in-depth post on anomaly detection. Discusses core platform=2C algorith=
+ms and specific use cases around spam detection and ML model changes.
+
+https://medium.com/pinterest-engineering/warden-real-time-anomaly-detectio=
+n-at-pinterest-210c122f6afa
+
+
+The joke goes that it=E2=80=99s always DNS. So understanding how DNS works=
+ is useful when dealing with lots of real world incidents. One way of lear=
+ning a bit more about DNS is building your own resolver from scratch.
+
+https://jvns.ca/blog/2023/05/12/introducing-implement-dns-in-a-weekend/
+
+
+An interesting packaging approach. This post looks at how to package up an=
+ open policy agent policy into a standalone executable using Nix.
+
+https://determinate.systems/posts/open-policy-agent
+https://github.com/DeterminateSystems/nix-policy
+
+
+Not everyone jumps on new technology straight away=2C and it=E2=80=99s oft=
+en more useful that people think to provide a beginner friendly introducti=
+on. Here=E2=80=99s a useful post to share with folks new to Kubernetes.
+
+https://medium.com/@himeshikaabayaratne/a-beginner-friendly-introduction-t=
+o-kubernetes-c0c402e8f39c
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Kestra is an open-source=2C event-driven orchestrator that aims to simplif=
+y data operations and collaboration around data. It has both a declarative=
+ YAML interface and a rich GUI.
+
+https://kestra.io/
+https://github.com/kestra-io/kestra
+
+
+Org-formation is a dedicated infrastructure as code tool for managing AWS=
+ Organizations.
+
+https://github.com/org-formation/org-formation-cli/tree/master
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
