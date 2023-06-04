@@ -1,0 +1,91 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#649?=
+Date: Sun,  4 Jun 2023 07:28:44 +0000
+
+DEVOPS WEEKLY
+ISSUE #649 - 4th June 2023
+
+Trunk based development=2C observability cost and cognitive load=2C advanc=
+es in web assembly and some interesting policy and security tools posts th=
+is week. Enjoy.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Is your AppSec team copy and pasting lines of YAML every time a new app is=
+ ready for security testing? Try this instead: utilize environment variabl=
+es and modularize configurations to share common elements across different=
+ applications.
+
+https://sthwk.com/scaling-best-practices-strategies
+
+
+News
+=3D=3D=3D=3D
+
+A solid argument for adopting trunk based development=2C focused on speed=
+=2C efficiency=2C stability=2C collaboration and more.
+
+https://trishagee.com/2023/05/29/why-i-prefer-trunk-based-development/
+
+
+Something I see lots of teams starting to consider. An approach to observa=
+bility that measures everything=2C and uses common SaaS tools=2C introduce=
+s a huge cognitive burden on operators=2C as well as a huge financial cost=
+=2E
+
+https://davidkcaudill.medium.com/the-ticking-time-bomb-of-observability-ex=
+pectations-c49c3d17ada1
+
+
+A provocative post on the need for more transparency when it comes to clou=
+d service availability=2C and the impact that has on reliability for depen=
+dent services.
+
+https://thenewstack.io/cloud-dependencies-need-to-stop-f-ing-us-when-they-=
+go-down/
+
+
+A request to not use GPT for security recommendations. There is some nuanc=
+e here=2C mainly around the training data and prompts used.
+
+https://decodebytes.substack.com/p/please-dont-use-gpt-for-security
+
+
+A good introduction to the Kyverno policy engine for Kubernetes=2C and loo=
+king at CEL=2C the Common Expression Language.
+
+https://medium.com/@mariamfahmy66/validating-admission-policies-in-kyverno=
+-1f4a3e972f92
+
+
+Announcing WASIX=2C adding POSIX support to Web Assembly.
+
+https://wasmer.io/posts/announcing-wasix
+https://wasix.org/docs/api-reference
+
+
+An interesting comparison between search engines OpenSearch and Solr=2C co=
+mparing customizability=2C ops friendliness=2C community=2C governance and=
+ more.
+
+https://sematext.com/blog/opensearch-vs-solr/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Legitify is a handy tool for assessing the configuration of a GitHub or Gi=
+tLab organisation=2C checking things like SSO=2C insecure webhooks=2C perm=
+issions and more.
+
+https://github.com/Legit-Labs/legitify
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
