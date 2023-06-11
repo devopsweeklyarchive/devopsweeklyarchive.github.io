@@ -1,0 +1,98 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#650?=
+Date: Sun, 11 Jun 2023 09:06:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #650 - 11th June 2023
+
+Developer platforms=2C AI hallucination=2C  open source=2C portable develo=
+pment environments and a new SBOM-related tool I=E2=80=99ve been hacking o=
+n recently.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Heading to AWS Re:Inforce? Stop by the Snyk booth #110 to see how StackHaw=
+k and Snyk correlate results to inform you which security bugs need to be=
+ fixed first and where to find them in your code.
+
+
+News
+=3D=3D=3D=3D
+
+An interesting side effect of LLMs hallucinating. A new attack vector. LLM=
+s can suggest the use of non-existent packages=2C attackers can register t=
+hose packages.
+
+https://vulcan.io/blog/ai-hallucinations-package-risk
+
+
+What is an internal developer platform? This post discusses 7 elements cov=
+ering secrets management=2C version control=2C CI/CD pipelines=2C portals=
+ and more.
+
+https://thenewstack.io/7-core-elements-of-an-internal-developer-platform/
+
+
+A post on the asymmetry of open source=2C between producers and users. Giv=
+en the importance of open source tools to software and infrastructure deve=
+lopment it=E2=80=99s important to understand for those involved with devop=
+s.
+
+https://matt.life/writing/the-asymmetry-of-open-source
+
+
+Another open source post=2C this one on the need for a new licensing frame=
+work for neural net weights. These are critical for AI=2C and for useful o=
+pen source implementations.
+
+https://heathermeeker.com/2023/06/08/toward-an-open-weights-definition/
+
+
+Continuing this series of what operators on earth can learn from incidents=
+ in space=2C this post looks at balancing what went right with failure=2C=
+ technical and process failures related to measurement and more.
+
+https://flyingbarron.medium.com/how-can-you-land-5-kilometers-above-the-mo=
+on-799002ffb615
+
+
+A fun build engineering post. Want to bootstrap an end-to-end build of the=
+ latest version of the JVM? You need to go back to Java 1.5.0.
+
+https://www.chainguard.dev/unchained/fully-bootstrapping-java-from-source-=
+in-wolfi
+
+
+A post on portable development environments using Nix=2C Cloud9 and DevBox=
+=2E
+
+https://www.buildon.aws/livestreams/build-on-weekly/2023-06-01
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Bias warning as this is something new I=E2=80=99ve been working on.
+Parlay is a new tool for enriching SBOMs. Add extra information about the=
+ source location=2C licences=2C maintainers and vulnerabilities. The post=
+ contains some examples of why this is powerful.
+
+https://github.com/snyk/parlay
+https://snyk.io/blog/introducing-parlay/
+https://snyk.io/blog/parlay-quickstart-guide/
+
+
+Regal is a new linter for Open Policy Agent=E2=80=99s rego language. It co=
+vers lots of various bugs=2C style and best practice issues.
+
+https://github.com/StyraInc/regal
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
