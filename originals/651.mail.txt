@@ -1,0 +1,97 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#651?=
+Date: Sun, 18 Jun 2023 09:21:32 +0000
+
+DEVOPS WEEKLY
+ISSUE #651 - 18th June 2023
+
+Event driven architectures=2C launching new services at scale=2C designing=
+ alerting systems=2C software supply chain security=2C release engineering=
+ and SQL. A nice range of classic operations topics with modern updates.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[June 22] How to Shift Left: People=2C Process=2C and Technology. In this=
+ webinar=2C StackHawk CSO=2C Scott Gerlach teams up with PagerDuty Securit=
+y Engineer=2C James Berthoty to discuss the infrastructure=2C workflows=2C=
+ and collaboration required to adopt developer-first security.
+
+https://sthwk.com/how-to-shift-left
+
+
+News
+=3D=3D=3D=3D
+
+A post on designing an alerting strategy=2C looking at industry frameworks=
+=2C prioritisation=2C routing alert messages and more.
+
+https://abstraction.blog/2023/06/13/cloud-alerting-strategy
+
+
+Launching a new service at scale from day one comes with unique challenges=
+=2E This post looks at replaying traffic=2C chaos experiments=2C traffic sim=
+ulation and high volume load testing.
+
+https://netflixtechblog.com/ensuring-the-successful-launch-of-ads-on-netfl=
+ix-f99490fdf1ba
+
+
+Event-based architectures allow for decoupled service communications=2C bu=
+t require agreement on event formats. This post looks at managing schemas=
+ and handling standardisation across teams.
+
+https://medium.com/riskified-technology/how-riskified-manages-schemas-and-=
+handles-standardization-fda9eb236e28
+
+
+Another event-driven architecture post=2C this one providing a useful clas=
+sification of different event-driven approaches.
+
+https://www.juxt.pro/blog/event-driven-architecture/
+
+
+Dockerfile is ubiquitous=2C but if you=E2=80=99d rather write container bu=
+ild scripts in other languages then Dagger allows that and lots more. Nice=
+ example.
+
+https://docs.dagger.io/205271/replace-dockerfile/
+
+
+A post on work the Argo project is doing to secure its supply chain. A goo=
+d case study for implementing SLSA=2C and explaining some of the terminolo=
+gy around attestations and provenance.
+
+https://blog.argoproj.io/security-supply-chain-security-57cffdb44967
+
+
+A good argument for new databases to support SQL.
+
+https://antonz.org/fancy-ql/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A look at cargo-dist=2C a new release engineering tool for Rust projects.=
+ The blog post does a good job as well of talking about the fun of release=
+ engineering in general.
+
+https://blog.axo.dev/2023/02/cargo-dist/
+https://github.com/axodotdev/cargo-dist/
+
+
+A packaged set of Terraform code that helps with spinning up self-hosted G=
+itHub Action runners on GCP.
+
+https://github.com/mchmarny/grunner
+
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
