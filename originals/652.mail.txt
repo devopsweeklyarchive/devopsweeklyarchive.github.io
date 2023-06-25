@@ -1,0 +1,83 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#652?=
+Date: Sun, 25 Jun 2023 10:05:06 +0000
+
+DEVOPS WEEKLY
+ISSUE #652 - 25th June 2023
+
+Monitoring. AI developer tools and AI mode vulnerabilities. DNS (always DN=
+S). And an interesting survey focused on SRE to read and participate in.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[June 27] Securing GitOps Pipelines: Open Source=2C Vendors=2C and Gettin=
+g Things Done. StackHawk champion James Berthoty is speaking at DevSecCon2=
+4 to discuss security in pipeline=2C open source vs. vendor tools=2C fixin=
+g security findings=2C and measuring success.
+
+https://sthwk.com/Securing-GitOps-Pipelines
+
+
+News
+=3D=3D=3D=3D
+
+An interesting report based on a survey of SRE practitioners=2C correlatin=
+g several behaviours to elite behaviours. The new survey is open for next=
+ year=E2=80=99s survey.
+
+https://www.catchpoint.com/asset/2023-sre-report
+https://www.catchpoint.com/sre-survey
+
+
+Monitoring is invariably harder than it looks for any non-trivial systems.=
+ This post looks at the problems with logs=2C metrics and tracing tools.
+
+https://matduggan.com/were-all-doing-metrics-wrong/
+
+
+AVID is an AI Vulnerability Database=2C looking at failures in models. The=
+ start of a taxonomy of failure modes=2C and a database of specific failur=
+es. Likely to be an important area of research.
+
+https://avidml.org/
+
+
+Continuing this long-running series=2C this post explores naked domains. S=
+ome interesting
+stats=2C including that almost three quarters of all domains are IPv4 only=
+=2E
+
+https://www.netmeister.org/blog/naked-domains.html
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Rift is a language server and IDE extension that exposes interfaces for co=
+de transformations and code understanding=2C aiming to integrate with open=
+ source AI models to provide a base for AI-assisted software development.
+
+
+https://github.com/morph-labs/rift
+
+
+M3s is a tool for running a Kubernetes cluster under Apache Mesos/ClusterD=
+=2E
+
+https://github.com/m3scluster/m3s
+https://m3scluster.github.io/m3s/
+
+
+DevPod is an open source tool for managing repeatable development environm=
+ents. It works locally=2C as well as on top of Kubernetes or a cloud envir=
+onment.
+
+https://devpod.sh/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
