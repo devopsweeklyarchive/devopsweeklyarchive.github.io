@@ -1,0 +1,82 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#653?=
+Date: Sun,  2 Jul 2023 09:34:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #653 - 2nd July 2023
+
+A super busy week this week=2C meaning fewer posts. But look out for the A=
+ll Day Devops CFP opening up=2C as well as posts on monitoring=2C webassem=
+bly=2C architecture migration and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] How to Shift Left: People=2C Process=2C Technology webinar is now=
+ available on YouTube. Watch on-demand for expert tips on implementing a s=
+hift-left practice at your organization.
+
+https://sthwk.com/how-shift-left-YT
+
+
+News
+=3D=3D=3D=3D
+
+An interesting architecture evolution and migration post=2C looking at the=
+ move to GraphQL at scale.
+
+https://netflixtechblog.com/migrating-netflix-to-graphql-safely-8e1e4d4f1e=
+72
+
+
+A look at analysing volatile memory in GKE nodes using open source tools=
+=2C when determining if suspicious activity is malicious.
+
+https://engineering.atspotify.com/2023/06/analyzing-volatile-memory-on-a-g=
+oogle-kubernetes-engine-node/
+
+
+All Day Devops is back on the 26th/27th October. A 24 hour virtual confere=
+nce=2C with a whopping 186 talks across 6 tracks. The call for speakers op=
+ens next week.
+
+https://sessionize.com/2023-all-day-devops/
+
+
+A look at mixing logs and metrics=2C enriching logs with opentelemetry dat=
+a.
+
+https://newrelic.com/blog/how-to-relic/enrich-logs-with-opentelemetry-coll=
+ector
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Timecraft is a new WebAssembly runtime=2C with some interesting sandboxing=
+=2C task orchestration=2C and time travel capabilities.
+
+https://github.com/stealthrocket/timecraft
+
+
+Peace is an interesting looking automation framework with some novel ideas=
+=2E It=E2=80=99s work-in-progress=2C but the vision is well laid out.
+
+https://github.com/azriel91/peace
+https://peace.mk/
+
+
+With the interest in software supply chain security=2C people are increasi=
+ngly interested in the health and sustainability of their upstream depende=
+ncies. Augur might be an interesting project to explore. Part of the CHAOS=
+S project.
+
+https://github.com/chaoss/augur
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
