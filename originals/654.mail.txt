@@ -1,0 +1,91 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#654?=
+Date: Sun,  9 Jul 2023 10:07:02 +0000
+
+DEVOPS WEEKLY
+ISSUE #654 - 9th July 2023
+
+A big mix of posts on Detection engineering=2C new security guidelines for=
+ AWS=2C open source search engines=2C build tools and more this week.
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] How to Shift Left: People=2C Process=2C Technology webinar is now=
+ available on YouTube. Watch on-demand for expert tips on implementing a s=
+hift-left practice at your organization.
+
+https://sthwk.com/how-shift-left-YT
+
+
+News
+=3D=3D=3D=3D
+
+An interesting=2C if deep=2C post on detection engineering paradigms. Look=
+ing at Pyramid of Pain=2C Atkinson=E2=80=99s Endpoint Procedure Decomposit=
+ion and MITRE ATT&CK.
+
+https://medium.com/@gary.j.katz/the-relationships-between-detection-engine=
+ering-paradigms-f1ccd5685e23
+
+
+A quick rundown of what=E2=80=99s new in the latest CIS benchmark for AWS.
+
+https://steampipe.io/blog/cis-v20-aws-benchmark
+
+
+I=E2=80=99m a big Make fan. This post has a bunch of handy tricks for writ=
+ing more powerful Makefiles for Python projects.
+
+https://ricardoanderegg.com/posts/makefile-python-project-tricks
+
+
+A nifty list of (mainly) open source search engines beyond the big names y=
+ou=E2=80=99re probably familiar with.
+
+https://sematext.com/blog/elasticsearch-opensearch-solr-alternatives/
+
+
+A proposal for a static description of a Kubernetes cluster=2C called a KB=
+OM. Don=E2=80=99t worry=2C this isn=E2=80=99t a new standard. In fact it=
+=E2=80=99s implemented using CycloneDX.
+
+https://blog.aquasec.com/introducing-kbom-kubernetes-bill-of-materials
+
+
+A look at Rio=2C a new GPU-accelerated terminal application that can run n=
+atively as well as in the browser.
+
+https://medium.com/@raphamorim/rio-terminal-a-native-and-web-terminal-appl=
+ication-powered-by-rust-webgpu-and-webassembly-76d03a8c99ed
+https://github.com/raphamorim/rio
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Xeol is a tool for detecting end of life packages=2C from container images=
+=2C source and SBOMs.
+
+https://github.com/xeol-io/xeol
+
+
+Skypilot is a specialised framework for running LLMs=2C AI=2C and batch jo=
+bs on cloud infrastructure. Optimised for managing GPU fleets and cost-eff=
+iciency.
+
+https://github.com/skypilot-org/skypilot
+https://skypilot.readthedocs.io/en/latest/
+
+
+Bingo is billed as =E2=80=9Cgo get=2C but for binaries=E2=80=9D. It=E2=80=
+=99s a Go specific tool used to install specific versions of Go executable=
+s=2C ideal for reproducible development environments.
+
+https://github.com/bwplotka/bingo
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
