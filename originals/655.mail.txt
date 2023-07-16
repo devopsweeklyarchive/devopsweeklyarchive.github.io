@@ -1,0 +1,90 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#655?=
+Date: Sun, 16 Jul 2023 09:45:49 +0000
+
+DEVOPS WEEKLY
+ISSUE #655 - 16th July 2023
+
+A mix of topics this week=2C with DevopsDays coverage=2C a few posts each=
+ on both monitoring and Kubernetes=2C and tools for managing your CLI tool=
+s and implementing software supply chain security.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Bridge the gap between security and development teams by sharing valuable=
+ context on common web application threats. Check out 5 common threats to=
+ address together here:
+
+https://sthwk.com/common-web-threats
+
+
+News
+=3D=3D=3D=3D
+
+DevopsDays is still going strong. Here are notes from the recent DevopsDay=
+s Amsterdam=2C covering hands-on workshops=2C talks on sociotechnical syst=
+ems=2C survivorship bias and the open spaces.
+
+https://engineering.silverfin.com/devopsdays-amsterdam-2023/
+
+
+A look at the status of API Gateways for Kubernetes. A bit of historical c=
+ontext=2C the role of an API gateway=2C and thoughts on standardisation ar=
+ound envoy.
+
+https://wso2.com/library/blogs/the-future-of-api-gateways-on-kubernetes/
+
+
+Static websites are popular for lots of reasons=2C but how best to monitor=
+ one? Lots of good practice here for websites in general=2C especially tho=
+se with a build process and CDN.
+
+https://www.datadoghq.com/blog/static-web-application-monitoring-best-prac=
+tices/
+
+
+A monitoring post=2C on the pyramid of alerting. Infrastructure/operationa=
+l to data to semantic/business alerts.
+
+https://dev.to/karelvandenbussche/the-pyramid-of-alerting-1g48
+
+
+Some optimisation tips for workloads running on OpenShift/Kubernetes. Cove=
+rs node selectors=2C affinity=2C taints and toleration.
+
+https://medium.com/@GranulateIntel/advanced-optimization-techniques-for-re=
+d-hat-openshift-6b8884efd329
+
+
+A reminder that cloud native capabilities=2C in this case autoscaling=2C a=
+re useful for many use cases but not all=2C and assumptions in the cloud o=
+ften lead to surprise costs.
+
+https://www.infoworld.com/article/3702111/downsides-to-using-cloud-autosca=
+ling-systems.html
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Aqua is a declarative CLI version manager. Specify CLI tools in a config f=
+ile=2C and then install with a command=2C or use the lazy install feature=
+ to install when first run.
+
+https://aquaproj.github.io/
+
+
+Macaron is a supply chain analysis tool=2C aimed at helping with the imple=
+mentation of the SLSA supply chain security framework. It currently suppor=
+ts Maven=2C Gradle and Python based projects.
+
+https://github.com/oracle/macaron
+https://oracle.github.io/macaron/
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
