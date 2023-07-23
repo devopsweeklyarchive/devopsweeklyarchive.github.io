@@ -1,0 +1,94 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#656?=
+Date: Sun, 23 Jul 2023 07:48:35 +0000
+
+DEVOPS WEEKLY
+ISSUE #656 - 23rd July 2023
+
+Infrastructure as Code=2C several posts on platform engineering=2C the sta=
+te of APIs=2C SBOM adoption hurdles=2C tools and the upcoming Devops Days=
+ London event.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Bridge the gap between security and development teams by sharing valuable=
+ context on common web application threats. Check out 5 common threats to=
+ address together here:
+
+https://sthwk.com/common-web-threats
+
+
+News
+=3D=3D=3D=3D
+
+A big thinking post on infrastructure as code=2C proposing a new approach=
+ based on traits inspired by how CSS is applied to HTML.
+
+https://nathanpeck.com/rethinking-infrastructure-as-code-from-scratch
+
+
+A post looking at how to ensure platform and product teams work well toget=
+her=2C by aligning around business metrics and using incidents as a learni=
+ng opportunity.
+
+https://firehydrant.com/blog/align-platform-and-product-engineering-teams-=
+over-incidents/
+
+
+SBOM adoption is contentious=2C and spans technical and policy circles. Th=
+is post is looking at some of the trade body concerns and the current stat=
+e of tooling.
+
+https://dfrlab.org/2023/07/19/why-do-sbom-haters-hate/
+
+
+A new report on the state of APIs=2C based on a survey of 40=2C000 develop=
+ers. Adoption of AI in API development=2C API security=2C staffing=2C mone=
+tisation and more.
+
+https://www.postman.com/state-of-api/
+
+
+A discussion of opinionated infrastructure and platform engineering. The i=
+mportance of golden paths and guardrails=2C and some discussion of the imp=
+ortance of frictionless onboarding.
+
+https://redmonk.com/videos/opinionated-infrastructure-platform-engineering=
+-for-productivity-golden-paths-and-guardrails/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays London is back=2C on September 21st - 22nd. The usual good mix=
+ of talks=2C lighting talks and open spaces. The organisers have kindly pr=
+ovided a 20% discount for readers too.
+
+https://devopsdays.org/events/2023-london/welcome/
+https://ti.to/devopsdays-london/2023/discount/DODL23_DEVOPSWEEKLY
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Beet is a powerful tool for generating tests for REST APIs=2C based on ana=
+lysing an OpenAPI specification and sample requests and responses. Interes=
+ting examples in the README.
+
+https://github.com/isa-group/Beet
+
+
+Fleek is a tool for managing local tooling in your home directory. It=E2=
+=80=99s a high level interface around Nix=2C abstracting away the usual co=
+mplexity and focusing on a specific use case.
+
+https://getfleek.dev/
+https://github.com/ublue-os/fleek
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
