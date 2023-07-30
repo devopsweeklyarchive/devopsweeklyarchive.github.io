@@ -1,0 +1,86 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#657?=
+Date: Sun, 30 Jul 2023 08:19:52 +0000
+
+DEVOPS WEEKLY
+ISSUE #657 - 30th July 2023
+
+SBOM discussion and tooling=2C platform teams=2C integration tests for inf=
+rastructure as code=2C service level objectives and more this week. Plus a=
+nother stalwart of the DevopsDays events coming up on its 9th anniversary=
+ in Chicago. Congrats to the organisers.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Headed to Black Hat 2023? Stop by booth 2751 to learn how StackHawk's DAST=
+ solutions could align with your security initiatives. Let us know if you'=
+ll be there!
+
+https://sthwk.com/Black-Hat-2023
+
+
+News
+=3D=3D=3D=3D
+
+Good advice to platform or operations teams supporting teams with differen=
+t maturity level=2C including focusing on making the happy path easy=2C id=
+entifying the 80% use cases that are common and providing fast value.
+
+https://medium.com/@hans.knechtions/supporting-teams-with-different-maturi=
+ty-levels-c43f5b5080eb
+
+
+A post on writing and running integration tests for CDK. A generally appli=
+cable topic for any cloud orchestration or infrastructure as code setup.
+
+https://aws.amazon.com/blogs/devops/how-to-write-and-execute-integration-t=
+ests-for-aws-cdk-applications/
+
+
+A recent podcast episode=2C along with a transcript=2C discussing the stat=
+e of SBOM adoption and some of the interstate from the US government.
+
+https://dabom.show/allan-friedman/
+
+
+A look at Sloth and Pyrra=2C two tools for managing service level objectiv=
+es with Kubernetes integration and accompanying dashboards.
+
+https://medium.com/@dotdc/service-level-objectives-made-easy-with-sloth-an=
+d-pyrra-4adefe2572cf
+
+
+A handy opinionated set of checklists for SRE. Covering new team members=
+=2C responsibilities of an SRE leader=2C setting team goals and more.
+
+https://github.com/bregman-arie/sre-checklist
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DevopsDays Chicago is coming up in just over a week=2C with the mix of in-=
+depth talks=2C ignites and open space discussions. A great looking mix of=
+ talks on threat modelling=2C organisational politics=2C open telemetry an=
+d lots more.
+
+https://chicago-tickets.devopsdays.org/2023/redeem?voucher=3DDEVOPS-WEEKLY
+https://devopsdays.org/events/2023-chicago/welcome/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+An interesting looking experimental project=2C bombshell is a shell for qu=
+erying SBOM data=2C using the Common Expression Language.
+
+https://github.com/chainguard-dev/bomshell
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
