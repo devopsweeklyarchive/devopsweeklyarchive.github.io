@@ -1,0 +1,93 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#658?=
+Date: Sun,  6 Aug 2023 08:26:10 +0000
+
+DEVOPS WEEKLY
+ISSUE #658 - 6th August 2023
+
+In-depth posts on graph databases and ChatGTP function calling=2C along wi=
+th posts on building an SRE team=2C observability=2C CI configuration and=
+ more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Headed to Black Hat 2023? Stop by booth 2751 to learn how StackHawk's DAST=
+ solutions could align with your security initiatives. Let us know if you'=
+ll be there!
+
+https://sthwk.com/Black-Hat-2023
+
+
+News
+=3D=3D=3D=3D
+
+A comprehensive post on graph databases=2C testing several leading candida=
+tes=2C looking at ingestion speed=2C query performance=2C client compatibi=
+lity and lots more.
+
+https://mihai.page/testing-graph-databases/
+
+
+Some tips on building a successful SRE team=2C from focusing on developer=
+ training to building the right abstractions=2C and from optimising for se=
+lf-service to automating yourself out of a job.
+
+https://medium.com/@hans.knechtions/building-a-successful-sre-team-283232b=
+c2694
+
+
+A post considering the security issues raised by improved observability=2C=
+ noting anonymisation and aggregation as two tools to help.
+
+https://medium.com/@joshuajrau/the-dark-side-of-observability-are-we-invit=
+ing-cyber-attacks-a4a00ebc46d6
+
+
+A look at one company's approach to solving observability challenges=2C lo=
+oking at APM=2C exception tracking and custom tooling to help build a good=
+ user experience.
+
+https://greenlight-engineering.medium.com/from-blind-spots-to-clear-insigh=
+ts-the-evolution-of-observability-tools-and-practices-at-225e5f87faf
+
+
+An introduction to function calling in ChatGPT=2C building a simple (but p=
+owerful) conversational interface in Python.
+
+https://semaphoreci.com/blog/function-calling
+
+
+Expiring SSL certificates is an all-too-common problem=2C and worth settin=
+g up monitoring to avoid. This post looks at a wide range of services to h=
+elp.
+
+https://sematext.com/blog/ssl-certificate-monitoring/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Wolfi-act is a new tool that aims to make managing software used in GitHub=
+ Actions easier=2C installing packages from Wolfi based on a declarative c=
+onfiguration.
+
+https://www.chainguard.dev/unchained/wolfi-act-dynamic-github-actions-from=
+-wolfi-packages
+https://github.com/wolfi-dev/wolfi-act
+
+
+jless is a handy command line tool for reading=2C exploring and searching=
+ through JSON data.
+
+https://jless.io/
+https://github.com/PaulJuliusMartinez/jless
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
