@@ -1,0 +1,89 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#659?=
+Date: Sun, 13 Aug 2023 08:01:40 +0000
+
+DEVOPS WEEKLY
+ISSUE #659 - 13th August 2023
+
+Distributed systems=2C incident management and reliability culture=2C Open=
+Telemetry=2C databases and more. A good mix this week of super technical p=
+osts and more people and process focused content.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Bridge the gap between security and development teams by sharing valuable=
+ context on common web application threats. Check out 5 common threats to=
+ address together here:
+
+https://sthwk.com/common-web-threats
+
+
+News
+=3D=3D=3D=3D
+
+How do you build a culture of reliability? This post looks at the introduc=
+tion of a single metric to drive conversations=2C called a Service Deliver=
+y Index.
+
+https://slack.engineering/service-delivery-index-a-driver-for-reliability/
+
+
+How best to organise teams for incident management? This post looks at cen=
+tralised vs distributed structures and the pros and cons of each.
+
+https://firehydrant.com/blog/exploring-distributed-vs-centralized-incident=
+-command-models/
+
+
+A nice walkthrough of instrumenting an application with OpenTelemetry. The=
+ example is in Go=2C but the introduction does a good example of explainin=
+g the fundamentals.
+
+https://tripathy-sibaprasad.medium.com/opentelemetry-a-beginners-handbook-=
+to-instrument-your-application-861f40f2b4d8
+
+
+PostgreSQL can be used for a wide range of sometimes surprising database n=
+eeds. This post explains how to store graph data in Postres.
+
+https://www.dylanpaulus.com/posts/postgres-is-a-graph-database/
+
+
+How do you make the business case for investing in a new tool? Given the c=
+urrent financial situation in many companies=2C this is likely a more rigo=
+rous process today than before.
+
+https://liblab.com/blog/how-to-convince-management-to-invest-in-tools-you-=
+need
+
+
+As your application grows=2C invariably you run into data management issue=
+s. This long post is a good primer on why=2C starting with ACID and descri=
+bing the challenges with distributed transactions and multiple datastores.
+
+https://wso2.com/whitepapers/transactions-in-a-microservice-world/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Travelgrunt is an interesting tool for navigating a Terraform/Terragrunt m=
+onorepo. It=E2=80=99s a replacement for cd=2C providing shell aliases to m=
+ake moving around much quicker and more intuitive.
+
+https://github.com/ivanilves/travelgrunt
+
+
+Protobom is a new project providing a protobuf description of a SBOM=2C ai=
+ming to facilitate easier conversation between existing SBOM formats.
+
+https://github.com/bom-squad/protobom
+https://www.chainguard.dev/unchained/can-protobom-end-the-sbom-format-wars
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
