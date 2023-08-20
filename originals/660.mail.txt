@@ -1,0 +1,96 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#660?=
+Date: Sun, 20 Aug 2023 07:53:23 +0000
+
+DEVOPS WEEKLY
+ISSUE #660 - 20th August 2023
+
+Several posts this week on the Terraform licence change=2C covering the sp=
+ectrum of opinions. Plus posts on attestation framework=2C actions from in=
+cident management=2C monitoring CoreDNS and more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[Aug. 31 @ 10 AM PT] StackHawk Office Hours: GitHub Insights. Unify devel=
+oper tooling with StackHawk and GitHub=E2=80=94Automate security testing i=
+n familiar developer workflows to increase productivity and collaboration.
+
+https://sthwk.com/office-hours-aug
+
+
+News
+=3D=3D=3D=3D
+
+A three part series on incident management=2C and in particular the differ=
+ent actions we might decide to take following an incident.
+
+https://medium.com/@jpaulreed/a-spectrum-of-actions-part-i-d768c56ed5f7
+https://medium.com/@jpaulreed/a-spectrum-of-actions-part-ii-a4cad1acd952
+https://medium.com/@jpaulreed/a-spectrum-of-actions-part-iii-f242b5d25d90
+
+
+Terraform=2C and other Hashicorp tools=2C are changing their licence terms=
+=2C adopting the BSL and moving away from the open source MPL licence.
+
+https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license
+
+
+With the changes to Terraform=E2=80=99s licence=2C lots of folks are think=
+ing about what this means for them? This post takes the view of a CTO and=
+ breaks down a few areas of interest.
+
+https://www.scalefactory.com/blog/2023/08/16/what-saas-ctos-need-to-know-a=
+bout-the-terraform-licence-change/
+
+
+Some in the Terraform community are looking at what they can do=2C with a=
+ proposal for a fork under a new open source foundation if the change goes=
+ through.
+
+https://opentf.org/
+https://blog.gruntwork.io/the-future-of-terraform-must-be-open-ab0b9ba65bc=
+a
+
+
+Running CoreDNS? This set of posts is a good review of the metrics you sho=
+uld be caring about=2C and how to monitor them.
+
+https://www.datadoghq.com/blog/coredns-metrics/
+https://www.datadoghq.com/blog/coredns-monitoring-tools/
+
+
+Cold start times are still a topic of discussion for serverless applicatio=
+ns. This post discusses using AWS Lambda and API Gateway to debug problems=
+=2C using a Node application example.
+
+https://www.technoblather.ca/aws-lambda-nodejs-debug-apigw-cold-start-time=
+out/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Amplification is an opinionated platform for building Node.js apps. It=E2=
+=80=99s intended to remove a lot of repeated work on application infrastru=
+cture=2C generating APIs=2C tools for data modelling and more.
+
+https://github.com/amplication/amplication
+https://amplication.com/
+
+
+TACOS is a framework for attesting to the development practices of open so=
+urce projects. It=E2=80=99s intended to solve some of the requirements in=
+ the NIST Secure Software Development Framework (SSDF).
+
+https://tacosframework.dev
+https://github.com/tacosframework/TACOS-spec
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
