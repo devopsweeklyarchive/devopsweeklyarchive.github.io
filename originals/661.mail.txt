@@ -1,0 +1,84 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#661?=
+Date: Sun, 27 Aug 2023 09:14:48 +0000
+
+DEVOPS WEEKLY
+ISSUE #661 - 27th August 2023
+
+A wide mix of topics this week=2C from learning from incidents to agile au=
+diting and software supply chain tooling to LLMs and more. Enjoy.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[Aug. 31 @ 10 AM PT] StackHawk Office Hours: GitHub Insights. Unify devel=
+oper tooling with StackHawk and GitHub=E2=80=94Automate security testing i=
+n familiar developer workflows to increase productivity and collaboration.
+
+https://sthwk.com/office-hours-aug
+
+
+News
+=3D=3D=3D=3D
+
+Good advice for junior (or really any) engineers working in larger compani=
+es; attend retrospectives and spend time learning from incidents.
+
+https://mikelvu.medium.com/how-to-learn-from-incidents-and-propel-your-eng=
+ineering-career-e9f353f86371
+
+
+An introduction to Enterprise Contract=2C a higher level tool for verifyin=
+g software supply chain artefact details built on top of sigstore and open=
+ policy agent.
+
+https://enterprisecontract.dev/posts/introducing-the-enterprise-contract/
+https://enterprisecontract.dev/posts/a-taste-of-policies/
+
+
+A nice introduction to the Wing programming language=2C designed specifica=
+lly for cloud development by making cloud services first class primitives=
+ in the language itself.
+
+https://www.youtube.com/watch?v=3DwzqCXrsKWbo
+
+
+Software audits=2C of various types=2C are generally seen as anathema to a=
+gile software development. A new book on agile auditing tries to change th=
+at perception and this post has a short review.
+
+https://hennyportman.wordpress.com/2023/08/17/review-beyond-agile-auditing=
+/
+
+
+Measuring the performance of web applications is surprisingly tricky=2C wi=
+th lots of nuance between browsers=2C location and other factors. This pos=
+t provides a quick introduction.
+
+https://sematext.com/blog/measure-website-speed/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+SBOMit is a new project aiming to extend the SBOM concept to also capture=
+ development details like version control usage=2C build process=2C unit t=
+esting=2C dependencies used=2C fuzzing=2C licence compliance checks=2C pac=
+kaging=2C etc.
+
+https://sbomit.dev/
+https://github.com/SBOMit/specification
+
+
+SQLCoder is a LLM for converting natural language questions to SQL queries=
+=2E Open source code and weights under a CC BY-SA licence. Lots of interesti=
+ng data exploration interfaces are coming I feel.
+
+https://github.com/defog-ai/sqlcoder
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
