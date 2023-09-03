@@ -1,0 +1,79 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#662?=
+Date: Sun,  3 Sep 2023 07:58:25 +0000
+
+DEVOPS WEEKLY
+ISSUE #662 - 3rd September 2023
+
+The State of Devops report is back=2C along with posts on problems measuri=
+ng latency=2C event-driven architecture=2C measuring developer productivit=
+y and serverless adoption.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[Sept. 5] Join StackHawk at Developer and Security are Friends Day in Aus=
+tin=2C Texas. Free full-day training for folks interested in application=
+=2C product=2C and cloud security! Learn more and register here:
+
+https://sthwk.com/dev-security-friends-day
+
+
+News
+=3D=3D=3D=3D
+
+The State of Devops report is back=2C this year exploring what are the cor=
+e values and processes that create successful platform engineering teams.
+
+https://www.puppet.com/blog/state-devops-report-2024
+https://repdata.decipherinc.com/survey/selfserve/53b/230809
+
+
+An interesting post on measuring developer productivity=2C and the tyranny=
+ of incentives. A response to a recent proposal from McKinsey.
+
+https://newsletter.pragmaticengineer.com/p/measuring-developer-productivit=
+y
+
+
+A solid introduction to event driven architecture=2C explaining the basic=
+ concepts in detail.
+
+https://wso2.com/blogs/thesource/exploring-event-driven-architecture-a-beg=
+inners-guide-for-cloud-native-developers/
+
+
+What=E2=80=99s the problem with using P99 for measuring latency? This post=
+ delves into that question and makes a number of interesting observations.
+
+https://thenewstack.io/if-p99-latency-is-bs-whats-the-alternative/
+
+
+An interesting set of interviews with people working in SRE.
+
+https://www.srestories.dev/
+
+
+Some stats on serverless adoption in major cloud environments=2C pulled fr=
+om a recent report using telemetry data.
+
+https://theserverlessedge.com/8-new-facts-to-consider-in-the-serverless-v-=
+containers-debate/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+The OWASP Top Ten is probably familiar to lots of readers=2C but the incub=
+ating OWASP Kubernetes Top Ten might not be. The top security risks to add=
+ress when running Kubernetes.
+
+https://owasp.org/www-project-kubernetes-top-ten/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
