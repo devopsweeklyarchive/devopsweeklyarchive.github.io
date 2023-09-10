@@ -1,0 +1,99 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#663?=
+Date: Sun, 10 Sep 2023 12:15:55 +0000
+
+DEVOPS WEEKLY
+ISSUE #663 - 10th September 2023
+
+Reliability=2C secure AI=2C service mesh adoption and prompt engineering t=
+esting tools amongst other hopefully interesting topics this week.And if y=
+ou=E2=80=99re in London=2C make sure to head to Devopsdays London in a few=
+ short weeks time.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Bridge the gap between security and development teams by sharing valuable=
+ context on common web application threats. Check out 5 common threats to=
+ address together here:
+
+https://sthwk.com/common-web-threats
+
+
+News
+=3D=3D=3D=3D
+
+A talk from the GoTo conference=2C all about real world reliability and to=
+ols like SLOs that can be applied to improve things.
+
+https://www.youtube.com/watch?v=3Des3DNd5Qipg
+
+
+The adoption of new technologies and techniques changes the thread model f=
+or an organisation. With AI=2C that change is both broad and happening ver=
+y quickly. SAIF is a framework for helping adopt best practices as we know=
+ them today to secure AI usage and development.
+
+https://blog.google/technology/safety-security/introducing-googles-secure-=
+ai-framework/
+
+
+A detailed case study looking at the adoption of service mesh at scale=2C=
+ including on-demand cluster discovery and what it took to migrate a large=
+ existing system.
+
+https://netflixtechblog.com/zero-configuration-service-mesh-with-on-demand=
+-cluster-discovery-ac6483b52a51
+
+
+Understanding edge networking is increasingly useful if you find yourself=
+ scaling up a system or working on something with lots of users and traffi=
+c. A good technical introduction post about packet flow.
+
+https://slack.engineering/traffic-101-packets-mostly-flow/
+
+
+An attempt to demystify local balancers=2C reverse proxies and API gateway=
+s via analogy.
+
+https://dev.to/aws-builders/load-balancer-reverse-proxy-and-api-gateway-an=
+alogies-to-real-life-scenarios-54el
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Devopsdays London is coming up soon=2C on September 21st and 22nd. The usu=
+al mix of talks and open spaces=2C covering the cost of observability=2C p=
+sychological safety=2C infrastructure migration and more.
+
+https://devopsdays.org/events/2023-london/welcome/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Promtfoo is an interesting looking tool for introducing testing into promp=
+t engineering. Useful for testing alternative models=2C or avoiding regres=
+sions as models evolve.
+
+https://github.com/promptfoo/promptfoo
+https://www.promptfoo.dev/
+
+
+Triton is a language and compiler for writing highly efficient custom Deep=
+-Learning primitives. The aim of Triton is to provide an open-source envir=
+onment to write fast code at higher productivity than CUDA=2C but also wit=
+h higher flexibility than other existing DSLs.
+
+https://openai.com/research/triton
+https://triton-lang.org/main/index.html
+https://github.com/openai/triton
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
