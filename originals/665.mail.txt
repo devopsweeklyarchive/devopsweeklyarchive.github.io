@@ -1,0 +1,89 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#665?=
+Date: Sun, 24 Sep 2023 08:31:11 +0000
+
+DEVOPS WEEKLY
+ISSUE #665 - 24th September 2023
+
+A few posts on CI tooling this week=2C along with a good introduction to d=
+eveloper portals/platforms and other topics.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Experience automated security testing without the hassle of connecting you=
+r own app or configuring an environment! Follow the Tutorial to try out St=
+ackHawk and explore a world where security becomes an accelerator=2C not a=
+ blocker
+
+https://sthwk.com/tutorial
+
+
+News
+=3D=3D=3D=3D
+
+A good critical review of GitHub Actions=2C discussing some interesting se=
+curity challenges=2C slow debugging cycles=2C the third party ecosystem an=
+d more=2C including suggestions for improvements.
+
+https://blog.yossarian.net/2023/09/22/GitHub-Actions-could-be-so-much-bett=
+er
+
+
+An interesting guide to developer portals. From a particular vendor=2C but=
+ much of the guidance is general here=2C covering scorecards=2C service ca=
+talogues=2C self-service automation and more.
+
+https://www.getport.io/guide
+
+
+A detailed introductory post on scaling Kafka=2C covering people processes=
+ for onboarding topics=2C as well as configuration management=2C monitorin=
+g=2C security and more.
+
+https://medium.com/paypal-tech/scaling-kafka-to-support-paypals-data-growt=
+h-a0b4da420fab
+
+
+A look at right sizing Kubernetes cluster nodes=2C including a description=
+ of how CPU and memory are used by the Kubelet.
+
+https://www.linode.com/blog/kubernetes/how-to-right-size-a-kubernetes-clus=
+ter-for-efficiency/
+
+
+An introduction to Jenkins=2C covering setup and installation and the basi=
+cs of Jenkinsfile.
+https://medium.com/@arogbonloisaac/streamlining-software-delivery-with-jen=
+kins-a-hands-on-guide-part-1-da4b95e3193c
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Odin is a data-oriented programming language intended for modern systems p=
+rogramming=2C as an alternative to C.
+
+https://odin-lang.org/
+
+
+SeaGOAT is a local search engine for your source code. But one that uses a=
+ local LLM and a vector database to support more powerful searches.
+
+https://kantord.github.io/SeaGOAT/
+https://github.com/kantord/SeaGOAT
+
+
+A small service for using Package URL (purl) to redirect to the package pa=
+ge on the relevant package management service.
+
+https://github.com/hritik14/purl.fyi
+https://purl.fyi/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
