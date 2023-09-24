@@ -1,0 +1,104 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#664?=
+Date: Sun, 17 Sep 2023 09:00:02 +0000
+
+DEVOPS WEEKLY
+ISSUE #664 - 17th September 2023
+
+Several posts this week on the future of devops=2C and a call for a new ge=
+neration of tools that don=E2=80=99t just build on what has come before.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[September 20] Join StackHawk at gRPC Conf 2023 to learn about API securi=
+ty testing with Protobuf reflection + more great sessions from the custome=
+rs=2C project leads=2C and contributors that make up the gRPC ecosystem. R=
+egister here:
+
+https://sthwk.com/grpc-conf-2023
+
+
+News
+=3D=3D=3D=3D
+
+A passionate call for a second wave of devops tools to fulfil the promise=
+ of the movement. Some good observations here about what=E2=80=99s changed=
+ over the last 10+ years=2C and what hasn=E2=80=99t.
+
+https://www.systeminit.com/blog-second-wave-devops/
+
+
+A bit of a companion to the above post=2C a conversation on the same topic=
+ of what devops has got right=2C what we=E2=80=99ve got wrong and where we=
+ can go from here.
+
+https://www.arresteddevops.com/the-new-devops/
+
+
+And another follow on. This post runs with the ideas from the above posts=
+=2C and highlights several companies and projects that are building in thi=
+s area.
+
+https://www.opencontext.com/blog/threads-of-the-next-wave-of-devops
+
+
+A useful new guide to configuring source code management systems securely=
+=2C with specific recommendations for GitHub and GitLab as well as general=
+ guidance.
+
+https://openssf.org/blog/2023/09/14/openssf-releases-source-code-managemen=
+t-best-practices-guide/
+https://best.openssf.org/SCM-BestPractices/
+
+
+A discussion of the adoption of backstage at Spotify=2C and the challenges=
+ of adoption in general of a developer platform.
+
+https://thenewstack.io/how-spotify-achieved-a-voluntary-99-internal-platfo=
+rm-adoption-rate/
+
+
+A good counter argument to anyone who claims you can=E2=80=99t adopt moder=
+n software practices in a heavily regulated environment.
+
+https://speakerdeck.com/charity/compliance-and-regulatory-standards-are-no=
+t-incompatible-with-modern-development-best-practices
+
+
+Interesting visualisations of breach data from large=2C well known=2C secu=
+rity breaches. Both the timeline and sensitivity view provide some underst=
+anding of the scale of the problem.
+
+https://informationisbeautiful.net/visualizations/worlds-biggest-data-brea=
+ches-hacks/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The AWS Community Summit is a full day=2C 3-track AWS conference held in t=
+he heart of Manchester=2C at the Victoria Warehouse on Thursday=2C Septemb=
+er 28th. With 28 talks and workshops covering a range of AWS focussed topi=
+cs=2C including Serverless=2C GenAI=2C ML=2C FinOps=2C Security=2C Develop=
+er Tooling=2C Migrations and App Modernisation. DevOps weekly subscribers=
+ can use the code TWENTYOFF to access early bird pricing of just =C2=A330.
+
+https://www.comsum.co.uk/manchester-23
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A set of lessons aimed at anyone learning LLM and generative AI concepts=
+=2C with sections on operations and security=2C as well as development.
+
+https://github.com/jedi4ever/learning-llms-and-genai-for-dev-sec-ops
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
