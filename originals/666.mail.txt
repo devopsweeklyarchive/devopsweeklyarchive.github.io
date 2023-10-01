@@ -1,0 +1,102 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#666?=
+Date: Sun,  1 Oct 2023 06:58:33 +0000
+
+DEVOPS WEEKLY
+ISSUE #666 - 1st October 2023
+
+A bit of an observability and security theme this week=2C with posts on co=
+mbining observability with security=2C threat modelling=2C incident review=
+s and open source observability platforms.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Experience automated security testing without the hassle of connecting you=
+r own app or configuring an environment! Follow the Tutorial to try out St=
+ackHawk and explore a world where security becomes an accelerator=2C not a=
+ blocker
+
+https://sthwk.com/tutorial
+
+
+News
+=3D=3D=3D=3D
+
+Operating databases at scale in distributed systems is hard=2C with lots o=
+f subtle failure conditions. This detailed incident report is filled with=
+ lots of advice on both incident response=2C good observability and system=
+s design.
+
+https://www.honeycomb.io/incident-review-what-comes-up-must-first-go-down
+
+
+A post on the benefits of using observability tooling for security use cas=
+es=2C covering teamwork=2C response times=2C predicting threats and more.
+
+https://medium.com/eteam/how-to-combine-observability-driven-development-a=
+nd-security-64e4b0ca745e
+
+
+A useful post discussing threat modelling and showing a threat model for s=
+oftware supply chain security problems.
+
+https://openssf.org/blog/2023/09/27/threat-modeling-the-supply-chain-for-s=
+oftware-consumers/
+
+
+I=E2=80=99m a big Open Policy Agent fan=2C and a fan of the Rego policy la=
+nguage=2C but it does require learning a logic programming language that m=
+ight be unfamiliar to some. Hence this post is likely useful=2C looking at=
+ how to express Or=2C but covering a bunch of language idioms at the same=
+ time.
+
+https://www.styra.com/blog/how-to-express-or-in-rego/
+
+
+A good introduction to the role of the API Gateway=2C and in particularly=
+ looking at standardisation in the Kubernetes ecosystem.
+
+https://wso2.com/library/blogs/the-api-gateway-and-the-future-of-cloud-nat=
+ive-applications/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Kubernetes Community Days UK is returning in-person in London on 17th and=
+ 18th October. An agenda that covers a wide range of talks (on technical t=
+opics as well as people=2C process and a bit of history)=2C workshops and=
+ lighting talks. The organisers have kindly offered 25% off tickets as wel=
+l.
+
+https://ti.to/open-source-events/kcduk2023/discount/KCDUK23_DEVOPS_25
+https://kcduk.io
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+HyperX is an open source observability platform=2C centralising and correl=
+ating logs=2C metrics=2C traces=2C exceptions and session replays in one p=
+lace.
+
+https://github.com/hyperdxio/hyperdx
+https://www.hyperdx.io/
+
+
+An open source book for anyone learning Typescript. The Concise TypeScript=
+ Book is available online and as an epub=2C and as the title suggests is g=
+reat primer to anyone getting started quickly.
+
+https://github.com/gibbok/typescript-book
+
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
