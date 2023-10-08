@@ -1,0 +1,104 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#667?=
+Date: Sun,  8 Oct 2023 08:20:34 +0000
+
+DEVOPS WEEKLY
+ISSUE #667 - 8th October 2023
+
+Lots and lots of tools this week=2C with API and observability platforms a=
+nd new infrastructure as code tooling. Plus posts on tools facilitating co=
+llaboration=2C developer (team) productivity and LLMs for ops teams.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[Oct 26] Don=E2=80=99t let the idea of =E2=80=9Cshifting left=E2=80=9D sp=
+ook you! Join AppSec leaders from StackHawk and Snyk for tricks and treats=
+ on how to shift security left the right way. Register here
+
+https://sthwk.com/shift-left-the-right-way
+
+
+News
+=3D=3D=3D=3D
+
+A good post looking at why measuring team productivity=2C rather than indi=
+vidual developer productivity=2C is more useful and can avoid unintended c=
+onsequences of resulting incentives.
+
+https://thenewstack.io/software-delivery-enablement-not-developer-producti=
+vity/
+
+
+An interesting discussion=2C asking whether the improved infrastructure ma=
+nagement tools have really led to better collaboration. Touches on digital=
+ twins and model-driven development approaches.
+
+https://www.infoq.com/podcasts/adam-jacob-devops-modelling-infrastructure/
+
+
+There are lots of opportunities to use LLMs to improve operations. This vi=
+deo covers several real-world examples and has some good ideas to integrat=
+e into your workflows.
+
+https://www.youtube.com/watch?v=3DqW1I6q-4vFg
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+Networking is still sometimes treated separately when it comes to devops i=
+nitiatives. Lots of good talks then on changing that at the NetDevOps Days=
+ event in New York coming up on October 26th.
+
+https://netboxlabs.com/events/netdevops-days-new-york/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+OpenTofu is the much discussed open source fork of Terraform=2C created in=
+ response to the Terraform licence changes. The last week has seen the fir=
+st alpha releases become available.
+
+https://opentofu.org/
+https://github.com/opentofu/opentofu
+
+
+Terramate is a tool for writing and maintaining infrastructure as code=2C=
+ making use of code generation and higher-level orchestration. Focused on=
+ Terraform today but intended to be generic.
+
+https://github.com/terramate-io/terramate
+
+
+Unkey is an open source API management platform=2C focused on flexible key=
+ management facilitating rate limiting=2C API analytics=2C time-limited ac=
+cess and more.
+
+https://github.com/unkeyed/unkey
+https://unkey.dev/
+
+
+Hopscotch is another open source API management platform=2C focused more o=
+n the local developer experience. A rich GUI app=2C along with proxy and C=
+LI tools.
+
+https://hoppscotch.com/
+https://github.com/hoppscotch/hoppscotch
+
+
+SigNoz is an open source observability platform=2C providing APM=2C logs=
+=2C metrics=2C exceptions=2C alerts=2C and dashboards powered by a powerfu=
+l query builder.
+
+https://signoz.io/
+https://github.com/signoz/signoz
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
