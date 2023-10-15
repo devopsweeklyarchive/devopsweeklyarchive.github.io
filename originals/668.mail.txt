@@ -1,0 +1,96 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#668?=
+Date: Sun, 15 Oct 2023 12:34:06 +0000
+
+DEVOPS WEEKLY
+ISSUE #668 - 15th October 2023
+
+Posts this week covering alert design=2C eBPF usage=2C LLM operations=2C n=
+ew tools for secrets management and for instrumentation=2C and the latest=
+ DORA State of Devops report.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Discover how StackHawk and GitHub are reshaping the way we secure web appl=
+ications and APIs with developer-first functionality. Learn more:
+
+https://sthwk.com/stackhawk-github-blog
+
+
+News
+=3D=3D=3D=3D
+
+Hints and tips for effective observability=2C looking mainly at good alert=
+ design.
+
+https://medium.com/@letathenasleep/alerting-the-dos-and-don-ts-for-effecti=
+ve-observability-139db9fb49d1
+
+
+A post on using open source LLM models=2C in particular focused on enginee=
+ring for performance=2C including details of benchmarks and optimisation t=
+echniques.
+
+https://www.databricks.com/blog/llm-inference-performance-engineering-best=
+-practices
+
+
+A detailed=2C technical=2C post on embracing eBPF for monitoring at the ne=
+twork layer and providing better control of a large microservice and infra=
+structure platform.
+
+https://doordash.engineering/2023/08/15/bpfagent-ebpf-for-monitoring-at-do=
+ordash/
+
+
+An interesting post on the ongoing FTX fraud trial=2C which highlights the=
+ importance of source code and source code management in understanding fra=
+ud and other intent.
+
+https://newsletter.mollywhite.net/p/the-fraud-was-in-the-code
+
+
+The latest DORA State of Devops report is out=2C which this year identifie=
+s 5 key takeaways on the importance of culture=2C user focus=2C fairness=
+=2C documentation and flexible cloud infrastructure.
+
+https://cloud.google.com/blog/products/devops-sre/announcing-the-2023-stat=
+e-of-devops-report
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Tauri is a framework for building native desktop applications using HTML=
+=2C CSS and Javascript. Built with Rust=2C and using native operating syst=
+em capabilities to keep the file system down and provide native security c=
+apabilities.
+
+https://tauri.app
+https://github.com/tauri-apps
+
+
+esc is a new tool for managing environments=2C secrets and configuration.=
+ It includes a CLI tool to provide just-in-time authenticated and short-li=
+ved access to cloud credentials amongst other features.
+
+https://www.pulumi.com/blog/environments-secrets-configurations-management=
+/
+https://github.com/pulumi/esc
+
+
+Autometrics looks like an interesting framework=2C aimed at making it easi=
+er to instrument an application. It generates Prometheus metrics and queri=
+es automatically=2C and automatically generates documentation linking to g=
+enerated dashboards.
+
+https://github.com/autometrics-dev/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
