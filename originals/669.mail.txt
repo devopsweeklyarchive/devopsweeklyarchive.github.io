@@ -1,0 +1,89 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#669?=
+Date: Sun, 22 Oct 2023 08:42:28 +0000
+
+DEVOPS WEEKLY
+ISSUE #669 - 22nd October 2023
+
+Posts on chaos engineering for security=2C DORA metrics for incident manag=
+ement and vulnerability management for containers this week=2C along with=
+ tools from API Gateways to AI-based developer assistants.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Headed to Austin for LASCON? Stop by booth #10 to learn about StackHawk's=
+ automated API security testing.
+
+
+News
+=3D=3D=3D=3D
+
+A look at applying some of the DORA findings to improving incident managem=
+ent practices.
+
+https://firehydrant.com/ebook/dora-2023-incident-management/
+
+
+A post looking at utilising chaos engineering practices to test for potent=
+ial security issues.
+
+https://www.datadoghq.com/blog/chaos-engineering-for-security/
+
+
+How does Platform Engineering change the interaction between development a=
+nd operations teams? It depends on the specific business problem you=E2=80=
+=99re trying to solve.
+
+https://thenewstack.io/at-run-time-driving-outcomes-with-a-platform-engine=
+ering-team/
+
+
+A detailed post on vulnerability management=2C in particular looking at th=
+e complexity and patterns of vulnerabilities when it comes to container im=
+ages.
+
+https://eng.lyft.com/vulnerability-management-at-lyft-enforcing-the-cascad=
+e-part-1-234d1561b994
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+KrakenD is a high performance API Gateway designed around a stateless arch=
+itecture and minimising operational cost.
+
+https://github.com/krakend/krakend-ce
+https://www.krakend.io/open-source
+
+
+gittuf provides a security layer for Git using The Update Framework (TUF).=
+ gittuf handles key management for users of the repository=2C allowing for=
+ setting permissions for repository branches=2C tags=2C files and more.
+
+https://github.com/gittuf/gittuf
+https://gittuf.github.io/
+
+
+Tabby is a self-hosted AI coding assistant=2C offering an open-source and=
+ on-premises alternative to GitHub Copilot that supports running on consum=
+er GPUs.
+
+https://github.com/TabbyML/tabby
+https://tabby.tabbyml.com/
+
+
+Helix is a modern console-based editor=2C integrating tree-sitter for synt=
+ax-highlighting and formatting=2C language-server for interoperability wit=
+h various plugins=2C and implemented in Rust.
+
+https://helix-editor.com/
+https://github.com/helix-editor/helix
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
