@@ -1,0 +1,100 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#670?=
+Date: Sun, 29 Oct 2023 09:18:54 +0000
+
+DEVOPS WEEKLY
+ISSUE #670 - 29th October 2023
+
+Incident management=2C operating ElasticSearch clusters and Argo=2C tools=
+ for API linting and a scattering of other topics this week for your enjoy=
+ment.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Don=E2=80=99t let the idea of =E2=80=9Cshifting left=E2=80=9D spook you! J=
+oin AppSec leaders from StackHawk and Snyk for tricks and treats on how to=
+ shift security left the right way. Register here
+
+https://sthwk.com/shift-left-right-way
+
+
+News
+=3D=3D=3D=3D
+
+Having a formal lead role for incident management is a common pattern. Thi=
+s post explains what that role should do=2C and why it=E2=80=99s important=
+=2E
+
+https://argoday.medium.com/incident-command-guide-9872b51d7c94
+
+
+A good set of lessons for running Argo Workflows=2C from operating advice=
+ and tips for writing workflows.
+
+https://hodgkins.io/argo-workflow-proven-patterns-from-production
+
+
+An interesting look at common Dockerfile issues=2C based on real-world dat=
+a.
+
+https://depot.dev/blog/dockerfile-linting-issues
+
+
+A look at the state of the WebAssembly community. Details on language usag=
+e=2C interest in upcoming functionality=2C use cases and more interesting=
+ survey take aways.
+
+https://blog.scottlogic.com/2023/10/18/the-state-of-webassembly-2023.html
+
+
+A post for anyone operating ElasticSearch clusters=2C in particular focuse=
+d on managing cluster state. Some tips for designing clusters for easier m=
+anagement too.
+
+https://sematext.com/blog/elasticsearch-scaling-cluster-state/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+SeaGL (the Seattle GNU/Linux Conference) is a free grassroots technical su=
+mmit dedicated to spreading awareness and knowledge about free / libre / o=
+pen source software=2C hardware=2C and culture. It=E2=80=99s coming up nex=
+t week=2C on November 3rd and 4th at the University of Washington and onli=
+ne.
+
+https://seagl.org/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+One advantage of adopting OpenAPI is the ability to build tools on top. Za=
+lly is an API linter that catches various issues based on the Zalando REST=
+ API guidelines.
+
+https://github.com/zalando/zally
+https://opensource.zalando.com/zally/
+https://opensource.zalando.com/restful-api-guidelines/
+
+
+VictoriaMetrics is a monitoring tool and time series database. It=E2=80=99=
+s compatible with both the Prometheus querying API and the Graphite API=2C=
+ which makes it possible to use as a drop-in backend replacement.
+
+https://github.com/VictoriaMetrics/VictoriaMetrics
+
+
+A useful project to catalogue software packages that are known to be malic=
+ious=2C starting with npm=2C rubygems=2C pypi and crates.io.
+
+https://github.com/ossf/malicious-packages
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
