@@ -1,0 +1,89 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#671?=
+Date: Sun,  5 Nov 2023 09:55:19 +0000
+
+DEVOPS WEEKLY
+ISSUE #671 - 5th November 2023
+
+Several sets of posts this week on Prometheus and its ecosystem=2C coming=
+ out of the recent PromCon event. Plus discussion of being on-call=2C a co=
+unter-argument for those proposing building a platform and a scattering fo=
+r other topics=2C from SBOMs to certificates.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Fuel up for re:Invent with StackHawk and Snyk! Join us at YardBird in the=
+ Venetian on Nov 30 to start the day off right and meet some developer-fir=
+st security testing buffs. RSVP now.
+
+https://bit.ly/40lO6Ew
+
+
+News
+=3D=3D=3D=3D
+
+A great post with tips for being on-call. Covering why on-call is hard=2C=
+ and what you and your team can do to make it suck less.
+
+https://hart-michael.medium.com/how-to-be-on-call-034e3a202729
+
+
+Several good updates from the recent PromCon conference=2C all about Prome=
+theus and with updates on OpenObservability=2C the new Perses project and=
+ more.
+
+https://logz.io/blog/promcon-prometheus-ecosystem-updates/
+https://logz.io/blog/promcon-recap-perses-project/
+
+
+A nice counter argument to building your own platform. Definitely areas to=
+ consider before you make an investment=2C or things to watch out for if y=
+ou=E2=80=99re building a platform.
+
+https://wso2.com/library/blogs/why-building-a-platform-may-not-be-your-bes=
+t-bet-exploring-five-critical-reasons/
+
+
+A look at Certi=2C a tool for monitoring SSL certificate transparency and=
+ sending updates to various communication channels.
+
+https://medium.com/@tomer.klein/certi-your-python-based-ssl-transparency-l=
+og-monitoring-tool-e2ed69295099
+
+
+A double post on prometheus storage architecture. Looks at the challenge o=
+f scaling storage for time series data and recent advances.
+
+https://blog.palark.com/prometheus-architecture-tsdb/
+https://blog.palark.com/prometheus-centralized-storage-mimir/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+npm now has native support for generating a software bill of materials. I=
+ think we=E2=80=99ll see this for other package management tools too.
+
+https://docs.npmjs.com/cli/v10/commands/npm-sbom
+
+
+Secretive is a macOS app for storing and managing SSH keys in the hardware=
+ Secure Enclave.
+
+https://github.com/maxgoedjen/secretive
+
+
+depot.ai is a container registry for public machine learning models=2C con=
+taining the top 100 models on Hugging Face. Nice integration with buildkit=
+-based container build tools.
+
+https://github.com/depot/depot.ai
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
