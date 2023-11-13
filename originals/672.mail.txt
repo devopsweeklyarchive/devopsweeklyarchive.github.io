@@ -1,0 +1,81 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#672?=
+Date: Sun, 12 Nov 2023 14:09:47 +0000
+
+DEVOPS WEEKLY
+ISSUE #672 - 12th November 2023
+
+Several posts on the impact of AI on operations=2C from incident response=
+ to infrastructure as code. Lots to look forward to in that space I=E2=80=
+=99d wager. Plus posts on monitoring=2C the DORA state of devops report an=
+d more.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Attending AWS re:Invent this year? Stop by booth #1360 to learn about API=
+ security testing that doesn't flock around! Reserve a StackHawk t-shirt t=
+o let us know you'll be there.
+
+https://sthwk.com/aws-reinvent-2023
+
+
+News
+=3D=3D=3D=3D
+
+A set of collected views on how generative AI can aid incident response. L=
+ots of great observations and ideas=2C some of which will undoubtedly beco=
+me features and products in the future.
+
+https://www.heavybit.com/library/article/generative-ai-incident-response-d=
+evops
+
+
+A summary of some of the research in the latest DORA State of Devops repor=
+t=2C covering the ramifications of AI on productivity=2C factors contribut=
+ing to job satisfaction and burnout=2C cloud selection and the non-linear=
+ nature of investing in reliability and SRE practices.
+
+https://semaphoreci.com/blog/state-of-devops-2023
+
+
+Another AI post. An argument that AI will write most Infrastructure as Cod=
+e. Several interesting ideas and opportunities for bringing IaC closer to=
+ application teams.
+
+https://matt-rickard.com/infrastructure-as-code-will-be-written-by-ai
+
+
+If you=E2=80=99re starting out with Kubernetes there are several tools tha=
+t will come up pretty quickly. This post acts as an introduction to the He=
+lm package manager=2C with examples of basic configuration and usage.
+
+https://blog.stackademic.com/the-complete-overview-of-helm-f470c38f98c0
+
+
+As applications grow=2C logging gets more and more interesting. While lots=
+ of folks start off with a =E2=80=9Clog everything=E2=80=9D approach this=
+ hits cost and affordance problems pretty quickly. This post is a good int=
+roduction to moving from logs to metrics.
+
+https://medium.com/@letathenasleep/sofias-observability-odyssey-bad-log-da=
+y-91a3fc95249a
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+OpenFeature is a community-developed specification trying to standardise f=
+eature flag management=2C supported by a suite of SDKs in several differen=
+t languages.
+
+https://github.com/open-feature
+https://openfeature.dev/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
