@@ -1,0 +1,74 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#673?=
+Date: Sun, 19 Nov 2023 16:37:46 +0000
+
+DEVOPS WEEKLY
+ISSUE #673 - 19th November 2023
+
+Technical posts on new DNS record types and authorization approaches=2C al=
+ong with posts on the history of Devops through to how AI is changing soft=
+ware development.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Fuel up for re:Invent with StackHawk and Snyk! Join us at YardBird Table &=
+ Bar for coffee=2C mimosas and breakfast on Nov 30. RSVP here:
+
+https://sthwk.com/dont-snooze-on-security
+
+
+News
+=3D=3D=3D=3D
+
+New DNS record types! This post looks at the new HTTPS record type=2C and=
+ how it already has reasonable adoption in the wild. This would have solve=
+d several annoying problems for me in a previous job.
+
+https://www.netmeister.org/blog/https-rrs.html
+
+
+A good post on the differences between policy vs graph based approaches fo=
+r authorisation systems=2C looking at both Zanzibar and Open Policy Agent=
+ and finishing with pragmatic advice.
+
+https://www.permit.io/blog/zanzibar-vs-opa
+
+
+A nice state of devops Q&A with Patrick Debois=2C discussing the history o=
+f devops=2C manifestations like platform engineering=2C security joining t=
+he party and the influence of the devopsdays events.
+
+https://thenewstack.io/qa-patrick-debois-on-the-past-present-and-future-of=
+-devops/
+
+
+KubeCon Chicago just wrapped up=2C and we have a detailed post covering th=
+e keynotes from each day as well as a selection of the track talks.
+
+https://blog.richburroughs.dev/kubecon-chicago-wrapup
+
+
+Some interesting observations about the adoption of AI-based developer too=
+ls=2C and developer sentiment towards AI in general. Based on a recent sur=
+vey.
+
+https://retool.com/reports/state-of-ai-2023
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Terrareg is a Terraform module registry with GUI=2C Git integration=2C mod=
+ule analysis and analytics built-in.
+
+https://github.com/MatthewJohn/Terrareg
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
