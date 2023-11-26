@@ -1,0 +1,101 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#674?=
+Date: Sun, 26 Nov 2023 15:36:08 +0000
+
+DEVOPS WEEKLY
+ISSUE #674 - 26th November 2023
+
+Several FinOps related posts this week=2C along with a case study of movin=
+g build systems at scale=2C a review of the recent KubeCon event in Chicag=
+o and new tools for application and CI/CD configuration.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Fuel up for re:Invent with StackHawk and Snyk! Join us at YardBird Table &=
+ Bar for coffee=2C mimosas and breakfast on Nov 30. RSVP here:
+
+https://sthwk.com/dont-snooze-on-security
+
+
+News
+=3D=3D=3D=3D
+
+There is quite a bit of cross-over between how a central security team nee=
+ds to interact with a larger development team=2C and what=E2=80=99s needed=
+ for cost-control in self-service platform teams. A good post on this topi=
+c.
+
+https://stateofsecurity.com/how-information-security-and-risk-management-t=
+eams-can-support-finops/
+
+
+How do you switch the build system for more than 200 developers=2C without=
+ slowing developer velocity? A great post on moving to Bazel=2C including=
+ local and remote instrumentation=2C parallel running and staggered rollou=
+t.
+
+https://engineering.atspotify.com/2023/10/switching-build-systems-seamless=
+ly/
+
+
+A wide ranging review of the recent KubeCon event in Chicago=2C with inter=
+esting high-level observations and pointers to specific talks.
+
+https://danielbryantuk.medium.com/kubecon-chicago-key-takeaways-3de5ca13b3=
+75
+
+
+A recent talk from SEACON=2C focused on the challenges with data managemen=
+t=2C in particular looking at power consumption at scale=2C data growth du=
+e to AI and machine learning adoption and patterns to address the impendin=
+g problem.
+
+https://www.youtube.com/watch?v=3Dr3AE8SrQWac
+
+
+Putting aside the marketing spin=2C this is a good post on running ScyllaD=
+B on Kubernetes using short-lived spot instances.
+
+https://www.scylladb.com/2023/08/07/scylladb-on-kubernetes-how-to-run-inte=
+nse-workloads-with-spot-instances/
+
+
+Focus is a specification aiming to provide an open standard for cloud cost=
+=2C usage=2C and billing data across all major cloud service providers. In=
+teresting opportunity for more standardised tooling and transparency.
+
+https://focus.finops.org/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Radius is a new application configuration tool. Using Bicep to define the=
+ components of an application=2C and use reusable recipes to run that on v=
+arious infrastructure platforms.
+
+https://radapp.io/
+https://github.com/radius-project
+
+
+Pipelight is a tiny command line tool that executes a list of tasks you pr=
+ovided in a configuration file. Ideal for CI/CD automation. Config written=
+ in Typescript=2C YAML or TOML.
+
+https://pipelight.dev/
+https://github.com/pipelight/pipelight
+
+
+A simple utility for debugging IAM roles for Kubernetes services accounts=
+ on EKS.
+
+https://github.com/pete911/kubectl-iam4sa
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
