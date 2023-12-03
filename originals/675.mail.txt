@@ -1,0 +1,81 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#675?=
+Date: Sun,  3 Dec 2023 09:19:38 +0000
+
+DEVOPS WEEKLY
+ISSUE #675 - 3rd December 2023
+
+A mix of topics this week=2C running from operations (status page updates)=
+=2C observability (several posts on open telemetry use cases)=2C plus vide=
+os from the recent PackagingCon conference and tools for managing GitHub A=
+ction runners.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+StackHawk users can now manage vulnerability findings directly from Securi=
+ty in Jira alongside other issues. Learn how recent enhancements to the in=
+tegration have simplified vulnerability management for teams using Jira.
+
+https://sthwk.com/stackhawk-in-jira
+
+
+News
+=3D=3D=3D=3D
+
+Writing public updates during incidents can be stressful. This post talks=
+ about some of the things you can do to make that job easier.
+
+https://firehydrant.com/blog/your-guide-to-better-incident-status-pages/
+
+
+A post on the importance of actionable metrics that are consumable by deve=
+lopers. It=E2=80=99s focused on Kubernetes in particular=2C but it=E2=80=
+=99s just as applicable to any application runtime.
+
+https://www.spiceworks.com/tech/devops/guest-article/what-do-developers-ne=
+ed-to-know-about-kubernetes-anyway/
+
+
+A good primer on web performance=2C covering Core Web Vitals and using ope=
+n telemetry to collect information.
+
+https://www.honeycomb.io/wp-content/uploads/2023/11/Web-Performance-KubeCo=
+n-NA-2023.pdf
+
+
+Talk recordings from the recent PackagingCon event=2C in-depth talks on pa=
+ckage manager security=2C build provenance=2C package repository quality a=
+ssurance=2C new package managers and more.
+
+https://www.youtube.com/@packagingcon_org/videos
+
+
+An interesting=2C detailed=2C post on the architecture for modern cloud da=
+ta systems.
+
+https://jack-vanlightly.com/blog/2023/11/14/the-architecture-of-serverless=
+-data-systems
+
+
+Good discussion of why developer documentation is important and tips for w=
+riting better docs.
+
+https://abstraction.blog/2023/11/22/intuitive-documentation-strategy
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+A terraform module for creating and managing scalable self hosted GitHub a=
+ction runners.
+
+https://github.com/philips-labs/terraform-aws-github-runner
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
