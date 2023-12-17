@@ -1,0 +1,84 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#677?=
+Date: Sun, 17 Dec 2023 08:49:50 +0000
+
+DEVOPS WEEKLY
+ISSUE #677 - 17th December 2023
+
+Posts this week on developer portals and naming OpenTelemetry attributes=
+=2C as well as several posts on people and teams=2C covering the role of e=
+ngineering managers and devops in 2024.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Discover how StackHawk and GitHub are reshaping the way we secure web appl=
+ications and APIs with developer-first functionality. Learn more:
+
+https://sthwk.com/stackhawk-github-blog
+
+
+News
+=3D=3D=3D=3D
+
+A post on the state of Devops=2C and what those leading devops programs ne=
+ed to think about heading into next year.
+
+https://leaddev.com/process/what-devops-teams-need-know-2024
+
+
+An interview focused on the evolution of Devops=2C and the Dagger project=
+=2C which is allowing for CI infrastructure to be codified and run on popu=
+lar CI platforms.
+
+https://www.infoq.com/podcasts/dagger-devops-docker/
+
+
+Team dynamics are a big part of devops=2C it=E2=80=99s no good just focusi=
+ng on technology and missing the people side. This post talks about the ch=
+anging expectations around engineering managers.
+
+https://charity.wtf/2023/12/15/why-should-you-or-anyone-become-an-engineer=
+ing-manager/
+
+
+A report on the state of developer portals=2C with results from a recent s=
+urvey about measuring developer productivity=2C portal adoption and spread=
+sheets.
+
+https://www.getport.io/state-of-internal-developer-portals
+
+
+Naming is always an interesting challenge. This post looks at best practic=
+es for naming OpenTelemetry attributes=2C including things to avoid.
+
+https://thenewstack.io/top-5-best-practices-for-naming-opentelemetry-attri=
+butes/
+
+
+A post on dynamic configuration management and managing modern cloud-nativ=
+e configurations. The post also introduces the KRM KCL specification and t=
+ooling.
+
+https://blog.devgenius.io/a-new-paradigm-for-dynamic-configuration-managem=
+ent-krm-kcl-specification-53b1e1db1e0f
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Aspire is an opinionated stack for building resilient=2C observable=2C and=
+ configurable cloud-native applications with .NET. It comes with built-in=
+ components and developer dashboards.
+
+https://devblogs.microsoft.com/dotnet/introducing-dotnet-aspire-simplifyin=
+g-cloud-native-development-with-dotnet-8/
+https://henriquesd.medium.com/net-aspire-296e24b952c0
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
