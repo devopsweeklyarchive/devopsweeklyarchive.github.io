@@ -1,0 +1,114 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#678?=
+Date: Sun, 31 Dec 2023 09:42:19 +0000
+
+DEVOPS WEEKLY
+ISSUE #678 - 31st December 2023
+
+For the last day of 2023 I=E2=80=99ve pulled together a list of the best p=
+osts from the last 3 months or so. An interesting set=2C covering incident=
+ management=2C LLMs=2C observability=2C build engineering and more. Here=
+=E2=80=99s to a fruitful 2024.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+Discover how StackHawk and GitHub are reshaping the way we secure web appl=
+ications and APIs with developer-first functionality. Learn more:
+
+https://sthwk.com/stackhawk-github-blog
+
+
+News
+=3D=3D=3D=3D
+
+A post on using open source LLM models=2C in particular focused on enginee=
+ring for performance=2C including details of benchmarks and optimisation t=
+echniques.
+
+https://www.databricks.com/blog/llm-inference-performance-engineering-best=
+-practices
+
+
+A detailed=2C technical=2C post on embracing eBPF for monitoring at the ne=
+twork layer and providing better control of a large microservice and infra=
+structure platform.
+
+https://doordash.engineering/2023/08/15/bpfagent-ebpf-for-monitoring-at-do=
+ordash/
+
+
+A look at applying some of the DORA findings to improving incident managem=
+ent practices.
+
+https://firehydrant.com/ebook/dora-2023-incident-management/
+
+
+Having a formal lead role for incident management is a common pattern. Thi=
+s post explains what that role should do=2C and why it=E2=80=99s important=
+=2E
+
+https://argoday.medium.com/incident-command-guide-9872b51d7c94
+
+
+A great post with tips for being on-call. Covering why on-call is hard=2C=
+ and what you and your team can do to make it suck less.
+
+https://hart-michael.medium.com/how-to-be-on-call-034e3a202729
+
+
+A set of collected views on how generative AI can aid incident response. L=
+ots of great observations and ideas=2C some of which will undoubtedly beco=
+me features and products in the future.
+
+https://www.heavybit.com/library/article/generative-ai-incident-response-d=
+evops
+
+
+There is quite a bit of cross-over between how a central security team nee=
+ds to interact with a larger development team=2C and what=E2=80=99s needed=
+ for cost-control in self-service platform teams. A good post on this topi=
+c.
+
+https://stateofsecurity.com/how-information-security-and-risk-management-t=
+eams-can-support-finops/
+
+
+How do you switch the build system for more than 200 developers=2C without=
+ slowing developer velocity? A great post on moving to Bazel=2C including=
+ local and remote instrumentation=2C parallel running and staggered rollou=
+t.
+
+https://engineering.atspotify.com/2023/10/switching-build-systems-seamless=
+ly/
+
+
+An argument for treating observability instrumentation as a first class pa=
+rt of software development=2C in the same way that unit tests have become.
+
+https://www.honeycomb.io/blog/observability-is-about-confidence
+
+
+A passionate call for a second wave of devops tools to fulfil the promise=
+ of the movement. Some good observations here about what=E2=80=99s changed=
+ over the last 10+ years=2C and what hasn=E2=80=99t.
+
+https://www.systeminit.com/blog-second-wave-devops/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Radius is a new application configuration tool. Using Bicep to define the=
+ components of an application=2C and use reusable recipes to run that on v=
+arious infrastructure platforms.
+
+https://radapp.io/
+https://github.com/radius-project
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
