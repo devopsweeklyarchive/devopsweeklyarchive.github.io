@@ -1,0 +1,85 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#679?=
+Date: Sun,  7 Jan 2024 09:12:40 +0000
+
+DEVOPS WEEKLY
+ISSUE #679 - 7th January 2024
+
+The first newsletter of the year=2C with posts on the evolution of DAST=2C=
+ the struggles with adopting automated testing and team topologies=2C as w=
+ell as technical posts on the new version of Go=2C Tekton pipelines and Po=
+stgreSQL.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+DAST is Dead! Long Live DAST! Dynamic API Security Testing is evolving.
+
+https://www.stackhawk.com/blog/long-live-dast-evolution-of-dynamic-api-sec=
+urity-testing/
+
+
+News
+=3D=3D=3D=3D
+
+A thorough post on the challenges of adopting automated testing practices.
+
+https://vaidik.in/engineering-transformations-adopting-automated-testing/
+
+
+A good opinion piece on security not being special=2C when compared to oth=
+er disciplines - and the problems caused by security teams assuming it is.
+
+https://kellyshortridge.com/blog/posts/cybersecurity-isnt-special/
+
+
+If you=E2=80=99ve ever run into a problem that=E2=80=99s come down to time=
+ in computer systems then this is a good post for you.
+
+https://brooker.co.za/blog/2023/11/27/about-time.html
+
+
+Speeding up steps in a build process typically has a compounding effect on=
+ productivity. This post covers speeding up container builds in Tekton pip=
+elines.
+
+https://cd.foundation/blog/2023/10/12/speed-up-container-image-builds-tekt=
+on-pipelines/
+
+
+A recap of the four team types from the Team Topologies book and why it=E2=
+=80=99s a useful model for designing and building software organisations.
+
+https://itrevolution.com/articles/four-team-types/
+
+
+PostgreSQL has a huge range of extensions=2C allowing it to support a wide=
+ range of related use cases. pg_bm25 provides a real time search engine ak=
+in to ElasticSearch=2C all running within PostgreSQL.
+
+https://www.i-programmer.info/news/84-database/16836-elasticsearch-search-=
+capabilities-baked-into-postgresql.html
+
+
+A useful run down of the changes in the upcoming Go 1.22 release=2C includ=
+ing interactive examples.
+
+https://antonz.org/go-1-22/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Loco is a new framework for building applications in Rust=2C heavily inspi=
+red by Ruby on Rails.
+
+https://loco.rs/
+https://github.com/loco-rs/loco
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
