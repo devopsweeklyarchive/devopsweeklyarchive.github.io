@@ -1,0 +1,96 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#680?=
+Date: Sun, 14 Jan 2024 08:23:15 +0000
+
+DEVOPS WEEKLY
+ISSUE #680 - 14th January 2024
+
+Posts and tools on alert fatigue=2C scaling infrastructure management=2C d=
+eveloper portals=2C OpenTelemetry and package managers this week. Enjoy.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[Jan. 17] Webinar: "DAST is Dead! Long Live DAST! The Evolution of Dynami=
+c API Security Testing." Drop by to learn more about the new era of API Se=
+curity Testing with StackHawk. Register here:
+
+https://sthwk.com/long-live-DAST
+
+
+News
+=3D=3D=3D=3D
+
+Alert fatigue quickly becomes a problem as systems grow=2C and monitoring=
+ software does it=E2=80=99s thing. This next post talks about how to preve=
+nt it.
+
+https://www.datadoghq.com/blog/best-practices-to-prevent-alert-fatigue/
+
+
+A nice rundown of patterns for scaling infrastructure management.
+
+https://spacelift.io/blog/scalable-infrastructure
+
+
+Never waste a crisis. This post describes the response to a major downtime=
+ incident and a commitment and investment in reliability=2C resulting in d=
+ata centre expansion and architecture improvements.
+
+https://www.infoq.com/news/2024/01/roblox-cellular-infrastructure/
+
+
+A look back at OpenTelemetry and observability advances in 2023=2C and wha=
+t the new year might bring.
+
+https://thenewstack.io/opentelemetry-and-observability-looking-forward/
+
+
+Internal Developer Portals are all the rage at the moment. This post ties=
+ this to the pursuit of improved developer productivity.
+
+https://devops.com/the-state-of-internal-developer-portals-idps/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+DevOpsDays Kansas City is back=2C with the event on May 15th and 16th=2C a=
+nd the CFP open now. With Devops coming up on 15 years old the CFP is look=
+ing for retrospective talks and ignites in particular.
+
+https://talks.devopsdays.org/devopsdays-kc-2024/cfp
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+SBOMit is a new tool to add in-toto attestations to SBOMs. It allows for e=
+mbedding assurance about certain practices and steps in a build process=2C=
+ which can be verified by a consumer.
+
+https://openssf.org/blog/2023/12/13/introducing-sbomit-adding-verification=
+-to-sboms/
+https://github.com/SBOMit
+
+
+Pgxman is a package manager for PostgreSQL extensions=2C along with a repo=
+sitory of packages. It integrates with native build systems for installati=
+on.
+
+https://pgxman.com/
+
+
+The CI tool Dagger now has a repository of modules in the latest experimen=
+tal version. This makes composition of pipelines much quicker. There are a=
+lready quite a few modules available too.
+
+https://daggerverse.dev/
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
