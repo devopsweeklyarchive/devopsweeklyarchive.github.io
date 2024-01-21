@@ -1,0 +1,85 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#681?=
+Date: Sun, 21 Jan 2024 09:07:31 +0000
+
+DEVOPS WEEKLY
+ISSUE #681 - 21st January 2024
+
+A great excerpt from the new book Deming=E2=80=99s Journey to Profound Kno=
+wledge to kick things off this week=2C alongside posts on user centred IT=
+=2C measuring developer productivity=2C environment provisioning=2C DSL ge=
+ekery and more. Enjoy.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] DAST is Dead! Long Live DAST! The Evolution of Dynamic API securi=
+ty Testing webinar is now available on YouTube. Watch on-demand here.
+
+https://sthwk.com/long-live-dast-webinar
+
+
+News
+=3D=3D=3D=3D
+
+An epic post that=E2=80=99s well worth the long read. A look at each of th=
+e 14 points from Deming=E2=80=99s System of Profound Knowledge with modern=
+ cyber security examples.
+
+https://itrevolution.com/articles/out-of-the-cyber-crisis-deming-in-the-wo=
+rld-of-cybersecurity/
+
+
+The Developer Productivity and Happiness Framework is a useful set of docu=
+ments formalising how to talk about and measure developer productivity and=
+ set goals to make improvements.
+
+https://linkedin.github.io/dph-framework
+
+
+A look at a new tool called DynamicEnv which rapidly spins up custom testi=
+ng/dev environments for complex microservices architecture=2C streamlining=
+ workflow and boosting team agility.
+
+https://medium.com/riskified-technology/revolutionizing-development-and-te=
+sting-with-dynamic-environment-a-solution-to-microservices-chaos-abad8a186=
+5a7
+
+
+Some good tips for being more user centred in IT departments=2C including=
+ multidisciplinary service teams. I do think how IT is treated from the ou=
+tside has a lot to do with the problem as well though.
+
+https://public.digital/2024/01/17/user-centred-it-why-best-practice-isnt-g=
+ood-enough-in-information-technology
+
+
+A post for other DSL geeks. Mainly discussing Polar=2C but I think this ap=
+plies to other policy languages and domains too. Do you want your DSL to b=
+e Turing complete?
+
+https://www.osohq.com/post/is-polar-turing-complete-and-why-i-hope-not
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Vanna allows you to train a model on your database content=2C and then ask=
+ questions of an LLM which will return SQL queries to query it.
+
+https://github.com/vanna-ai/vanna
+
+
+Chalk is a new tool that captures metadata at build time=2C and can add a=
+ small 'chalk mark' with that information to any artefacts (like compiled=
+ binaries or container images).
+
+https://github.com/crashappsec/chalk
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
