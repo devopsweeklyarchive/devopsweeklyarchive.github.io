@@ -1,0 +1,89 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#682?=
+Date: Sun, 28 Jan 2024 11:45:00 +0000
+
+DEVOPS WEEKLY
+ISSUE #682 - 28th January 2024
+
+Posts on addressing the fear of automation=2C continuous integration and w=
+hat 2024 has in store for Devops=2C plus tools for managing repos at scale=
+=2C synthetic monitoring and API definition.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] DAST is Dead! Long Live DAST! The Evolution of Dynamic API securi=
+ty Testing webinar is now available on YouTube. Watch on-demand here.
+
+https://sthwk.com/long-live-dast-webinar
+
+
+News
+=3D=3D=3D=3D
+
+What does it look like to deploy an application 30-40 times a day=2C with=
+ contributions from a large number of teams? A post on the move from peopl=
+e-managed deployments to a fully automated system.
+
+https://slack.engineering/the-scary-thing-about-automating-deploys/
+
+
+An updated long-form post on continuous integration. Although not a new pr=
+actice=2C it=E2=80=99s often misunderstood.
+
+https://martinfowler.com/articles/continuousIntegration.html
+
+
+A detailed post defining microflows=2C the difference to workflows=2C and=
+ why the distinction is useful in building distributed systems.
+
+https://wso2.com/whitepapers/towards-a-precise-definition-of-microflows-di=
+stinguishing-short-lived-orchestration-from-workflows/
+
+
+A quick guide to using containers to run Llamafile=2C a project for runnin=
+g open source Large Language Models such as Llama-2-7B or Mistral 7B.
+
+https://dev.to/spara_50/a-quick-guide-to-containerizing-llamafile-1101
+
+
+Some predictions for Devops in 2024=2C focused on the continued move to th=
+e cloud=2C the importance of a security-first approach=2C AI/ML adoption a=
+nd more.
+
+https://medium.com/@jimoh_abdol/embracing-the-future-devops-in-2024-14e9c8=
+35ae11
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Octoherd is a toolset for manipulating lots of GitHub repositories at once=
+=2E Lots of examples scripts=2C for things like renaming the main branch=2C=
+ enabling branch protection and more.
+
+https://github.com/octoherd/octoherd
+https://github.com/octoherd
+
+
+TypeSpec is a language for describing APIs and generating other API descri=
+ption languages=2C client and service code=2C documentation=2C and other a=
+ssets. Support for OpenAPI=2C GraphQL=2C gRPC and more.
+
+https://typespec.io/
+https://github.com/microsoft/typespec
+
+
+Prodzilla is a synthetic monitoring tool. Define probes and stories in a Y=
+AML configuration and run them to check a web application is behaving as e=
+xpected.
+
+https://github.com/prodzilla/prodzilla
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
