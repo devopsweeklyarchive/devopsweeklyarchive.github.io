@@ -1,0 +1,91 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#683?=
+Date: Sun,  4 Feb 2024 09:49:48 +0000
+
+DEVOPS WEEKLY
+ISSUE #683 - 4th February 2024
+
+Several posts this week covering developer experience and the impact of ge=
+nerative AI tooling=2C along with a few posts more generally devops in 202=
+4.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] DAST is Dead! Long Live DAST! The Evolution of Dynamic API securi=
+ty Testing webinar is now available on YouTube. Watch on-demand here.
+
+https://sthwk.com/long-live-dast-webinar
+
+
+News
+=3D=3D=3D=3D
+
+An interesting post on the perils of productivity metrics for software dev=
+elopment=2C in particular considering the impact of generative AI develope=
+r tools.
+
+https://isthisit.nz/posts/2024/engineering-productivity-metrics-genai/
+
+
+A recent paper on developer experience=2C including evidence of the benefi=
+ts of investment in this area=2C and good points on selling the business b=
+enefits.
+
+https://queue.acm.org/detail.cfm?id=3D3639443
+
+
+When should you issue an alert? This post talks about the messiness of ale=
+rting=2C and in particular the need to constantly recalibrate alerts to ma=
+ke them useful.
+
+https://www.honeycomb.io/blog/alerts-are-fundamentally-messy
+
+
+A few predictions for devops in 2024. Observability=2C generative AI=2C In=
+frastructure as Code=2C multi-cloud and security.
+
+https://securityboulevard.com/2024/01/navigating-the-future-devops-predict=
+ions-for-2024/
+
+
+Another 2024 post=2C with similar conclusions on the future and opportunit=
+ies of devops.
+
+https://www.kovair.com/blog/future-of-devops-and-opportunities/
+
+
+A pair of posts on evolving JSON schemas=2C exploring pros and cons of dif=
+ferent approaches. Some of this is specific to Kafka=2C but much of the co=
+ntent is more widely applicable too.
+
+https://www.creekservice.org/articles/2024/01/08/json-schema-evolution-par=
+t-1.html
+https://www.creekservice.org/articles/2024/01/09/json-schema-evolution-par=
+t-2.html
+
+
+The top 10 AWS blog posts from 2023. Interesting to see what=E2=80=99s pop=
+ular in such a large ecosystem.
+
+https://aws.amazon.com/blogs/devops/the-most-visited-aws-devops-blogs-in-2=
+023/
+
+
+Events
+=3D=3D=3D=3D=3D=3D
+
+The 13th annual DevOpsDay LA will happen on Friday March 15th=2C as part o=
+f SCALE21x at the Pasadena Convention Center in Pasadena California.
+
+
+https://www.socallinuxexpo.org/scale/21x/events/devopsday-la
+https://www.socallinuxexpo.org/scale/21x
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
