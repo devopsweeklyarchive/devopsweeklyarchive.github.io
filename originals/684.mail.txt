@@ -1,0 +1,89 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#684?=
+Date: Sun, 11 Feb 2024 09:44:03 +0000
+
+DEVOPS WEEKLY
+ISSUE #684 - 11th February 2024
+
+Incident management=2C recent vulnerability disclosures=2C build and relea=
+se engineering and more this week. Enjoy.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] DAST is Dead! Long Live DAST! The Evolution of Dynamic API securi=
+ty Testing webinar is now available on YouTube. Watch on-demand here.
+
+https://sthwk.com/long-live-dast-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A good post on some of the history of declarative container image builds=
+=2C and the complexity of build systems as they grow.
+
+https://www.chainguard.dev/unchained/images-as-code-the-pursuit-of-declara=
+tive-image-builds
+
+
+We=E2=80=99re seeing more research into complex supply chain attacks at th=
+e moment=2C and this next post covers MavenGate=2C which highlights the is=
+sue of abandoned domain names in some software ecosystems.
+
+https://blog.oversecured.com/Introducing-MavenGate-a-supply-chain-attack-m=
+ethod-for-Java-and-Android-applications
+
+
+Another recent vulnerability disclosure. This one affects container build=
+ and runtime environments and allows for a full container escapate to the=
+ host.
+
+https://snyk.io/blog/leaky-vessels-docker-runc-container-breakout-vulnerab=
+ilities/
+
+
+A couple of posts on evolving incident management practices=2C looking at=
+ the need to introduce gradual changes=2C standardising severity levels=2C=
+ the importance of training and more.
+
+https://medium.com/dyninno/dyninnos-incident-management-an-introduction-a4=
+516b910269
+https://medium.com/dyninno/streamlining-and-implementing-incident-manageme=
+nt-at-dyninno-c8ea06327f3a
+
+
+A good post looking at integrating accessibility testing into developer wo=
+rkflows. Good discussion of modern toolchain challenges and integration op=
+tions.
+
+https://innovation.ebayinc.com/tech/engineering/introducing-an-accessibili=
+ty-linter-for-marko-shortening-the-accessibility-testing-pipeline/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Glasskube is a new package manager for Kubernetes. It ships with a GUI and=
+ CLI tooling=2C as well as a central public package repository and the abi=
+lity to auto-update packages.
+
+https://github.com/glasskube/glasskube/
+https://glasskube.dev/
+
+
+APISIX is an API Gateway with a range of traffic management features inclu=
+ding load balancing=2C dynamic upstream=2C canary release=2C circuit break=
+ing=2C authentication=2C observability and more.
+
+https://github.com/apache/apisix
+https://apisix.apache.org/
+
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
