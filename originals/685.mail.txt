@@ -1,0 +1,89 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#685?=
+Date: Sun, 18 Feb 2024 09:02:34 +0000
+
+DEVOPS WEEKLY
+ISSUE #685 - 18th February 2024
+
+Incident postmortems=2C Git best practices=2C tips for management open tel=
+emetry names and tools and posts on open source software supply chain secu=
+rity this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] DAST is Dead! Long Live DAST! The Evolution of Dynamic API securi=
+ty Testing webinar is now available on YouTube. Watch on-demand here.
+
+https://sthwk.com/long-live-dast-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A post on how to write a good incident postmortem=2C focused on the import=
+ance of understanding context and on applying the 5 whys.
+
+https://medium.com/@vincesackschen/writing-an-excellent-postmortem-8534409=
+f6e0d
+
+
+An interesting observation about teams banning the use of merge commits in=
+ Git=2C backend by data and with an explanation of why folks are doing so.
+
+https://graphite.dev/blog/why-ban-merge-commits
+
+
+A breakdown of modern web frameworks=2C from static site builders to full=
+ stack frameworks and simpler/faster alternatives.
+
+https://dev.to/wasp/web-frameworks-we-are-most-excited-for-in-2024-4d15
+
+
+The end of year report from the Open Source Software Security Initiative=
+=2C a multi-stakeholder group focused on policy solutions to help improve=
+ the security of the open source software ecosystem.
+
+https://whitehouse.gov/wp-content/uploads/2024/01/Securing-the-Open-Source=
+-Software-Ecosystem-OS3I-End-of-Year-Report-MASTERCOPY.pdf
+
+
+A look at OpenTelemetry=E2=80=99s Semantic Conventions which allow for a c=
+ommon naming scheme for traces that can be standardised across a codebase=
+=2C libraries=2C and platforms.
+
+https://www.honeycomb.io/blog/effective-trace-instrumentation-semantic-con=
+ventions
+
+
+A little dated=2C but a good post on comparing the Serverless framework wi=
+th CDK=2C and why you might prefer one over the other.
+
+https://www.alexdebrie.com/posts/serverless-framework-vs-cdk/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Ortelius is a unified evidence store of supply chain data designed to simp=
+lify. It provides developers a coordinated view of who is using a service=
+=2C its version=2C and inventory across all end-points.
+
+https://ortelius.io/
+https://github.com/ortelius/ortelius
+
+
+Write your build configuration in C# with Nuke. Includes native integratio=
+n into a variety of CI/CD tools as well=2C so no need to write additional=
+ YAML configuration.
+
+https://nuke.build/
+https://github.com/nuke-build/nuke
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
