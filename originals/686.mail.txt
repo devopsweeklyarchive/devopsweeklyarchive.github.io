@@ -1,0 +1,88 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#686?=
+Date: Sun, 25 Feb 2024 09:51:14 +0000
+
+DEVOPS WEEKLY
+ISSUE #686 - 25th February 2024
+
+Configuration management=2C long term support=2C data management=2C monito=
+ring and testing this week. The breadth of challenges in modern operations=
+ is always interesting=2C and while some are evergreen=2C the tools and ap=
+proaches to solving are constantly evolving.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] DAST is Dead! Long Live DAST! The Evolution of Dynamic API securi=
+ty Testing webinar is now available on YouTube. Watch on-demand here.
+
+https://sthwk.com/long-live-dast-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A good introduction to both Terraform and Ansible=2C covering similarities=
+ and differences=2C as well as how you might use them together.
+
+https://www.env0.com/blog/ansible-vs-terraform-when-to-choose-one-or-use-t=
+hem-together
+
+
+A look at AWS offering extended support for Kubernetes versions in EKS=2C=
+ and the associated costs. Longer support cycles for Kubernetes has been a=
+ long term conversation=2C but the post outlines some of the downsides of=
+ this not being in the mainline.
+
+https://medium.com/@talkimhi/aws-extended-eks-support-a-costly-band-aid-fo=
+r-kubernetes-clusters-120b8d537abe
+
+
+A set of posts for anyone running etcd=2C covering the key metrics to meas=
+ure=2C and how to measure them.
+
+https://www.datadoghq.com/blog/etcd-key-metrics/
+https://www.datadoghq.com/blog/etcd-monitoring-tools/
+
+
+If you=E2=80=99re doing analysis on a data set=2C it=E2=80=99s likely impo=
+rtant to understand where that data came from=2C in order for the analysis=
+ to be meaningful. This post covers the concept of data lineage=2C why it=
+=E2=80=99s important=2C and some tools that can help.
+
+https://semaphoreci.com/blog/data-lineage-big-data
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+testkube is a Kubernetes-native testing framework for test execution and o=
+rchestration. Store tests from any testing tool as CRDs and run them on th=
+e cluster.
+
+https://testkube.io/
+https://github.com/kubeshop/testkube
+
+
+The Kubernetes Telemetry Controller can turn OpenTelemetry event streams=
+ =E2=80=93 logs=2C metrics=2C and traces =E2=80=93 into Kubernetes resourc=
+es.
+
+https://axoflow.com/reinvent-kubernetes-logging-with-telemetry-controller/
+https://github.com/kube-logging/telemetry-controller
+
+
+The challenge with having discrete applications is that they might not wor=
+k together=2C which leaves more work for the user. UFO is a UI-Focused Age=
+nt for Windows=2C which can orchestrate actions across multiple apps witho=
+ut configuration=2C using GPT-Vision to work out how to achieve the instru=
+ctions.
+
+https://github.com/microsoft/UFO
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
