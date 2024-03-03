@@ -1,0 +1,85 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#687?=
+Date: Sun,  3 Mar 2024 08:55:49 +0000
+
+DEVOPS WEEKLY
+ISSUE #687 - 3rd March 2024
+
+Platform Engineering=2C alert design and some good real world stories of d=
+ebugging=2C testing or building internal tooling this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] DAST is Dead! Long Live DAST! The Evolution of Dynamic API securi=
+ty Testing webinar is now available on YouTube. Watch on-demand here.
+
+https://sthwk.com/long-live-dast-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A look at Platform Engineering=2C and introducing a layered model of platf=
+orm=2C with the oft-missing platform orchestration layer binding together=
+ the application and infrastructure.
+
+https://www.syntasso.io/post/platform-engineering-orchestrating-applicatio=
+ns-platforms-and-infrastructure
+
+
+A good troubleshooting writeup (featuring ceph=2C systemd and containerd)=
+=2C and a good reminder of the layered complexity of the software systems=
+ we operate.
+
+https://blog.palark.com/sre-troubleshooting-ceph-systemd-containerd/
+
+
+Good alert design is hard. This post looks in particular at the problem wi=
+th workflows acknowledging alerts and the impact on alert fatigue.
+
+https://medium.com/production-care/keep-your-dashboard-clean-acknowledgeme=
+nt-is-not-a-solution-501c3d832c62
+
+
+A quick post on building a Slack bot to help with handoff for ongoing inci=
+dents. A good reminder of the powerful combination of APIs for your ops to=
+ols and the low barrier to writing and running bots like this with modern=
+ cloud infrastructure.
+
+https://medium.com/@matt_weingarten/creating-an-oncall-handoff-bot-7ee3f67=
+d1033
+
+
+Another blog post in this series=2C looking at testing in microservices en=
+vironments=2C and how one organisation has solved this with its own custom=
+er tooling.
+
+https://medium.com/riskified-technology/elevating-microservices-testing-an=
+d-development-using-dynamicenv-852ffeeacff2
+
+
+A few handy checklists for security focused code review=2C for both server=
+ and frontend applications. Plus a discussion of security code reviews in=
+ general=2C including reference to threat modelling.
+
+https://axolo.co/blog/p/code-review-security-checklist
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+LLRT is an experimental=2C lightweight JavaScript runtime intended to Serv=
+erless environments. It targets a subset of the Node API=2C but enables mu=
+ch faster startup time and faster overall performance=2C as well as lower=
+ running costs.
+
+https://github.com/awslabs/llrt
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
