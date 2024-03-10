@@ -1,0 +1,80 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#688?=
+Date: Sun, 10 Mar 2024 10:24:50 +0000
+
+DEVOPS WEEKLY
+ISSUE #688 - 10th March 2024
+
+Build tools=2C API observability=2C eBPF=2C managing development environme=
+nts and some comedic relief this week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] DAST is Dead! Long Live DAST! The Evolution of Dynamic API securi=
+ty Testing webinar is now available on YouTube. Watch on-demand here.
+
+https://sthwk.com/long-live-dast-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A look at BuildKit=2C the modern container image building tool under the h=
+ood of Docker Build and other container ecosystem tooling.
+
+https://depot.dev/blog/buildkit-in-depth
+
+
+A course on API observability=2C covering an introduction to OpenTelemetry=
+ as well as lots of API-specific topics.
+
+https://pages.tyk.io/api-observability-fundamentals-on-demand
+
+
+The Scaled Agile Devops Maturity Framework is billed as =E2=80=9CEnterpris=
+e transformation without the risk of culture change!=E2=80=9D. Worth a rea=
+d if you=E2=80=99ve spent time in large organisations :)
+
+https://scaledagiledevops.com/
+
+
+A post on the benefits of Serverless platforms for small infrastructure au=
+tomation tasks=2C with some suggested use cases.
+
+https://stackify.com/why-you-should-go-serverless-for-devops/
+
+
+Java is coming to RISC-V. A great example of open source innovation at wor=
+k.
+
+https://devops.com/what-is-risc-v-and-why-has-it-become-important-for-java=
+/
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Daytona is a new tool for managing a development environment. It supports=
+ both local and remote environments as well as integration with various Gi=
+t services and IDEs.
+
+https://github.com/daytonaio/daytona
+
+
+As eBPF becomes more popular=2C we need tools to help manage applications=
+ using it. bpftop provides a dynamic real-time view of running eBPF progra=
+ms. It displays the average runtime=2C events per second=2C and estimated=
+ total CPU % for each program.
+
+https://netflixtechblog.com/announcing-bpftop-streamlining-ebpf-performanc=
+e-optimization-6a727c1ae2e5
+https://github.com/Netflix/bpftop
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
