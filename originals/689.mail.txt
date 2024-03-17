@@ -1,0 +1,84 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#689?=
+Date: Sun, 17 Mar 2024 09:29:29 +0000
+
+DEVOPS WEEKLY
+ISSUE #689 - 17th March 2024
+
+Gamedays as a technique for testing and improving performance and stabilit=
+y=2C pitfalls with measuring developer productivity=2C serverless database=
+s=2C new code editors and more. A range of topics more than any theme this=
+ week.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] DAST is Dead! Long Live DAST! The Evolution of Dynamic API securi=
+ty Testing webinar is now available on YouTube. Watch on-demand here.
+
+https://sthwk.com/long-live-dast-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A look at how one team used gamedays as a tool to test and improve perform=
+ance and resilience.
+
+https://firehydrant.com/blog/improving-signals-speed-and-resilience-throug=
+h-pressure-testing/
+
+
+Lots of complex applications are managed by large amounts of configuration=
+=2C including OpenAPI specs and Kubernetes manifests. This post looks at h=
+ow API and Kubernetes configuration might come together.
+
+https://wso2.com/library/blogs/streamlining-cloud-native-app-development-i=
+n-kubernetes-with-prioritized-api-management/
+
+
+The Octoverse report from the end of last year=2C looking at the state of=
+ open source=2C with stats on the growing adoption of AI tools=2C continue=
+d growth in declarative infrastructure configuration and more.
+
+https://github.blog/2023-11-08-the-state-of-open-source-and-ai/
+
+
+Measuring developer productivity is easy to do=2C and hard to make useful.=
+ This post makes the case that qualitative metric might be more useful tha=
+n quantitative.
+
+https://martinfowler.com/articles/measuring-developer-productivity-humans.=
+html
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Ray LLM is an LLM serving solution that makes it easy to deploy and manage=
+ a variety of open source LLMs as well as compare the outputs of different=
+ models.
+
+https://github.com/ray-project/ray-llm
+
+
+Neon is billed as serverless PostgreSQL. It separates storage and compute=
+ in order to support autoscaling=2C branching=2C and expanded storage.
+
+https://github.com/neondatabase/neon
+
+
+Zed is a modern code editor=2C optimised for performance and providing =E2=
+=80=8B=E2=80=8Bmulti-user editing and close integration with generative AI=
+ tools.
+
+https://zed.dev/
+https://github.com/zed-industries/zed
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
