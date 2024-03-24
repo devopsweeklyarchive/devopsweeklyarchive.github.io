@@ -1,0 +1,80 @@
+Subject: =?utf-8?Q?Devops=20Weekly=20#690?=
+Date: Sun, 24 Mar 2024 08:40:37 +0000
+
+DEVOPS WEEKLY
+ISSUE #690 - 24th March 2024
+
+Unreliable platform engineering=2C scaling databases=2C configuration mana=
+gement=2C software supply chain security and more this week. A good mix of=
+ interesting topics I think.
+
+
+StackHawk sponsors Devops Weekly
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+[ICYMI] DAST is Dead! Long Live DAST! The Evolution of Dynamic API securi=
+ty Testing webinar is now available on YouTube. Watch on-demand here.
+
+https://sthwk.com/long-live-dast-webinar
+
+
+News
+=3D=3D=3D=3D
+
+A post on some of the pitfalls of platform engineering teams=2C including=
+ the ability for central teams to generate work for everyone else=2C and l=
+ose sight of their internal customers' needs.
+
+https://www.srepath.com/danger-of-unreliable-platform-engineering/
+
+
+A classic database scaling story=2C looking at horizontally sharding an ex=
+isting large Postgres database.
+
+https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-sca=
+le/
+
+
+An update to the yearly RedMonk language rankings. Some interesting observ=
+ations about both popular and emerging languages.
+
+https://redmonk.com/sogrady/2024/03/08/language-rankings-1-24/
+
+
+A good post on using Terraform to manage Grafana dashboard configurations=
+ across multiple regional environments.
+
+https://medium.com/tblx-insider/global-products-global-monitoring-terrafor=
+m-strategies-for-seamless-grafana-dashboards-1e8c2af68512
+
+
+A nice breakdown of a problem with the npm ecosystem=2C making it suscepti=
+ble to certain supply chain security attacks.
+
+https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem
+
+
+Tools
+=3D=3D=3D=3D=3D
+
+Garnet is a remote cache-store that offers strong performance (throughput=
+ and latency)=2C scalability=2C storage=2C recovery=2C cluster sharding=2C=
+ key migration=2C and replication features. It=E2=80=99s Reds compatible a=
+s well.
+
+https://github.com/microsoft/garnet
+
+
+Retina is a cloud-agnostic=2C Kubernetes network observability platform ba=
+sed on eBPF that provides a centralized hub for monitoring application hea=
+lth=2C network health=2C and security.
+
+https://github.com/microsoft/retina
+
+
+
+If you received this email directly then you're already signed up=2C thank=
+s! If however someone forwarded this email to you and you'd like to get it=
+ each week then you can subscribe at http://devopsweekly.com
+
